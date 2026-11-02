@@ -100,8 +100,28 @@ itself settle the terms for a browser implementation: kaikei eligibility,
 browser CORS and an approved owner-device credential and network model remain
 unverified. Do not embed a secret in static app artifacts. PayPay also documents
 a [merchant transaction-history data file](https://integration.paypay.ne.jp/hc/ja/articles/4414105109647-PayPay-for-Business%E3%81%AE%E5%8F%96%E5%BC%95%E5%B1%A5%E6%AD%B4%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8-API%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84);
-its existence does not establish an API to download it or a tested kaikei
-import. It describes merchant transactions, not personal wallet expenses.
+its existence does not establish a tested kaikei import. It describes merchant
+transactions, not personal wallet expenses.
+
+The [App Invoke API specification](https://www.paypay.ne.jp/opa/doc/v1.0/appinvoke)
+documents `GET /v2/codes/payments/{merchantPaymentId}` on the production and
+sandbox API gateways, requiring one of the `app_invoke`, `dynamic_qrcode`, or
+`web_cashier` client scopes. The merchant-issued ID permits at most 64 ASCII
+letters, digits, hyphens or underscores. This is an individual transaction
+lookup; the specification does not establish a consumer spending feed.
+
+The same specification describes daily merchant reconciliation CSVs delivered
+through a `file.created` webhook, whose `path` contains a download URL and
+parameters. The stated acquisition period is two hours; resend within the
+one-week retention period requires contacting PayPay. The files use Shift_JIS
+and contain merchant transaction statuses, including refunds. This is a
+documented file-delivery mechanism, not evidence of a general listing API or a
+qualified browser connector. A static browser app cannot independently receive
+the webhook; any user-controlled delivery mechanism, allowed download origins
+and query parameters, credential handling, consent, CORS and terms require
+confirmation before implementation. Do not accept a webhook URL as an
+unrestricted broker endpoint. PayPay's availability and usability for kaikei
+have not been tested.
 
 [PayPay Bank's corporate API](https://www.paypay-bank.co.jp/business/receive/api.html)
 describes direct access to transaction details and balances using OAuth 2.0
