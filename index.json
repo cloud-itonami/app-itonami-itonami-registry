@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-02T09:15:46.988812Z",
+  "generated": "2026-11-02T09:24:48.200655Z",
   "count": 1982,
   "entries": [
     {
@@ -22910,7 +22910,7 @@
       },
       "license": "MIT",
       "path": "mcp/kaikei",
-      "checksum": "sha256:03db4119ce22a8dadf15da4f6ed459853f62d4e2a85cb9e8ce7c796a36647372"
+      "checksum": "sha256:34e434b0f32bd10c0a40c501c34adbbe178fb87ddc21e71de38be96a9ea30349"
     },
     {
       "id": "kumitate",

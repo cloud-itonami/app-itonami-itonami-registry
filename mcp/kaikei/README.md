@@ -62,11 +62,18 @@ that an independently operated kaikei browser app qualifies, nor do they
 publish a usable OAuth endpoint or a tested browser CORS policy here.
 
 The PayPay merchant API's documented payment-details operation looks up one
-`merchantPaymentId`; the developer guide identifies an API key and secret in
-its authentication failures. This is not a documented way to list a consumer's
-spending or an entire merchant's transaction history. A static browser app
-must not embed such a secret; client eligibility and an owner-device approach
-remain unverified. See [PayPay's guide](https://developer.paypay.ne.jp/products/docs/nativepayment).
+`merchantPaymentId`. [PayPay's developer guide](https://developer.paypay.ne.jp/products/docs/nativepayment)
+requires a merchant account and API key and secret and describes HMAC
+authentication; this lookup is not a documented way to list consumer spending
+or an entire merchant's transaction history. PayPay's [SDK FAQ](https://integration.paypay.ne.jp/hc/ja/articles/4414105110671-%E5%8A%A0%E7%9B%9F%E5%BA%97%E3%82%A2%E3%83%97%E3%83%AA%E3%81%ABSDK%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B)
+says the SDK is intended for server-to-server use, cannot be embedded in a
+native merchant app, and production uses an IP allowlist. This does not by
+itself settle the terms for a browser implementation: kaikei eligibility,
+browser CORS and an approved owner-device credential and network model remain
+unverified. Do not embed a secret in static app artifacts. PayPay also documents
+a [merchant transaction-history data file](https://integration.paypay.ne.jp/hc/ja/articles/4414105109647-PayPay-for-Business%E3%81%AE%E5%8F%96%E5%BC%95%E5%B1%A5%E6%AD%B4%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8-API%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84);
+its existence does not establish an API to download it or a tested kaikei
+import. It describes merchant transactions, not personal wallet expenses.
 
 The current kaikei build declares Scittle sources, not the canonical
 `kotoba-client-runtime.js`. A future live adapter remains blocked until the
