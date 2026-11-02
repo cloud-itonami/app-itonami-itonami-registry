@@ -62,6 +62,17 @@ electronic payment service providers. The [customer terms](https://www.rakuten-b
 describe identity verification when first connecting. They do not establish
 that an independently operated kaikei browser app qualifies, nor do they
 publish a usable OAuth endpoint or a tested browser CORS policy here.
+The current [personal-account terms](https://www.rakuten-bank.co.jp/rules/api-service.html)
+and [business terms](https://www.rakuten-bank.co.jp/business/rules/api-service.html)
+section 3(5) state that parties other than the external service company,
+including the customer, must not manage or use the issued token. The effect of
+this language on a provider-operated application running on the customer's
+device is not established by those documents; bank confirmation is required
+before treating the proposed local-client credential model as eligible. The
+terms' section 4 describes a seven-day read token with a conditional extension;
+this is not a substitute for each-operation consent and does not establish an
+OAuth flow, public-client eligibility or a refresh-token mechanism. This is
+separate from the Just Match product below.
 
 The bank separately describes [Just Match](https://www.rakuten-bank.co.jp/business/receive/justmatch.html),
 a service for corporate business account holders that assigns dedicated
