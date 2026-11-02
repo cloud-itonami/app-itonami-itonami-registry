@@ -14,7 +14,7 @@ pinned kaikei server or evidence that an import or connection was tested:
 | Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
 | PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
 | PayPay merchant | [Payment details by merchant-issued ID](https://developer.paypay.ne.jp/products/docs/nativepayment). | A single merchant-payment lookup is not a consumer transaction-history feed; kaikei integration unverified. |
-| Diners | [Personal statement CSV](https://www.diners.co.jp/ja/usage/cyber.html); [corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | Official direct read-only API unverified. |
+| Diners / TRUST CLUB | [Statement API integration with Money Forward](https://www.diners.co.jp/ja/press/inf_20251125.html); [personal statement CSV](https://www.diners.co.jp/ja/usage/cyber.html) and [corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | The issuer confirms that specific API integration; kaikei's eligibility, access and technical specifications are unverified. |
 | JAL Card | [Partner-specific member services](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef); [NICOS statement rules](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html) describe PDF or CSV. | JCB offers a partner API; kaikei's access is unverified. Other issuer APIs are unverified. |
 | SoftBank corporate | [Billing and call-detail CSV](https://www.softbank.jp/support/faq/view/10271). | Official direct read-only API and personal-account coverage unverified. |
 | docomo corporate / d-card | [Corporate billing CSV](https://gorikan.billing.smt.docomo.ne.jp/bbilling/html/onlinemanual03.pdf); [d-card and d-pay histories differ](https://service.smt.docomo.ne.jp/keitai_payment/app/help/detail/0900.html). | Official direct read-only API and account-specific coverage unverified. |
@@ -34,6 +34,18 @@ contract, authentication and a browser-compatible flow must be verified
 before implementing a connector. [MyJCB's CSV download](https://j-faq.jcb.co.jp/faq/show/357?site_domain=default)
 is limited to finalized statements and excludes some corporate-user and family
 card login roles; other JCB products may differ.
+
+For Diners and TRUST CLUB, the issuer says its Money Forward integration uses
+an API, with Club Online authentication at the issuer. The announced scope
+excludes corporate purchasing and travel systems (CPS and CTS); family and
+additional business cardholders cannot individually link via that integration.
+The issuer's [external connection terms](https://www.diners.co.jp/content/dam/diners/pdf/tc/externalconnection.pdf)
+describe approved partner corporations and the provision and storage of card
+information by those partners. Whether a browser-local, per-operation-consent
+client can qualify under those terms requires issuer confirmation. Neither the
+announcement nor terms establish endpoints, token flows, CORS, sandbox access,
+or permission for kaikei. JAL Diners must be assessed against its issuer and
+card-specific eligibility; no blanket compatibility is implied.
 
 For Rakuten Bank, the [published review criteria](https://www.rakuten-bank.co.jp/policy/cooperation_criteria.html)
 describe a review, agreement, contract-specified tests and usage fees for
