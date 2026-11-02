@@ -138,6 +138,17 @@ sandbox API gateways, requiring one of the `app_invoke`, `dynamic_qrcode`, or
 letters, digits, hyphens or underscores. This is an individual transaction
 lookup; the specification does not establish a consumer spending feed.
 
+On 2026-11-02 an unauthenticated OPTIONS preflight for GET with an Authorization
+header to the public sandbox endpoint, using a synthetic merchant payment ID,
+returned HTTP 401 without Access-Control-Allow-Origin, Methods or Headers for
+both a loopback test origin and https://itonami.cloud. A synthetic browser host
+with a deliberately invalid Authorization value failed to fetch after approval;
+the browser error did not independently identify the cause. This observation is
+limited to those two origins and that sandbox state. A contracted merchant setup,
+another origin and production have not been tested. The opt-in reproduction is
+in [kaikei draft PR #15](https://github.com/cloud-itonami/app-itonami-kaikei/pull/15);
+no real credentials, account data or payment actions were used.
+
 The same specification describes daily merchant reconciliation CSVs delivered
 through a `file.created` webhook, whose `path` contains a download URL and
 parameters. The stated acquisition period is two hours; resend within the
