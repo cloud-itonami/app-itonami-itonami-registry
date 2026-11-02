@@ -11,6 +11,7 @@ pinned kaikei server or evidence that an import or connection was tested:
 |---|---|---|
 | Rakuten Bank, personal and business | [Account and transaction inquiry API](https://www.rakuten-bank.co.jp/business/rules/api-service.html); the bank describes services offered through contracted external service companies. | kaikei access, agreement, authorization, browser access and legal requirements unverified. |
 | Rakuten Bank Just Match, corporate | [Deposit inquiry API](https://www.rakuten-bank.co.jp/business/rules/justmatch-paymentdetail.html) for the customer's dedicated incoming-transfer accounts. | Separate from ordinary account statement access; eligibility, request specification and kaikei integration unverified. |
+| Rakuten Bank ANSER, corporate | [Transaction inquiry and file transmission](https://www.rakuten-bank.co.jp/business/anser/) through NTT DATA's VALUX network. | Requires a separate VALUX agreement and compatible software; not a direct bank-only browser connection. kaikei access and integration unverified. |
 | Rakuten Card | [Member CSV download](https://www.rakuten-card.co.jp/e-navi/p/rc/e-navi/statement/popup2.html). | Official direct read-only API for the user's statements unverified. |
 | Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
 | PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
@@ -102,6 +103,19 @@ authentication, response schema, CORS, sandbox or permitted kaikei deployment.
 Confirm these and the applicable agreement directly with the bank before
 implementing a connector. The page's manual CSV limits are not assumed to be
 API limits. No application, agreement or connection has been made here.
+
+[Rakuten Bank ANSER](https://www.rakuten-bank.co.jp/business/anser/) is a
+separate corporate-account route for transaction inquiries and Zengin file
+transmission. The bank states that it uses NTT DATA's VALUX network and
+requires a VALUX agreement and compatible EB software or BizHawkEye before the
+bank contract. Its published prices include an initial 55,000 yen and monthly
+11,000 yen for ANSER or 22,000 yen for Zengin file transmission, with inquiry
+and other fees potentially additional (tax included; check current conditions
+with the bank). The bank's [ANSER terms](https://www.rakuten-bank.co.jp/business/rules/anser.html)
+also apply its transaction-detail transmission terms to the corresponding
+service. This intermediary-dependent route is not evidence of a bank-only
+browser API, and the public pages do not establish kaikei's eligibility or a
+read-only browser protocol. No contract, installation or connection was made.
 
 The PayPay merchant API's documented payment-details operation looks up one
 `merchantPaymentId`. [PayPay's developer guide](https://developer.paypay.ne.jp/products/docs/nativepayment)
