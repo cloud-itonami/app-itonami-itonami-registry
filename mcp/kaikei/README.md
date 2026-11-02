@@ -35,6 +35,26 @@ before implementing a connector. [MyJCB's CSV download](https://j-faq.jcb.co.jp/
 is limited to finalized statements and excludes some corporate-user and family
 card login roles; other JCB products may differ.
 
+For Rakuten Bank, the [published review criteria](https://www.rakuten-bank.co.jp/policy/cooperation_criteria.html)
+describe a review, agreement, contract-specified tests and usage fees for
+electronic payment service providers. The [customer terms](https://www.rakuten-bank.co.jp/business/rules/api-service.html)
+describe identity verification when first connecting. They do not establish
+that an independently operated kaikei browser app qualifies, nor do they
+publish a usable OAuth endpoint or a tested browser CORS policy here.
+
+The PayPay merchant API's documented payment-details operation looks up one
+`merchantPaymentId`; the developer guide identifies an API key and secret in
+its authentication failures. This is not a documented way to list a consumer's
+spending or an entire merchant's transaction history. A static browser app
+must not embed such a secret; client eligibility and an owner-device approach
+remain unverified. See [PayPay's guide](https://developer.paypay.ne.jp/products/docs/nativepayment).
+
+The current kaikei build declares Scittle sources, not the canonical
+`kotoba-client-runtime.js`. A future live adapter remains blocked until the
+canonical implementation is reviewed, the builder uses that exact source,
+and the host, declarations, trusted per-operation consent and endpoint-specific
+transport are verified. No standalone consent logic is supplied by this entry.
+
 No entry here grants authority to contact a provider or process a statement.
 Account aggregation by a third party is not the current project direction.
 Use the operator's local files and check format warnings, missing periods,
