@@ -147,6 +147,19 @@ service. This intermediary-dependent route is not evidence of a bank-only
 browser API, and the public pages do not establish kaikei's eligibility or a
 read-only browser protocol. No contract, installation or connection was made.
 
+For PayPay personal history, the [consumer help](https://paypay.ne.jp/help/c0447/)
+describes a user-initiated CSV request with a 24-hour download availability
+window and excludes specified transaction states and some automatic salary
+transfers. PayPay's [2025 engineering interview](https://insideout.paypay.ne.jp/2025/05/20/techtalks-vol49-jp/)
+describes the app's internal two-stage token flow and, at that time, a
+five-minute download-link limit with verified-user restrictions. The link
+lifetime and the user's 24-hour request window are different concepts; the
+interview is historical design evidence, not a third-party API contract or a
+current endpoint specification. Do not persist a temporary download URL or
+interpret its existence as permission for an automated connection. Third-party
+eligibility, request scope, authentication, CORS and an actual consumer CSV
+header remain unverified.
+
 The PayPay merchant API's documented payment-details operation looks up one
 `merchantPaymentId`. [PayPay's developer guide](https://developer.paypay.ne.jp/products/docs/nativepayment)
 requires a merchant account and API key and secret and describes HMAC
