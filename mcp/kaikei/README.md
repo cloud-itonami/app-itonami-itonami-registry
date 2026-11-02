@@ -15,6 +15,7 @@ pinned kaikei server or evidence that an import or connection was tested:
 | Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
 | PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
 | PayPay merchant | [Payment details by merchant-issued ID](https://developer.paypay.ne.jp/products/docs/nativepayment). | A single merchant-payment lookup is not a consumer transaction-history feed; kaikei integration unverified. |
+| PayPay Bank, corporate integration | [Balance and transaction API using OAuth 2.0](https://www.paypay-bank.co.jp/business/receive/api.html). | Corporate application and bank review required; kaikei access, endpoint and browser use unverified. This is a bank account, not PayPay wallet spending. |
 | Diners / TRUST CLUB | [Statement API integration with Money Forward](https://www.diners.co.jp/ja/press/inf_20251125.html); [personal statement CSV](https://www.diners.co.jp/ja/usage/cyber.html) and [corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | The issuer confirms that specific API integration; kaikei's eligibility, access and technical specifications are unverified. |
 | JAL Card | [Partner-specific member services](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef); [NICOS statement rules](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html) describe PDF or CSV. | JCB offers a partner API; kaikei's access is unverified. View Card documents certain corporate expense-system integrations, but their transport and applicability to JAL Suica are unverified. |
 | SoftBank corporate | [Billing and call-detail CSV](https://www.softbank.jp/support/faq/view/10271). | Official direct read-only API and personal-account coverage unverified. |
@@ -90,6 +91,22 @@ unverified. Do not embed a secret in static app artifacts. PayPay also documents
 a [merchant transaction-history data file](https://integration.paypay.ne.jp/hc/ja/articles/4414105109647-PayPay-for-Business%E3%81%AE%E5%8F%96%E5%BC%95%E5%B1%A5%E6%AD%B4%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8-API%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84);
 its existence does not establish an API to download it or a tested kaikei
 import. It describes merchant transactions, not personal wallet expenses.
+
+[PayPay Bank's corporate API](https://www.paypay-bank.co.jp/business/receive/api.html)
+describes direct access to transaction details and balances using OAuth 2.0
+tokens. It distinguishes access to a company's own account from access to
+its users' accounts and notes that the latter may require electronic-payment
+intermediary registration. The applicant must be a corporation and agree to
+the API terms; bank review and other requirements apply, and even own-account
+applications may be declined or delayed. The bank lists a JPY 100,000 contract
+fee and JPY 10,000 monthly fee including tax as of 2026-08-28; recheck before
+any decision. These fees and qualifications concern this business offering,
+not proof that an individual user can sign up directly. The public page does
+not establish kaikei eligibility, OAuth endpoints, PKCE/public-client support,
+token lifecycle, transaction response schema, sandbox or browser CORS. Its
+reference to returning results to a specified domain also requires technical
+clarification; it does not establish a browser-compatible callback. Bank
+account transactions and the PayPay wallet's history remain separate sources.
 
 The current kaikei build declares Scittle sources, not the canonical
 `kotoba-client-runtime.js`. A future live adapter remains blocked until the
