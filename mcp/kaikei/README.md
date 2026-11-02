@@ -128,8 +128,15 @@ itself settle the terms for a browser implementation: kaikei eligibility,
 browser CORS and an approved owner-device credential and network model remain
 unverified. Do not embed a secret in static app artifacts. PayPay also documents
 a [merchant transaction-history data file](https://integration.paypay.ne.jp/hc/ja/articles/4414105109647-PayPay-for-Business%E3%81%AE%E5%8F%96%E5%BC%95%E5%B1%A5%E6%AD%B4%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8-API%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84);
-its existence does not establish a tested kaikei import. It describes merchant
-transactions, not personal wallet expenses.
+its existence does not establish an import in the pinned MCP server. It describes
+merchant transactions, not personal wallet expenses. A separate, unmerged
+[kaikei candidate](https://github.com/cloud-itonami/app-itonami-kaikei/pull/14)
+reads the provider's instant-payment and delayed-capture recon samples locally;
+it accepts completed payments and refunds, warns for other statuses, and has
+not been qualified against actual merchant files or automatic delivery. The
+published delayed-capture specification describes absolute amounts, while its
+sample shows a negative refund; the candidate normalizes either nonzero refund
+sign to negative. Review issuer documentation and data before using it.
 
 The [App Invoke API specification](https://www.paypay.ne.jp/opa/doc/v1.0/appinvoke)
 documents `GET /v2/codes/payments/{merchantPaymentId}` on the production and
