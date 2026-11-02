@@ -37,6 +37,20 @@ before implementing a connector. [MyJCB's CSV download](https://j-faq.jcb.co.jp/
 is limited to finalized statements and excludes some corporate-user and family
 card login roles; other JCB products may differ.
 
+JCB's [external connection terms](https://www.jcb.co.jp/kiyaku/pdf/myj_api_riyoukitei.pdf)
+define the connected partner as a JCB-approved company and describe repeated
+delivery of card information to that company, which collects and stores it.
+The published flow has the customer authenticate at MyJCB and consent there;
+changing or terminating the connection is handled through the partner. JCB's
+[corporate MyJCB guide](https://www.jcb.co.jp/myjcb/pop/pdf/myj_guide.pdf)
+specifies a corporate-only ID for corporate statement integration, subject to
+card eligibility. These documents do not establish whether kaikei can qualify
+with browser-local storage and fresh per-operation consent, nor do they disclose
+its API endpoints, credentials, scopes, token lifecycle, CORS or sandbox access.
+Do not equate the provider's continuing authorization with Kotoba's required
+fresh approval for each external operation. Confirm the actual JAL JCB card's
+issuer and service eligibility separately.
+
 View Card's [corporate FAQ](https://faq.viewcard.co.jp/faq/show/3637?category_id=141&site_domain=corporate)
 states that corporate-card and corporate-cardless statements can be linked to
 some expense systems. This establishes neither an API nor access for kaikei or
