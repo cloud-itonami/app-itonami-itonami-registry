@@ -22,6 +22,22 @@ pinned kaikei server or evidence that an import or connection was tested:
 | SoftBank corporate | [Billing and call-detail CSV](https://www.softbank.jp/support/faq/view/10271). | Official direct read-only API and personal-account coverage unverified. |
 | docomo corporate / d-card | [Corporate billing CSV](https://gorikan.billing.smt.docomo.ne.jp/bbilling/html/onlinemanual03.pdf); [d-card and d-pay histories differ](https://service.smt.docomo.ne.jp/keitai_payment/app/help/detail/0900.html). | Official direct read-only API and account-specific coverage unverified. |
 
+SoftBank's corporate [billing-analysis help](https://portal.business.mb.softbank.jp/portal/doc/obms_help.html)
+describes a customer-operated website authenticated with a corporate site ID
+and password, with downloadable billing and call details. Registration is
+required; call details additionally require the per-line paid option. This is
+not evidence of an API usable by kaikei, and the credentials must not be
+collected or automated on that basis. The [service description](https://www.softbank.jp/business/service/mobile/price-plan/option/ryoukinbunseki/services)
+distinguishes up to three months of on-screen detail from six months of billing
+data download and 24 months of aggregated trends; those windows are not
+interchangeable. The help also says line subtotals can exclude billing-account
+charges, discounts, and tax. A future importer must distinguish final bills
+from preliminary estimates and verify the whole invoice rather than assuming
+line totals are final amounts. CSV layouts, access roles, the allowed direct
+API route, authentication, CORS and customer-specific availability remain
+unverified. Call records can contain sensitive information; do not ingest
+them by default when a billing total suffices.
+
 JAL Card routes by **issuing partner**, not payment-network brand: JAL Visa,
 Mastercard, TOKYU POINT ClubQ and American Express use Mitsubishi UFJ NICOS;
 JAL JCB and OP Credit use JCB; JAL Diners uses Sumitomo Mitsui Trust Club;
