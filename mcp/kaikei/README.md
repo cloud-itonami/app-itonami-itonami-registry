@@ -10,6 +10,7 @@ pinned kaikei server or evidence that an import or connection was tested:
 | Service | Provider-side evidence | Direct connection status |
 |---|---|---|
 | Rakuten Bank, personal and business | [Account and transaction inquiry API](https://www.rakuten-bank.co.jp/business/rules/api-service.html); the bank describes services offered through contracted external service companies. | kaikei access, agreement, authorization, browser access and legal requirements unverified. |
+| Rakuten Bank Just Match, corporate | [Deposit inquiry API](https://www.rakuten-bank.co.jp/business/rules/justmatch-paymentdetail.html) for the customer's dedicated incoming-transfer accounts. | Separate from ordinary account statement access; eligibility, request specification and kaikei integration unverified. |
 | Rakuten Card | [Member CSV download](https://www.rakuten-card.co.jp/e-navi/p/rc/e-navi/statement/popup2.html). | Official direct read-only API for the user's statements unverified. |
 | Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
 | PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
@@ -60,6 +61,21 @@ electronic payment service providers. The [customer terms](https://www.rakuten-b
 describe identity verification when first connecting. They do not establish
 that an independently operated kaikei browser app qualifies, nor do they
 publish a usable OAuth endpoint or a tested browser CORS policy here.
+
+The bank separately describes [Just Match](https://www.rakuten-bank.co.jp/business/receive/justmatch.html),
+a service for corporate business account holders that assigns dedicated
+incoming-transfer accounts for reconciliation. It offers an API for incoming
+deposit details in the customer's system, not a general personal or business
+account spending feed. The bank lists a separate application and review,
+dedicated accounts in lots of 100, and service fees; the
+[API terms](https://www.rakuten-bank.co.jp/business/rules/justmatch-paymentdetail.html)
+also require the service and dedicated-account applications plus a separate
+API application, with encryption settings registered in advance. Those terms
+refer to bank-specified request details, but do not establish the endpoint,
+authentication, response schema, CORS, sandbox or permitted kaikei deployment.
+Confirm these and the applicable agreement directly with the bank before
+implementing a connector. The page's manual CSV limits are not assumed to be
+API limits. No application, agreement or connection has been made here.
 
 The PayPay merchant API's documented payment-details operation looks up one
 `merchantPaymentId`. [PayPay's developer guide](https://developer.paypay.ne.jp/products/docs/nativepayment)
