@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-02T10:45:07.984443Z",
+  "generated": "2026-11-02T11:33:08.808094Z",
   "count": 1982,
   "entries": [
     {
@@ -22900,7 +22900,7 @@
       "id": "kaikei",
       "type": "mcp",
       "name": "kaikei (MoneyForward / freee / Yayoi / QuickBooks Online / Xero-compatible ledger, invoices and statements)",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Stdio MCP server for the kaikei itonami dapp: reads journal exports (MoneyForward 仕訳帳 CSV, freee 仕訳 CSV, 弥生インポート形式, QuickBooks Online Account/JournalEntry JSON and journal CSV, Xero Accounts/Journals/ManualJournals JSON and manual journal CSV), checks them, and builds trial balance, P&L and balance sheet (kaikei, QuickBooks Report or Xero Reports shape). It also reads and writes invoices (Xero, QuickBooks Online, freee請求書 and MoneyForward クラウド請求書 JSON and CSV; Zoho Invoice and FreshBooks read only), computes consumption tax once per invoice per rate, checks the contents a Japanese qualified invoice must state, and posts invoices as receivable or payable journal entries. It reads bank and card statements the user downloaded (OFX/QFX/QBO, 全銀 fixed-length and CSV, freee, MoneyForward, Xero and QuickBooks statement CSV, bank and card CSV presets) and Ramp, Brex, Expensify and BILL exports, reconciles them against the ledger, suggests invoice settlements, matches, transfers and journals (from the user's rules and rules learned from their own past journals), and posts only the lines the user approved. kaikei_import can add a file to a ledger passed back from an earlier call. Pure tools over the passed text; sends and stores nothing, connects to no bank and makes no payment.",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/kaikei/tree/8e128c838a57d6d7a47f359f6d6f2247afcb8b6d",
@@ -22910,7 +22910,7 @@
       },
       "license": "MIT",
       "path": "mcp/kaikei",
-      "checksum": "sha256:0253d809daaae8380571f90bf0e79e788cc685d008d727da9f0863347e135824"
+      "checksum": "sha256:c8a00392c8d55bdbcf8520c133d9be2446f5a840ec964f41794e444cd0ee15dd"
     },
     {
       "id": "kumitate",

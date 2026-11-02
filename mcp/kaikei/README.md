@@ -142,7 +142,11 @@ The same specification describes daily merchant reconciliation CSVs delivered
 through a `file.created` webhook, whose `path` contains a download URL and
 parameters. The stated acquisition period is two hours; resend within the
 one-week retention period requires contacting PayPay. The files use Shift_JIS
-and contain merchant transaction statuses, including refunds. This is a
+and contain merchant transaction statuses, including refunds. The same official
+specification illustrates multiple authorization updates with the same merchant
+payment ID and separate refund events. A future importer must not collapse all
+events solely by that ID or treat authorizations as settled sales; event identity,
+updates, refunds and incomplete delivery need explicit reconciliation. This is a
 documented file-delivery mechanism, not evidence of a general listing API or a
 qualified browser connector. A static browser app cannot independently receive
 the webhook; any user-controlled delivery mechanism, allowed download origins
