@@ -14,10 +14,26 @@ pinned kaikei server or evidence that an import or connection was tested:
 | Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
 | PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
 | PayPay merchant | [Payment details by merchant-issued ID](https://developer.paypay.ne.jp/products/docs/nativepayment). | A single merchant-payment lookup is not a consumer transaction-history feed; kaikei integration unverified. |
-| Diners corporate | [Corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | Official direct read-only API and personal-card coverage unverified. |
-| JAL Card | [Mitsubishi UFJ NICOS WEB statement rules](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html) describe PDF or CSV; other card issuers differ. | Issuer-specific direct read-only APIs unverified. |
+| Diners | [Personal statement CSV](https://www.diners.co.jp/ja/usage/cyber.html); [corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | Official direct read-only API unverified. |
+| JAL Card | [Partner-specific member services](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef); [NICOS statement rules](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html) describe PDF or CSV. | JCB offers a partner API; kaikei's access is unverified. Other issuer APIs are unverified. |
 | SoftBank corporate | [Billing and call-detail CSV](https://www.softbank.jp/support/faq/view/10271). | Official direct read-only API and personal-account coverage unverified. |
 | docomo corporate / d-card | [Corporate billing CSV](https://gorikan.billing.smt.docomo.ne.jp/bbilling/html/onlinemanual03.pdf); [d-card and d-pay histories differ](https://service.smt.docomo.ne.jp/keitai_payment/app/help/detail/0900.html). | Official direct read-only API and account-specific coverage unverified. |
+
+JAL Card routes by **issuing partner**, not payment-network brand: JAL Visa,
+Mastercard, TOKYU POINT ClubQ and American Express use Mitsubishi UFJ NICOS;
+JAL JCB and OP Credit use JCB; JAL Diners uses Sumitomo Mitsui Trust Club;
+JAL Suica uses Viewcard. Confirm the actual card and issuer before selecting a
+format. [JAL's issuer list](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef)
+is the source for these routes, not a claim that kaikei has qualified them.
+
+[MyJCB's external connection service](https://www.jcb.co.jp/myjcb/pop/external.html)
+provides approved partner companies with API access to some information after
+customer consent, with card and service restrictions. Its published partner
+list does not establish access for kaikei. API specifications, eligibility,
+contract, authentication and a browser-compatible flow must be verified
+before implementing a connector. [MyJCB's CSV download](https://j-faq.jcb.co.jp/faq/show/357?site_domain=default)
+is limited to finalized statements and excludes some corporate-user and family
+card login roles; other JCB products may differ.
 
 No entry here grants authority to contact a provider or process a statement.
 Account aggregation by a third party is not the current project direction.
