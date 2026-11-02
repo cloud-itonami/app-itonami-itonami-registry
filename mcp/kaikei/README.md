@@ -45,6 +45,20 @@ JAL Suica uses Viewcard. Confirm the actual card and issuer before selecting a
 format. [JAL's issuer list](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef)
 is the source for these routes, not a claim that kaikei has qualified them.
 
+For Mitsubishi UFJ NICOS, an [Iyo Bank announcement from 2022](https://www.iyobank.co.jp/press-release/2022/__icsFiles/afieldfile/2022/04/14/22-236_1.pdf)
+describes a direct API integration for the bank's Visa debit product. That is
+evidence for that specific historical arrangement, not an API specification,
+current availability, or eligibility for JAL credit cards or kaikei. Separately,
+[JTB lists Mitsubishi UFJ NICOS](https://www.jtb.co.jp/jsnavi/lp/jr/service/card/)
+among corporate-card data partners, but does not establish the transport or
+JAL product coverage. A 2018 [Moneytree announcement](https://getmoneytree.com/press-release-jp/mt-pr-180314-mtlinkmun)
+describes Moneytree providing its API to a NICOS app for other institutions'
+data; its direction is not evidence of a NICOS-issued card-statement API for
+kaikei. For the relevant JAL products, the [member terms](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html)
+describe a registered member's PDF/CSV download. The precise CSV layout,
+cardholder eligibility, API access, authentication, browser CORS and partner
+terms remain unverified. Do not infer access from these other integrations.
+
 [MyJCB's external connection service](https://www.jcb.co.jp/myjcb/pop/external.html)
 provides approved partner companies with API access to some information after
 customer consent, with card and service restrictions. Its published partner
