@@ -1,5 +1,250 @@
 # kaikei MCP
 
+## Direct financial connections: discovery status
+
+As of 2026-11-02, this registry entry discovers an **offline file-processing**
+MCP server. It does not connect to any financial institution. The following
+are provider-side capabilities and research leads, not capabilities of the
+pinned kaikei server or evidence that an import or connection was tested:
+
+| Service | Provider-side evidence | Direct connection status |
+|---|---|---|
+| Rakuten Bank, personal and business | [Account and transaction inquiry API](https://www.rakuten-bank.co.jp/business/rules/api-service.html); the bank describes services offered through contracted external service companies. | kaikei access, agreement, authorization, browser access and legal requirements unverified. |
+| Rakuten Bank Just Match, corporate | [Deposit inquiry API](https://www.rakuten-bank.co.jp/business/rules/justmatch-paymentdetail.html) for the customer's dedicated incoming-transfer accounts. | Separate from ordinary account statement access; eligibility, request specification and kaikei integration unverified. |
+| Rakuten Bank ANSER, corporate | [Transaction inquiry and file transmission](https://www.rakuten-bank.co.jp/business/anser/) through NTT DATA's VALUX network. | Requires a separate VALUX agreement and compatible software; not a direct bank-only browser connection. kaikei access and integration unverified. |
+| Rakuten Card | [Member CSV download](https://www.rakuten-card.co.jp/e-navi/p/rc/e-navi/statement/popup2.html). | Official direct read-only API for the user's statements unverified. |
+| Rakuten Pay | [Payment history in the app](https://pay.rakuten.co.jp/agreement/). | Official direct read-only API and file export unverified. |
+| PayPay personal | [Transaction-history CSV](https://paypay.ne.jp/help/c0447/); excludes some transaction statuses. | Official direct consumer-history API unverified. |
+| PayPay merchant | [Payment details by merchant-issued ID](https://developer.paypay.ne.jp/products/docs/nativepayment). | A single merchant-payment lookup is not a consumer transaction-history feed; kaikei integration unverified. |
+| PayPay Bank, corporate integration | [Balance and transaction API using OAuth 2.0](https://www.paypay-bank.co.jp/business/receive/api.html). | Corporate application and bank review required; kaikei access, endpoint and browser use unverified. This is a bank account, not PayPay wallet spending. |
+| Diners / TRUST CLUB | [Statement API integration with Money Forward](https://www.diners.co.jp/ja/press/inf_20251125.html); [personal statement CSV](https://www.diners.co.jp/ja/usage/cyber.html) and [corporate statement CSV](https://www.diners.co.jp/ja/corporate/ccol/index.html), subject to card and access conditions. | The issuer confirms that specific API integration; kaikei's eligibility, access and technical specifications are unverified. |
+| JAL Card | [Partner-specific member services](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef); [NICOS statement rules](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html) describe PDF or CSV. | JCB offers a partner API; kaikei's access is unverified. View Card documents certain corporate expense-system integrations, but their transport and applicability to JAL Suica are unverified. |
+| SoftBank corporate | [Billing and call-detail CSV](https://www.softbank.jp/support/faq/view/10271). | Official direct read-only API and personal-account coverage unverified. |
+| docomo corporate / d-card | [Corporate billing CSV](https://gorikan.billing.smt.docomo.ne.jp/bbilling/html/onlinemanual03.pdf); [d-card and d-pay histories differ](https://service.smt.docomo.ne.jp/keitai_payment/app/help/detail/0900.html). | Official direct read-only API and account-specific coverage unverified. |
+
+SoftBank's corporate [billing-analysis help](https://portal.business.mb.softbank.jp/portal/doc/obms_help.html)
+describes a customer-operated website authenticated with a corporate site ID
+and password, with downloadable billing and call details. Registration is
+required; call details additionally require the per-line paid option. This is
+not evidence of an API usable by kaikei, and the credentials must not be
+collected or automated on that basis. The [service description](https://www.softbank.jp/business/service/mobile/price-plan/option/ryoukinbunseki/services)
+distinguishes up to three months of on-screen detail from six months of billing
+data download and 24 months of aggregated trends; those windows are not
+interchangeable. The help also says line subtotals can exclude billing-account
+charges, discounts, and tax. A future importer must distinguish final bills
+from preliminary estimates and verify the whole invoice rather than assuming
+line totals are final amounts. CSV layouts, access roles, the allowed direct
+API route, authentication, CORS and customer-specific availability remain
+unverified. Call records can contain sensitive information; do not ingest
+them by default when a billing total suffices.
+
+JAL Card routes by **issuing partner**, not payment-network brand: JAL Visa,
+Mastercard, TOKYU POINT ClubQ and American Express use Mitsubishi UFJ NICOS;
+JAL JCB and OP Credit use JCB; JAL Diners uses Sumitomo Mitsui Trust Club;
+JAL Suica uses Viewcard. Confirm the actual card and issuer before selecting a
+format. [JAL's issuer list](https://jalcardfaq.jal.co.jp/--68fb5e92c8b75b4a1de3daef)
+is the source for these routes, not a claim that kaikei has qualified them.
+
+For Mitsubishi UFJ NICOS, an [Iyo Bank announcement from 2022](https://www.iyobank.co.jp/press-release/2022/__icsFiles/afieldfile/2022/04/14/22-236_1.pdf)
+describes a direct API integration for the bank's Visa debit product. That is
+evidence for that specific historical arrangement, not an API specification,
+current availability, or eligibility for JAL credit cards or kaikei. Separately,
+[JTB lists Mitsubishi UFJ NICOS](https://www.jtb.co.jp/jsnavi/lp/jr/service/card/)
+among corporate-card data partners, but does not establish the transport or
+JAL product coverage. A 2018 [Moneytree announcement](https://getmoneytree.com/press-release-jp/mt-pr-180314-mtlinkmun)
+describes Moneytree providing its API to a NICOS app for other institutions'
+data; its direction is not evidence of a NICOS-issued card-statement API for
+kaikei. For the relevant JAL products, the [member terms](https://jalcard.jal.co.jp/admission/mdc_webmeisai.html)
+describe a registered member's PDF/CSV download. The precise CSV layout,
+cardholder eligibility, API access, authentication, browser CORS and partner
+terms remain unverified. Do not infer access from these other integrations.
+
+[MyJCB's external connection service](https://www.jcb.co.jp/myjcb/pop/external.html)
+provides approved partner companies with API access to some information after
+customer consent, with card and service restrictions. Its published partner
+list does not establish access for kaikei. API specifications, eligibility,
+contract, authentication and a browser-compatible flow must be verified
+before implementing a connector. [MyJCB's CSV download](https://j-faq.jcb.co.jp/faq/show/357?site_domain=default)
+is limited to finalized statements and excludes some corporate-user and family
+card login roles; other JCB products may differ.
+
+JCB's [external connection terms](https://www.jcb.co.jp/kiyaku/pdf/myj_api_riyoukitei.pdf)
+define the connected partner as a JCB-approved company and describe repeated
+delivery of card information to that company, which collects and stores it.
+The published flow has the customer authenticate at MyJCB and consent there;
+changing or terminating the connection is handled through the partner. JCB's
+[corporate MyJCB guide](https://www.jcb.co.jp/myjcb/pop/pdf/myj_guide.pdf)
+specifies a corporate-only ID for corporate statement integration, subject to
+card eligibility. These documents do not establish whether kaikei can qualify
+with browser-local storage and fresh per-operation consent, nor do they disclose
+its API endpoints, credentials, scopes, token lifecycle, CORS or sandbox access.
+Do not equate the provider's continuing authorization with Kotoba's required
+fresh approval for each external operation. Confirm the actual JAL JCB card's
+issuer and service eligibility separately.
+
+View Card's [corporate FAQ](https://faq.viewcard.co.jp/faq/show/3637?category_id=141&site_domain=corporate)
+states that corporate-card and corporate-cardless statements can be linked to
+some expense systems. This establishes neither an API nor access for kaikei or
+JAL Suica cardholders. Verify product coverage, direct integration eligibility,
+transport, authentication and the terms independently before using it as a
+connector lead.
+
+For Diners and TRUST CLUB, the issuer says its Money Forward integration uses
+an API, with Club Online authentication at the issuer. The announced scope
+excludes corporate purchasing and travel systems (CPS and CTS); family and
+additional business cardholders cannot individually link via that integration.
+The issuer's [external connection terms](https://www.diners.co.jp/content/dam/diners/pdf/tc/externalconnection.pdf)
+describe approved partner corporations and the provision and storage of card
+information by those partners. Whether a browser-local, per-operation-consent
+client can qualify under those terms requires issuer confirmation. Neither the
+announcement nor terms establish endpoints, token flows, CORS, sandbox access,
+or permission for kaikei. JAL Diners must be assessed against its issuer and
+card-specific eligibility; no blanket compatibility is implied.
+
+For Rakuten Bank, the [published review criteria](https://www.rakuten-bank.co.jp/policy/cooperation_criteria.html)
+describe a review, agreement, contract-specified tests and usage fees for
+electronic payment service providers. The [customer terms](https://www.rakuten-bank.co.jp/business/rules/api-service.html)
+describe identity verification when first connecting. They do not establish
+that an independently operated kaikei browser app qualifies, nor do they
+publish a usable OAuth endpoint or a tested browser CORS policy here.
+The current [personal-account terms](https://www.rakuten-bank.co.jp/rules/api-service.html)
+and [business terms](https://www.rakuten-bank.co.jp/business/rules/api-service.html)
+section 3(5) state that parties other than the external service company,
+including the customer, must not manage or use the issued token. The effect of
+this language on a provider-operated application running on the customer's
+device is not established by those documents; bank confirmation is required
+before treating the proposed local-client credential model as eligible. The
+terms' section 4 describes a seven-day read token with a conditional extension;
+this is not a substitute for each-operation consent and does not establish an
+OAuth flow, public-client eligibility or a refresh-token mechanism. This is
+separate from the Just Match product below.
+
+The bank separately describes [Just Match](https://www.rakuten-bank.co.jp/business/receive/justmatch.html),
+a service for corporate business account holders that assigns dedicated
+incoming-transfer accounts for reconciliation. It offers an API for incoming
+deposit details in the customer's system, not a general personal or business
+account spending feed. The bank lists a separate application and review,
+dedicated accounts in lots of 100, and service fees; the
+[API terms](https://www.rakuten-bank.co.jp/business/rules/justmatch-paymentdetail.html)
+also require the service and dedicated-account applications plus a separate
+API application, with encryption settings registered in advance. Those terms
+refer to bank-specified request details, but do not establish the endpoint,
+authentication, response schema, CORS, sandbox or permitted kaikei deployment.
+Confirm these and the applicable agreement directly with the bank before
+implementing a connector. The page's manual CSV limits are not assumed to be
+API limits. No application, agreement or connection has been made here.
+
+[Rakuten Bank ANSER](https://www.rakuten-bank.co.jp/business/anser/) is a
+separate corporate-account route for transaction inquiries and Zengin file
+transmission. The bank states that it uses NTT DATA's VALUX network and
+requires a VALUX agreement and compatible EB software or BizHawkEye before the
+bank contract. Its published prices include an initial 55,000 yen and monthly
+11,000 yen for ANSER or 22,000 yen for Zengin file transmission, with inquiry
+and other fees potentially additional (tax included; check current conditions
+with the bank). The bank's [ANSER terms](https://www.rakuten-bank.co.jp/business/rules/anser.html)
+also apply its transaction-detail transmission terms to the corresponding
+service. This intermediary-dependent route is not evidence of a bank-only
+browser API, and the public pages do not establish kaikei's eligibility or a
+read-only browser protocol. No contract, installation or connection was made.
+
+For PayPay personal history, the [consumer help](https://paypay.ne.jp/help/c0447/)
+describes a user-initiated CSV request with a 24-hour download availability
+window and excludes specified transaction states and some automatic salary
+transfers. PayPay's [2025 engineering interview](https://insideout.paypay.ne.jp/2025/05/20/techtalks-vol49-jp/)
+describes the app's internal two-stage token flow and, at that time, a
+five-minute download-link limit with verified-user restrictions. The link
+lifetime and the user's 24-hour request window are different concepts; the
+interview is historical design evidence, not a third-party API contract or a
+current endpoint specification. Do not persist a temporary download URL or
+interpret its existence as permission for an automated connection. Third-party
+eligibility, request scope, authentication, CORS and an actual consumer CSV
+header remain unverified.
+
+The PayPay merchant API's documented payment-details operation looks up one
+`merchantPaymentId`. [PayPay's developer guide](https://developer.paypay.ne.jp/products/docs/nativepayment)
+requires a merchant account and API key and secret and describes HMAC
+authentication; this lookup is not a documented way to list consumer spending
+or an entire merchant's transaction history. PayPay's [SDK FAQ](https://integration.paypay.ne.jp/hc/ja/articles/4414105110671-%E5%8A%A0%E7%9B%9F%E5%BA%97%E3%82%A2%E3%83%97%E3%83%AA%E3%81%ABSDK%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80%E3%81%93%E3%81%A8%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B)
+says the SDK is intended for server-to-server use, cannot be embedded in a
+native merchant app, and production uses an IP allowlist. This does not by
+itself settle the terms for a browser implementation: kaikei eligibility,
+browser CORS and an approved owner-device credential and network model remain
+unverified. Do not embed a secret in static app artifacts. PayPay also documents
+a [merchant transaction-history data file](https://integration.paypay.ne.jp/hc/ja/articles/4414105109647-PayPay-for-Business%E3%81%AE%E5%8F%96%E5%BC%95%E5%B1%A5%E6%AD%B4%E3%83%87%E3%83%BC%E3%82%BF%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8-API%E3%83%91%E3%83%A9%E3%83%A1%E3%83%BC%E3%82%BF%E3%81%AE%E7%B4%90%E4%BB%98%E3%81%91%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84);
+its existence does not establish an import in the pinned MCP server. It describes
+merchant transactions, not personal wallet expenses. A separate, unmerged
+[kaikei candidate](https://github.com/cloud-itonami/app-itonami-kaikei/pull/14)
+reads the provider's instant-payment and delayed-capture recon samples locally;
+it accepts completed payments and refunds, warns for other statuses, and has
+not been qualified against actual merchant files or automatic delivery. The
+published delayed-capture specification describes absolute amounts, while its
+sample shows a negative refund; the candidate normalizes either nonzero refund
+sign to negative. Review issuer documentation and data before using it.
+
+The [App Invoke API specification](https://www.paypay.ne.jp/opa/doc/v1.0/appinvoke)
+documents `GET /v2/codes/payments/{merchantPaymentId}` on the production and
+sandbox API gateways, requiring one of the `app_invoke`, `dynamic_qrcode`, or
+`web_cashier` client scopes. The merchant-issued ID permits at most 64 ASCII
+letters, digits, hyphens or underscores. This is an individual transaction
+lookup; the specification does not establish a consumer spending feed.
+
+On 2026-11-02 an unauthenticated OPTIONS preflight for GET with an Authorization
+header to the public sandbox endpoint, using a synthetic merchant payment ID,
+returned HTTP 401 without Access-Control-Allow-Origin, Methods or Headers for
+both a loopback test origin and https://itonami.cloud. A synthetic browser host
+with a deliberately invalid Authorization value failed to fetch after approval;
+the browser error did not independently identify the cause. This observation is
+limited to those two origins and that sandbox state. A contracted merchant setup,
+another origin and production have not been tested. The opt-in reproduction is
+in [kaikei draft PR #15](https://github.com/cloud-itonami/app-itonami-kaikei/pull/15);
+no real credentials, account data or payment actions were used.
+
+The same specification describes daily merchant reconciliation CSVs delivered
+through a `file.created` webhook, whose `path` contains a download URL and
+parameters. The stated acquisition period is two hours; resend within the
+one-week retention period requires contacting PayPay. The files use Shift_JIS
+and contain merchant transaction statuses, including refunds. The same official
+specification illustrates multiple authorization updates with the same merchant
+payment ID and separate refund events. A future importer must not collapse all
+events solely by that ID or treat authorizations as settled sales; event identity,
+updates, refunds and incomplete delivery need explicit reconciliation. This is a
+documented file-delivery mechanism, not evidence of a general listing API or a
+qualified browser connector. A static browser app cannot independently receive
+the webhook; any user-controlled delivery mechanism, allowed download origins
+and query parameters, credential handling, consent, CORS and terms require
+confirmation before implementation. Do not accept a webhook URL as an
+unrestricted broker endpoint. PayPay's availability and usability for kaikei
+have not been tested.
+
+[PayPay Bank's corporate API](https://www.paypay-bank.co.jp/business/receive/api.html)
+describes direct access to transaction details and balances using OAuth 2.0
+tokens. It distinguishes access to a company's own account from access to
+its users' accounts and notes that the latter may require electronic-payment
+intermediary registration. The applicant must be a corporation and agree to
+the API terms; bank review and other requirements apply, and even own-account
+applications may be declined or delayed. The bank lists a JPY 100,000 contract
+fee and JPY 10,000 monthly fee including tax as of 2026-08-28; recheck before
+any decision. These fees and qualifications concern this business offering,
+not proof that an individual user can sign up directly. The public page does
+not establish kaikei eligibility, OAuth endpoints, PKCE/public-client support,
+token lifecycle, transaction response schema, sandbox or browser CORS. Its
+reference to returning results to a specified domain also requires technical
+clarification; it does not establish a browser-compatible callback. Bank
+account transactions and the PayPay wallet's history remain separate sources.
+
+The current kaikei build declares Scittle sources, not the canonical
+`kotoba-client-runtime.js`. A future live adapter remains blocked until the
+canonical implementation is reviewed, the builder uses that exact source,
+and the host, declarations, trusted per-operation consent and endpoint-specific
+transport are verified. No standalone consent logic is supplied by this entry.
+
+No entry here grants authority to contact a provider or process a statement.
+Account aggregation by a third party is not the current project direction.
+Use the operator's local files and check format warnings, missing periods,
+currency and overlapping card, wallet, bank and billing records. Do not send
+real financial data to a remote inference service without separate approval.
+For ongoing work and qualification criteria see [JUN-765](https://linear.app/kotobalabs/issue/JUN-765).
+
 This is the stdio MCP server for [kaikei](https://github.com/cloud-itonami/kaikei), an itonami dapp for accounting ledgers, invoices and bank statements. The dapp is also published at https://itonami.cloud/sites/app/kaikei/.
 
 kaikei reads journal exports from MoneyForward クラウド会計, freee 会計, 弥生会計, QuickBooks Online and Xero, and builds a trial balance, P&L and balance sheet. It also handles invoices: it reads and writes Xero, QuickBooks Online, freee請求書 and MoneyForward クラウド請求書 invoices (JSON and import CSV), reads Zoho Invoice and FreshBooks invoices, checks the contents a Japanese qualified invoice must state, and posts invoices as receivable or payable entries. It reads bank and card statements the user downloaded and Ramp, Brex, Expensify and BILL exports, reconciles them against the ledger, and suggests invoice settlements, matches and journals for each line. It posts only the lines the user approved. Every tool is a pure function over the text or ledger the caller passes:

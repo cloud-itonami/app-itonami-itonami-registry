@@ -35,7 +35,7 @@
     "runtime": "protocol-tested 2026-10-23: tools/list and tools/call over stdio with the itonami-agent MCP client (kotoba-lang/itonami-agent 0c05574, itonami.agent.mcp discover/call) on synthetic fixtures, 11 tools, kaikei_import with ledger; no model-driven agent turn, no deployed profile",
     "live": false
   },
-  "compatibilityNote": "Hermes storage format only. itonami-agent exposes the tools as mcp__kaikei__<tool> and does not start MCP subprocesses on peer runs. Data-format compatibility only; no connection to MoneyForward, freee, Yayoi, QuickBooks Online, Xero, Zoho Invoice, FreshBooks, Ramp, Brex, Expensify, BILL, any bank or card issuer, or the NTA publication site.",
+  "compatibilityNote": "Hermes storage format only. itonami-agent exposes the tools as mcp__kaikei__<tool> and does not start MCP subprocesses on peer runs. Data-format compatibility only; no connection to MoneyForward, freee, Yayoi, QuickBooks Online, Xero, Zoho Invoice, FreshBooks, Ramp, Brex, Expensify, BILL, any bank or card issuer, or the NTA publication site. Direct financial connection research for Rakuten Bank, Rakuten Card, Rakuten Pay, PayPay, Diners, JAL Card, SoftBank and docomo is documented in README; those connections are not implemented or qualified by this entry.",
   "requires": [
     "Owner-installed kbb (Node) host",
     "cloud-itonami/kaikei checkout at the pinned commit"
