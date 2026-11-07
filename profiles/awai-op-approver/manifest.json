@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1",
+  "type": "profile",
+  "id": "awai-op-approver",
+  "name": "awai-op-approver",
+  "version": "0.1.0",
+  "description": "Judge one bot operation request as an Agent separate from the requester",
+  "author": "cloud-itonami",
+  "source": "https://github.com/cloud-itonami/itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
+  "compatibility": {
+    "hermes": "*",
+    "itonami": "*"
+  },
+  "profile": {
+    "layout": "hermes-profile",
+    "repository": "cloud-itonami/itonami-agent",
+    "commit": "6f7df914606f84e317786f302511f2545f721574",
+    "path": "hermes/profiles/awai-op-approver",
+    "checksum": "sha256-tree:9637f16d1c715017a6d6580cec81ac10b52f569cdcd13a694a02f6d108be04c0",
+    "files": [
+      {
+        "path": "SOUL.md",
+        "sha256": "637ef010809c9945f4c38ff0b1ba75e0c3b06bedda3c81ee58c7e1a3dcfc290c",
+        "bytes": 2124
+      },
+      {
+        "path": "config.yaml",
+        "sha256": "951871237bff9a8349c31bd5de0450a586dbaee964ef3099bf495ef84f6d5422",
+        "bytes": 603
+      },
+      {
+        "path": "cron/jobs.json",
+        "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+        "bytes": 12
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "175bee9c7bbc0f84a91264f401a110f93f7f51c688127b2f007e95bc91269cf3",
+        "bytes": 2200
+      },
+      {
+        "path": "policy/yakuwari.edn",
+        "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
+        "bytes": 1282
+      },
+      {
+        "path": "profile.yaml",
+        "sha256": "62d7da6dd5cc8f470be19619d5d84a0ff3907db555995993c69c64dc64a7a8ff",
+        "bytes": 108
+      },
+      {
+        "path": "yakuwari.edn",
+        "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
+        "bytes": 1282
+      }
+    ]
+  }
+}

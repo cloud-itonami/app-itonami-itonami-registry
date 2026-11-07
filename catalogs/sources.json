@@ -36437,6 +36437,48 @@
           "url": "https://github.com/cloud-itonami/app-itonami-compute-energy-watch/blob/20975b5d091b954d7666abc555281149edc3c753/hermes/profiles/compute-energy-watch/yakuwari.edn"
         }
       ]
+    },
+    {
+      "id": "itonami-agent-approver",
+      "repository": "cloud-itonami/itonami-agent",
+      "commit": "6f7df914606f84e317786f302511f2545f721574",
+      "files": [
+        {
+          "path": "hermes/profiles/awai-op-approver/SOUL.md",
+          "sha256": "637ef010809c9945f4c38ff0b1ba75e0c3b06bedda3c81ee58c7e1a3dcfc290c",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/config.yaml",
+          "sha256": "951871237bff9a8349c31bd5de0450a586dbaee964ef3099bf495ef84f6d5422",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/cron/jobs.json",
+          "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/itonami.edn",
+          "sha256": "175bee9c7bbc0f84a91264f401a110f93f7f51c688127b2f007e95bc91269cf3",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/policy/yakuwari.edn",
+          "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/policy/yakuwari.edn"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/profile.yaml",
+          "sha256": "62d7da6dd5cc8f470be19619d5d84a0ff3907db555995993c69c64dc64a7a8ff",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/awai-op-approver/yakuwari.edn",
+          "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/yakuwari.edn"
+        }
+      ]
     }
   ]
 }

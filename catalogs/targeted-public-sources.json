@@ -120,6 +120,19 @@
           "sourceCommit": "20975b5d091b954d7666abc555281149edc3c753"
         }
       ]
+    },
+    {
+      "repository": "cloud-itonami/itonami-agent",
+      "commit": "6f7df914606f84e317786f302511f2545f721574",
+      "visibility": "public",
+      "reviewedOn": "2026-11-07",
+      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey.",
+      "registrations": [
+        {
+          "entry": "profile/awai-op-approver",
+          "sourceCommit": "6f7df914606f84e317786f302511f2545f721574"
+        }
+      ]
     }
   ]
 }
