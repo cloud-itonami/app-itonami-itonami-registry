@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-03T03:27:06.840731Z",
-  "count": 1982,
+  "generated": "2026-11-07T08:14:42.563563Z",
+  "count": 1983,
   "entries": [
     {
       "id": "abaki",
@@ -23279,6 +23279,22 @@
       "path": "profiles/awai-arb",
       "checksum": "sha256:cdbd9ac9bfbad9fd3664a46da8612a1bb7e7357229bbc32d9004bcc43f5e4bbc",
       "profileChecksum": "sha256-tree:3355270c069a9c6526bfebddee4a5c9d403cc7da2e6c487ebcbb704fe37e9c19"
+    },
+    {
+      "id": "awai-op-approver",
+      "type": "profile",
+      "name": "awai-op-approver",
+      "version": "0.1.0",
+      "description": "Judge one bot operation request as an Agent separate from the requester",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
+      "compatibility": {
+        "hermes": "*",
+        "itonami": "*"
+      },
+      "path": "profiles/awai-op-approver",
+      "checksum": "sha256:4a0c28f72afe03e03723314b0da9ea27c6ad71e4d7721c15f1389e078f26d513",
+      "profileChecksum": "sha256-tree:9637f16d1c715017a6d6580cec81ac10b52f569cdcd13a694a02f6d108be04c0"
     },
     {
       "id": "awai-store-removal",
