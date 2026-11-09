@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-07T08:14:42.563563Z",
-  "count": 1983,
+  "generated": "2026-11-09T11:46:29.850335Z",
+  "count": 1984,
   "entries": [
     {
       "id": "abaki",
@@ -37711,6 +37711,22 @@
       "category": "operations",
       "path": "skills/operations/itonami-provider-capability-observation",
       "checksum": "sha256:9cb766a01cfa537a397ae113381af45df23ce957509b97279f7722b7bbc8fc7a"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/itonami-registry/tree/b181b5a93890900f03dbfd4550bec23d6b0a3fb6",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "itonami-reference-image-fidelity",
+      "type": "skill",
+      "name": "itonami-reference-image-fidelity",
+      "description": "Plan and review reference-faithful generated illustrations with documented specifications, editable geometry and regression checks.",
+      "category": "operations",
+      "path": "skills/operations/itonami-reference-image-fidelity",
+      "checksum": "sha256:dcafa01dae24d91d68515c9a13f4fd0ec92046b5a44618c1b1dd5e302f4763b4"
     },
     {
       "version": "0.1.0",
