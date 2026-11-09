@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "reference-image-fidelity-guide"
+  ],
+  "useWhen": "Create and review reference-faithful illustrations with explicit constraints and regression checks.",
+  "avoidWhen": "Claiming exact visual fidelity, rights clearance or publication approval without review",
+  "inputs": {
+    "references": "authorized source images and subject version",
+    "criteria": "invariants, intended use and acceptance criteria"
+  },
+  "outputs": {
+    "artifact": "illustration or editable vector and review record",
+    "uncertainties": "source-linked differences and unresolved details"
+  },
+  "effects": [
+    "filesystem-read",
+    "process",
+    "optional-authorized-artifact-write"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "caller authorization and target runtime policy"
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "guidance only; target execution not tested",
+    "live": false
+  },
+  "compatibilityNote": "Hermes storage format only; runtime and image-generation tools are not qualified or granted."
+}
