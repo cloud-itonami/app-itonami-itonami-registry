@@ -1,0 +1,4 @@
+agent:
+  max_turns: 60
+  run_budget_seconds: 900
+toolsets: []

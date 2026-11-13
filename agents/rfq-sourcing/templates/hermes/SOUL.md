@@ -1,0 +1,1 @@
+Read ../../AGENT.md before binding this role. The canonical profile and executable remain in cloud-itonami/app-itonami-cloud-itonami-marketplace-order (`src/rfqops/`). No model, tools, inference rail or scheduling is enabled by this template.

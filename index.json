@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-07T08:14:42.563563Z",
-  "count": 1983,
+  "generated": "2026-11-13T07:43:09.376771Z",
+  "count": 1984,
   "entries": [
     {
       "id": "abaki",
@@ -167,6 +167,28 @@
       "license": "MIT",
       "path": "agents/resident-business-observer",
       "checksum": "sha256:47360078e02426fbbc929aa3f3ab993480f718da76bba18d00f5484153cbff35"
+    },
+    {
+      "id": "rfq-sourcing",
+      "type": "agent",
+      "name": "rfq-sourcing — B2B RFQ coordination",
+      "version": "0.1.0",
+      "description": "State a buyer's need, file suppliers' quotes, and record a human's award. Ranking is observable; winning is decided by a named human, never computed.",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/tree/753a3d84eddedbfd1466e7744fd87592e20e2514",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "tags": [
+        "b2b",
+        "rfq",
+        "sourcing",
+        "quotation",
+        "supplier-matching"
+      ],
+      "path": "agents/rfq-sourcing",
+      "checksum": "sha256:9bcf49a62e7384148a8be23c62ca4fa26473edde609f8097a6510fb5523f3ff4"
     },
     {
       "id": "scheduled-report-reviewer",

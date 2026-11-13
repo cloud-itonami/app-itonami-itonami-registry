@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1",
+  "type": "agent",
+  "id": "rfq-sourcing",
+  "name": "rfq-sourcing — B2B RFQ coordination",
+  "version": "0.1.0",
+  "description": "State a buyer's need, file suppliers' quotes, and record a human's award. Ranking is observable; winning is decided by a named human, never computed.",
+  "author": "cloud-itonami",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/tree/753a3d84eddedbfd1466e7744fd87592e20e2514",
+  "compatibility": {
+    "hermes": "*",
+    "desktop": "*"
+  },
+  "entry": "AGENT.md",
+  "tools": [],
+  "permissions": [
+    "filesystem:read"
+  ],
+  "tags": [
+    "b2b",
+    "rfq",
+    "sourcing",
+    "quotation",
+    "supplier-matching"
+  ]
+}
