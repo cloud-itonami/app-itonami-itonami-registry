@@ -133,6 +133,19 @@
           "sourceCommit": "6f7df914606f84e317786f302511f2545f721574"
         }
       ]
+    },
+    {
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-marketplace-order",
+      "commit": "753a3d84eddedbfd1466e7744fd87592e20e2514",
+      "visibility": "public",
+      "reviewedOn": "2026-11-13",
+      "reviewBasis": "GitHub repository metadata confirms public visibility; rfqops actor source (store, governor, advisor, phase, operation) and its governor/graph test suites inspected file by file. Targeted review, not an organization-wide survey.",
+      "registrations": [
+        {
+          "entry": "agent/rfq-sourcing",
+          "sourceCommit": "753a3d84eddedbfd1466e7744fd87592e20e2514"
+        }
+      ]
     }
   ]
 }

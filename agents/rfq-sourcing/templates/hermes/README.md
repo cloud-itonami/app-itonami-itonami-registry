@@ -1,0 +1,1 @@
+Bind a fresh profile identity to the pinned source role, owner policy, model/provider and effective tool allowlist. Install the executable from its owning repository. This registry scaffold carries no credentials, signer, inference rail or scheduled job.

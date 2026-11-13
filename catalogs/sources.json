@@ -36481,6 +36481,48 @@
       ]
     },
     {
+      "id": "rfq-sourcing",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-marketplace-order",
+      "commit": "753a3d84eddedbfd1466e7744fd87592e20e2514",
+      "files": [
+        {
+          "path": "src/rfqops/store.cljk",
+          "sha256": "acf89e7f7d036c5864f6d9b8a61093f9ad7a44b31a3a6811cc5bccc32f34e59f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/src/rfqops/store.cljk"
+        },
+        {
+          "path": "src/rfqops/governor.cljk",
+          "sha256": "c6ebbce90e7e2ac53a8a6464f65a70c6787aa8334fc8a6dd81f98cd3553cd6f5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/src/rfqops/governor.cljk"
+        },
+        {
+          "path": "src/rfqops/advisor.cljk",
+          "sha256": "00eee89877cc46162a36d9bbdd6c1bb4f6be3c227336bb2ca26eae314c4ae35a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/src/rfqops/advisor.cljk"
+        },
+        {
+          "path": "src/rfqops/phase.cljk",
+          "sha256": "bfe218a2cf34fec1fb5ea9f66b7c5040e620014fda2e792b3c0bd3b889b97a60",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/src/rfqops/phase.cljk"
+        },
+        {
+          "path": "src/rfqops/operation.cljk",
+          "sha256": "cb03e6b4600e705a051a0edeae674b3d56279d89480553f7e97291066fb45d52",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/src/rfqops/operation.cljk"
+        },
+        {
+          "path": "test/rfqops/governor_test.cljk",
+          "sha256": "e4f9f62dcd4aeeda2d45934aa69c91f4124ba3af87a401e7a810a0bd81fdf3e3",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/test/rfqops/governor_test.cljk"
+        },
+        {
+          "path": "test/rfqops/operation_graph_test.cljk",
+          "sha256": "840ddf4249b43a5169c303e7071a52fdf757e6d9737c6639e047650894240365",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/test/rfqops/operation_graph_test.cljk"
+        }
+      ]
+    },
+    {
       "id": "reference-image-fidelity-guide",
       "repository": "cloud-itonami/itonami-registry",
       "commit": "b181b5a93890900f03dbfd4550bec23d6b0a3fb6",

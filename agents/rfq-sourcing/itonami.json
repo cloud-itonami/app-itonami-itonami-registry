@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "rfq-sourcing"
+  ],
+  "useWhen": "Coordinate B2B Requests for Quotation: open an RFQ stating a buyer's need, receive suppliers' quotes, and record the buyer-side human's award. Publish observable quote rankings sellers can reproduce.",
+  "avoidWhen": "Picking a winner automatically, adjudicating disputes, moving money or keys, filing customs declarations, or treating an unreceived quote as an offer.",
+  "inputs": {
+    "rfq": "buyer, currency (ISO-4217), lines of canonical product ids with quantities, invited supplier party ids, attachment descriptors",
+    "quote": "supplier party id, currency matching the RFQ, per-line unit prices, lead time in days",
+    "award": "received quote id plus the deciding buyer-side human"
+  },
+  "outputs": {
+    "rfq-record": "open RFQ with accumulated quotes, append-only",
+    "ranking": "quotes ordered by the observable key [total, lead-time, quote-id], never a winner",
+    "award-record": "human-attributed award with rationale"
+  },
+  "effects": [
+    "filesystem-read",
+    "optional-authorized-artifact-write"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "Owning repository actor profile and host-bound policy; award publication by caller authorization. No automated adjudication (ADR-2607264000 D5)."
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "kbb SCI suite: governor HARD checks plus langgraph operation graph with human approval interrupt",
+    "live": false
+  },
+  "compatibilityNote": "Actual profile and executable remain in the owning repository. A registry template neither installs the bot nor binds provider/model, inference rail, or enables a cron.",
+  "roleKind": "yakuwari"
+}
