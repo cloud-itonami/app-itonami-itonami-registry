@@ -36521,6 +36521,18 @@
           "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-order/blob/753a3d84eddedbfd1466e7744fd87592e20e2514/test/rfqops/operation_graph_test.cljk"
         }
       ]
+    },
+    {
+      "id": "reference-image-fidelity-guide",
+      "repository": "cloud-itonami/itonami-registry",
+      "commit": "b181b5a93890900f03dbfd4550bec23d6b0a3fb6",
+      "files": [
+        {
+          "path": "docs/guides/reference-image-fidelity-ja.md",
+          "sha256": "7068c341bacebb29fc6db4745f338852fd4003e3acf61fbc1c31446d11b7a47b",
+          "url": "https://github.com/cloud-itonami/itonami-registry/blob/b181b5a93890900f03dbfd4550bec23d6b0a3fb6/docs/guides/reference-image-fidelity-ja.md"
+        }
+      ]
     }
   ]
 }

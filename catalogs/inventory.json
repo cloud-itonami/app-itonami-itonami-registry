@@ -43490,7 +43490,12 @@
       },
       "disposition": "registry-owner",
       "reason": "Reviewed 2026-10-11 at 59f4b12bbef32c1adf9721410fb6b15f9f42df41: This is the current catalog itself, not another source capability. Initial and added entries remain local owner entries; no recursive registry import.",
-      "registrations": []
+      "registrations": [
+        {
+          "entry": "skill/itonami-reference-image-fidelity",
+          "sourceCommit": "b181b5a93890900f03dbfd4550bec23d6b0a3fb6"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/iyashi",
