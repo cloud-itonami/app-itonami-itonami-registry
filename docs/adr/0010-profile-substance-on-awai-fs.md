@@ -49,19 +49,30 @@ bot profiles lives on AwaiFS / AwaiVol, not on GitHub.
 - Registration still grants nothing: accounts, grants and schedule are
   rebound by the installer, and cron arrives disabled (ADR 0002).
 
-## PoC evidence (2026-11-14)
+## Evidence (2026-11-14)
 
-- Profile `itonami` (65 files) materialised from git objects at pinned
-  commit `57ff9f34` — never the working tree — and written to
-  `/Volumes/AwaiVol/itonami-profile-poc-JUN-1070-v1/itonami/` with a
-  `poc-manifest.json` of per-file sha256.
-- All 65 files match the registry `manifest.json` hashes; AwaiVol
-  readback of all 65 files is byte-identical. No registry change was
-  needed for the PoC; existing profiles and state were untouched.
+- `scripts/pack_profile.py`: bounded CARv2 writer (raw-codec 64KiB
+  leaves, one DAG-CBOR root, at most 64 leaves, 1MiB max, no index)
+  with an independent decode-and-verify path. Unit-tested
+  (`tests/test_pack_profile.py`): round-trip, tamper refusal,
+  wrong-manifest refusal.
+- Bulk migration `scripts/migrate_profiles_bulk.py`: all 899 profiles
+  materialised from git objects at their pinned commits (40 owning
+  repos cloned to scratch; forest untouched), packed, written to
+  `/Volumes/AwaiVol/itonami-profile-cars-v1/`, read back and verified
+  against every `manifest.json` hash. Coverage: 899 migrated, 0 skipped.
+- Exclusions: 687 profiles carry non-definition files left out of the
+  CAR by registration authority (686 `secrets.edn`, 1
+  `cron.example.json`); secrets enter no CAR per ADR 0003.
+- Registry pointer catalog `catalogs/profile-pointers.json`: 899
+  entries mapping id to CID, CAR/payload sha256 and sizes. Manifests
+  keep their commit pins until cutover is verified (decision 4).
+- Determinism: repacking `itonami` yields the identical CID and CAR
+  bytes. No owning repository and no existing profile/state was modified.
 
 ## Not yet verified
 
-- The AwaiFS CID codec details for profile payloads (PoC used POSIX
-  files plus a sha256 sidecar, not Pack/CAR CIDs).
+- Independent IPLD-reader cross-check of the bounded CAR profile
+  (the Otehon evidence covers its own codec, not this writer).
 - Scheduler and runtime binding to AwaiFS substance (confirmed through
   AWAI-2795 receipts, not through this ADR alone).
