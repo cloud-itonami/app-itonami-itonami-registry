@@ -36533,6 +36533,33 @@
           "url": "https://github.com/cloud-itonami/itonami-registry/blob/b181b5a93890900f03dbfd4550bec23d6b0a3fb6/docs/guides/reference-image-fidelity-ja.md"
         }
       ]
+    },
+    {
+      "id": "app-itonami-9092cb0",
+      "repository": "cloud-itonami/app-itonami",
+      "commit": "9092cb0a1b190083dc3e561f7e5194124e6dd45b",
+      "files": [
+        {
+          "path": "hermes/profiles/svelte-to-cljs/SOUL.md",
+          "sha256": "5ac6e21ae4618ea698fbd32c4ecdad3830cce24d92897f40b80d976a5c7d0fa0",
+          "url": "https://github.com/cloud-itonami/app-itonami/blob/9092cb0a1b190083dc3e561f7e5194124e6dd45b/hermes/profiles/svelte-to-cljs/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/svelte-to-cljs/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/cloud-itonami/app-itonami/blob/9092cb0a1b190083dc3e561f7e5194124e6dd45b/hermes/profiles/svelte-to-cljs/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/svelte-to-cljs/cron/jobs.json",
+          "sha256": "efd2bd54cddf18ab594fcaa7b7062f30370e251ac2257f31b80029d278c1f494",
+          "url": "https://github.com/cloud-itonami/app-itonami/blob/9092cb0a1b190083dc3e561f7e5194124e6dd45b/hermes/profiles/svelte-to-cljs/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/svelte-to-cljs/scripts/svelte_scan.py",
+          "sha256": "a934d64d90e8b4984f7724b8e3f4d0f42ee7ba9e02b1560866ecb3164272e537",
+          "url": "https://github.com/cloud-itonami/app-itonami/blob/9092cb0a1b190083dc3e561f7e5194124e6dd45b/hermes/profiles/svelte-to-cljs/scripts/svelte_scan.py"
+        }
+      ]
     }
   ]
 }
