@@ -531,19 +531,19 @@
       "reason": "Reviewed 2026-10-11 at 9a0c9b1e08474d8bfe780120fef27f05f5a8953b: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
       "registrations": [
         {
-          "sourceCommit": "f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
           "entry": "profile/adnetwork-scout"
         },
         {
-          "sourceCommit": "f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
           "entry": "profile/adsk"
         },
         {
-          "sourceCommit": "f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
           "entry": "profile/adska"
         },
         {
-          "sourceCommit": "f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
           "entry": "profile/murakumo-adnetwork"
         }
       ]
@@ -48539,19 +48539,19 @@
           "entry": "agent/source-ledger-curator"
         },
         {
-          "sourceCommit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+          "sourceCommit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
           "entry": "profile/yabai-classify"
         },
         {
-          "sourceCommit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+          "sourceCommit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
           "entry": "profile/yabai-intel"
         },
         {
-          "sourceCommit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+          "sourceCommit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
           "entry": "profile/yabai-ops"
         },
         {
-          "sourceCommit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+          "sourceCommit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
           "entry": "profile/yabai-staging"
         },
         {
