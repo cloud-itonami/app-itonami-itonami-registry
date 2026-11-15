@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-isco-5411-41b3bed4"
+    "clouditonami-decf9ae"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: physical-AI bot for cloud-itonami/cloud-itonami-isco-5411: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
