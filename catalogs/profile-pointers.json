@@ -211,15 +211,15 @@
     },
     {
       "id": "animeka",
-      "cid": "bafyreigpotqqkawazlzqvtcviypmekreamlw6i6i5essfll237tuurxmfq",
-      "carSha256": "02e5921c2071a80dc257ab00bc0b0f7db91167ecf8e7da5461916128924f4d94",
-      "carBytes": 6697,
-      "payloadSha256": "8a8c9dd522275504c30456889f92c84b1d50a4231e4f22b4deef0eb01fa34092",
-      "payloadBytes": 6069,
+      "cid": "bafyreicio2etdilkrenxjbn6pli4okhjd5af5ytnv6o7r6elto7ijokes4",
+      "carSha256": "d0d7b31a0057166e08ff8830a6007d0c01032ef80998e5a27dcd4d24d3271774",
+      "carBytes": 14746,
+      "payloadSha256": "c31e4e0ce92aa4ad30172c9a576fbf9fa9820bc9ee9741a7efc6965d8a1a611c",
+      "payloadBytes": 13769,
       "leaves": 1,
       "repository": "cloud-itonami/animeka-actor",
-      "sourceCommit": "b647cdf09f21c6c4ca7602ac165a1de01703ef89",
-      "files": 4,
+      "sourceCommit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
+      "files": 8,
       "excluded": []
     },
     {
@@ -244,7 +244,7 @@
       "payloadBytes": 28531,
       "leaves": 1,
       "repository": "cloud-itonami/ao-arbitrage",
-      "sourceCommit": "5c547afd0bc90f395d7b3abf88125ae5aa6bcc18",
+      "sourceCommit": "c1bf1742a4ef58ac133f3cb4733b5b2f9953d994",
       "files": 8,
       "excluded": [
         "secrets.edn"
@@ -363,7 +363,7 @@
       "payloadBytes": 5870,
       "leaves": 1,
       "repository": "cloud-itonami/cad",
-      "sourceCommit": "00213af940b01275f7714637b26e9a2a75206c28",
+      "sourceCommit": "f674eff116876a91332d95e68faf8a17625f335f",
       "files": 3,
       "excluded": []
     },
@@ -441,7 +441,7 @@
       "payloadBytes": 5018,
       "leaves": 1,
       "repository": "cloud-itonami/app-itonami-compute-energy-watch",
-      "sourceCommit": "20975b5d091b954d7666abc555281149edc3c753",
+      "sourceCommit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6",
       "files": 5,
       "excluded": []
     },
@@ -467,7 +467,7 @@
       "payloadBytes": 13659,
       "leaves": 1,
       "repository": "cloud-itonami/app-wvme",
-      "sourceCommit": "cdd0bfc4c344626dba345d7e0cc01952885a3eac",
+      "sourceCommit": "1c10c0fe944ab078062a58f788925913b8c6bf99",
       "files": 5,
       "excluded": []
     },
@@ -831,7 +831,7 @@
       "payloadBytes": 66456,
       "leaves": 2,
       "repository": "cloud-itonami/app-bpmn",
-      "sourceCommit": "7de41855639c75b561ab80981fc3a6c0d49ff9b5",
+      "sourceCommit": "3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
       "files": 12,
       "excluded": []
     },
@@ -1446,7 +1446,7 @@
       "payloadBytes": 4900,
       "leaves": 1,
       "repository": "cloud-itonami/cloud-itonami-souji",
-      "sourceCommit": "79e7b746340fc528c8716bb7026be8ff16e3e970",
+      "sourceCommit": "7b63444404e208f872429075a2942898cff474d0",
       "files": 2,
       "excluded": []
     },
@@ -2122,7 +2122,7 @@
       "payloadBytes": 12016,
       "leaves": 1,
       "repository": "cloud-itonami/cloud-itonami-cofog-03.2",
-      "sourceCommit": "e1156a6d349cbd6dc8c403afd4fafe4565702cd1",
+      "sourceCommit": "d103d611c167654b06a20015a1f82c9e2741e0c3",
       "files": 6,
       "excluded": [
         "secrets.edn"
@@ -2137,7 +2137,7 @@
       "payloadBytes": 12111,
       "leaves": 1,
       "repository": "cloud-itonami/cloud-itonami-cofog-04.5",
-      "sourceCommit": "82f9fd08f0c66968c0e133e28f5b10afda044f9e",
+      "sourceCommit": "4e60c4b1762803bc1243f35bc890ddeef6b2a5c2",
       "files": 6,
       "excluded": [
         "secrets.edn"
@@ -2152,7 +2152,7 @@
       "payloadBytes": 12019,
       "leaves": 1,
       "repository": "cloud-itonami/cloud-itonami-cofog-05.1",
-      "sourceCommit": "a22aae8e36a1d8c4bca8a09d83dde12757a6e3dc",
+      "sourceCommit": "75a6aeabc4c7082e501df955e3b42010f684b98f",
       "files": 6,
       "excluded": [
         "secrets.edn"
@@ -12277,7 +12277,7 @@
       "payloadBytes": 12657,
       "leaves": 1,
       "repository": "cloud-itonami/cloud-itonami-souji",
-      "sourceCommit": "79e7b746340fc528c8716bb7026be8ff16e3e970",
+      "sourceCommit": "7b63444404e208f872429075a2942898cff474d0",
       "files": 6,
       "excluded": [
         "secrets.edn"
@@ -12993,7 +12993,7 @@
       "payloadBytes": 11297,
       "leaves": 1,
       "repository": "cloud-itonami/kenchi",
-      "sourceCommit": "d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+      "sourceCommit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "files": 4,
       "excluded": []
     },
@@ -13006,7 +13006,7 @@
       "payloadBytes": 11517,
       "leaves": 1,
       "repository": "cloud-itonami/kenchi",
-      "sourceCommit": "d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+      "sourceCommit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "files": 4,
       "excluded": []
     },
