@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "giemon-0eb965a7"
+    "giemon-f2a1910"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: giemon シミュレーション学習成熟ループ: rank (15-30min cron cowork)",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
