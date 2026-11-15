@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-13T08:07:15.365316Z",
+  "generated": "2026-11-15T02:13:33.062669Z",
   "count": 1985,
   "entries": [
     {
@@ -23117,13 +23117,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang/aiueos OSS maintainer bot: issue triage + main red test 追跡 + QEMU/kernel repro, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/aiueos-maint",
-      "checksum": "sha256:0158b49b30651003a8af069f320e1a5ba92060389451a3203c83e0cc84d469b5",
+      "checksum": "sha256:20380a8f7da7752a8a926963ac1b07d6e980844ad0e2081064878633b1e04a38",
       "profileChecksum": "sha256-tree:33cedf3e5981f80efc0ebcf4074560f79626be7934b1658a208e170532b63eb0"
     },
     {
@@ -23133,13 +23133,13 @@
       "version": "0.1.0",
       "description": "Amu co-scientist: kotoba-lang/amu を世界最速 runtime & build-time OS にする検証ループ (perfgate 測定ベース)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu",
-      "checksum": "sha256:4aa3d1d8b65ee2f2dd422b81b3537c19068ba2e6a7082a01f524b3a1a9f593ca",
+      "checksum": "sha256:cfe54aaf583c349f1e9316d961dd85d6c59d6948c52dd6dbc448c6d9b3fd2d9f",
       "profileChecksum": "sha256-tree:0f4b52b6439e1a11be1aa6a8a093b9e8b11a5cb2248ef595f3a1c0a8c18ad6fb"
     },
     {
@@ -23149,13 +23149,13 @@
       "version": "0.1.0",
       "description": "amu co-scientist cowork: perfgate/bench 実行と quiet gate 監視専門, 15min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-bench",
-      "checksum": "sha256:e05808bb11acb154e6420e5902ab6d2818bf0405c8c3f8cb23bf9ceaed5330b6",
+      "checksum": "sha256:c3d620f6548522d6cc4dbdb09a5982752d0bdc5aefe105dd1815f76640ccdb9c",
       "profileChecksum": "sha256-tree:7e312f4a9e50f6c8111e136c17e1452c8dc135dca5ed518f8859b81b2e4b03db"
     },
     {
@@ -23165,13 +23165,13 @@
       "version": "0.1.0",
       "description": "amu speed-claim chain: 測定を静かな fleet ノードに置き、host gate を通し、qualified な主張を着地させる。20min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-claim",
-      "checksum": "sha256:0f7fac54d79320d1ad4657908f859d821c8f4e3f687c3115fe9064ddccd86527",
+      "checksum": "sha256:94f38af04558061d0e1510a8399f0d57702c6bb78806ae91875282f0884d0472",
       "profileChecksum": "sha256-tree:e486e2451beca39fc9f8f837990bf614e59dee4166b01ef495fe9765c4fdcf71"
     },
     {
@@ -23181,13 +23181,13 @@
       "version": "0.1.0",
       "description": "amu co-scientist cowork: 反証実験専門 (hand-patch 測定で仮説を殺す), 15min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-falsify",
-      "checksum": "sha256:de7e32032ce2c4197035338d8b8042e8266b0ecbe7b0618b1fa26b650e2079fe",
+      "checksum": "sha256:ebddd56d367792121177b14f4ecb36f8bd2472e19cb28ab69b86346ed07baef8",
       "profileChecksum": "sha256-tree:7184113135523177847f5c99b8b95f61750c2e865d8e970ac951c1481edee57c"
     },
     {
@@ -23197,13 +23197,13 @@
       "version": "0.1.0",
       "description": "amu JIT/tiering 軸の co-scientist: JIT仮説ループ (perfgate 判定, 30min)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-jit-cosientist",
-      "checksum": "sha256:c79c81537a058c8229477b276c3220a5372aec49b33e596dcac3462d52ccd93c",
+      "checksum": "sha256:a507cb119702e43123e94575986d8796cdf91d4fd927333c0f632dab08a7c83a",
       "profileChecksum": "sha256-tree:c51e97a042f4143782234e3234e048175e17aa1bd82c08a1800936fae72f49ea"
     },
     {
@@ -23213,13 +23213,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang/amu OSS maintainer bot: issue/PR triage + CI 赤検知 + pin 安定化, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-maint",
-      "checksum": "sha256:2875521f88f3b2a7007b914162e1c926545ebf7f96469191bee160628bb16415",
+      "checksum": "sha256:a289c7322fe0fe2b2a938683817a8dee6a55032cc72e7def807a0e9c74aa6d63",
       "profileChecksum": "sha256-tree:f9a7b7ecb36cb5d7b98a7e4a044f25c1d9af0b1ef644d985b91118914401911b"
     },
     {
@@ -23229,13 +23229,13 @@
       "version": "0.1.0",
       "description": "amu co-scientist cowork: 仮説 rank/進化と tournament state 更新専門, 15min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/amu-rank",
-      "checksum": "sha256:c648ae49035e6ce496f93045504d0aa361b8d2a23699a4560b87d9ee1f7a2eae",
+      "checksum": "sha256:1e6faed8aba3cb95170b423b7c9ffe584dc4f7e52d309b6071d7382add94077e",
       "profileChecksum": "sha256-tree:98887056af545f7b118eaad45c58a3d85a356b619f37f0d985c7a18843634df8"
     },
     {
@@ -24845,13 +24845,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang org JVM 依存 repo の Q9 whole-component 移行: 棚卸し→計画→段階的 PR, 60min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/jvm-dep-migrator",
-      "checksum": "sha256:e63cfac6974ee66455ac5fed1b73926a2e9f886aad2247f157163839e71cca94",
+      "checksum": "sha256:d9dbda367150c045ba6567abbbc9d3ca02aff6e319bbe74f5c872d0dc05be44b",
       "profileChecksum": "sha256-tree:d5a09326f7b0233dd3d07d21249dba51ea72c73b9483fa96ecdb7149f5edc7de"
     },
     {
@@ -24861,13 +24861,13 @@
       "version": "0.1.0",
       "description": "最初に知っておくべき 3 つの事実（実測済み・推測しない） — jvm-retire — com-junkawasaki fleet の「JVM を出荷物から外す」常駐 bot。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/jvm-retire",
-      "checksum": "sha256:8ec4360b7d57f41ffcc512e9736c9ca805b75ace80e6ea6dc5a874fb7d42f1c9",
+      "checksum": "sha256:f23be7015a482edd9eb5496e3feb107ef333801a2c66858a96b71d2ea8605463",
       "profileChecksum": "sha256-tree:295da2f3015672219486fb36934c7071f817a2a454e217bbd517afb56d8d7f84"
     },
     {
@@ -25005,13 +25005,13 @@
       "version": "0.1.0",
       "description": "kotoba.cloud メンテ (network-awai/app-kotoba-cloud Worker), 60min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-cloud-maint",
-      "checksum": "sha256:10b2646e5f84e5557a4822671f63a5e8c7ef0b6e8293e83e72910ee9c52de690",
+      "checksum": "sha256:a062312166624795ad32870ee13f651efdf6f5b7f7337da8e9d722720ef587d9",
       "profileChecksum": "sha256-tree:aaccadb57423b16a423ae62b91c1087582aa337f68e6d98b05d55494dda08d9c"
     },
     {
@@ -25053,13 +25053,13 @@
       "version": "0.1.0",
       "description": "kotoba 言語機能×速度 co-scientist: blocked 機能の実装と速度検証, 30min",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-lang-cosientist",
-      "checksum": "sha256:26c34057e5674ac46360fdb0235fb5dcf4b883367d843cbe11216c0f498e65d5",
+      "checksum": "sha256:a0be606d934bb70b0a8ed179be52aaff5b85310583e787ab47128b8a2f5d140e",
       "profileChecksum": "sha256-tree:e8ba5c8e8edc8a61ded03b49b1bd1bcf94a024fd8428ebd49f7247dd07bb82da"
     },
     {
@@ -25085,13 +25085,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang/kotoba OSS maintainer bot: issue/PR triage + CI 赤検知, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-maint",
-      "checksum": "sha256:8a15ff6740f717948b506788e73e574428c76b4410f045825154a9d5d875bb5a",
+      "checksum": "sha256:a74d68022d29f22311d09f63eefe574e2d4f5dcacdc984103414440148a048b7",
       "profileChecksum": "sha256-tree:d765f6009822e5b2c3f491717e5cd00e7de9fba5ba449d1f2d99c4c1e2381dee"
     },
     {
@@ -25181,13 +25181,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang org 横断 maintainer bot: CI 赤検知 + repo 健全性, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobalang-maint",
-      "checksum": "sha256:4ab8b1854ab6326dff836f346fa08b6b4db60751758645e291d630ae033426ca",
+      "checksum": "sha256:806d3dcc679e5d33d73369312e8056ebc9f6e473dcb992f26767db2c42bdcf19",
       "profileChecksum": "sha256-tree:1300a7dc87339c352627006152b48bbd7b0aefc15f9828e15dc4bdefd04b7792"
     },
     {
@@ -25197,13 +25197,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang.org site メンテ (orgs/kotoba-lang/kotoba-lang site/, Cloudflare), 60min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+      "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobalang-org-maint",
-      "checksum": "sha256:7a1e95a86380da92fdadf608733e525dc57701cd847c48c8e9b6f3eb8e68696d",
+      "checksum": "sha256:d7acd9d2d9e9993f4786f8d57f01d19965b467d53005a6c384fa1e6db4445115",
       "profileChecksum": "sha256-tree:0528f8fe95e5e01f73af6fd91448e1720adce336ce4c09443c7369ce8ae1a9bf"
     },
     {

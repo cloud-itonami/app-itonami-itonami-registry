@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "amu-bea7b9b2"
+    "amu-f759f4f"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: amu co-scientist cowork: perfgate/bench 実行と quiet gate 監視専門, 15min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
