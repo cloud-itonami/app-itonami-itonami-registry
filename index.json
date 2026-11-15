@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-13T08:07:15.365316Z",
+  "generated": "2026-11-15T02:19:28.873869Z",
   "count": 1985,
   "entries": [
     {
@@ -23005,13 +23005,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/90-docs",
-      "checksum": "sha256:cba30274381884d3d2514e065316d79d2f86804e3891f3db37b47f4b29c479d5",
+      "checksum": "sha256:b7839d36f6a790d9ed6c7f602d16f33b8b6c0f467f040bd58a86256ffd8be5a0",
       "profileChecksum": "sha256-tree:0e316eb43b2c361fa57c1b565defebff38382d4239a0fba214e69d25bbbd56b5"
     },
     {
@@ -23325,13 +23325,13 @@
       "version": "0.1.0",
       "description": "network-awai D1/DO/KV binding removal driver (ADR-2609132007): one repo per tick, read source, migrate to R2, verify, PR + merge. propose-only for deploy.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/awai-store-removal",
-      "checksum": "sha256:3c884b22a9cbb427c0610c0f9ca3ae72bab9112d4529fb6106bfc68e691b6c83",
+      "checksum": "sha256:6fc50ad40841cce74aa661044e170505dc27b1834901dac0484210c1ed36412a",
       "profileChecksum": "sha256-tree:0c0dbf0d7b0ddbf7bf8f1c20a0642048f27e7d8373560799230e1050c9afd043"
     },
     {
@@ -23357,13 +23357,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/branch-drain",
-      "checksum": "sha256:939c68577c597603d616cc49f7937c6d476b1fd10c7fea6a560d80eb9d7df793",
+      "checksum": "sha256:94f8672746ee4769f4be2201bdfa5af08b43d0905e99dc233616e8b785382129",
       "profileChecksum": "sha256-tree:2248d9644a3988ba60132208d5787fb7defcec1f1120499922c0ba2eccc4f928"
     },
     {
@@ -23469,14 +23469,14 @@
       "version": "0.1.0",
       "description": "cljk-finish - finish the clj/cljc/cljs to cljk rename follow-through (string-literal path refs, bb residue liveness, stale extension grep). 1 tick 1 finding, propose-only ledger.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cljk-finish",
-      "checksum": "sha256:6c1ce91a952e75a295226163cf8f637778bf0d43eb4da6b322266d8314c7eec4",
-      "profileChecksum": "sha256-tree:d3b99a2bd61b8a5b0fb7ad18276657e6b62a7b9d35412c9b4828e372415fb4bb"
+      "checksum": "sha256:43bf3efd8b87032d4553d2f296c765209e971ebd24e19def0c44ff48745149cd",
+      "profileChecksum": "sha256-tree:da1eee185180971635a7ceed95f8b811352e3a140cc158a116c7369ebd3680b2"
     },
     {
       "id": "codec-maturation",
@@ -23645,13 +23645,13 @@
       "version": "0.1.0",
       "description": "デザイン/アクセシビリティ監査担当。itonami.cloud と workspace 配下の web UI を jp-go-dds (DADS) + kotoba design + WCAG/HIG の観点で監査する。design-quality.audit (決定論層) と実画面 screenshot review (sample-visual 層) を回し、 design-quality-ledger.edn に採点を追記する。fail-closed — 計測できないものは unmeasured と書き、green を偽らない。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/design-audit",
-      "checksum": "sha256:276fc2f7e77ea95fa9f474290d8bfd55c4fc984ea5bf1f7c07050a92e680233d",
+      "checksum": "sha256:0c4788e1a50dff0b3c266ffc9eca217ae76a26cbdcad26fe6943fa68bec13ff5",
       "profileChecksum": "sha256-tree:6858ff1f047a091ff29b72aa81d7c7cacea662658e82b13b3ed3d487e4f8caad"
     },
     {
@@ -23661,13 +23661,13 @@
       "version": "0.1.0",
       "description": "docs-currency audit bot: checks shared read-only models, rules, md, ADR freshness against the latest landed state; files one finding per drift with PR-ready pointers",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/docs-audit",
-      "checksum": "sha256:31103afb5c93d5706fe7d34a75f952a8504b8fee6a5eec498f0e13a3e522c423",
+      "checksum": "sha256:b5cfb3235b251fd153cf3f60739d0d0c588f78839ea0f0519a3d4a5e22078903",
       "profileChecksum": "sha256-tree:1fb419d2ecf2ab529fe5e4199db1fb75adc5faa0ca40f0ad8c8f2e491328f71b"
     },
     {
@@ -23885,13 +23885,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/git-cleanup-ops",
-      "checksum": "sha256:052b43ae23d281092ea96c337fd9016116d34359c412e36159af4c9b250d5487",
+      "checksum": "sha256:3a0bf4c1c01ee8398bbfaff0b6e2a8579d7524df5c447f7ada85563a33d4177f",
       "profileChecksum": "sha256-tree:cd520d2883b466cde65a5bf274de58dcf97970715a7557d9e5b1c426ee5d19c0"
     },
     {
@@ -25101,13 +25101,13 @@
       "version": "0.1.0",
       "description": "kotoba-merger — org-wide PR review & merge bot — com-junkawasaki fleet の org 横断 PR 審査 bot。bot fleet が立てた PR を",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-merger",
-      "checksum": "sha256:8b349f2e4d8ff5bfacc79b6e418042569eccae7833b97d4777676e97bcb4b5bc",
+      "checksum": "sha256:3199a49d15ae0324531ba81bf52de90f152673f16ccd0377e6c59267cead8594",
       "profileChecksum": "sha256-tree:fb5f2905d4c3c0b4fb3bad02ff982be9c49cf2d1e768ce2e13a85294448dcbd3"
     },
     {
@@ -36525,13 +36525,13 @@
       "version": "0.1.0",
       "description": "pr-cleanup — github pr を cleanup",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/pr-cleanup",
-      "checksum": "sha256:7828178f66f6374b2cfff87834562004fde3a42d1863c4f09eedf7e13f91ef96",
+      "checksum": "sha256:589ca839a857baf637d617bb23631d62e3875bbedde293abb70bea739b67cdb8",
       "profileChecksum": "sha256-tree:4db6a0585728ceedec5463987629c6257482df5f9dfce31707da43958fb93ec3"
     },
     {
@@ -36541,13 +36541,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/pr-drain",
-      "checksum": "sha256:310841bb08f0b83f5f7b705b137cedd47fc3d52edfa554430d55c8f5808fa7e4",
+      "checksum": "sha256:72556ecd61f58b85ebd2da7f18c6aaa5f8835c57604d695bfce554e93e7c5c5b",
       "profileChecksum": "sha256-tree:358d1eb795e38d49e54ad25cfced768f77a5e963cdb8d644abe4c025610e289f"
     },
     {
@@ -36653,13 +36653,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/reviewer",
-      "checksum": "sha256:5f738c822a6dd7f9858aada7b721ea9d67e1ab5c15a65cc4ccaf0531c0537ffa",
+      "checksum": "sha256:5dc88fd4d64b0240dd5b2278e6002f70ca41eb195182e24b3429ef46d7801b2d",
       "profileChecksum": "sha256-tree:1ed4ed6e5f79a37f698a8cc634630cf4b18526b561dae1bcebc1d6469b0323f7"
     },
     {
@@ -36669,13 +36669,13 @@
       "version": "0.1.0",
       "description": "rule-kaizen bot: standing な言い方が実装スナップショットを言語にしていないか測り、1 反復 1 finding で直す (ADR-2608261200), 3h cron",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/rule-kaizen",
-      "checksum": "sha256:2194cedd0eea6353f276db20268e2c29b937bf05023ff13767cd5b466e5d62ec",
+      "checksum": "sha256:e6b457fda71c17329c7149d11688910506d7bf1c705bcc6c288ef9508c76c390",
       "profileChecksum": "sha256-tree:826499bacde4c5872d9d3a0b0797a951d7e1ae1ea1891cdc2aa92d0b59021da4"
     },
     {
@@ -36765,13 +36765,13 @@
       "version": "0.1.0",
       "description": "cleanup・整理整頓専任。superproject と各 repo の cleanup(cleanup.cljs/cleanup-land.cljs)、west orphan audit、worktree/branch/stash の棚卸しと整理、ディレクトリ構造の秩序維持。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+      "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/seiri",
-      "checksum": "sha256:e3cd40bdeacc9c4ba1cc40320ce37ce0f9f6ac0c9317a4c6dbcee5c34d933171",
+      "checksum": "sha256:4f2934c2e1a0c39d3aea84985244e0f4cc740e03bcdfb177f9f371ac78b76cff",
       "profileChecksum": "sha256-tree:4fa4ab1da52b48bbcd744bb70d05773008a86a86a9991315b549f502d288f4a3"
     },
     {
