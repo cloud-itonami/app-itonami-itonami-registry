@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami-winfix-qa — Windows版 Cloud Itonami の品質検証 — itonami.cloud Windows版の起動品質を検証する専門 profile。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-winfix-qa",
     "checksum": "sha256-tree:d304f1bd779fccd529ba57030869708fe4929eaf7e3ea83b69257437723897fb",
     "files": [
