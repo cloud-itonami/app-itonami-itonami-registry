@@ -8200,7 +8200,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "c3c3b64d97115708f10ed3c4d9f3217dce3dbb9e",
+          "sourceCommit": "b7685fbde7b30a9834b79e39277f44e4cfedf1a1",
           "entry": "profile/physai-isco-2412"
         }
       ]
@@ -8230,7 +8230,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "40b8586ac26ed6f8531791623d522049990f9ae4",
+          "sourceCommit": "2a172d09d9e12c7caf1432d95e46215525bb9546",
           "entry": "profile/physai-isco-2413"
         }
       ]
@@ -8264,7 +8264,7 @@
           "entry": "agent/physical-ai-evidence-bot"
         },
         {
-          "sourceCommit": "53308c6e471ab0afcebe8861b73db9fd458dc39a",
+          "sourceCommit": "5e85d0df89d75b56f6391ec7bf4ff8f13a6f0ba6",
           "entry": "profile/physai-isco-2421"
         }
       ]
@@ -8294,7 +8294,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "66e983990f2901d24d15c02f81b99c7b5762e00b",
+          "sourceCommit": "68fa47791ac8bc07733feecc96462eeece565a81",
           "entry": "profile/physai-isco-2422"
         }
       ]
@@ -8324,7 +8324,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "1d00593bd5922c7c7fcbff94ed0eaa8369f59039",
+          "sourceCommit": "58d49cfce57041cc34c297ecf3e709ae24221d8c",
           "entry": "profile/physai-isco-2423"
         }
       ]
@@ -8354,7 +8354,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "d464ee166423dd422b40de5178d75726400f85bf",
+          "sourceCommit": "0470ebfc21014c68b50cc89c27970b8774dbc404",
           "entry": "profile/physai-isco-2424"
         }
       ]
@@ -8384,7 +8384,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "a74f5fd25404b2fc62acc1af53111e15a867352b",
+          "sourceCommit": "d254144504e288c9bb7e23ff9574fbb4d66d011e",
           "entry": "profile/physai-isco-2431"
         }
       ]
@@ -8414,7 +8414,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "5df17da59c274f76ff20f7f7d0e106e8a1486d8b",
+          "sourceCommit": "dba90b9269acd513850699afd0d07a691b141d55",
           "entry": "profile/physai-isco-2432"
         }
       ]
@@ -8444,7 +8444,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "64fb5f1c2b1bf4153e7a56686dfc934e3efd9815",
+          "sourceCommit": "9759b93eabe8c48a593f7ecae01677e5af13c324",
           "entry": "profile/physai-isco-2433"
         }
       ]
@@ -8474,7 +8474,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "3d93775c483f04c7aa19e196c470d5e7b192e65f",
+          "sourceCommit": "b28e737182fdbec7235eae62696762ffa32c8148",
           "entry": "profile/physai-isco-2434"
         }
       ]
@@ -8504,7 +8504,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "8c76e2178942287f65306b861d2f86e3f18f1b0a",
+          "sourceCommit": "30c863a1c5b600195dfc054364dd837e76a60e5a",
           "entry": "profile/physai-isco-2511"
         }
       ]
@@ -8534,7 +8534,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "4b5459245dd198ee8bb9d29aa71ea707f43a2061",
+          "sourceCommit": "2776dff29ea2ff6b526d6e4564990370a293b3fe",
           "entry": "profile/physai-isco-2512"
         }
       ]
@@ -8564,7 +8564,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "1af25bf410731aa2b8451443b5de270938a13722",
+          "sourceCommit": "e58d7b1d7dbed3606f620c645f05885f905e6384",
           "entry": "profile/physai-isco-2513"
         }
       ]
