@@ -36533,6 +36533,643 @@
           "url": "https://github.com/cloud-itonami/itonami-registry/blob/b181b5a93890900f03dbfd4550bec23d6b0a3fb6/docs/guides/reference-image-fidelity-ja.md"
         }
       ]
+    },
+    {
+      "id": "isic-a1a2ae0",
+      "repository": "cloud-itonami/isic",
+      "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+      "files": [
+        {
+          "path": "hermes/profiles/itonami-isic-a/SOUL.md",
+          "sha256": "2b5e5bb68571b1ebaec9eed41d1594e3be3dcf9da39cf7b5a22fc83fd819402d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-a/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-a/cron/jobs.json",
+          "sha256": "de78ec314e9af48caf13aed87a24144e223e7866e8584e05ae48370977fd1ede",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-a/profile.yaml",
+          "sha256": "c0bf503fb29c8023629e324205291917bfc8275350df2286580a562e2a388bca",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-a/scripts/isicA_evidence.cljk",
+          "sha256": "fa138f1dd5621fbf1dfd1f4f516fabe0a1ba6fa2008ef436e70aa3fb78eb8461",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/scripts/isicA_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-a/scripts/isicA_evidence.hy",
+          "sha256": "c3d4f97f6bbf93f18cef49d654540d924470df0422fc8bc7323b898b50bbf176",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-a/scripts/isicA_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/SOUL.md",
+          "sha256": "94e42959c3f0ecad6226fb41f6da6b0123b37ad53d029c67655133316cc999a8",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/config.yaml",
+          "sha256": "7014c66669cdf7c816e3a4b1ca284344b2f1a4c469b03cb219ad142e2b3fe87e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/cron/jobs.json",
+          "sha256": "1bc06f0a1574ecfc841c96fb598eef96396cfa1c2007e543c6ebe6da86a7fb51",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/profile.yaml",
+          "sha256": "0cd7352c0958ff4c07ef7d775f750c50e8f4700618bc104d7fc7014d00733929",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/scripts/isicB_evidence.cljk",
+          "sha256": "8fa22ac5026418bd38719e5044fd1f35c629c23c55cc4d2c53b401f4ee82057d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/scripts/isicB_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-b/scripts/isicB_evidence.hy",
+          "sha256": "ec986ef91334966dda2dc9a20e16233edff6fdd9a3db98f7fb2c2ea02396154b",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-b/scripts/isicB_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/SOUL.md",
+          "sha256": "3bb903c7e75426f3c266388e87c57050f8b6e28cb5e04e44f666eea3f8c51fb0",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/config.yaml",
+          "sha256": "7014c66669cdf7c816e3a4b1ca284344b2f1a4c469b03cb219ad142e2b3fe87e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/cron/jobs.json",
+          "sha256": "3b7785f1b7004cd0cc3cf8e3712097e68474df9250a5700ac7bad2215eab8345",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/profile.yaml",
+          "sha256": "6aecdc13f671f1848fd219acc12ba534b8c3a9ad7b30bbba8d440a719667cca1",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/scripts/isicC_evidence.cljk",
+          "sha256": "2a531102e0ea75daa5b7318dc9429313dfb49c2f333ee355caece481d521c743",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/scripts/isicC_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-c/scripts/isicC_evidence.hy",
+          "sha256": "b2ee82ae9a2dbfd7ed272e46f64238ddabc410f0ea662293d69979aa9702b9ae",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-c/scripts/isicC_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/SOUL.md",
+          "sha256": "7cf11501a581c618873dcdf91a9321ca6de75ba1014d0bb60cd46170c6e8561a",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/cron/jobs.json",
+          "sha256": "102069dd360c4be03144d4f2a49a11803a67276401777cbd84b5e57ba0b62b37",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/profile.yaml",
+          "sha256": "156ffa2fd1c2224df7237705b2b626b58e5848560e2f5a0b0f03c273fe671f6c",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/scripts/isicD_evidence.cljk",
+          "sha256": "a9347fd9b4e3018cadc8c28606adc0394e7c032a9dc79238b1af64ecd7ec2349",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/scripts/isicD_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-d/scripts/isicD_evidence.hy",
+          "sha256": "175775f7166e56de50d7a3bbb2ee8552480d5a9a1df35ac7c9806979c4e6f218",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-d/scripts/isicD_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/SOUL.md",
+          "sha256": "dcb6affd979d448165d143bf570071d26c76c31fe20a84f899cf0886afb35aa7",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/cron/jobs.json",
+          "sha256": "4265cb9abddd7805985ee018189946231b4b8f3af3775f5f76185ba46adb6dd1",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/profile.yaml",
+          "sha256": "dd29fb44e021cea4b42d227b45544f87f288c93a5e1e8769356210e096be3fb3",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/scripts/isicE_evidence.cljk",
+          "sha256": "216369232ad9bfadcb48fb596dc6ed40eff723616f71321b1db2a1188300d6b8",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/scripts/isicE_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-e/scripts/isicE_evidence.hy",
+          "sha256": "b63673e1d6ee180726dd39518da8ce836102b832ee5b280d0b153a69fb7c0fbd",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-e/scripts/isicE_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/SOUL.md",
+          "sha256": "2dcd75755de053546766a1061e3e80d41d206a162f115a8e3297bda95ae19eb5",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/cron/jobs.json",
+          "sha256": "95017cdc845dc5c264f35175093937613e7520dba04f686cb122f707a009d588",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/profile.yaml",
+          "sha256": "214eb02d60d3b6fdc6a08c60a3d578486a8e2419e95c37337c715d2fb36d4cb9",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/scripts/isicF_evidence.cljk",
+          "sha256": "fce7d2595cc250cd66100b718615f8ddc8cc96e2022bdf2d9dc10e52ef7dc6b4",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/scripts/isicF_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-f/scripts/isicF_evidence.hy",
+          "sha256": "d45dc453aeba10026dfa8aa518125e9be426f59f8858754540a24364b8e163c3",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-f/scripts/isicF_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/SOUL.md",
+          "sha256": "e06888b773d51b2c837339510241a443c31eff6233cc516f4a7b2b7a4d9a7286",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/cron/jobs.json",
+          "sha256": "d16ea93f304a481ce340448258b8090a4cc70578bfbd3e7a0b6b8f4e55379dc5",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/profile.yaml",
+          "sha256": "1bd87cab780c5da593360a99c18af09173fd978b57520702a1e487b098c8e59e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/scripts/isicG_evidence.cljk",
+          "sha256": "7b136a250c1435510daf765e2c558236597665a58094a75f42d37a9187f00845",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/scripts/isicG_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-g/scripts/isicG_evidence.hy",
+          "sha256": "f8655822baebfa458738d8bbdcd4c701f80b19ac31cf2d0d7e2659d9b9cb7e76",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-g/scripts/isicG_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/SOUL.md",
+          "sha256": "55f2415c1e3d8714025b598d297669943e78cde38822f4a30211ab4cd6b253d4",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/cron/jobs.json",
+          "sha256": "697334084abc25e860779dced82d1bc97982f16eb1924d4b9b1d3da13ce0c069",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/profile.yaml",
+          "sha256": "ff58e2ea4f4b42179d130260c084c135edcc64f1ac1469b15241413b68ec406e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/scripts/isicH_evidence.cljk",
+          "sha256": "e4dd5c33fc4ff41c8138c497f1477395db1bff117399eb173f8a364c3c2b8194",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/scripts/isicH_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-h/scripts/isicH_evidence.hy",
+          "sha256": "7ecf84426954a1f4ce3e7fc81ad6baa09393be54afa53a14fcaadfff98d6b3bf",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-h/scripts/isicH_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/SOUL.md",
+          "sha256": "ab4608be434f5e49b93b13e145195a6ed5c08270967f7fd13e4ce2aa2e77b948",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/cron/jobs.json",
+          "sha256": "df7fdb71dc47c2cca99537ed6a45bac081f4062f0eabc1350e49e2e8e2d3b259",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/profile.yaml",
+          "sha256": "f816db57b751fdda37279ed8c22befb3bab1c4e23f5576018e7e37a75c95c25f",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/scripts/isicI_evidence.cljk",
+          "sha256": "7ac847cbbb608c79962868f03329300e34057aa77c7103abbd129cbb648d8c19",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/scripts/isicI_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-i/scripts/isicI_evidence.hy",
+          "sha256": "7877e2682bac52e2a64df58b4f0ab96e8e32d2fa2dbcd33bce6a20826c94ba46",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-i/scripts/isicI_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/SOUL.md",
+          "sha256": "cb893d131962ce61dffdc9af790f50bc5b4352af9e34dfade7547b5c0ace42a4",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/cron/jobs.json",
+          "sha256": "8d711eba02545a70dfa41178b07809cdd40bafca32eb6e31c49041ec3620408c",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/profile.yaml",
+          "sha256": "7f2d1d315607002b42dd79c3e0ff69cb728984c09c5221821dbf42efeaa35915",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/scripts/isicJ_evidence.cljk",
+          "sha256": "9e2c988befcdc4e6bdb12795319f2a19b420fdd94b895305a964ecfe6f1a2164",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/scripts/isicJ_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-j/scripts/isicJ_evidence.hy",
+          "sha256": "3aeda06f7ffc2a6529dd198eaedb178332a07758a3f2e05dfacb6de91fbd0644",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-j/scripts/isicJ_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/SOUL.md",
+          "sha256": "c43ed4da9fe432a35e40050e8532457b6a118ab0fde55f1e697374960b9d4c4e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/cron/jobs.json",
+          "sha256": "75a19fb05fc47ec22f3fc256dcefaccd7a50de565da150e49f5fea1bde8330c7",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/profile.yaml",
+          "sha256": "02f5d187333b70fe4e86a650d5580e87244ad2a05e657f57d431f45c675da573",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/scripts/isicK_evidence.cljk",
+          "sha256": "2acd933444c9dfed61c451c7f5eb22cd1949d25cc595dc4aeb8ce6ed304bdea7",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/scripts/isicK_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-k/scripts/isicK_evidence.hy",
+          "sha256": "4dc2f8701d370a594d985af1e4afad7c30387e66a53e0b392617320d4c388957",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-k/scripts/isicK_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/SOUL.md",
+          "sha256": "faf3b2286ab6318f31e87785715e36dfb240853594721378b495f1abdd081301",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/cron/jobs.json",
+          "sha256": "3946fcfa78a78f412fd18dc91b63b6a58ad27c91409a4df4fdfea3a14fe0a5b2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/profile.yaml",
+          "sha256": "0b56d25e810f9598b277ff458836f0c2f92c87e0372de9eb6228506bacf95dab",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/scripts/isicL_evidence.cljk",
+          "sha256": "f6d373faf05664077289941e33ac0599abf1552fcbcef62e567295adae9720ed",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/scripts/isicL_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-l/scripts/isicL_evidence.hy",
+          "sha256": "5a70321a6e0a546bbd01eb895a898b276969f1c6320d6fcd02024d9b864753ff",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-l/scripts/isicL_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/SOUL.md",
+          "sha256": "2823f3d597b39cbbab9dbb4bb192f4a6284abb6e77d6586877ea109d901dfa54",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/config.yaml",
+          "sha256": "7014c66669cdf7c816e3a4b1ca284344b2f1a4c469b03cb219ad142e2b3fe87e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/cron/jobs.json",
+          "sha256": "a6ff98c20ac5969ef3e3c984cd8f46496b0153bdc04df5de4c89c5add9d4bcba",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/profile.yaml",
+          "sha256": "6955e4e2f64cef1a69feb25170deb53b8e3312000a3f5d6b273958eebadd5e7d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/scripts/isicM_evidence.cljk",
+          "sha256": "6f9e75a498917f8d443c876014e8a8a01ca92046f81135531b671997ac5d8306",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/scripts/isicM_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-m/scripts/isicM_evidence.hy",
+          "sha256": "30d86570d9634b7fe8674394a8148ddeac658d7cfb3354f5b8c5dada7deb2b8f",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-m/scripts/isicM_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/SOUL.md",
+          "sha256": "95531b7a442a669c3abf2573a30d4b79f7d03d1f2b3738f03ddb749e3f634cfb",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/config.yaml",
+          "sha256": "7014c66669cdf7c816e3a4b1ca284344b2f1a4c469b03cb219ad142e2b3fe87e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/cron/jobs.json",
+          "sha256": "0bfbd731fd5d26f1a4e59148ac7e9792f634d5a74831695788170941cb93598b",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/profile.yaml",
+          "sha256": "0f7374a287ef4c100e2cfe04b0b2f0b640b8c55a9aed20735af679a0ccc41545",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/scripts/isicN_evidence.cljk",
+          "sha256": "2726ca39fc355a34dffd2e65cd565a5a69670d9cad80feb916221137c117c1c2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/scripts/isicN_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-n/scripts/isicN_evidence.hy",
+          "sha256": "7b3083a0f2a150413e289800e48603b01eaa028bd1540d0cf29b94cac3a55980",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-n/scripts/isicN_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/SOUL.md",
+          "sha256": "303fd45d1bc2a49796f0e5f8d9a5908d87aba1bb46422866b75ac296d8036d04",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/cron/jobs.json",
+          "sha256": "461bbdee9ec5cb8efff8d15a661ef6f1dfa401acaf7f032b87be8ee1dbae24ac",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/profile.yaml",
+          "sha256": "f121b288b2a1817d92327fb8799b8eb365174e98d5d49324342aa596f4bf2431",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/scripts/isicO_evidence.cljk",
+          "sha256": "ea361beabcdd95f71641166bb476d46d8e1a0631859594df2065e119daa34f1d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/scripts/isicO_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-o/scripts/isicO_evidence.hy",
+          "sha256": "95a0369032d1dba1214c5c68f7d00291245dad41dedda661ceb0282cec1a3f8e",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-o/scripts/isicO_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/SOUL.md",
+          "sha256": "cf890e8c1b8e21321d5373395297f50a84515bb334c9af17097e8471ba848ca2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/cron/jobs.json",
+          "sha256": "548868cafcb5c609d0386482c60404f9eb778f06be7e3cf718f63c6a7812f4d3",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/profile.yaml",
+          "sha256": "a99a3499c292e0a6cf08eeb006c0fa182380fbb56cd75bc16b4ba953da493355",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/scripts/isicP_evidence.cljk",
+          "sha256": "aab3dd213592d0619e34477cf1f6df1ec7728d131aade0cabf9c009b7f728b6f",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/scripts/isicP_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-p/scripts/isicP_evidence.hy",
+          "sha256": "d59cb5f3b5585ba06a6fdacc15b2e7c0e6ebe822c2766c47d906d66279b797a1",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-p/scripts/isicP_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/SOUL.md",
+          "sha256": "bb6cda91ab31840182ed3085a87c196595bd0ca72c70069fcca40e99c2cccc90",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/cron/jobs.json",
+          "sha256": "85843115c444c259c035e37fbbce9023ed725d59d6f2503de7f03167a66ecb5f",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/profile.yaml",
+          "sha256": "2138c5744f5b41f420ee770cff957e6511eac898cfd384d4edc92cdf2f942e37",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/scripts/isicQ_evidence.cljk",
+          "sha256": "e66dda70348e27241d9b65565ccef5e06fdc1a47b544fcb37ff704c28746d6c6",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/scripts/isicQ_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-q/scripts/isicQ_evidence.hy",
+          "sha256": "654404f4a0c59cdcfe3ced4cd78a19570b7bdeba9495b5bafc787323b8ba9c54",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-q/scripts/isicQ_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/SOUL.md",
+          "sha256": "fa8eedfde0447a66e9dab9f7c1c57f3dbe029682a5923481b11614178b17202b",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/cron/jobs.json",
+          "sha256": "58ee3a0bfd6de2a494caabd88c376498b44eb0b666fc3ecb56344300490ef4e2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/profile.yaml",
+          "sha256": "5085146aabd2751a115eab053a44b01ea891da68ee166f07e476cacb8c3357e2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/scripts/isicR_evidence.cljk",
+          "sha256": "a26eba372a499ffe7e8da56dfc4cc5514b5aef7d849640e68738d34faa8a8e48",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/scripts/isicR_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-r/scripts/isicR_evidence.hy",
+          "sha256": "94876b93590969694a8e06208bcbeb47e4d0c9d250b01123e676a27b3a05b785",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-r/scripts/isicR_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/SOUL.md",
+          "sha256": "0e41860b184153cae1e1f1ed406390afefcbfb5b3ff2d5debbd1315356d62486",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/cron/jobs.json",
+          "sha256": "296b0a1692fbbde815994c9e1e211ac1a30e8c63e9159fa084761610b54d572d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/profile.yaml",
+          "sha256": "4a85e14dfe2e63e10628376e1c5e795fcc2057948bd93212beace01249673de2",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/scripts/isicS_evidence.cljk",
+          "sha256": "ee05f39da9e8b8cefd93e0359c97106837af27ee5c339bdf536da19c03ece188",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/scripts/isicS_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-s/scripts/isicS_evidence.hy",
+          "sha256": "d14f3e632597edc0bf7987d8b89a245d16311c959a3b26fbbe85819e1a4b479f",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-s/scripts/isicS_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/SOUL.md",
+          "sha256": "ccbf41692a562778bdad37f1d6f971881016a3529920a31d30f2e65f4214e15b",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/cron/jobs.json",
+          "sha256": "2cf54efaa0eae2cb1fd048aac49c696531ce7e5b0e9977a5d4147638e90e2714",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/profile.yaml",
+          "sha256": "0cc88bc79c4b1f051ffc4d5a1bbea8e2d276290f79751bf100f91833e347812c",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/scripts/isicT_evidence.cljk",
+          "sha256": "8bc2712389450f1d00eda81fa34354cd3536fb88cdbe1b39d1a564b2eb3a91d9",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/scripts/isicT_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-t/scripts/isicT_evidence.hy",
+          "sha256": "c89e7e9fe3852a50af2ad161a1f579b63e9796e735c2259de31166d8967f274b",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-t/scripts/isicT_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/SOUL.md",
+          "sha256": "b7a8c0a22840702fad0826e41efb1a18f4bc65124a35d0f6608ead703d545624",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/cron/jobs.json",
+          "sha256": "f41e8b86bf445ea3d57334d130b762908bb8e302a04b6ee7423080242f7979f8",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/profile.yaml",
+          "sha256": "08a3fa978a691587bd6878885f75115946df246077661fc1ab05615cb76035a8",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/scripts/isicU_evidence.cljk",
+          "sha256": "359a8252989b5b13a2e73abeccd5fe38c8aa10a0ba125acc12ecfa94a195911d",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/scripts/isicU_evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/itonami-isic-u/scripts/isicU_evidence.hy",
+          "sha256": "808de60da52c81f74c940da91a85e1a3dbfac2f5b82665001ed914fa9d66ded0",
+          "url": "https://github.com/cloud-itonami/isic/blob/a1a2ae0cd2f32a4312cbda8c70830026277d91a2/hermes/profiles/itonami-isic-u/scripts/isicU_evidence.hy"
+        }
+      ]
     }
   ]
 }
