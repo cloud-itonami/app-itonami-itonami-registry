@@ -36533,6 +36533,133 @@
           "url": "https://github.com/cloud-itonami/itonami-registry/blob/b181b5a93890900f03dbfd4550bec23d6b0a3fb6/docs/guides/reference-image-fidelity-ja.md"
         }
       ]
+    },
+    {
+      "id": "kotobase-c191dd0",
+      "repository": "kotoba-lang/kotobase",
+      "commit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
+      "files": [
+        {
+          "path": "hermes/profiles/graphpr/SOUL.md",
+          "sha256": "a1aceb46a3a7d7782c1bf1396a83610bd6e7d5a448a2d14a0942ec424a4fac0e",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/graphpr/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/graphpr/config.yaml",
+          "sha256": "04287f1f0d06ef1fa4e180d3397f57436c40553d61efbddac2a5c308913df90d",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/graphpr/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/graphpr/profile.yaml",
+          "sha256": "4dd2beb3424b5f6ae18211e503e414f8d5d1fbb0814a60334a62df1f2a63d792",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/graphpr/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-b2/SOUL.md",
+          "sha256": "95a11a8e0e213f97825ea7c73032d9eebd7e0c01f559e904841aa3b117b49f1d",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-b2/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase-b2/config.yaml",
+          "sha256": "a4ff78585b0c3196a1e43147c89a9ae7a94bb3bc9d882c9bec761284af45118f",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-b2/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-b2/cron/jobs.json",
+          "sha256": "3549df15779465c743371684b9380db3ad35c6ad8ec14bcf03d3910a377b75af",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-b2/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/kotobase-b2/profile.yaml",
+          "sha256": "cce8287e1d9b715330ab0e2d02e12c65f14c05f64a6e0119343d4a86836a28da",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-b2/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-b2/scripts/b2_soak_tick.py",
+          "sha256": "d4fc1428d07005aada2ce5fd0d0e65f7e2cecb70110055f45e1aaa7752299181",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-b2/scripts/b2_soak_tick.py"
+        },
+        {
+          "path": "hermes/profiles/kotobase-eng/SOUL.md",
+          "sha256": "769502e50b0714bc0743c6cc4b4bc719f340df8051f4783ed6ba8666b66733b2",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-eng/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase-eng/config.yaml",
+          "sha256": "f5e0d57e7d79a4d99d1a2d9196e4753519dff5fbd47f9668b277c7fc95e960dd",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-eng/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-eng/profile.yaml",
+          "sha256": "9b5ed70eb41bd188faae1a0d3b5a46b318aa37da3b3c4d5f00178745dec01c67",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-eng/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-mktg/SOUL.md",
+          "sha256": "198b7b6b379fc5d49922621101efdcdd47972a933b41b5e80070eb60b280b41b",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-mktg/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase-mktg/config.yaml",
+          "sha256": "6f073082bf05d4ba43ccefe8db878663afef35e6e496dbbd1aa3f0febabf7a22",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-mktg/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-mktg/profile.yaml",
+          "sha256": "bafe7db0443a1971887b7b2bf5fc0920d8a1793b653946161120bb159cafe23a",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-mktg/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-po/SOUL.md",
+          "sha256": "0a5e6d41a27d1d25be1c33a447210b1b7d6670bfe29b96da1c51a476e550dfcf",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-po/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase-po/config.yaml",
+          "sha256": "6408da5fd7ed7c4e06600e749252be530adba487161fd41681c61e08a53ee36f",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-po/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-po/cron/jobs.json",
+          "sha256": "738cac7fc49837edb031e9ad3e2093ca66c31e97085486031ed9ebe375a57ff5",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-po/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/kotobase-po/profile.yaml",
+          "sha256": "e725886170bd4118836fd907ff01f574e99ab34f7f9a938b2c4d16f019d5831c",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-po/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-qa/SOUL.md",
+          "sha256": "6678de15e0837fa0e16cc6619a96d1c1284b183e968759f80c3737d826a7ea2c",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-qa/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase-qa/config.yaml",
+          "sha256": "8c0a9bcfa5055bb22021598c4108f1662bb2780ddde3f5b64d4c3b93c4bbb698",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-qa/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase-qa/profile.yaml",
+          "sha256": "c4cbc27583a013d01032ad51a49f042ed9265e7c31a2b016960a63f5603a50d9",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase-qa/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase/SOUL.md",
+          "sha256": "bca24b9ab9bf1af58f6ff3652d1d28d7ece914db9b7b7ff7afc0c964e8913358",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kotobase/config.yaml",
+          "sha256": "b8a62be6ff87e7f8bccf9a9b1f8e063d4c264d0d5680b2be0c26d6713a1d6ec7",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kotobase/profile.yaml",
+          "sha256": "455ae0251c4f5f7bb9a0e90fa711fae5ab261fef7ecb4aaad126990287f4c368",
+          "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase/profile.yaml"
+        }
+      ]
     }
   ]
 }
