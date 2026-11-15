@@ -2503,11 +2503,11 @@
           "entry": "agent/sealed-inbox-observer"
         },
         {
-          "sourceCommit": "8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+          "sourceCommit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
           "entry": "profile/mail-relay"
         },
         {
-          "sourceCommit": "8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+          "sourceCommit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
           "entry": "profile/tobari"
         },
         {
@@ -24072,11 +24072,11 @@
       "reason": "Reviewed 2026-10-11 at 8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307: Transport skill records valuable methodology discontinuities, aggregate/sovereign scope and data-year caveats, but duplicates the evidence collection/parameterized domain template lane. Retain owner methodology and fresh data verification; no frozen rankings imported.",
       "registrations": [
         {
-          "sourceCommit": "8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
+          "sourceCommit": "dc61b9bd21d93f56537040fe12618dc18cadbd8f",
           "entry": "profile/physai-isic-4920"
         },
         {
-          "sourceCommit": "8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
+          "sourceCommit": "dc61b9bd21d93f56537040fe12618dc18cadbd8f",
           "entry": "profile/transport-efficiency"
         }
       ]
@@ -26217,15 +26217,15 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "6a7173f63a3067654d10967cabad25b73d4c66c8",
+          "sourceCommit": "fd70908826cfd2adaa39419e594b5f4dccb5db01",
           "entry": "profile/kumiai-kotoba"
         },
         {
-          "sourceCommit": "6a7173f63a3067654d10967cabad25b73d4c66c8",
+          "sourceCommit": "fd70908826cfd2adaa39419e594b5f4dccb5db01",
           "entry": "profile/kumiai-sources"
         },
         {
-          "sourceCommit": "6a7173f63a3067654d10967cabad25b73d4c66c8",
+          "sourceCommit": "fd70908826cfd2adaa39419e594b5f4dccb5db01",
           "entry": "profile/physai-isic-6820"
         }
       ]
@@ -27180,11 +27180,11 @@
           "entry": "agent/resident-business-observer"
         },
         {
-          "sourceCommit": "1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+          "sourceCommit": "4ade664a708d985ead088ece8d1747df949a90e3",
           "entry": "profile/physai-isic-8121"
         },
         {
-          "sourceCommit": "1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+          "sourceCommit": "4ade664a708d985ead088ece8d1747df949a90e3",
           "entry": "profile/samu"
         },
         {
@@ -49300,15 +49300,15 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "9506826f7c3284fd32e2f1db957139bfeff43381",
+          "sourceCommit": "cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
           "entry": "profile/aiueos-cfree"
         },
         {
-          "sourceCommit": "9506826f7c3284fd32e2f1db957139bfeff43381",
+          "sourceCommit": "cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
           "entry": "profile/aiueos-handoff"
         },
         {
-          "sourceCommit": "9506826f7c3284fd32e2f1db957139bfeff43381",
+          "sourceCommit": "cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
           "entry": "profile/linux-parity"
         }
       ]
@@ -91368,15 +91368,15 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+          "sourceCommit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
           "entry": "profile/kotoba-lang-support"
         },
         {
-          "sourceCommit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+          "sourceCommit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
           "entry": "profile/kotoba-pure-s"
         },
         {
-          "sourceCommit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+          "sourceCommit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
           "entry": "profile/webest"
         },
         {

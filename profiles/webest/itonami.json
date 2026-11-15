@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-lang-58e42725"
+    "kotoba-lang-b4837af"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotoba-lang org ウェブ担当 (@webest): kotoba-lang.org サイト刷新 + WebGPU/Three.js 没入型 3D ランディング設計・実装・デプロイ。規律: design-quality audit ゲート、パフォーマンス実測 (WebGPU→WebGL2→静的 fallback)、CLJC 優先 (kami-web math/render-ir)、ko",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
