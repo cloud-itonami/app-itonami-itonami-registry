@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-13T08:07:15.365316Z",
+  "generated": "2026-11-15T02:32:43.555595Z",
   "count": 1985,
   "entries": [
     {
@@ -24189,13 +24189,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 1 Managers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-1",
-      "checksum": "sha256:1833768f9d616cba69e19b70b1ccf75e98ecbf9ea2461052724fb9b67c5c8d22",
+      "checksum": "sha256:444ae2aeed470b102eeabb5bc4ea8c666d0fe310e33ffed7ae6280b54a83de9c",
       "profileChecksum": "sha256-tree:f2dfc81eede34e9914180cd8dced2b42c08a0e9a95d6ad9a7106a9dd3f7f73f5"
     },
     {
@@ -24205,13 +24205,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 2 Professionals occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-2",
-      "checksum": "sha256:72b2c835430f331afe5450541f1693aadd35a6053c3966d4764955017d66a6e5",
+      "checksum": "sha256:2b991efb06ad74cb2438c2cbda9981cecb35855133a25d48c1ca10d9c16c95db",
       "profileChecksum": "sha256-tree:569e41e68b809593bf5d848c37685d6522676a683689dde85d966301af6ff678"
     },
     {
@@ -24221,13 +24221,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 3 Technicians and Associate Professionals occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-3",
-      "checksum": "sha256:a8f42b3d0ca77f8c7add8491923fe49ff6fe352b0aa357f287acdfb077592f14",
+      "checksum": "sha256:81e777e93b0d674cc9b3028b607799a0f7f4f6b909526efd705a3663947d4a57",
       "profileChecksum": "sha256-tree:c9ac4466a814ad794807d2a73454dc849af4b9c039eb7b408d4e8cadc233041e"
     },
     {
@@ -24237,13 +24237,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 5 Services And Sales Workers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-5",
-      "checksum": "sha256:22d2482434942c53dba2b4447e84fbe121dc7224aa01eadba1e45e177d33b0bb",
+      "checksum": "sha256:ca2558067311a78ccc5f20966a759e3741f812f2f1fb7345aa3d90c397fba353",
       "profileChecksum": "sha256-tree:a76672504498612ffa270f91b7164241566f67117a679e1cd78a594cffaa81ae"
     },
     {
@@ -24253,13 +24253,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 6 Skilled Agricultural, Forestry and Fishery Workers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-6",
-      "checksum": "sha256:c8f9924b22e45e2e3ca258618c17534d15b957fc1be8c497078d0cbe9fe5b055",
+      "checksum": "sha256:5a4f3e17149bb9759d2f25475d95309ae6d077b814a54822b1a7f315e388c811",
       "profileChecksum": "sha256-tree:971b4889173cb485174be17bb08807a66ab179ea8c8e1b166d7544e46d7350c2"
     },
     {
@@ -24269,13 +24269,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 7 Craft and Related Trades Workers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-7",
-      "checksum": "sha256:2ea896d0973763555bb6306afb8ef610a6448bd3733f915f20238c7cbe8490e6",
+      "checksum": "sha256:d709578fc9b5aec8a06517bd88e505d297644b889d3b32214eec1ae1f34cee29",
       "profileChecksum": "sha256-tree:d7a1babc27a3b2d6eb74c70b08bef87a5d546f917ff7f280ece8f984ca1dffe8"
     },
     {
@@ -24285,13 +24285,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 8 Plant and Machine Operators and Assemblers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-8",
-      "checksum": "sha256:a368df774038b0e40f9f10dbfa196b8ddec3fd7149d85288d33660a6601a9924",
+      "checksum": "sha256:3453b78b6ee9272e038d82d5309e5c5a56a25dff6da4faaf0f9d612d844d8f2c",
       "profileChecksum": "sha256-tree:91c01c6b3b36e1c045d228389a50247727ce9f8bb71579f74f7954fe548ad4e5"
     },
     {
@@ -24301,13 +24301,13 @@
       "version": "0.1.0",
       "description": "itonami ISCO major 9 Elementary Occupations occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+      "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isco-9",
-      "checksum": "sha256:d73c26456d963ef6749be709334cd9b3662f6df30e5727f38482c8d731fb25d0",
+      "checksum": "sha256:6a5f71356d9d8bd5210512e2d498611f1ca8a77b306d922e395ec49aa199d0fd",
       "profileChecksum": "sha256-tree:5b1bfe38b8bc93cc028ba78a4badf36574aa95163950aea3ed4a0127374f9e4a"
     },
     {
