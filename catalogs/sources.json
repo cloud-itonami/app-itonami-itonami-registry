@@ -36533,6 +36533,263 @@
           "url": "https://github.com/cloud-itonami/itonami-registry/blob/b181b5a93890900f03dbfd4550bec23d6b0a3fb6/docs/guides/reference-image-fidelity-ja.md"
         }
       ]
+    },
+    {
+      "id": "murakumo-678e08e",
+      "repository": "kotoba-lang/murakumo",
+      "commit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
+      "files": [
+        {
+          "path": "hermes/profiles/glm53-cyber/SOUL.md",
+          "sha256": "a694a5bd99282c787768ad6dd85d965bf20fe2b4df76ab7ee61b5328b08047d8",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/glm53-cyber/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/glm53-cyber/config.yaml",
+          "sha256": "dda7921c2883903a1265895e59843885987dce075194054fb6d3de6fa6eef7d3",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/glm53-cyber/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/glm53-cyber/profile.yaml",
+          "sha256": "6d1475690618071c0f831f4496ba1fa9a1594191680e2cd5125ce06c635d05e2",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/glm53-cyber/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/mishima-fast/SOUL.md",
+          "sha256": "35f1c981bfe00e440f5fc0bbaf4e8523f8e6de70b833ed9416b53960bc59a118",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/mishima-fast/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/mishima-fast/config.yaml",
+          "sha256": "fa8e30de43bcdaef299c94da002ab792dec8471e225d383d6146b7e3f29049cd",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/mishima-fast/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/mishima-fast/profile.yaml",
+          "sha256": "6d6372bca06e0bc93610715977d45717449437e24c8c1c0d648ae0b1a8e03762",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/mishima-fast/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-infer-maturity/SOUL.md",
+          "sha256": "611febb50b9fb019cc96ac996bacbf4d9c327617c2c8e0e0defb1fe869058b08",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-infer-maturity/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo-infer-maturity/config.yaml",
+          "sha256": "7c6d2b1d850af57cddf2b3018773e0d1f18d1f49ea5e3ae7c2162dc327f5b533",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-infer-maturity/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-infer-maturity/cron/jobs.json",
+          "sha256": "2af522e6173c8501afd59529f5c0c640de445c304d4e6cb72fd0bf9047e329b3",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-infer-maturity/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/murakumo-infer-maturity/profile.yaml",
+          "sha256": "d162620a0a3b277d5b60ff444a818b6cc983cdf1bd3c2cf98cb1a07d37e91933",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-infer-maturity/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-poi/SOUL.md",
+          "sha256": "e38edbbac4b4e631dfe266154fedf33fc7152ab6f53b878614313b2a0c77ba93",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-poi/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo-poi/config.yaml",
+          "sha256": "738fbaefc294ce9ac4a2fcabb0a0a25ec7faaf2d09a087160b13b591f090be6c",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-poi/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-poi/cron/jobs.json",
+          "sha256": "24947548616d46ccb545eb9b4584d12bec8a3a4ba1d47cbded45f8c6986691da",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-poi/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/murakumo-poi/profile.yaml",
+          "sha256": "8d75b67deaba18c1d01c1f84b34cd073934808c566e5b774f0bfedb90967ecdb",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-poi/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-poi/scripts/poi_round.cljk",
+          "sha256": "a82676b57b21919947157b0a36a0c42e8b3aee97743b8e0fc2c85cf810e45479",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-poi/scripts/poi_round.cljk"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/SOUL.md",
+          "sha256": "5c093f7d02b19f678d29763a4465d85ce4a707c470784b80b540c6d25d76a5b8",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/config.yaml",
+          "sha256": "c1d45e962a1d2ff93f25fc5a1f96ea9243104a031ffd33d9eb100bedd994a755",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/cron/jobs.json",
+          "sha256": "b3f8fd564ed3c155fa48c6621a03f2fed893f22684db5a2db6713d3da0ef5585",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/scripts/amu_perf_read.py",
+          "sha256": "a5770fc2148ebfe5d69ca4ffebade30b7f38bca88af8c84fb38fc97902a726f1",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/scripts/amu_perf_read.py"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/scripts/fleet_cost_read.py",
+          "sha256": "132c282fbe2bdcaa382c75124993475a934df6514ae46a86853d197b3c56e8a7",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/scripts/fleet_cost_read.py"
+        },
+        {
+          "path": "hermes/profiles/murakumo-tok/scripts/murakumo_infer_bench.py",
+          "sha256": "59e7fa884f997c178aef56caac4628f60bd82adcd8b8c329c5cd872339c2eed0",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo-tok/scripts/murakumo_infer_bench.py"
+        },
+        {
+          "path": "hermes/profiles/murakumo/SOUL.md",
+          "sha256": "9ca13df52d5da3f22195fddcfada1bd010d5d54138ba4cbc9a3b06e869c43627",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/config.yaml",
+          "sha256": "1ec47ea95df21aa585cf62aa7f3649d1ccc1906c07213081c19fdfa77176103a",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo/cron/jobs.json",
+          "sha256": "ce4426fb07f9105e571c1ace74738bbd21d68788ef5dff2a1a934a412ce36c3f",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/murakumo/profile.yaml",
+          "sha256": "c88c57ca832b7c0fb4a57b206ec77021e6121364294c5bdf8c02fa9638407668",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo/scripts/native_infer_evidence.py",
+          "sha256": "740a6e8e6d8ebea06dc3b79fccf72283d901a3e23a3c5a846fccd828ff61758e",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/scripts/native_infer_evidence.py"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/SKILL.md",
+          "sha256": "d570bcb4aeaeff803e176627b2c17850ec71b219298b166548a662cb9dcba28b",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/cljs-governed-artifact-refresh.md",
+          "sha256": "059971001dee82ce3224a22705d4a4b2f56fa777dbb828b9da71e7813aa81b96",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/cljs-governed-artifact-refresh.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/cloud-itonami-business-bot.md",
+          "sha256": "bd006ef7e971c3d2ab36910df4b3a241b2caa2d2fd64387f68f11b659b9e2cf9",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/cloud-itonami-business-bot.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/data-source-data-business.md",
+          "sha256": "530c121337347cb70cf2518f41136617ce1a90b8138ca2508378e0188416ef5a",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/data-source-data-business.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/hyakka-crawl-fleet.md",
+          "sha256": "6a657fae57304b53008d227f2b2db420dd1b06987d94a3ac08c0312c8eabcc91",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/hyakka-crawl-fleet.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/itonami-occupation-bots.md",
+          "sha256": "d00627d795aebfd8db2a05d5e67e88ec1ffb3cd5b0de8e8e285f21e23f9277e5",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/itonami-occupation-bots.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/mail-relay-provider-playbook.md",
+          "sha256": "2c690e1d91d8268161d952372e1bea95cd43d0bb1f6339838df463414b288333",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/mail-relay-provider-playbook.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/murakumo-model-routing.md",
+          "sha256": "6cc1d3586a7830b6e94c4144d6e7cca950ab44b4b254a6145a97dd8021b6d9d7",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/murakumo-model-routing.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/r2-data-catalog.md",
+          "sha256": "5fa314117cd9c78922b82e24aa8f243c976fb9ab20a497b13cb9b7aae5824961",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/r2-data-catalog.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/references/tor-crawl-playbook.md",
+          "sha256": "f5d358774fc6f56b32d8a47376e8c436779e141d0cca9b1765a2ae89c7e2a693",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/references/tor-crawl-playbook.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/bot-profile-scaffold/templates/evidence.cljk",
+          "sha256": "80138408de22393e6c58b88c2d4e6c48ca5d88ad8d16e58fd3d73ea811dbc23e",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/bot-profile-scaffold/templates/evidence.cljk"
+        },
+        {
+          "path": "hermes/profiles/murakumo/skills/fleet-model-tier-assignment/SKILL.md",
+          "sha256": "415177d8cdd206993d59da4d249644515b103b764d9fedf61828afc58b32bf7c",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/murakumo/skills/fleet-model-tier-assignment/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/oriru/SOUL.md",
+          "sha256": "b0e40cc13890caa3d7963fd3036b498aff4972960916c5615e5d4085fb66847b",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/oriru/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/oriru/config.yaml",
+          "sha256": "e69436d9bddc5c57515556d3fb5ae58620aa3b9432ffd364228345ad5bc07218",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/oriru/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/oriru/cron/jobs.json",
+          "sha256": "ca583ca71232198645c82cf474683db370f009802a693f4ca71f50cafaccda8f",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/oriru/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/oriru/profile.yaml",
+          "sha256": "9f7ffffca9ceed23486b5d02ab71db15e15ff45fe765bbe815deb00fe1203864",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/oriru/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/qwen38-cyber/SOUL.md",
+          "sha256": "b248234497ab78cd6eb053524f9c5b5bd8f09bd5ffd09482737e7e95a744dc87",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/qwen38-cyber/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/qwen38-cyber/config.yaml",
+          "sha256": "37ebc18b4edac4cd58128d9809932b96aa7a4ac8003cf7548b06a1626239de5b",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/qwen38-cyber/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/qwen38-cyber/profile.yaml",
+          "sha256": "283478b4f94fa91f7bf1aeb92c086d4ff479dcfd5a9e1cfa41ba2e9d0f12805a",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/qwen38-cyber/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/web-plane/SOUL.md",
+          "sha256": "55cea68e172075c3b7ccf1bd4c5ba2a7f8ad9dc73b8c37afe6d4d60b16b3de6c",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/web-plane/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/web-plane/config.yaml",
+          "sha256": "1ff5644235c8ec843afa0123f49b08da39300fbf580ffa792db71794f0701a01",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/web-plane/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/web-plane/profile.yaml",
+          "sha256": "5de439a4223d7fb66873032508f47410a98907a39409597bd4130ded1434ac3a",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/web-plane/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/web-plane/scripts/web_plane_evidence.py",
+          "sha256": "545fac6704beeb8d0d7e7cd67c09452133bf7466bcd3d698af48108187c6ec13",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/web-plane/scripts/web_plane_evidence.py"
+        },
+        {
+          "path": "hermes/profiles/web-plane/yakuwari.edn",
+          "sha256": "7c29e43169f08393d4ef57a6157f8e135ab3ee688695a5a6058f1bfebe9e211b",
+          "url": "https://github.com/kotoba-lang/murakumo/blob/678e08e9731d33d18cc1cc9228095666acf1fe2a/hermes/profiles/web-plane/yakuwari.edn"
+        }
+      ]
     }
   ]
 }
