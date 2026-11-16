@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "広告運用代行 — aozora.app の PR 掲載、反応実測、メールでの掲載交渉、暗号化 campaign 記録",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-ad-operator",
     "checksum": "sha256-tree:acdf22a3cf93bfe7652507076aaf6618e47ab308b9aa8bce45998d54bc8ff168",
     "files": [

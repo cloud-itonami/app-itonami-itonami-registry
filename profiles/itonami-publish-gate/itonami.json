@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app-ce08b9f2"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami.cloud の publish 判断 gate bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

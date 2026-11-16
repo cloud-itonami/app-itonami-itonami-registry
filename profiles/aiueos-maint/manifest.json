@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba-lang/aiueos OSS maintainer bot: issue triage + main red test 追跡 + QEMU/kernel repro, 30min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/aiueos-maint",
     "checksum": "sha256-tree:33cedf3e5981f80efc0ebcf4074560f79626be7934b1658a208e170532b63eb0",
     "files": [
