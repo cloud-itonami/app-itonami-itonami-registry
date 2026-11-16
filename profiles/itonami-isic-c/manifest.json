@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami ISIC major C Manufacturing occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/isic",
-    "commit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+    "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-c",
     "checksum": "sha256-tree:c75eda031e399eecc00b064984f2f46d68a6e648295af505b5b42574a00bc441",
     "files": [

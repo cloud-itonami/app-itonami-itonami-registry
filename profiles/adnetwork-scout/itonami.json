@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "adserver-f5b88830"
+    "adserver-48a61dc"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: adnetwork 広告主情報を収集して Cloudflare R2 data catalog (Iceberg) に保存する bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
