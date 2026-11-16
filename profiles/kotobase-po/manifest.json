@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotobase-po — product owner for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+  "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotobase",
-    "commit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+    "commit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
     "path": "hermes/profiles/kotobase-po",
     "checksum": "sha256-tree:40f58bdebd3c953d10fbeaf31813e752cf82aa392c68eab91558c8f2e9f31948",
     "files": [

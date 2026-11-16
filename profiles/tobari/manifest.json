@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-mail-relay/tree/8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+  "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-mail-relay",
-    "commit": "8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+    "commit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
     "path": "hermes/profiles/tobari",
     "checksum": "sha256-tree:5a495f005df3289a185e7a9cf495b6712cfe3e8ad27486068f61b967b5254f9f",
     "files": [
