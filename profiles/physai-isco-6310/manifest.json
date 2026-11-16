@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-6310: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-isco-6310/tree/eebbc857663c35024552d46ba924fb623b0cc0fe",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-isco-6310/tree/08bb0c34ccb79abc2aa9b643dd7d50c172bbbe36",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-isco-6310",
-    "commit": "eebbc857663c35024552d46ba924fb623b0cc0fe",
+    "commit": "08bb0c34ccb79abc2aa9b643dd7d50c172bbbe36",
     "path": "hermes/profiles/physai-isco-6310",
     "checksum": "sha256-tree:42cb9e0e379d46400755b9abfb6d2e3fc40a063830d9f66e002d96cb3dd64113",
     "files": [
