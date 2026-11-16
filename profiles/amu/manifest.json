@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Amu co-scientist: kotoba-lang/amu を世界最速 runtime & build-time OS にする検証ループ (perfgate 測定ベース)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu",
     "checksum": "sha256-tree:0f4b52b6439e1a11be1aa6a8a093b9e8b11a5cb2248ef595f3a1c0a8c18ad6fb",
     "files": [

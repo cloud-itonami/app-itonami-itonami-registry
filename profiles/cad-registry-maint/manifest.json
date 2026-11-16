@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "cad-registry-maint: maintainer bot for cloud-itonami/cad (cad): health scan, CI red detection, propose-only PRs, 30min cron",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cad/tree/00213af940b01275f7714637b26e9a2a75206c28",
+  "source": "https://github.com/cloud-itonami/cad/tree/f674eff116876a91332d95e68faf8a17625f335f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cad",
-    "commit": "00213af940b01275f7714637b26e9a2a75206c28",
+    "commit": "f674eff116876a91332d95e68faf8a17625f335f",
     "path": "hermes/profiles/cad-registry-maint",
     "checksum": "sha256-tree:0b62c9372f033b5014140d7a919749b27df917a987b1337fa4f6cc1a8de9d52a",
     "files": [

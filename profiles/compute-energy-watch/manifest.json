@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "世界の電力・CPU・network・storage・GPU の生産/供給・需要・消費を、公開出典だけから出典付きで分析し定期 digest にする分析 bot（投資助言なし）",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-compute-energy-watch/tree/20975b5d091b954d7666abc555281149edc3c753",
+  "source": "https://github.com/cloud-itonami/app-itonami-compute-energy-watch/tree/a5b824a1ea70062d07c2f470de16ed58be7c68b6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-compute-energy-watch",
-    "commit": "20975b5d091b954d7666abc555281149edc3c753",
+    "commit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6",
     "path": "hermes/profiles/compute-energy-watch",
     "checksum": "sha256-tree:2861afc75e0adf71143d1866e9f99692eab08973d207ee8cf6b7d94b58f79f96",
     "files": [
