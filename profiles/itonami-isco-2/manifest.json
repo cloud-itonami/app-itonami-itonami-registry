@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 2 Professionals occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/isco",
-    "commit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+    "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-2",
     "checksum": "sha256-tree:569e41e68b809593bf5d848c37685d6522676a683689dde85d966301af6ff678",
     "files": [

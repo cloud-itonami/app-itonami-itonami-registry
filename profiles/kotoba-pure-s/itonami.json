@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-lang-58e42725"
+    "kotoba-lang-b4837af"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Kotoba Lisp pure S-expression core (.kotoba) and Clojure-shaped desugared surface (.cljk) verification and architecture bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

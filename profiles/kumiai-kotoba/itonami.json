@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-isic-6820-6a7173f6"
+    "isic-6820-fd70908"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

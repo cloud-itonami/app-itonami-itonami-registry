@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Raises murakumo's distributed-inference maturity: turns contract-only capability declarations into measured providers, keeps capacity declarations honest (decode and prefill reported separately), and drains verify-capability-provider-status findings. Works in git worktrees outside the superproject root and lands via server-side merges.",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+  "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/murakumo",
-    "commit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+    "commit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
     "path": "hermes/profiles/murakumo-infer-maturity",
     "checksum": "sha256-tree:fe3f988b38941449a2172862ae6c756b21c8e93c6a44c125544827c896a219f1",
     "files": [

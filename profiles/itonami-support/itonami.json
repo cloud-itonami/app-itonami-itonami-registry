@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "itonami-app-profiles"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami-support — support for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

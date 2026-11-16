@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "amu speed-claim chain: 測定を静かな fleet ノードに置き、host gate を通し、qualified な主張を着地させる。20min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu-claim",
     "checksum": "sha256-tree:e486e2451beca39fc9f8f837990bf614e59dee4166b01ef495fe9765c4fdcf71",
     "files": [

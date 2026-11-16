@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kenchi-d9ccc12e"
+    "kenchi-02e2eee"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yata-georeg-ontology: real-estate registry ontology bot (kenchi + maps registry + otent observations). Fuses cadastre/construction/materials/rent/land-price/tenant into one ontology EDN, propose-only.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

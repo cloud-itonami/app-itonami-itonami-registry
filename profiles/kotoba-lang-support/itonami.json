@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-lang-58e42725"
+    "kotoba-lang-b4837af"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Email support inbox bot (polling agentmail.to, created 2026-09-02)",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

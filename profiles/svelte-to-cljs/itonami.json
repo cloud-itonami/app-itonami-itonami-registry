@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "app-itonami-f70dd052"
+    "app-itonami-9092cb0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: svelte-to-cljs — com-junkawasaki superproject (west workspace) の **repo-wide Svelte 廃止** bot。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

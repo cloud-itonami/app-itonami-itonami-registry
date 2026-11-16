@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Email support inbox bot (polling agentmail.to, created 2026-09-02)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba-lang",
-    "commit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+    "commit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
     "path": "hermes/profiles/kotoba-lang-support",
     "checksum": "sha256-tree:f06d5f569457fe6976f0e5d8449838611924ef60a06564f8000096d05114086e",
     "files": [
