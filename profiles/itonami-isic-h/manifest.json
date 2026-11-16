@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami ISIC major H Transport and storage occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/isic",
-    "commit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+    "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-h",
     "checksum": "sha256-tree:4cd91e0dff043d2916c0f0dbd07b878c66fb393dc975c60fd59a33c90d146e8e",
     "files": [

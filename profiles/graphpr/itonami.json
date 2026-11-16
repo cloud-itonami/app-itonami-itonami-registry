@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotobase-4920f040"
+    "kotobase-c191dd0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Kotoba SDK/lib を graphdatabase 系 GitHub repo (neo4j 等) へ PR する outreach bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

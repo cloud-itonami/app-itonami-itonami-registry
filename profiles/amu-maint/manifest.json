@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba-lang/amu OSS maintainer bot: issue/PR triage + CI 赤検知 + pin 安定化, 30min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu-maint",
     "checksum": "sha256-tree:f9a7b7ecb36cb5d7b98a7e4a044f25c1d9af0b1ef644d985b91118914401911b",
     "files": [
