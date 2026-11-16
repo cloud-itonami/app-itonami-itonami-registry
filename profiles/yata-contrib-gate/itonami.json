@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kenchi-d9ccc12e"
+    "kenchi-02e2eee"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yata-contrib-gate: measures the member-contribution path (submit - sign - governor - commit) for the yataverse/kenchi membrane; reports one gap per tick.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

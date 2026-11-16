@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami: business OS bot. Runs itonami fleet ingests (ISIC/ISO/LEI/grok-bots corpora), maturity loops, and feeds wiki.yataverse.com via hyakka.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/57ff9f349878a1cb27c6446b10b56802c3266572",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,14 +14,14 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "57ff9f349878a1cb27c6446b10b56802c3266572",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami",
-    "checksum": "sha256-tree:cfd5092351c51638999d150fd1d75b6afff04cb623e0d3396201776d24108f68",
+    "checksum": "sha256-tree:8ccb791bd3f12c6917345c3052622cf3bea000f306201e4df8b2b4b7779cad80",
     "files": [
       {
         "path": "SOUL.md",
-        "sha256": "36c1f5a2e92cd1d018311eaf4c8f1e8886672eae78212e033c681d0e3d5d506f",
-        "bytes": 667
+        "sha256": "d0cdd586a57f9fa2f42015fd01411af68e4d65fab588761062a744d5f59497c5",
+        "bytes": 3591
       },
       {
         "path": "config.yaml",
@@ -342,6 +342,16 @@
         "path": "skills/utsushi-jvmfree-bot/SKILL.md",
         "sha256": "8c96bd0fb31b6dcd50ec441bdf856cbdc6b109c742e3f7cd72348c763352ed56",
         "bytes": 3824
+      },
+      {
+        "path": "skills/wellbecoming-replication/SKILL.md",
+        "sha256": "f1414e70e917f3f78bac465b794bd135d86dda1dfb242fd5477c3835ed7379f3",
+        "bytes": 5831
+      },
+      {
+        "path": "yakuwari.edn",
+        "sha256": "e6627e3f6a1de7aabfbd828f33277a5588574566a2b3fee05bafb60acd806d98",
+        "bytes": 4527
       }
     ]
   }

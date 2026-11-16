@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotobase-4920f040"
+    "kotobase-c191dd0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotobase bytes plane の B2 bytes storage 担当。Backblaze B2 (kotobase-cf-wasm-production) の storage cost / operations、Cloudflare Bandwidth Alliance 経由の alliance 配信監視、R2→B2 移行の soak、KOTOBASE_ORIGIN_B2 フラグの",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

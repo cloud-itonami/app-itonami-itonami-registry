@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "amu-bea7b9b2"
+    "amu-f759f4f"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: 最初に知っておくべき 3 つの事実（実測済み・推測しない） — jvm-retire — com-junkawasaki fleet の「JVM を出荷物から外す」常駐 bot。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

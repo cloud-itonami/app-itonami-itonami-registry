@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "torihiki org coordinator: evidence-based prioritization, Kanban routing, and maturity tracking",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+  "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/torihiki",
-    "commit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+    "commit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
     "path": "hermes/profiles/torihiki-rank",
     "checksum": "sha256-tree:786587bbef9f6d3311b094ba8128fab7dac380a11edf3686550882b76ac303cb",
     "files": [

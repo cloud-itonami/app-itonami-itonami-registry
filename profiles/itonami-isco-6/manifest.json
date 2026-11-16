@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 6 Skilled Agricultural, Forestry and Fishery Workers occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/isco",
-    "commit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+    "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-6",
     "checksum": "sha256-tree:971b4889173cb485174be17bb08807a66ab179ea8c8e1b166d7544e46d7350c2",
     "files": [

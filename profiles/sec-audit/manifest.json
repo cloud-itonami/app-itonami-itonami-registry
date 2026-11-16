@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "セキュリティ監査担当。kotoba-lang org と com-junkawasaki 配下の脆弱性評価、GitHub セキュリティ設定(secret scanning/push protection/dependabot/PVR/branch protection/Actions)、依存 CVE 監視、CI 設定の監査。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+  "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba",
-    "commit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+    "commit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
     "path": "hermes/profiles/sec-audit",
     "checksum": "sha256-tree:7b0228163e057d36b77b79e9cc3695a9f4d09b0254954ebc9921905763681543",
     "files": [

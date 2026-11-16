@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotobase-4920f040"
+    "kotobase-c191dd0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotobase-po — product owner for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
