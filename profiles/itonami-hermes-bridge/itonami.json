@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Hermes ⇔ Itonami bridge — keeps Itonami agent, profiles and registry compatible with Hermes (API, profile, registry) and works the handoff list as PRs.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

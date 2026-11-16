@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "amu JIT/tiering 軸の co-scientist: JIT仮説ループ (perfgate 判定, 30min)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu-jit-cosientist",
     "checksum": "sha256-tree:c51e97a042f4143782234e3234e048175e17aa1bd82c08a1800936fae72f49ea",
     "files": [
