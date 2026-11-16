@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "torihiki bounded builder: implementation, reproducible tests, and benchmarks; no merge or deploy",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+  "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/torihiki",
-    "commit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+    "commit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
     "path": "hermes/profiles/torihiki-bench",
     "checksum": "sha256-tree:e9b1c7ed83c56f151e49bf778e03f523e346f6f372f7685cf65de5902ee2eb41",
     "files": [
