@@ -49450,63 +49450,63 @@
       "reason": "Reviewed 2026-10-11 at fad82a3e61a120ae4f87041cdabd6d2ffadbe6ff: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
       "registrations": [
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/aiueos-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-bench"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-claim"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-falsify"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-jit-cosientist"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-rank"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/jvm-dep-migrator"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/jvm-retire"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-cloud-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-lang-cosientist"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotobalang-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotobalang-org-maint"
         },
         {

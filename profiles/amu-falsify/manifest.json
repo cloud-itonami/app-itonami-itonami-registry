@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "amu co-scientist cowork: 反証実験専門 (hand-patch 測定で仮説を殺す), 15min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu-falsify",
     "checksum": "sha256-tree:7184113135523177847f5c99b8b95f61750c2e865d8e970ac951c1481edee57c",
     "files": [
