@@ -43359,87 +43359,87 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-a"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-b"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-c"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-d"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-e"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-f"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-g"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-h"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-i"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-j"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-k"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-l"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-m"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-n"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-o"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-p"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-q"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-r"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-s"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-t"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-u"
         }
       ]
