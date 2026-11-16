@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "最初に知っておくべき 3 つの事実（実測済み・推測しない） — jvm-retire — com-junkawasaki fleet の「JVM を出荷物から外す」常駐 bot。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/jvm-retire",
     "checksum": "sha256-tree:295da2f3015672219486fb36934c7071f817a2a454e217bbd517afb56d8d7f84",
     "files": [

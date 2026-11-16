@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-7e63dd5f"
+    "ao-repo-steward-6973c16"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: rule-kaizen bot: standing な言い方が実装スナップショットを言語にしていないか測り、1 反復 1 finding で直す (ADR-2608261200), 3h cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "aiueos kernel C-free programme (ADR-0220): 1 step per tick, monitor-gated cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/aiueos/tree/9506826f7c3284fd32e2f1db957139bfeff43381",
+  "source": "https://github.com/kotoba-lang/aiueos/tree/cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,9 +14,9 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/aiueos",
-    "commit": "9506826f7c3284fd32e2f1db957139bfeff43381",
+    "commit": "cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
     "path": "hermes/profiles/aiueos-cfree",
-    "checksum": "sha256-tree:a4d2a5c3a1a54c3761aaa924fc332d1162e1dea08532f5c2a3e3d80b6c8e5a89",
+    "checksum": "sha256-tree:2350f4c2484de8682b249be643339bf8f99bee9498413c1aedcdebdfe4b5cba7",
     "files": [
       {
         "path": "SOUL.md",
@@ -25,8 +25,8 @@
       },
       {
         "path": "config.yaml",
-        "sha256": "72fca796604a8870e0434a2c196d510580b3e36ce80195fc43c8d0d82e0bea24",
-        "bytes": 4255
+        "sha256": "baf29c65b74f77caa41175bdc361435bc4cfcdcaa08e5559e488ae5ef3514579",
+        "bytes": 3713
       },
       {
         "path": "cron/jobs.json",

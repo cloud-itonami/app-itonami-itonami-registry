@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "docs-currency audit bot: checks shared read-only models, rules, md, ADR freshness against the latest landed state; files one finding per drift with PR-ready pointers",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+  "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/ao-repo-steward",
-    "commit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+    "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
     "path": "hermes/profiles/docs-audit",
     "checksum": "sha256-tree:1fb419d2ecf2ab529fe5e4199db1fb75adc5faa0ca40f0ad8c8f2e491328f71b",
     "files": [

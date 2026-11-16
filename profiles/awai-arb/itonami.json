@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-arbitrage-5c547afd"
+    "ao-arbitrage-c1bf174"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: awai.network arbitrage measurement bot: torihiki/x402/murakumo price surfaces, cross-market gap vs external refs, paper PnL, propose-only",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

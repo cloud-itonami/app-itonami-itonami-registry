@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/6a7173f63a3067654d10967cabad25b73d4c66c8",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/fd70908826cfd2adaa39419e594b5f4dccb5db01",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-isic-6820",
-    "commit": "6a7173f63a3067654d10967cabad25b73d4c66c8",
+    "commit": "fd70908826cfd2adaa39419e594b5f4dccb5db01",
     "path": "hermes/profiles/kumiai-sources",
     "checksum": "sha256-tree:ee5a97953bd4f84d68900c8507f85e78bad4805f97cd3da68fb41303e36322f9",
     "files": [

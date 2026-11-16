@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "aiueos-9506826f"
+    "aiueos-cf6c7eb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: linux-parity — amu / aiueos を Linux 並の成熟度へ — kotoba 言語の独自実装スタック（amu コンパイラ、aiueos OS）を、",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
