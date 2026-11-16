@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "murakumo-76d849d1"
+    "murakumo-678e08e"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: GLM-5.3-Flash-CYBERSECURITY-W4A16 (dealignai CRACK, W4A16, Modal 2x H200 scale-to-zero) を primary にする唯一の profile。api.murakumo.cloud の model id glm-5.3-flash-cybersecurity-w4a16 経由。authorized な脆弱性評価・ex",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

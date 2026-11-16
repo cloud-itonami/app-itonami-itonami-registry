@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:04:50.072769Z",
+  "generated": "2026-11-16T11:05:10.048224Z",
   "count": 1985,
   "entries": [
     {
@@ -23901,13 +23901,13 @@
       "version": "0.1.0",
       "description": "GLM-5.3-Flash-CYBERSECURITY-W4A16 (dealignai CRACK, W4A16, Modal 2x H200 scale-to-zero) を primary にする唯一の profile。api.murakumo.cloud の model id glm-5.3-flash-cybersecurity-w4a16 経由。authorized な脆弱性評価・exploit 解析・red-team 検証の相談役。cron を持たない。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/glm53-cyber",
-      "checksum": "sha256:faa4caa8f345f2eb6845d768060b6cbea3299210319848bb15ff650423e674ca",
+      "checksum": "sha256:375fa2a30b3ce956fd7c94568e51f746962932763382be2726c0b9ceb7777337",
       "profileChecksum": "sha256-tree:92a2259df16ca169b998ce4c056373158abce573653cdcf3ab87df45ab31fbcd"
     },
     {
@@ -25453,13 +25453,13 @@
       "version": "0.1.0",
       "description": "Low-overhead Mishima profile for short interactive primary-only turns; project rules and tools are opt-in.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/mishima-fast",
-      "checksum": "sha256:75396584308cfee8c65240e666f8d61cdf9ca588cc41c1c81fda40fd40034e75",
+      "checksum": "sha256:1c009859e01f9819d1400c049c80136bca76ff49d5579179e4f0d16615e88bdd",
       "profileChecksum": "sha256-tree:6509c566ce5e0b2957aa59fb967e0a09257ff7aa29a80f3b8c45a9c41e64c522"
     },
     {
@@ -25485,13 +25485,13 @@
       "version": "0.1.0",
       "description": "murakumo 担当。GPU クラウド(Hyperstack/Modal/runpod 等)、推論サーバー(vLLM 等)、murakumo fleet CI(scripts/fleet-ci/)の運用・監視。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo",
-      "checksum": "sha256:adc692025515dd96e0cc052012416e46f469afd370649b1c688dba700d154c4c",
+      "checksum": "sha256:c5b2b056994530f22408b8a41e1d09d2911a90d826637d012a35cf5447896648",
       "profileChecksum": "sha256-tree:bbbb0831cf98cce1c088b8487ff31232e93d4546eb66dd244d9d9a8649de5865"
     },
     {
@@ -25517,13 +25517,13 @@
       "version": "0.1.0",
       "description": "Raises murakumo's distributed-inference maturity: turns contract-only capability declarations into measured providers, keeps capacity declarations honest (decode and prefill reported separately), and drains verify-capability-provider-status findings. Works in git worktrees outside the superproject root and lands via server-side merges.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo-infer-maturity",
-      "checksum": "sha256:60c8a4a089f9fe77cbddf7d1efd00702021533579de9d81f0465dae96aa17358",
+      "checksum": "sha256:545a84da22a736d6c6fb0590853be0d7fb3ceb5141de817f39d587e87d99c3b4",
       "profileChecksum": "sha256-tree:fe3f988b38941449a2172862ae6c756b21c8e93c6a44c125544827c896a219f1"
     },
     {
@@ -25533,13 +25533,13 @@
       "version": "0.1.0",
       "description": "murakumo Proof of Inference coordinator: hourly capacity challenges, replay verification, node receipt collection and Bitcoin-keyed settlement blocks (ADR-261010*). Deterministic script, no LLM.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo-poi",
-      "checksum": "sha256:43d2074645292e9654c528dc7aa6df20ee1499da47acdac79b7d01ad8e62cdbf",
+      "checksum": "sha256:38f429904c736b11a0a7724df62997a4c60e7566fa1b863acf6896532e46877a",
       "profileChecksum": "sha256-tree:c2c9466f947714f1999f984186511dcaf480f1228922c533d9cf3f9230e4e65c"
     },
     {
@@ -25549,13 +25549,13 @@
       "version": "0.1.0",
       "description": "murakumo-tok — murakumo.cloud 推論スループット kaizen bot — murakumo fleet の推論性能（tok/s）を **複数面（amu compiler, murakumo infer,",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo-tok",
-      "checksum": "sha256:c896939be385439266e0575f682a2b8c11a4535e1d0890f7bc9ae9b2c5f89dfc",
+      "checksum": "sha256:f9949f0f24103b950e801237ba08f1048721ddd17377b4d9de5950bc28e6edc7",
       "profileChecksum": "sha256-tree:bf9655d94603d8c50a523d073eb8201910d6a8f4292340fcaebe06d980cbcce9"
     },
     {
@@ -25565,13 +25565,13 @@
       "version": "0.1.0",
       "description": "OpenRouter provider-application lifecycle manager for awai network LLC: tracks the submitted awai-network application, watches support@murakumo.cloud for the Slack Connect invite, preps tech-review (uptime/cold-start, privacy finalization), reports measured status only",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/oriru",
-      "checksum": "sha256:097dc5437c921dbfaa6ab6f8dbd8a14d80da53cf8ae39f09e66bd985668d74e8",
+      "checksum": "sha256:9c8a13e9234afa474936bd5f574f5d118285c49ceb2f1fa9883b1823d25f9d4e",
       "profileChecksum": "sha256-tree:9be4f0e220bd28dcab5836fddace6a8c5564bf3580c8330e4544b83dc166ea98"
     },
     {
@@ -36573,13 +36573,13 @@
       "version": "0.1.0",
       "description": "Qwen3.8-Flash-Next-CYBERSECURITY-NVFP4 (dealignai, NVFP4, Modal 1x B200 + GPU memory snapshot, scale-to-zero, cold ~3 min / warm ~1 s, 5 分無 request で停止) を primary にする profile。api.murakumo.cloud の model id qwen3.8-flash-next-cybersecurity-nvfp4 経由。 authorized な脆弱性評価・exploit 解析・red-team 検証の相談役。cron を持たない。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/qwen38-cyber",
-      "checksum": "sha256:dd44567083c00e48adc577728cfb57e3512c0cb2f312b66b5d2bd00550ce72a6",
+      "checksum": "sha256:34a4aa75032cc96e46f0ab045362ae2d8f6fb3cf435c434e0a6446f5a801ab51",
       "profileChecksum": "sha256-tree:8c15d413d3da6d34d5c456e558c030bde0f5713f0417d074a0dac2e6cde0cb08"
     },
     {
@@ -37117,13 +37117,13 @@
       "version": "0.1.0",
       "description": "Operates cooperative collection by owner-admitted Itonami bot profiles hosted on Murakumo: bounded assignments, verified shared blocks, common index updates and pending KUMO host compensation. Never issues or finalizes money. New targets, participant grants, prices and budgets remain owner controlled.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/murakumo/tree/76d849d18936bde58c545b0c76019d5728c1efaa",
+      "source": "https://github.com/kotoba-lang/murakumo/tree/678e08e9731d33d18cc1cc9228095666acf1fe2a",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/web-plane",
-      "checksum": "sha256:a326929e81b17d11305b4831e0a4a9b4d311834b2ffe0bdcc66e0ab82b8b2cf2",
+      "checksum": "sha256:fb93c26628093c4696ca7a36cccb0ec054dd25e7c67edc965f782189a46165cc",
       "profileChecksum": "sha256-tree:8583bb933d7560645720f82de04705e2d1c287bfd31ae756db3cec513c534ee7"
     },
     {
