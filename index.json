@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:07:15.205814Z",
+  "generated": "2026-11-16T11:07:35.601243Z",
   "count": 1985,
   "entries": [
     {
@@ -23261,14 +23261,14 @@
       "version": "0.1.0",
       "description": "animeka: anime production bot. Generates animation works with kami engine + fleet creative skills and publishes to aozora.app.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/animeka-actor/tree/b647cdf09f21c6c4ca7602ac165a1de01703ef89",
+      "source": "https://github.com/cloud-itonami/animeka-actor/tree/baac7a6a32468aafdf497c2c42c02983c19c5552",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/animeka",
-      "checksum": "sha256:28714a61663303257750218499a29da7dffc079e3a572fb193f10dedc7ea2eb4",
-      "profileChecksum": "sha256-tree:a3249961e8766f8286225c1a9a08e7766b8dc82e30657e486f6057afebcf76cf"
+      "checksum": "sha256:1468b0e9d3dea3ed426e139fe10f4c759a44af37cf30a678a54f0780b886681b",
+      "profileChecksum": "sha256-tree:46615174e75fad887ad71419a42f0ee1e2e762c7219c157d3cfe67abe02400de"
     },
     {
       "id": "archviz-maint",
@@ -23293,13 +23293,13 @@
       "version": "0.1.0",
       "description": "awai.network arbitrage measurement bot: torihiki/x402/murakumo price surfaces, cross-market gap vs external refs, paper PnL, propose-only",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/ao-arbitrage/tree/5c547afd0bc90f395d7b3abf88125ae5aa6bcc18",
+      "source": "https://github.com/cloud-itonami/ao-arbitrage/tree/c1bf1742a4ef58ac133f3cb4733b5b2f9953d994",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/awai-arb",
-      "checksum": "sha256:cdbd9ac9bfbad9fd3664a46da8612a1bb7e7357229bbc32d9004bcc43f5e4bbc",
+      "checksum": "sha256:b71d18c59afae4d5cf9839247a1667adaf8a6dbd232a2822e1c0753ab00b06fb",
       "profileChecksum": "sha256-tree:3355270c069a9c6526bfebddee4a5c9d403cc7da2e6c487ebcbb704fe37e9c19"
     },
     {
@@ -23437,13 +23437,13 @@
       "version": "0.1.0",
       "description": "cad-registry-maint: maintainer bot for cloud-itonami/cad (cad): health scan, CI red detection, propose-only PRs, 30min cron",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cad/tree/00213af940b01275f7714637b26e9a2a75206c28",
+      "source": "https://github.com/cloud-itonami/cad/tree/f674eff116876a91332d95e68faf8a17625f335f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cad-registry-maint",
-      "checksum": "sha256:7c2e4dde6d01e81d6a5ce5308293f729e5df0969788a77966fe75c59cd3d603c",
+      "checksum": "sha256:802a4e6c01b24dbc8036b6f7de0ac40ea75539b6d66289a5986b96ddf205f577",
       "profileChecksum": "sha256-tree:0b62c9372f033b5014140d7a919749b27df917a987b1337fa4f6cc1a8de9d52a"
     },
     {
@@ -23533,13 +23533,13 @@
       "version": "0.1.0",
       "description": "世界の電力・CPU・network・storage・GPU の生産/供給・需要・消費を、公開出典だけから出典付きで分析し定期 digest にする分析 bot（投資助言なし）",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-compute-energy-watch/tree/20975b5d091b954d7666abc555281149edc3c753",
+      "source": "https://github.com/cloud-itonami/app-itonami-compute-energy-watch/tree/a5b824a1ea70062d07c2f470de16ed58be7c68b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/compute-energy-watch",
-      "checksum": "sha256:a6733578ab03409a6dbb7bcb224591041f8319de76c97aeb8e71e1edd0ccdd8e",
+      "checksum": "sha256:733b1cd3315c30e7b32940166c3266d7ec7e9901e031ffa31f92f5f7da0317d7",
       "profileChecksum": "sha256-tree:2861afc75e0adf71143d1866e9f99692eab08973d207ee8cf6b7d94b58f79f96"
     },
     {
@@ -23565,13 +23565,13 @@
       "version": "0.1.0",
       "description": "cybersecurity product maintenance bot - keeps zap-proxy, cybersecurity, opencloud, app-wvme test suites green under kbb (measured 2026-09-13). Propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-wvme/tree/cdd0bfc4c344626dba345d7e0cc01952885a3eac",
+      "source": "https://github.com/cloud-itonami/app-wvme/tree/1c10c0fe944ab078062a58f788925913b8c6bf99",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cyber-maint",
-      "checksum": "sha256:60ba75b853d3c6e808af80685d4ee27e924002cc4c2021fd138346ffc7be8ac9",
+      "checksum": "sha256:735171dd40ea35baa001047d18f8ac9f0c09611c16102b9c7817680b9aa11f1f",
       "profileChecksum": "sha256-tree:ceadb8e855966a1674b9f4be8a6de4ea1248c2e965bfc7fd7470b2074186bd08"
     },
     {
@@ -24013,13 +24013,13 @@
       "version": "0.1.0",
       "description": "industry-ontology-bpmn — 全産業 (ISIC 21 大分類 A〜U / 467 blueprint) の現状分析と改善活動を行い、オントロジー (wiki.yataverse.com) と BPMN プロセス定義 (app-bpmn) を記録・提案する bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-bpmn/tree/7de41855639c75b561ab80981fc3a6c0d49ff9b5",
+      "source": "https://github.com/cloud-itonami/app-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/industry-ontology-bpmn",
-      "checksum": "sha256:d25a6fa2028845327763c5ee26bf23a39f5c7badf34ea08f0c35edb800911c43",
+      "checksum": "sha256:4de78b08f66e2f6cdcce51a1a7f764c080933d9fae5fc29c0a0099a3812fa87f",
       "profileChecksum": "sha256-tree:7fda792be382c85c44d372be087ccf1ad794ad1734c5fe69b964aed35139b4a8"
     },
     {
@@ -24765,13 +24765,13 @@
       "version": "0.1.0",
       "description": "Reward and procedural self-improvement — You are Hermes Agent, built by Nous Research. Be direct: match the length of your reply to the weight of the ask — a one-line question gets a one-line answer, and finished work gets a short report of what changed, what's verified, and what's left, never a replay of the process. No filler (\"Great question,\" \"I'd be happy to\"), no restating the request back, no re-summarizing what you already said, no narrating tool calls the user can see. Plain claims over",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-souji/tree/79e7b746340fc528c8716bb7026be8ff16e3e970",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-souji/tree/7b63444404e208f872429075a2942898cff474d0",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-souji",
-      "checksum": "sha256:381d5d50112b8fa8b58ce161540092578a648728927893ef66d1252e6a35991d",
+      "checksum": "sha256:133b0cb6e498b36c7a91ca7b23bbc095c38c6b5bb03c2d772e5ca5ad55488b6f",
       "profileChecksum": "sha256-tree:70a3fc6c387c3adead521d508c73b031e5bd4310aa5327ef839ec2156ba1c5b7"
     },
     {
@@ -25597,13 +25597,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-03.2: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-03.2/tree/e1156a6d349cbd6dc8c403afd4fafe4565702cd1",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-03.2/tree/d103d611c167654b06a20015a1f82c9e2741e0c3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-03-2",
-      "checksum": "sha256:3f5a3bab2a0ec9b40a83037a27b8a94525c06bdf58c4ac6b11004fa71651a2c6",
+      "checksum": "sha256:fbd7a4f86c1209bd9ae710e704749e5ed9009973078236c3751db5f151492122",
       "profileChecksum": "sha256-tree:50708fb2cf9cb0736718c9cb3164cdf6d086ae261de1fb518b29ffb123af753d"
     },
     {
@@ -25613,13 +25613,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-04.5: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-04.5/tree/82f9fd08f0c66968c0e133e28f5b10afda044f9e",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-04.5/tree/4e60c4b1762803bc1243f35bc890ddeef6b2a5c2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-04-5",
-      "checksum": "sha256:d7a54d45c3a916cce94cd91b1abd7ce640849fb3c3b1ab0a91c356f97edebbcd",
+      "checksum": "sha256:6923d784d493b660fba09847dd115e238ec0b63d0bc9c797426ec1150478205c",
       "profileChecksum": "sha256-tree:54951306ce3da0a64a8d06bc2c21a29603ebccf5f9cd26c77c5af259f67ceee3"
     },
     {
@@ -25629,13 +25629,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-05.1: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-05.1/tree/a22aae8e36a1d8c4bca8a09d83dde12757a6e3dc",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-05.1/tree/75a6aeabc4c7082e501df955e3b42010f684b98f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-05-1",
-      "checksum": "sha256:a10a26f2a53bfe1aa56cb08cfe7f3e7eb49bff9b3d81d925915aada4bd0d1b0d",
+      "checksum": "sha256:7cca5d1d38d5b94b0148c929b688dd5398ffe06d82e7223007d9b79fb29c1204",
       "profileChecksum": "sha256-tree:5737b3355006e8d424570d57920b42fb1f35913c3ac2b833e212a52cb2f21851"
     },
     {
@@ -36429,13 +36429,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-souji/tree/79e7b746340fc528c8716bb7026be8ff16e3e970",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-souji/tree/7b63444404e208f872429075a2942898cff474d0",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-souji",
-      "checksum": "sha256:735aa4c8df675dd2911b064514b8e8a5b7f87fa08e88e1ef06a9f5cb8f57440a",
+      "checksum": "sha256:06e0a1dcd8c7375d765ff251af9cfea063dbd5d22dd7e44e95456e35b7a16c39",
       "profileChecksum": "sha256-tree:14cddfad321c370eae8bb89f87cc5a4abf6df67861ca3b6eed2564068bf35446"
     },
     {
@@ -37293,13 +37293,13 @@
       "version": "0.1.0",
       "description": "yata-contrib-gate: measures the member-contribution path (submit - sign - governor - commit) for the yataverse/kenchi membrane; reports one gap per tick.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/kenchi/tree/d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+      "source": "https://github.com/cloud-itonami/kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yata-contrib-gate",
-      "checksum": "sha256:1769c9709fb71d8f3941fdce0f8512b641928dfc3f2f8e52c72d4701927e0257",
+      "checksum": "sha256:06f69d3be1d00cccec811b945108d96a338de40b15f64d8ff836af36798512a4",
       "profileChecksum": "sha256-tree:578a2ee55db593a42f0a6defcbbac5eaa04cdc91d71913908f24fcd904f606d4"
     },
     {
@@ -37309,13 +37309,13 @@
       "version": "0.1.0",
       "description": "yata-georeg-ontology: real-estate registry ontology bot (kenchi + maps registry + otent observations). Fuses cadastre/construction/materials/rent/land-price/tenant into one ontology EDN, propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/kenchi/tree/d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+      "source": "https://github.com/cloud-itonami/kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yata-georeg-ontology",
-      "checksum": "sha256:f3c4fbc81a8dbc3620c06c44bc271839d87c8c652a143703f5efc3793345cc76",
+      "checksum": "sha256:d02be2c63c6111bba3743866428f0e779a40fac7d773426cf50d833801c7b566",
       "profileChecksum": "sha256-tree:3a9956ed102f5b848f1cac34a5b47c648c480139bd241d77fac0854cde68bfc1"
     },
     {

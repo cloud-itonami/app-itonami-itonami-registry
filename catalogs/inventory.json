@@ -780,7 +780,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "b647cdf09f21c6c4ca7602ac165a1de01703ef89",
+          "sourceCommit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
           "entry": "profile/animeka"
         }
       ]
@@ -842,7 +842,7 @@
       "reason": "Reviewed 2026-10-11 at 2233648e8757628f8ecfb97127ae498ceaa73692: Selected target-bound procedures/roles or native connection/tool references added. Original profiles and runtime implementations stay with their owner; source inspection is not runtime qualification.",
       "registrations": [
         {
-          "sourceCommit": "5c547afd0bc90f395d7b3abf88125ae5aa6bcc18",
+          "sourceCommit": "c1bf1742a4ef58ac133f3cb4733b5b2f9953d994",
           "entry": "profile/awai-arb"
         },
         {
@@ -1659,7 +1659,7 @@
       "reason": "Reviewed 2026-10-11 at 7de41855639c75b561ab80981fc3a6c0d49ff9b5: Selected target-bound procedures/roles or native connection/tool references added. Original profiles and runtime implementations stay with their owner; source inspection is not runtime qualification.",
       "registrations": [
         {
-          "sourceCommit": "7de41855639c75b561ab80981fc3a6c0d49ff9b5",
+          "sourceCommit": "3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
           "entry": "profile/industry-ontology-bpmn"
         },
         {
@@ -3424,7 +3424,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "cdd0bfc4c344626dba345d7e0cc01952885a3eac",
+          "sourceCommit": "1c10c0fe944ab078062a58f788925913b8c6bf99",
           "entry": "profile/cyber-maint"
         }
       ]
@@ -3739,7 +3739,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "00213af940b01275f7714637b26e9a2a75206c28",
+          "sourceCommit": "f674eff116876a91332d95e68faf8a17625f335f",
           "entry": "profile/cad-registry-maint"
         }
       ]
@@ -6010,7 +6010,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "e1156a6d349cbd6dc8c403afd4fafe4565702cd1",
+          "sourceCommit": "d103d611c167654b06a20015a1f82c9e2741e0c3",
           "entry": "profile/physai-cofog-03-2"
         }
       ]
@@ -6040,7 +6040,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "82f9fd08f0c66968c0e133e28f5b10afda044f9e",
+          "sourceCommit": "4e60c4b1762803bc1243f35bc890ddeef6b2a5c2",
           "entry": "profile/physai-cofog-04-5"
         }
       ]
@@ -6070,7 +6070,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "a22aae8e36a1d8c4bca8a09d83dde12757a6e3dc",
+          "sourceCommit": "75a6aeabc4c7082e501df955e3b42010f684b98f",
           "entry": "profile/physai-cofog-05-1"
         }
       ]
@@ -41111,11 +41111,11 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "79e7b746340fc528c8716bb7026be8ff16e3e970",
+          "sourceCommit": "7b63444404e208f872429075a2942898cff474d0",
           "entry": "profile/itonami-souji"
         },
         {
-          "sourceCommit": "79e7b746340fc528c8716bb7026be8ff16e3e970",
+          "sourceCommit": "7b63444404e208f872429075a2942898cff474d0",
           "entry": "profile/physai-souji"
         }
       ]
@@ -44181,11 +44181,11 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+          "sourceCommit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
           "entry": "profile/yata-contrib-gate"
         },
         {
-          "sourceCommit": "d9ccc12e885278c6e5f29f98c966faa2ccf16bbe",
+          "sourceCommit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
           "entry": "profile/yata-georeg-ontology"
         }
       ]
