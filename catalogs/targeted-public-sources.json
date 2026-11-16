@@ -110,14 +110,14 @@
     },
     {
       "repository": "cloud-itonami/app-itonami-compute-energy-watch",
-      "commit": "20975b5d091b954d7666abc555281149edc3c753",
+      "commit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6",
       "visibility": "public",
-      "reviewedOn": "2026-10-28",
+      "reviewedOn": "2026-11-15",
       "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey.",
       "registrations": [
         {
           "entry": "profile/compute-energy-watch",
-          "sourceCommit": "20975b5d091b954d7666abc555281149edc3c753"
+          "sourceCommit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6"
         }
       ]
     },

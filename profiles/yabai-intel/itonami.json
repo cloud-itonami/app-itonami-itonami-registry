@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "yabai-actor-df562d1a"
+    "yabai-actor-c1ba3c6"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yabai-intel — wiki.yataverse.com 迷惑インフラ収集 bot (スパム/フィッシング/詐欺ドメイン・IP・abuse連絡先、IOCのみ、個人情報は載せない)",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

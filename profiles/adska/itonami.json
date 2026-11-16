@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "adserver-f5b88830"
+    "adserver-48a61dc"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: adska: adult ad-operations bot. Campaign plans, budgets, placement compliance, measured CTR/CVR into the itonami ledger.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

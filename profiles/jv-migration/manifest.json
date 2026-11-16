@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "JVM→kotoba 移行専任。org 内に残る JVM (clojure CLI/JVM-only) 依存を kotoba(nbb/amu cli compile)へ refactor する。@refactor と連携し、amu/sahai の JDK-free 性質を org 全体へ広げる。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+  "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba",
-    "commit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+    "commit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
     "path": "hermes/profiles/jv-migration",
     "checksum": "sha256-tree:39de4bcebe378a0fcf66768b83e1d10499bd190ae5d9d8f63c36eb99bbdd7d5f",
     "files": [

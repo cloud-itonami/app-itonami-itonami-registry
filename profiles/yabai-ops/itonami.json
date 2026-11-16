@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "yabai-actor-df562d1a"
+    "yabai-actor-c1ba3c6"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yabai-ops — yabai-intel / yabai-staging / yabai-classify の cron 健康・manifest queue・R2 staging cost の安定化担当。壊れたら直すまでが仕事。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
