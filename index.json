@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:05:50.159764Z",
+  "generated": "2026-11-16T11:06:13.761241Z",
   "count": 1985,
   "entries": [
     {
@@ -23805,13 +23805,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: giemon-sim (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim",
-      "checksum": "sha256:547cfe3e0c80fcaf0d07004c8b4f33d453fe2bd9ad3421c6b9096d662f1a06c0",
+      "checksum": "sha256:2e6def986e228dbc9d40edd45b03ab5828c5816ef92a047c73f834d71aa79bcc",
       "profileChecksum": "sha256-tree:5b7fa9681b7c5c4030c766de242f960dc04f9d827335db5046c2257b7d62d04c"
     },
     {
@@ -23821,13 +23821,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: bench (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-bench",
-      "checksum": "sha256:eaab15213c37bb95cbf0b1ee507ebfaab2bce567519309c59d0958cd836ddcba",
+      "checksum": "sha256:22d154c83c5963315e1c064de1aea1fd509c27e9d87241c8d8ec40b914545829",
       "profileChecksum": "sha256-tree:31bc0ac021801e46bbb5972098dc4778c42d481217f06dd643a610e96c241fb7"
     },
     {
@@ -23837,13 +23837,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: falsify (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-falsify",
-      "checksum": "sha256:59d55f50a81baae6921c4490e3b8d737b0431387f05f7e4ae84701c680a1c447",
+      "checksum": "sha256:577e049a09e17edb232f91f705665082c7b0509adc7ccee854d7fda06f334ff2",
       "profileChecksum": "sha256-tree:b49080578e338351346bcf7d6b99656630e5c2204e7cb98e433d4e6c02684b30"
     },
     {
@@ -23853,13 +23853,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: maint (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-maint",
-      "checksum": "sha256:dba45cff79a279b8fc4075ebc0d4af9ee98a4e0511738cdf88c2fab5e9ad6979",
+      "checksum": "sha256:74314a01c1cc8881ab898b255a930f8a340651ee70194fc397d0e7cf5cfe6bff",
       "profileChecksum": "sha256-tree:66b7f2b82486470f988730fe9739832b3e719bcaca42d3ef9a767077b5ee8aba"
     },
     {
@@ -23869,13 +23869,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: rank (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-rank",
-      "checksum": "sha256:65d66fc8d6632232c5feca331af4f88aed6bf116552697182253fd4cd4ff8230",
+      "checksum": "sha256:682f460d4b0e3e6d46f45ab426a533848c786ef89adc69eeb091c3a46285f628",
       "profileChecksum": "sha256-tree:0e16bf78dfa427914c961ccc5b5589ac2f87ad5f812f980803df29ee37464922"
     },
     {

@@ -40549,6 +40549,108 @@
           "url": "https://github.com/kotoba-lang/kotobase/blob/c191dd0fecb67f28b9f6eff79269800b45414f89/hermes/profiles/kotobase/profile.yaml"
         }
       ]
+    },
+    {
+      "id": "giemon-f2a1910",
+      "repository": "kotoba-lang/giemon",
+      "commit": "f2a191048e3089925735b0a3a3d10325166872b1",
+      "files": [
+        {
+          "path": "hermes/profiles/giemon-sim-bench/SOUL.md",
+          "sha256": "4898e605891d870b908493a85bf65fafa2a2f543c3c55d55ce12968cca870fd5",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-bench/config.yaml",
+          "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-bench/cron/jobs.json",
+          "sha256": "4d04183006a35c03d7174f47bb9f2b50a06a1751b82812678859e6140443532d",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-bench/profile.yaml",
+          "sha256": "75c807d6e1dfda09588cafb5e153a9aa80b1eb216fa94eedc1c23ee6901af8e2",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-falsify/SOUL.md",
+          "sha256": "71890ebea507d2fdeb1dd4630e690f13ac50c90a2d156b9d45b083d99ab76c19",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-falsify/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-falsify/cron/jobs.json",
+          "sha256": "6b9c2e1e3c38c5f60c7233deeba47a753a433195a7f6b00eef6feab876c4f6c6",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-falsify/profile.yaml",
+          "sha256": "621946336d7ebf5332f24125210b31733fd1a9474122518ac8d944b3352c8a57",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-maint/SOUL.md",
+          "sha256": "f97102387d7d7e4126f59eaa10ba121ae9662ca5fb2e756dcba21bd847cb83dc",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-maint/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-maint/cron/jobs.json",
+          "sha256": "b836e2fb969d9971fb8beed8e9a910d154dfe87efb9de3d82a93ee262680cfd8",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-maint/profile.yaml",
+          "sha256": "662f64a75a64114780cf65154afb8f4f25bab3b4fc9f337bb4896e6122b37a4e",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-rank/SOUL.md",
+          "sha256": "f3bf0a7f558b84f4ead6b4c2ac4c191e0deb5b46c0ba793283196fa2adbb2a23",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-rank/config.yaml",
+          "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-rank/cron/jobs.json",
+          "sha256": "f95bc70eb086f07fb627c3e70b1dfc4575c8af6164c6383e8608491332c95c47",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim-rank/profile.yaml",
+          "sha256": "b4d6da1bebf69e38492cca4c873406bcfd7ebb5785dc7abc4cab0d4099a8f952",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim/SOUL.md",
+          "sha256": "ea65b52e6d46e9f74097dbf8fbcccb75112fa810778cee381a62fa88d682e8fd",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim/config.yaml",
+          "sha256": "3724148ffcadda52ce99b492fc4adaa9f9586811320b12c2cc015dc3fc833419",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/giemon-sim/profile.yaml",
+          "sha256": "a8306f09b3fba09c0174ee4dc645520cfd521a03051e5e48fc6caa16b9b466e1",
+          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/profile.yaml"
+        }
+      ]
     }
   ]
 }
