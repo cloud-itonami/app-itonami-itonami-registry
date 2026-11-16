@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "itonami-app-profiles"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: refactor — clj, cljc を kotoba に refactor するよ. jvm 依存を外して, amu, kotoba cli compile にするよ.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

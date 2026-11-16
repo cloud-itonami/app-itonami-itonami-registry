@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-15T02:13:33.062669Z",
+  "generated": "2026-11-16T11:04:31.854098Z",
   "count": 1985,
   "entries": [
     {
@@ -23517,13 +23517,13 @@
       "version": "0.1.0",
       "description": "cloud-itonami-app kotoba-native/amu compile 責任 bot — KIR parity gate の維持",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/compiler",
-      "checksum": "sha256:659de0890d53a4746816db3f97a9aa760cbb2a75f1f2c93f0b086d6768d45aa6",
+      "checksum": "sha256:d445aec3474c7fc3fa25e65f2f1ec2ad5281600b1943379a5e97d3c020bc3f43",
       "profileChecksum": "sha256-tree:36546abdea3085fc257ef2dd246e4926e4ec7ada2f720530ded7b9e7b032f6bb"
     },
     {
@@ -24045,14 +24045,14 @@
       "version": "0.1.0",
       "description": "itonami: business OS bot. Runs itonami fleet ingests (ISIC/ISO/LEI/grok-bots corpora), maturity loops, and feeds wiki.yataverse.com via hyakka.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/57ff9f349878a1cb27c6446b10b56802c3266572",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami",
-      "checksum": "sha256:05ff51a092c29da7e04b3aa795add4f51abb4aa8476c600ad79c52ff82179ed0",
-      "profileChecksum": "sha256-tree:cfd5092351c51638999d150fd1d75b6afff04cb623e0d3396201776d24108f68"
+      "checksum": "sha256:ae5c26740528c11c1e97e175e68ba4d1130fb45de664cc4e3dc8f07fce7a4553",
+      "profileChecksum": "sha256-tree:8ccb791bd3f12c6917345c3052622cf3bea000f306201e4df8b2b4b7779cad80"
     },
     {
       "id": "itonami-ad-operator",
@@ -24061,13 +24061,13 @@
       "version": "0.1.0",
       "description": "広告運用代行 — aozora.app の PR 掲載、反応実測、メールでの掲載交渉、暗号化 campaign 記録",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-ad-operator",
-      "checksum": "sha256:acc78ccae8426dcafec11840aafa28e25b846c1e73a00d9c7a79eeeee8285943",
+      "checksum": "sha256:fc23917918bb6ce101439996216c922b533fe0bd23f653c661fb484697ce0952",
       "profileChecksum": "sha256-tree:acdf22a3cf93bfe7652507076aaf6618e47ab308b9aa8bce45998d54bc8ff168"
     },
     {
@@ -24109,13 +24109,13 @@
       "version": "0.1.0",
       "description": "対象範囲 (この bot が触るもの) — itonami-cli-maint — itonami CLI / bots 面の成熟度整備 bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-cli-maint",
-      "checksum": "sha256:c1cec97c5d76886a520f19f92fe142c9060e63a9b81f9de40c39f3c0b4e50494",
+      "checksum": "sha256:3f48cad58b0f2b9d96c629e2256c8ee5419259684a2d84881ee621847b22db0d",
       "profileChecksum": "sha256-tree:946fa8f10d9b26f6ca2e27f366002ebf2db09b33ee7fe79cb3af944faad55100"
     },
     {
@@ -24141,13 +24141,13 @@
       "version": "0.1.0",
       "description": "cloud-itonami 各 business の bot 群を murakumo fleet 上で分散稼働させる dispatch bot。kanban swarm で worker を並列実行し、isolated context envelope で context 共有を制御、checkpoint で長期実行耐性を担保する。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-dispatch",
-      "checksum": "sha256:f8c0a236838cf37f9de4515163442923c4def3d1c9467b2a340cdba84694339e",
+      "checksum": "sha256:9bfdb8cae7b458ba0612809dde5b53d57e14ce3d684275bc5d32d19fed6cb844",
       "profileChecksum": "sha256-tree:c52fa7515545ddd7c3fdcbd7df0c351b55da0bb02b9a73a029989215f9099d69"
     },
     {
@@ -24157,13 +24157,13 @@
       "version": "0.1.0",
       "description": "itonami-eng — engineer for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-eng",
-      "checksum": "sha256:aa9b45e7064d531867c7cf8be64a1cb1b62cc944d5a6cfd0fe628bd3ce9a3e94",
+      "checksum": "sha256:18dfdf8769b9552b5496f479fd7fe9ff42b3c097d6eaf6229e7ccc50bd04de3e",
       "profileChecksum": "sha256-tree:a3e343a80cc95a381d8db64c1d31416fadb8c4dd779892c72711598ed6872432"
     },
     {
@@ -24173,13 +24173,13 @@
       "version": "0.1.0",
       "description": "Hermes ⇔ Itonami bridge — keeps Itonami agent, profiles and registry compatible with Hermes (API, profile, registry) and works the handoff list as PRs.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/bb39f01bff122a56bf756ece166b69a4580c5b0b",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-hermes-bridge",
-      "checksum": "sha256:0d04b41e87766c3abe76948fb984aa166f84c57391b9bd7bda6c6d6711d90619",
+      "checksum": "sha256:d1f5221bb05975a05f5a489463d8ca466374f130ed4f1bf52e5a1219978816d1",
       "profileChecksum": "sha256-tree:783c6c47a1b152a3a49bf328fd72492e6a1912e600c6be2958ea021f16066c23"
     },
     {
@@ -24317,13 +24317,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major A Agriculture, forestry and fishing occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-a",
-      "checksum": "sha256:b1ba65e97041e4af4ec120c8f3a271e3effb0f002ef329daf088ce6c8b888d52",
+      "checksum": "sha256:1decbe673fd70a4ebbfff41c23e9f0ceb531fe2c1a470708dec70757b7e96ba9",
       "profileChecksum": "sha256-tree:5bdfa70496343232e9d82c6946f150cda589d92f88c19e08d3d90597d827c911"
     },
     {
@@ -24333,13 +24333,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major B Mining and quarrying occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-b",
-      "checksum": "sha256:625a495a18f6e397c8e2a02391a4b9373d2db27b0a1a3cf60774ff870eb89921",
+      "checksum": "sha256:a826e157819e9a81c16d43ae26bc87318630c25fd0eb095a78b3e00f560b2cb5",
       "profileChecksum": "sha256-tree:219339fba502eb67f66fcef575cb8a8cc65765704e7849eefdee28cb7865cd0e"
     },
     {
@@ -24349,13 +24349,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major C Manufacturing occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-c",
-      "checksum": "sha256:49e774e766e13dc884659092d7c11899a33d91fe5e44c2c6a58efafbbd712b39",
+      "checksum": "sha256:cbd8dbfb63fdd746509a3f14737428799eaa47df35b00dd27c77c2c93b286f9f",
       "profileChecksum": "sha256-tree:c75eda031e399eecc00b064984f2f46d68a6e648295af505b5b42574a00bc441"
     },
     {
@@ -24365,13 +24365,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major D Electricity, gas, steam and air conditioning occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-d",
-      "checksum": "sha256:5f1d609485fabb132b5b847d4574a93d11026f0f854d089aa17967c26441290f",
+      "checksum": "sha256:441936cc220d2e49b517b5803c42e4ebbadedf8a617280046659fc2ab7113085",
       "profileChecksum": "sha256-tree:4ee897ab621456ea00b1480aa5417d52813c2e2c589e83273fd3b9a942968db5"
     },
     {
@@ -24381,13 +24381,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major E Water supply; sewerage, waste occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-e",
-      "checksum": "sha256:fc1e44c4c482bef94abc826f73a51f2a7dec75ae172f15e3c46542d0aa8f0799",
+      "checksum": "sha256:34bd42773672675e659c246761efc1af3f06cfc5138a0d680e8498e56363f47f",
       "profileChecksum": "sha256-tree:b43c40882d7eb9e9e975800c4bc738f71517d6cd149736683957cf9d73708d8e"
     },
     {
@@ -24397,13 +24397,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major F Construction occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-f",
-      "checksum": "sha256:b49b7cf1d8d0d02f515d95813870705931cbddeec823402eb528ff0570d4a36f",
+      "checksum": "sha256:69c2e82b18a245f46976711942348e678575efc5e9d481be99ff5f1e62ab2b28",
       "profileChecksum": "sha256-tree:d274b335bbe2f53caaa7840ff4b82d6bc5cf36354d4842e6b3bc4b44bcdb7bc0"
     },
     {
@@ -24413,13 +24413,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major G Wholesale and retail trade occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-g",
-      "checksum": "sha256:a76d733e02b6b7801cd178386ae5acd8691bf771032a14260fca53b133358347",
+      "checksum": "sha256:bf10f17a05304c63b176394e0cade240fd4af65308e1531ed7a245fabcffc181",
       "profileChecksum": "sha256-tree:13893c5cdd377ac917959e522f46e3aa04f51d33107417c31ca192ffa94571c5"
     },
     {
@@ -24429,13 +24429,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major H Transport and storage occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-h",
-      "checksum": "sha256:e0d22256a6a0a188ad1ba286744a7e569f678140396c12530aa9e71b2cab5019",
+      "checksum": "sha256:44b199fcbaf7ff5bc4246dbf538efe9afbc76ddadde46cf10d39dc126574dcb4",
       "profileChecksum": "sha256-tree:4cd91e0dff043d2916c0f0dbd07b878c66fb393dc975c60fd59a33c90d146e8e"
     },
     {
@@ -24445,13 +24445,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major I Accommodation and food service occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-i",
-      "checksum": "sha256:162e4c6e8b4109388fa1b68588c8f154565039571c49fae45e87ea1e1f3022fc",
+      "checksum": "sha256:565494bbe59ada192704045707e74d510fcfe5e1eaf3d48d0e9c4945b399a1f0",
       "profileChecksum": "sha256-tree:6b4136a21a9ff7d838aa71397d0fcfd700e761e81345fe9eb0cb2c60e0ddd27d"
     },
     {
@@ -24461,13 +24461,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major J Information and communication occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-j",
-      "checksum": "sha256:b6a46cbf70fd73e379e5b5352ba05a9a8cb3d353892b331d97a583c727503ec4",
+      "checksum": "sha256:2dd96d75da58eaa91bc8943191269064c0b7428d0e74650317b1d1f58aca1a5a",
       "profileChecksum": "sha256-tree:4496c485d7200863b62beef09b1b1dd55013c9dff98d025e08dce99409dcdc8e"
     },
     {
@@ -24477,13 +24477,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major K Financial and insurance occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-k",
-      "checksum": "sha256:272fc84855e9787e3ec76c9efdb131ae3f813326f9405ed79bee43fe4829b2f2",
+      "checksum": "sha256:9200fdce5bcd88ee60557969b0e61db50d367fa85b74e485fd6db04adf5bef04",
       "profileChecksum": "sha256-tree:eb57de4f014ddea883c4722c0dd2ba316fa9a120a05959c5ecb546c562319d79"
     },
     {
@@ -24493,13 +24493,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major L Real estate occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-l",
-      "checksum": "sha256:893f27c593ad3d96fa8a63f2d89cd748ba345748aecca118692a7c681a731a5d",
+      "checksum": "sha256:07c5205d59a217a7b6496e3235447ce3d5093c3391c96f0e55426d3ccdc68ae5",
       "profileChecksum": "sha256-tree:0b3cca8f0b39cf0d9aa59194f96e921eaab5f0adbd2eeb4f6e6dae44ee4ade86"
     },
     {
@@ -24509,13 +24509,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major M Professional, scientific and technical activities occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-m",
-      "checksum": "sha256:31ab91ad57b3046deeddf581bb20e587f8988945251cafe5f2fd9b767ce0c38f",
+      "checksum": "sha256:03ca12fa23c3f56dcef0d6c80b291cd992948340debcc760600e6202f1290cd5",
       "profileChecksum": "sha256-tree:92ff23cfff0ded8c163845b69559d4e0af81e21c37f37fdea115bf7de19fed3b"
     },
     {
@@ -24525,13 +24525,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major N Administrative and support occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-n",
-      "checksum": "sha256:31dd2e7e787e0fc9505a8c56866e69f0504a790664adfbc4a9b7151e4d8ecbdf",
+      "checksum": "sha256:61ffd87461d5b8741f07e0d2f5795a7d6f9ea4bff701b3a97aff331021ec20c1",
       "profileChecksum": "sha256-tree:7366ee25ce12101f6a07e1697b1a03ed7f4c07848580d7b034dd3f208290cc6f"
     },
     {
@@ -24541,13 +24541,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major O Public administration and defence occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-o",
-      "checksum": "sha256:52294dcde7812530efd57aa820ceeac39dc28ed55a205f68ebac53b540ff53c0",
+      "checksum": "sha256:893a0b9a9da7abf2694ca076f319062953c95f9b19e6ad796f4a4ba4893059a7",
       "profileChecksum": "sha256-tree:75c3d6f66761ad1e8b35dbb19867e0d25d7b36ce0939df8c30184caa156f13d1"
     },
     {
@@ -24557,13 +24557,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major P Education occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-p",
-      "checksum": "sha256:1e10034e44e5c5d2367daf5722aad1ee542105a4710834b33f560d16f09851c6",
+      "checksum": "sha256:2261327ef7916a76202a0c6ccb456a22ccbd5f31b7137b2d406c2d4f2572cf04",
       "profileChecksum": "sha256-tree:ee313749e7f6dad0ff37bbd61e9ca7295c73eef96db6985a56d3b0f239c9c960"
     },
     {
@@ -24573,13 +24573,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major Q Human health and social work occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-q",
-      "checksum": "sha256:439846729feb411c4f63c31660c13e434c51c4644d631308d14fb352832bdeaf",
+      "checksum": "sha256:36ca82f83274bd1f34491b924a16ec0da4744c286b7e84b18032aa33071c92d3",
       "profileChecksum": "sha256-tree:95b9e2cd6e4cb788b77c78957479a0c58535aaac2d248d942425e6c167f057c0"
     },
     {
@@ -24589,13 +24589,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major R Arts, entertainment and recreation occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-r",
-      "checksum": "sha256:446b7c950294a78ba067cb45b9b0326f550603565f985de565bba40a0851de1c",
+      "checksum": "sha256:ffda65d3e194bb6219823032d30a1943a55d4f0233149e38c8362b74ab6560a5",
       "profileChecksum": "sha256-tree:b33d60c9954280299cdccf20533fe3c98d14f04aee0dbc77ea117e8e347e4b96"
     },
     {
@@ -24605,13 +24605,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major S Other service activities occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-s",
-      "checksum": "sha256:5c7df85237592a369d035b8ee7bc1d99f69883108d659ff6362ef0c8a36de17f",
+      "checksum": "sha256:6e3b704a6398323d09e40793c2d5d762e89fb3c78c6c8415fcba630d352b5388",
       "profileChecksum": "sha256-tree:fd97432df474cf2201f963e7e2c5ec073c670b36b95aa103f52887710293b549"
     },
     {
@@ -24621,13 +24621,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major T Households as employers occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-t",
-      "checksum": "sha256:079788673f8a68b6741915e4484acea4162cb6ad6611101a1997b7458cc29308",
+      "checksum": "sha256:12a8d7c330e68cbfe5024f3c9b587ff28db13e6f70ba939ee017c723317cedbd",
       "profileChecksum": "sha256-tree:671086c94039a87ae3c68cf1d92a26312df7e52fde12ba2cc69c924444a1b96f"
     },
     {
@@ -24637,13 +24637,13 @@
       "version": "0.1.0",
       "description": "itonami ISIC major U Extraterritorial organisations and bodies occupation bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/isic/tree/800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+      "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-isic-u",
-      "checksum": "sha256:78d73a10336d79f25976a94cfa23e588c8cdfa4083ce79abb4b98ef9b0491ef1",
+      "checksum": "sha256:0f5a8ffd53397b4948f454caebba45b19477bf9a70495ba34bc90e6a9c2451f1",
       "profileChecksum": "sha256-tree:6fae631eb6de7d9da6dbea7d4eb0f3fb61bef184ad694f85f4b1ecf098bf8cb2"
     },
     {
@@ -24653,13 +24653,13 @@
       "version": "0.1.0",
       "description": "itonami-maint — cloud-itonami-app 成熟度整備 bot — あなたは cloud-itonami-app (orgs/cloud-itonami/cloud-itonami-app) の成熟度を",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-maint",
-      "checksum": "sha256:a048cada4f57afa5551a2722cbeec47dd91f32914b3d29d5ab781699a108365e",
+      "checksum": "sha256:b626972c4b4ee1ac7927c2cdedd9c544d46952cb5b86175b17ea10c059b489d0",
       "profileChecksum": "sha256-tree:ce2c1ff9adec51eec31ef700e6c3e7e014683760963be1741c99647337fcfb9b"
     },
     {
@@ -24669,13 +24669,13 @@
       "version": "0.1.0",
       "description": "itonami-mktg — marketing for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-mktg",
-      "checksum": "sha256:5a880e9b93f2f6a3411bbaf1d01e71dfa981af19261584a08320b76e6c210c58",
+      "checksum": "sha256:cfbd3012ce39b156cf178b4869c465c5efb1c4901db871cc6b7383612b9e218f",
       "profileChecksum": "sha256-tree:e1923efa4022aa54616c0a775c88879746fda2b002cd182e4a1dd1e4b3b5d450"
     },
     {
@@ -24685,13 +24685,13 @@
       "version": "0.1.0",
       "description": "itonami-po — product owner for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-po",
-      "checksum": "sha256:9da8f925fb1ad3d3e661e68ffe0a641c9261975a7fe52c89746a6626cae8090a",
+      "checksum": "sha256:3258e2979f366a2f4c1bf3ecaa6f669868e252d14db205f778daf4179afa513c",
       "profileChecksum": "sha256-tree:132ec87a47b848ed6a23fd8adef9a52f227fbfc73232ad4edf65c813c5a266f9"
     },
     {
@@ -24701,13 +24701,13 @@
       "version": "0.1.0",
       "description": "itonami.cloud の publish 判断 gate bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-publish-gate",
-      "checksum": "sha256:f87e8462bc2b234d407725fd26495ff7fc7148ef623ccc5b2cd20da582d27bdd",
+      "checksum": "sha256:4c02a86b415065de637b16aabe0f3a34bb9960f035929d41a8f98a731a1cc193",
       "profileChecksum": "sha256-tree:9f93311a01f30443c0a457380a6847b17f7f6b34774a4750891de453d185307f"
     },
     {
@@ -24717,13 +24717,13 @@
       "version": "0.1.0",
       "description": "itonami-qa — QA for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-qa",
-      "checksum": "sha256:ac9af8a9468f9e6aff2d6f326987f75aa5fadcafecad5a7b029747e0aa1a8aa0",
+      "checksum": "sha256:bf19a665a131721c2359a9609ea55c452c04ca6ac59b1669c4bee2593af647b8",
       "profileChecksum": "sha256-tree:d8058d88db235d27d863a60028bafa6bf8ea7a685137420495aaa2fad3f90497"
     },
     {
@@ -24733,13 +24733,13 @@
       "version": "0.1.0",
       "description": "Enterprise SaaS replacement and cost-reduction sales for itonami.cloud — inventory, bot fit assessment, total-cost estimates, PoC plans and proposals",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-sales",
-      "checksum": "sha256:8132776604413aa6b3d40a1de051bfce18f8ade51568864c597eaa5064c3dd6e",
+      "checksum": "sha256:7a823bff2eeeab114bbb3a0962e0ea5b38ee663e5d4bb5b97dc6f724ae9629dc",
       "profileChecksum": "sha256-tree:028d541f8040d4170e0cf937efecfd8586ed914e0996aa963e143831fadb57ca"
     },
     {
@@ -24749,13 +24749,13 @@
       "version": "0.1.0",
       "description": "営業代行 — メールの初回提案・返信・追客、aozora.app 上の暗号化 lead と配信停止記録",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-sales-agent",
-      "checksum": "sha256:96e3d028aae30ce89ed52b25332139bedc3b15bf403315de94c918be38c802a3",
+      "checksum": "sha256:656094e6ae7ab4325efd0e51326c03e8b6a029b0ddfee73c1fe141e3a605eca7",
       "profileChecksum": "sha256-tree:3cdb61a400deb9f99e4683273b4f6a2147b4ce80ba88f05989db7dd154064065"
     },
     {
@@ -24781,13 +24781,13 @@
       "version": "0.1.0",
       "description": "itonami-support — support for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-support",
-      "checksum": "sha256:11839f47947fb6ecc2dddd3813e104baf3f82e71e9d26e8291ce06f1dae33c49",
+      "checksum": "sha256:fa06c8c0843398d9c440acf22d3c3739adc5d0c9b8ee19dddc7d3375d8c2b1df",
       "profileChecksum": "sha256-tree:f6f9f6fb2cc121e7b0402f5f4c34800bdba9f6f21ccd3afea84ab5fa03324e78"
     },
     {
@@ -24797,13 +24797,13 @@
       "version": "0.1.0",
       "description": "itonami-winfix — Windows installer/launcher 起動障害の収集と修正 — itonami.cloud Windows版 (CloudItonami.exe + cloud-itonami-app.jar) の",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-winfix",
-      "checksum": "sha256:84f45acf3f4d6f80970af00ef0855188e1d41fa4751c0068d3d4e065cfde4e63",
+      "checksum": "sha256:1fb439880f114c186bdae62d362fce9c4b49429d6ad27882d9082e11e6a45f52",
       "profileChecksum": "sha256-tree:9c714b1982bdd44804a2106444fdea45744852a5f21e660cc82744fc5db33110"
     },
     {
@@ -24813,13 +24813,13 @@
       "version": "0.1.0",
       "description": "itonami-winfix-qa — Windows版 Cloud Itonami の品質検証 — itonami.cloud Windows版の起動品質を検証する専門 profile。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/itonami-winfix-qa",
-      "checksum": "sha256:2035a2d89201be9fbd916d51c67f5913911bc979b954e72614ff39d3ba7063a9",
+      "checksum": "sha256:169790c21ed35c7c3a23147b7c8d9e95363c65027edc0991c89733c6536a3c59",
       "profileChecksum": "sha256-tree:d304f1bd779fccd529ba57030869708fe4929eaf7e3ea83b69257437723897fb"
     },
     {
@@ -36557,13 +36557,13 @@
       "version": "0.1.0",
       "description": "itonami.cloud public bots registry bot: awai-arb 登録状態の監視 + owner passkey 依頼 + register 可能になったら直ぐ申請",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/public-bots-registrar",
-      "checksum": "sha256:87e6656c3322f20f56a78098301fccd19b014ad1804561314760023970858189",
+      "checksum": "sha256:c9b786e5e90c967ce770916433d1ca0562bb0a0ba33bb8fb13e6d9652dea26fe",
       "profileChecksum": "sha256-tree:d69677d1b0a2d4521da1131dca197425c39769bf7e6fccd912ccd0cdaf1a5bc5"
     },
     {
@@ -36605,13 +36605,13 @@
       "version": "0.1.0",
       "description": "refactor — clj, cljc を kotoba に refactor するよ. jvm 依存を外して, amu, kotoba cli compile にするよ.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/refactor",
-      "checksum": "sha256:b2a4f36e2ad181f7995d875468df206a805061a4a44362e5a2a6045f7b2b5fcc",
+      "checksum": "sha256:afc1ddaf97d5d6d36bb31264c9b75c0ed61a69c748d7a7f6da463d760f7f2f43",
       "profileChecksum": "sha256-tree:785cd7581d790d3ba52240de97237718e9bd65f61c7af00707ba7fda7d6c4b8c"
     },
     {
@@ -36845,13 +36845,13 @@
       "version": "0.1.0",
       "description": "svelte-to-cljs — com-junkawasaki superproject (west workspace) の **repo-wide Svelte 廃止** bot。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami/tree/f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+      "source": "https://github.com/cloud-itonami/app-itonami/tree/9092cb0a1b190083dc3e561f7e5194124e6dd45b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/svelte-to-cljs",
-      "checksum": "sha256:0c044a8fb672668314e6c79e97bf01d55a0b51cef60ea3aa24e5de40ddeadba8",
+      "checksum": "sha256:77bf21499bc4568563eb091f473130db3075f7bb918444854aa035a06f139b3e",
       "profileChecksum": "sha256-tree:6f1649f555aa20a62141fccd73948e67a915240b10332406e48e2ad95f0afa71"
     },
     {
