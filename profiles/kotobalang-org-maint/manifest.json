@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba-lang.org site メンテ (orgs/kotoba-lang/kotoba-lang site/, Cloudflare), 60min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/kotobalang-org-maint",
     "checksum": "sha256-tree:0528f8fe95e5e01f73af6fd91448e1720adce336ce4c09443c7369ce8ae1a9bf",
     "files": [
