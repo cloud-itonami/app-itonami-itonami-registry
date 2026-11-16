@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "対象範囲 (この bot が触るもの) — itonami-cli-maint — itonami CLI / bots 面の成熟度整備 bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-cli-maint",
     "checksum": "sha256-tree:946fa8f10d9b26f6ca2e27f366002ebf2db09b33ee7fe79cb3af944faad55100",
     "files": [

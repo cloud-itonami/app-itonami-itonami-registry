@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "app-itonami-profile"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami: business OS bot. Runs itonami fleet ingests (ISIC/ISO/LEI/grok-bots corpora), maturity loops, and feeds wiki.yataverse.com via hyakka.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
@@ -10,7 +10,7 @@
   },
   "outputs": {
     "profile": "Hermes profile files at the pinned commit",
-    "skills": ".curator_state, awai-state-store-policy, git-cleanup-conflict, git-operations, hermes-fleet-cron-health, hyakka-sitelink-scout, isekai-network-team, itonami-business-bots, itonami-site-teams, java-kotoba-migration, kbb-config-and-classpath, kbb-test-suite-fix, kotoba-capability-extension, kotobase-bytes-plane, kotobase-ldbc-qualification, mail-relay-inbox-observation, murakumo-confidential-inference, murakumo-edge-ring, nbb-to-kbb-migration, oppai-producer-hourly, tenken-declarative-config, transport-evidence-bot, utsushi-jvmfree-bot"
+    "skills": ".curator_state, awai-state-store-policy, git-cleanup-conflict, git-operations, hermes-fleet-cron-health, hyakka-sitelink-scout, isekai-network-team, itonami-business-bots, itonami-site-teams, java-kotoba-migration, kbb-config-and-classpath, kbb-test-suite-fix, kotoba-capability-extension, kotobase-bytes-plane, kotobase-ldbc-qualification, mail-relay-inbox-observation, murakumo-confidential-inference, murakumo-edge-ring, nbb-to-kbb-migration, oppai-producer-hourly, tenken-declarative-config, transport-evidence-bot, utsushi-jvmfree-bot, wellbecoming-replication"
   },
   "effects": [
     "profile-install"

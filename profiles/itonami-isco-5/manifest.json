@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 5 Services And Sales Workers occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/9d661bc593c28173e02ad5530e7b2832ea3b9830",
+  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/isco",
-    "commit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+    "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-5",
     "checksum": "sha256-tree:a76672504498612ffa270f91b7164241566f67117a679e1cd78a594cffaa81ae",
     "files": [
