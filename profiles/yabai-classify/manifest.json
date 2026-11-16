@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "yabai-classify — R2 staging の chunk を 1 つ/回 claim して admission → candidate facts にする分類 bot。fetch はしない。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+  "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/yabai-actor",
-    "commit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+    "commit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
     "path": "hermes/profiles/yabai-classify",
     "checksum": "sha256-tree:ac88d81a5ed846932db8e0fbbc7e56fe65459620bb5895138c767bc27a0d713d",
     "files": [

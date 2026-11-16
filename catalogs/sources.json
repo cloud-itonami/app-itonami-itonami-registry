@@ -41100,6 +41100,475 @@
           "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/skills/torihiki-self-organization/SKILL.md"
         }
       ]
+    },
+    {
+      "id": "adserver-48a61dc",
+      "repository": "cloud-itonami/adserver",
+      "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+      "files": [
+        {
+          "path": "hermes/profiles/adnetwork-scout/SOUL.md",
+          "sha256": "fdf976465a0bfba8fa68c561c8097f5ea0587dacad16233ac64b6fe9b3fd4379",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/cron/jobs.json",
+          "sha256": "58e8f9d9ae216a8aedc56d2edd13dca5b99b16631693b69b13dbde37d0439e73",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/itonami.edn",
+          "sha256": "0400571187ba6704791e6fdbf4361cbc71bc657e7ad7cd97f3666a3bad9e1030",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/profile.yaml",
+          "sha256": "2d4c919f48e0cb04942472832ab8ed00f66f7634ef2737f1edc83558c867f454",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/scripts/adnetwork_evidence.hy",
+          "sha256": "b3884001e860333ac52140da58f75f64ed9ff38dd4384638778863a14b3b45d6",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/scripts/adnetwork_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/scripts/adnetwork_outreach_evidence.hy",
+          "sha256": "51edd02fbb221fcfbf15e0485675ef8167b2040287caff2ed83a5f2ccaed317d",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/scripts/adnetwork_outreach_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md",
+          "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/SKILL.md",
+          "sha256": "5656e07fde544ed0d7329074e91d47a9b729648e7c3c31ccceb48496656153a4",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/references/landed-judgment.md",
+          "sha256": "51a2ca31e833f02bc50fe12726673352bb87af492e176f991eed984f6967fad1",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/references/landed-judgment.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/references/runtime-dir-retirement.md",
+          "sha256": "a12dbbd11db4f9efe87eb90847548dc667e60a25b3cfe645931d9d399dbc0052",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/references/runtime-dir-retirement.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/git-operations/SKILL.md",
+          "sha256": "489542a8641765cbe4cb8931bfd2e1061b452de15e2947377133f6abf50c16ad",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/git-operations/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/git-operations/references/tick-notes.md",
+          "sha256": "899694e72a99bfec8c3d901e1d9ffe9c396f78113dc3ece45be6c9a8d0f120f7",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/git-operations/references/tick-notes.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hermes-fleet-cron-health/SKILL.md",
+          "sha256": "b79e21c966adfb41b3c203540defbc7c43e1cd78e4568137db59b16cd5b45f1f",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hermes-fleet-cron-health/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hermes-fleet-cron-health/references/error-classification.md",
+          "sha256": "b4b09941e5e45c6dc92e6ca37157e2a50563e0c36293669d303ff49272a617b5",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hermes-fleet-cron-health/references/error-classification.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/SKILL.md",
+          "sha256": "985224953a7821236c4ab00076d2b61e62b17873695708b721212de7c6f9be16",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
+          "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
+          "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/references/run-records.md",
+          "sha256": "f9e448c64fff3d92a8310003ee453460430d9da51a102e5d67fc1ca2d6142b08",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/references/run-records.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
+          "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/references/run-addenda.md",
+          "sha256": "45d9484463eb7a1b5ca52657893ffc4ada3de38bb0c591f8a5c946e747bf2135",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/references/run-addenda.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md",
+          "sha256": "4dd5f8d222468bb57f2494c6d4ba2a295f4c5fbcc8ad2c8d3341591770562733",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/biscuit-authority-map.md",
+          "sha256": "6eb8c8663e1b87f343bec72d2a4afa1b6aff17914ccec54cb3f02308424268e5",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/biscuit-authority-map.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/biscuit-mro-operator.md",
+          "sha256": "f370e21511e8a610ca94f8aaf205856bcbc8d7509073fcaf2050473f24b20fc9",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/biscuit-mro-operator.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/launch-contract.md",
+          "sha256": "b7f28a042802e12d6c93bdc9014fe3b73060651deaaa92b80f324aeb37f9baad",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/launch-contract.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/worker-build-deploy.md",
+          "sha256": "fc2da54ecf0fd88a3a77c2911e0e4092373817e5577cc06ced595b57ef31c8f4",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/worker-build-deploy.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/worker-versions.md",
+          "sha256": "d113d34e757e5d42fd50ecf09333cc498d3fcd39a5f55fc08b83e87a338f10b2",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/worker-versions.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/x402-harness.md",
+          "sha256": "8c25de030fdcad7e36a3220794b853ccc934c6e5f5b9c7f9add7198a199e1bb1",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/references/x402-harness.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/java-kotoba-migration/SKILL.md",
+          "sha256": "d2a023da875006855a3d751d6bccbb2f8bef978b261bdc9ba854f17c234091f9",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/java-kotoba-migration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/java-kotoba-migration/references/kotoba-guest-porting.md",
+          "sha256": "895f83af593f8cc24bbb606242b975b264a8a6e29e951a37463884ed49688934",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/java-kotoba-migration/references/kotoba-guest-porting.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kbb-config-and-classpath/SKILL.md",
+          "sha256": "4408546492b183ef3f307fa9bc98fc978d08208fcee9acf81a109417694f44a3",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kbb-config-and-classpath/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kbb-config-and-classpath/references/kbb-jvm-free-generator.md",
+          "sha256": "a748e8ea440ab7215d556ec7c8352025477b05d22b1208c5166e45451cf58341",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kbb-config-and-classpath/references/kbb-jvm-free-generator.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kbb-test-suite-fix/SKILL.md",
+          "sha256": "53936e0e411f63db40924dfd4fb9ad66e137168f3a859555b53dd2e300b01cd1",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kbb-test-suite-fix/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/SKILL.md",
+          "sha256": "efc0912440bca4dc888263608ced39bd09c7b9b33c65c77eafed56ededc7e46d",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/jvm-render-port.md",
+          "sha256": "cde9ed93be6d6c3c7ba44e997ec91148940f4c5da4039b785fb4d821eb9e2f87",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/jvm-render-port.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/kbb-fs-scan.md",
+          "sha256": "a68c6383750d43171b8966cf4db483fdea93b7ae15b272e6bcd40a3bb3d283af",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/kbb-fs-scan.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/org-wide-kotoba-scan.md",
+          "sha256": "22f629fbad4fc31937bc21066612c858a91c9a4acb9d05167c450c768a93c670",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/org-wide-kotoba-scan.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/tee-guest-lessons.md",
+          "sha256": "df44f57e36dfeedbb2c4d7e334cd8ebeac2d68b56e1450c38c1c8f2c28a518e6",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/references/tee-guest-lessons.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotobase-bytes-plane/SKILL.md",
+          "sha256": "195f73f14ee470bd4531022afc13fafc54775e35cf037417e149796498200cff",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotobase-bytes-plane/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotobase-bytes-plane/references/hostname-move.md",
+          "sha256": "bdb81489631c9ad32edea7928d8fda73ce2674900c8e04d8f0e3089dd54f99b2",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotobase-bytes-plane/references/hostname-move.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotobase-ldbc-qualification/SKILL.md",
+          "sha256": "a74c9fe6e13c6d9dbe1b01943d185b5a31c5b66176967c1f804ea3b65a94626e",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotobase-ldbc-qualification/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/kotobase-ldbc-qualification/references/status.md",
+          "sha256": "a86a388eefc1cfac3064ae10906d9c9159278fb1cf7a3a1fc458bc23e4f8e425",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/kotobase-ldbc-qualification/references/status.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/mail-relay-inbox-observation/SKILL.md",
+          "sha256": "9da4edac1ddf722d3a6053367eb37723d11d2f6c1bdc7aca3c3622ce97417e43",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/mail-relay-inbox-observation/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/murakumo-confidential-inference/SKILL.md",
+          "sha256": "f36a3e1401ed389033755206856bfc157fcf008e5239d0b758914ecd89a601ff",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/murakumo-confidential-inference/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/SKILL.md",
+          "sha256": "45aebdecbe5b5dd06fc904cc545fa4f1c8bccfd1bbbed90f9972ed1c5ef599ce",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/references/murakumo-tiers.md",
+          "sha256": "3c8d896b7fecfdc98a95feed175c785d5225c6f99ec574fb8f6b77ea4a234c37",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/references/murakumo-tiers.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/references/worktree-git-catalog.md",
+          "sha256": "f16b16508903c4cc762f09e63e1dbae983ee10ef544f794d41282282d7235ef3",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/references/worktree-git-catalog.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/nbb-to-kbb-migration/SKILL.md",
+          "sha256": "efd5ef4d2a7f9920495c2ea772b9d4fbc6e02c88861b105c1c2bd609fbbdb9fd",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/nbb-to-kbb-migration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/oppai-producer-hourly/SKILL.md",
+          "sha256": "ca0f526dfbfdbb4e5fc6e52e7e3d7067899f2273c003bfe2924e8eff3ebf5641",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/oppai-producer-hourly/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md",
+          "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md",
+          "sha256": "334bf42c81a813a4794e46d1316a5649a5ecd77e5f7038213a9a24ce56fac819",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adnetwork-scout/skills/utsushi-jvmfree-bot/SKILL.md",
+          "sha256": "8c96bd0fb31b6dcd50ec441bdf856cbdc6b109c742e3f7cd72348c763352ed56",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adnetwork-scout/skills/utsushi-jvmfree-bot/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/adsk/SOUL.md",
+          "sha256": "f850c3e6378ce572255dc355d4366dc5fdfcf13d4652c0c4c5eaee2bb528aa47",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adsk/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/adsk/config.yaml",
+          "sha256": "04287f1f0d06ef1fa4e180d3397f57436c40553d61efbddac2a5c308913df90d",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adsk/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/adsk/profile.yaml",
+          "sha256": "7af694b9abca956a6840799395bffcd46249bfd4bb910422415e1785f86b643a",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adsk/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/adska/SOUL.md",
+          "sha256": "cc1f11db626813449149cc6c90c50adb79679830f539121b316bc289f35ae2f1",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adska/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/adska/config.yaml",
+          "sha256": "04287f1f0d06ef1fa4e180d3397f57436c40553d61efbddac2a5c308913df90d",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adska/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/adska/profile.yaml",
+          "sha256": "d46bf19f081f8d9632442b4872218216e6c60cc9a7d13135e87523ec307d470d",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/adska/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/SOUL.md",
+          "sha256": "cb30875710a5e91901ca21b1cc1b93a6462609c4df2e23e6cd51096e9873fb31",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/config.yaml",
+          "sha256": "1bcb808207aaa972ffab19b1a70e6b08d9aee038e6f6623a0ff8028de7024161",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/cron/jobs.json",
+          "sha256": "21e627d6dee01b8c1b5233f3bdb8cb5ac57f9e273909ab989155368fbb888975",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/itonami.edn",
+          "sha256": "529f3ba3c7b6e24493956bbe4b296689b20bcaaaa6dd21cb61ef935113e16fa8",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/profile.yaml",
+          "sha256": "4a817a6947e1077ff7a10976773261f9230613325ba4e29a8837a02d72d7a869",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/scripts/adnetwork_surface_evidence.hy",
+          "sha256": "4082b448b9b6d96c1c3dbb9018eb79fb9a80a7e2868e3598961dedde0297d12f",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/scripts/adnetwork_surface_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/murakumo-adnetwork/scripts/mithril_growth_tick.sh",
+          "sha256": "d5327fdc4096f68d790bb744227f442b37c846e13117857f81e78a9d91f9b146",
+          "url": "https://github.com/cloud-itonami/adserver/blob/48a61dcb81291aac7d921a2c720dea897324ac97/hermes/profiles/murakumo-adnetwork/scripts/mithril_growth_tick.sh"
+        }
+      ]
+    },
+    {
+      "id": "yabai-actor-c1ba3c6",
+      "repository": "cloud-itonami/yabai-actor",
+      "commit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
+      "files": [
+        {
+          "path": "hermes/profiles/yabai-classify/SOUL.md",
+          "sha256": "9d85cf3dbbda666b4dccaea43a3ee5157223012dd2ba6bbd72b6c428b684f603",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/config.yaml",
+          "sha256": "440a6591d02aff037231f9f57703140275bed1648bb31ab782e8221ab156f536",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/cron/jobs.json",
+          "sha256": "f650d34d5ee13d0fa8500bb4fa2caa381f5d3f5f6bcfb4f17def62f5e0517f79",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/itonami.edn",
+          "sha256": "6ff7745d42732f72cd53a181f0b0736e68274373b1c078dffc8094e7ca658401",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/profile.yaml",
+          "sha256": "81f4afb8de4ea5ca7a9fa77628c778bec27d2f0fb733eb948f610580eaa4acb7",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/scripts/classify_chunk.hy",
+          "sha256": "78756f7012f9ec83cb9610d54c44553473f467d8398e21f051847e171811b9a0",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/scripts/classify_chunk.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-classify/scripts/throttle.hy",
+          "sha256": "b8de1fcb27a7a0ec3d0081f68f069f6f0bacd49b923238625c7582c19b32466f",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-classify/scripts/throttle.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/SOUL.md",
+          "sha256": "63e1f0f82dcd4dd285c1cf76d002c6ad34f3c9f03e4cb216e6d353a4d1eb840d",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/config.yaml",
+          "sha256": "27c5a77bd4613eb8119cae48fd555c9b8a27b06cca4dbdf2ffe35c899fbddee8",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/cron/jobs.json",
+          "sha256": "9474197588a5428da99ab35a3c1ceaaf8682d23b5e68969a7bd5b5bc1a0542d3",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/itonami.edn",
+          "sha256": "581360d233d994d3a88c0c79dc0da5e3471e6c65738b118b64407b4df9a21f64",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/profile.yaml",
+          "sha256": "352e283fddee6b0f77065e5b5e75d470d33a4b07e3410375ab31699bbe5c4858",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/scripts/rdap_timeline.hy",
+          "sha256": "44197df8ba649c76fe19e6ada3f94b4b3854323fdd664405d16a0d0a3acf3b9e",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/scripts/rdap_timeline.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/scripts/throttle.hy",
+          "sha256": "b8de1fcb27a7a0ec3d0081f68f069f6f0bacd49b923238625c7582c19b32466f",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/scripts/throttle.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/scripts/yabai_intel_evidence.hy",
+          "sha256": "f2bc250d0ee2fec8e09c6fccd08c440eaa2c89173a7619b24d8c5b1d94fdece2",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/scripts/yabai_intel_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-intel/skills/yabai-intel-ioc-iteration/SKILL.md",
+          "sha256": "26e4083613b2b86dc64b3cb89c89241a34d054558c2c396a442c8e09b7e63f6d",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-intel/skills/yabai-intel-ioc-iteration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/yabai-ops/SOUL.md",
+          "sha256": "46ef0b4464e2e8e386a6fbdcceaf5ef4550a90ebb26ba4886d74b0af5fb4bc89",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-ops/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/yabai-ops/config.yaml",
+          "sha256": "27c5a77bd4613eb8119cae48fd555c9b8a27b06cca4dbdf2ffe35c899fbddee8",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-ops/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-ops/cron/jobs.json",
+          "sha256": "d4478ff513feb1bd03d29ddb9570edbece1a8f7ad921bef4829726e3b448a05a",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-ops/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/yabai-ops/profile.yaml",
+          "sha256": "610f501e07fbfbfb8d08c05f386e84975c7c3bacdb4c91834aaaf6ed85d8c7fe",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-ops/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/SOUL.md",
+          "sha256": "ad2f9edc8c47471c28a2c672757ec952cd810223d349b99bd96a78b3e0da63f9",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/config.yaml",
+          "sha256": "27c5a77bd4613eb8119cae48fd555c9b8a27b06cca4dbdf2ffe35c899fbddee8",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/cron/jobs.json",
+          "sha256": "743bd89a3032e87409e9600e6dbfaed566a30f293d5d5006c5ccefd2e34a0aa6",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/itonami.edn",
+          "sha256": "c1a67b762d32bbd84969bbcf484c9396dd9017d489c5790fe093a77d71fad555",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/scripts/staging_fetch.hy",
+          "sha256": "5b9e9064fee8fb87fe750fa0b6263d368f369aea1476fd454c81b7694a95082d",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/scripts/staging_fetch.hy"
+        },
+        {
+          "path": "hermes/profiles/yabai-staging/scripts/throttle.hy",
+          "sha256": "b8de1fcb27a7a0ec3d0081f68f069f6f0bacd49b923238625c7582c19b32466f",
+          "url": "https://github.com/cloud-itonami/yabai-actor/blob/c1ba3c699ccebebc2302fef6381ff582818250ed/hermes/profiles/yabai-staging/scripts/throttle.hy"
+        }
+      ]
     }
   ]
 }

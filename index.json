@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:06:35.040178Z",
+  "generated": "2026-11-16T11:06:55.637542Z",
   "count": 1985,
   "entries": [
     {
@@ -23037,13 +23037,13 @@
       "version": "0.1.0",
       "description": "adnetwork 広告主情報を収集して Cloudflare R2 data catalog (Iceberg) に保存する bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/adserver/tree/f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+      "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adnetwork-scout",
-      "checksum": "sha256:8d0237d7410fd63b854826ab3b6ad2b1292f392ab14fc2286c88403d44872f48",
+      "checksum": "sha256:d89819835457b37925d0dc2fbe6b5914489bdb596e9496e85ca26ad6c8f2a0b3",
       "profileChecksum": "sha256-tree:ec963f6ed2cc3f2b6a16b19e1256d39ae9c1db85c667127d99f13b3f0c72b7b0"
     },
     {
@@ -23053,13 +23053,13 @@
       "version": "0.1.0",
       "description": "adsk: adult ad-creative generation bot using murakumo.cloud image/video gen. Sizes, formats, compliance first; publishes artifact paths/URLs.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/adserver/tree/f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+      "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adsk",
-      "checksum": "sha256:6190fa7d971c8363b76cb110eddbbe6b920a79fc0e0fa7bd2cda534126107095",
+      "checksum": "sha256:d9b0df2356eb7e872fc803b4b0b0150e191f166ef63503b6de72fa06eefe0db7",
       "profileChecksum": "sha256-tree:15a191888723b8649980865c648fb15efe80d7b0cd0d4621218fb66b775826f2"
     },
     {
@@ -23069,13 +23069,13 @@
       "version": "0.1.0",
       "description": "adska: adult ad-operations bot. Campaign plans, budgets, placement compliance, measured CTR/CVR into the itonami ledger.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/adserver/tree/f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+      "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adska",
-      "checksum": "sha256:8fac2e84b74086acfdf6bba6603d2b074c250ca289c8f8fb95e3caa4108a5245",
+      "checksum": "sha256:bb8ca6f3a82b21ceccff9fb6be3af5e2a46be36c7ddc62e8cff0f53f2ec05ddd",
       "profileChecksum": "sha256-tree:9cfdaa3750168582885ec2bc758074df1d5969f9f6c594f108adf1988b7e2f5c"
     },
     {
@@ -25501,13 +25501,13 @@
       "version": "0.1.0",
       "description": "murakumo.cloud ad network surface driver: measure the first-party ad network (adnet auction, /advertise intake, ads MCP, ad-funded free lane, x402 SDK) and propose one bounded improvement per tick. propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/adserver/tree/f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+      "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo-adnetwork",
-      "checksum": "sha256:cf21b0a44b6b946fa3464441e63ed395566d065ae1383f6c9bfcf967ff3e4084",
+      "checksum": "sha256:2f26b676d7d5d9cfc480cab6b235aca01db0ea98ec33bd3cea6eb5b8ddc8a832",
       "profileChecksum": "sha256-tree:1418e65346a2cd8c61f7e68ecb281ece81c3ad3ed21b52689acf1d66ec72610d"
     },
     {
@@ -37229,13 +37229,13 @@
       "version": "0.1.0",
       "description": "yabai-classify — R2 staging の chunk を 1 つ/回 claim して admission → candidate facts にする分類 bot。fetch はしない。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+      "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yabai-classify",
-      "checksum": "sha256:56206bc31914162f5aaa575fabf11ff0b7c0b130e3e1cd53e624ac010d291211",
+      "checksum": "sha256:b975f58ac4c2663656ccbb1db88f9dcb1eb64b5da13367252fc41a3412118ad2",
       "profileChecksum": "sha256-tree:ac88d81a5ed846932db8e0fbbc7e56fe65459620bb5895138c767bc27a0d713d"
     },
     {
@@ -37245,13 +37245,13 @@
       "version": "0.1.0",
       "description": "yabai-intel — wiki.yataverse.com 迷惑インフラ収集 bot (スパム/フィッシング/詐欺ドメイン・IP・abuse連絡先、IOCのみ、個人情報は載せない)",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+      "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yabai-intel",
-      "checksum": "sha256:9404e915745aa61f4b28a340a4c010d57e63bf96da831ec36f725d05504b77b2",
+      "checksum": "sha256:7db98bab7a25d755dad7d5cc42beffd5bc14dba283d62bbe9ab2b784dd5f4ce4",
       "profileChecksum": "sha256-tree:49abe9f4dac7d51deeabf250c5365f6e0cb4d69eedadb0621bf95ca6eb801a45"
     },
     {
@@ -37261,13 +37261,13 @@
       "version": "0.1.0",
       "description": "yabai-ops — yabai-intel / yabai-staging / yabai-classify の cron 健康・manifest queue・R2 staging cost の安定化担当。壊れたら直すまでが仕事。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+      "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yabai-ops",
-      "checksum": "sha256:287e50ca37e981d25c5f38201d50fb1bad90654ad5a7464b59161c9e253011f6",
+      "checksum": "sha256:80d97573d1cc6ff401c265be79dc17d96103029b89a374f8c98799d0a4b25679",
       "profileChecksum": "sha256-tree:af934935fd2e13781c8b8b7d02034d0a6ccbfca9253115bccc2635b51c32a81c"
     },
     {
@@ -37277,13 +37277,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+      "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yabai-staging",
-      "checksum": "sha256:8d5842f99fcb07f1939aceefa42500a5d55f2fb5bc5b7c01f86a1291a28afb6a",
+      "checksum": "sha256:fc9ca272408f7e26d1ef586b180367b0ddb9220904193b602940598e1bf1f4ce",
       "profileChecksum": "sha256-tree:ae57ecfe3011308d92cfabdb6f69fbb269e325b19876a6a4cc2733f43e7fa233"
     },
     {
