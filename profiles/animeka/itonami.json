@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "animeka-actor-b647cdf0"
+    "animeka-baac7a6"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: animeka: anime production bot. Generates animation works with kami engine + fleet creative skills and publishes to aozora.app.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

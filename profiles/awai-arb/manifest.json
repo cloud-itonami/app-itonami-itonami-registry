@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "awai.network arbitrage measurement bot: torihiki/x402/murakumo price surfaces, cross-market gap vs external refs, paper PnL, propose-only",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-arbitrage/tree/5c547afd0bc90f395d7b3abf88125ae5aa6bcc18",
+  "source": "https://github.com/cloud-itonami/ao-arbitrage/tree/c1bf1742a4ef58ac133f3cb4733b5b2f9953d994",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/ao-arbitrage",
-    "commit": "5c547afd0bc90f395d7b3abf88125ae5aa6bcc18",
+    "commit": "c1bf1742a4ef58ac133f3cb4733b5b2f9953d994",
     "path": "hermes/profiles/awai-arb",
     "checksum": "sha256-tree:3355270c069a9c6526bfebddee4a5c9d403cc7da2e6c487ebcbb704fe37e9c19",
     "files": [

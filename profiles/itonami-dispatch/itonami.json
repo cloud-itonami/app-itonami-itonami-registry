@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app-ce08b9f2"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cloud-itonami 各 business の bot 群を murakumo fleet 上で分散稼働させる dispatch bot。kanban swarm で worker を並列実行し、isolated context envelope で context 共有を制御、checkpoint で長期実行耐性を担保する。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

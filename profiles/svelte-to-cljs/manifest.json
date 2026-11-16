@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "svelte-to-cljs — com-junkawasaki superproject (west workspace) の **repo-wide Svelte 廃止** bot。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami/tree/f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+  "source": "https://github.com/cloud-itonami/app-itonami/tree/9092cb0a1b190083dc3e561f7e5194124e6dd45b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami",
-    "commit": "f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+    "commit": "9092cb0a1b190083dc3e561f7e5194124e6dd45b",
     "path": "hermes/profiles/svelte-to-cljs",
     "checksum": "sha256-tree:6f1649f555aa20a62141fccd73948e67a915240b10332406e48e2ad95f0afa71",
     "files": [

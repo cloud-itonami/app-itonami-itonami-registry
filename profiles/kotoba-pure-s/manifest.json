@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Kotoba Lisp pure S-expression core (.kotoba) and Clojure-shaped desugared surface (.cljk) verification and architecture bot",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba-lang",
-    "commit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+    "commit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
     "path": "hermes/profiles/kotoba-pure-s",
     "checksum": "sha256-tree:d5ce6bf643cfa82a20bf92ada8489474a4122ece11aed9d1709ad9e03297c199",
     "files": [

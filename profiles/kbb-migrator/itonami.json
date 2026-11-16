@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-35bc99fb"
+    "kotoba-426ddd2"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kbb-migrator — kbb-migrator — nbb → kbb 移行 bot。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
