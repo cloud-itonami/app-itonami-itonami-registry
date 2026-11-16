@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-isic-8121-1ba2daa9"
+    "isic-8121-4ade664"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Giemon-based cleaning-robot business organizer (ISIC 8121 Community Building Cleaning Operations). Owns the samu business bot lifecycle: blueprint registry watch, grok-bots activity monitoring, ops jo",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

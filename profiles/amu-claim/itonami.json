@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "amu-bea7b9b2"
+    "amu-f759f4f"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: amu speed-claim chain: 測定を静かな fleet ノードに置き、host gate を通し、qualified な主張を着地させる。20min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-7e63dd5f"
+    "ao-repo-steward-6973c16"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

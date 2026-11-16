@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-isic-4920-8b4ea2b2"
+    "isic-4920-dc61b9b"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami.cloud の自律営業・マーケティング・分析 bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
