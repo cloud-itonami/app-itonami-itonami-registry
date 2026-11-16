@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "営業代行 — メールの初回提案・返信・追客、aozora.app 上の暗号化 lead と配信停止記録",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/ce08b9f20d496975621a8fa07b898b67c15fb829",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-sales-agent",
     "checksum": "sha256-tree:3cdb61a400deb9f99e4683273b4f6a2147b4ce80ba88f05989db7dd154064065",
     "files": [
