@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:11:36.998015Z",
+  "generated": "2026-11-16T11:11:57.139625Z",
   "count": 1985,
   "entries": [
     {
@@ -27901,13 +27901,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4222: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4222/tree/ca56773d8b7c9d2c96ccab3f4813f620758760f6",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4222/tree/f4056be1174c2e3793f38e17216c8ebec8d23280",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4222",
-      "checksum": "sha256:2392740e37e8a7d3fbce84392d9ec9e151c0d6e21456fb7dd636f7e19e476662",
+      "checksum": "sha256:4b9562c51bed4312a9f5a4c10cc28de07d6e4d894181ac28cb4edbb296ec1c1a",
       "profileChecksum": "sha256-tree:557f4c656bf8bbbe3c2f4ff5d3e272a5cc4e7fe26c962fe1113a341186d44099"
     },
     {
@@ -27917,13 +27917,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4223: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4223/tree/91044902aca7540e8d08aec7747891f4ac627529",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4223/tree/7c73d793c07ee80594684f222926984e4915dbce",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4223",
-      "checksum": "sha256:444f3f85ff0ab5e8c13e802082b9f5328577843d87520c17f4eedb14163f79ba",
+      "checksum": "sha256:1fc073df003860b346f042326f5e6f607314df8992ca963ec67f36c159bb9a62",
       "profileChecksum": "sha256-tree:fea39805724417bdbab53f78aa1a33b08c537ecbbfbccec8637ca6239d46428a"
     },
     {
@@ -27933,13 +27933,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4224: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4224/tree/eec7f47f6e9ba3d5de6ef818046324dc1589a6bb",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4224/tree/66f08a58ee988abaf4f2723d98d73c4ed8dec3df",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4224",
-      "checksum": "sha256:cc017cc17d0d25607eb259c6090badc12f9abc03ef612c57a032bdd45c175ae5",
+      "checksum": "sha256:77f79682d9f7fcde3717f5f32e937bbf387eab881d05703fa403c33c29d230a1",
       "profileChecksum": "sha256-tree:4dbb76c490d8c74054f860e48ca92fb1e11fe6230f9a0a86e91177dd4fcd88a1"
     },
     {
@@ -27949,13 +27949,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4225: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4225/tree/4fde40ef11e609899db9b2d95194c2749a20122d",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4225/tree/c7dd87b1067532c61ba6a7569ca10b75aa77f5b5",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4225",
-      "checksum": "sha256:ef8bbe7f1fdbdd19e10bfa1df8dfa9f8d8587c5bc06f45cd016090667c3cfad4",
+      "checksum": "sha256:646b06ad2ac3d6602ba27b076ad4dc9f3cd7df9512d0ad72db5e87349a5f8129",
       "profileChecksum": "sha256-tree:3f2d25abb365f9f2c3cf2f6c8378b64e742b63f79265530c047fe7cc559f7b02"
     },
     {
@@ -27965,13 +27965,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4226: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4226/tree/c418f504b885c0bac2d913e3e8b70d584e602575",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4226/tree/e3e03e8f00bd433196c0aa9f48f8686d9dfc77c1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4226",
-      "checksum": "sha256:5aa2e92c084c7afc6984c660a95d03f8328e77e73a9491cd9bc10861ef2aa210",
+      "checksum": "sha256:7138f1a6c17e9f9256cdbd4c51422a612bdd6da2fdf15f6b0abedd02a5eebf29",
       "profileChecksum": "sha256-tree:76e5901902ce07df7f4c1bbfc55b3bb2b43311d13430f9b06622944aaa870e5e"
     },
     {
@@ -27981,13 +27981,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4227: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4227/tree/0227c32f4310851ca6a2da1dbdfe5c908680d25b",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4227/tree/12a2c9e3efd0cddc184eec70793f67bf907c1384",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4227",
-      "checksum": "sha256:4fe2ff210594de053703efeebbe5c75029dfb4210b6adc5f1dae1f7afc097acc",
+      "checksum": "sha256:bfd5718e0a836954276849b75da53e844f475de9b7b1c84e8f18a9fd40d1d96d",
       "profileChecksum": "sha256-tree:505ffc7126b0bf01375eade2ac2d407f9814dc9321e1bbc339b3ad50fab794d9"
     },
     {
@@ -27997,13 +27997,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4229: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4229/tree/65b5dd966819be9a30c443e379ba2d104603a9ae",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4229/tree/72bc62ec85f6ff2793778eb75f1abb8999139775",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4229",
-      "checksum": "sha256:1d334f9596d1fca3a4c757da95a71a3f87ba2ef3e2aa636d92975dff17d6a3bb",
+      "checksum": "sha256:684b597c52ab530edf96f8353cd5b4e5258c44bcf5a0670e6b4b5300e32666f4",
       "profileChecksum": "sha256-tree:913835e615e39aaac2bd38d32dca8cfde8e7fadeeef1e33ff05ef93454e1a359"
     },
     {
@@ -28013,13 +28013,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4311: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4311/tree/0e79f8c471715cd663902ec09708250a1c1db585",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4311/tree/88aa02b6c5320ad062c0f361ff60ec2b3f8b7751",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4311",
-      "checksum": "sha256:d0faf851d69409bf75cc396cc829816d9697e630c28039f24a6dfc1e09ba0793",
+      "checksum": "sha256:a2da36a96c4117aae1169a5240951359e8eae2b2df681620ea2cba02d1e57d2d",
       "profileChecksum": "sha256-tree:504327799c366aafe9f036ff423b5a9532f414565a0bad33885c2dc08db4e86a"
     },
     {
@@ -28029,13 +28029,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4312: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4312/tree/b399f4d45a776101ed81f9b7b8db0cba532bd348",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4312/tree/42699638be93dd2a2217d037eb31821ad807533c",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4312",
-      "checksum": "sha256:33cd71a970edbdd6554c149a36193cd28e634d18862a39bb6c83fc51aaa1b647",
+      "checksum": "sha256:84430755c399de02a4ab59b7181154a99969b95945c25a2cbafa2d52e9d63ca0",
       "profileChecksum": "sha256-tree:fb393daa0fadb74e91442259c5f41189c2d30d3821bdebc72d5f355970cdbb02"
     },
     {
@@ -28045,13 +28045,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4313: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4313/tree/9d1cb199e67cb4ffa87223e0b0289835a65a03b5",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4313/tree/e4d47683e92c5282ee250233f8344fc5eefdb6c1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4313",
-      "checksum": "sha256:b2ec5ac9f8f06de11a82e820468353ffdfcaf2e9e550f9e6f21a3ae10674c672",
+      "checksum": "sha256:d74e3431082e2eba39c422fb33d23197cd7e14ad5d1af8355c626a035cf8405e",
       "profileChecksum": "sha256-tree:fec37e84ecb20cde7aad86fbd939eeb402cd0937fcfd993555c8c1bf85154177"
     },
     {
@@ -28061,13 +28061,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4321: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4321/tree/8e2a9023eacb19b028ffad77823cec0757c3c859",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4321/tree/18f690b31294327769bb8b3d60ef84ce2ef268dc",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4321",
-      "checksum": "sha256:f9adb0f0f48e8be78bc893af9c8829c31124cc8b643e016d72d6dacc60e8759c",
+      "checksum": "sha256:462abc85cf964041afb55ec6fe221d393fa40eb8c6b5b52590228b13a87e4312",
       "profileChecksum": "sha256-tree:7307292109132f181d04bafa8b0bb3b46c35ec5cc17451f0f9bb33f0ba34fc15"
     },
     {
@@ -28077,13 +28077,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4322: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4322/tree/39691c9bc5814a9e3ece0b723807167e0922e22d",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4322/tree/26ec50ea0d7496736b53e07d5c7f1dc681f4b197",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4322",
-      "checksum": "sha256:cf6340e6218ff6df3677a750497a61c7af8b07390e7c1b0d9296ebaf9a3d9dd3",
+      "checksum": "sha256:09a4ad5a1f7d7db44d6a88da3bff9da0ce9e1eb165c9f3a78c8ce0446cee9cf0",
       "profileChecksum": "sha256-tree:f5cf4af766ef3a265f49e4b7cbdc5e52cfb29ed555dce52a1d3581a94928798e"
     },
     {
@@ -28093,13 +28093,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-4323: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4323/tree/128daf246ec9ea0d3031cf3a42278216ea9ff90f",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isco-4323/tree/64128c6ddde9432dd79ea40ac621d2358cbca7df",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isco-4323",
-      "checksum": "sha256:f82600b57789e6b3734f8bddb19433cd10a554ad126ff8b9b22a46dee98b90c8",
+      "checksum": "sha256:a6f46fea6e1f8e2864ebf12f86f33ea4102a4e778e65eb20fb1b7603b66b2506",
       "profileChecksum": "sha256-tree:6d6e1dfc140ca39348a7f16e418823afd2aa9e17a98855cd6d3050aec205061f"
     },
     {
