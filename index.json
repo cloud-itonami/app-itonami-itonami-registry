@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:06:13.761241Z",
+  "generated": "2026-11-16T11:06:35.040178Z",
   "count": 1985,
   "entries": [
     {
@@ -23021,13 +23021,13 @@
       "version": "0.1.0",
       "description": "ADR-2610081200（説明責任を段階化した匿名性）の進行を毎日観測し、次に進めるべき1件を提案する propose-only bot",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+      "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/accountability-steward",
-      "checksum": "sha256:d518c3ba5620fa87b4d3f17edf7d3bad5e910e4d6f9f8c9fb4553679a8c68478",
+      "checksum": "sha256:fde7b2a98a7c5683b1d409802d6238472082192ad7701959dca8f2e0aaad5020",
       "profileChecksum": "sha256-tree:003364ca4a4736179095e1e09bd88a597b7effb6875de80092cd25b9da007481"
     },
     {
@@ -24829,13 +24829,13 @@
       "version": "0.1.0",
       "description": "JVM→kotoba 移行専任。org 内に残る JVM (clojure CLI/JVM-only) 依存を kotoba(nbb/amu cli compile)へ refactor する。@refactor と連携し、amu/sahai の JDK-free 性質を org 全体へ広げる。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+      "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/jv-migration",
-      "checksum": "sha256:38a77f6e96c8e675fc3af89f80499cc08bf97ce98c4723b83f590741a44c8223",
+      "checksum": "sha256:c0483d2346f127d8af9ce4e163f919d352cd686d1191a2023a29ace0c27fba73",
       "profileChecksum": "sha256-tree:39de4bcebe378a0fcf66768b83e1d10499bd190ae5d9d8f63c36eb99bbdd7d5f"
     },
     {
@@ -24925,13 +24925,13 @@
       "version": "0.1.0",
       "description": "kbb-migrator — kbb-migrator — nbb → kbb 移行 bot。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+      "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kbb-migrator",
-      "checksum": "sha256:0debffac2f365f312a91564884b5c5e318e172992cbe1cc506a7ce8a7fd7acec",
+      "checksum": "sha256:b2b59b7f17655d6c97240521c3760f4d745dbd32ff8a5acabaf0ec91d2486b4b",
       "profileChecksum": "sha256-tree:ad923ce0d1939dd5d0a06d981ebfaf95ebc8fbc0f979dcd72fc1662e2f81e982"
     },
     {
@@ -36717,13 +36717,13 @@
       "version": "0.1.0",
       "description": "セキュリティ監査担当。kotoba-lang org と com-junkawasaki 配下の脆弱性評価、GitHub セキュリティ設定(secret scanning/push protection/dependabot/PVR/branch protection/Actions)、依存 CVE 監視、CI 設定の監査。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+      "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/sec-audit",
-      "checksum": "sha256:6e387a9f7d1f708f43ca82306655953f716ee1306ee8461c3185b98dd0bb8b51",
+      "checksum": "sha256:4f57944666e029eaecd0a9bb0a879136566ad8c9c04bfc250e71cdd97490092d",
       "profileChecksum": "sha256-tree:7b0228163e057d36b77b79e9cc3695a9f4d09b0254954ebc9921905763681543"
     },
     {
@@ -36733,13 +36733,13 @@
       "version": "0.1.0",
       "description": "sec-sentinel — kotoba-lang / amu / kotobase / kototama 脆弱性試験・対策 bot — 担当 (すべて local checkout, read-only 測定):",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+      "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/sec-sentinel",
-      "checksum": "sha256:0002f656d4372d283fa01a1d888272ba756552ab202fa675af47fe2012786042",
+      "checksum": "sha256:51f2990bff928c1cc59dd32646f557a7705a52f67ad5a5a6a9a235ed45d4b581",
       "profileChecksum": "sha256-tree:27be31a040603501fd4d7cb62ec7f76d89caf61ab22b3a4d1b3eb4ebee792df6"
     },
     {
@@ -36925,13 +36925,13 @@
       "version": "0.1.0",
       "description": "torihiki bounded builder: implementation, reproducible tests, and benchmarks; no merge or deploy",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+      "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/torihiki-bench",
-      "checksum": "sha256:87f8757068a42dbb057d13cb985b916441ea3c8b2aaa16f2ee6823b48cf6b29a",
+      "checksum": "sha256:1de9f977e18cbf73c6b77a064860409bcf60f5beec9d9f27fafaae687f7ee26c",
       "profileChecksum": "sha256-tree:e9b1c7ed83c56f151e49bf778e03f523e346f6f372f7685cf65de5902ee2eb41"
     },
     {
@@ -36941,13 +36941,13 @@
       "version": "0.1.0",
       "description": "torihiki independent reviewer: correctness, adversarial cases, and evidence validation",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+      "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/torihiki-falsify",
-      "checksum": "sha256:d71a93dd3ac7e62bcaf2a5bb44d3a9c8f2a2df25eefc07bee6d19dc4d22fcc93",
+      "checksum": "sha256:ee11eec0c0d45d2386b378dcb7e0915711090a0454a56b617d7096b9c6ea3ae4",
       "profileChecksum": "sha256-tree:97bd76ae5003a6bcc61958996b42a9600d858284a3e8c6130fde16517a9e8f17"
     },
     {
@@ -36957,13 +36957,13 @@
       "version": "0.1.0",
       "description": "torihiki read-only readiness watch: drift, evidence freshness, and service status",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+      "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/torihiki-maint",
-      "checksum": "sha256:6fac83636c6a194bc17b4621eedefe7e9f5f15448e9c794dd699fc5ee54ef2c4",
+      "checksum": "sha256:edf88f693e30cd52f1d382fd30f2950e608e5d823210c3a16c95a5d9874d4d8e",
       "profileChecksum": "sha256-tree:35f8b9408c80fdd602e2cbd899465f0d4e5a089d470c99c4e7964ce84dd8d5ac"
     },
     {
@@ -36973,13 +36973,13 @@
       "version": "0.1.0",
       "description": "torihiki org coordinator: evidence-based prioritization, Kanban routing, and maturity tracking",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/torihiki/tree/02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+      "source": "https://github.com/kotoba-lang/torihiki/tree/4749b423f8036a448fd1f1ede4a3ba6541c614f2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/torihiki-rank",
-      "checksum": "sha256:e0f287df13b9835cc0e551eed720273a4a53e45456400d81e0e8accf0177e73a",
+      "checksum": "sha256:7c61238d59b134a8b308aa7b0ab7f00fb7af9431dc4349784b06dc05a0d6cab2",
       "profileChecksum": "sha256-tree:786587bbef9f6d3311b094ba8128fab7dac380a11edf3686550882b76ac303cb"
     },
     {

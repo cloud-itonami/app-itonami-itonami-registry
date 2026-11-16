@@ -40651,6 +40651,455 @@
           "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/profile.yaml"
         }
       ]
+    },
+    {
+      "id": "kotoba-426ddd2",
+      "repository": "kotoba-lang/kotoba",
+      "commit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
+      "files": [
+        {
+          "path": "hermes/profiles/accountability-steward/SOUL.md",
+          "sha256": "cb965d65f70ee3866b5db544c3a254d97382099b9c7488cbc52b1e4012d973c0",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/config.yaml",
+          "sha256": "2a71a894c490a2143879ca544c70f07e6d51c67b3fae71e432567a1039b677ea",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/cron/jobs.json",
+          "sha256": "830a9f7b289624bcab84873832315bb620947cf2bb495bad685583a11c65037f",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/itonami.edn",
+          "sha256": "766bd2861b4b3d3ec3327c9649a6c91d7c364b9f06f6c599ad2f2d56f45802b8",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/profile.yaml",
+          "sha256": "4c6d132a6b0d851c13b4b21aa1dec24db84c6bb91c49251ee36d8ec97996bcae",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/scripts/accountability_evidence.py",
+          "sha256": "28f622a26ce3abca35ee98e00131709c7abd3f0d9374cd56e812de24bdafb87f",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/scripts/accountability_evidence.py"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/scripts/growth_gate.py",
+          "sha256": "cfc37610a808a5cfb2dd66573ad567475675edc593a1cb1ad72706a36caf77d7",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/scripts/growth_gate.py"
+        },
+        {
+          "path": "hermes/profiles/accountability-steward/scripts/steward_sweep.py",
+          "sha256": "87fe44f3288754a80963c2b553c0d377f76c8a251555552e6e7a98fd1bbc64eb",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/accountability-steward/scripts/steward_sweep.py"
+        },
+        {
+          "path": "hermes/profiles/jv-migration/SOUL.md",
+          "sha256": "e4e172e61e2ffce8bc0459b7437630428471eacf21b08a99094584db94691934",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/jv-migration/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/jv-migration/config.yaml",
+          "sha256": "a4ff78585b0c3196a1e43147c89a9ae7a94bb3bc9d882c9bec761284af45118f",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/jv-migration/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/jv-migration/cron/jobs.json",
+          "sha256": "b381f3fd2b22824619bcfa3da881848546e9b48882668606389fc86cc0b835ec",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/jv-migration/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/jv-migration/profile.yaml",
+          "sha256": "24e808fe34677794ee70cc2a62d9bb74cf999663a5ea04dfdcb342dcb3cd0fd3",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/jv-migration/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kbb-migrator/SOUL.md",
+          "sha256": "2e1b54317227e6c9a695c37d5c2f2c8cb66f391a550091b4677ebb2f037cebe9",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/kbb-migrator/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kbb-migrator/config.yaml",
+          "sha256": "b4327d3022fd4060c74deaa5344a3244dbb18a85af3869cd9da25a64b83eac3c",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/kbb-migrator/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kbb-migrator/cron/jobs.json",
+          "sha256": "c018a43d4bb9eb14daba7d3729bc300675425cb5f4c701e41d662bf70f3b212a",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/kbb-migrator/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/sec-audit/SOUL.md",
+          "sha256": "f54e1bad18893654a0800b8f7aee62aa08e822bdb05855d636ac795bc72d82ce",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-audit/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/sec-audit/config.yaml",
+          "sha256": "a4ff78585b0c3196a1e43147c89a9ae7a94bb3bc9d882c9bec761284af45118f",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-audit/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/sec-audit/cron/jobs.json",
+          "sha256": "7a26740c37cda1941793fec89cff938b23a7147b37613740167c1bf47ff8e06d",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-audit/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/sec-audit/profile.yaml",
+          "sha256": "a1fc90312480b0dc20b81dbed89f815c50da0c18bc99b6817ea37365cbc33672",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-audit/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/sec-audit/scripts/fukurow_high_monitor.py",
+          "sha256": "597ed3200d187dc17ebbcea9f3cc5f0942e314dc10b129afe8f2045f1efbde25",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-audit/scripts/fukurow_high_monitor.py"
+        },
+        {
+          "path": "hermes/profiles/sec-sentinel/SOUL.md",
+          "sha256": "34f9d6bd5e9ee4fb3e399f73bdd00dca0face199a6c74e37a24e0450533c45e5",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-sentinel/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/sec-sentinel/config.yaml",
+          "sha256": "f435e9683e621f41885f754049ea17d04dc7a420f057fc4b0433a3ea13becaf0",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-sentinel/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/sec-sentinel/cron/jobs.json",
+          "sha256": "958becfd29daf9311cac4ce98da8f453aade36b88b16a8db5c7623b8070de114",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-sentinel/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/sec-sentinel/scripts/sec_sentinel_evidence.py",
+          "sha256": "4f4161d9052a28d6696c54aef42a6b536b7150fd96aca510d27ca1cdaee0f94e",
+          "url": "https://github.com/kotoba-lang/kotoba/blob/426ddd2a635b6714ad60a8d7852f4f802e3e54b6/hermes/profiles/sec-sentinel/scripts/sec_sentinel_evidence.py"
+        }
+      ]
+    },
+    {
+      "id": "torihiki-4749b42",
+      "repository": "kotoba-lang/torihiki",
+      "commit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
+      "files": [
+        {
+          "path": "hermes/profiles/torihiki-bench/SOUL.md",
+          "sha256": "9e463e7793bdc5aab42a2f127dac2fe9f02cfef9559d42e639507388383baed1",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-bench/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-bench/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-bench/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-bench/cron/jobs.json",
+          "sha256": "01190e6388a0b5ee62015c46ee397d5c9eff0cd70032ab381bbda5930cb525e4",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-bench/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/torihiki-bench/profile.yaml",
+          "sha256": "579c2c24f8e7c13efebcdd11040eccaff5de400650f5adcc2e15762058bc3040",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-bench/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/SOUL.md",
+          "sha256": "664146248889ca7b16e1cfeee3cda91abbfe4cf9322b116bb9d3b263caf396ad",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/config.yaml",
+          "sha256": "6ed91742d6287b0535f9841740bfc0dfd09ed6bf1ffde24332a0a24511b9231d",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/cron/jobs.json",
+          "sha256": "e7f62c12b8d59edb35778c0f68cfbefbd641a459829d15079a83c9b758b99beb",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/profile.yaml",
+          "sha256": "b8e272c9fa0b5bda9e7170992732ba06f8135396c3d66499ba61cbe642501607",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/awai-state-store-policy/SKILL.md",
+          "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/awai-state-store-policy/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/SKILL.md",
+          "sha256": "5656e07fde544ed0d7329074e91d47a9b729648e7c3c31ccceb48496656153a4",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/references/landed-judgment.md",
+          "sha256": "51a2ca31e833f02bc50fe12726673352bb87af492e176f991eed984f6967fad1",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/references/landed-judgment.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/references/runtime-dir-retirement.md",
+          "sha256": "a12dbbd11db4f9efe87eb90847548dc667e60a25b3cfe645931d9d399dbc0052",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/git-cleanup-conflict/references/runtime-dir-retirement.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/git-operations/SKILL.md",
+          "sha256": "ce61e01c5141032e363247fe3b273f322d2fa50f4175c9c0b9d5ab49b2a7aa13",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/git-operations/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/git-operations/references/tick-notes.md",
+          "sha256": "899694e72a99bfec8c3d901e1d9ffe9c396f78113dc3ece45be6c9a8d0f120f7",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/git-operations/references/tick-notes.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hermes-fleet-cron-health/SKILL.md",
+          "sha256": "b79e21c966adfb41b3c203540defbc7c43e1cd78e4568137db59b16cd5b45f1f",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hermes-fleet-cron-health/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hermes-fleet-cron-health/references/error-classification.md",
+          "sha256": "b4b09941e5e45c6dc92e6ca37157e2a50563e0c36293669d303ff49272a617b5",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hermes-fleet-cron-health/references/error-classification.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/SKILL.md",
+          "sha256": "985224953a7821236c4ab00076d2b61e62b17873695708b721212de7c6f9be16",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
+          "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
+          "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-source-scout/references/run-records.md",
+          "sha256": "f9e448c64fff3d92a8310003ee453460430d9da51a102e5d67fc1ca2d6142b08",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-source-scout/references/run-records.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
+          "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/references/run-addenda.md",
+          "sha256": "45d9484463eb7a1b5ca52657893ffc4ada3de38bb0c591f8a5c946e747bf2135",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/hyakka-sitelink-scout/references/run-addenda.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/isco4-kotoba-migration/SKILL.md",
+          "sha256": "44aff4a5b94a1a58784563641cd5e2b5b82125c26be3b4a4d4135cd2b3f882ff",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/isco4-kotoba-migration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/SKILL.md",
+          "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/biscuit-authority-map.md",
+          "sha256": "ad173520e6bcaacaeac6233a368007b07c0fc2238ac2eb990ebeb8f8cb158402",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/biscuit-authority-map.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/biscuit-mro-operator.md",
+          "sha256": "f370e21511e8a610ca94f8aaf205856bcbc8d7509073fcaf2050473f24b20fc9",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/biscuit-mro-operator.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/launch-contract.md",
+          "sha256": "9da700aa1a51e55e7f365ddf73a0f17466a18739ccee09c913490acc09a316d3",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/launch-contract.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/worker-build-deploy.md",
+          "sha256": "fc2da54ecf0fd88a3a77c2911e0e4092373817e5577cc06ced595b57ef31c8f4",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/worker-build-deploy.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/worker-versions.md",
+          "sha256": "31b8b1d805608fa086198ba2184177f02ebfdaeb19f887fb93fe1cd476b8d4ff",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/worker-versions.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/x402-harness.md",
+          "sha256": "8c25de030fdcad7e36a3220794b853ccc934c6e5f5b9c7f9add7198a199e1bb1",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/itonami-business-bots/references/x402-harness.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/java-kotoba-migration/SKILL.md",
+          "sha256": "b44b17b4d08b25390d82d8e44da05f9ff4cc43b070d32763e47743c66870e998",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/java-kotoba-migration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/java-kotoba-migration/references/kotoba-guest-porting.md",
+          "sha256": "895f83af593f8cc24bbb606242b975b264a8a6e29e951a37463884ed49688934",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/java-kotoba-migration/references/kotoba-guest-porting.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kbb-config-and-classpath/SKILL.md",
+          "sha256": "4408546492b183ef3f307fa9bc98fc978d08208fcee9acf81a109417694f44a3",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kbb-config-and-classpath/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kbb-config-and-classpath/references/kbb-jvm-free-generator.md",
+          "sha256": "a748e8ea440ab7215d556ec7c8352025477b05d22b1208c5166e45451cf58341",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kbb-config-and-classpath/references/kbb-jvm-free-generator.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kbb-test-suite-fix/SKILL.md",
+          "sha256": "c79f9c927c0d0e4efce4746243f64563beb1702a894a7341c9a3b99eb08298f3",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kbb-test-suite-fix/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/SKILL.md",
+          "sha256": "efc0912440bca4dc888263608ced39bd09c7b9b33c65c77eafed56ededc7e46d",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/jvm-render-port.md",
+          "sha256": "cde9ed93be6d6c3c7ba44e997ec91148940f4c5da4039b785fb4d821eb9e2f87",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/jvm-render-port.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/kbb-fs-scan.md",
+          "sha256": "a68c6383750d43171b8966cf4db483fdea93b7ae15b272e6bcd40a3bb3d283af",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/kbb-fs-scan.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/org-wide-kotoba-scan.md",
+          "sha256": "22f629fbad4fc31937bc21066612c858a91c9a4acb9d05167c450c768a93c670",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/org-wide-kotoba-scan.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/tee-guest-lessons.md",
+          "sha256": "df44f57e36dfeedbb2c4d7e334cd8ebeac2d68b56e1450c38c1c8f2c28a518e6",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotoba-capability-extension/references/tee-guest-lessons.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotobase-bytes-plane/SKILL.md",
+          "sha256": "195f73f14ee470bd4531022afc13fafc54775e35cf037417e149796498200cff",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotobase-bytes-plane/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotobase-bytes-plane/references/hostname-move.md",
+          "sha256": "bdb81489631c9ad32edea7928d8fda73ce2674900c8e04d8f0e3089dd54f99b2",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotobase-bytes-plane/references/hostname-move.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotobase-ldbc-qualification/SKILL.md",
+          "sha256": "a74c9fe6e13c6d9dbe1b01943d185b5a31c5b66176967c1f804ea3b65a94626e",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotobase-ldbc-qualification/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/kotobase-ldbc-qualification/references/status.md",
+          "sha256": "a86a388eefc1cfac3064ae10906d9c9159278fb1cf7a3a1fc458bc23e4f8e425",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/kotobase-ldbc-qualification/references/status.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/mail-relay-inbox-observation/SKILL.md",
+          "sha256": "9da4edac1ddf722d3a6053367eb37723d11d2f6c1bdc7aca3c3622ce97417e43",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/mail-relay-inbox-observation/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/murakumo-confidential-inference/SKILL.md",
+          "sha256": "f36a3e1401ed389033755206856bfc157fcf008e5239d0b758914ecd89a601ff",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/murakumo-confidential-inference/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/SKILL.md",
+          "sha256": "45aebdecbe5b5dd06fc904cc545fa4f1c8bccfd1bbbed90f9972ed1c5ef599ce",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/references/murakumo-tiers.md",
+          "sha256": "3c8d896b7fecfdc98a95feed175c785d5225c6f99ec574fb8f6b77ea4a234c37",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/references/murakumo-tiers.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/references/worktree-git-catalog.md",
+          "sha256": "f16b16508903c4cc762f09e63e1dbae983ee10ef544f794d41282282d7235ef3",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/murakumo-edge-ring/references/worktree-git-catalog.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/nbb-to-kbb-migration/SKILL.md",
+          "sha256": "65a3edd817f8629307d27951bb930b90d43719c7960599b49b82c32a58f601c8",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/nbb-to-kbb-migration/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/oppai-producer-hourly/SKILL.md",
+          "sha256": "ca0f526dfbfdbb4e5fc6e52e7e3d7067899f2273c003bfe2924e8eff3ebf5641",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/oppai-producer-hourly/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/tenken-declarative-config/SKILL.md",
+          "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/tenken-declarative-config/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/transport-evidence-bot/SKILL.md",
+          "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/transport-evidence-bot/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-falsify/skills/utsushi-jvmfree-bot/SKILL.md",
+          "sha256": "8c96bd0fb31b6dcd50ec441bdf856cbdc6b109c742e3f7cd72348c763352ed56",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-falsify/skills/utsushi-jvmfree-bot/SKILL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-maint/SOUL.md",
+          "sha256": "d66307d6e3d4262fe83194ee1b399d75b07c3b2817c2f7e66e1f77e92083e7b0",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-maint/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-maint/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-maint/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-maint/cron/jobs.json",
+          "sha256": "53082f85d0a61cd0c3c70603f4fef9512d27953a1ff4be280959b17179092aae",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-maint/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/torihiki-maint/profile.yaml",
+          "sha256": "5248af045f58980d3d113fcd1ca5293a1788d4afbba361ff6927c71872bf8912",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-maint/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-rank/SOUL.md",
+          "sha256": "297042266084b3b0edd52ce518b46cabc61b06d90bd6cc68eeeeda077853e2ab",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/torihiki-rank/config.yaml",
+          "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-rank/cron/jobs.json",
+          "sha256": "7cf0136c115b7b6a57cbfc093ab0676fd041e136a7bffab18474c2f42ba4a968",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/torihiki-rank/profile.yaml",
+          "sha256": "981163e06c478bef747576c9e913c971dec3121daa97b0067ec1715ea7b03c36",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/torihiki-rank/skills/torihiki-self-organization/SKILL.md",
+          "sha256": "03df0f7a546a613000c7f3882e76362af7f6462a4eccd9a4d7a9bf3842d08b9d",
+          "url": "https://github.com/kotoba-lang/torihiki/blob/4749b423f8036a448fd1f1ede4a3ba6541c614f2/hermes/profiles/torihiki-rank/skills/torihiki-self-organization/SKILL.md"
+        }
+      ]
     }
   ]
 }

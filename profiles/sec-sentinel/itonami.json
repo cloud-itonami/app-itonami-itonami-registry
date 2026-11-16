@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-35bc99fb"
+    "kotoba-426ddd2"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: sec-sentinel — kotoba-lang / amu / kotobase / kototama 脆弱性試験・対策 bot — 担当 (すべて local checkout, read-only 測定):",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

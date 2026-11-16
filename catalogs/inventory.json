@@ -90605,23 +90605,23 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+          "sourceCommit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
           "entry": "profile/accountability-steward"
         },
         {
-          "sourceCommit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+          "sourceCommit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
           "entry": "profile/jv-migration"
         },
         {
-          "sourceCommit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+          "sourceCommit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
           "entry": "profile/kbb-migrator"
         },
         {
-          "sourceCommit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+          "sourceCommit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
           "entry": "profile/sec-audit"
         },
         {
-          "sourceCommit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+          "sourceCommit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
           "entry": "profile/sec-sentinel"
         }
       ]
@@ -110586,19 +110586,19 @@
       "reason": "Reviewed 2026-10-11 at c68186e549f6dd8ee865c3338611acb6aa3b5a84: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
       "registrations": [
         {
-          "sourceCommit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+          "sourceCommit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
           "entry": "profile/torihiki-bench"
         },
         {
-          "sourceCommit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+          "sourceCommit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
           "entry": "profile/torihiki-falsify"
         },
         {
-          "sourceCommit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+          "sourceCommit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
           "entry": "profile/torihiki-maint"
         },
         {
-          "sourceCommit": "02e1329b3bbd0da8e1f18c7f9360ef939f7d2251",
+          "sourceCommit": "4749b423f8036a448fd1f1ede4a3ba6541c614f2",
           "entry": "profile/torihiki-rank"
         }
       ]
