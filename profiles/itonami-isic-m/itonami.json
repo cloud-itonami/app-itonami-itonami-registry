@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "isic-800aa5e2"
+    "isic-a1a2ae0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami ISIC major M Professional, scientific and technical activities occupation bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "sec-sentinel — kotoba-lang / amu / kotobase / kototama 脆弱性試験・対策 bot — 担当 (すべて local checkout, read-only 測定):",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+  "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba",
-    "commit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+    "commit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
     "path": "hermes/profiles/sec-sentinel",
     "checksum": "sha256-tree:27be31a040603501fd4d7cb62ec7f76d89caf61ab22b3a4d1b3eb4ebee792df6",
     "files": [
