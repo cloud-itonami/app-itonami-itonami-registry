@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:06:55.637542Z",
+  "generated": "2026-11-16T11:07:15.205814Z",
   "count": 1985,
   "entries": [
     {
@@ -23085,14 +23085,14 @@
       "version": "0.1.0",
       "description": "aiueos kernel C-free programme (ADR-0220): 1 step per tick, monitor-gated cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/aiueos/tree/9506826f7c3284fd32e2f1db957139bfeff43381",
+      "source": "https://github.com/kotoba-lang/aiueos/tree/cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/aiueos-cfree",
-      "checksum": "sha256:3abe9d8807d01f6e0fe6900c9959785e6e5e5c11a33904ee07a2a80cb54b505e",
-      "profileChecksum": "sha256-tree:a4d2a5c3a1a54c3761aaa924fc332d1162e1dea08532f5c2a3e3d80b6c8e5a89"
+      "checksum": "sha256:867dabc3ba97634dd410f7a0168947b53e4b32daf6af786d10dc5def46999a83",
+      "profileChecksum": "sha256-tree:2350f4c2484de8682b249be643339bf8f99bee9498413c1aedcdebdfe4b5cba7"
     },
     {
       "id": "aiueos-handoff",
@@ -23101,14 +23101,14 @@
       "version": "0.1.0",
       "description": "AIUEOS K16 pure-Kotoba handoff (ADR-2609031030): gate N1-N6 progression, 1 gate per tick, monitor-gated cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/aiueos/tree/9506826f7c3284fd32e2f1db957139bfeff43381",
+      "source": "https://github.com/kotoba-lang/aiueos/tree/cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/aiueos-handoff",
-      "checksum": "sha256:55c2b0a343c37899253afe9cf59af406e0e5308c5bca3c367d8efa3952ad4199",
-      "profileChecksum": "sha256-tree:3dd5695af032ec28f69c1f9ed84cfb4297290bddb729bdcb7dd10342cb68de1f"
+      "checksum": "sha256:c266037696ab40587c27fda7fa88debb08911179c4eae0de36f8a9b88acb5fa5",
+      "profileChecksum": "sha256-tree:a1a954c56d5e248e3b946c13e0d50d3cc9ab52e31ebfbedfd44a0d66b72fa9c6"
     },
     {
       "id": "aiueos-maint",
@@ -25069,13 +25069,13 @@
       "version": "0.1.0",
       "description": "Email support inbox bot (polling agentmail.to, created 2026-09-02)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-lang-support",
-      "checksum": "sha256:b74a04c49a251c4fa26580e2a17302bfef32fc1f1e5ceb227b3a08727c57697a",
+      "checksum": "sha256:c65f8af92e52ae588847338e669a330c544e3fefd7eef9f5e6404ffbfadd9ab1",
       "profileChecksum": "sha256-tree:f06d5f569457fe6976f0e5d8449838611924ef60a06564f8000096d05114086e"
     },
     {
@@ -25117,13 +25117,13 @@
       "version": "0.1.0",
       "description": "Kotoba Lisp pure S-expression core (.kotoba) and Clojure-shaped desugared surface (.cljk) verification and architecture bot",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-pure-s",
-      "checksum": "sha256:c0c2f287c37a68565e7a988aa878a8bc87d824391503b3f7464bf2376d224c60",
+      "checksum": "sha256:0a039e5cf2a124748fb46f7505740af7ba23a5436f924332cc01fc01eee6f2bb",
       "profileChecksum": "sha256-tree:d5ce6bf643cfa82a20bf92ada8489474a4122ece11aed9d1709ad9e03297c199"
     },
     {
@@ -25325,13 +25325,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/6a7173f63a3067654d10967cabad25b73d4c66c8",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/fd70908826cfd2adaa39419e594b5f4dccb5db01",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kumiai-kotoba",
-      "checksum": "sha256:409687d87c3be85e2f0872b2e943ff3ea49829768f89f57108676c3f43f67545",
+      "checksum": "sha256:18f26d1caec7f1567ef9c430051376e045d5820fcb422c072c83178ca9d95eb1",
       "profileChecksum": "sha256-tree:3423b661f28099ac0c965703000fcb780d32e7fea272d4f6d9dbef53caa7cbae"
     },
     {
@@ -25341,13 +25341,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/6a7173f63a3067654d10967cabad25b73d4c66c8",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/fd70908826cfd2adaa39419e594b5f4dccb5db01",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kumiai-sources",
-      "checksum": "sha256:6df086add5a2a9f03b9657293549a80f484df78c82cfe9cd2386cc2228a27595",
+      "checksum": "sha256:8114f1fa8d532eba9f4d427a9d7d52d237870165930e350c9ebfe2eea74d9512",
       "profileChecksum": "sha256-tree:ee5a97953bd4f84d68900c8507f85e78bad4805f97cd3da68fb41303e36322f9"
     },
     {
@@ -25373,14 +25373,14 @@
       "version": "0.1.0",
       "description": "linux-parity — amu / aiueos を Linux 並の成熟度へ — kotoba 言語の独自実装スタック（amu コンパイラ、aiueos OS）を、",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/aiueos/tree/9506826f7c3284fd32e2f1db957139bfeff43381",
+      "source": "https://github.com/kotoba-lang/aiueos/tree/cf6c7ebb5c3c5759e4caf7d27fdee8309987b052",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/linux-parity",
-      "checksum": "sha256:b719cf5c2c8c4bf993cdeae0252335dcbb8768d74298231a10e4167e1be250e6",
-      "profileChecksum": "sha256-tree:78df7bfc2fbccca8dfdb5959eba95b530b4c20c021dc5a2cfff8bac9df23676a"
+      "checksum": "sha256:ad4c7f9bf34176173d85c4ec3086fd5533175bc5f20609ce367c5f2090c5d9f3",
+      "profileChecksum": "sha256-tree:b9ab47f13eb9c05e0f38f45f835dfa3ef8d74fdab4838be0dae2b8d89f7f64dc"
     },
     {
       "id": "machi-hub",
@@ -25405,13 +25405,13 @@
       "version": "0.1.0",
       "description": "mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-mail-relay`（relay.itonami.cloud、エージェント向けの",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/mail-relay",
-      "checksum": "sha256:9e89980aa429a5e520073b5a527c678dde39b8b28148f46463dbb2a12509ba55",
+      "checksum": "sha256:4fb2f4855d8f1d178023f4d1a4c93f61509282b1d54d265586f9e4422d1857ae",
       "profileChecksum": "sha256-tree:d5f2f9bfc511afb98f839a4559f413b6264648da7ed3f74949183db1263ed220"
     },
     {
@@ -34237,13 +34237,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-4920: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/tree/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/tree/dc61b9bd21d93f56537040fe12618dc18cadbd8f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isic-4920",
-      "checksum": "sha256:28030af7984174abae72e34599f03a09b74e8c771b0aff8ff1c191fbd83fbaee",
+      "checksum": "sha256:9fe7c430658b6f8f1e80a76f9afc76cfc0099f6fc3e3a4924856d276356c1ccb",
       "profileChecksum": "sha256-tree:241ccbb714e04fe49e80dae8d794c480f6d4b35b86fda3ff9cba9e174ebcb2da"
     },
     {
@@ -34973,13 +34973,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-6820: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/6a7173f63a3067654d10967cabad25b73d4c66c8",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-6820/tree/fd70908826cfd2adaa39419e594b5f4dccb5db01",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isic-6820",
-      "checksum": "sha256:d37ea46b161266fb6bcf84c9717906f5dbe17f962f0ab8f42b046f56e1e35e26",
+      "checksum": "sha256:0a6eef15460af55d7ea9182ba42491314e496516502146e124d2d11c27049fad",
       "profileChecksum": "sha256-tree:0a1400a430a60747047ca4c0f78d71dbb3611d8e25ade1dd64ccbd1f9c24e31f"
     },
     {
@@ -35325,13 +35325,13 @@
       "version": "0.1.0",
       "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-8121: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/4ade664a708d985ead088ece8d1747df949a90e3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isic-8121",
-      "checksum": "sha256:c845134dbdcbd55b3942b94b84d2501cb726269143bfff1d44204d9fbe48870b",
+      "checksum": "sha256:a5f477b1dda5ccb03a8f549ecbef922553b9880ec7125a400a539a58ba09e59c",
       "profileChecksum": "sha256-tree:fb18ab817365b4c9cd8743983174899b263e5b064a3798323c80583a01bc6031"
     },
     {
@@ -36701,13 +36701,13 @@
       "version": "0.1.0",
       "description": "Giemon-based cleaning-robot business organizer (ISIC 8121 Community Building Cleaning Operations). Owns the samu business bot lifecycle: blueprint registry watch, grok-bots activity monitoring, ops journaling.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/4ade664a708d985ead088ece8d1747df949a90e3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/samu",
-      "checksum": "sha256:eaed6071849b29b572407b33460c66235f824e93cc539cd6d9b937c380ecd72b",
+      "checksum": "sha256:125ad4bcb97d69dead5419b73220bc4713f48ff803eb771c5f0fcd1434502c0b",
       "profileChecksum": "sha256-tree:64a53dbd7e2e024f2851835e5517141a98432ebc2810dc6bbc9d7baf8636399a"
     },
     {
@@ -36909,13 +36909,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/8bb8e92759ae320c2d6ffd86e2a8b9d15939665e",
+      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/tobari",
-      "checksum": "sha256:7dfa7c319a71d3c23fc22e3736874a918f32ac6e6338387d80dbcac1c18b61d4",
+      "checksum": "sha256:b12390821a55fbc40b5006beda17034b3d6df7a969edba2813b26f09d02e9781",
       "profileChecksum": "sha256-tree:5a495f005df3289a185e7a9cf495b6712cfe3e8ad27486068f61b967b5254f9f"
     },
     {
@@ -36989,13 +36989,13 @@
       "version": "0.1.0",
       "description": "itonami.cloud の自律営業・マーケティング・分析 bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/tree/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
+      "source": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/tree/dc61b9bd21d93f56537040fe12618dc18cadbd8f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/transport-efficiency",
-      "checksum": "sha256:70387d4030a223c87cee4f5d88b31cf04f9efff2ff49013e87d855121016fbac",
+      "checksum": "sha256:80a0f76996be28926e7af220d79866c384c82e81d19549a8d65fda9dca3dad9e",
       "profileChecksum": "sha256-tree:a7c74c97854e8b450ec3b87dca201e91fd85001dd0d54bf167a5e0d9339b9373"
     },
     {
@@ -37149,13 +37149,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang org ウェブ担当 (@webest): kotoba-lang.org サイト刷新 + WebGPU/Three.js 没入型 3D ランディング設計・実装・デプロイ。規律: design-quality audit ゲート、パフォーマンス実測 (WebGPU→WebGL2→静的 fallback)、CLJC 優先 (kami-web math/render-ir)、kotoba-ui 使用、PR 経由のみ、数値は実測か modelled ラベル。完了は @codinator へ PR 番号+計測サマリ報告。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+      "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/webest",
-      "checksum": "sha256:db8da5d0eb98ace1df8d0057db7906cb83be5d0e60537b0c258d70c9eb3e7abf",
+      "checksum": "sha256:e828fa2b5b48afc62705e5b18586bc309d6bebb93324a23a3afaa4b65da98a29",
       "profileChecksum": "sha256-tree:162408d9b2ff9967db4e18d6b172dc61eb70fa323be83cbe897de7e4c6a82169"
     },
     {
