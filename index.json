@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-16T11:05:29.114221Z",
+  "generated": "2026-11-16T11:05:50.159764Z",
   "count": 1985,
   "entries": [
     {
@@ -23933,13 +23933,13 @@
       "version": "0.1.0",
       "description": "Kotoba SDK/lib を graphdatabase 系 GitHub repo (neo4j 等) へ PR する outreach bot",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/graphpr",
-      "checksum": "sha256:675fbb3519f54555f1c3622f84cb7b7831bd24f323013dfc902a00f3fa59bb3d",
+      "checksum": "sha256:9c75df6461d856ad10380dfa842dbae3d00e03404d0a7e0d14e5c1ac9a40a1d2",
       "profileChecksum": "sha256-tree:8b26291c48bbf03756a2c60aec5ccee9cdca8d4fb4eed96ab6d379fc85fc287f"
     },
     {
@@ -25213,13 +25213,13 @@
       "version": "0.1.0",
       "description": "kotobase 担当。データベース(kotobase-engine/storage 系)、Cloudflare Workers、net-kotobase(kotobase.net)を含む kotobase 系の保守・開発・デプロイ。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase",
-      "checksum": "sha256:9147182f4dddf5ffc43f8e3e05a59e257f6b644da0eccba0317af94e933d1607",
+      "checksum": "sha256:d1ef9626fcc904fa60fcf7ebe5ccff0f7cd3fa1e2ebcf5b0965e79d038865814",
       "profileChecksum": "sha256-tree:282f624edc0abf40aa282d45d84ff2dae87eaed965a9fb4128071aaa00abb690"
     },
     {
@@ -25229,13 +25229,13 @@
       "version": "0.1.0",
       "description": "kotobase bytes plane の B2 bytes storage 担当。Backblaze B2 (kotobase-cf-wasm-production) の storage cost / operations、Cloudflare Bandwidth Alliance 経由の alliance 配信監視、R2→B2 移行の soak、KOTOBASE_ORIGIN_B2 フラグの責任を持つ。propose-only (publish/rollback は owner go-ahead)。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase-b2",
-      "checksum": "sha256:ebe4ddf9c36295f5ae31ca547a5c0cb454ac26ce44d044889c0854d166f06aee",
+      "checksum": "sha256:77964b94d777b6f68c1d1e6cc2e948e4976d243c9ab0b8ad18bee5b719e766ae",
       "profileChecksum": "sha256-tree:459040c54de27bd1a9f6bc8c60cb58dfbd256acf8cf03c5bec1afbfbd420c609"
     },
     {
@@ -25245,13 +25245,13 @@
       "version": "0.1.0",
       "description": "kotobase-eng — engineer for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase-eng",
-      "checksum": "sha256:6a821eab82a7516dbc88052b788e68e64dd3492056c347e2f9915258e1ffa1f0",
+      "checksum": "sha256:65a57bd5556e6c2698f576a026be2b661466c09c0d1ed691f99be529a95a9381",
       "profileChecksum": "sha256-tree:35ac5f33759badcb7655d74082b62f4ebe14673461f5b9e773883e7ac75cf9c0"
     },
     {
@@ -25277,13 +25277,13 @@
       "version": "0.1.0",
       "description": "kotobase-mktg — marketing for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase-mktg",
-      "checksum": "sha256:1590517e1c4e965dbb878e9716f708d4255e23d83a4b63d99be40d9a01092075",
+      "checksum": "sha256:20a0775fb88ae174e3000b4e16fc1963d08a72433e27b75dcdced71da3863593",
       "profileChecksum": "sha256-tree:ac6f258f5e97fc85df5f91e17ceec545f6f6b3f7cf79e1d319f7a91b84fa563d"
     },
     {
@@ -25293,13 +25293,13 @@
       "version": "0.1.0",
       "description": "kotobase-po — product owner for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase-po",
-      "checksum": "sha256:edfd5bb0f8cf42557a6dff557f8a2c2b957c7df37b225ad6c9763eb420eb4df1",
+      "checksum": "sha256:339627962597849e5bc36c103b3ad25b6958d627763b6879433289e0b7326117",
       "profileChecksum": "sha256-tree:40f58bdebd3c953d10fbeaf31813e752cf82aa392c68eab91558c8f2e9f31948"
     },
     {
@@ -25309,13 +25309,13 @@
       "version": "0.1.0",
       "description": "kotobase-qa — QA for kotobase.net — kotobase.net is L2 storage hosting — graph BaaS (content-addressed KG) with map / git / search on one commit CID.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+      "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotobase-qa",
-      "checksum": "sha256:63ab1fecaf5a85567b1314483a5d6cd3071555387e766db0e7604497356ee886",
+      "checksum": "sha256:d9797a7e477d6856a858753193c8833933eaf7a39002f456a5375834077d7b50",
       "profileChecksum": "sha256-tree:e6094e40347410588712f950d03eae4a10b50fc6b08250d122d840fafd5db635"
     },
     {

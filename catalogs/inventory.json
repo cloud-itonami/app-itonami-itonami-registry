@@ -91979,31 +91979,31 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/graphpr"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-b2"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-eng"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-mktg"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-po"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-qa"
         }
       ]
