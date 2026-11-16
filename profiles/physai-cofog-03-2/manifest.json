@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-03.2: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-03.2/tree/e1156a6d349cbd6dc8c403afd4fafe4565702cd1",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-cofog-03.2/tree/d103d611c167654b06a20015a1f82c9e2741e0c3",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-cofog-03.2",
-    "commit": "e1156a6d349cbd6dc8c403afd4fafe4565702cd1",
+    "commit": "d103d611c167654b06a20015a1f82c9e2741e0c3",
     "path": "hermes/profiles/physai-cofog-03-2",
     "checksum": "sha256-tree:50708fb2cf9cb0736718c9cb3164cdf6d086ae261de1fb518b29ffb123af753d",
     "files": [
