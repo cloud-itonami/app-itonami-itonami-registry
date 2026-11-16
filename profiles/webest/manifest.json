@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba-lang org ウェブ担当 (@webest): kotoba-lang.org サイト刷新 + WebGPU/Three.js 没入型 3D ランディング設計・実装・デプロイ。規律: design-quality audit ゲート、パフォーマンス実測 (WebGPU→WebGL2→静的 fallback)、CLJC 優先 (kami-web math/render-ir)、kotoba-ui 使用、PR 経由のみ、数値は実測か modelled ラベル。完了は @codinator へ PR 番号+計測サマリ報告。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/58e427256c533c81abbef2989c03b0e201ae9f40",
+  "source": "https://github.com/kotoba-lang/kotoba-lang/tree/b4837af404a988eeea0ad847d9b27aa065f46a37",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba-lang",
-    "commit": "58e427256c533c81abbef2989c03b0e201ae9f40",
+    "commit": "b4837af404a988eeea0ad847d9b27aa065f46a37",
     "path": "hermes/profiles/webest",
     "checksum": "sha256-tree:162408d9b2ff9967db4e18d6b172dc61eb70fa323be83cbe897de7e4c6a82169",
     "files": [

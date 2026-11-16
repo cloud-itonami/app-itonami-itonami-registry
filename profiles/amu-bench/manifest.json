@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "amu co-scientist cowork: perfgate/bench 実行と quiet gate 監視専門, 15min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/amu-bench",
     "checksum": "sha256-tree:7e312f4a9e50f6c8111e136c17e1452c8dc135dca5ed518f8859b81b2e4b03db",
     "files": [

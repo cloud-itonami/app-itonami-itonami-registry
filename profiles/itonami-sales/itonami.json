@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app-ce08b9f2"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Enterprise SaaS replacement and cost-reduction sales for itonami.cloud — inventory, bot fit assessment, total-cost estimates, PoC plans and proposals",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

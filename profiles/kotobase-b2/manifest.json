@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotobase bytes plane の B2 bytes storage 担当。Backblaze B2 (kotobase-cf-wasm-production) の storage cost / operations、Cloudflare Bandwidth Alliance 経由の alliance 配信監視、R2→B2 移行の soak、KOTOBASE_ORIGIN_B2 フラグの責任を持つ。propose-only (publish/rollback は owner go-ahead)。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+  "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotobase",
-    "commit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+    "commit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
     "path": "hermes/profiles/kotobase-b2",
     "checksum": "sha256-tree:459040c54de27bd1a9f6bc8c60cb58dfbd256acf8cf03c5bec1afbfbd420c609",
     "files": [

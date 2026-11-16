@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "app-itonami-compute-energy-watch"
+    "energy-watch-a5b824a"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: 世界の電力・CPU・network・storage・GPU の生産/供給・需要・消費を、公開出典だけから出典付きで分析し定期 digest にする分析 bot（投資助言なし）",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

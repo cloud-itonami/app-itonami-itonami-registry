@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "adsk: adult ad-creative generation bot using murakumo.cloud image/video gen. Sizes, formats, compliance first; publishes artifact paths/URLs.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/adserver/tree/f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+  "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/adserver",
-    "commit": "f5b8883067ccbc7a8d9fec056a9633b7d57af9b4",
+    "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
     "path": "hermes/profiles/adsk",
     "checksum": "sha256-tree:15a191888723b8649980865c648fb15efe80d7b0cd0d4621218fb66b775826f2",
     "files": [
