@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "yabai-ops — yabai-intel / yabai-staging / yabai-classify の cron 健康・manifest queue・R2 staging cost の安定化担当。壊れたら直すまでが仕事。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/yabai-actor/tree/df562d1ab00a78eeda3f909ea96f22249ca50bef",
+  "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/yabai-actor",
-    "commit": "df562d1ab00a78eeda3f909ea96f22249ca50bef",
+    "commit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
     "path": "hermes/profiles/yabai-ops",
     "checksum": "sha256-tree:af934935fd2e13781c8b8b7d02034d0a6ccbfca9253115bccc2635b51c32a81c",
     "files": [

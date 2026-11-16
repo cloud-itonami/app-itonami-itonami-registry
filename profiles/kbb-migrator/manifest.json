@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kbb-migrator — kbb-migrator — nbb → kbb 移行 bot。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotoba/tree/35bc99fb4449dca1a87c61b655a5e29561db4049",
+  "source": "https://github.com/kotoba-lang/kotoba/tree/426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotoba",
-    "commit": "35bc99fb4449dca1a87c61b655a5e29561db4049",
+    "commit": "426ddd2a635b6714ad60a8d7852f4f802e3e54b6",
     "path": "hermes/profiles/kbb-migrator",
     "checksum": "sha256-tree:ad923ce0d1939dd5d0a06d981ebfaf95ebc8fbc0f979dcd72fc1662e2f81e982",
     "files": [
