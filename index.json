@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-15T02:01:38.610844Z",
+  "generated": "2026-11-16T11:03:51.301832Z",
   "count": 1985,
   "entries": [
     {
@@ -36845,13 +36845,13 @@
       "version": "0.1.0",
       "description": "svelte-to-cljs — com-junkawasaki superproject (west workspace) の **repo-wide Svelte 廃止** bot。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami/tree/f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+      "source": "https://github.com/cloud-itonami/app-itonami/tree/9092cb0a1b190083dc3e561f7e5194124e6dd45b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/svelte-to-cljs",
-      "checksum": "sha256:0c044a8fb672668314e6c79e97bf01d55a0b51cef60ea3aa24e5de40ddeadba8",
+      "checksum": "sha256:77bf21499bc4568563eb091f473130db3075f7bb918444854aa035a06f139b3e",
       "profileChecksum": "sha256-tree:6f1649f555aa20a62141fccd73948e67a915240b10332406e48e2ad95f0afa71"
     },
     {

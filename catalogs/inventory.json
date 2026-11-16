@@ -2109,7 +2109,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+          "sourceCommit": "9092cb0a1b190083dc3e561f7e5194124e6dd45b",
           "entry": "profile/svelte-to-cljs"
         }
       ]
