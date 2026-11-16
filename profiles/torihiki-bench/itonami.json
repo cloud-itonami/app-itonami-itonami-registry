@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "torihiki-02e1329b"
+    "torihiki-4749b42"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: torihiki bounded builder: implementation, reproducible tests, and benchmarks; no merge or deploy",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotobase-4920f040"
+    "kotobase-c191dd0"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotobase 担当。データベース(kotobase-engine/storage 系)、Cloudflare Workers、net-kotobase(kotobase.net)を含む kotobase 系の保守・開発・デプロイ。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "kotoba-35bc99fb"
+    "kotoba-426ddd2"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: セキュリティ監査担当。kotoba-lang org と com-junkawasaki 配下の脆弱性評価、GitHub セキュリティ設定(secret scanning/push protection/dependabot/PVR/branch protection/Actions)、依存 CVE 監視、CI 設定の監査。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

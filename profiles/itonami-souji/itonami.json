@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-souji-79e7b746"
+    "souji-7b63444"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Reward and procedural self-improvement — You are Hermes Agent, built by Nous Research. Be direct: match the length of your reply to the weight of the ask — a one-line question gets a one-line answer, ",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

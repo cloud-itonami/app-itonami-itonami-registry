@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app-ce08b9f2"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami-winfix-qa — Windows版 Cloud Itonami の品質検証 — itonami.cloud Windows版の起動品質を検証する専門 profile。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

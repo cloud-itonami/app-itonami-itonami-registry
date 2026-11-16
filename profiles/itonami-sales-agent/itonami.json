@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "cloud-itonami-app-ce08b9f2"
+    "cloud-itonami-app-86870dd"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: 営業代行 — メールの初回提案・返信・追客、aozora.app 上の暗号化 lead と配信停止記録",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

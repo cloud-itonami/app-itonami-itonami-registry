@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "refactor — clj, cljc を kotoba に refactor するよ. jvm 依存を外して, amu, kotoba cli compile にするよ.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/refactor",
     "checksum": "sha256-tree:785cd7581d790d3ba52240de97237718e9bd65f61c7af00707ba7fda7d6c4b8c",
     "files": [
