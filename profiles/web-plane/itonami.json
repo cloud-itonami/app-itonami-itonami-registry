@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "murakumo-76d849d1"
+    "murakumo-678e08e"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Operates cooperative collection by owner-admitted Itonami bot profiles hosted on Murakumo: bounded assignments, verified shared blocks, common index updates and pending KUMO host compensation. Never i",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

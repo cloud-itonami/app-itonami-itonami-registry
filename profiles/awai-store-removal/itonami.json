@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-7e63dd5f"
+    "ao-repo-steward-6973c16"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: network-awai D1/DO/KV binding removal driver (ADR-2609132007): one repo per tick, read source, migrate to R2, verify, PR + merge. propose-only for deploy.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

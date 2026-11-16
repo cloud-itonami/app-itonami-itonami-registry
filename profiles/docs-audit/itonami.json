@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-7e63dd5f"
+    "ao-repo-steward-6973c16"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: docs-currency audit bot: checks shared read-only models, rules, md, ADR freshness against the latest landed state; files one finding per drift with PR-ready pointers",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

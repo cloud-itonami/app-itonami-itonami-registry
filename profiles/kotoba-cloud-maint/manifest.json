@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba.cloud メンテ (network-awai/app-kotoba-cloud Worker), 60min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/amu/tree/bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+  "source": "https://github.com/kotoba-lang/amu/tree/f759f4f749a6cd1d780de3b339e28db657dcc6d7",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/amu",
-    "commit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+    "commit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
     "path": "hermes/profiles/kotoba-cloud-maint",
     "checksum": "sha256-tree:aaccadb57423b16a423ae62b91c1087582aa337f68e6d98b05d55494dda08d9c",
     "files": [

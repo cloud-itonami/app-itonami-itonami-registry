@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Giemon-based cleaning-robot business organizer (ISIC 8121 Community Building Cleaning Operations). Owns the samu business bot lifecycle: blueprint registry watch, grok-bots activity monitoring, ops journaling.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/tree/4ade664a708d985ead088ece8d1747df949a90e3",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-isic-8121",
-    "commit": "1ba2daa964183535bc69d481ba8ddfd3dd6e97b5",
+    "commit": "4ade664a708d985ead088ece8d1747df949a90e3",
     "path": "hermes/profiles/samu",
     "checksum": "sha256-tree:64a53dbd7e2e024f2851835e5517141a98432ebc2810dc6bbc9d7baf8636399a",
     "files": [

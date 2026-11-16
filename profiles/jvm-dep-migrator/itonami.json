@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "amu-bea7b9b2"
+    "amu-f759f4f"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotoba-lang org JVM 依存 repo の Q9 whole-component 移行: 棚卸し→計画→段階的 PR, 60min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
