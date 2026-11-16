@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "cloud-itonami-app kotoba-native/amu compile 責任 bot — KIR parity gate の維持",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/a2c2f7b2154a85f47a3923ffc04320614680f0da",
+  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/cloud-itonami-app",
-    "commit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+    "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/compiler",
     "checksum": "sha256-tree:36546abdea3085fc257ef2dd246e4926e4ec7ada2f720530ded7b9e7b032f6bb",
     "files": [

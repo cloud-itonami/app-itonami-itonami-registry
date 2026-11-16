@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "amu-bea7b9b2"
+    "amu-f759f4f"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotoba-lang org 横断 maintainer bot: CI 赤検知 + repo 健全性, 30min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

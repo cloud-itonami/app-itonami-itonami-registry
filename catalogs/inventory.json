@@ -1250,55 +1250,55 @@
           "entry": "agent/independent-evidence-reviewer"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/90-docs"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/awai-store-removal"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/branch-drain"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/cljk-finish"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/design-audit"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/docs-audit"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/git-cleanup-ops"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/kotoba-merger"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/pr-cleanup"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/pr-drain"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/reviewer"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/rule-kaizen"
         },
         {
-          "sourceCommit": "7e63dd5f3cdd8557fd1e3a6282afcce790fc357a",
+          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
           "entry": "profile/seiri"
         }
       ]
@@ -2109,7 +2109,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "f70dd052e0bd7485ccefd37eec0141dff8a0ce85",
+          "sourceCommit": "9092cb0a1b190083dc3e561f7e5194124e6dd45b",
           "entry": "profile/svelte-to-cljs"
         }
       ]
@@ -3965,79 +3965,79 @@
           "entry": "mcp/itonami-fleet-catalog"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/compiler"
         },
         {
-          "sourceCommit": "57ff9f349878a1cb27c6446b10b56802c3266572",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-ad-operator"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-cli-maint"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-dispatch"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-eng"
         },
         {
-          "sourceCommit": "bb39f01bff122a56bf756ece166b69a4580c5b0b",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-hermes-bridge"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-maint"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-mktg"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-po"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-publish-gate"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-qa"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-sales"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-sales-agent"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-support"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-winfix"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/itonami-winfix-qa"
         },
         {
-          "sourceCommit": "ce08b9f20d496975621a8fa07b898b67c15fb829",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/public-bots-registrar"
         },
         {
-          "sourceCommit": "a2c2f7b2154a85f47a3923ffc04320614680f0da",
+          "sourceCommit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
           "entry": "profile/refactor"
         },
         {
@@ -43281,35 +43281,35 @@
       "reason": "Reviewed 2026-10-11 at 9d661bc593c28173e02ad5530e7b2832ea3b9830: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
       "registrations": [
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-1"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-2"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-3"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-5"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-6"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-7"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-8"
         },
         {
-          "sourceCommit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
+          "sourceCommit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
           "entry": "profile/itonami-isco-9"
         }
       ]
@@ -43359,87 +43359,87 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-a"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-b"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-c"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-d"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-e"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-f"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-g"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-h"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-i"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-j"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-k"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-l"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-m"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-n"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-o"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-p"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-q"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-r"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-s"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-t"
         },
         {
-          "sourceCommit": "800aa5e29b8d2ac9f5218885edbda0df9f1cccf8",
+          "sourceCommit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
           "entry": "profile/itonami-isic-u"
         }
       ]
@@ -49450,63 +49450,63 @@
       "reason": "Reviewed 2026-10-11 at fad82a3e61a120ae4f87041cdabd6d2ffadbe6ff: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
       "registrations": [
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/aiueos-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-bench"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-claim"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-falsify"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-jit-cosientist"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/amu-rank"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/jvm-dep-migrator"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/jvm-retire"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-cloud-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-lang-cosientist"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotoba-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotobalang-maint"
         },
         {
-          "sourceCommit": "bea7b9b24a44ebd3d5108e8e356a39c6bed5912d",
+          "sourceCommit": "f759f4f749a6cd1d780de3b339e28db657dcc6d7",
           "entry": "profile/kotobalang-org-maint"
         },
         {
@@ -91979,31 +91979,31 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/graphpr"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-b2"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-eng"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-mktg"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-po"
         },
         {
-          "sourceCommit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+          "sourceCommit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
           "entry": "profile/kotobase-qa"
         }
       ]
@@ -96431,39 +96431,39 @@
           "entry": "mcp/murakumo-web"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/glm53-cyber"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/mishima-fast"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/murakumo"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/murakumo-infer-maturity"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/murakumo-poi"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/murakumo-tok"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/oriru"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/qwen38-cyber"
         },
         {
-          "sourceCommit": "76d849d18936bde58c545b0c76019d5728c1efaa",
+          "sourceCommit": "678e08e9731d33d18cc1cc9228095666acf1fe2a",
           "entry": "profile/web-plane"
         },
         {

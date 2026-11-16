@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotobase 担当。データベース(kotobase-engine/storage 系)、Cloudflare Workers、net-kotobase(kotobase.net)を含む kotobase 系の保守・開発・デプロイ。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kotobase/tree/4920f040e38df61a1e4a3e0151090aa8854f5c82",
+  "source": "https://github.com/kotoba-lang/kotobase/tree/c191dd0fecb67f28b9f6eff79269800b45414f89",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/kotobase",
-    "commit": "4920f040e38df61a1e4a3e0151090aa8854f5c82",
+    "commit": "c191dd0fecb67f28b9f6eff79269800b45414f89",
     "path": "hermes/profiles/kotobase",
     "checksum": "sha256-tree:282f624edc0abf40aa282d45d84ff2dae87eaed965a9fb4128071aaa00abb690",
     "files": [
