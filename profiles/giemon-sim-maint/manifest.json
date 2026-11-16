@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "giemon シミュレーション学習成熟ループ: maint (15-30min cron cowork)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+  "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "kotoba-lang/giemon",
-    "commit": "0eb965a7e36385b4a4d967e027a89367e490c656",
+    "commit": "f2a191048e3089925735b0a3a3d10325166872b1",
     "path": "hermes/profiles/giemon-sim-maint",
     "checksum": "sha256-tree:66b7f2b82486470f988730fe9739832b3e719bcaca42d3ef9a767077b5ee8aba",
     "files": [

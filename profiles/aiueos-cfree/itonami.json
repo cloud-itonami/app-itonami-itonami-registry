@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "aiueos-9506826f"
+    "aiueos-cf6c7eb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: aiueos kernel C-free programme (ADR-0220): 1 step per tick, monitor-gated cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

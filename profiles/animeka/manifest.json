@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "animeka: anime production bot. Generates animation works with kami engine + fleet creative skills and publishes to aozora.app.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/animeka-actor/tree/b647cdf09f21c6c4ca7602ac165a1de01703ef89",
+  "source": "https://github.com/cloud-itonami/animeka-actor/tree/baac7a6a32468aafdf497c2c42c02983c19c5552",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,9 +14,9 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/animeka-actor",
-    "commit": "b647cdf09f21c6c4ca7602ac165a1de01703ef89",
+    "commit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
     "path": "hermes/profiles/animeka",
-    "checksum": "sha256-tree:a3249961e8766f8286225c1a9a08e7766b8dc82e30657e486f6057afebcf76cf",
+    "checksum": "sha256-tree:46615174e75fad887ad71419a42f0ee1e2e762c7219c157d3cfe67abe02400de",
     "files": [
       {
         "path": "SOUL.md",
@@ -30,13 +30,33 @@
       },
       {
         "path": "cron/jobs.json",
-        "sha256": "0f210c9f2488df72de05765a5c1d249790ceb929f1cb7c5653da3cb9070fba3f",
-        "bytes": 2302
+        "sha256": "ad4387d21e4b6a19200c623dd5466b7fa352198a7575d5ec2aa514090a07afdf",
+        "bytes": 5948
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "978c322788b39bc0174d31d16e93086059ce47f835a6638aaf6162cd227f129f",
+        "bytes": 257
       },
       {
         "path": "profile.yaml",
         "sha256": "9ea6f6896904e651fac805b972d8cb16d139e9e0117dd9ba9cbad2ee0f95f6d8",
         "bytes": 168
+      },
+      {
+        "path": "scripts/aozora_engage.hy",
+        "sha256": "ec0469f26db057d75add6a0b39fda4e8b82be79c639e7f3d9130f49471a9cb31",
+        "bytes": 1236
+      },
+      {
+        "path": "scripts/aozora_inbox.hy",
+        "sha256": "3dc1406ec555cf2b5a020a90670d9a5dd015d64b2b40d485fcc4002e3f4c74bb",
+        "bytes": 1237
+      },
+      {
+        "path": "scripts/aozora_publish.hy",
+        "sha256": "4cc5552919eee38a301f47cb2ba39f744064fc9721cbb5edde9737505e0aa30e",
+        "bytes": 1229
       }
     ]
   }
