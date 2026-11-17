@@ -234,6 +234,7 @@ def validate(root=ROOT):
     validate_datasets(root)
     validate_actors(root)
     validate_blueprints(root)
+    validate_libraries(root)
     validate_compat(root)
     validate_apis(root, catalog, identities, {r['id']: r for r in external['registries']})
     load_declared(root)
@@ -419,6 +420,25 @@ def validate_blueprints(root):
             raise ValueError(f"Duplicate blueprint payload path: {e['id']}")
         if 'blueprint.edn' not in paths:
             raise ValueError(f"Blueprint entry lacks blueprint.edn: {e['id']}")
+
+
+def validate_libraries(root):
+    """Library source catalog (ADR 0014): references only, pinned, never a Hermes entry, grants nothing."""
+    doc = read(root / 'catalogs/libraries.json')
+    schema = read(root / 'schemas/library-sources.schema.json')
+    Draft202012Validator.check_schema(schema)
+    Draft202012Validator(schema).validate(doc)
+    if doc['count'] != len(doc['entries']):
+        raise ValueError('Library catalog count mismatch')
+    ids, repos = set(), set()
+    for e in doc['entries']:
+        if e['id'] in ids or e['repository'] in repos:
+            raise ValueError(f"Duplicate library entry: {e['id']}")
+        ids.add(e['id'])
+        repos.add(e['repository'])
+        paths = [p['path'] for p in e['payload']]
+        if len(set(paths)) != len(paths) or 'deps.edn' not in paths:
+            raise ValueError(f"Library payload invalid: {e['id']}")
 
 
 def validate_origin_extract(root, apis):
