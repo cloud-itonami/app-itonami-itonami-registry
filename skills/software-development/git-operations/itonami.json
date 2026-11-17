@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "skillimport-assistant-f55bdf36"
+  ],
+  "useWhen": "この superproject と west 管理の子リポで git を触るときの正本 — shallow を使わない理由と unshallow の確かめ方、ancestry / merge-base 判定が嘘をつく条件、`(forced update)` と `unrelated histories` が force-push を意味しない理由、west.yml を安全に変える唯一の経路（GitHub API single-entry commit）、pin 検証と pin 鮮度、main 同期・rebase 禁止・force-push 禁止・本番 deploy の包含条件、未コミット変更で同期がブロックされたときの安全な順序、worktree が object store を隔離しない話。「shallow」「unshallow」「merge-base がおかしい」「forced update」「force push していいか」「pull して」「main に同期」「deploy 前の確認」「worktree」で発火。CLAUDE.md の Git operations 節から切り出した正本。 並行エージェント運用（worktree-per-agent、分岐前の同期、stash を積まない、着地後の後片付け、worktree-retire / node_modules dedupe）と Agent 委譲（fork は調査専用、実行系は fresh agent + worktree 隔離、base SHA を渡す）の本文も 2026-09-11 に CLAUDE.md から逐語で移した（ADR-2609112300）。「並行セッション」「worktree を切る」「Agent に委譲」「fork」「subagent」でも発火。",
+  "avoidWhen": "Outside the task its description names, or without the caller authorizing the effects its steps describe.",
+  "inputs": {
+    "skill": "SKILL.md and its bundled files, as written in the owning profile"
+  },
+  "outputs": {
+    "guidance": "procedure text for the calling agent; the registry runs nothing"
+  },
+  "effects": [
+    "unreviewed"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "caller authorization"
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "copied verbatim from app-itonami-assistant on 2026-11-17 (variant used by 7 of 13 profile copies); effects not reviewed; not run from the registry install path",
+    "live": false
+  },
+  "compatibilityNote": "Hermes skill shape. SKILL.md frontmatter gained metadata.hermes and license; body and bundled files are unchanged. License AGPL-3.0-or-later per owner decision 2026-11-17. Wildcard versions express no runtime compatibility."
+}

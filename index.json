@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T02:05:56.018460Z",
-  "count": 1985,
+  "generated": "2026-11-17T05:14:37.720154Z",
+  "count": 2020,
   "entries": [
     {
       "id": "abaki",
@@ -37385,6 +37385,230 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "agency-ad-operations",
+      "type": "skill",
+      "name": "agency-ad-operations",
+      "description": "aozora.app の広告投稿、メールでの掲載交渉、反応測定を専用 agency MCP で実行する。",
+      "category": "operations",
+      "path": "skills/operations/agency-ad-operations",
+      "checksum": "sha256:9055cb965901a0781d75d0d3366067fdb0d987e348d1911e2ee462c0edca1a90"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "agency-sales-operations",
+      "type": "skill",
+      "name": "agency-sales-operations",
+      "description": "メールによる営業・返信・追客と aozora 上の暗号化 lead 管理を専用 agency MCP で実行する。",
+      "category": "operations",
+      "path": "skills/operations/agency-sales-operations",
+      "checksum": "sha256:f094b851c288b2315695d8625f73a49db0a6e730c10a3750c9b8aed2b2f0a8a6"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-arbitrage/tree/1727f03acd7e01020ec8f554dee66f5c92e0b926",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "awai-arb-tick",
+      "type": "skill",
+      "name": "awai-arb-tick",
+      "description": "Use when running the awai-arb cron arbitrage tick.",
+      "category": "operations",
+      "path": "skills/operations/awai-arb-tick",
+      "checksum": "sha256:fd63b48565971f9d7dd2978f15b580fd995abce2e5aeb64ea8e4b1a04a5442fa"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "awai-state-store-policy",
+      "type": "skill",
+      "name": "awai-state-store-policy",
+      "description": "Use for network-awai worker configs; D1/DO/KV are banned",
+      "category": "devops",
+      "path": "skills/devops/awai-state-store-policy",
+      "checksum": "sha256:3214704fc7b81815cce88a73e9626b39eae2d53229deb6a5530269fdccbfc6bc"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "git-cleanup-conflict",
+      "type": "skill",
+      "name": "git-cleanup-conflict",
+      "description": "Use when cleaning up git stashes, branches, or worktrees.",
+      "category": "software-development",
+      "path": "skills/software-development/git-cleanup-conflict",
+      "checksum": "sha256:f99857d9aff7e54e083a21bb1a54de68a948d4d24f546fab09a3c54fb71f7c8a"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "git-operations",
+      "type": "skill",
+      "name": "git-operations",
+      "description": "この superproject と west 管理の子リポで git を触るときの正本 — shallow を使わない理由と unshallow の確かめ方、ancestry / merge-base 判定が嘘をつく条件、`(forced update)` と `unrelated histories` が force-push を意味しない理由、west.yml を安全に変える唯一の経路（GitHub API single-entry commit）、pin 検証と pin 鮮度、main 同期・rebase 禁止・force-push 禁止・本番 deploy の包含条件、未コミット変更で同期がブロックされたときの安全な順序、worktree が object store を隔離しない話。「shallow」「unshallow」「merge-base がおかしい」「forced update」「force push していいか」「pull して」「main に同期」「deploy 前の確認」「worktree」で発火。CLAUDE.md の Git operations 節から切り出した正本。 並行エージェント運用（worktree-per-agent、分岐前の同期、stash を積まない、着地後の後片付け、worktree-retire / node_modules dedupe）と Agent 委譲（fork は調査専用、実行系は fresh agent + worktree 隔離、base SHA を渡す）の本文も 2026-09-11 に CLAUDE.md から逐語で移した（ADR-2609112300）。「並行セッション」「worktree を切る」「Agent に委譲」「fork」「subagent」でも発火。",
+      "category": "software-development",
+      "path": "skills/software-development/git-operations",
+      "checksum": "sha256:570a4f5a115a8a57bec3f5911bd3743b1cab48f44524dfe2b7ec92f843e1caab"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hermes-fleet-cron-health",
+      "type": "skill",
+      "name": "hermes-fleet-cron-health",
+      "description": "Use when auditing Hermes bot profiles or cron fleet health.",
+      "category": "devops",
+      "path": "skills/devops/hermes-fleet-cron-health",
+      "checksum": "sha256:902eb9fef3c16d598c3f347cf69bfc3cf819e756af68f0f1920ceb87509e303c"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hyakka-knowledge-pipeline",
+      "type": "skill",
+      "name": "hyakka-knowledge-pipeline",
+      "description": "Use when reporting app-hyakka knowledge pipeline status.",
+      "category": "research",
+      "path": "skills/research/hyakka-knowledge-pipeline",
+      "checksum": "sha256:ca91bd02631e062cf9b67372e9b6e1f049ad3d2974379b2d7901f2ba08efb3b1"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hyakka-ontology-scout",
+      "type": "skill",
+      "name": "hyakka-ontology-scout",
+      "description": "Use when the hyakka ontology-scout run proposes properties.",
+      "category": "research",
+      "path": "skills/research/hyakka-ontology-scout",
+      "checksum": "sha256:5a3f26fe9fd4b4d2d4ba44dbbb9c7fd3bdefa5cbc7aec01194b596fae41cb4f4"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hyakka-sitelink-scout",
+      "type": "skill",
+      "name": "hyakka-sitelink-scout",
+      "description": "Use when the hyakka sitelink-scout run hits WDQS 502/504s.",
+      "category": "research",
+      "path": "skills/research/hyakka-sitelink-scout",
+      "checksum": "sha256:2ec2ae1544fa58f814c05e77e77fe102ce71e19f1138c241c76198fd77ef1f80"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hyakka-source-scout",
+      "type": "skill",
+      "name": "hyakka-source-scout",
+      "description": "Use when a hyakka source-scout run proposes new sources.",
+      "category": "research",
+      "path": "skills/research/hyakka-source-scout",
+      "checksum": "sha256:5dee73b5b56fee9f999787529433f8e9643880b0b6647fdb1aae6a76d30a6ce5"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "hyakka-wikidata-class-scout",
+      "type": "skill",
+      "name": "hyakka-wikidata-class-scout",
+      "description": "Use when the hyakka wikidata class-scout cron bot runs.",
+      "category": "research",
+      "path": "skills/research/hyakka-wikidata-class-scout",
+      "checksum": "sha256:a3ac2d93cf8e7ad58716ba80fb530843e429397ae60130eaea51545e3a06fca2"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "isco4-kotoba-migration",
+      "type": "skill",
+      "name": "isco4-kotoba-migration",
+      "description": "Migrate ISCO-4 .cljc slices to .kotoba gated by amu check.",
+      "category": "software-development",
+      "path": "skills/software-development/isco4-kotoba-migration",
+      "checksum": "sha256:7ea85ec7f683572b4abdf2e69a38772daf4266eee3a129e1998fe9884ee77cad"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "isekai-network-team",
+      "type": "skill",
+      "name": "isekai-network-team",
+      "description": "Use when planning or coordinating cross-functional business, marketing, sales, brand, engineering, operations, or game-development work for isekai.network from the Itonami profile.",
+      "category": "operations",
+      "path": "skills/operations/isekai-network-team",
+      "checksum": "sha256:dedf9e2651b2a1fb5d32934dc08724b23ba3eda914dca72c2993e7dc936a9cb7"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7310/tree/5b0c39170d4f2ee91c67ecb35a673766a17d624d",
       "compatibility": {
         "hermes": "*",
@@ -37397,6 +37621,22 @@
       "category": "workflow",
       "path": "skills/workflow/isic-m-kotoba-slice",
       "checksum": "sha256:cc2a342b95a8ccf632f8e791b82a6e848037d2b3ea6b354b3888ddd5345fa05b"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "itonami-app",
+      "type": "skill",
+      "name": "itonami-app",
+      "description": "Search the Itonami actor catalog and open the Itonami app. Use when the user needs a worker for a task or wants to continue work in the app.",
+      "category": "operations",
+      "path": "skills/operations/itonami-app",
+      "checksum": "sha256:b825a7b371ebbdfb122ef095cc3f74ca2c379057578a54b9a915c5d750f0021b"
     },
     {
       "version": "1.6.0",
@@ -37429,6 +37669,22 @@
       "category": "devops",
       "path": "skills/devops/itonami-bot-registration",
       "checksum": "sha256:78251383cc52b41b7cb2be63661776482cb6d67d9c2d7bcaed691811ad8695f6"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "itonami-business-bots",
+      "type": "skill",
+      "name": "itonami-business-bots",
+      "description": "Use when launching or managing cloud-itonami Business Bots, and when operating the x402 payment-rail surfaces they own.",
+      "category": "operations",
+      "path": "skills/operations/itonami-business-bots",
+      "checksum": "sha256:b30f3e60bc540dfdcb8e305fa513b12e1da0515a4098630b2f0d9ad7d1a5d01f"
     },
     {
       "version": "0.1.0",
@@ -37847,6 +38103,38 @@
       "checksum": "sha256:3770b4e8d754b6890bc4ec2b211771d0894920c562aaf4204e03150302ae11f9"
     },
     {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "itonami-setup",
+      "type": "skill",
+      "name": "itonami-setup",
+      "description": "Set up the Itonami plugin after installation. Use when the user installs the plugin or asks how to connect the Itonami app.",
+      "category": "operations",
+      "path": "skills/operations/itonami-setup",
+      "checksum": "sha256:9cc391fb37a30ca171b61850ac8a09d275a08a66202441c5b0482906901ba40e"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "itonami-site-teams",
+      "type": "skill",
+      "name": "itonami-site-teams",
+      "description": "Use when Itonami coordinates business, marketing, sales, brand, engineering, operations, or game work for aozora.app, x402.nexus, shinshi.club, oppai.fans, babiniku.net, yataverse.com, or murakumo.cloud.",
+      "category": "operations",
+      "path": "skills/operations/itonami-site-teams",
+      "checksum": "sha256:4eb5167dc08f51e1790b75e796f0c3ccf9588de8a26dfce226657a7a17f7a9a8"
+    },
+    {
       "version": "0.1.1",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-kaikei/tree/8e128c838a57d6d7a47f359f6d6f2247afcb8b6d",
@@ -37909,6 +38197,278 @@
       "category": "operations",
       "path": "skills/operations/itonami-user-test-evidence",
       "checksum": "sha256:4c4640ce6ac52506928c7505907fdb82be6dc86c53cfe831cc14c2b51435c1c8"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "java-kotoba-migration",
+      "type": "skill",
+      "name": "java-kotoba-migration",
+      "description": "Migrate java.*/clojure.java.* usage to kotoba.* libs and pure .kotoba; create and publish missing libs",
+      "category": "software-development",
+      "path": "skills/software-development/java-kotoba-migration",
+      "checksum": "sha256:533ec6ce19d4d27cd5b4765098520b83e95d918cd1ca53ed0e95ab11e0e9661f"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "kbb-config-and-classpath",
+      "type": "skill",
+      "name": "kbb-config-and-classpath",
+      "description": "Use when kbb fails to resolve a namespace or deps.",
+      "category": "software-development",
+      "path": "skills/software-development/kbb-config-and-classpath",
+      "checksum": "sha256:8fd49420e0eed2b621c1a573b9b8af0a60b02ce825ac2341484d624ecce83a84"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "kbb-test-suite-fix",
+      "type": "skill",
+      "name": "kbb-test-suite-fix",
+      "description": "Use when repo tests fail under kbb after the JVM cutover.",
+      "category": "software-development",
+      "path": "skills/software-development/kbb-test-suite-fix",
+      "checksum": "sha256:af69e328503faabc272e9bad06d92ff1e3c6ca6ae13bbc471ce367b978bb1f81"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "kotoba-capability-extension",
+      "type": "skill",
+      "name": "kotoba-capability-extension",
+      "description": "Use when adding a Kotoba host capability or kbb op.",
+      "category": "software-development",
+      "path": "skills/software-development/kotoba-capability-extension",
+      "checksum": "sha256:f0b3b687ebac676b1537fdf6d970f999010f00939a4ae01d55d4516297322362"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "kotobase-bytes-plane",
+      "type": "skill",
+      "name": "kotobase-bytes-plane",
+      "description": "Use when deploying or verifying the ipfs Worker planes, adding a mirror zone, building lake index pages / machine APIs on yataverse.com, or enumerating/probing public *.kotobase.net surfaces.",
+      "category": "devops",
+      "path": "skills/devops/kotobase-bytes-plane",
+      "checksum": "sha256:fc8c45246d391e8585966d4c3711b5b75f736e70a4ab708f2866e3112c90ccba"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "kotobase-ldbc-qualification",
+      "type": "skill",
+      "name": "kotobase-ldbc-qualification",
+      "description": "Use when resuming kotobase-ldbc LDBC qualification work.",
+      "category": "devops",
+      "path": "skills/devops/kotobase-ldbc-qualification",
+      "checksum": "sha256:e5e6bdfb4cfe59cca737e703f05c3680b465c8fe00b9df84e2da4d022fd752e4"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "mail-relay-inbox-observation",
+      "type": "skill",
+      "name": "mail-relay-inbox-observation",
+      "description": "Use when observing relay.itonami.cloud inbox on cron ticks.",
+      "category": "devops",
+      "path": "skills/devops/mail-relay-inbox-observation",
+      "checksum": "sha256:f3c7c7f5b45370d97ca74fe40f792e3f6efd9e880188c35e7d07f8a6987b89d8"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "murakumo-confidential-inference",
+      "type": "skill",
+      "name": "murakumo-confidential-inference",
+      "description": "Use when planning murakumo private inference (TEE/MPC/FHE).",
+      "category": "devops",
+      "path": "skills/devops/murakumo-confidential-inference",
+      "checksum": "sha256:dcedc516e22cd5ebbd40e99e579d695c28e7e984c0d7de284840585b6013dba0"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "murakumo-edge-ring",
+      "type": "skill",
+      "name": "murakumo-edge-ring",
+      "description": "Use when adding murakumo model ids or edge-ring nodes.",
+      "category": "devops",
+      "path": "skills/devops/murakumo-edge-ring",
+      "checksum": "sha256:287057be12883270ed32ee795c47ef89c377f90be6adf5cc9a9c7ab8b029b2a4"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "nbb-to-kbb-migration",
+      "type": "skill",
+      "name": "nbb-to-kbb-migration",
+      "description": "Use when migrating nbb tooling to kbb. kbb-first rule.",
+      "category": "software-development",
+      "path": "skills/software-development/nbb-to-kbb-migration",
+      "checksum": "sha256:fa1a46834bbe6f3120be4a6bde0cfa149cbef1f10a49a6e79b7f3ae0646bbb6b"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "oppai-producer-hourly",
+      "type": "skill",
+      "name": "oppai-producer-hourly",
+      "description": "Use when running the hourly oppai.fans Producer tick.",
+      "category": "operations",
+      "path": "skills/operations/oppai-producer-hourly",
+      "checksum": "sha256:4edb9ad9345abddfd3f9ea006663163e45b3250b855d2d706f3e88936488424a"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "reuse-case-operations",
+      "type": "skill",
+      "name": "reuse-case-operations",
+      "description": "不用品回収・遺品整理・リユース案件の受付から完了照合まで、必要な情報と成果物をそろえる。",
+      "category": "operations",
+      "path": "skills/operations/reuse-case-operations",
+      "checksum": "sha256:9ab86f6b9054f0abf32a2aae54ffd5e9cc71c14f0de47f9e69222e5d338e9e3a"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-dougaka-actor/tree/7b8f6adb5ba59ae70b1335a9f985eb434b50cb56",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "rhythm-fitness-video",
+      "type": "skill",
+      "name": "rhythm-fitness-video",
+      "description": "Design and produce original VR-free rhythm fitness videos for screens and TVs, then publish to aozora.app and verify ATProto distribution.",
+      "category": "operations",
+      "path": "skills/operations/rhythm-fitness-video",
+      "checksum": "sha256:a1bce2acaab78614d682891218e271ab993395b39d04c21174d14854e14f9b72"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "tenken-declarative-config",
+      "type": "skill",
+      "name": "tenken-declarative-config",
+      "description": "Extending tenken config-inspection lib or its policies.",
+      "category": "software-development",
+      "path": "skills/software-development/tenken-declarative-config",
+      "checksum": "sha256:e855197993611971120a248775e470296063b749bb321b9d6c25c081da6a9733"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "transport-evidence-bot",
+      "type": "skill",
+      "name": "transport-evidence-bot",
+      "description": "Use when itonami transport_evidence.py runs or proposes obs.",
+      "category": "devops",
+      "path": "skills/devops/transport-evidence-bot",
+      "checksum": "sha256:e4fd3b6163fdf7d1d314075fc9fb92849ca9497255de2079c518056c35dbff30"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "utsushi-jvmfree-bot",
+      "type": "skill",
+      "name": "utsushi-jvmfree-bot",
+      "description": "Use when extending the utsushi-maint JVM-free migration bot.",
+      "category": "software-development",
+      "path": "skills/software-development/utsushi-jvmfree-bot",
+      "checksum": "sha256:a683d1f6464d5ac9a81ea96c3f17393e5c1dc834a8c04b9ca4e54b33e46bee22"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "yabai-intel-ioc-iteration",
+      "type": "skill",
+      "name": "yabai-intel-ioc-iteration",
+      "description": "Record new CHANGED-feed IOCs to the app-hyakka ledger.",
+      "category": "research",
+      "path": "skills/research/yabai-intel-ioc-iteration",
+      "checksum": "sha256:3ba10a76bc5e4144901d43b39ce451f4ff45e119d2e9b0e46bdca23a5779b32b"
     },
     {
       "id": "evidence-measured-improvement",

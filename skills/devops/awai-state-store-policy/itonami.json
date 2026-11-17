@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "skillimport-adserver-aeb5f9bf"
+  ],
+  "useWhen": "Use for network-awai worker configs; D1/DO/KV are banned",
+  "avoidWhen": "Outside the task its description names, or without the caller authorizing the effects its steps describe.",
+  "inputs": {
+    "skill": "SKILL.md and its bundled files, as written in the owning profile"
+  },
+  "outputs": {
+    "guidance": "procedure text for the calling agent; the registry runs nothing"
+  },
+  "effects": [
+    "unreviewed"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "caller authorization"
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "copied verbatim from app-itonami-adserver on 2026-11-17 (variant used by 11 of 13 profile copies); effects not reviewed; not run from the registry install path",
+    "live": false
+  },
+  "compatibilityNote": "Hermes skill shape. SKILL.md frontmatter gained metadata.hermes and license; body and bundled files are unchanged. License AGPL-3.0-or-later per owner decision 2026-11-17. Wildcard versions express no runtime compatibility."
+}
