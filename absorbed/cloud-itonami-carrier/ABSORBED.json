@@ -1,0 +1,58 @@
+{
+  "origin": "cloud-itonami/app-itonami-cloud-itonami-carrier",
+  "commit": "8e8bc32f79144856f8f406b5b92734cd698afe9c",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e6041127f7dec120544b402a1731bfcd876fdf8fd789870ee46bd7586bee440a",
+      "bytes": 26
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    {
+      "path": "README.md",
+      "sha256": "808ffeacbb05d9fa322b0db19298cb74ddbdd9a391ddae93119a38b62dc67911",
+      "bytes": 2770
+    },
+    {
+      "path": "blueprint.edn",
+      "sha256": "3f703cac8b95417ee7b7097df8e59c108961af5ec0e7c5df8e03b78b74a36e21",
+      "bytes": 2557
+    },
+    {
+      "path": "deps.edn",
+      "sha256": "22cfd0c14a05a949b7f67199837e2c4261ddc7a01c0d468e08932ee59a5f892a",
+      "bytes": 433
+    },
+    {
+      "path": "docs/adr/0001-the-source-of-truth-this-readme-names-does-not-exist.md",
+      "sha256": "c562c330f0f5bf3f6a977b77b7b2e9bdf556891f9c744811c1da8becde37e434",
+      "bytes": 8563
+    },
+    {
+      "path": "docs/operator-quickstart.md",
+      "sha256": "b558d6887c9b5e8062bd0dcbe602949417c8b4fcf55f52800c8f8a65a437c935",
+      "bytes": 8198
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "1a1e7e5066332d933863cf7002edb393bb83272b64c80bf23edf8ce16715535b",
+      "bytes": 1045
+    },
+    {
+      "path": "src/carrier/service/operation.kotoba",
+      "sha256": "16be8b250b3637203cf1392a749ddcc30d5a6a6aa5e39efdf139d7baa36940fe",
+      "bytes": 2262
+    },
+    {
+      "path": "test/carrier/service/operation_test.kotoba",
+      "sha256": "3fa08080e7ad96d858363cd7e00c95e98aa0a4339f73289598ffe27e556d5f6e",
+      "bytes": 1849
+    }
+  ]
+}

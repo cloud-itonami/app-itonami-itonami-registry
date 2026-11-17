@@ -1,6 +1,6 @@
 # ADR 0016 Profile substance kept in the registry (seven profile-only repositories)
 
-Status: proposed, 2026-11-17. Amends ADR 0002 (the registry never copies profile files) and ADR 0010
+Status: proposed, 2026-11-17 (extended the same day to app-itonami-cloud-itonami-carrier and app-itonami-animeka-actor, AWAI-3068). Amends ADR 0002 (the registry never copies profile files) and ADR 0010
 (substance on AwaiFS) for the profiles below only. Tracked in AWAI-3066, JUN-1070 and AWAI-507.
 
 ## Context
