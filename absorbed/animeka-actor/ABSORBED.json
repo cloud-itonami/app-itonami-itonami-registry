@@ -1,0 +1,178 @@
+{
+  "origin": "cloud-itonami/app-itonami-animeka-actor",
+  "commit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "568f7182752a648f2ed73e0fde9068c5475798e24e30ca956770efa3fcaf1670",
+      "bytes": 138
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "4b3651cb38a3b44e55678c1f43d4a12aeeba1a7d7bd4e19443d3a6cc468b4b4c",
+      "bytes": 3421
+    },
+    {
+      "path": "README.md",
+      "sha256": "12c073077ac42e7e7940dd47834e302d8ce35ffb9328dc63e0cac20105ba868f",
+      "bytes": 5981
+    },
+    {
+      "path": "clips/amayadori-jinja.edn",
+      "sha256": "2e614e2aee05bd6b3645101f1ff786e2576feff69d8cba61934facb3de2f936a",
+      "bytes": 2494
+    },
+    {
+      "path": "clips/hoshi-tsuri.edn",
+      "sha256": "69d7df57780feac9d1a008cf2fa9f1256267204c5f2a7b103015243b375d44c2",
+      "bytes": 2251
+    },
+    {
+      "path": "clips/pan-mahou.edn",
+      "sha256": "c4ceb5befe743c61915945f1d7828d3b7ac78ebf72caf3fea1b7149845864a90",
+      "bytes": 1802
+    },
+    {
+      "path": "clips/robot-koneko.edn",
+      "sha256": "12760a816380e65fd3c18ce0bfd68cefce32b4e0e907e2a3b31417710d49f2c1",
+      "bytes": 2024
+    },
+    {
+      "path": "clips/sakura-densha.edn",
+      "sha256": "7947ba91c5bc2ed5a76b9c0f0c516a3645094929d50717622fcc9a5a961c2f58",
+      "bytes": 2061
+    },
+    {
+      "path": "deps.edn",
+      "sha256": "8b97c700b7fce6eb09de339dfe85d6eaed0d5268d7d591acef065b23e9001951",
+      "bytes": 2200
+    },
+    {
+      "path": "docs/adr/0001-architecture.md",
+      "sha256": "d217103d83bc604b042b00c483a26a2cbd1f2f9eb4402528c2dd0f7d9207be99",
+      "bytes": 10164
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "d0f525cd28da0d2dc129213f73eb44e412d8584fadb30c33d2f658fc5eef8ab3",
+      "bytes": 1110
+    },
+    {
+      "path": "run_tests.kotoba",
+      "sha256": "b47743c929fa1f815691ada906518ccfaf16218056a6d6760f632dc38a6b135e",
+      "bytes": 772
+    },
+    {
+      "path": "scripts/publish_fabric_status.kotoba",
+      "sha256": "06b2ce424516feeb7e8edd5c5dbbf6d21985e7fd8b114d8a23061e78634aedf3",
+      "bytes": 1008
+    },
+    {
+      "path": "scripts/register_fabric_actor.kotoba",
+      "sha256": "e4bfe64c52b668890c0db4ed48e83d531599734726740824c5a9cbd156146a40",
+      "bytes": 573
+    },
+    {
+      "path": "src/animekaza/advisor.kotoba",
+      "sha256": "6a114a4f7a543fbf32e5e30526bcf4081fac56ebf11461749bf49a645cc84bfd",
+      "bytes": 7140
+    },
+    {
+      "path": "src/animekaza/announce.kotoba",
+      "sha256": "b57fd84e7c31fb7b095964efdc02a523397c54b010a019f5585e9b085cf62dd8",
+      "bytes": 4836
+    },
+    {
+      "path": "src/animekaza/aozora.kotoba",
+      "sha256": "057d5af0400561069b01c8fd721cca9accf93da68059357afe3017fe5b1117b5",
+      "bytes": 8325
+    },
+    {
+      "path": "src/animekaza/cacao.kotoba",
+      "sha256": "1b07324cbe5a1e407550c427d406b9822c63bf224b0d802e0ad2ae53ef6123cb",
+      "bytes": 10735
+    },
+    {
+      "path": "src/animekaza/deploy.kotoba",
+      "sha256": "97005fcc9db064dbb795c0b70ecfbda8ba8eebe9743d97d2a99dbdf53beef685",
+      "bytes": 7620
+    },
+    {
+      "path": "src/animekaza/engine.kotoba",
+      "sha256": "79c006fe4358c1cdd8a42e7f1dfd3866b4d97f20740ad800763516659d816133",
+      "bytes": 8399
+    },
+    {
+      "path": "src/animekaza/governor.kotoba",
+      "sha256": "e0fd14d339073f0553cae7a65a8b0811a086c85b216e296a5a3cd4f50729aab8",
+      "bytes": 5680
+    },
+    {
+      "path": "src/animekaza/operation.kotoba",
+      "sha256": "dfc62084f3911f837fce6193fe51ac8ec8053859b7b940c02f0c9c9c50fe288e",
+      "bytes": 6904
+    },
+    {
+      "path": "src/animekaza/outer_loop.kotoba",
+      "sha256": "03351f51a1e7191c6b36760391636406e2df8c55225b882160dcf7e744df142d",
+      "bytes": 9451
+    },
+    {
+      "path": "src/animekaza/phase.kotoba",
+      "sha256": "ea22361b1077dcd3d45824e2810cd4c9d36f4a6dc8533c48a2ef15d10c559f47",
+      "bytes": 2442
+    },
+    {
+      "path": "src/animekaza/produce.kotoba",
+      "sha256": "7e931587d0084682790c53bc20e1cc959755f7439c1054d0d0edb82f33677cc8",
+      "bytes": 4891
+    },
+    {
+      "path": "src/animekaza/publisher.kotoba",
+      "sha256": "2d81e64b5a599df0107e203fa37916773795aacfcf934daf79bf265b1c7ee329",
+      "bytes": 1579
+    },
+    {
+      "path": "src/animekaza/sim.kotoba",
+      "sha256": "d292b215778adfef2ee05a390ca9072ec090d0048298cb80ed0622ba93dba53e",
+      "bytes": 1490
+    },
+    {
+      "path": "src/animekaza/store.kotoba",
+      "sha256": "bd224acabef1804e783ffeef77f9e01fddc69c62ce2e73cef663012c3a84b9e4",
+      "bytes": 3942
+    },
+    {
+      "path": "storage-profile.edn",
+      "sha256": "33f1c0a5bc118dd413d967b6eed0079616be6667225bc7740cbe7b45aa320c0f",
+      "bytes": 396
+    },
+    {
+      "path": "test/animekaza/clip_designs_test.kotoba",
+      "sha256": "d14d4195fd01926b1982748dd697a6b7754f2c101a7d619d16525f00d244a82b",
+      "bytes": 2980
+    },
+    {
+      "path": "test/animekaza/engine_test.kotoba",
+      "sha256": "04b8c9caf8aa677cda2eebfd5841251a3f9b126ea86be3b38da32e14715f0a42",
+      "bytes": 1956
+    },
+    {
+      "path": "test/animekaza/governor_contract_test.kotoba",
+      "sha256": "0d942e77168e8a2d2ab0baf133bfc9889492a1d171b2403958f387fd35c7ec32",
+      "bytes": 6688
+    },
+    {
+      "path": "test/animekaza/operation_test.kotoba",
+      "sha256": "ecc6ab24f07a0cfcf7074c8222b7dd54705cfbd99e08a82eb9c8599e4b4a5244",
+      "bytes": 3647
+    },
+    {
+      "path": "test/animekaza/store_contract_test.kotoba",
+      "sha256": "13c0798638c5db3187d54a6dcc79939cc2d298697568d267fba1f45fac2ec9df",
+      "bytes": 2178
+    }
+  ]
+}

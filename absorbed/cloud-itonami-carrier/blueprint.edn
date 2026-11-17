@@ -1,0 +1,43 @@
+{:itonami.blueprint/id "cloud-itonami-carrier"
+ :itonami.blueprint/name "Mobile Carrier Service Operations (Starlink Direct-to-Cell wholesale)"
+ :itonami.blueprint/domain :communication/carrier-service
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:connectivity :remote-area-inclusion :disaster-resilience]
+ :itonami.blueprint/governor :carrier-service-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:identity :forms :dmn :audit-ledger :esim :x402]
+ :itonami.blueprint/optional-technologies [:phone]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/maturity :scaffolded
+ :itonami.blueprint/implemented-slice
+ "R0 scaffold: Carrier Service Governor ⊣ Advisor actor skeleton. The actor
+ reuses cloud-itonami-esim's eSIM Provisioning Advisor ⊣ Governor as the
+ provisioning authority (no reimplementation of profile lifecycle) and
+ delegates payment to network-awai/nexus-x402 (x402/USDC). Spectrum/coverage
+ truth is intentionally external: wholesale partner + Starlink public coverage
+ map. This repo owns only the subscriber service plane: signup, billing,
+ support, outage notification. Ops that mutate a real person's line
+ (:profile/download, :profile/lifecycle, :ownership/transfer) remain
+ :effect :propose only and ABSENT from every phase's :auto set — inherited
+ permanently from the esim actor's structural SIM-swap refusal. R0 admits
+ no external connectivity."
+ :itonami.blueprint/operations
+ [{:op/name :subscriber/signup
+   :op/effect :propose
+   :op/note "creates a draft subscriber; eSIM issuance goes through esim actor's :euicc/register propose path"}
+  {:op/name :subscriber/bill
+   :op/effect :propose
+   :op/note "monthly settlement via x402/USDC; no custody of customer funds"}
+  {:op/name :subscriber/support
+   :op/effect :propose
+   :op/note "first-line support; human work outsourced via cloud-itonami-app ADR-0084 marketplace when beyond bot capability"}
+  {:op/name :network/observe
+   :op/effect :observe
+   :op/note "read-only observation; coverage truth is external (wholesale partner + Starlink map), never self-computed"}
+  {:op/name :outage/notify
+   :op/effect :propose
+   :op/note "customer notification on observed outage; content reviewed by governor"}]
+ :itonami.blueprint/boundaries
+ {:esim "cloud-itonami-esim owns profile lifecycle; this repo calls it, never reimplements"
+  :app "cloud-itonami-app owns the human work environment"
+  :spectrum "no spectrum of our own; wholesale + Starlink coverage map is the only truth"}}
