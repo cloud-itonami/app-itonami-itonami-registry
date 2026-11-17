@@ -10,7 +10,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi",
       "commit": "5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "are"
@@ -38,7 +38,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires",
       "commit": "bb94b529e2422166953d5c75b14cbc14c05a3263",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "arg"
@@ -66,7 +66,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney",
       "commit": "7220c92893503bc0ee921567db027b11e3e8189f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "aus"
@@ -94,7 +94,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna",
       "commit": "0ed5c0aaeeaf00384f158f8114da6ef4a408845a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "aut"
@@ -122,7 +122,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels",
       "commit": "6616be1500d2556c95d74bb1a34a35fa0c21a339",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "bel"
@@ -150,7 +150,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo",
       "commit": "d8bab14e2283d70b4c46593749c2fef9d54b5bdc",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "bra"
@@ -178,7 +178,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto",
       "commit": "8e41029fa76bd8139bb6b012a78fb22976a6b5c1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "can"
@@ -206,7 +206,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern",
       "commit": "ec0a3c16b530ff9573a3f85608ecb598740cb447",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "che"
@@ -234,7 +234,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago",
       "commit": "f247d1d9a6ee4da2764953aeb9d16c3d93f28fe6",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "chl"
@@ -262,7 +262,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing",
       "commit": "01d10760df82b205404fa98661a85d8aade31123",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "chn"
@@ -290,7 +290,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai",
       "commit": "dca0d71083266bc7f486c1d82f6d33a8dae096b1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "chn"
@@ -318,7 +318,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen",
       "commit": "b5a01d1314acfcbed7d0226cd797ee9c02e1a219",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "chn"
@@ -346,7 +346,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota",
       "commit": "740134d4a8b9320be209d42c35dcfd2be7b0db82",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "col"
@@ -374,7 +374,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose",
       "commit": "91dd0146238c25420b14e1c42a1ac2de6b2274f3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "cri"
@@ -402,7 +402,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague",
       "commit": "6dc5462b3bbae6931a418d95eab3cd76ef7a5cae",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "cze"
@@ -430,7 +430,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin",
       "commit": "16a6e292891af23f94358c1ac30bbb3375d7753a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "deu"
@@ -458,7 +458,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich",
       "commit": "9e1a81ca816f05ee71c4a05e56f9aa7a6521f24c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "deu"
@@ -486,7 +486,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen",
       "commit": "2c43207de244f5dcefc3f8f90707dcd9c243e595",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "dnk"
@@ -514,7 +514,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito",
       "commit": "efabbc3f0b3d9f2aceefeb9da47047412b39c5b1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ecu"
@@ -542,7 +542,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo",
       "commit": "84b8ae80e5a9e3541aad3ee3212c4af281925083",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "egy"
@@ -570,7 +570,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona",
       "commit": "b5fa506166d1c5bce995cc60a5a0c6e623940d58",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "esp"
@@ -598,7 +598,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid",
       "commit": "732ebddc1e0c186f891169d06922e9e1ebdad93e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "esp"
@@ -626,7 +626,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki",
       "commit": "4f7494113e4a6414cd862510c0ed9d43ad1525fe",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "fin"
@@ -654,7 +654,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon",
       "commit": "af0b6ca0e4b509faadf32fdcb15c8c70b721ce8c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "fra"
@@ -682,7 +682,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille",
       "commit": "d1b7bd60236d1df5c53f66f46de5b0bab6949f6f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "fra"
@@ -710,7 +710,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris",
       "commit": "80d61f80afc128497e1d3c9523ff2912c025d02a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "fra"
@@ -738,7 +738,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london",
       "commit": "16da41ff9ec7530de44c5b7e4698328e5fc9605b",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "gbr"
@@ -766,7 +766,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city",
       "commit": "57b835c55908be49ca1d48e1f080a1904e39cba8",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "gtm"
@@ -794,7 +794,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa",
       "commit": "9503c69353a8bbe5d1205df495c17d693d83fa49",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "hnd"
@@ -822,7 +822,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta",
       "commit": "4b01122d89fd538623ab9b4ed41edc5834825b10",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "idn"
@@ -850,7 +850,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi",
       "commit": "75841a0df6d92899a7d1d97a7b2106ed5d4a5f16",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ind"
@@ -878,7 +878,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin",
       "commit": "9c983c3e4064513848158ea82f80cc46607a318c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "irl"
@@ -906,7 +906,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze",
       "commit": "438ffccd730b9f37fb45372b2280dfea287da5d5",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ita"
@@ -934,7 +934,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano",
       "commit": "8a38a3ba2ad8219877f1d3466343ffefcfc1cf60",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ita"
@@ -962,7 +962,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli",
       "commit": "3bd30cf5361e05fc5b2f8769fce815aa7e5281ed",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ita"
@@ -990,7 +990,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma",
       "commit": "a7f9c7fe62e0e5487b83269eafec4038472c3a24",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ita"
@@ -1018,7 +1018,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia",
       "commit": "cea4839bf1019d90b8336c77be41b434744b424a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ita"
@@ -1046,7 +1046,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto",
       "commit": "7e7d0c8a47aa836693adb04f015133ec723c491b",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "jpn"
@@ -1074,7 +1074,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka",
       "commit": "c60f2e21e16c671f69779f0f29d8261cb617aef1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "jpn"
@@ -1102,7 +1102,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo",
       "commit": "4655810d71fc74449d06e5fd9afda81924d4e966",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "jpn"
@@ -1130,7 +1130,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi",
       "commit": "9ccc1b80c708f831cb1f4c4d5151ee20b3a6663b",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ken"
@@ -1158,7 +1158,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul",
       "commit": "c398d8405b7f2494cf6e2ecba2133116985951f9",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "kor"
@@ -1186,7 +1186,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara",
       "commit": "132b24c261c11965b0090b2069738756d29c558f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "mex"
@@ -1214,7 +1214,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur",
       "commit": "ff93f1a69c9065035f5bc756470ecce5a2f64546",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "mys"
@@ -1242,7 +1242,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja",
       "commit": "fd10e2263c0f49e9e5589d27be6ea2e08fb3d8a6",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "nga"
@@ -1270,7 +1270,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam",
       "commit": "ec5438a1d1fda3e4a8e250bf0a1510f0aa029f96",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "nld"
@@ -1298,7 +1298,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo",
       "commit": "937e495fae7b28e2065ba493e9e945a514ed73d5",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "nor"
@@ -1326,7 +1326,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington",
       "commit": "aa6c5cbf23f4f5c76d673afa1659ef77250f174e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "nzl"
@@ -1354,7 +1354,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city",
       "commit": "acb76383812d2530d0fb85fa307b5685b5f97e2d",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "pan"
@@ -1382,7 +1382,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila",
       "commit": "104e75d8764cc7f43d9ef327ff83b4d9bd7a0f4e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "phl"
@@ -1410,7 +1410,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw",
       "commit": "53c4609caae98692b5c43fab1c021c2a36fdba49",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "pol"
@@ -1438,7 +1438,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon",
       "commit": "ef6bd7f06ea333391501143e945b0ce15051f21e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "prt"
@@ -1466,7 +1466,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion",
       "commit": "cfcd69bc3a39a3aaa585251cb7b6141e9909a33b",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "pry"
@@ -1494,7 +1494,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh",
       "commit": "a6fb9e7d34b80ca5ed8afcb8ab273f8e8d76a284",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "sau"
@@ -1522,7 +1522,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg",
       "commit": "a481ca380493e1f0734bb3f13b07a74a96cd7805",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "swe"
@@ -1550,7 +1550,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok",
       "commit": "adbab4d0f93b9adc4be29329a529ce4df4507fb3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "tha"
@@ -1578,7 +1578,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara",
       "commit": "447bc7bf3a83c5f22c8f4e3271bc2f32e0919ab8",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "tur"
@@ -1606,7 +1606,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo",
       "commit": "594c7433f0011641baa39041a37046d4ec8f6beb",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "ury"
@@ -1634,7 +1634,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans",
       "commit": "db542c85c462fcf3cb8ec7789115d91db5f0cbb5",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "usa"
@@ -1662,7 +1662,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc",
       "commit": "7972fd9869e3fbe08ac946a0b17cbcb42e37bf96",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "USA"
@@ -1690,7 +1690,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi",
       "commit": "00c615281021e61074cce46ec4e7e293309ef56d",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "vnm"
@@ -1718,7 +1718,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town",
       "commit": "74e65675561046df679d8f052caffa2a25931dc3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "country": "zaf"

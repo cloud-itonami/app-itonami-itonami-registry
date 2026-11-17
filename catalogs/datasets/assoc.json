@@ -10,7 +10,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0126-idn-gapki",
       "commit": "debaae759be9e805c85161445550514783166b03",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "0126",
@@ -39,7 +39,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0126-mys-mpoa",
       "commit": "d0dd491aad9729a174ec1db01aba0964915543f7",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "0126",
@@ -68,7 +68,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0150-usa-afbf",
       "commit": "495e7bd8d08074285f5d49d763b4c94333dc9267",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "0150",
@@ -97,7 +97,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0610-usa-api",
       "commit": "f78adc30c38a1320181756c7db16c56fb6ab14e0",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "0610",
@@ -126,7 +126,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2011-usa-acc",
       "commit": "a7e215ec3b14b20fb44fe7a42526f0d8b1f1da9c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "2011",
@@ -155,7 +155,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2100-usa-phrma",
       "commit": "0a8a9d0cddb62307420798e6ac5f85d9389f4ba3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "2100",
@@ -184,7 +184,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-chn-caam",
       "commit": "31e525a2a06df74d94018e7cbdcb72b81a37c4f7",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "2910",
@@ -213,7 +213,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-deu-vda",
       "commit": "d2a746779f5dba72402407c00c7ca8c26d895a3f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "2910",
@@ -242,7 +242,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-gbr-smmt",
       "commit": "04da361435e55bad138afe4a6e199893265f5f5a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "2910",
@@ -271,7 +271,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-3510-usa-eei",
       "commit": "254800f433541a60c0b83e153e811a4ca4a0dff9",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "3510",
@@ -300,7 +300,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-3600-usa-awwa",
       "commit": "3e354c2df6a88d2b6fcae87194a28624a52a0d64",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "3600",
@@ -329,7 +329,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4100-usa-agc",
       "commit": "df477ac43f41b18752880fb3db525df1e2699f74",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "4100",
@@ -358,7 +358,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4719-chn-ccfa",
       "commit": "3a4ae55da3805411de1f8c85ebbeb5c7ee888da0",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "4719",
@@ -387,7 +387,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4719-usa-nrf",
       "commit": "180363cbe5fffd92d49f7864518bc6c9558f97cf",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "4719",
@@ -416,7 +416,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4923-usa-ata",
       "commit": "de9a0a236760cda2b86dbcf56228e3be4f4146d1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "4923",
@@ -445,7 +445,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5010-nor-rederiforbundet",
       "commit": "384e544b7dbc017731658154616cd6fc0297bafd",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "5010",
@@ -474,7 +474,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5110-usa-a4a",
       "commit": "e265de5a4f7273e6a766dae02199a99c395eebc5",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "5110",
@@ -503,7 +503,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5510-usa-ahla",
       "commit": "2b0baa8f52544aa748c6ff0154b846ed23355d33",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "5510",
@@ -532,7 +532,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5610-usa-nra",
       "commit": "abe74c999c43b24b981b60798ca3c62b33f1a168",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "5610",
@@ -561,7 +561,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6020-usa-nab",
       "commit": "cbe4475cefb58f960cc6afe6f8c4e61e137b0c3c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6020",
@@ -590,7 +590,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6120-usa-ctia",
       "commit": "11d9147135bd3b7cdbcd7e8e848a232e22c88b2a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6120",
@@ -619,7 +619,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6201-usa-gtia",
       "commit": "2c76918513cca771da21f73a09f6010629c0a949",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6201",
@@ -648,7 +648,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6411-jpn-boj",
       "commit": "ba153d99117af32c452d447a35416ca42eb7c693",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6411",
@@ -677,7 +677,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-are-ubf",
       "commit": "e778a93c3bc022bda4c74e5777a9f3b354d930ff",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -706,7 +706,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-aus-aba",
       "commit": "a388df95cf4be79b2466547263b4ff7a85c13712",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -735,7 +735,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-che-sba",
       "commit": "3878d8e41aaa18c4e893d030c49aab67ab7a04e7",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -764,7 +764,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-deu-bankenverband",
       "commit": "9329bc6a8378c5a29445a6f415bc392cb55b3c6c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -793,7 +793,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-esp-aeb",
       "commit": "d8fbd9171c7390a75fac4a8e72fcb1f1e5f5a30d",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -822,7 +822,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-fra-fbf",
       "commit": "48c08162318df8a78029e97b9eeb0e77c7993ad9",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -851,7 +851,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-jpn-zenginkyo",
       "commit": "64cad313c749f0c1342aff7d20b451fbe4d8dd14",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -880,7 +880,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-nga-cibn",
       "commit": "9c4fbbcc5eb0be45586c777709c3393728c8187a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -909,7 +909,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-phl-bap",
       "commit": "7596af53c28e94a3d0fbc4e99578e62c2519c266",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -938,7 +938,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-tur-tbb",
       "commit": "ad711b78781530e797d11fdb30ce58f3cf3e60db",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -967,7 +967,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-vnm-vnba",
       "commit": "ef81b937a42551d0bf0fbe77e825c1894dbc3eb7",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6419",
@@ -996,7 +996,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6492-eu-emf",
       "commit": "8111d01f27c4afb2f626cb8c1de36e8964fad2c1",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6492",
@@ -1025,7 +1025,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6511-jpn-seiho",
       "commit": "a77e9363e2076977ee199f5f260b25c9f8048ea3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6511",
@@ -1054,7 +1054,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6512-jpn-sonpo",
       "commit": "95379b55a7b745bb3a943076d875e4c6f663bc95",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6512",
@@ -1083,7 +1083,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6512-usa-naic",
       "commit": "2507fd0492fb149fbbe6109182c7d6f4b77b393a",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6512",
@@ -1112,7 +1112,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6612-jpn-jsda",
       "commit": "1f369f6d48b3734f6e7c3e4333d2f522090c5083",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6612",
@@ -1141,7 +1141,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6612-usa-finra",
       "commit": "265fab0fac5c5d125323dc76b9baefabbdffa7ba",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6612",
@@ -1170,7 +1170,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6810-jpn-recaj",
       "commit": "715bf048c0ff930d3391b67f633d636068e5d9a8",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6810",
@@ -1199,7 +1199,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6910-jpn-nichibenren",
       "commit": "091591d433b5d4dca965595a8001bbee862c7836",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6910",
@@ -1228,7 +1228,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6920-jpn-jicpa",
       "commit": "5a3863bc21e3363d1f45f9c976cd8677ac570bd9",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6920",
@@ -1257,7 +1257,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6920-usa-aicpa",
       "commit": "2996d51530e773a170df092c154029adb53925bc",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "6920",
@@ -1286,7 +1286,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-8621-usa-ama",
       "commit": "d5905fc2d34a38a3617059483556848620596bbc",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "8621",
@@ -1315,7 +1315,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-arg-uia",
       "commit": "3f227cee944bf39789ade8a3c5594d6339a83244",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1344,7 +1344,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-aut-wko",
       "commit": "313f8bcd95565ffb7f0418ea1ed389a52df97a7e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1373,7 +1373,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-bel-feb",
       "commit": "02c6e152691fd7900ad76265d954df82d3b21bb3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1402,7 +1402,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-bra-cni",
       "commit": "fd2a64754730cf0bd5ad39dc5ed53726544261cf",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1431,7 +1431,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-can-chamber",
       "commit": "e7fd46091059490731f5e009fdd5f108c0e80396",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1460,7 +1460,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-chl-sofofa",
       "commit": "d224d3b29e0ec369b1f7928a17668b78925750f4",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1489,7 +1489,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-col-andi",
       "commit": "da25a4657de53caff68d96c13d1e93d6789aab6c",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1518,7 +1518,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-cri-uccaep",
       "commit": "95bc575404803a504acfea6b832c07f9ded04b6e",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1547,7 +1547,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-cze-spcr",
       "commit": "70b140314e73bd4d4edb7901a28c49cf38c7d587",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1576,7 +1576,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-deu-bdi",
       "commit": "e204c296802065a77190d6e6b74092131c244dda",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1605,7 +1605,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-dnk-di",
       "commit": "191aa7be515a945f32052805d877fd5cba810a40",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1634,7 +1634,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ecu-cip",
       "commit": "c1dfaba75e2e08a2e8778ac055f4fe3dc77afa47",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1663,7 +1663,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-egy-fei",
       "commit": "971499222ec3ed8d0e45a3f86f34e32ab39f7162",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1692,7 +1692,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-fin-ek",
       "commit": "170ede1446c8aa994d381360c7e5b852e4846e03",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1721,7 +1721,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-fra-medef",
       "commit": "1382ca85e29b90f410ef7fd6806fe41d1bd07824",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1750,7 +1750,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-gbr-cbi",
       "commit": "3e3143af9585dccb6475415f46e3737c8914e9cc",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1779,7 +1779,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-gtm-cacif",
       "commit": "7630dc77aa3d9fd2112de7eb4283a7b5726d2109",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1808,7 +1808,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-hnd-cohep",
       "commit": "a52b81389c930083843ac166246a494af1897f98",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1837,7 +1837,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ind-cii",
       "commit": "00fe5a806898eb216ddf392d5bff62d2a6720821",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1866,7 +1866,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-irl-ibec",
       "commit": "602751ac597a4af913e44a3f7cb659491ab27e2b",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1895,7 +1895,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ita-confindustria",
       "commit": "118d47201ea734b73c1dd9056a02bd3743b6c4a8",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1924,7 +1924,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-jpn-keidanren",
       "commit": "8cb4e8a8c38e93447dbaa5d9bfa027c12444aa32",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1953,7 +1953,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ken-kam",
       "commit": "c5ef260593a9aabd39599075cafe16b79bcfc555",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -1982,7 +1982,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-kor-kcci",
       "commit": "0ae4ff8123aeb29553529a73afc0ca5b682cc825",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2011,7 +2011,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-mex-coparmex",
       "commit": "126c25aaec934efa98aeea90bf618fb70c49cfc6",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2040,7 +2040,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-nld-vnoncw",
       "commit": "667d98336ebdcb1af038d7db3aeda6070c0de910",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2069,7 +2069,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-nzl-businessnz",
       "commit": "81470a4a6abc2dc097336cdb81fd47fd348b0102",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2098,7 +2098,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pan-conep",
       "commit": "126b3b9b3d942a94f0791a4120a6ebafd2908447",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2127,7 +2127,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pol-lewiatan",
       "commit": "3e3ef395308f0b4c9d349201dcbead2cdca0dc5f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2156,7 +2156,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-prt-cip",
       "commit": "735bfd121208917e68fda9c2cacc135af018dbe3",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2185,7 +2185,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pry-uip",
       "commit": "ea57dde3f4f230d67c4fe4a89476016cb2bef675",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2214,7 +2214,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-sau-fsc",
       "commit": "a35b55c0e7858aa0441020163f08872dc5c05b64",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2243,7 +2243,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-swe-sn",
       "commit": "fbdb07135ce1d3f23dc0068e42ec0c29bdaf49e4",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2272,7 +2272,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-tha-fti",
       "commit": "b9736c3df1fdf8d357fe93f026e0c2f85bee0974",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2301,7 +2301,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ury-ciu",
       "commit": "70a6cf6db074aec4b0532cf887206958f994049f",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
@@ -2330,7 +2330,7 @@
       "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-zaf-busa",
       "commit": "9e584bf280586367fe268e53d9e09a2b3b5b42c0",
       "visibility": "public",
-      "archived": false,
+      "archived": true,
       "license": "AGPL-3.0",
       "keys": {
         "isic": "9411",
