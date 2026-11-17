@@ -1,0 +1,7 @@
+{:company/legal-name "WEC Energy Group, Inc."
+ :company/lei "549300IGLYTZUK3PVP70"
+ :company/jurisdiction "US-WI"
+ :company/website "https://www.wecenergygroup.com"
+ :company/contact-email "media@wecenergygroup.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.wecenergygroup.com/contact/contactus.htm), retrieved 2026-07-25T05:03:14.568Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.wecenergygroup.com/contact/contactus.htm"}

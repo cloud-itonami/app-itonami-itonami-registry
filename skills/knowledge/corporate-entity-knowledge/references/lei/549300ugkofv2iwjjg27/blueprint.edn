@@ -1,0 +1,7 @@
+{:company/legal-name "TC Energy Corporation"
+ :company/lei "549300UGKOFV2IWJJG27"
+ :company/jurisdiction "CA-AB"
+ :company/website "https://www.tcenergy.com"
+ :company/contact-email "investor_relations@tcenergy.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.tcenergy.com/investors/shareholders/contact-us/), retrieved 2026-07-25T05:03:17.553Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.tcenergy.com/investors/shareholders/contact-us/"}

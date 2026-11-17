@@ -1,0 +1,8 @@
+{:company/legal-name "Siemens Healthineers AG"
+ :company/lei "529900QBVWXMWANH7H45"
+ :company/jurisdiction "DE"
+ :company/website "https://www.siemens-healthineers.com"
+ :company/ticker "SHL (XETRA)"
+ :company/contact-email "ir.team@siemens-healthineers.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.siemens-healthineers.com/investor-relations/contact), retrieved 2026-07-25T05:03:07.970Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.siemens-healthineers.com/investor-relations/contact"}

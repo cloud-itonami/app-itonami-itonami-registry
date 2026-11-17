@@ -1,0 +1,7 @@
+{:company/legal-name "Verizon Communications Inc."
+ :company/lei "2S72QS2UO2OESLG6Y829"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.verizon.com"
+ :company/inquiry-form-url "https://www.verizon.com/support/"
+ :company/phone "+18338374966"
+ :company/profile-note "published on the company's own site (https://www.verizon.com/), retrieved 2026-08-04T07:40:21.401Z by scripts/lei-profile-enrich.cljs (GET only)"}

@@ -1,0 +1,8 @@
+{:company/legal-name "Phillips 66"
+ :company/lei "5493005JBO5YSIGK1814"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.phillips66.com"
+ :company/ticker "NYSE:PSX"
+ :itonami.blueprint/robotics false
+ :required-technologies [:identity :audit-ledger]
+ :company/inquiry-form-url "https://www.phillips66.com/contact/"}

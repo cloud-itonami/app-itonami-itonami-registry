@@ -1,0 +1,6 @@
+{:company/legal-name "The Southern Company"
+ :company/lei "549300FC3G3YU2FBZD92"
+ :company/jurisdiction "US-GA"
+ :company/website "https://www.southerncompany.com"
+ :company/ticker "SO (NYSE)"
+ :itonami.blueprint/maturity :implemented}

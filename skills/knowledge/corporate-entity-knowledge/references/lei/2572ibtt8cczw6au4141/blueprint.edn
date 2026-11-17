@@ -1,0 +1,7 @@
+{:company/legal-name "The Procter & Gamble Company"
+ :company/lei "2572IBTT8CCZW6AU4141"
+ :company/jurisdiction "US-OH"
+ :company/website "https://us.pg.com"
+ :company/inquiry-form-url "https://us.pg.com/contact-us/"
+ :company/phone "+1 513-983-1100"
+ :company/profile-note "published on the company's own site (https://us.pg.com/), retrieved 2026-08-04T07:40:19.825Z by scripts/lei-profile-enrich.cljs (GET only)"}

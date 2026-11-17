@@ -1,0 +1,11 @@
+{:company/lei "FCNMH6O7VWU7LHXMK351"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.coterra.com/contact-us/), retrieved 2026-07-25T05:03:25.088Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/jurisdiction "US-DE"
+ :company/ticker "NYSE:CTRA"
+ :itonami.blueprint/maturity :implemented
+ :company/contact-email "ir@coterra.com"
+ :itonami.blueprint/robotics false
+ :company/legal-name "Coterra Energy Inc."
+ :company/website "https://www.coterra.com"
+ :required-technologies [:identity :audit-ledger]
+ :company/inquiry-form-url "https://www.coterra.com/contact-us/"}

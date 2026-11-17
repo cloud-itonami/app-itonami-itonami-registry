@@ -1,0 +1,6 @@
+{:company/legal-name "Pearson plc"
+ :company/lei "2138004JBXWWJKIURC57"
+ :company/jurisdiction "GB"
+ :company/website "https://www.pearson.com"
+ :company/ticker "PSON (LSE) / PSO (NYSE)"
+ :itonami.blueprint/maturity :implemented}

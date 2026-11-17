@@ -1,0 +1,7 @@
+{:company/legal-name "Cumulus Media New Holdings Inc."
+ :company/lei "5493001D9VBAVY1OKJ46"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.cumulusmedia.com"
+ :company/contact-email "ir@cumulus.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.cumulusmedia.com/about-us/contact-us/), retrieved 2026-07-25T05:03:09.186Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.cumulusmedia.com/about-us/contact-us/"}

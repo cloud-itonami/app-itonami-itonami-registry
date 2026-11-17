@@ -1,0 +1,7 @@
+{:company/legal-name "Chubb Limited"
+ :company/lei "E0JAN6VLUDI1HITHT809"
+ :company/jurisdiction "CH"
+ :company/website "https://www.chubb.com"
+ :company/ticker "CB (NYSE)"
+ :itonami.blueprint/maturity :implemented
+ :company/inquiry-form-url "https://www.chubb.com/jp-jp/contact-us/offices.html"}

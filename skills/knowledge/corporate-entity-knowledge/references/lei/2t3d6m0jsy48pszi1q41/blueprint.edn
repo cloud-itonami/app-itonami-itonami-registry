@@ -1,0 +1,9 @@
+{:company/lei "2T3D6M0JSY48PSZI1Q41"
+ :company/profile-note "published on the company's own site (https://www.oneok.com/), retrieved 2026-08-04T07:40:21.637Z by scripts/lei-profile-enrich.cljs (GET only)"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.oneok.com/customers/rpco/contact-us), retrieved 2026-07-25T05:03:01.574Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/phone "+1-877-208-7318"
+ :company/jurisdiction "US-OK"
+ :company/contact-email "media@oneok.com"
+ :company/legal-name "ONEOK, Inc."
+ :company/website "https://www.oneok.com"
+ :company/inquiry-form-url "https://www.oneok.com/customers/rpco/contact-us"}

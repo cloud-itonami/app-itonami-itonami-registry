@@ -1,0 +1,8 @@
+{:company/legal-name "Teladoc Health, Inc."
+ :company/lei "549300I2PVFBC9MFAC61"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.teladochealth.com"
+ :company/ticker "TDOC (NYSE)"
+ :company/contact-email "help@teladochealth.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.teladochealth.com/contact#individuals), retrieved 2026-07-25T05:03:14.400Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.teladochealth.com/contact#individuals"}

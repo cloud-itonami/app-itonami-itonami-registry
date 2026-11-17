@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T10:58:45.562122Z",
-  "count": 2020,
+  "generated": "2026-11-17T12:52:29.837782Z",
+  "count": 2021,
   "entries": [
     {
       "id": "abaki",
@@ -37445,6 +37445,22 @@
       "category": "devops",
       "path": "skills/devops/awai-state-store-policy",
       "checksum": "sha256:3214704fc7b81815cce88a73e9626b39eae2d53229deb6a5530269fdccbfc6bc"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-lei-06btx5uwzd0gq5n5y745/tree/2f9e5f343ee0cadd7c08a729cacc1d907e020915",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "corporate-entity-knowledge",
+      "type": "skill",
+      "name": "corporate-entity-knowledge",
+      "description": "Look up what the Itonami archive knows about a company by its LEI or name, covering verified public-registry facts, the company profile and the text of its published Terms of Use. Use when a user asks about one of these companies or their terms.",
+      "category": "knowledge",
+      "path": "skills/knowledge/corporate-entity-knowledge",
+      "checksum": "sha256:31caf9f6dee19e590e25e3f52fc13a8e94e2dcaf61e70e5e67dc80fb85a0bae7"
     },
     {
       "version": "0.1.0",

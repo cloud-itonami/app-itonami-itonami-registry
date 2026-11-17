@@ -1,0 +1,6 @@
+{:company/legal-name "Nord Anglia Education, Inc."
+ :company/lei "549300KPBTIINY0VBM50"
+ :company/jurisdiction "KY"
+ :company/website "https://www.nordangliaeducation.com"
+ :company/contact-email "enquiries@nordanglia.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.nordangliaeducation.com/), retrieved 2026-07-25T05:03:15.809Z by scripts/lei-contact-discover.cljs (GET only)"}

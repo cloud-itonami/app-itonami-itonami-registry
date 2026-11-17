@@ -1,0 +1,8 @@
+{:company/legal-name "Enbridge Inc."
+ :company/lei "98TPTUM4IVMFCZBCUR27"
+ :company/jurisdiction "CA"
+ :company/website "https://www.enbridge.com"
+ :company/ticker "ENB (NYSE/TSX)"
+ :company/contact-email "careers@enbridge.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.enbridge.com/contact), retrieved 2026-07-25T05:03:23.079Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.enbridge.com/contact"}

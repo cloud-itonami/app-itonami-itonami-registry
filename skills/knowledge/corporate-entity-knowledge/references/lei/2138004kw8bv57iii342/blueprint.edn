@@ -1,0 +1,6 @@
+{:company/legal-name "Publicis Groupe SA"
+ :company/lei "2138004KW8BV57III342"
+ :company/jurisdiction "FR"
+ :company/website "https://www.publicisgroupe.com"
+ :company/ticker "PUB (Euronext Paris)"
+ :itonami.blueprint/maturity :implemented}

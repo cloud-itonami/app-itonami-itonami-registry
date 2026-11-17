@@ -1,0 +1,7 @@
+{:company/legal-name "HDFC BANK LIMITED"
+ :company/lei "335800ZQ6I4E2JXENC50"
+ :company/jurisdiction "IN"
+ :company/website "https://www.hdfc.bank.in/"
+ :company/inquiry-form-url "https://www.hdfc.bank.in/msme-banking/smarthub-vyapar-merchant-app/contactless-tap-and-pay-for-merchants"
+ :company/phone "18001600"
+ :company/profile-note "published on the company's own site (https://www.hdfc.bank.in/), retrieved 2026-08-04T07:40:26.077Z by scripts/lei-profile-enrich.cljs (GET only)"}

@@ -1,0 +1,8 @@
+{:company/legal-name "Clean Harbors, Inc."
+ :company/lei "5493000SJVZVZJKHJF48"
+ :company/jurisdiction "US-MA"
+ :company/website "https://www.cleanharbors.com"
+ :company/ticker "CLH (NYSE)"
+ :itonami.blueprint/maturity :implemented
+ :company/phone "18006458265"
+ :company/profile-note "published on the company's own site (https://www.cleanharbors.com/), retrieved 2026-08-04T07:40:56.405Z by scripts/lei-profile-enrich.cljs (GET only)"}

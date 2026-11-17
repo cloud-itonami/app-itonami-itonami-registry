@@ -1,0 +1,8 @@
+{:company/legal-name "WPP plc"
+ :company/lei "549300LSGBXPYHXGDT93"
+ :company/jurisdiction "JE"
+ :company/website "https://www.wpp.com"
+ :company/ticker "WPP (LSE)"
+ :company/contact-email "enquiries@wpp.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.wpp.com/en/contacts), retrieved 2026-07-25T05:03:16.280Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.wpp.com/en/contacts"}

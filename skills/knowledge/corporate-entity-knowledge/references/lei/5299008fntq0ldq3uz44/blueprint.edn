@@ -1,0 +1,5 @@
+{:company/legal-name "G8 Education Limited"
+ :company/lei "5299008FNTQ0LDQ3UZ44"
+ :company/jurisdiction "AU"
+ :company/website "https://www.g8education.edu.au"
+ :itonami.blueprint/maturity :implemented}
