@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Mayor of Seoul) — no personal names.
+{:name-en "Seoul Metropolitan Government"
+ :name-local "서울특별시"
+ :official-url "https://english.seoul.go.kr/"
+ :wikidata "Q8684"
+ :ordinance-database-url "https://legal.seoul.go.kr/"
+ :head-role-note "institutional office title only (Mayor of Seoul); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Seoul" :country "kor" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q8684" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- both entries cite legal.seoul.go.kr's own official English-translation portal, which rendered cleanly"}

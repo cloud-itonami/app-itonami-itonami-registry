@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Helsinki"
+ :name-local "Helsingin kaupunki"
+ :official-url "https://www.hel.fi/en"
+ :wikidata "Q1757"
+ :ordinance-database-url "https://www.hel.fi/en/decision-making"
+ :head-role-note "institutional office title only (Mayor / Pormestari); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Helsinki" :country "fin" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1757" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-15 -- both entries cite hel.fi's own English-language HTML pages, which rendered cleanly with explicit dates (unlike the KFS PDF hit for Stockholm the same tick, which was too font-subsetting-garbled even for its title to be legible and was abandoned)"}

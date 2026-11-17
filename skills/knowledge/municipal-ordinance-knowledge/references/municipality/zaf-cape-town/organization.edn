@@ -1,0 +1,16 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+;; NOTE: South Africa has three capitals -- Pretoria (administrative,
+;; already recorded as the country-level :hq in cloud-itonami-iso3166-zaf),
+;; Cape Town (legislative -- seat of Parliament), and Bloemfontein
+;; (judicial). Cape Town is included here as a municipality-level
+;; entry on the strength of its own City government, not because it
+;; supersedes Pretoria as the primary capital record.
+{:name-en "City of Cape Town"
+ :name-local "City of Cape Town / Stad Kaapstad"
+ :official-url "https://www.capetown.gov.za/"
+ :wikidata "Q5465"
+ :ordinance-database-url "https://www.capetown.gov.za/bylaws/"
+ :head-role-note "institutional office title only (Executive Mayor, and City Council); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Cape Town" :country "zaf" :kind "legislative capital (one of South Africa's three capitals; Pretoria is the administrative capital already recorded at country level)" :provenance "https://www.wikidata.org/wiki/Q5465" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite the City of Cape Town's own capetown.gov.za pages, which rendered cleanly with explicit dates"}

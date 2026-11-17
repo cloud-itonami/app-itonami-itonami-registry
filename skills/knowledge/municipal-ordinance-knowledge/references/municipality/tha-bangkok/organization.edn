@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Bangkok Metropolitan Administration"
+ :abbreviation "BMA"
+ :official-url "https://official.bangkok.go.th/"
+ :wikidata "Q1861"
+ :head-role-note "institutional office title only (Governor of Bangkok, and Bangkok Metropolitan Council); personal names of current office-holders are intentionally NOT stored. One historical source page (bmc.go.th's own History page) incidentally named the reigning monarch and Prime Minister at the time of the 1985 Act's promulgation -- read only to confirm the date, never persisted here"
+ :hq {:line-en "Bangkok" :country "tha" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1861" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- official.bangkok.go.th's own About page returned HTTP 403; the founding Act's text was instead confirmed via en.wikisource.org (a verbatim Wikimedia translation of the Royal Gazette text), and the Bangkok Metropolitan Council's own founding declaration was confirmed via bmc.go.th (a different, working official domain)"
+}

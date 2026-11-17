@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "bangkok.administrative-organisation-act-2528"
+             :title "Administrative Organisation of Bangkok Metropolitan Administration Act, 2528 BE"
+             :municipality "bangkok"
+             :country "THA"
+             :kind :local-act
+             :number "2528 BE"
+             :url "https://en.wikisource.org/wiki/Bangkok_Metropolitan_Administration_Act,_BE_2528_(1985)"
+             :url-provenance :official-wikisource-mirror
+             :enacted-date "1985-08-20"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "bangkok.metropolitan-council-founding-1972"
+             :title "Bangkok Metropolitan Council founding (Declaration No. 335 of the Revolution Committee)"
+             :municipality "bangkok"
+             :country "THA"
+             :kind :local-act
+             :number "Declaration No. 335"
+             :url "https://bmc.go.th/en/history/"
+             :url-provenance :official-bmc-go-th
+             :enacted-date "1972-12-13"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Guatemala City (Ciudad de Guatemala / Nueva Guatemala de la Asunción)"
+ :official-url "https://muniguate.com/"
+ :wikidata "Q1555"
+ :head-role-note "institutional office title only (Mayor of Guatemala City / Alcalde); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Guatemala City" :country "gtm" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1555" :last-verified "2026-07-18" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-18 -- Guatemala City is Guatemala's stable capital, with no ongoing ambiguity about its CURRENT status (Wikidata Q1555), though its history involves a capital relocation (the earlier colonial capital, Antigua Guatemala, was destroyed by earthquakes in 1773). This catalog's entries directly cite the official Guatemalan government gazette (Diario de Centro América, read via the PDF saved-path fallback, for the current national municipal law, Código Municipal / Decreto 12-2002) and Wikipedia (for the 1776 relocation of the seat of government to the current site of Guatemala City)."}

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Cairo Governorate"
+ :official-url "https://www.cairo.gov.eg/en/"
+ :wikidata "Q85"
+ :head-role-note "institutional office title only (Governor of Cairo); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Cairo" :country "egy" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q85" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- Egypt's 'New Capital' (formerly New Administrative Capital, inaugurated as the seat of government in April 2024, with the Cabinet, House of Representatives, and Central Bank already relocated there) is undergoing an active, unresolved transition; as of this tick a February 2026 draft law proposing 'special status' for the New Capital (and a possible rename to 'Memphis') remains pending, and Wikidata's own P36 (capital) property for Egypt (Q79) still lists Cairo -- this catalog follows that current Wikidata designation and documents the ongoing ambiguity transparently rather than guessing which way it will resolve"}

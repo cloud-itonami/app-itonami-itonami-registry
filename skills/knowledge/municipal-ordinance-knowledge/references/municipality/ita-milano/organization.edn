@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Milan"
+ :name-local "Comune di Milano"
+ :official-url "https://www.comune.milano.it/"
+ :wikidata "Q490"
+ :ordinance-database-url "https://www2.comune.milano.it/comune/statuto-regolamenti-patrocini/regolamenti"
+ :head-role-note "institutional office title only (Sindaco di Milano, and Consiglio Comunale); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Milan" :country "ita" :kind "regional capital of Lombardy (not national capital; Rome is)" :provenance "https://www.wikidata.org/wiki/Q490" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17"}

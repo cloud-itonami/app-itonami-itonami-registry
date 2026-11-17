@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Bogotá, D.C. (Capital District)"
+ :name-local "Bogotá, Distrito Capital"
+ :official-url "https://bogota.gov.co/"
+ :wikidata "Q2841"
+ :ordinance-database-url "https://secretariageneral.gov.co/transparencia-y-acceso-la-informacion-publica/normativa-aplicable/acuerdos"
+ :head-role-note "institutional office title only (Alcalde/Alcaldesa Mayor, and Concejo Distrital); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Bogotá" :country "col" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2841" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- alcaldiabogota.gov.co (the usual first-choice normative portal, also used unsuccessfully at country level in an earlier tick) was unreachable (connect ECONNREFUSED); cdmx.gob.mx (Mexico City, attempted first this tick) was unreachable across three subdomains on the same IP before pivoting to Bogotá. Both entries here instead cite secretariageneral.gov.co's own 'acuerdos' listing page, which rendered cleanly with explicit issued/published dates"}

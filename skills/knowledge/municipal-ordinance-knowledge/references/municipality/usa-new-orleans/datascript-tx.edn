@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "new-orleans", :retrieved-at "2026-07-17", :country "USA", :url "https://czo.nola.gov/", :number "Ordinance No. 4,264 M.C.S., as amended (per City Planning Commission public hearing notices)", :url-provenance :official-czo-nola-gov, :topic #{:zoning :urban-planning}, :title "Comprehensive Zoning Ordinance of the City of New Orleans", :id "new-orleans.comprehensive-zoning-ordinance"}
+#:ordinance{:kind :ordinance, :municipality "new-orleans", :retrieved-at "2026-07-17", :country "USA", :url "https://czo.nola.gov/print.aspx?printpath=%2FArticle-19%2F19-4%2F19-4-A%2F19-4-A-20&classname=nola.ordinance", :last-revised-date "2025-04-21", :number "Ord. 29,701 M.C.S. (2023-11-07); extended by Ord. 30,130 M.C.S. (2024-11-07) and Ord. 30,292 M.C.S. (2025-04-21); district expired 2025-11-05", :enacted-date "2023-11-07", :url-provenance :official-czo-nola-gov, :topic #{:housing :tourism :zoning}, :title "Commercial Short-Term Rental Interim Zoning District (Comprehensive Zoning Ordinance, Article 19)", :id "new-orleans.commercial-str-interim-zoning-district-2023"}
+]

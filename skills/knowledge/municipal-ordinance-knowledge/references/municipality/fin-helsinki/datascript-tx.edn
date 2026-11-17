@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires files.
+
+[#:ordinance{:id "helsinki.environmental-protection-regulations"
+             :title "Environmental Protection Regulations of the City of Helsinki"
+             :municipality "helsinki"
+             :country "FIN"
+             :kind :ordinance
+             :url "https://www.hel.fi/en/urban-environment-and-traffic/protection-of-the-environment-and-nature/prevention-of-environmental-hazards/environmental-protection-regulations"
+             :url-provenance :official-hel-fi
+             :enacted-date "2018-07-15"
+             :last-revised-date "2026-05-15"
+             :retrieved-at "2026-07-15"
+             :topic [:environment]}
+ #:ordinance{:id "helsinki.administrative-regulations-rules-of-operation"
+             :title "Administrative Regulations and Rules of Operation of the City of Helsinki"
+             :municipality "helsinki"
+             :country "FIN"
+             :kind :ordinance
+             :url "https://www.hel.fi/en/decision-making/city-organization/the-administrative-regulations-and-rules-of-operation"
+             :url-provenance :official-hel-fi
+             :enacted-date "2017-06-01"
+             :retrieved-at "2026-07-15"
+             :topic [:governance]}]

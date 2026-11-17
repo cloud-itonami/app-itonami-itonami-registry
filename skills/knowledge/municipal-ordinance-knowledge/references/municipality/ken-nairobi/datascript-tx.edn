@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "nairobi.solid-waste-management-act-2015"
+             :title "Nairobi City County Solid Waste Management Act, 2015"
+             :municipality "nairobi"
+             :country "KEN"
+             :kind :ordinance
+             :number "No. 5 of 2015"
+             :url "https://www.ecolex.org/details/legislation/nairobi-city-county-solid-waste-management-act-no-5-of-2015-lex-faoc162337/"
+             :url-provenance :official-ecolex-mirror
+             :enacted-date "2015-10-22"
+             :retrieved-at "2026-07-16"
+             :topic [:waste-management :environment]}
+ #:ordinance{:id "nairobi.finance-act-2023"
+             :title "The Nairobi City County Finance Act, 2023"
+             :municipality "nairobi"
+             :country "KEN"
+             :kind :ordinance
+             :number "No. 4 of 2023"
+             :url "https://nairobiassembly.go.ke/ncca/wp-content/uploads/act/2023/The-Nairobi-City-County-Finance-Act-2023.pdf"
+             :url-provenance :official-nairobiassembly-go-ke
+             :enacted-date "2023-10-13"
+             :retrieved-at "2026-07-16"
+             :topic [:taxation]}]

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Manila (Lungsod ng Maynila)"
+ :official-url "https://manila.gov.ph/"
+ :wikidata "Q1461"
+ :head-role-note "institutional office title only (Mayor, and Sangguniang Panlungsod / City Council); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Manila" :country "phl" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1461" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- Manila's capital status was regained via presidential order in 1976 after Quezon City briefly served as capital (1948-1976); the pre-existing organization.edn's Manila designation correctly matches this current, post-1976 status. Both catalog entries directly confirmed: the founding charter's date corroborated via the Official Gazette's own permalink URL structure (officialgazette.gov.ph/1949/06/18/republic-act-no-409/, itself returning HTTP 403 but its date-embedded URL pattern reflecting genuine publication date, cross-checked against lawphil.net for title/number), and a specific 2025 City Council ordinance confirmed via citycouncilofmanila.com.ph's own HTML listing page"}

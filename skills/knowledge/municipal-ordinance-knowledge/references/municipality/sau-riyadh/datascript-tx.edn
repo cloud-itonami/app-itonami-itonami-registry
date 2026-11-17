@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "riyadh.royal-decree-m5-1397-law-of-municipalities-and-villages"
+             :title "Law of Municipalities and Villages"
+             :municipality "riyadh"
+             :country "SAU"
+             :kind :local-act
+             :number "Royal Decree No. M/5/1397"
+             :url "https://www.lexismiddleeast.com/law/SaudiArabia/RoyalDecree_M5_1397/en"
+             :url-provenance :lexismiddleeast-legal-database
+             :enacted-date "1977-02-10"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "riyadh.cabinet-decision-717-1974-development-authority"
+             :title "Establishment of the Supreme Authority of Riyadh Development (now Royal Commission for Riyadh City)"
+             :municipality "riyadh"
+             :country "SAU"
+             :kind :local-act
+             :number "Cabinet Decision No. 717"
+             :url "https://www.rcrc.gov.sa/en/establishment_and_evolution/"
+             :url-provenance :official-rcrc-gov-sa
+             :enacted-date "1974-06-20"
+             :retrieved-at "2026-07-17"
+             :topic [:urban-planning]}]

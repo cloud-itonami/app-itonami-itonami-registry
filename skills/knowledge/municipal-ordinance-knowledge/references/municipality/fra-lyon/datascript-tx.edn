@@ -1,0 +1,32 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo / -zaf-cape-town / -ecu-quito / -swe-gothenburg /
+;; -pry-asuncion / -mex-guadalajara files.
+
+[#:ordinance{:id "lyon.deliberation-2021-1164-logements-sociaux"
+             :title "Approbation de la politique d'attribution des logements sociaux (Délibération 2021/1164)"
+             :municipality "lyon"
+             :country "FRA"
+             :kind :ordinance
+             :number "Délibération N.º 2021/1164"
+             :url "https://lyon.fr/blob?op=202109%2Fdelib%2F20211164.pdf"
+             :url-provenance :official-lyon-fr
+             :enacted-date "2021-09-30"
+             :retrieved-at "2026-07-16"
+             :topic [:housing]}
+ #:ordinance{:id "lyon.deliberation-2021-725-teletravail"
+             :title "Mise en oeuvre du dispositif pérenne de télétravail à la Ville de Lyon (Délibération 2021/725)"
+             :municipality "lyon"
+             :country "FRA"
+             :kind :ordinance
+             :number "Délibération N.º 2021/725"
+             :url "https://www.lyon.fr/blob?op=202105%2Fdelib%2F20210725.pdf"
+             :url-provenance :official-lyon-fr
+             :enacted-date "2021-05-27"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

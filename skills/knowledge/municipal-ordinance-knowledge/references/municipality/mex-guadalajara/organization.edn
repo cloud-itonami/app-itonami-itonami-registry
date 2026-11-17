@@ -1,0 +1,15 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names. One
+;; source PDF read for this repo (Reglamento del Ayuntamiento's own
+;; promulgation header) happened to name the sitting Presidente
+;; Municipal at the time of its 2010 approval -- that name was read
+;; only to locate the approval date and was NEVER stored in this
+;; catalog.
+{:name-en "City of Guadalajara"
+ :name-local "Municipio de Guadalajara"
+ :official-url "https://www.guadalajara.gob.mx/"
+ :wikidata "Q9022"
+ :ordinance-database-url "https://transparencia.guadalajara.gob.mx/Losreglamentosfederalesestatalesymunicipales"
+ :head-role-note "institutional office title only (Presidente/Presidenta Municipal, and Ayuntamiento); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Guadalajara" :country "mex" :kind "second-largest city (not national capital; Mexico City is)" :provenance "https://www.wikidata.org/wiki/Q9022" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read of saved PDFs) 2026-07-16 -- Mexico City (cdmx.gob.mx) was abandoned in an earlier tick after its entire hosting cluster proved unreachable; Guadalajara's official PDFs rendered cleanly instead"}

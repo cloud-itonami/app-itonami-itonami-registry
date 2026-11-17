@@ -1,0 +1,11 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Council of the District of Columbia"
+ :name-local "Washington, D.C."
+ :official-url "https://dccouncil.gov/"
+ :code-library-url "https://code.dccouncil.gov/"
+ :wikidata "Q61"
+ :country "USA"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Washington, D.C." :country "usa" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q61" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15"}

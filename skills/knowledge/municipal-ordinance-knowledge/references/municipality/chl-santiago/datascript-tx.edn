@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels files.
+
+[#:ordinance{:id "santiago.reglamento-971-transparencia-activa"
+             :title "Reglamento N°971-2025 (Normas de Transparencia Activa y Acceso a la Información Pública)"
+             :municipality "santiago"
+             :country "CHL"
+             :kind :ordinance
+             :number "Reglamento N°971-2025"
+             :url "https://documentos.munistgo.cl/category/decretos-y-ordenanzas/"
+             :url-provenance :official-munistgo-cl
+             :enacted-date "2025-12-19"
+             :retrieved-at "2026-07-16"
+             :topic [:transparency :information-disclosure]}
+ #:ordinance{:id "santiago.ordenanza-130-tendidos-en-desuso"
+             :title "Ordenanza N°130 (Ordenamiento y Retiro de Tendidos Aéreos y Subterráneos en Desuso)"
+             :municipality "santiago"
+             :country "CHL"
+             :kind :ordinance
+             :number "Ordenanza N°130 de 2026"
+             :url "https://documentos.munistgo.cl/category/decretos-y-ordenanzas/"
+             :url-provenance :official-munistgo-cl
+             :enacted-date "2026-05-13"
+             :retrieved-at "2026-07-16"
+             :topic [:infrastructure :public-order]}]

@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Oslo"
+ :name-local "Oslo kommune"
+ :official-url "https://www.oslo.kommune.no/"
+ :wikidata "Q585"
+ :ordinance-database-url "https://www.oslo.kommune.no/politikk/"
+ :head-role-note "institutional office title only (Byrådsleder / Governing Mayor, and Ordfører / Lord Mayor as bystyret chair under Oslo's parliamentary byråd model); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Oslo" :country "nor" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q585" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-15 -- both entries cite oslo.kommune.no's own HTML pages, which rendered cleanly with explicit dates"}

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Kuala Lumpur City Hall (Dewan Bandaraya Kuala Lumpur, DBKL)"
+ :official-url "https://www.dbkl.gov.my/en"
+ :wikidata "Q1865"
+ :head-role-note "institutional office title only (Mayor of Kuala Lumpur / Yang di-Pertua Bandaraya); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Kuala Lumpur" :country "mys" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1865" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Malaysia operates a stable, SETTLED dual-capital arrangement (unlike Egypt/Indonesia's ongoing transitions): Kuala Lumpur remains the constitutional/national/royal capital (seat of the Yang di-Pertuan Agong and Parliament) per Article 154 of the Federal Constitution, while Putrajaya has been the separate administrative/judicial capital since 1999/2003 -- this arrangement has been stable for over two decades, not an unresolved transition, and Wikidata's P36 for Malaysia correctly lists Kuala Lumpur. Both catalog entries directly confirmed by reading official 'Laws of Malaysia' government reprints (published by the Commissioner of Law Revision, Malaysia) hosted at simplymalaysia.wordpress.com via the Read-tool saved-path fallback."}

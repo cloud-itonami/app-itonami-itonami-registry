@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "abu-dhabi.law-2-2012-public-appearance"
+             :title "Law No. (2) of 2012 concerning the Preservation of Public Appearance, Health, and Tranquility in the Emirate of Abu Dhabi"
+             :municipality "abu-dhabi"
+             :country "ARE"
+             :kind :local-act
+             :number "Law No. (2) of 2012"
+             :url "https://www.dmt.gov.ae/aam/-/media/Project/DMT/AAM/E-Library/2024/Fine-document_Combined-v2.pdf"
+             :url-provenance :official-dmt-gov-ae
+             :enacted-date "2012"
+             :retrieved-at "2026-07-16"
+             :topic [:public-order]}
+ #:ordinance{:id "abu-dhabi.law-30-2019-dmt-establishment"
+             :title "Law No. (30) of 2019 Concerning the Establishment of the Department of Municipalities and Transport"
+             :municipality "abu-dhabi"
+             :country "ARE"
+             :kind :local-act
+             :number "Law No. (30) of 2019"
+             :url "https://www.abudhabi.gov.ae/-/media/sites/adgov/gazettes/2019/en/11english2019.ashx"
+             :url-provenance :official-abudhabi-gov-ae
+             :enacted-date "2019-11-30"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Dublin City Council"
+ :official-url "https://www.dublincity.ie/"
+ :wikidata "Q1761"
+ :head-role-note "institutional office title only (Lord Mayor of Dublin); personal names of current/historical office-holders (e.g. the first Lord Mayor of the modern council, elected 1841) were incidentally encountered but never persisted here"
+ :hq {:line-en "Dublin" :country "irl" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1761" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Dublin is Ireland's stable capital, with no ongoing ambiguity. Ireland's official government domains (irishstatutebook.ie, dublincity.ie, gov.ie) all returned HTTP 403 on every URL tried, so this catalog's entries instead cite en.wikipedia.org, directly WebFetched and read (not merely WebSearch-cited)."}

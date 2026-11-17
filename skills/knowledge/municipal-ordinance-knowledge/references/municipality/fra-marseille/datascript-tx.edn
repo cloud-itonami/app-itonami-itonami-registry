@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "marseille", :retrieved-at "2026-07-17", :country "FRA", :url "https://mes-demarches.marseille.fr/media/uploads/2025/05/20/arrete-municipal-n2025_01676_vdm-grue-a-tour.pdf", :number "Arrêté N° 2025_01676_VDM, signé le 15/05/2025 (reçu en préfecture le 15/05/2025)", :enacted-date "2025-05-15", :url-provenance :official-marseille-fr, :topic #{:construction-safety :public-safety}, :title "Arrêté cadre portant réglementation de l'utilisation des grues à tour sur le territoire de la Ville de Marseille", :id "marseille.arrete-cadre-grues-a-tour-2025"}
+#:ordinance{:kind :ordinance, :municipality "marseille", :retrieved-at "2026-07-17", :country "FRA", :url "https://mes-demarches.marseille.fr/media/uploads/2025/01/03/aires-pietonnes-arrete_bornes_automatiques_p1902123.pdf", :number "Arrêté N° P1902123, fait à Marseille le 26/11/2019, entrée en vigueur le 01/12/2019", :enacted-date "2019-11-26", :url-provenance :official-marseille-fr, :topic #{:traffic :public-space}, :title "Arrêté réglementant les conditions de circulation et de stationnement dans les aires piétonnes à accès par bornes automatiques de la commune de Marseille", :id "marseille.arrete-aires-pietonnes-bornes-automatiques-2019"}
+]

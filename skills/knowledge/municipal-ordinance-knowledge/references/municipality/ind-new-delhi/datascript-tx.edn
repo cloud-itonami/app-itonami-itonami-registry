@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "new-delhi.ndmc-act-1994"
+             :title "The New Delhi Municipal Council Act, 1994"
+             :municipality "new-delhi"
+             :country "IND"
+             :kind :local-act
+             :number "Act No. 44 of 1994"
+             :url "https://www.ndmc.gov.in/ndmc/act.aspx"
+             :url-provenance :official-ndmc-gov-in
+             :enacted-date "1994-07-14"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "new-delhi.ndmc-plumbers-byelaws-2006"
+             :title "The New Delhi Municipal Council (Licensing and Control of Plumbers) Bye-laws, 2006"
+             :municipality "new-delhi"
+             :country "IND"
+             :kind :ordinance
+             :url "https://www.ndmc.gov.in/ndmc/ByLaws/Byelaws_1[1].11.2006.htm"
+             :url-provenance :official-ndmc-gov-in
+             :retrieved-at "2026-07-16"
+             :topic [:licensing :infrastructure]}]

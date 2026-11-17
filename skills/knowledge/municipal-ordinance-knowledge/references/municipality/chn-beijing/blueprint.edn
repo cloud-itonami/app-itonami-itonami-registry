@@ -1,0 +1,21 @@
+{:itonami.blueprint/id "cloud-itonami-municipality-chn-beijing"
+ :itonami.blueprint/name "Municipal Ordinance Compliance Catalog — Beijing (北京市)"
+ :itonami.blueprint/iso3166 "CHN"
+ :itonami.blueprint/municipality "beijing"
+ :itonami.blueprint/domain :public-sector/municipal-ordinance-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :municipal-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 1
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"
+ :itonami.blueprint/coverage-note
+ "The FIRST CHN member of the municipality family — before this repo the 59
+ cloud-itonami-municipality-* repos covered no Chinese city at all (gap
+ recorded in ADR-2607277000). 2 ordinance entries from beijing.gov.cn and 8
+ culture entries, all read 2026-07-27. The culture catalog deliberately has
+ no :festival and no :craft entry: both were investigated and dropped
+ because the sources fetched did not tie them to Beijing specifically, and a
+ test asserts they stay empty until a real source is added."}

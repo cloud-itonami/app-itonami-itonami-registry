@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Lisbon (Cidade de Lisboa)"
+ :official-url "https://www.lisboa.pt/"
+ :wikidata "Q597"
+ :head-role-note "institutional office title only (Mayor of Lisbon / Presidente da Câmara Municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Lisbon" :country "prt" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q597" :last-verified "2026-07-18" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- Lisbon is Portugal's stable capital, with no ongoing ambiguity (Wikidata Q597). Wave 0 cited pgdlisboa.pt (the Portuguese Public Prosecutor's Office's own official legal database) and en.wikipedia.org. Extended 2026-09-01 with nine entries from Portugal's official gazette (files.diariodarepublica.pt) and Lisbon's own published regulation PDFs (lisboa.pt); every citation is re-checked against a verbatim phrase by tools/verify_citations.cljk."}

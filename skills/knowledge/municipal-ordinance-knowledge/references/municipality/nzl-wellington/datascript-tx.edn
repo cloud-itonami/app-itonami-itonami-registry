@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "wellington.incorporation-1870-09-16"
+             :title "Wellington incorporated as a city (Municipal Corporations Act 1886 retroactively confirms this date)"
+             :municipality "wellington"
+             :country "NZL"
+             :kind :local-act
+             :number "confirmed by Municipal Corporations Act 1886"
+             :url "https://en.wikipedia.org/wiki/Wellington_City_Council"
+             :url-provenance :wikipedia-corroborated
+             :enacted-date "1870-09-16"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "wellington.1989-local-government-reforms"
+             :title "Wellington City Council established via the 1989 New Zealand local government reforms"
+             :municipality "wellington"
+             :country "NZL"
+             :kind :local-act
+             :number "1989"
+             :url "https://en.wikipedia.org/wiki/Wellington_City_Council"
+             :url-provenance :wikipedia-corroborated
+             :enacted-date "1989-11-01"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}]

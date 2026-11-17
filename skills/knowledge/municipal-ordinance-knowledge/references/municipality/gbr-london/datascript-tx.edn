@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc files.
+
+[#:ordinance{:id "london.local-authorities-act-2007"
+             :title "London Local Authorities Act 2007"
+             :municipality "london"
+             :country "GBR"
+             :kind :local-act
+             :number "2007 c. ii"
+             :url "https://www.legislation.gov.uk/ukla/2007/2/enacted"
+             :url-provenance :official-legislation-gov-uk
+             :enacted-date "2007-07-19"
+             :retrieved-at "2026-07-15"
+             :topic [:environment :licensing]}
+ #:ordinance{:id "london.local-authorities-act-2012"
+             :title "London Local Authorities Act 2012"
+             :municipality "london"
+             :country "GBR"
+             :kind :local-act
+             :number "2012 c. ii"
+             :url "https://www.legislation.gov.uk/ukla/2012/2/enacted"
+             :url-provenance :official-legislation-gov-uk
+             :enacted-date "2012-03-27"
+             :retrieved-at "2026-07-15"
+             :topic [:street-trading :licensing]}]

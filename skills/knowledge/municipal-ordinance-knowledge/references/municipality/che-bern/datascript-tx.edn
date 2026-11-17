@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "bern.go-1998-gemeindeordnung"
+             :title "Gemeindeordnung der Stadt Bern (GO)"
+             :municipality "bern"
+             :country "CHE"
+             :kind :local-act
+             :number "SSSB 101.1"
+             :url "https://oerebfiles.apps.be.ch/35101/3061/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+             :url-provenance :official-be-ch-oereb-mirror
+             :enacted-date "1998-12-03"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "bern.bo-2006-bauordnung"
+             :title "Bauordnung der Stadt Bern (BO)"
+             :municipality "bern"
+             :country "CHE"
+             :kind :local-act
+             :number "SSSB 721.1"
+             :url "https://oerebfiles.apps.be.ch/35101/3061/Bern_SSSB_721_1_Bauordnung_der_Stadt_Bern.pdf"
+             :url-provenance :official-be-ch-oereb-mirror
+             :enacted-date "2006-09-24"
+             :retrieved-at "2026-07-17"
+             :topic [:construction]}]

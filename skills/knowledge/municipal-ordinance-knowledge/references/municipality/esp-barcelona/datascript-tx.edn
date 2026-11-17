@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "barcelona", :retrieved-at "2026-07-17", :country "ESP", :url "https://w123.bcn.cat/APPS/egaseta/home.do?reqCode=downloadFile&publicacionsId=33425", :last-revised-date "2025-12-19", :number "Aprovada el 23 de desembre de 2005; ordenança de modificació aprovada definitivament pel Plenari del Consell Municipal el 19 de desembre de 2025 (Exp. núm. 471/2023 DSAJ)", :enacted-date "2005-12-23", :url-provenance :official-bcn-cat-gaseta-municipal, :topic #{:public-space :civic-behavior}, :title "Ordenança de mesures per fomentar i garantir la convivència ciutadana a l'espai públic de Barcelona", :id "barcelona.ordenanca-convivencia-espai-public-2005"}
+#:ordinance{:kind :decree, :municipality "barcelona", :retrieved-at "2026-07-17", :country "ESP", :url "https://w123.bcn.cat/APPS/egaseta/home.do?reqCode=downloadFile&publicacionsId=23543", :number "Decret d'Alcaldia de 15 de juliol de 2022 (Manual Operatiu de Terrasses aprovat per Decret d'Alcaldia de 26 de febrer de 2015; Gaseta Municipal de 20 de juliol de 2022)", :enacted-date "2022-07-15", :url-provenance :official-bcn-cat-gaseta-municipal, :topic #{:public-space :commerce}, :title "Decret d'Alcaldia pel qual s'aprova definitivament la modificació del Manual Operatiu de Terrasses", :id "barcelona.decret-manual-operatiu-terrasses-2022"}
+]

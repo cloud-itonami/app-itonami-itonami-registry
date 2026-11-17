@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki files.
+
+[#:ordinance{:id "copenhagen.regulativ-for-erhvervsaffald"
+             :title "Regulativ for Erhvervsaffald (Regulation for Commercial Waste)"
+             :municipality "copenhagen"
+             :country "DNK"
+             :kind :ordinance
+             :url "https://kk.sites.itera.dk/apps/kk_pub2/pdf/2830_263bb392c685.pdf"
+             :url-provenance :official-kk-dk
+             :enacted-date "2024-09-01"
+             :retrieved-at "2026-07-15"
+             :topic [:waste-management :environment]}
+ #:ordinance{:id "copenhagen.styrelsesvedtaegt-governance-charter"
+             :title "Styrelsesvedtægt for Københavns Kommune (Governance Charter)"
+             :municipality "copenhagen"
+             :country "DNK"
+             :kind :ordinance
+             :url "https://www.kk.dk/politik/borgerrepraesentationen/saadan-styres-koebenhavn"
+             :url-provenance :official-kk-dk
+             :enacted-date "2026-06-25"
+             :retrieved-at "2026-07-15"
+             :topic [:governance]}]

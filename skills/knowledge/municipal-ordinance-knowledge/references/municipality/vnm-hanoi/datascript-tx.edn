@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "hanoi.law-on-the-capital-39-2024-qh15"
+             :title "Law on the Capital (Luật Thủ đô)"
+             :municipality "hanoi"
+             :country "VNM"
+             :kind :local-act
+             :number "No. 39/2024/QH15"
+             :url "https://english.luatvietnam.vn/hanh-chinh/law-on-the-capital-2024-360812-d1.html"
+             :url-provenance :luatvietnam-legal-translation-mirror
+             :enacted-date "2024-06-28"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "hanoi.decision-33-2023-qd-ubnd"
+             :title "Decision 33/2023/QĐ-UBND concerning administrative procedures restructuring in culture and sports"
+             :municipality "hanoi"
+             :country "VNM"
+             :kind :ordinance
+             :number "33/2023/QĐ-UBND"
+             :url "https://english.hanoi.gov.vn/"
+             :url-provenance :official-hanoi-gov-vn
+             :enacted-date "2023-12-20"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

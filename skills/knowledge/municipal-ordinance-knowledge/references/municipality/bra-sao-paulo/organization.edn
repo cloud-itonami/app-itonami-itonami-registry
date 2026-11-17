@@ -1,0 +1,14 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+;; NOTE: São Paulo is Brazil's largest city and financial capital, but
+;; NOT the national capital (Brasília is) -- included on the same
+;; footing as other non-capital major-city entries in this family
+;; (e.g. Toronto, Sydney).
+{:name-en "City of São Paulo"
+ :name-local "Município de São Paulo"
+ :official-url "https://capital.sp.gov.br/"
+ :wikidata "Q174"
+ :ordinance-database-url "https://legislacao.prefeitura.sp.gov.br/"
+ :head-role-note "institutional office title only (Prefeito/Prefeita, and Câmara Municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "São Paulo" :country "bra" :kind "largest city (not national capital)" :provenance "https://www.wikidata.org/wiki/Q174" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite legislacao.prefeitura.sp.gov.br's own 'Catálogo de Legislação Municipal', which rendered cleanly with explicit dates"}

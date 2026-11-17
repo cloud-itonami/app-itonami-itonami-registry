@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Tegucigalpa (Distrito Central, Francisco Morazán)"
+ :official-url "https://amdc.hn/"
+ :wikidata "Q3238"
+ :head-role-note "institutional office title only (Mayor of the Central District / Alcalde del Distrito Central); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Tegucigalpa" :country "hnd" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3238" :last-verified "2026-07-18" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-18 -- Tegucigalpa is Honduras's capital (Wikidata Q3238, capital-of Honduras since 1880, corroborated independently by en.wikipedia.org's own account of the 30 October 1880 relocation of the seat of government from Comayagua under President Marco Aurelio Soto). This catalog's entries directly cite the official Ley de Municipalidades (Decreto Número 134-90, confirmed via the Honduran Tribunal Superior de Cuentas' own PDF, read via the PDF saved-path fallback) and Wikipedia/Wikidata (for the city's 29 September 1578 founding, on which both sources independently agree with no discrepancy)."}

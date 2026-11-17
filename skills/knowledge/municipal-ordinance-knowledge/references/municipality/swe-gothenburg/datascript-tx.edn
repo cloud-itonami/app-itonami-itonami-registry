@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo / -zaf-cape-town / -ecu-quito files.
+
+[#:ordinance{:id "gothenburg.lokala-ordningsforeskrifter"
+             :title "Lokala ordningsföreskrifter för Göteborgs kommun"
+             :municipality "gothenburg"
+             :country "SWE"
+             :kind :ordinance
+             :url "https://goteborg.se/wps/wcm/connect/6b3e77e8-c13a-4d62-bcc4-f7809e7a4912/Lokala+ordningsf%C3%B6reskrifter+f%C3%B6r+G%C3%B6teborgs+kommun.pdf?MOD=AJPERES"
+             :url-provenance :official-goteborg-se
+             :enacted-date "2025-01-01"
+             :retrieved-at "2026-07-16"
+             :topic [:public-order]}
+ #:ordinance{:id "gothenburg.stadsmiljopolicy"
+             :title "Göteborgs Stadsmiljöpolicy"
+             :municipality "gothenburg"
+             :country "SWE"
+             :kind :ordinance
+             :url "https://goteborg.se/wps/wcm/connect/3ffbf99d-7a74-48b3-8cf4-e88192e91e59/G%C3%B6teborgs+stadsmilj%C3%B6policy+%C3%B6vergripande.pdf?MOD=AJPERES"
+             :url-provenance :official-goteborg-se
+             :retrieved-at "2026-07-16"
+             :topic [:urban-planning]}]

@@ -1,0 +1,58 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "guatemala-city.decreto-12-2002-codigo-municipal"
+             :title "Código Municipal (Decreto Número 12-2002 del Congreso de la República de Guatemala)"
+             :municipality "guatemala-city"
+             :country "GTM"
+             :kind :local-act
+             :number "Decreto 12-2002"
+             :url "https://portal.segeplan.gob.gt/segeplan/wp-content/uploads/2024/01/04.Dto_.-12-2002_Codigo-Municipal.pdf"
+             :url-provenance :official-diario-de-centro-america
+             :enacted-date "2002-05-13"
+             :retrieved-at "2026-07-18"
+             :topic [:governance]}
+ #:ordinance{:id "guatemala-city.acuerdo-com-21-2024-solvencia-electronica"
+             :title "Acuerdo COM-21-2024 del Concejo Municipal de Guatemala (solvencia electrónica de transporte y tránsito, EMETRA)"
+             :municipality "guatemala-city"
+             :country "GTM"
+             :kind :ordinance
+             :number "Acuerdo COM-21-2024"
+             :url "https://servicios.dca.gob.gt/storage/uploads/2024/07/22/88a53f4d-8218-4379-a80b-78d747706b1c.pdf"
+             :url-provenance :official-diario-de-centro-america
+             :enacted-date "2024-07"
+             :retrieved-at "2026-09-05"
+             :topic [:governance :transport]}
+ #:ordinance{:id "guatemala-city.gazette-diario-de-centro-america"
+             :title "Diario de Centro América — official gazette of the Republic of Guatemala (official organ; publishes municipal acuerdos and national decretos)"
+             :municipality "guatemala-city"
+             :country "GTM"
+             :kind :ordinance
+             :number "gazette"
+             :url "https://dca.gob.gt/"
+             :url-provenance :wikipedia-corroborated
+             :enacted-date "1880"
+             :retrieved-at "2026-09-05"
+             :topic [:governance]}
+ #:ordinance{:id "guatemala-city.municipal-portal-vision-de-ciudad"
+             :title "Visión de Ciudad — official urban-planning / city-vision portal of the Municipalidad de Guatemala"
+             :municipality "guatemala-city"
+             :country "GTM"
+             :kind :ordinance
+             :number "portal"
+             :url "https://visiondeciudad.gt/"
+             :url-provenance :wikipedia-corroborated
+             :enacted-date "2026-09-05"
+             :retrieved-at "2026-09-05"
+             :topic [:governance :planning]}
+ #:ordinance{:id "guatemala-city.1776-relocation-current-site"
+             :title "The seat of government was moved to the current location of Guatemala City in 1776, following the 1773 earthquakes that destroyed the old colonial capital, Antigua Guatemala"
+             :municipality "guatemala-city"
+             :country "GTM"
+             :kind :local-act
+             :number "1776"
+             :url "https://en.wikipedia.org/wiki/Guatemala_City"
+             :url-provenance :wikipedia-corroborated
+             :enacted-date "1776"
+             :retrieved-at "2026-07-18"
+             :topic [:governance]}]

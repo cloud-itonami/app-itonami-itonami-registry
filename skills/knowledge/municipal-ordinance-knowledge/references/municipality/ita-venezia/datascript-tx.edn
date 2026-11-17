@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "venezia", :retrieved-at "2026-07-17", :country "ITA", :url "https://www.comune.venezia.it/sites/comune.venezia.it/files/page/files/reg_edilizio_dal_15-02-2020.pdf", :number "Approvato con DCC n. 70 del 13/12/2019; pubblicato dal 04/02/2020; esecutivo dal 15/02/2020", :enacted-date "2019-12-13", :url-provenance :official-comune-venezia-it, :topic #{:building :urban-planning}, :title "Regolamento Edilizio", :id "venezia.regolamento-edilizio-2019"}
+#:ordinance{:kind :ordinance, :municipality "venezia", :retrieved-at "2026-07-17", :country "ITA", :url "https://www.comune.venezia.it/sites/comune.venezia.it/files/page/files/Regolamento%20di%20polizia%20urbana%20CON%20MODIFICHE%20-DCC%2063%20del%202017.pdf", :last-revised-date "2016-11-29", :number "Deliberazione del Consiglio Comunale n. 454 del 02/03/1987, da ultimo modificato con Deliberazione del Consiglio Comunale n. 63 del 29/11/2016", :enacted-date "1987-03-02", :url-provenance :official-comune-venezia-it, :topic #{:public-order :public-space}, :title "Regolamento di polizia urbana", :id "venezia.regolamento-polizia-urbana-1987"}
+]

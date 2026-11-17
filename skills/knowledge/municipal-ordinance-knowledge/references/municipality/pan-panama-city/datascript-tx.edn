@@ -1,0 +1,225 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700). Same shape as sibling files.
+;;
+;; GENERATED — do not hand-edit. Regenerate with:
+;;   kbb -M -i tools/gen_tx.cljk
+;; `test/ordinance/facts_test.cljk` fails if this file drifts from the catalog.
+
+[#:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/1970/1973/LEY/Administrador%20Legispan_17458_1973_10_24_CONSEJO%20NACIONAL%20DE%20LEGISLACION_106.pdf",
+             :gazette "Gaceta Oficial 17458, publicada el 24-10-1973",
+             :number "Ley N.° 106 de 1973",
+             :enacted-date "1973-10-08",
+             :url-provenance :official-legispan-asamblea-gob-pa,
+             :url-verified-phrase "Titulo: SOBRE REGIMEN MUNICIPAL.",
+             :topic [:governance],
+             :title
+             "Ley N.° 106, de 8 de octubre de 1973, Sobre Régimen Municipal -- the framework law for Panamanian municipalities. NOT the standing text on its own: amended by Ley 52 de 1984, Ley 37 de 2009, Ley 66 de 2015, Ley 349 de 2022 and Ley 520 de 2026, all of which are separate entries in this catalog",
+             :id "panama-city.ley-106-1973-regimen-municipal"}
+ #:ordinance{:kind :local-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://es.wikipedia.org/wiki/Ciudad_de_Panam%C3%A1",
+             :number "1519",
+             :enacted-date "1519-08-15",
+             :url-provenance :wikipedia-corroborated,
+             :url-verified-phrase
+             "La ciudad fue fundada el 15 de agosto de 1519 con una población de cien habitantes",
+             :topic [:governance],
+             :title
+             "Panama City founded 15 August 1519 by Pedro Arias Dávila (population of 100), corroborated by both en.wikipedia.org and es.wikipedia.org; NOTE: Wikidata Q3306's own inception statement lists 25 August 1519 instead -- the two-independent-language-Wikipedia date is used here",
+             :id "panama-city.founding-1519-08-15"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/1970/1973/LEY/Administrador%20Legispan_17458_1973_10_24_CONSEJO%20NACIONAL%20DE%20LEGISLACION_105.pdf",
+             :gazette "Gaceta Oficial 17458, publicada el 24-10-1973",
+             :number "Ley N.° 105 de 1973",
+             :enacted-date "1973-10-08",
+             :url-provenance :official-legispan-asamblea-gob-pa,
+             :url-verified-phrase
+             "SE ORGANIZAN LAS JUNTAS COMUNALES Y SE SEÑALAN SUS FUNCIONES",
+             :topic [:governance],
+             :title
+             "Ley N.° 105, de 8 de octubre de 1973 -- develops articles 224 and 225 of the Constitution, organises the Juntas Comunales and states their functions. Companion to Ley 106: the corregimiento-level tier of the same municipal regime, published in the same Gaceta",
+             :id "panama-city.ley-105-1973-juntas-comunales"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/1980/1984/LEY/Administrador%20Legispan_20214_1984_12_29_CONSEJO%20NACIONAL%20DE%20LEGISLACION_52.pdf",
+             :gazette "Gaceta Oficial 20214, publicada el 29-12-1984",
+             :number "Ley N.° 52 de 1984",
+             :enacted-date "1984-12-12",
+             :url-provenance :official-legispan-asamblea-gob-pa,
+             :url-verified-phrase
+             "POR LA CUAL SE REFORMA LA LEY Nº 106 DE 8 DE OCTUBRE DE 1973",
+             :topic [:governance],
+             :title
+             "Ley N.° 52, de 12 de diciembre de 1984 -- reforms Ley 106 de 1973. Per the Procuraduría's record, it reformed Ley 106 so that each Distrito has a corporation named the Consejo Municipal, made up of the Representantes de Corregimientos elected within that Distrito",
+             :id "panama-city.ley-52-1984-reforma-ley-106"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=41814",
+             :gazette "Gaceta Oficial 26314, publicada el 30-06-2009",
+             :number "Ley 37 de 2009",
+             :enacted-date "2009-06-29",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA",
+             :topic [:governance],
+             :title
+             "Ley 37, de 29 de junio de 2009, Que descentraliza la Administración Pública -- develops Título VIII of the Constitution by transferring administrative, economic, political and social competences from the Executive to the municipios. Amends articles 35, 40, 65, 108 and 109 of Ley 106 de 1973",
+             :id "panama-city.ley-37-2009-descentralizacion"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://s3-legispan.asamblea.gob.pa/legispan/NORMAS/2010/2015/LEY/Administrador%20Legispan_27901-A_2015_10_30_ASAMBLEA%20NACIONAL_66.pdf",
+             :gazette
+             "Gaceta Oficial 27901-A, publicada el 30-10-2015",
+             :number "Ley 66 de 2015",
+             :enacted-date "2015-10-29",
+             :url-provenance :official-legispan-asamblea-gob-pa,
+             :url-verified-phrase
+             "QUE REFORMA LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA",
+             :topic [:governance :taxation],
+             :title
+             "Ley 66, de 29 de octubre de 2015 -- reforms Ley 37 de 2009 and, per the Procuraduría's record, modifies articles 17 and 118, adds article 77-A and repeals numeral 5 of article 21 of Ley 106 de 1973; also modifies article 770 of the Código Fiscal",
+             :id "panama-city.ley-66-2015-reforma-ley-37"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=59282",
+             :gazette
+             "Gaceta Oficial 29682-B, publicada el 14-12-2022",
+             :number "Ley 349 de 2022",
+             :enacted-date "2022-12-14",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "RESPECTO A LAS CONTRATACIONES MENORES EN LOS MUNICIPIOS",
+             :topic [:governance :procurement],
+             :title
+             "Ley 349, de 14 de diciembre de 2022 -- reforms Ley 106 de 1973 on minor procurement (contrataciones menores) in municipios, juntas comunales and consejos provinciales y comarcales. In force 1 January 2023",
+             :id "panama-city.ley-349-2022-contrataciones-menores"}
+ #:ordinance{:kind :national-act,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=67360",
+             :gazette "Gaceta Oficial 30513, publicada el 28-04-2026",
+             :number "Ley 520 de 2026",
+             :enacted-date "2026-04-27",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES, Y LA LEY 106 DE 1973",
+             :topic [:governance],
+             :title
+             "Ley 520, de 27 de abril de 2026 -- reforms Ley 105 de 1973 and Ley 106 de 1973, adding a 'Deber de Transición Ordenada' (articles 68-A to 68-E of Ley 106, articles 17-A to 17-E of Ley 105) and modifying article 31 of Ley 37 de 2009. In force 29 April 2026 -- the most recent amendment to the municipal regime, and eleven weeks older than this catalog's first version",
+             :id "panama-city.ley-520-2026-transicion-ordenada"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=18039",
+             :gazette "Gaceta Oficial 18981, publicada el 04-01-1980",
+             :number "Acuerdo N.° 35 de 1979",
+             :enacted-date "1979-12-11",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "POR EL CUAL SE ESTABLECE EL NUEVO REGIMEN IMPOSITIVO DEL MUNICIPIO",
+             :topic [:taxation],
+             :title
+             "Acuerdo Municipal N.° 35, de 11 de diciembre de 1979 -- establishes the municipality's tax regime (nuevo régimen impositivo del Municipio). The Concejo Municipal de Panamá's own revenue instrument, adopted under the taxing power Ley 106 de 1973 confers",
+             :id "panama-city.acuerdo-35-1979-regimen-impositivo"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=14453",
+             :gazette "Gaceta Oficial 16326, publicada el 25-03-1969",
+             :number "Acuerdo N.° 93 de 1968",
+             :enacted-date "1968-12-23",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "POR EL CUAL SE CREA UNA TASA DE ADMINISTRACION POR LOS DOCUMENTOS QUE EXPIDAN LAS AUTORIDADES MUNICIPALES",
+             :topic [:taxation],
+             :title
+             "Acuerdo Municipal N.° 93, de 23 de diciembre de 1968 -- creates an administration fee (tasa de administración) on documents issued by municipal authorities at a party's request",
+             :id "panama-city.acuerdo-93-1968-tasa-documentos"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=26867",
+             :gazette "Gaceta Oficial 22849, publicada el 17-08-1995",
+             :number "Acuerdo N.° 111 de 1995",
+             :enacted-date "1995-08-01",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "POR MEDIO DEL CUAL SE CREA LA GACETA MUNICIPAL Y SE REGULA SU FUNCIONAMIENTO",
+             :topic
+             [:governance :information-disclosure :transparency],
+             :title
+             "Acuerdo Municipal N.° 111, de 1 de agosto de 1995 -- creates the Gaceta Municipal and regulates its operation. The municipality's own publication vehicle: the instrument that determines where a Panama City acuerdo is published and therefore when it can be relied on",
+             :id "panama-city.acuerdo-111-1995-gaceta-municipal"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=38714",
+             :gazette "Gaceta Oficial 25987, publicada el 27-02-2008",
+             :number "Acuerdo N.° 11 de 2008",
+             :enacted-date "2008-01-29",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "REGLAMENTA TODAS LAS ACTIVIDADES DENTRO DE LOS MERCADOS PUBLICOS MUNICIPALES",
+             :topic [:licensing :public-markets],
+             :title
+             "Acuerdo Municipal N.° 11, de 29 de enero de 2008 -- the Concejo Municipal de Panamá regulates all activity within the municipal public markets and adopts other measures and procedures",
+             :id "panama-city.acuerdo-11-2008-mercados-publicos"}
+ #:ordinance{:kind :municipal-plan,
+             :municipality "panama-city",
+             :retrieved-at "2026-09-01",
+             :country "PAN",
+             :url
+             "https://infojuridica.procuraduria-admon.gob.pa/norma_screen.php?numsec=52094",
+             :gazette
+             "Gaceta Oficial 28524-A, publicada el 14-05-2018",
+             :number "Acuerdo N.° 94 de 2018",
+             :enacted-date "2018-04-04",
+             :url-provenance
+             :official-infojuridica-procuraduria-admon-gob-pa,
+             :url-verified-phrase
+             "SE APRUEBA EL PLAN PARCIAL DE ORDENAMIENTO TERRITORIAL DEL CORREGIMIENTO DE SAN FRANCISCO",
+             :topic [:urban-planning :zoning],
+             :title
+             "Acuerdo Municipal N.° 94, de 4 de abril de 2018 -- approves the Plan Parcial de Ordenamiento Territorial for the corregimiento of San Francisco, Distrito y Provincia de Panamá. Binding land-use planning for one corregimiento, not the whole distrito",
+             :id "panama-city.acuerdo-94-2018-pot-san-francisco"}]

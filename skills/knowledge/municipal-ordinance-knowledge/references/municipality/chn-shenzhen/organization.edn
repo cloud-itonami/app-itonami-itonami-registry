@@ -1,0 +1,15 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+;; This repo is NOT the municipality and never acts as it.
+{:name-en "Shenzhen Municipality"
+ :name-local "深圳市"
+ :official-url "https://www.sz.gov.cn/"
+ ;; :wikidata deliberately absent -- no Wikidata item was fetched and read.
+ :legislative-note "Shenzhen holds Special Economic Zone legislative power (first SEZ, May 1980) and enacts 经济特区法规 that take effect without provincial approval; it ALSO enacts 地方性法规 as a 较大的市, which require 广东省人民代表大会常务委员会 approval before taking effect. Both instrument types are represented in this repo's catalog."
+ :head-role-note "institutional office title only (深圳市市长 / Mayor, 深圳市人民代表大会常务委员会 / Standing Committee of the Shenzhen Municipal People's Congress, and 广东省人民代表大会常务委员会 / the provincial standing committee that approves 地方性法规); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Shenzhen" :line-local "深圳市" :country "chn"
+      :kind "sub-provincial city in Guangdong Province; China's first Special Economic Zone (May 1980)"
+      :provenance "https://www.sz.gov.cn/"
+      :last-verified "2026-07-27" :sourcing "authoritative"}
+ :source-hosts-note "Two DIFFERENT official hosts were used and the difference is recorded in :ordinance/url-provenance. cgj.sz.gov.cn is 深圳市城市管理和综合执法局, a municipal body. www.szns.gov.cn is 深圳市南山区人民政府, a DISTRICT government on its OWN domain — szns.gov.cn is not a subdomain of sz.gov.cn, and a test asserts that so the two are never conflated."
+ :sourced-from "verified directly on 2026-07-27 by fetching each cited page and reading its rendered text: the 生活垃圾分类管理条例 announcement (公告第一九九号, incl. the Guangdong approval clause) from cgj.sz.gov.cn, and the 深圳经济特区控制吸烟条例 header line (通过/修订/两次修正) from www.szns.gov.cn"}

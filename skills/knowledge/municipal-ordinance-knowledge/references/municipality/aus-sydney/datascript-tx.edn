@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma files.
+
+[#:ordinance{:id "sydney.code-of-conduct"
+             :title "Code of Conduct"
+             :municipality "sydney"
+             :country "AUS"
+             :kind :ordinance
+             :url "https://www.cityofsydney.nsw.gov.au/policies/code-of-conduct"
+             :url-provenance :official-cityofsydney-nsw-gov-au
+             :enacted-date "2024-10-10"
+             :last-revised-date "2024-10-21"
+             :retrieved-at "2026-07-15"
+             :topic [:ethics :governance]}
+ #:ordinance{:id "sydney.local-approvals-policy-temporary-structures"
+             :title "Local approvals policy for construction-related temporary structures on and above roads"
+             :municipality "sydney"
+             :country "AUS"
+             :kind :ordinance
+             :url "https://www.cityofsydney.nsw.gov.au/policies/local-approvals-policy-construction-related-temporary-structures-on-above-roads"
+             :url-provenance :official-cityofsydney-nsw-gov-au
+             :enacted-date "2022-11-21"
+             :last-revised-date "2025-11-11"
+             :retrieved-at "2026-07-15"
+             :topic [:licensing :construction]}]

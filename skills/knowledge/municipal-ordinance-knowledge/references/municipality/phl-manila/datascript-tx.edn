@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "manila.republic-act-409-revised-charter-1949"
+             :title "Revised Charter of the City of Manila (Republic Act No. 409)"
+             :municipality "manila"
+             :country "PHL"
+             :kind :local-act
+             :number "Republic Act No. 409"
+             :url "https://lawphil.net/statutes/repacts/ra1949/ra_409_1949.html"
+             :url-provenance :lawphil-net-legal-database
+             :enacted-date "1949-06-18"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "manila.ordinance-9107-2025-4ps-cash-cards"
+             :title "City Ordinance No. 9107 prohibiting misuse of 4Ps cash cards"
+             :municipality "manila"
+             :country "PHL"
+             :kind :ordinance
+             :number "No. 9107"
+             :url "https://citycouncilofmanila.com.ph/council_number/12th-city-council/"
+             :url-provenance :official-citycouncilofmanila-com-ph
+             :enacted-date "2025-04-11"
+             :retrieved-at "2026-07-16"
+             :topic [:consumer-protection]}]

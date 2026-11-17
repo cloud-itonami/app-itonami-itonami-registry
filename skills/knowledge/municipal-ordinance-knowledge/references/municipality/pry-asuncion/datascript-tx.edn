@@ -1,0 +1,30 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo / -zaf-cape-town / -ecu-quito / -swe-gothenburg files.
+
+[#:ordinance{:id "asuncion.ordenanza-43-2022-pajitas-plastico"
+             :title "Ordenanza N.º 43/22 (Prohíbe la Utilización, Entrega y Expendio de Pajitas de Plástico)"
+             :municipality "asuncion"
+             :country "PRY"
+             :kind :ordinance
+             :number "Ordenanza N.º 43/22"
+             :url "https://www.asuncion.gov.py/area-social/defensa-al-consumidor/municipalidad-controlara-el-cumplimiento-de-la-ordenanza-que-establece-la-no-utilizacion-de-pajitas-de-plastico-y-multara-a-los-que-la-incumplan"
+             :url-provenance :official-asuncion-gov-py
+             :enacted-date "2022-10-05"
+             :retrieved-at "2026-07-16"
+             :topic [:environment]}
+ #:ordinance{:id "asuncion.direccion-transparencia-anticorrupcion"
+             :title "Creación de la Dirección de Transparencia y Anticorrupción"
+             :municipality "asuncion"
+             :country "PRY"
+             :kind :ordinance
+             :url "https://www.asuncion.gov.py/intendencia/municipalidad-asuncion-cuenta-una-nueva-direccion-velara-la-transparencia-anticorrupcion"
+             :url-provenance :official-asuncion-gov-py
+             :enacted-date "2017-11-23"
+             :retrieved-at "2026-07-16"
+             :topic [:governance :transparency]}]

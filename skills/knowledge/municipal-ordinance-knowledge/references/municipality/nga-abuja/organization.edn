@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Federal Capital Territory, Abuja (Federal Capital Development Authority)"
+ :official-url "https://fcta.gov.ng/"
+ :wikidata "Q3787"
+ :head-role-note "institutional office title only (Minister of the Federal Capital Territory); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Abuja" :country "nga" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3787" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Abuja replaced Lagos as Nigeria's capital on 12 December 1991, a fully completed historical transition with no ongoing ambiguity (unlike Egypt/Indonesia checked earlier this session). amacfct.org.ng (Abuja Municipal Area Council's own portal) returned DNS failure (ENOTFOUND); a candidate second law (a 2019 Act to establish the FCT Area Councils Service Commission, HB.975) was abandoned after cross-checking found news coverage describing it as still at bill/second-reading stage rather than confirmed enacted -- this catalog's entries instead cite the 1976 Federal Capital Territory Act (directly read via lawsofnigeria.placng.org) and the AEPB Act No. 10 of 1997 (directly confirmed via fcta.gov.ng, the official FCT Administration government domain)."}

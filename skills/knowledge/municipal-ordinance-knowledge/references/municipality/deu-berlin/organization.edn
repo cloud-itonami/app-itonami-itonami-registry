@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "State of Berlin"
+ :name-local "Land Berlin"
+ :official-url "https://www.berlin.de/"
+ :wikidata "Q64"
+ :ordinance-database-url "https://gesetze.berlin.de/"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Berlin" :country "deu" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q64" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- gesetze.berlin.de itself is JS-only for individual documents (rendered only the site shell to WebFetch), so both entries cite the Berlin Data Protection and Freedom of Information Commissioner's own PDF republications (datenschutz-berlin.de) instead"}

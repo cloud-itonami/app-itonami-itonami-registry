@@ -1,0 +1,31 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo / -zaf-cape-town files.
+
+[#:ordinance{:id "quito.codigo-municipal-ordenanza-072-2024"
+             :title "Código Municipal para el Distrito Metropolitano de Quito (Ordenanza Metropolitana N.º 072-2024)"
+             :municipality "quito"
+             :country "ECU"
+             :kind :ordinance
+             :number "Ordenanza Metropolitana N.º 072-2024"
+             :url "https://www.gob.ec/regulaciones/codigo-municipal-distrito-metropolitano-quito-ordenanza-metropolitana-no-072-2024"
+             :url-provenance :official-gob-ec
+             :enacted-date "2024-05-30"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "quito.ordenanza-090-2025-tasas-residuos"
+             :title "Ordenanza Metropolitana N.º 090-2025 (Tasas por Servicios Complementarios en la Gestión Integral de Residuos)"
+             :municipality "quito"
+             :country "ECU"
+             :kind :ordinance
+             :number "Ordenanza Metropolitana N.º 090-2025"
+             :url "https://www.gob.ec/regulaciones/ordenanza-metropolitana-no-090-2025"
+             :url-provenance :official-gob-ec
+             :enacted-date "2025-04-09"
+             :retrieved-at "2026-07-16"
+             :topic [:waste-management :environment]}]

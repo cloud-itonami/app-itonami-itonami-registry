@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo files.
+
+[#:ordinance{:id "brussels.reglement-ordre-interieur-conseil-communal"
+             :title "Règlement d'ordre intérieur du Conseil communal"
+             :municipality "brussels"
+             :country "BEL"
+             :kind :ordinance
+             :url "https://www.bruxelles.be/reglements-communaux"
+             :url-provenance :official-bruxelles-be
+             :enacted-date "2018-01-22"
+             :last-revised-date "2018-05-17"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "brussels.code-deontologique"
+             :title "Code déontologique"
+             :municipality "brussels"
+             :country "BEL"
+             :kind :ordinance
+             :url "https://www.bruxelles.be/reglements-communaux"
+             :url-provenance :official-bruxelles-be
+             :enacted-date "2013-10-21"
+             :last-revised-date "2014-01-25"
+             :retrieved-at "2026-07-16"
+             :topic [:governance :ethics]}]

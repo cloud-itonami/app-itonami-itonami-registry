@@ -1,0 +1,30 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam
+;; files.
+
+[#:ordinance{:id "madrid.ordenanza-movilidad-sostenible-2018"
+             :title "Ordenanza de Movilidad Sostenible"
+             :municipality "madrid"
+             :country "ESP"
+             :kind :ordinance
+             :number "BOAM núm. 8.263, pág. 11"
+             :url "https://transparencia.madrid.es/portales/transparencia/es/Informacion-juridica/Huella-normativa/Ordenanza-de-Movilidad-Sostenible/?vgnextfmt=default&vgnextoid=77f171955c48a510VgnVCM2000001f4a900aRCRD&vgnextchannel=4099508929a56510VgnVCM1000008a4a900aRCRD"
+             :url-provenance :official-transparencia-madrid-es
+             :enacted-date "2018-10-05"
+             :last-revised-date "2018-10-23"
+             :retrieved-at "2026-07-15"
+             :topic [:mobility :environment]}
+ #:ordinance{:id "madrid.ordenanza-transparencia-2016"
+             :title "Ordenanza de Transparencia de la Ciudad de Madrid"
+             :municipality "madrid"
+             :country "ESP"
+             :kind :ordinance
+             :number "BOCM nº 196, pág. 107"
+             :url "https://transparencia.madrid.es/portales/transparencia/es/Informacion-juridica/Huella-normativa/Ordenanza-de-Transparencia-de-la-Ciudad-de-Madrid/?vgnextfmt=default&vgnextoid=a37eecef98d24510VgnVCM2000001f4a900aRCRD&vgnextchannel=4099508929a56510VgnVCM1000008a4a900aRCRD"
+             :url-provenance :official-transparencia-madrid-es
+             :enacted-date "2016-07-27"
+             :last-revised-date "2016-08-17"
+             :retrieved-at "2026-07-15"
+             :topic [:transparency :information-disclosure]}]

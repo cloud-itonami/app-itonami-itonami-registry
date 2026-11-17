@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid files.
+
+[#:ordinance{:id "seoul.administrative-information-disclosure-ordinance"
+             :title "Seoul Metropolitan Government Ordinance on Disclosure of Administrative Information for Open City Administration"
+             :municipality "seoul"
+             :country "KOR"
+             :kind :ordinance
+             :number "Promulgation No. 3792"
+             :url "https://legal.seoul.go.kr/legal/english/%20front/page/law.html?pAct=lawView&pPromNo=2130"
+             :url-provenance :official-seoul-legal-service
+             :enacted-date "2000-10-25"
+             :retrieved-at "2026-07-15"
+             :topic [:information-disclosure :transparency]}
+ #:ordinance{:id "seoul.personal-information-protection-ordinance"
+             :title "Seoul Metropolitan Government Ordinance on Protection of Personal Information"
+             :municipality "seoul"
+             :country "KOR"
+             :kind :ordinance
+             :number "Enactment No. 9487"
+             :url "https://legal.seoul.go.kr/legal/english/front/page/law.html?pAct=lawComparison&pPromNo=3710"
+             :url-provenance :official-seoul-legal-service
+             :last-revised-date "2025-01-03"
+             :retrieved-at "2026-07-15"
+             :topic [:data-protection :privacy]}]

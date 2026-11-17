@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo files.
+
+[#:ordinance{:id "cape-town.municipal-planning-amendment-bylaw-2025"
+             :title "City of Cape Town Municipal Planning Amendment By-law, 2025"
+             :municipality "cape-town"
+             :country "ZAF"
+             :kind :ordinance
+             :url "https://resource.capetown.gov.za/documentcentre/Documents/Bylaws%20and%20policies/Municipal_Planning_Amendment_Bylaw_2025.pdf"
+             :url-provenance :official-capetown-gov-za
+             :enacted-date "2025-08-08"
+             :retrieved-at "2026-07-16"
+             :topic [:urban-planning]}
+ #:ordinance{:id "cape-town.city-ombudsman-bylaw-2025"
+             :title "City Ombudsman By-law, 2025"
+             :municipality "cape-town"
+             :country "ZAF"
+             :kind :ordinance
+             :url "https://www.capetown.gov.za/bylaws/"
+             :url-provenance :official-capetown-gov-za
+             :enacted-date "2025"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

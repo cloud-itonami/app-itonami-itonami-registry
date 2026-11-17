@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Maire de Paris) — no personal names.
+{:name-en "City of Paris"
+ :name-local "Ville de Paris"
+ :official-url "https://www.paris.fr/"
+ :wikidata "Q90"
+ :ordinance-database-url "https://bovp.apps.paris.fr/"
+ :head-role-note "institutional office title only (Maire de Paris); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Paris" :country "fra" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q90" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

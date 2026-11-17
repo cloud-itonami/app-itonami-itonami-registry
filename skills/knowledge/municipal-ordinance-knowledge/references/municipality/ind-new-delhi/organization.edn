@@ -1,0 +1,9 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "New Delhi Municipal Council"
+ :name-local "नई दिल्ली नगर पालिका परिषद"
+ :official-url "https://www.ndmc.gov.in/"
+ :wikidata "Q987"
+ :head-role-note "institutional office title only (Chairperson, NDMC); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "New Delhi" :country "ind" :kind "national capital (NDMC governs only the small Lutyens'-Delhi core area, ~42 sq km, NOT the wider Delhi NCT megacity, which is mostly governed separately by the Municipal Corporation of Delhi / MCD)" :provenance "https://www.wikidata.org/wiki/Q987" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- NDMC's own PDFs of the New Delhi Municipal Council Act, 1994 rendered with an illegible font-subsetted header; the Act's title and citation (Act No. 44 of 1994) were instead confirmed via ndmc.gov.in's own clean HTML act.aspx page plus an independent NDMC bye-law's own preamble text, which cites '(44 of 1994)' verbatim"}

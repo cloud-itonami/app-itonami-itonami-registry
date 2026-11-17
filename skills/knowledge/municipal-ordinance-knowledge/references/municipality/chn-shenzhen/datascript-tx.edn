@@ -1,0 +1,36 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/ordinance/facts.cljk (ADR-2607141700). Generated, not hand-edited:
+;; test/ordinance/facts_test.cljk asserts this file equals the catalog.
+
+[#:ordinance{:kind :sez-regulation,
+             :municipality "shenzhen",
+             :retrieved-at "2026-07-27",
+             :country "CHN",
+             :url
+             "http://www.szns.gov.cn/nsqcgj/gkmlpt/content/7/7126/post_7126792.html",
+             :last-revised-date "2019-06-26",
+             :number
+             "1998年8月28日深圳市第二届人民代表大会常务委员会第二十五次会议通过（2013年10月29日修订、2018年12月27日第一次修正、2019年6月26日第二次修正）",
+             :enacted-date "1998-08-28",
+             :url-provenance :official-shenzhen-district-gov-cn,
+             :topic #{:smoking-control :e-cigarettes :public-health},
+             :title
+             "深圳经济特区控制吸烟条例 (Shenzhen Special Economic Zone Regulations on Smoking Control)",
+             :id "shenzhen.sez-kongzhi-xiyan-tiaoli-1998"}
+ #:ordinance{:kind :ordinance,
+             :municipality "shenzhen",
+             :retrieved-at "2026-07-27",
+             :country "CHN",
+             :url
+             "http://cgj.sz.gov.cn/gkmlpt/content/7/7900/post_7900059.html",
+             :number
+             "深圳市第六届人民代表大会常务委员会公告第一九九号：2019年12月31日深圳市第六届人大常委会第三十七次会议通过，广东省第十三届人大常委会第二十一次会议2020年6月23日批准，自2020年9月1日起施行",
+             :enacted-date "2019-12-31",
+             :url-provenance :official-sz-gov-cn,
+             :topic
+             #{:provincial-approval-required
+               :waste-management
+               :environment},
+             :title
+             "深圳市生活垃圾分类管理条例 (Shenzhen Municipal Regulations on Domestic Waste Classification Management)",
+             :id "shenzhen.shenghuo-laji-fenlei-guanli-tiaoli-2019"}]

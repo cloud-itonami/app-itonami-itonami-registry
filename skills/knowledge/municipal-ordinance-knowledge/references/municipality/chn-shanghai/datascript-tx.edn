@@ -1,0 +1,34 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/ordinance/facts.cljk (ADR-2607141700). Generated, not hand-edited:
+;; test/ordinance/facts_test.cljk asserts this file equals the catalog.
+
+[#:ordinance{:kind :ordinance,
+             :municipality "shanghai",
+             :retrieved-at "2026-07-27",
+             :country "CHN",
+             :url
+             "https://cgzf.sh.gov.cn/cmsres/d8/d8ce8e01225e47d8a53ec21ebc7391df/a01e7ee5f5350e793a02480784d0ace7.pdf",
+             :number
+             "2019年1月31日上海市第十五届人民代表大会第二次会议通过（第六十五条：本条例自2019年7月1日起施行）",
+             :enacted-date "2019-01-31",
+             :url-provenance :official-sh-gov-cn,
+             :topic #{:waste-management :environment},
+             :title
+             "上海市生活垃圾管理条例 (Shanghai Municipal Regulations on Domestic Waste Management)",
+             :id "shanghai.shenghuo-laji-guanli-tiaoli-2019"}
+ #:ordinance{:kind :ordinance,
+             :municipality "shanghai",
+             :retrieved-at "2026-07-27",
+             :country "CHN",
+             :url
+             "https://cgzf.sh.gov.cn/channel_89/20210811/18c5956b08754e40ad58f593a35503d3.html",
+             :last-revised-date "2022-10-28",
+             :number
+             "2009年12月10日上海市第十三届人民代表大会常务委员会第十五次会议通过（2016年11月11日第一次修正、2022年10月28日第二次修正）",
+             :enacted-date "2009-12-10",
+             :url-provenance :official-sh-gov-cn,
+             :topic #{:smoking-control :e-cigarettes :public-health},
+             :title
+             "上海市公共场所控制吸烟条例 (Shanghai Municipal Regulations on Smoking Control in Public Places)",
+             :id
+             "shanghai.gonggong-changsuo-kongzhi-xiyan-tiaoli-2009"}]

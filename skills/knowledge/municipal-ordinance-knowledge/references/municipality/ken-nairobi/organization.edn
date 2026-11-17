@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Nairobi City County"
+ :official-url "https://nairobi.go.ke/"
+ :wikidata "Q3870"
+ :head-role-note "institutional office title only (Governor, and Nairobi City County Assembly); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Nairobi" :country "ken" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3870" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-16 -- nairobi.go.ke returned a whole-domain TLS certificate error ('unable to verify the first certificate') on every URL tried, matching the same failure class hit earlier this session for Chile's transparencia.munistgo.cl and Bolivia's economiayfinanzas.gob.bo; kenyalaw.org (the national legal-reporting body) returned HTTP 403 site-wide. Both entries here instead cite two working sources: ecolex.org (a joint FAO/UNEP/IUCN international environmental-law database) for the Solid Waste Management Act, and nairobiassembly.go.ke (the County Assembly's own PDF hosting, a different domain than the TLS-broken nairobi.go.ke) for the Finance Act 2023, whose Kenya Gazette Supplement cover page and Act text both rendered fully legibly via the Read-on-saved-path fallback"}

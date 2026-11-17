@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen files.
+
+[#:ordinance{:id "oslo.reglement-for-bystyret"
+             :title "Reglement for bystyret (Rules of Procedure for the City Council)"
+             :municipality "oslo"
+             :country "NOR"
+             :kind :ordinance
+             :url "https://www.oslo.kommune.no/politikk/reglement-for-folkevalgte/reglement-for-bystyret/"
+             :url-provenance :official-oslo-kommune-no
+             :enacted-date "2023-10-25"
+             :retrieved-at "2026-07-15"
+             :topic [:governance]}
+ #:ordinance{:id "oslo.forskrift-serverings-salgs-skjenkebevillinger"
+             :title "Forskrift om serverings-, salgs- og skjenkebevillinger i Oslo kommune"
+             :municipality "oslo"
+             :country "NOR"
+             :kind :ordinance
+             :url "https://www.oslo.kommune.no/skatt-og-naring/salg-servering-og-skjenking/apnings-og-skjenketider-for-serveringssteder/"
+             :url-provenance :official-oslo-kommune-no
+             :enacted-date "2025-04-30"
+             :retrieved-at "2026-07-15"
+             :topic [:licensing]}]

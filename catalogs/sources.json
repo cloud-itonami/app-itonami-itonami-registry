@@ -56557,6 +56557,1370 @@
           "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-lei-zsn2lwnpyw6ismruc664/blob/c894e821862c8afda552d0a0673c52f377fb3bcf/facts.edn"
         }
       ]
+    },
+    {
+      "id": "municipality-are-abu-dhabi-5c86b0e5",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi",
+      "commit": "5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "217771983485e2393ae4d6f018c6e5de36be669ffe7eb26c7add5a0bee5cc2b6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/blob/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "82ed5f8dd3a8e1af00766cafc1cca8decc767071f88d23cd2ef7e89a7b68da76",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/blob/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "198134c542197f3462cff7f2794d6c88420624a41e2754aea6c2f5d3efce1e53",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/blob/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-arg-buenos-aires-bb94b529",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires",
+      "commit": "bb94b529e2422166953d5c75b14cbc14c05a3263",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "86caa470db2a6034a2b1d1995ff1dd4028f05de8783412c58d5e526dbea041c5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires/blob/bb94b529e2422166953d5c75b14cbc14c05a3263/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "eec36afeba93a078c78d021944baa0da202e4eb6e707086612d2a50a276f17a2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires/blob/bb94b529e2422166953d5c75b14cbc14c05a3263/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "e5c372d753442518aea496dfb0bdec559942d5adb92784fc6354bd9ea7230b18",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires/blob/bb94b529e2422166953d5c75b14cbc14c05a3263/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-aus-sydney-7220c928",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney",
+      "commit": "7220c92893503bc0ee921567db027b11e3e8189f",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8847719c090c316b9c9807027293e9d71f8691b8d114743cbd6856e7ded3f7ac",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney/blob/7220c92893503bc0ee921567db027b11e3e8189f/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "9391ad1f8643277b808bea1528e1adb0795ef1c6bf42c1ec62b19555d119b9fe",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney/blob/7220c92893503bc0ee921567db027b11e3e8189f/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "17180c7532fd229a35f43ff08d7468663663dbe6272ceda46381543dfaa6dca3",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney/blob/7220c92893503bc0ee921567db027b11e3e8189f/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-aut-vienna-0ed5c0aa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna",
+      "commit": "0ed5c0aaeeaf00384f158f8114da6ef4a408845a",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7d930d61c34216b3037620865058c843f547a6c80d6020bb17b4fbf6d6a794e2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna/blob/0ed5c0aaeeaf00384f158f8114da6ef4a408845a/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "e63bf3206cf66ba3259230af9cb89c9618d80ce0a87239432aab1a7939ec686e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna/blob/0ed5c0aaeeaf00384f158f8114da6ef4a408845a/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "4e9aa7331611a82838e87c32d1c51b7e530f3fa0aa31d62b445c316b9e22b051",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna/blob/0ed5c0aaeeaf00384f158f8114da6ef4a408845a/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-bel-brussels-6616be15",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels",
+      "commit": "6616be1500d2556c95d74bb1a34a35fa0c21a339",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0a7da657ad0c4bd7f95d521d56f28da3571757de3d5438e3c5a4202b2907992b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels/blob/6616be1500d2556c95d74bb1a34a35fa0c21a339/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "2ab5f088bad95edb7b708ef1a6aa5d2c4d653f26724316158d505d902322f650",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels/blob/6616be1500d2556c95d74bb1a34a35fa0c21a339/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "e8102ea4387f5b60e451199c73033ba997529597de863790ff469946a0b9deb0",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels/blob/6616be1500d2556c95d74bb1a34a35fa0c21a339/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-bra-sao-paulo-d8bab14e",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo",
+      "commit": "d8bab14e2283d70b4c46593749c2fef9d54b5bdc",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f5042c59aef99841578524f174a6ff89ef1f757011a65a895aa40b030c7a14e4",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo/blob/d8bab14e2283d70b4c46593749c2fef9d54b5bdc/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "0a56470136386cd15ab228cea77a7d0a1fc8f436cb841d9009db6ea8cc142418",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo/blob/d8bab14e2283d70b4c46593749c2fef9d54b5bdc/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "b5d6dbfddfdef0f2ea77489aaea26f9e53205ae7b0f89a1e52d9c4e9f31e0933",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo/blob/d8bab14e2283d70b4c46593749c2fef9d54b5bdc/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-can-toronto-8e41029f",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto",
+      "commit": "8e41029fa76bd8139bb6b012a78fb22976a6b5c1",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a0bedfc4318d348aa771786aec6178a05daf30e7083277bcf4fef9c155fb3cdf",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto/blob/8e41029fa76bd8139bb6b012a78fb22976a6b5c1/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "bf83f72b67e1e34eb72334a477931e6e87a93533755a50bd48168250a3af9121",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto/blob/8e41029fa76bd8139bb6b012a78fb22976a6b5c1/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "fa22f2471a5569fdd7bd8bc59308fcdfa4464ab8c6bc72d8bf20fd46c7b9aeaa",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto/blob/8e41029fa76bd8139bb6b012a78fb22976a6b5c1/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-che-bern-ec0a3c16",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern",
+      "commit": "ec0a3c16b530ff9573a3f85608ecb598740cb447",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6ac626829d61044ac37eb472f69049fcd936d2e4cfc6581e020ed1b784ac9067",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern/blob/ec0a3c16b530ff9573a3f85608ecb598740cb447/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "4424236896dbe6d61450343083854e0e27609a1fa1c94c62053fa5109f238cb1",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern/blob/ec0a3c16b530ff9573a3f85608ecb598740cb447/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c64450eef59e287b5a09c0c548eee8b74d015473d55b4733730ae4b27dbb5a2e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern/blob/ec0a3c16b530ff9573a3f85608ecb598740cb447/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-chl-santiago-f247d1d9",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago",
+      "commit": "f247d1d9a6ee4da2764953aeb9d16c3d93f28fe6",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "5c59a2549309bb1edf8a5c38ca98793b13f7f7ccdb1e33a9616be08740a260ef",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago/blob/f247d1d9a6ee4da2764953aeb9d16c3d93f28fe6/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "a3ad33301869586b06c8f8549caf5e4b50cc294922f0722fbe8bb6affc76d1dd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago/blob/f247d1d9a6ee4da2764953aeb9d16c3d93f28fe6/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "1d39db8d39e50c2296a1ad419816a33f32cf5df4bb863a358495105657bd0eb7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago/blob/f247d1d9a6ee4da2764953aeb9d16c3d93f28fe6/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-chn-beijing-01d10760",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing",
+      "commit": "01d10760df82b205404fa98661a85d8aade31123",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "b2030c5e7be06f46b9a42eecc3931c8ba8271db6212a3b90785ab91b02af9815",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing/blob/01d10760df82b205404fa98661a85d8aade31123/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "65c7766d36366186c4eb8b2e87c070a558e51abe6aea4301df1cbce660d41d79",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing/blob/01d10760df82b205404fa98661a85d8aade31123/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "ed875e455b96d6df46f1c235919ed0b640d4d82bb86e47a4c565b1f4d34c70ed",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing/blob/01d10760df82b205404fa98661a85d8aade31123/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-chn-shanghai-dca0d710",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai",
+      "commit": "dca0d71083266bc7f486c1d82f6d33a8dae096b1",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "96484c95c09b8c0f97f90a63bceb99e5f57911dc15a72d94921a098062818df1",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai/blob/dca0d71083266bc7f486c1d82f6d33a8dae096b1/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "e02631fbef27fce9ad643f2114ce88740473a5755d7205f35acfcc17ef5c34aa",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai/blob/dca0d71083266bc7f486c1d82f6d33a8dae096b1/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "557fb46702761c75b5d017cd6af9195345a9274b7856d69bb67d8b9abee13b55",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai/blob/dca0d71083266bc7f486c1d82f6d33a8dae096b1/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-chn-shenzhen-b5a01d13",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen",
+      "commit": "b5a01d1314acfcbed7d0226cd797ee9c02e1a219",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "623c7a3721a95e5f35f8532756c9668ba1d9f4f6d313b697cd372a71ed7e4a4d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen/blob/b5a01d1314acfcbed7d0226cd797ee9c02e1a219/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "7d4ab30df9047eab719a00b4049d2ab80c18398213e50f0ef8b896d439c42a1c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen/blob/b5a01d1314acfcbed7d0226cd797ee9c02e1a219/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "bb071c9140bfc946e30ae40aacc3478b2516192dbbb2a49e17f7bdf1f0385a4b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen/blob/b5a01d1314acfcbed7d0226cd797ee9c02e1a219/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-col-bogota-740134d4",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota",
+      "commit": "740134d4a8b9320be209d42c35dcfd2be7b0db82",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8ff94b345d9bc79cf7e0ec3c76d4bff1185cf886f14d45e7fe23b2cd32257d60",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota/blob/740134d4a8b9320be209d42c35dcfd2be7b0db82/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "380d20d23ebd3c0dd55c56354c70d1fbafc7b470a159e1bd6822cca7193e1711",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota/blob/740134d4a8b9320be209d42c35dcfd2be7b0db82/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "81c50a6d91d57514ebc2298bddd41f6ef7d4fef7fe0afca19d508f85b9498aff",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota/blob/740134d4a8b9320be209d42c35dcfd2be7b0db82/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-cri-san-jose-91dd0146",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose",
+      "commit": "91dd0146238c25420b14e1c42a1ac2de6b2274f3",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6961ff5c05d30c90f4282f794f9214f337dd6ae634df2267a334bbdd1d726ec2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose/blob/91dd0146238c25420b14e1c42a1ac2de6b2274f3/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "41c151a7674db653e90c8016c283189536160a1e5dc65b3651800d7c42b4dda8",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose/blob/91dd0146238c25420b14e1c42a1ac2de6b2274f3/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c25373ef2ad4b84962a775199fc5d9703f62a9360fad6fe66ac43ff77943d85f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose/blob/91dd0146238c25420b14e1c42a1ac2de6b2274f3/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-cze-prague-6dc5462b",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague",
+      "commit": "6dc5462b3bbae6931a418d95eab3cd76ef7a5cae",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "64b492260e721f5a45a7d3b92c5c7cea02f6ea2c4ffb925a0000818aeb87dc07",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague/blob/6dc5462b3bbae6931a418d95eab3cd76ef7a5cae/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "00cdef8a2fb6b72f251fadde7f21c45f0dd99c20bbe4cc3a322b3075addd51ae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague/blob/6dc5462b3bbae6931a418d95eab3cd76ef7a5cae/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "cb031666561660cefe451b56bbe01e9d0a98b6f1a216f8286e67dfc65a0e415d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague/blob/6dc5462b3bbae6931a418d95eab3cd76ef7a5cae/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-deu-berlin-16a6e292",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin",
+      "commit": "16a6e292891af23f94358c1ac30bbb3375d7753a",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0a9fb2352a79d5aabf0a9041c00db13d8a0d48acdc16aba4b9b2707fa0ebda4d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin/blob/16a6e292891af23f94358c1ac30bbb3375d7753a/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "dedd5b55f39e3982f8cabf88a3a4d174009c575569060e8381f49cd324309cc7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin/blob/16a6e292891af23f94358c1ac30bbb3375d7753a/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "29380f0b57da6084f819ebbb696f8f610e819e0214b32336bf967ccc6b77150e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin/blob/16a6e292891af23f94358c1ac30bbb3375d7753a/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-deu-munich-9e1a81ca",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich",
+      "commit": "9e1a81ca816f05ee71c4a05e56f9aa7a6521f24c",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "323987c0d96fe4a546f75b02960abd3a3d5d9e964669b08e218adc6e1f562cb5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich/blob/9e1a81ca816f05ee71c4a05e56f9aa7a6521f24c/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "4052c9bb09550cafca6a4893ec26417753c9c38f174e3c33c506c7b859666266",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich/blob/9e1a81ca816f05ee71c4a05e56f9aa7a6521f24c/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "901338d9f5d34f32b1dc2e4a753d50f05bed9779d43d17f3f7ccc046ee94b4f7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich/blob/9e1a81ca816f05ee71c4a05e56f9aa7a6521f24c/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-dnk-copenhagen-2c43207d",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen",
+      "commit": "2c43207de244f5dcefc3f8f90707dcd9c243e595",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d4640ce84338f4a56c8a45e6e69e057b1acf7e18bd5092e4c66581f8ebf3aa89",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen/blob/2c43207de244f5dcefc3f8f90707dcd9c243e595/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "30582138f3f8fc18f10c00162ac030f3f4ffd1d5624f15dabeb7c4e4aead7ed5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen/blob/2c43207de244f5dcefc3f8f90707dcd9c243e595/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d4f5f03dd2d6c403400b08553a4d6482e3ac7511616e53887dac52308cb33992",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen/blob/2c43207de244f5dcefc3f8f90707dcd9c243e595/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ecu-quito-efabbc3f",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito",
+      "commit": "efabbc3f0b3d9f2aceefeb9da47047412b39c5b1",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "cbb9dc5cd5c9d68f5d618b9fe5e2e3a53f736b4e5742169dde4645932c05ef5c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito/blob/efabbc3f0b3d9f2aceefeb9da47047412b39c5b1/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "3706853111364708298e9794469e959b8cf47e51d9480daf28ed6b1b4328b3df",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito/blob/efabbc3f0b3d9f2aceefeb9da47047412b39c5b1/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "6495d560882ed0f6cec46af8210188f74e214352476aecd99a7bbbb00970be56",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito/blob/efabbc3f0b3d9f2aceefeb9da47047412b39c5b1/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-egy-cairo-84b8ae80",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo",
+      "commit": "84b8ae80e5a9e3541aad3ee3212c4af281925083",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "333a7a99498dae35c94b71a9915ce5b069f69c2b07b3a00089a9554109105143",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo/blob/84b8ae80e5a9e3541aad3ee3212c4af281925083/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "9a7f9e8111cf9a5b25ff111af7c97ff16059a15b0fd18099bc879798b5633813",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo/blob/84b8ae80e5a9e3541aad3ee3212c4af281925083/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c70c29fcef7e28213f35bd2fbf4e8462fc7476028d982ea1bf08be7c6d95548b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo/blob/84b8ae80e5a9e3541aad3ee3212c4af281925083/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-esp-barcelona-b5fa5061",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona",
+      "commit": "b5fa506166d1c5bce995cc60a5a0c6e623940d58",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "408e40c5811a18b9e772725d253599fd6e83dda89ce02e736bee3787130151c5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona/blob/b5fa506166d1c5bce995cc60a5a0c6e623940d58/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "96495ce2d28b12293ecbef71b25376b4bcc3f7f5a77b38ba4e922798132e91c9",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona/blob/b5fa506166d1c5bce995cc60a5a0c6e623940d58/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "b77576cfbb390f639a2316e720f8fee505cdd8df48b1a968f5d8408dbaaaf31b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona/blob/b5fa506166d1c5bce995cc60a5a0c6e623940d58/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-esp-madrid-732ebddc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid",
+      "commit": "732ebddc1e0c186f891169d06922e9e1ebdad93e",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "faa42e9341e5702e856674f7089cf15bdefed8f6f531eb04c8b21cb16a1e6790",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid/blob/732ebddc1e0c186f891169d06922e9e1ebdad93e/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "b3e6ab7a4d8fa558c4ee62a6a535c6a721147d5b59ae77694e3145a598c05458",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid/blob/732ebddc1e0c186f891169d06922e9e1ebdad93e/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "341d11876c6e4013efde2656b325760fa005c471d09f3f6e9bf51a1d2917895e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid/blob/732ebddc1e0c186f891169d06922e9e1ebdad93e/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-fin-helsinki-4f749411",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki",
+      "commit": "4f7494113e4a6414cd862510c0ed9d43ad1525fe",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "799fc2961bbd3ef31b415a10871a7d4be6d680dee8d9c240055325998e3f8519",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki/blob/4f7494113e4a6414cd862510c0ed9d43ad1525fe/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "716267fdac19335848f4ba3b647a886669a874b02721fe47c73849eec9f4a4b1",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki/blob/4f7494113e4a6414cd862510c0ed9d43ad1525fe/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "cd0b92bd2154c172334b969b8a2b854d3eb88e8c49bcfae28de0d503b18db548",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki/blob/4f7494113e4a6414cd862510c0ed9d43ad1525fe/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-fra-lyon-af0b6ca0",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon",
+      "commit": "af0b6ca0e4b509faadf32fdcb15c8c70b721ce8c",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "39b12e1089093969954cfc94f55c00b849a0fc51292630eca7e7b8ba3ff65f03",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon/blob/af0b6ca0e4b509faadf32fdcb15c8c70b721ce8c/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "c922c2a73ee2c0838a4d7194be6db94cea5afa9e47ea5eca1340e191c8b91111",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon/blob/af0b6ca0e4b509faadf32fdcb15c8c70b721ce8c/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "5a7e9ae6a7f6c763506fe9563a799d79b4d8898c67b548b5f3dae767873e1211",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon/blob/af0b6ca0e4b509faadf32fdcb15c8c70b721ce8c/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-fra-marseille-d1b7bd60",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille",
+      "commit": "d1b7bd60236d1df5c53f66f46de5b0bab6949f6f",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "50809377971f49a764c304f5b40804a1b9bacd366a7ba1623fde4989a156f8cb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille/blob/d1b7bd60236d1df5c53f66f46de5b0bab6949f6f/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "6eeca804af8aff1d6698706e041e9a73835f54a004465deb9eaf5ee89e20d5c2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille/blob/d1b7bd60236d1df5c53f66f46de5b0bab6949f6f/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "dadb5044839bf74da863d8de93a2b0897337bf1c3d91a522cbe134e981b1be40",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille/blob/d1b7bd60236d1df5c53f66f46de5b0bab6949f6f/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-fra-paris-80d61f80",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris",
+      "commit": "80d61f80afc128497e1d3c9523ff2912c025d02a",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d136ff962556f874705b7b2157f0855113de95380439d808f239bf54827c1c00",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris/blob/80d61f80afc128497e1d3c9523ff2912c025d02a/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "cd80676bc0908818f6f10f425847ee6ec93a720ca6339fb3121d04d3838189df",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris/blob/80d61f80afc128497e1d3c9523ff2912c025d02a/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "f6c75f00a49e5b1bb09a98a408587c37577bc8071ee29701a1ad0d40bb408e21",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris/blob/80d61f80afc128497e1d3c9523ff2912c025d02a/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-gbr-london-16da41ff",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london",
+      "commit": "16da41ff9ec7530de44c5b7e4698328e5fc9605b",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7e0d30cb3584347a53e6f58565bf440ad853087aa09ca5036351714994fb239e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london/blob/16da41ff9ec7530de44c5b7e4698328e5fc9605b/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "355c003dfc5c560f08663164ca965964f495b33e7f5392ea04aca6aa12b63f66",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london/blob/16da41ff9ec7530de44c5b7e4698328e5fc9605b/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c57f699eb3817bb4ac32dd7c5d49d41ffeb9319aa227389887b46cf4f4d2a4fd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london/blob/16da41ff9ec7530de44c5b7e4698328e5fc9605b/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-gtm-guatemala-city-57b835c5",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city",
+      "commit": "57b835c55908be49ca1d48e1f080a1904e39cba8",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "b8b6c282054ddfed32f853a2effb482ee6651a1735bef636e8bda44ddf9faa06",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city/blob/57b835c55908be49ca1d48e1f080a1904e39cba8/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "e98af983388c2151d88342940745b77ef727c25d1c06f4bc67cfe02fb97c522d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city/blob/57b835c55908be49ca1d48e1f080a1904e39cba8/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "da7c4aac626a26203977bbf92828b78db3e3e4dcecb57b18e9ee1598e04e8534",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city/blob/57b835c55908be49ca1d48e1f080a1904e39cba8/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-hnd-tegucigalpa-9503c693",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa",
+      "commit": "9503c69353a8bbe5d1205df495c17d693d83fa49",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "133a78a3bfb8b00acf30a44d99735f7c1c2a0bbbf30ee7defb660e84353afa7b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa/blob/9503c69353a8bbe5d1205df495c17d693d83fa49/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "34a3578243f6188bb4d5bac4e357ccb0f1fa10ae5f629b24fca1d0f0207539a9",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa/blob/9503c69353a8bbe5d1205df495c17d693d83fa49/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d3d3f0d75910e02bc3d6bd1ce38fcf6ec94117c81123ed3492adbafdbf24287e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa/blob/9503c69353a8bbe5d1205df495c17d693d83fa49/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-idn-jakarta-4b01122d",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta",
+      "commit": "4b01122d89fd538623ab9b4ed41edc5834825b10",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "dfa803d712ce507646f1d131aa9032880aaf09b55c66be18c77c9643a00efe82",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta/blob/4b01122d89fd538623ab9b4ed41edc5834825b10/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "fddfa5920385d92f11aeb41df7d5088b3c01ede1a0084a87b4a8a06afb05a60f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta/blob/4b01122d89fd538623ab9b4ed41edc5834825b10/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "0232f39d3e17f5a50a8a68d1163a617253583b7f4c8bde25369242f3629f3077",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta/blob/4b01122d89fd538623ab9b4ed41edc5834825b10/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ind-new-delhi-75841a0d",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi",
+      "commit": "75841a0df6d92899a7d1d97a7b2106ed5d4a5f16",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f76baa10b8b3bc722d76938dc48213de8a57e56278bd2d614ad0b87b52b8738b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi/blob/75841a0df6d92899a7d1d97a7b2106ed5d4a5f16/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "4d611f67df11a6e28e04a1e28c6a7108fb584afb9d0cb263040823fe3c6975d4",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi/blob/75841a0df6d92899a7d1d97a7b2106ed5d4a5f16/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "384e0b8b3d7572f28221bc6da5f25f7397fb235fc6018062b0eff9ac3d831662",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi/blob/75841a0df6d92899a7d1d97a7b2106ed5d4a5f16/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-irl-dublin-9c983c3e",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin",
+      "commit": "9c983c3e4064513848158ea82f80cc46607a318c",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c29e3032b4e0594ad91e8b986d74161fe37e66bf4083928fb51773d3d7986ed6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin/blob/9c983c3e4064513848158ea82f80cc46607a318c/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "7136b29bc373a349bafb3f38527ca747685042d67f0b01580ecd6c286e2c5e7a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin/blob/9c983c3e4064513848158ea82f80cc46607a318c/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d1df248876b63e119cc08ba026bac295ac2adf06ec29758b4703089ce56d1f8a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin/blob/9c983c3e4064513848158ea82f80cc46607a318c/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ita-firenze-438ffccd",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze",
+      "commit": "438ffccd730b9f37fb45372b2280dfea287da5d5",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "157c7fffc869c5a7664e4b997010c14c427d3d03276d69e471c687a25f03ed7d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze/blob/438ffccd730b9f37fb45372b2280dfea287da5d5/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "eacedca4ed546c9fb73f2e8bebec8196861681ab3393871387361f51280ec530",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze/blob/438ffccd730b9f37fb45372b2280dfea287da5d5/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "f4b946a2ff789dc48bc22c7baf0e6c143abff498b07af68d8af78f0329e75bfd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze/blob/438ffccd730b9f37fb45372b2280dfea287da5d5/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ita-milano-8a38a3ba",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano",
+      "commit": "8a38a3ba2ad8219877f1d3466343ffefcfc1cf60",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "037c088dcdae4eb369359c0157cdbdf44118ed27f6f0294eb2170b8f36d28a4b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano/blob/8a38a3ba2ad8219877f1d3466343ffefcfc1cf60/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "0ae6bc65e0df71e38102d5fafc439ca43a05a695a96741d5730996da9d278dcc",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano/blob/8a38a3ba2ad8219877f1d3466343ffefcfc1cf60/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "a217cde14aaa4faacc6e2e9643fa68e70feab58b93920a7cf31b916d6665e456",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano/blob/8a38a3ba2ad8219877f1d3466343ffefcfc1cf60/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ita-napoli-3bd30cf5",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli",
+      "commit": "3bd30cf5361e05fc5b2f8769fce815aa7e5281ed",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "ea45bcedbe774792c83d0cc55034d06306024461c08957c4dfe0b85ce3a437ed",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli/blob/3bd30cf5361e05fc5b2f8769fce815aa7e5281ed/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "919543a4e89986da52b967f1908621ad4797b4d926f69fe2eba6dbaae8904deb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli/blob/3bd30cf5361e05fc5b2f8769fce815aa7e5281ed/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "6d829e81e6136c9eb81b2305516ca234542db0b5fc8c0206dba377c4f117fa55",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli/blob/3bd30cf5361e05fc5b2f8769fce815aa7e5281ed/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ita-roma-a7f9c7fe",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma",
+      "commit": "a7f9c7fe62e0e5487b83269eafec4038472c3a24",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "27fd7f76dae5f51ba8f9fee8bd833a05e2ac70c678b94ffef126478b6e2fe645",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma/blob/a7f9c7fe62e0e5487b83269eafec4038472c3a24/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "4864d189869f3443fc13433c8536a77c0634c9b490b6b20f0bd6a6b5a508a73c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma/blob/a7f9c7fe62e0e5487b83269eafec4038472c3a24/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d15f61047f4f1f3afc0be6937986d0b2bef4652b4d7361cd0fe86938019d0df2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma/blob/a7f9c7fe62e0e5487b83269eafec4038472c3a24/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ita-venezia-cea4839b",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia",
+      "commit": "cea4839bf1019d90b8336c77be41b434744b424a",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f2c71b10c55d9b4ce8a1aacee89561e4558e12977ed7bbd1d3321d8548fbdce6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia/blob/cea4839bf1019d90b8336c77be41b434744b424a/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "bb6bfa8f6ef016ca26f74f0c0d197db8b4e12d8c4d4fe878379a77f6de32da16",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia/blob/cea4839bf1019d90b8336c77be41b434744b424a/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "9fc59812205465546961781497db51548a6ef6ae04551ff44c27ec906dad3c94",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia/blob/cea4839bf1019d90b8336c77be41b434744b424a/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-jpn-kyoto-7e7d0c8a",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto",
+      "commit": "7e7d0c8a47aa836693adb04f015133ec723c491b",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d0d4d6597ebfe65eeeafc0868b0c8d63fba1856955bdc67a7f52a2abf72791d5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto/blob/7e7d0c8a47aa836693adb04f015133ec723c491b/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "427b7ac2a781d7c1d22d4e70d60fa63c8b660124d70013ef1d6bc5f9928e9552",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto/blob/7e7d0c8a47aa836693adb04f015133ec723c491b/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c4024dede2333743b3e1baa4943ba64b4fb4a37a5915b016fbacddc4143c88aa",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto/blob/7e7d0c8a47aa836693adb04f015133ec723c491b/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-jpn-osaka-c60f2e21",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka",
+      "commit": "c60f2e21e16c671f69779f0f29d8261cb617aef1",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "263b194ee47159221d2226387093d5556d6009ee934273e373fee7815a0ecf3a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka/blob/c60f2e21e16c671f69779f0f29d8261cb617aef1/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "8d6b23205809508c5caceda55066bd001864bcacb526131960e666bcd98fe89d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka/blob/c60f2e21e16c671f69779f0f29d8261cb617aef1/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "5fa571f031ef69495d455edde90e32da2d3a96e0c753d3c65e72f9ae24fd60c7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka/blob/c60f2e21e16c671f69779f0f29d8261cb617aef1/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-jpn-tokyo-4655810d",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo",
+      "commit": "4655810d71fc74449d06e5fd9afda81924d4e966",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f025cd22ca46b25332c8438e1a842b64604895328a823e433387e2b4510a203e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo/blob/4655810d71fc74449d06e5fd9afda81924d4e966/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "1d963f9b043e8d134262a4b2ac6208c0446fb16c6074d4c0cb184026f83a8112",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo/blob/4655810d71fc74449d06e5fd9afda81924d4e966/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "9b1dbebc087326e5eb5415a8d443ee65bb685d6901c6236ee20fb5332949eaec",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo/blob/4655810d71fc74449d06e5fd9afda81924d4e966/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ken-nairobi-9ccc1b80",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi",
+      "commit": "9ccc1b80c708f831cb1f4c4d5151ee20b3a6663b",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "43b6af7d4ccc2fb3bb16dca651f2a42ae026aed259d554444e8e237e96ceaacf",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi/blob/9ccc1b80c708f831cb1f4c4d5151ee20b3a6663b/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "9008c75cde622671bc979ca8cb202b473c2c82265666c33654ef51b63a87b645",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi/blob/9ccc1b80c708f831cb1f4c4d5151ee20b3a6663b/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "c7667f046134787379b4dfd05905f99bc6ac774384683128eb5df99a7167d399",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi/blob/9ccc1b80c708f831cb1f4c4d5151ee20b3a6663b/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-kor-seoul-c398d840",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul",
+      "commit": "c398d8405b7f2494cf6e2ecba2133116985951f9",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a1f0a5918a983bc973779722e16100dd435b62252dde90af79d9fdc0bf03f349",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul/blob/c398d8405b7f2494cf6e2ecba2133116985951f9/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "a5a2adeda851fadd5571b79598a03c31cfb6857aae697adb2b7b34dd7112d10b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul/blob/c398d8405b7f2494cf6e2ecba2133116985951f9/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "75ba0cb61427057ed9b4ac736375ab1d60c044693798b75bf456a20d77422831",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul/blob/c398d8405b7f2494cf6e2ecba2133116985951f9/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-mex-guadalajara-132b24c2",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara",
+      "commit": "132b24c261c11965b0090b2069738756d29c558f",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "52f4bd3a16f238ecfd2d7267f780fd40f77480d6532a20b9c93caf42dea04e3d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara/blob/132b24c261c11965b0090b2069738756d29c558f/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "3b6cfe560eb09130586f985db5a9476c93df64b4527483874dd5c059dbd8473c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara/blob/132b24c261c11965b0090b2069738756d29c558f/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "4e92b7f1664b2b4d6f18b04ffe46a7542bcf338ef2645ff6056bf74ae0f9eebf",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara/blob/132b24c261c11965b0090b2069738756d29c558f/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-mys-kuala-lumpur-ff93f1a6",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur",
+      "commit": "ff93f1a69c9065035f5bc756470ecce5a2f64546",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "14af82578b7d8b137499429bf31e0d6ada9a3c0dfea9ad154b085b7533cab676",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur/blob/ff93f1a69c9065035f5bc756470ecce5a2f64546/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "038500ad1f87b5cbfa0a04b438087c3167a67df12ce65360977f1feadc9f2056",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur/blob/ff93f1a69c9065035f5bc756470ecce5a2f64546/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "8b3f187c7dce72aeb18b41105d7e539d9a8adf215fa52dfbba8c71a45e94848c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur/blob/ff93f1a69c9065035f5bc756470ecce5a2f64546/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-nga-abuja-fd10e226",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja",
+      "commit": "fd10e2263c0f49e9e5589d27be6ea2e08fb3d8a6",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6205796c4ae437df48e3e86afc932912ded4a58f83659400935d507f965f2e84",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja/blob/fd10e2263c0f49e9e5589d27be6ea2e08fb3d8a6/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "7f7f3aecb4e4bad0fe1288c68994e617e87f2999a0f70a9f26bc28fd89f4ddbb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja/blob/fd10e2263c0f49e9e5589d27be6ea2e08fb3d8a6/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "a61425a71b8ba125bb8d8c6dcd094ce7141f4da436e0b17a69b6bcb00079c4fa",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja/blob/fd10e2263c0f49e9e5589d27be6ea2e08fb3d8a6/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-nld-amsterdam-ec5438a1",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam",
+      "commit": "ec5438a1d1fda3e4a8e250bf0a1510f0aa029f96",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c9b73f9e5fa5016b5c58c8538751fba45e87abfe534deca351eb5cc7f07bb50d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam/blob/ec5438a1d1fda3e4a8e250bf0a1510f0aa029f96/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "3048c2b3e580f37562fd6418a163b71f983dac8d044a1ea79d9d030af6beffbf",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam/blob/ec5438a1d1fda3e4a8e250bf0a1510f0aa029f96/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "8ac3d8e5668503bf4509ac652baa4f475388c096fc1bfe89343efcf1d13cedd6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam/blob/ec5438a1d1fda3e4a8e250bf0a1510f0aa029f96/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-nor-oslo-937e495f",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo",
+      "commit": "937e495fae7b28e2065ba493e9e945a514ed73d5",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "2b91c0929d7ae02ce06acd82c8125929e3211224ca97f0665c0ed07b91532c80",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo/blob/937e495fae7b28e2065ba493e9e945a514ed73d5/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "e92d97371353b7d6912cd0980f2c4fddafb8c4e9baaa59134fbf16fa6bf705ee",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo/blob/937e495fae7b28e2065ba493e9e945a514ed73d5/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d6b55c5e78a90e5d42c8e10ecf47636645b8871b07466bc809ec5c9b7ddb36d1",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo/blob/937e495fae7b28e2065ba493e9e945a514ed73d5/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-nzl-wellington-aa6c5cbf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington",
+      "commit": "aa6c5cbf23f4f5c76d673afa1659ef77250f174e",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "4838fdd6f0809c834a1eaa88fdde2b68f6354a0e07b6983b0a2d222503c73bd2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington/blob/aa6c5cbf23f4f5c76d673afa1659ef77250f174e/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "568314ca3a26ba78bf73c542ed08ee022300195d5f7dbd0a64b7462a42c02e74",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington/blob/aa6c5cbf23f4f5c76d673afa1659ef77250f174e/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "358486ee1974adbbc6cf3a2c16722d843e63f1be160dbeb5373e5bf8d457ba78",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington/blob/aa6c5cbf23f4f5c76d673afa1659ef77250f174e/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-pan-panama-city-acb76383",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city",
+      "commit": "acb76383812d2530d0fb85fa307b5685b5f97e2d",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "1597a45899a2f1f29ffb900244c92db457a354298bdcf7d3e72e4edc3887a38c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city/blob/acb76383812d2530d0fb85fa307b5685b5f97e2d/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "ebfac0932b8eb3f2bda7d55b1c5336d09c42c910cb77eabaf76b05d5af324735",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city/blob/acb76383812d2530d0fb85fa307b5685b5f97e2d/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "6d9468fd79c3c8a0121603cd2d50c794112892249bd76e7553b95fa254f98b56",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city/blob/acb76383812d2530d0fb85fa307b5685b5f97e2d/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-phl-manila-104e75d8",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila",
+      "commit": "104e75d8764cc7f43d9ef327ff83b4d9bd7a0f4e",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "30cca4a91482348926cd2932a75f6bc22ddcba31de1a7bf96a17efc21eb80c09",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila/blob/104e75d8764cc7f43d9ef327ff83b4d9bd7a0f4e/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "89c9718433dd7625f16889bd1f4fc53fa1167754e440292a4c5f301b4d9c528f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila/blob/104e75d8764cc7f43d9ef327ff83b4d9bd7a0f4e/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "947e8b43973bb86b7614fbbef2a1f6b98e613b42ce76f7b95e5bf8679005e76b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila/blob/104e75d8764cc7f43d9ef327ff83b4d9bd7a0f4e/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-pol-warsaw-53c4609c",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw",
+      "commit": "53c4609caae98692b5c43fab1c021c2a36fdba49",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "bd31f84d5031fc667d1ea684d379de1c88ab493da70896818efe47d37b6cb1eb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw/blob/53c4609caae98692b5c43fab1c021c2a36fdba49/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "d23c87267aa6bb465ce6e87f93102d652878b9904536faab2f9070c5ed4d9c43",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw/blob/53c4609caae98692b5c43fab1c021c2a36fdba49/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "96e9400996d6f1c5e3cd5a4b9c949a24eb930344acb39ca5392640d9e1a2cd82",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw/blob/53c4609caae98692b5c43fab1c021c2a36fdba49/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-prt-lisbon-ef6bd7f0",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon",
+      "commit": "ef6bd7f06ea333391501143e945b0ce15051f21e",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "2f00f2c1d018fe9c52f15eca467cae042db3888cd1fc5c2e296e9d60bd5b6a67",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon/blob/ef6bd7f06ea333391501143e945b0ce15051f21e/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "8c6fa58ffec16e815f2db48a124f515732e93f469efee9766855623ceabcc684",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon/blob/ef6bd7f06ea333391501143e945b0ce15051f21e/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "2b5d3feebb1f50e9f9aacb923a7fd9e4e706365eca36c65d880df81dc0fce27d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon/blob/ef6bd7f06ea333391501143e945b0ce15051f21e/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-pry-asuncion-cfcd69bc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion",
+      "commit": "cfcd69bc3a39a3aaa585251cb7b6141e9909a33b",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "aaf86f50e760d047dcdee7fefdb5833db1fbb6aa44ca50fad9b62c65f57823ff",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion/blob/cfcd69bc3a39a3aaa585251cb7b6141e9909a33b/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "71e11ef122f0f230d12691a3a1b0a419711ae182c3d847323230ba4521b9d786",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion/blob/cfcd69bc3a39a3aaa585251cb7b6141e9909a33b/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "3e5f2f3aa7b93a2f8992ebd59bc8fa6272cd87a930f4114a47562eba6f8604fc",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion/blob/cfcd69bc3a39a3aaa585251cb7b6141e9909a33b/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-sau-riyadh-a6fb9e7d",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh",
+      "commit": "a6fb9e7d34b80ca5ed8afcb8ab273f8e8d76a284",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6736cccd54298c892f1aa22435ad428188548575e5352397ff9434b27162b55f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh/blob/a6fb9e7d34b80ca5ed8afcb8ab273f8e8d76a284/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "edc9b0160c50067507ffa982c82f3a7b212a7c00550065f6273755407dcce328",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh/blob/a6fb9e7d34b80ca5ed8afcb8ab273f8e8d76a284/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "9157d71b2a65d77e8978cf3a6438c301447656d5b6e94e975aa7caecd34a7a5c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh/blob/a6fb9e7d34b80ca5ed8afcb8ab273f8e8d76a284/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-swe-gothenburg-a481ca38",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg",
+      "commit": "a481ca380493e1f0734bb3f13b07a74a96cd7805",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c08b624f5e7af318faa440ce9a8fc4e029546672c0f119020cb173db3d4bc73d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg/blob/a481ca380493e1f0734bb3f13b07a74a96cd7805/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "9da4e5626a0b934cea180fe83a10e4062392dd4706bacdb26f631069b0856fdb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg/blob/a481ca380493e1f0734bb3f13b07a74a96cd7805/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "39f59673ff75a39cc86bf3223519de8f08f98b9e45ce91df1c21ffd49e8c6100",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg/blob/a481ca380493e1f0734bb3f13b07a74a96cd7805/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-tha-bangkok-adbab4d0",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok",
+      "commit": "adbab4d0f93b9adc4be29329a529ce4df4507fb3",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "bcb55ab20fed89ff6d3523a561e41ffcbf52884aeeb24a949b8b6516cdec0ad3",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok/blob/adbab4d0f93b9adc4be29329a529ce4df4507fb3/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "09db55ba4500a5e1a03b23523127325fe746974fcdf68c7651e6ec35df447559",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok/blob/adbab4d0f93b9adc4be29329a529ce4df4507fb3/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "ac6303466f0befbdac550835e6a26a52afb786b8ee645b2d64fc99ba51ad808a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok/blob/adbab4d0f93b9adc4be29329a529ce4df4507fb3/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-tur-ankara-447bc7bf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara",
+      "commit": "447bc7bf3a83c5f22c8f4e3271bc2f32e0919ab8",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f617fc76a476256a61c72a283e09bf07ad008da62864eba35042559b57ea2687",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara/blob/447bc7bf3a83c5f22c8f4e3271bc2f32e0919ab8/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "f8879cb8365eeaaf0a192f35fb0041ad69eb819a69774bbb98ed030f670cb66d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara/blob/447bc7bf3a83c5f22c8f4e3271bc2f32e0919ab8/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "41b167ff33a8392cd18f32628e5500337f20299430962f56b9a522aa9ea7523a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara/blob/447bc7bf3a83c5f22c8f4e3271bc2f32e0919ab8/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-ury-montevideo-594c7433",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo",
+      "commit": "594c7433f0011641baa39041a37046d4ec8f6beb",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "4f9d7b02fb529446fd8bbe94727e97c31fc4ad4e20fadde3cf7efeb30c34e39b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo/blob/594c7433f0011641baa39041a37046d4ec8f6beb/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "caf4d02d8ce290e7a72ace21fef7517c205a821f92e322d7f305b941a53c9531",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo/blob/594c7433f0011641baa39041a37046d4ec8f6beb/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "ceb7176681e7bf5433726932f25e59279e8792cc4c09e3541892f885bbbef8c5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo/blob/594c7433f0011641baa39041a37046d4ec8f6beb/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-usa-new-orleans-db542c85",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans",
+      "commit": "db542c85c462fcf3cb8ec7789115d91db5f0cbb5",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "fbdaaf6dde4b434e349624557f80a6b632593d62b4c7f7fa4c421ffffd05855b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans/blob/db542c85c462fcf3cb8ec7789115d91db5f0cbb5/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "8a1693731bd312bebbfa6fab702b19aa191955cc7f0344078b1489e536de1d4f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans/blob/db542c85c462fcf3cb8ec7789115d91db5f0cbb5/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "12111d0c14b2ce97cff6299dffde7f24923ccab3f80b6c5267755ce8c2395b12",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans/blob/db542c85c462fcf3cb8ec7789115d91db5f0cbb5/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-usa-washington-dc-7972fd98",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc",
+      "commit": "7972fd9869e3fbe08ac946a0b17cbcb42e37bf96",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "4d5c05862ce007314be92275fe01df38c8a4ae8aea597a0d44ac6fdb775382bd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc/blob/7972fd9869e3fbe08ac946a0b17cbcb42e37bf96/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "979e0afb002b6dea36da9781cd34ee3cab6856cd728984fbb77f8bd9935f1e36",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc/blob/7972fd9869e3fbe08ac946a0b17cbcb42e37bf96/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "d7e8236cb7f8b2486671f9944399173e2cd771d8ce15ef8609dba48e222e87b7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc/blob/7972fd9869e3fbe08ac946a0b17cbcb42e37bf96/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-vnm-hanoi-00c61528",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi",
+      "commit": "00c615281021e61074cce46ec4e7e293309ef56d",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "5a0f21b6ff46c242b4b8ff6472e43242e0d373fa382ae80f501ab59aa371c8bc",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi/blob/00c615281021e61074cce46ec4e7e293309ef56d/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "d4eab46dc054626d3fdffab1f36caf151becf796d6033a271b101bb16602a526",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi/blob/00c615281021e61074cce46ec4e7e293309ef56d/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "a30d4afbcd5cc2521975b858c6b5064ad2293b1805be0d10ce1e3724c32b2650",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi/blob/00c615281021e61074cce46ec4e7e293309ef56d/organization.edn"
+        }
+      ]
+    },
+    {
+      "id": "municipality-zaf-cape-town-74e65675",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town",
+      "commit": "74e65675561046df679d8f052caffa2a25931dc3",
+      "files": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7c0ec988e30ace9c1b4405ebf18dca45891aa2a0f4a328149a6a44d4cced1477",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town/blob/74e65675561046df679d8f052caffa2a25931dc3/blueprint.edn"
+        },
+        {
+          "path": "data/datascript-tx.edn",
+          "sha256": "b1be8b9df7bbe5a14e74144210eed64b9fc75c17134d791787be354ab5bf571e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town/blob/74e65675561046df679d8f052caffa2a25931dc3/data/datascript-tx.edn"
+        },
+        {
+          "path": "organization.edn",
+          "sha256": "b18ea97eabffe25faab8a85c290feff37d593ceb7a441964cec727e3ca0e7667",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town/blob/74e65675561046df679d8f052caffa2a25931dc3/organization.edn"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,17 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+;; This repo is NOT the municipality and never acts as it.
+{:name-en "Beijing Municipality"
+ :name-local "北京市"
+ :official-url "https://www.beijing.gov.cn/"
+ ;; :wikidata deliberately absent -- no Wikidata item was fetched and read
+ ;; for this entry, and this repo does not record identifiers it did not
+ ;; verify. Add it when someone actually checks the item.
+ :ordinance-database-url "https://www.beijing.gov.cn/zhengce/dfxfg/"
+ :ordinance-database-note "地方性法规 (local regulations) section of 首都之窗, the Beijing municipal government portal — the section both ordinance entries were read from"
+ :head-role-note "institutional office title only (北京市市长 / Mayor, and 北京市人民代表大会常务委员会 / Standing Committee of the Beijing Municipal People's Congress, which enacts the 地方性法规 catalogued here); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Beijing" :line-local "北京市" :country "chn"
+      :kind "direct-administered municipality (直辖市) and national capital"
+      :provenance "https://www.beijing.gov.cn/"
+      :last-verified "2026-07-27" :sourcing "authoritative"}
+ :sourced-from "verified directly on 2026-07-27 by fetching each cited beijing.gov.cn page over HTTP(S) and reading its rendered text, including the 控制吸烟条例 header line (通过/修正 dates) and the 生活垃圾管理条例 amendment decision's metadata block (发文机构/发文字号/成文日期/实施日期/发布日期)"}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T12:52:29.837782Z",
+  "generated": "2026-11-17T13:12:29.329282Z",
   "types": [
     {
       "type": "agent",
@@ -24,7 +24,7 @@
     },
     {
       "type": "skill",
-      "count": 69,
+      "count": 70,
       "categories": [
         {
           "name": "devops",
@@ -32,7 +32,7 @@
         },
         {
           "name": "knowledge",
-          "count": 1
+          "count": 2
         },
         {
           "name": "operations",
@@ -54,7 +54,7 @@
     },
     {
       "type": "workflow",
-      "count": 2,
+      "count": 3,
       "categories": []
     }
   ]

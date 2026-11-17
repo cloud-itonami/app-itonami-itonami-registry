@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "warsaw.ustawa-ustroj-warszawy-2002"
+             :title "Ustawa z dnia 15 marca 2002 r. o ustroju miasta stołecznego Warszawy"
+             :municipality "warsaw"
+             :country "POL"
+             :kind :local-act
+             :number "Dz.U. 2002 Nr 41 poz. 361"
+             :url "https://www.up.warszawa.pl/prawo/ustroj230511.pdf"
+             :url-provenance :official-kancelaria-sejmu-mirror
+             :enacted-date "2002-03-15"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "warsaw.uchwala-xxxix-1587-2026"
+             :title "Uchwała Nr XXXIX/1587/2026 Rady m.st. Warszawy (naming of Primary School No. 396)"
+             :municipality "warsaw"
+             :country "POL"
+             :kind :ordinance
+             :number "Uchwała Nr XXXIX/1587/2026"
+             :url "https://eto.um.warszawa.pl/category/215/announcement/156845"
+             :url-provenance :official-eto-um-warszawa-pl
+             :enacted-date "2026-07-02"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

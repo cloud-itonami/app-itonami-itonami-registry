@@ -1,0 +1,9 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Special Capital Region of Jakarta (DKI Jakarta)"
+ :name-local "Daerah Khusus Ibukota Jakarta"
+ :official-url "https://jdih.jakarta.go.id/"
+ :wikidata "Q3630"
+ :head-role-note "institutional office title only (Governor of Jakarta); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Jakarta" :country "idn" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3630" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-16 -- as of this tick, Indonesia's Constitutional Court has confirmed Jakarta REMAINS the official capital, not Nusantara (the planned new capital in East Kalimantan, whose transition remains incomplete and is targeted only as a 'political capital' by 2028 under a 2025 policy reclassification) -- Jakarta's designation here is current and correct, not affected by the ongoing relocation process. Both catalog entries directly confirmed via jdih.jakarta.go.id (Jakarta's own Legal Documentation and Information Network): one via a PDF cover page read, one via the site's own HTML regulation-detail page"}

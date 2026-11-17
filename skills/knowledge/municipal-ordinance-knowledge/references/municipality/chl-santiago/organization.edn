@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Municipality of Santiago (Comuna de Santiago)"
+ :name-local "Municipalidad de Santiago"
+ :official-url "https://www.munistgo.cl/"
+ :wikidata "Q2887"
+ :ordinance-database-url "https://documentos.munistgo.cl/category/decretos-y-ordenanzas/"
+ :head-role-note "institutional office title only (Alcalde/Alcaldesa, and Concejo Municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Santiago" :country "chl" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2887" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- transparencia.munistgo.cl's PDF hit a TLS certificate error ('unable to verify the first certificate'), a new failure class for this family; both entries here instead cite documentos.munistgo.cl's own decretos-y-ordenanzas listing page, which rendered cleanly with explicit dates"}

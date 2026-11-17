@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris files.
+
+[#:ordinance{:id "amsterdam.algemene-plaatselijke-verordening-2008"
+             :title "Algemene Plaatselijke Verordening 2008 (General Local Bylaw)"
+             :municipality "amsterdam"
+             :country "NLD"
+             :kind :ordinance
+             :number "CVDR72510"
+             :url "https://lokaleregelgeving.overheid.nl/CVDR72510/1"
+             :url-provenance :official-overheid-nl-lokaleregelgeving
+             :enacted-date "2008-11-01"
+             :retrieved-at "2026-07-15"
+             :topic [:public-order :licensing]}
+ #:ordinance{:id "amsterdam.huisvestingsverordening-2020"
+             :title "Huisvestingsverordening Amsterdam 2020 (Housing Ordinance)"
+             :municipality "amsterdam"
+             :country "NLD"
+             :kind :ordinance
+             :number "CVDR635633"
+             :url "https://lokaleregelgeving.overheid.nl/CVDR635633/1"
+             :url-provenance :official-overheid-nl-lokaleregelgeving
+             :enacted-date "2020-01-01"
+             :retrieved-at "2026-07-15"
+             :topic [:housing :short-term-rental]}]

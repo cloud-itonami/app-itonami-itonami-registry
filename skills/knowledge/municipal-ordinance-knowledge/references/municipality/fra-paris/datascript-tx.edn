@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin files.
+
+[#:ordinance{:id "paris.reglement-locaux-commerciaux-meubles-tourisme"
+             :title "Règlement municipal fixant les conditions de délivrance des autorisations visant la location de locaux à usage commercial en meublés de tourisme"
+             :municipality "paris"
+             :country "FRA"
+             :kind :ordinance
+             :number "délibération 2025 DLH 106"
+             :url "https://cdn.paris.fr/paris/2025/04/18/reglement-municipal-locaux-commerciaux_avril-2025-dIoN.pdf"
+             :url-provenance :official-ville-de-paris
+             :enacted-date "2025-04-11"
+             :last-revised-date "2025-04-18"
+             :retrieved-at "2026-07-15"
+             :topic [:short-term-rental :zoning]}
+ #:ordinance{:id "paris.reglement-terrasses-etalages"
+             :title "Règlement des Terrasses et Étalages"
+             :municipality "paris"
+             :country "FRA"
+             :kind :ordinance
+             :number "arrêté municipal du 11 juin 2011"
+             :url "https://dematpr.apps.paris.fr/dematpr/doc/Reglement_Etalages_Terrasses.pdf"
+             :url-provenance :official-ville-de-paris
+             :enacted-date "2011-06-11"
+             :last-revised-date "2023-12-13"
+             :retrieved-at "2026-07-15"
+             :topic [:public-space :licensing]}]

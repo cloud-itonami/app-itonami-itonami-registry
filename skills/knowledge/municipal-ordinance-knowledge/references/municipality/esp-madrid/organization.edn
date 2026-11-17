@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Alcalde/Alcaldesa) — no personal names.
+{:name-en "City of Madrid"
+ :name-local "Ayuntamiento de Madrid"
+ :official-url "https://www.madrid.es/"
+ :wikidata "Q2807"
+ :ordinance-database-url "https://transparencia.madrid.es/"
+ :head-role-note "institutional office title only (Alcalde/Alcaldesa); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Madrid" :country "esp" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2807" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- madrid.es's own PDF re-publications rendered with a broken font (blank pages, an Apache FOP artifact), so both entries cite transparencia.madrid.es's HTML 'Huella normativa' pages instead, which rendered fully"}

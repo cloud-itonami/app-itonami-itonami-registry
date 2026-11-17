@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "tegucigalpa.decreto-134-90-ley-de-municipalidades"
+             :title "Ley de Municipalidades (Decreto Número 134-90 del Congreso Nacional de Honduras)"
+             :municipality "tegucigalpa"
+             :country "HND"
+             :kind :local-act
+             :number "Decreto 134-90"
+             :url "https://www.tsc.gob.hn/web/leyes/Ley_de_Municipalidades.pdf"
+             :url-provenance :official-tsc-honduras
+             :enacted-date "1990-10-29"
+             :retrieved-at "2026-07-18"
+             :topic [:governance]}
+ #:ordinance{:id "tegucigalpa.1578-founding"
+             :title "Tegucigalpa was founded as Real de Minas de San Miguel de Tegucigalpa on 29 September 1578 by Spanish settlers"
+             :municipality "tegucigalpa"
+             :country "HND"
+             :kind :local-act
+             :number "1578"
+             :url "https://en.wikipedia.org/wiki/Tegucigalpa"
+             :url-provenance :wikipedia-and-wikidata-corroborated
+             :enacted-date "1578-09-29"
+             :retrieved-at "2026-07-18"
+             :topic [:governance]}]

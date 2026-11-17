@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Barcelona City Council"
+ :name-local "Ajuntament de Barcelona"
+ :official-url "https://www.barcelona.cat/"
+ :wikidata "Q1492"
+ :ordinance-database-url "https://w123.bcn.cat/APPS/egaseta/"
+ :head-role-note "institutional office title only (Alcalde/Alcaldessa de Barcelona, and Plenari del Consell Municipal); personal names of current or past office-holders are intentionally NOT stored, including names appearing incidentally in primary-source Gaseta Municipal documents cited here"
+ :hq {:line-en "Barcelona" :country "esp" :kind "capital of the province of Barcelona (not national capital; Madrid is)" :provenance "https://www.wikidata.org/wiki/Q1492" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17 -- note: ajuntament.barcelona.cat refused automated fetches (HTTP 418), so verification used barcelona.cat, seuelectronica.ajuntament.barcelona.cat and the Gaseta Municipal on w123.bcn.cat"}

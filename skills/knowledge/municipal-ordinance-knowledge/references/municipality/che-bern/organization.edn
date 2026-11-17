@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Bern (Stadt Bern)"
+ :official-url "https://www.bern.ch/"
+ :wikidata "Q70"
+ :head-role-note "institutional office title only (Mayor of Bern / Stadtpräsident); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Bern" :country "che" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q70" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Switzerland has NO de jure capital designation in its Federal Constitution; Bern serves as the de facto seat of federal government ('Bundesstadt', federal city) since a Federal Assembly vote on 28 November 1848, formally confirmed 27 December 1848 -- a stable, well-understood arrangement (not an ongoing ambiguity like Egypt/Indonesia checked earlier this session), documented transparently here rather than glossing over the constitutional silence. This catalog's entries cite the City of Bern's own municipal legal texts directly."}

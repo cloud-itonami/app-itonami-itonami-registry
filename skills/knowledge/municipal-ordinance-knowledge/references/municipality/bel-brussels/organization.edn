@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Brussels"
+ :name-local "Ville de Bruxelles / Stad Brussel"
+ :official-url "https://www.bruxelles.be/"
+ :wikidata "Q239"
+ :ordinance-database-url "https://www.bruxelles.be/reglements-communaux"
+ :head-role-note "institutional office title only (Bourgmestre / Burgemeester, and Conseil communal / Gemeenteraad); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Brussels" :country "bel" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q239" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite bruxelles.be's own 'Règlements communaux' page, which rendered cleanly with explicit adoption/posting dates. lisboa.pt (attempted first for Lisbon) blocked WebFetch entirely (HTTP 403 even at the domain root), so Lisbon was abandoned in favor of Brussels"}

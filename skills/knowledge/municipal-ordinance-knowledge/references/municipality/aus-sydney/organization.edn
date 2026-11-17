@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Lord Mayor of Sydney) — no personal names.
+{:name-en "City of Sydney"
+ :name-local "City of Sydney"
+ :official-url "https://www.cityofsydney.nsw.gov.au/"
+ :wikidata "Q3130"
+ :ordinance-database-url "https://www.cityofsydney.nsw.gov.au/policies"
+ :head-role-note "institutional office title only (Lord Mayor of Sydney); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Sydney" :country "aus" :kind "city" :provenance "https://www.wikidata.org/wiki/Q3130" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- direct PDF links 404'd/403'd, so both entries cite cityofsydney.nsw.gov.au's own HTML policy pages instead, which rendered cleanly with publication/last-modified dates"}

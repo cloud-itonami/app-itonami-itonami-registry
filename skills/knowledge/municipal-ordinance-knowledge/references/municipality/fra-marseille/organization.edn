@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Marseille"
+ :name-local "Ville de Marseille"
+ :official-url "https://www.marseille.fr/"
+ :wikidata "Q23482"
+ :ordinance-database-url "https://mes-demarches.marseille.fr/autorisation-voie-publique/"
+ :head-role-note "institutional office title only (Maire de Marseille, and Conseil municipal); personal names of current or past office-holders are intentionally NOT stored, including names appearing incidentally in the signature blocks of the primary-source arretes read to verify the entries here"
+ :hq {:line-en "Marseille" :country "fra" :kind "second-largest city of France (not national capital; Paris is)" :provenance "https://www.wikidata.org/wiki/Q23482" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17 -- www.marseille.fr itself answered direct fetches with an HTTP 403 'Site en maintenance' page that day, so both ordinance entries cite PDFs served by the official subdomain mes-demarches.marseille.fr; each PDF carries the Ville de Marseille letterhead (which itself displays www.marseille.fr)"}
