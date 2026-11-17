@@ -545,6 +545,74 @@
         {
           "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
           "entry": "profile/murakumo-adnetwork"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-source-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-ontology-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-wikidata-class-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-sitelink-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/awai-state-store-policy"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotobase-ldbc-qualification"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hermes-fleet-cron-health"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/mail-relay-inbox-observation"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/murakumo-confidential-inference"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/murakumo-edge-ring"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotobase-bytes-plane"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/utsushi-jvmfree-bot"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotoba-capability-extension"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/git-cleanup-conflict"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kbb-config-and-classpath"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/tenken-declarative-config"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/oppai-producer-hourly"
         }
       ]
     },
@@ -848,6 +916,10 @@
         {
           "sourceCommit": "2233648e8757628f8ecfb97127ae498ceaa73692",
           "entry": "skill/itonami-measured-proposal-handoff"
+        },
+        {
+          "sourceCommit": "1727f03acd7e01020ec8f554dee66f5c92e0b926",
+          "entry": "skill/awai-arb-tick"
         }
       ]
     },
@@ -976,6 +1048,34 @@
         {
           "sourceCommit": "5c803ed4fa159742e11e2d050dc449b58c7ff233",
           "entry": "skill/itonami-declarative-config-evidence"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/transport-evidence-bot"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/isco4-kotoba-migration"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/nbb-to-kbb-migration"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/java-kotoba-migration"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/kbb-test-suite-fix"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/git-operations"
+        },
+        {
+          "sourceCommit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+          "entry": "skill/itonami-business-bots"
         }
       ]
     },
@@ -1665,6 +1765,10 @@
         {
           "sourceCommit": "7de41855639c75b561ab80981fc3a6c0d49ff9b5",
           "entry": "skill/itonami-knowledge-publication-receipts"
+        },
+        {
+          "sourceCommit": "3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
+          "entry": "skill/hyakka-knowledge-pipeline"
         }
       ]
     },
@@ -4043,6 +4147,34 @@
         {
           "sourceCommit": "b8b7fb809fedc9ea996cfcdc10172465abb398a5",
           "entry": "skill/itonami-app-operations"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/itonami-setup"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/agency-sales-operations"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/itonami-site-teams"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/itonami-app"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/agency-ad-operations"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/isekai-network-team"
+        },
+        {
+          "sourceCommit": "aa7ea0cb145a2c9b66e68b4fd029f3fd51bf88b8",
+          "entry": "skill/reuse-case-operations"
         }
       ]
     },
@@ -41780,6 +41912,10 @@
         {
           "sourceCommit": "51ed1d2e1c8b41dd42f67370294403deb0bcef4f",
           "entry": "profile/dougaka"
+        },
+        {
+          "sourceCommit": "7b8f6adb5ba59ae70b1335a9f985eb434b50cb56",
+          "entry": "skill/rhythm-fitness-video"
         }
       ]
     },
@@ -48557,6 +48693,10 @@
         {
           "sourceCommit": "3b653cf863d3801d97b4620ed41a8e4084493442",
           "entry": "skill/itonami-ioc-ledger-curation"
+        },
+        {
+          "sourceCommit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
+          "entry": "skill/yabai-intel-ioc-iteration"
         }
       ]
     },
