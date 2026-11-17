@@ -466,7 +466,7 @@
       "payloadSha256": "0c173f526408db21b308fa47b35bca15f033edd14bb4a430e028176874a42484",
       "payloadBytes": 13659,
       "leaves": 1,
-      "repository": "cloud-itonami/app-wvme",
+      "repository": "cloud-itonami/app-itonami-wvme",
       "sourceCommit": "1c10c0fe944ab078062a58f788925913b8c6bf99",
       "files": 5,
       "excluded": []
@@ -830,7 +830,7 @@
       "payloadSha256": "abcac3fe99adc4d60e5d465c63e5851a7ef3a46d37fb36f5fd63a0214b173686",
       "payloadBytes": 66456,
       "leaves": 2,
-      "repository": "cloud-itonami/app-bpmn",
+      "repository": "cloud-itonami/app-itonami-bpmn",
       "sourceCommit": "3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
       "files": 12,
       "excluded": []
@@ -1965,7 +1965,7 @@
       "payloadSha256": "8270e40a03d46f5f9dd8273c4590cd55db50cb7f1f8b7bc8e74446a8ea4eb7ba",
       "payloadBytes": 467946,
       "leaves": 8,
-      "repository": "cloud-itonami/app-mail-relay",
+      "repository": "cloud-itonami/app-itonami-mail-relay",
       "sourceCommit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "files": 39,
       "excluded": []
@@ -12587,7 +12587,7 @@
       "payloadSha256": "1ec7e40b60fe4c8759a9529342c344336709b2a1881685a7671f12475e60997c",
       "payloadBytes": 6452,
       "leaves": 1,
-      "repository": "cloud-itonami/shinshi-growth-actor",
+      "repository": "cloud-itonami/app-itonami-shinshi-growth",
       "sourceCommit": "af5f41b8650f43794bb1bdc785edc723001abd4f",
       "files": 3,
       "excluded": []
@@ -12678,7 +12678,7 @@
       "payloadSha256": "c5c5680c507eb0a3b89d3ad863c6f2b5154121e91ecc9a0dbe3a0478e8740ec7",
       "payloadBytes": 11813,
       "leaves": 1,
-      "repository": "cloud-itonami/app-mail-relay",
+      "repository": "cloud-itonami/app-itonami-mail-relay",
       "sourceCommit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "files": 3,
       "excluded": []
@@ -12808,7 +12808,7 @@
       "payloadSha256": "1316623fcb64435876dd76530960d25f894f7fbe2a9a8de078d6a408e10b11cd",
       "payloadBytes": 8663,
       "leaves": 1,
-      "repository": "cloud-itonami/app-telecom",
+      "repository": "cloud-itonami/app-itonami-telecom",
       "sourceCommit": "87b7169da315691e1e361dcc53e09d90fb56a398",
       "files": 4,
       "excluded": []

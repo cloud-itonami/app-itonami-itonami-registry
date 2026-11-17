@@ -1633,7 +1633,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-bpmn",
+      "repository": "cloud-itonami/app-itonami-bpmn",
       "defaultBranch": "main",
       "commit": "7de41855639c75b561ab80981fc3a6c0d49ff9b5",
       "archived": false,
@@ -2454,7 +2454,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-mail-relay",
+      "repository": "cloud-itonami/app-itonami-mail-relay",
       "defaultBranch": "main",
       "commit": "2778fc7dc0ffa474b9aacb5a9c62b959ffa13081",
       "archived": false,
@@ -3301,7 +3301,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-telecom",
+      "repository": "cloud-itonami/app-itonami-telecom",
       "defaultBranch": "main",
       "commit": "87b7169da315691e1e361dcc53e09d90fb56a398",
       "archived": false,
@@ -3400,7 +3400,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-wvme",
+      "repository": "cloud-itonami/app-itonami-wvme",
       "defaultBranch": "main",
       "commit": "cdd0bfc4c344626dba345d7e0cc01952885a3eac",
       "archived": false,
@@ -47116,7 +47116,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/shinshi-growth-actor",
+      "repository": "cloud-itonami/app-itonami-shinshi-growth",
       "defaultBranch": "main",
       "commit": "af5f41b8650f43794bb1bdc785edc723001abd4f",
       "archived": false,

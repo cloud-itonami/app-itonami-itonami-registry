@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "tsuushin — 通信業務代替 bot（propose-only） — cloud-itonami の通信（telecom）業務の代替システムを、ギャップ台帳に沿って進める bot。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-telecom/tree/87b7169da315691e1e361dcc53e09d90fb56a398",
+  "source": "https://github.com/cloud-itonami/app-itonami-telecom/tree/87b7169da315691e1e361dcc53e09d90fb56a398",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-telecom",
+    "repository": "cloud-itonami/app-itonami-telecom",
     "commit": "87b7169da315691e1e361dcc53e09d90fb56a398",
     "path": "hermes/profiles/tsuushin",
     "checksum": "sha256-tree:f54edba86c1443274634f4e65e7db83ef1a2f166690c0b6f8a46f14aa5875e8d",

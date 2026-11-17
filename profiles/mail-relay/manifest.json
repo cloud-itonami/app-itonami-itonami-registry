@@ -4,16 +4,16 @@
   "id": "mail-relay",
   "name": "mail-relay",
   "version": "0.1.0",
-  "description": "mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-mail-relay`（relay.itonami.cloud、エージェント向けの",
+  "description": "mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-itonami-mail-relay`（relay.itonami.cloud、エージェント向けの",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
+  "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-mail-relay",
+    "repository": "cloud-itonami/app-itonami-mail-relay",
     "commit": "e92b9b6304b4e02410fdb4e9919185e08b7229a3",
     "path": "hermes/profiles/mail-relay",
     "checksum": "sha256-tree:d5f2f9bfc511afb98f839a4559f413b6264648da7ed3f74949183db1263ed220",

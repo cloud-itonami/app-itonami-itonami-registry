@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T00:34:59.860595Z",
+  "generated": "2026-11-17T01:58:53.850020Z",
   "count": 1985,
   "entries": [
     {
@@ -213,14 +213,14 @@
       "version": "0.1.0",
       "description": "Observe sealed relay delivery metadata within caller-authorized scope.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
+      "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
       },
       "license": "MIT",
       "path": "agents/sealed-inbox-observer",
-      "checksum": "sha256:5993fd4100ce0449d1efcfa88dc9c05e25e569af5dfd59233e3e0774d55702cd"
+      "checksum": "sha256:67b568fd4a7441f29948d0b4b4cc98113aa618523541db34a14903e6aeaf8577"
     },
     {
       "id": "simulation-pin-reviewer",
@@ -23565,13 +23565,13 @@
       "version": "0.1.0",
       "description": "cybersecurity product maintenance bot - keeps zap-proxy, cybersecurity, opencloud, app-wvme test suites green under kbb (measured 2026-09-13). Propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-wvme/tree/1c10c0fe944ab078062a58f788925913b8c6bf99",
+      "source": "https://github.com/cloud-itonami/app-itonami-wvme/tree/1c10c0fe944ab078062a58f788925913b8c6bf99",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cyber-maint",
-      "checksum": "sha256:735171dd40ea35baa001047d18f8ac9f0c09611c16102b9c7817680b9aa11f1f",
+      "checksum": "sha256:05e73f3e9ffd3bb8f58acef9e84a21ef46bc521aaa80e406c4513fd621809f83",
       "profileChecksum": "sha256-tree:ceadb8e855966a1674b9f4be8a6de4ea1248c2e965bfc7fd7470b2074186bd08"
     },
     {
@@ -24013,13 +24013,13 @@
       "version": "0.1.0",
       "description": "industry-ontology-bpmn — 全産業 (ISIC 21 大分類 A〜U / 467 blueprint) の現状分析と改善活動を行い、オントロジー (wiki.yataverse.com) と BPMN プロセス定義 (app-bpmn) を記録・提案する bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
+      "source": "https://github.com/cloud-itonami/app-itonami-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/industry-ontology-bpmn",
-      "checksum": "sha256:4de78b08f66e2f6cdcce51a1a7f764c080933d9fae5fc29c0a0099a3812fa87f",
+      "checksum": "sha256:51cc7e314a783abab4fa85b47ec267130c7765740db5eb7e65bad59fed103db4",
       "profileChecksum": "sha256-tree:7fda792be382c85c44d372be087ccf1ad794ad1734c5fe69b964aed35139b4a8"
     },
     {
@@ -25403,15 +25403,15 @@
       "type": "profile",
       "name": "mail-relay",
       "version": "0.1.0",
-      "description": "mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-mail-relay`（relay.itonami.cloud、エージェント向けの",
+      "description": "mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-itonami-mail-relay`（relay.itonami.cloud、エージェント向けの",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
+      "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/mail-relay",
-      "checksum": "sha256:4fb2f4855d8f1d178023f4d1a4c93f61509282b1d54d265586f9e4422d1857ae",
+      "checksum": "sha256:334c42f81f170b303fbba4474f9c39abfc00938be426eea4861754b2dbe1d7fc",
       "profileChecksum": "sha256-tree:d5f2f9bfc511afb98f839a4559f413b6264648da7ed3f74949183db1263ed220"
     },
     {
@@ -36797,13 +36797,13 @@
       "version": "0.1.0",
       "description": "shinshi-mktg — growth for shinshi.club — shinshi.club は L4 adult creator platform。NSFW は paid 集客が全封鎖 → **organic SEO が唯一 scalable な集客**で、事業の律速。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/shinshi-growth-actor/tree/af5f41b8650f43794bb1bdc785edc723001abd4f",
+      "source": "https://github.com/cloud-itonami/app-itonami-shinshi-growth/tree/af5f41b8650f43794bb1bdc785edc723001abd4f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/shinshi-mktg",
-      "checksum": "sha256:8aaee7246fefadb8f6d5dc8d35d082abceb5fe812f23fa67b8072a81a780423b",
+      "checksum": "sha256:f82fd0b9fe22a4cc8190a6deade743f277170ff0f465c16a07a948b034c95d4c",
       "profileChecksum": "sha256-tree:ebaa84d0bbc6690d8c80546f7c3f97f5a2af4fae04b0a63cc04871698b96f43b"
     },
     {
@@ -36909,13 +36909,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
+      "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/e92b9b6304b4e02410fdb4e9919185e08b7229a3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/tobari",
-      "checksum": "sha256:b12390821a55fbc40b5006beda17034b3d6df7a969edba2813b26f09d02e9781",
+      "checksum": "sha256:ccefad0e4acff1aeebb60e662a4049547c1f43c7e7925fb2ad3ae1b8a44b52b6",
       "profileChecksum": "sha256-tree:5a495f005df3289a185e7a9cf495b6712cfe3e8ad27486068f61b967b5254f9f"
     },
     {
@@ -37069,13 +37069,13 @@
       "version": "0.1.0",
       "description": "tsuushin — 通信業務代替 bot（propose-only） — cloud-itonami の通信（telecom）業務の代替システムを、ギャップ台帳に沿って進める bot。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-telecom/tree/87b7169da315691e1e361dcc53e09d90fb56a398",
+      "source": "https://github.com/cloud-itonami/app-itonami-telecom/tree/87b7169da315691e1e361dcc53e09d90fb56a398",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/tsuushin",
-      "checksum": "sha256:5e3e9538c8131011e83a06f597731e294272bd0c1f3ff86678c6ac6b5dcd03cc",
+      "checksum": "sha256:d04ee5e69e7bcb113bf3608c3592b8fed8fa76c1a60b223ed7f5a814ac8e5b35",
       "profileChecksum": "sha256-tree:f54edba86c1443274634f4e65e7db83ef1a2f166690c0b6f8a46f14aa5875e8d"
     },
     {
@@ -37625,7 +37625,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-bpmn/tree/7de41855639c75b561ab80981fc3a6c0d49ff9b5",
+      "source": "https://github.com/cloud-itonami/app-itonami-bpmn/tree/7de41855639c75b561ab80981fc3a6c0d49ff9b5",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -37636,7 +37636,7 @@
       "description": "Check a knowledge ledger-to-index publication by separating source persistence, block readback and serving-root evidence.",
       "category": "operations",
       "path": "skills/operations/itonami-knowledge-publication-receipts",
-      "checksum": "sha256:47c243a078438dbd298b67186cc472ca97cee9e7044e96c0051064afaaef929f"
+      "checksum": "sha256:f0fa441de7e590cd15f92afa103cc1e61f42046719fae5f75f25a4d734682b32"
     },
     {
       "version": "0.1.0",
@@ -37801,7 +37801,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
+      "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -37812,7 +37812,7 @@
       "description": "Observe sealed inbox metadata through an authorized mail-relay client; use for delivery and relay health checks.",
       "category": "operations",
       "path": "skills/operations/itonami-sealed-inbox-observation",
-      "checksum": "sha256:6c5a69813bc5f1ecf2e4914735ed45319f7dcef5784b7ac8918bb27d605751a4"
+      "checksum": "sha256:cebc0338e9ff8f2f7be549b8e509695d028ede8219ab0c527269ba3a7a5c61a2"
     },
     {
       "version": "0.1.0",

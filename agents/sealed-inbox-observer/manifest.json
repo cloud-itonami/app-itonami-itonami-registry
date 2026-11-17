@@ -7,7 +7,7 @@
   "description": "Observe sealed relay delivery metadata within caller-authorized scope.",
   "author": "cloud-itonami",
   "license": "MIT",
-  "source": "https://github.com/cloud-itonami/app-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
+  "source": "https://github.com/cloud-itonami/app-itonami-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434",
   "compatibility": {
     "hermes": "*",
     "desktop": "*"

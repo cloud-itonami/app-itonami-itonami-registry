@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "cybersecurity product maintenance bot - keeps zap-proxy, cybersecurity, opencloud, app-wvme test suites green under kbb (measured 2026-09-13). Propose-only.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-wvme/tree/1c10c0fe944ab078062a58f788925913b8c6bf99",
+  "source": "https://github.com/cloud-itonami/app-itonami-wvme/tree/1c10c0fe944ab078062a58f788925913b8c6bf99",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-wvme",
+    "repository": "cloud-itonami/app-itonami-wvme",
     "commit": "1c10c0fe944ab078062a58f788925913b8c6bf99",
     "path": "hermes/profiles/cyber-maint",
     "checksum": "sha256-tree:ceadb8e855966a1674b9f4be8a6de4ea1248c2e965bfc7fd7470b2074186bd08",
