@@ -87153,10 +87153,6 @@
       "reason": "Reviewed 2026-10-11 at d431c0c99383d3d06bf3b67f9cbd25cf2435d0a6: Core tool schemas and implementations are native to the profile-aware runtime and its sandbox/disabled toolsets. Reuse role scaffolds; do not register a second terminal/memory capability outside that runtime.",
       "registrations": [
         {
-          "sourceCommit": "6f7df914606f84e317786f302511f2545f721574",
-          "entry": "profile/awai-op-approver"
-        },
-        {
           "sourceCommit": "491a2bc81e16b24987fac6fc388737fbb73332f6",
           "entry": "skill/itonami-bot-registration"
         }
