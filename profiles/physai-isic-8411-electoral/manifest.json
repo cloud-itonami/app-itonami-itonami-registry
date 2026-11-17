@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-8411-electoral: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8411-electoral/tree/0d174570e8eab8896ae150c97f8e2bded65f984c",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8411-electoral/tree/bcbb6a4a1dfd4c8ce4e926ba5c9322453b405ed0",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-8411-electoral",
-    "commit": "0d174570e8eab8896ae150c97f8e2bded65f984c",
+    "commit": "bcbb6a4a1dfd4c8ce4e926ba5c9322453b405ed0",
     "path": "hermes/profiles/physai-isic-8411-electoral",
     "checksum": "sha256-tree:4b6e3a9870b669d144d271066bcfeacacdad4a71e4eca9dfde3f2a7f8198d004",
     "files": [

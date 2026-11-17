@@ -500,7 +500,7 @@
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-4920",
-      "commit": "8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
+      "commit": "dc61b9bd21d93f56537040fe12618dc18cadbd8f",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
       "decision": "source-only",
@@ -509,27 +509,27 @@
         {
           "path": "LICENSE",
           "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/dc61b9bd21d93f56537040fe12618dc18cadbd8f/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "f9453ffc0b17154f4976e2374d6013c8d756f599a26d990544f07d91b6a6f7eb",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/dc61b9bd21d93f56537040fe12618dc18cadbd8f/README.md"
         },
         {
           "path": "hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/dc61b9bd21d93f56537040fe12618dc18cadbd8f/hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md",
           "sha256": "3b5e4328ab821db3c4080155b0850a84528bad3fbefbfde7d1ff18c367bebc32",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/dc61b9bd21d93f56537040fe12618dc18cadbd8f/hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "46f01a64dce485525feefb3180e16075c2b7d0fa10aa65acf6b0c1e9b0c1f06c",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/dc61b9bd21d93f56537040fe12618dc18cadbd8f/nbb.edn"
         }
       ],
       "liveOperations": false,
@@ -537,7 +537,7 @@
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-8121",
-      "commit": "7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a",
+      "commit": "4ade664a708d985ead088ece8d1747df949a90e3",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
       "decision": "registered",
@@ -546,17 +546,17 @@
         {
           "path": "LICENSE",
           "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/4ade664a708d985ead088ece8d1747df949a90e3/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "57a72877ebc89fa1b3d98293ad37b0c986fb409ca275524ebccacf8a242f4465",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/4ade664a708d985ead088ece8d1747df949a90e3/README.md"
         },
         {
           "path": "hermes/profiles/samu/skills/itonami-business-bots/SKILL.md",
           "sha256": "4dd5f8d222468bb57f2494c6d4ba2a295f4c5fbcc8ad2c8d3341591770562733",
-          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/hermes/profiles/samu/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/4ade664a708d985ead088ece8d1747df949a90e3/hermes/profiles/samu/skills/itonami-business-bots/SKILL.md"
         }
       ],
       "liveOperations": false,
