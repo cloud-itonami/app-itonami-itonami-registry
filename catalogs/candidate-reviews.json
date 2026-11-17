@@ -187,7 +187,7 @@
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/app-bpmn",
+      "repository": "cloud-itonami/app-itonami-bpmn",
       "commit": "7de41855639c75b561ab80981fc3a6c0d49ff9b5",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -197,12 +197,12 @@
         {
           "path": "README.md",
           "sha256": "16cd231bd584784b041f3a4cbfea9135ac1f8642e52138b45a30fb2a3747a5a6",
-          "url": "https://github.com/cloud-itonami/app-bpmn/blob/7de41855639c75b561ab80981fc3a6c0d49ff9b5/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bpmn/blob/7de41855639c75b561ab80981fc3a6c0d49ff9b5/README.md"
         },
         {
           "path": "hermes/profiles/industry-ontology-bpmn/skills/hyakka-knowledge-pipeline/SKILL.md",
           "sha256": "7905e6852037a32468f066b33d4a5b5e72040845186c9bdbda482fc244dd99cc",
-          "url": "https://github.com/cloud-itonami/app-bpmn/blob/7de41855639c75b561ab80981fc3a6c0d49ff9b5/hermes/profiles/industry-ontology-bpmn/skills/hyakka-knowledge-pipeline/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bpmn/blob/7de41855639c75b561ab80981fc3a6c0d49ff9b5/hermes/profiles/industry-ontology-bpmn/skills/hyakka-knowledge-pipeline/SKILL.md"
         }
       ],
       "liveOperations": false,

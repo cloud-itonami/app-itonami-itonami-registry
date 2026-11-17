@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/app-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434
+    source: https://github.com/cloud-itonami/app-itonami-mail-relay/tree/9de19c3f320442a8851beffef5d8c543cd875434
     compatibility:
       hermes: '*'
       desktop: '*'

@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "industry-ontology-bpmn — 全産業 (ISIC 21 大分類 A〜U / 467 blueprint) の現状分析と改善活動を行い、オントロジー (wiki.yataverse.com) と BPMN プロセス定義 (app-bpmn) を記録・提案する bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
+  "source": "https://github.com/cloud-itonami/app-itonami-bpmn/tree/3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-bpmn",
+    "repository": "cloud-itonami/app-itonami-bpmn",
     "commit": "3d31e65e1d838cb6dc57ae4d8907f714d23e33b2",
     "path": "hermes/profiles/industry-ontology-bpmn",
     "checksum": "sha256-tree:7fda792be382c85c44d372be087ccf1ad794ad1734c5fe69b964aed35139b4a8",

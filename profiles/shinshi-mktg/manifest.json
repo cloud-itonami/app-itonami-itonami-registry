@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "shinshi-mktg — growth for shinshi.club — shinshi.club は L4 adult creator platform。NSFW は paid 集客が全封鎖 → **organic SEO が唯一 scalable な集客**で、事業の律速。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/shinshi-growth-actor/tree/af5f41b8650f43794bb1bdc785edc723001abd4f",
+  "source": "https://github.com/cloud-itonami/app-itonami-shinshi-growth/tree/af5f41b8650f43794bb1bdc785edc723001abd4f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/shinshi-growth-actor",
+    "repository": "cloud-itonami/app-itonami-shinshi-growth",
     "commit": "af5f41b8650f43794bb1bdc785edc723001abd4f",
     "path": "hermes/profiles/shinshi-mktg",
     "checksum": "sha256-tree:ebaa84d0bbc6690d8c80546f7c3f97f5a2af4fae04b0a63cc04871698b96f43b",
