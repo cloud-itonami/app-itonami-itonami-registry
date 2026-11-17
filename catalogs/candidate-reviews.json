@@ -585,7 +585,7 @@
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/itonami-registry",
+      "repository": "cloud-itonami/app-itonami-itonami-registry",
       "commit": "59f4b12bbef32c1adf9721410fb6b15f9f42df41",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -595,12 +595,12 @@
         {
           "path": "LICENSE",
           "sha256": "08c387cac85b98f622d31aa60defb2b625513b28f849462a3914c0cb48dd772d",
-          "url": "https://github.com/cloud-itonami/itonami-registry/blob/59f4b12bbef32c1adf9721410fb6b15f9f42df41/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-itonami-registry/blob/59f4b12bbef32c1adf9721410fb6b15f9f42df41/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "afba26f3879e5295742d5691db02cca9c7de3696a9a1480d6258daa2759794ab",
-          "url": "https://github.com/cloud-itonami/itonami-registry/blob/59f4b12bbef32c1adf9721410fb6b15f9f42df41/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-itonami-registry/blob/59f4b12bbef32c1adf9721410fb6b15f9f42df41/README.md"
         }
       ],
       "liveOperations": false,

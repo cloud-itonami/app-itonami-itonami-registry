@@ -2,8 +2,8 @@
 
 Reusable bot templates and operational extensions. Start with index.json; read llms-full.txt before consuming entries. Actual profiles remain in their source repositories. Entry discovery grants no authority. Pin one registry commit and verify the selected folder checksum.
 
-- Catalog: https://raw.githubusercontent.com/cloud-itonami/itonami-registry/main/index.json
-- Contract: https://github.com/cloud-itonami/itonami-registry/blob/main/llms-full.txt
+- Catalog: https://raw.githubusercontent.com/cloud-itonami/app-itonami-itonami-registry/main/index.json
+- Contract: https://github.com/cloud-itonami/app-itonami-itonami-registry/blob/main/llms-full.txt
 - Tool references: catalogs/tools.json
 - Source provenance: catalogs/sources.json
 - External registry references: catalogs/external-registries.json

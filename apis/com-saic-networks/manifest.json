@@ -11,7 +11,7 @@
     "compat",
     "L4"
   ],
-  "source": "https://github.com/cloud-itonami/itonami-registry/tree/7d25aec677a58c1f56cf6a8975e883641149748c/compat/com-saic-networks",
+  "source": "https://github.com/cloud-itonami/app-itonami-itonami-registry/tree/7d25aec677a58c1f56cf6a8975e883641149748c/compat/com-saic-networks",
   "compatibility": {
     "hermes": "none",
     "itonami": "*"
@@ -197,7 +197,7 @@
     "basis": "asserted-by-source-manifest"
   },
   "pin": {
-    "repository": "cloud-itonami/itonami-registry",
+    "repository": "cloud-itonami/app-itonami-itonami-registry",
     "commit": "7d25aec677a58c1f56cf6a8975e883641149748c",
     "path": "compat/com-saic-networks",
     "visibility": "public",

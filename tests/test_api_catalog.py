@@ -73,7 +73,7 @@ class ApiCatalogTests(unittest.TestCase):
 
     def test_compat_pin_resolves_inside_this_registry(self):
         m = json.loads((self.root / 'apis/com-circleci/manifest.json').read_text())
-        self.assertEqual((m['pin']['repository'], m['pin']['path']), ('cloud-itonami/itonami-registry', 'compat/com-circleci'))
+        self.assertEqual((m['pin']['repository'], m['pin']['path']), ('cloud-itonami/app-itonami-itonami-registry', 'compat/com-circleci'))
         self.assertEqual(m['pin']['origin']['repository'], 'kotoba-lang/com-circleci')
         self.assertTrue(m['version'].startswith('1.0.0+' + m['pin']['origin']['commit'][:12]))
 
