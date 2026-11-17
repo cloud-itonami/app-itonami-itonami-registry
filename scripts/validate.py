@@ -235,6 +235,7 @@ def validate(root=ROOT):
     validate_actors(root)
     validate_blueprints(root)
     validate_libraries(root)
+    validate_apps(root)
     validate_compat(root)
     validate_apis(root, catalog, identities, {r['id']: r for r in external['registries']})
     load_declared(root)
@@ -439,6 +440,25 @@ def validate_libraries(root):
         paths = [p['path'] for p in e['payload']]
         if len(set(paths)) != len(paths) or 'deps.edn' not in paths:
             raise ValueError(f"Library payload invalid: {e['id']}")
+
+
+def validate_apps(root):
+    """App source catalog (ADR 0015): references only, pinned, never a Hermes entry, grants nothing."""
+    doc = read(root / 'catalogs/apps.json')
+    schema = read(root / 'schemas/app-sources.schema.json')
+    Draft202012Validator.check_schema(schema)
+    Draft202012Validator(schema).validate(doc)
+    if doc['count'] != len(doc['entries']):
+        raise ValueError('App catalog count mismatch')
+    ids, repos = set(), set()
+    for e in doc['entries']:
+        if e['id'] in ids or e['repository'] in repos:
+            raise ValueError(f"Duplicate app entry: {e['id']}")
+        ids.add(e['id'])
+        repos.add(e['repository'])
+        paths = [p['path'] for p in e['payload']]
+        if len(set(paths)) != len(paths) or (e['digestStatus'] == 'verified') != bool(paths):
+            raise ValueError(f"App payload invalid: {e['id']}")
 
 
 def validate_origin_extract(root, apis):
