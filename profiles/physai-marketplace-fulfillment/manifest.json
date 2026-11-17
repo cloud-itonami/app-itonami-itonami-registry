@@ -4,16 +4,16 @@
   "id": "physai-marketplace-fulfillment",
   "name": "physai-marketplace-fulfillment",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-marketplace-fulfillment: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-marketplace-fulfillment/tree/47c5f97d010a2d2099c3fb05495b8b374199f34e",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/tree/47c5f97d010a2d2099c3fb05495b8b374199f34e",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-marketplace-fulfillment",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment",
     "commit": "47c5f97d010a2d2099c3fb05495b8b374199f34e",
     "path": "hermes/profiles/physai-marketplace-fulfillment",
     "checksum": "sha256-tree:b1646347729f2b936d12a86e790bdb8d362c79d4d98b8e54ebd7def654b53196",

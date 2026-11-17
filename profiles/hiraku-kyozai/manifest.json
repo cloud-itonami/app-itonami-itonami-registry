@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "hiraku-kyozai: writes one learning material per tick (やさしい日本語 / multilingual / age-staged) with kotoba LLM for children, youth and guardians facing information gaps; a script gate checks stereotypes, engagement bait and fabricated contacts.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-hiraku/tree/1074e64bb56f6360228ebdbb6eff32d2ef67550e",
+  "source": "https://github.com/cloud-itonami/app-itonami-hiraku/tree/1074e64bb56f6360228ebdbb6eff32d2ef67550e",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-hiraku",
+    "repository": "cloud-itonami/app-itonami-hiraku",
     "commit": "1074e64bb56f6360228ebdbb6eff32d2ef67550e",
     "path": "hermes/profiles/hiraku-kyozai",
     "checksum": "sha256-tree:ff22b01e1ba0939ae1538a32406eb9b24021fa8d5ed51cddcb0e5ec2929e83c8",

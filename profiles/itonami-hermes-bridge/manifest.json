@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Hermes ⇔ Itonami bridge — keeps Itonami agent, profiles and registry compatible with Hermes (API, profile, registry) and works the handoff list as PRs.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-hermes-bridge",
     "checksum": "sha256-tree:783c6c47a1b152a3a49bf328fd72492e6a1912e600c6be2958ea021f16066c23",

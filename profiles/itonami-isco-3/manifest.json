@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 3 Technicians and Associate Professionals occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
+  "source": "https://github.com/cloud-itonami/app-itonami-isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isco",
+    "repository": "cloud-itonami/app-itonami-isco",
     "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-3",
     "checksum": "sha256-tree:c9ac4466a814ad794807d2a73454dc849af4b9c039eb7b408d4e8cadc233041e",

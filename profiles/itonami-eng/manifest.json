@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami-eng — engineer for itonami.cloud — itonami.cloud is L3 business operator — SaaS across every industry/occupation, plus an investment platform.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-eng",
     "checksum": "sha256-tree:a3e343a80cc95a381d8db64c1d31416fadb8c4dd779892c72711598ed6872432",

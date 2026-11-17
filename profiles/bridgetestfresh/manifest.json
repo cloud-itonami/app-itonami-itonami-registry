@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Reward and procedural self-improvement — You are Hermes Agent, built by Nous Research. Be direct: match the length of your reply to the weight of the ask — a one-line question gets a one-line answer, and finished work gets a short report of what changed, what's verified, and what's left, never a replay of the process. No filler (\"Great question,\" \"I'd be happy to\"), no restating the request back, no re-summarizing what you already said, no narrating tool calls the user can see. Plain claims over",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-assistant",
+    "repository": "cloud-itonami/app-itonami-assistant",
     "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
     "path": "hermes/profiles/bridgetestfresh",
     "checksum": "sha256-tree:21a9aa4e154cb9253d67a34a29c73108dc8d29493c20b9f0eb45aa1ef7a9dff3",

@@ -2,32 +2,32 @@
  "schemaVersion": "itonami.shared-repositories.v1",
  "repositories": [
   {
-   "repository": "cloud-itonami/ao-repo-steward",
+   "repository": "cloud-itonami/app-itonami-repo-steward",
    "kind": "fleet",
    "reason": "ao organization fleet: repository stewardship roles (docs audit, branch drain, cleanup) released together"
   },
   {
-   "repository": "cloud-itonami/ao-assistant",
+   "repository": "cloud-itonami/app-itonami-assistant",
    "kind": "fleet",
    "reason": "ao organization fleet: assistant profiles sharing skills and rules"
   },
   {
-   "repository": "cloud-itonami/ao-bot-fleet",
+   "repository": "cloud-itonami/app-itonami-bot-fleet",
    "kind": "fleet",
    "reason": "ao organization fleet: fleet watch and operations roles (watchdog, cron health, capability watch)"
   },
   {
-   "repository": "cloud-itonami/ao-hiraku",
+   "repository": "cloud-itonami/app-itonami-hiraku",
    "kind": "fleet",
    "reason": "ao organization fleet: hiraku support roles (kyozai, michishirube, soudan)"
   },
   {
-   "repository": "cloud-itonami/isic",
+   "repository": "cloud-itonami/app-itonami-isic",
    "kind": "maintainer",
    "reason": "one profile per ISIC section, maintained as a set by the ISIC coordinator"
   },
   {
-   "repository": "cloud-itonami/cloud-itonami-app",
+   "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
    "kind": "maintainer",
    "reason": "maintenance roles of the itonami application set, one owner"
   },
@@ -42,7 +42,7 @@
    "reason": "inference model profiles of the murakumo product, maintained together"
   },
   {
-   "repository": "cloud-itonami/isco",
+   "repository": "cloud-itonami/app-itonami-isco",
    "kind": "maintainer",
    "reason": "one profile per ISCO group, maintained as a set"
   },
@@ -67,12 +67,12 @@
    "reason": "torihiki roles (bench, falsify, maint, rank)"
   },
   {
-   "repository": "cloud-itonami/adserver",
+   "repository": "cloud-itonami/app-itonami-adserver",
    "kind": "maintainer",
    "reason": "adnetwork-related roles of the adserver product"
   },
   {
-   "repository": "cloud-itonami/yabai-actor",
+   "repository": "cloud-itonami/app-itonami-yabai-actor",
    "kind": "maintainer",
    "reason": "yabai roles (classify, intel, ops, staging)"
   },
@@ -82,7 +82,7 @@
    "reason": "aiueos roles (cfree, handoff, linux-parity)"
   },
   {
-   "repository": "cloud-itonami/loop-data-source",
+   "repository": "cloud-itonami/app-itonami-loop-data-source",
    "kind": "maintainer",
    "reason": "data-source variants maintained together"
   },
@@ -97,7 +97,7 @@
    "reason": "support, pure-s and webest roles of the kotoba-lang repository"
   },
   {
-   "repository": "cloud-itonami/cloud-itonami-souji",
+   "repository": "cloud-itonami/app-itonami-cloud-itonami-souji",
    "kind": "maintainer",
    "reason": "souji and its physai variant, one product"
   }

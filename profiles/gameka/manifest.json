@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "gameka: game creation bot for isekai.network. Builds playable browser games with kami engine libs and publishes to isekai.network / aozora.app.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/gameka/tree/e733d6f10f31ad906acaafef4e73f4bcc9ac49f8",
+  "source": "https://github.com/cloud-itonami/app-itonami-gameka/tree/e733d6f10f31ad906acaafef4e73f4bcc9ac49f8",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/gameka",
+    "repository": "cloud-itonami/app-itonami-gameka",
     "commit": "e733d6f10f31ad906acaafef4e73f4bcc9ac49f8",
     "path": "hermes/profiles/gameka",
     "checksum": "sha256-tree:b0045d4359240af3d47ac2e7d56e360c6d8724f63d6e5a78f854d11037ce9a83",

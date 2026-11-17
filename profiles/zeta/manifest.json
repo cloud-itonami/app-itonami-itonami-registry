@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "zeta — L5「Proof of Useful Delivery」(帯域・レイテンシ・有用配送の証明) を専門に観測する",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/mio/tree/e59296a8b7b57c16b479620135b7c3439af3d373",
+  "source": "https://github.com/cloud-itonami/app-itonami-mio/tree/e59296a8b7b57c16b479620135b7c3439af3d373",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/mio",
+    "repository": "cloud-itonami/app-itonami-mio",
     "commit": "e59296a8b7b57c16b479620135b7c3439af3d373",
     "path": "hermes/profiles/zeta",
     "checksum": "sha256-tree:ac0106d4f36a0fe89d4a82ed44f2f21963be3acc6aae7c56c45e20f2a4f48042",

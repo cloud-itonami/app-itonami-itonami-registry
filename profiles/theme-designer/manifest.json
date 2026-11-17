@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "theme design and engineer — dark mode, light mode の design, lib 開発, engineer をするよ",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-assistant",
+    "repository": "cloud-itonami/app-itonami-assistant",
     "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
     "path": "hermes/profiles/theme-designer",
     "checksum": "sha256-tree:e7b4bd7ad4c0b6c2d081b38ead6ebe8b6e0392926bc15b24a15da95438653466",

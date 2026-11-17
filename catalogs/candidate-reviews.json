@@ -11,7 +11,7 @@
   },
   "reviews": [
     {
-      "repository": "cloud-itonami/adserver",
+      "repository": "cloud-itonami/app-itonami-adserver",
       "commit": "9a0c9b1e08474d8bfe780120fef27f05f5a8953b",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -21,64 +21,64 @@
         {
           "path": "LICENSE",
           "sha256": "1307c32942ed46e1967ee7e1523ee8edd9d01bd085f4f504062262e45a35caae",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "6365d88ec9bab6e0f578ad6897c8c7e5117bcaa49cb0a7e76239caae5c001ef7",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/README.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md",
           "sha256": "4dd5f8d222468bb57f2494c6d4ba2a295f4c5fbcc8ad2c8d3341591770562733",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md",
           "sha256": "334bf42c81a813a4794e46d1316a5649a5ecd77e5f7038213a9a24ce56fac819",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "6074756ee422647402697a68dac1828e6ea273ccc449e23eb4169d2030ad4d54",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/nbb.edn"
         },
         {
           "path": "package.json",
           "sha256": "2eb3bf57dd66b91af7f49383cf77d62dbd5f55d8f74a1179b986a03ea660cf94",
-          "url": "https://github.com/cloud-itonami/adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/package.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/package.json"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/ao-arbitrage",
+      "repository": "cloud-itonami/app-itonami-arbitrage",
       "commit": "2233648e8757628f8ecfb97127ae498ceaa73692",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -88,19 +88,19 @@
         {
           "path": "README.md",
           "sha256": "9d88824e2e7324f641b0788572270c421a4d75143c6354f53e4511a5b45c301a",
-          "url": "https://github.com/cloud-itonami/ao-arbitrage/blob/2233648e8757628f8ecfb97127ae498ceaa73692/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-arbitrage/blob/2233648e8757628f8ecfb97127ae498ceaa73692/README.md"
         },
         {
           "path": "hermes/profiles/awai-arb/skills/awai-arb-tick/SKILL.md",
           "sha256": "aa6c0456a3f76abb43bf01652cf1db06d23c4e388e9055af9ca92f545c8f53fc",
-          "url": "https://github.com/cloud-itonami/ao-arbitrage/blob/2233648e8757628f8ecfb97127ae498ceaa73692/hermes/profiles/awai-arb/skills/awai-arb-tick/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-arbitrage/blob/2233648e8757628f8ecfb97127ae498ceaa73692/hermes/profiles/awai-arb/skills/awai-arb-tick/SKILL.md"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/ao-assistant",
+      "repository": "cloud-itonami/app-itonami-assistant",
       "commit": "5c803ed4fa159742e11e2d050dc449b58c7ff233",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -110,77 +110,77 @@
         {
           "path": "README.md",
           "sha256": "569e408f3938163e46e08c77eecc9604cc5df34d2e3eac7a6bf172f77f4f4a0a",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/README.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/gftd-support/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/gftd-support/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/writing/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/ao-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-assistant/blob/5c803ed4fa159742e11e2d050dc449b58c7ff233/hermes/profiles/writing/skills/transport-evidence-bot/SKILL.md"
         }
       ],
       "liveOperations": false,
@@ -253,7 +253,7 @@
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/bim",
+      "repository": "cloud-itonami/app-itonami-bim",
       "commit": "328e7d138a982a9d4012290b73caec63083c0ecf",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -263,49 +263,49 @@
         {
           "path": "README.md",
           "sha256": "ec3da5383a373f1593c66c6f535c3c01f3e5c30de47be38c8d94564e35099e5a",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/README.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/bim-app-maint/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-bim/blob/328e7d138a982a9d4012290b73caec63083c0ecf/hermes/profiles/bim-app-maint/skills/transport-evidence-bot/SKILL.md"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/cloud-itonami-app",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
       "commit": "d8c308948ae0faf09e09406df9bf29fdc303a0dc",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -315,164 +315,164 @@
         {
           "path": "90-docs/adr/2609072600-the-repository-brings-its-own-slash-commands.edn",
           "sha256": "7462a900cc2f711a197c69b1c9f5267276fd7c9714277a8c76f17a000d59428e",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/90-docs/adr/2609072600-the-repository-brings-its-own-slash-commands.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/90-docs/adr/2609072600-the-repository-brings-its-own-slash-commands.edn"
         },
         {
           "path": "LICENSE",
           "sha256": "58507202cf25133e6507a20d1696a2660d837000fbdb283ccf106bdffb0634a8",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "f69a52ca2c0b517d88f0c8910847c3ff544e4058a93d771b0984a97d247669ac",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/README.md"
         },
         {
           "path": "hermes/profiles/itonami-eng/skills/transport-evidence-bot/SKILL.md",
           "sha256": "2d04cbb8f377b61987a4f706ce89dee697574ada025b7dfa48d59be6485b567a",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-eng/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-eng/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-mktg/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami-mktg/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/hermes/profiles/itonami/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "c72ef7d9295e5b9c596363d4f13470b9b4556110a7257d7cd3e1991c375b36cc",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/nbb.edn"
         },
         {
           "path": "package.json",
           "sha256": "851d16f4d811ae905e25af5b34335ef564cab0166df9a93731928030b6a2a04c",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/package.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/package.json"
         },
         {
           "path": "src/cloud/itonami/app/bot_tools.cljk",
           "sha256": "da8878b7b62185c4069c00723b5f29d02f72167c0cebff038f43b6650243b207",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/bot_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/bot_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/business_tools.cljk",
           "sha256": "51d6d20ddede266f54a81949bfafda89d3640ee6d5a50310f95820b6790f02df",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/business_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/business_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/domain_tools.cljk",
           "sha256": "489591b0bf4097b1de4001e03668f17a17af64a7ff46eaa4342e67dfa1d55ed4",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/domain_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/domain_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/human_work_tools.cljk",
           "sha256": "64a8ce88a4716bf99d3a243f7ddd2f0554e3e38751a488aee53c06d0486d66c3",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/human_work_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/human_work_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/mcp.cljk",
           "sha256": "1a2fa6c463112854f14f62279f9e85f6d03f92779e399a8b1b64e8eedf8813fa",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/mcp.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/mcp.cljk"
         },
         {
           "path": "src/cloud/itonami/app/media_tools.cljk",
           "sha256": "7ca8096f6646a8155f4b74b811e028f1f32901c79d03912dc6d193e21c917bb7",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/media_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/media_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/payment_tools.cljk",
           "sha256": "8be20355ee325244d501d72b980627cce47c10ad35616ecaaf502023f204e270",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/payment_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/payment_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/tenant_tools.cljk",
           "sha256": "138bb312f80b8c2d64cb2279e79f40544168b51cb98d8679bbb6d028e77592bc",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/tenant_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/tenant_tools.cljk"
         },
         {
           "path": "src/cloud/itonami/app/workspace_tools.cljk",
           "sha256": "37f5bd9ec9f5e3882d12ae6390c0610e27b51fe94596e3175426a1b4fed58bde",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/workspace_tools.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/workspace_tools.cljk"
         },
         {
           "path": "bin/itonami-mcp",
           "sha256": "7b89b9d404228de485f822d8157f31dcf0e6bd74a5c5a2759227d205c0017393",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/bin/itonami-mcp"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/bin/itonami-mcp"
         },
         {
           "path": "src/cloud/itonami/app/fleet_core.cljk",
           "sha256": "007558078eb90533c24054db93487de2c021b2ffa4e6eca9f343479bbf393d19",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/fleet_core.cljk"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/blob/d8c308948ae0faf09e09406df9bf29fdc303a0dc/src/cloud/itonami/app/fleet_core.cljk"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/cloud-itonami-commands",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-commands",
       "commit": "579e0a954bf20c9e46fa94b343bd778b937b55a2",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -482,24 +482,24 @@
         {
           "path": "README.md",
           "sha256": "7afd5497f341bf52507d7aeaaf33900d9f1b1d5429b3d7456352df8eecf23e94",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/README.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "55252ce9f40d3f3857b62813b4c5f6d51b6ab2d967718d09c333514c1d31befa",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/nbb.edn"
         },
         {
           "path": "resources/cloud-itonami-app.commands.edn",
           "sha256": "4666bd242c19722e29807bc1b5758834531ef2f06d659f4c86b5ac6ea5473a05",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/resources/cloud-itonami-app.commands.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-commands/blob/579e0a954bf20c9e46fa94b343bd778b937b55a2/resources/cloud-itonami-app.commands.edn"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/cloud-itonami-isic-4920",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-4920",
       "commit": "8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -509,34 +509,34 @@
         {
           "path": "LICENSE",
           "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "f9453ffc0b17154f4976e2374d6013c8d756f599a26d990544f07d91b6a6f7eb",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/README.md"
         },
         {
           "path": "hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md",
           "sha256": "3b5e4328ab821db3c4080155b0850a84528bad3fbefbfde7d1ff18c367bebc32",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/hermes/profiles/transport-efficiency/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "46f01a64dce485525feefb3180e16075c2b7d0fa10aa65acf6b0c1e9b0c1f06c",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-4920/blob/8b4ea2b2b6c48eebbcbb4326ac2845e2087b4307/nbb.edn"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/cloud-itonami-isic-8121",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-8121",
       "commit": "7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -546,24 +546,24 @@
         {
           "path": "LICENSE",
           "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "57a72877ebc89fa1b3d98293ad37b0c986fb409ca275524ebccacf8a242f4465",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/README.md"
         },
         {
           "path": "hermes/profiles/samu/skills/itonami-business-bots/SKILL.md",
           "sha256": "4dd5f8d222468bb57f2494c6d4ba2a295f4c5fbcc8ad2c8d3341591770562733",
-          "url": "https://github.com/cloud-itonami/cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/hermes/profiles/samu/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8121/blob/7445d3ce7f01fa2cfe5198ada2e52aadfcdb251a/hermes/profiles/samu/skills/itonami-business-bots/SKILL.md"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/isco",
+      "repository": "cloud-itonami/app-itonami-isco",
       "commit": "9d661bc593c28173e02ad5530e7b2832ea3b9830",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -573,12 +573,12 @@
         {
           "path": "README.md",
           "sha256": "8aa10f2afb303afe7523a34384759ed4c23de0b9d35867bf90150686688deec8",
-          "url": "https://github.com/cloud-itonami/isco/blob/9d661bc593c28173e02ad5530e7b2832ea3b9830/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-isco/blob/9d661bc593c28173e02ad5530e7b2832ea3b9830/README.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "4799a5f290b7ca3b321d64d52660695563161cdb1eb67d97d05c6176d64c32bf",
-          "url": "https://github.com/cloud-itonami/isco/blob/9d661bc593c28173e02ad5530e7b2832ea3b9830/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-isco/blob/9d661bc593c28173e02ad5530e7b2832ea3b9830/nbb.edn"
         }
       ],
       "liveOperations": false,
@@ -607,7 +607,7 @@
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/onion",
+      "repository": "cloud-itonami/app-itonami-onion",
       "commit": "20ce186d53ba68cd677c96c4645540e921061c73",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -617,44 +617,44 @@
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/itonami-business-bots/SKILL.md",
           "sha256": "dfb433ba59ed651baea7a8ed98a59a9af69a47beeadf574077866fa188a28f82",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/itonami-darkweb-intel/skills/transport-evidence-bot/SKILL.md",
           "sha256": "a7dbffde611773ee14db3ef9f9c75e83a76af3964b36c57b1c3882d2a1ed13e9",
-          "url": "https://github.com/cloud-itonami/onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-onion/blob/20ce186d53ba68cd677c96c4645540e921061c73/hermes/profiles/itonami-darkweb-intel/skills/transport-evidence-bot/SKILL.md"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/ses",
+      "repository": "cloud-itonami/app-itonami-ses",
       "commit": "964952fc1027e9dc316ed925b11e6ae803e5c480",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -664,29 +664,29 @@
         {
           "path": "README.md",
           "sha256": "8e80346ed8460b1ec22aceb7ed51e202d710e2f441f9b2e59a04e67bd3b9c9a9",
-          "url": "https://github.com/cloud-itonami/ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/README.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "e61e033ddeac35bd11030c361761e33c5cd75da910a82af81cb68053c708bd39",
-          "url": "https://github.com/cloud-itonami/ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/nbb.edn"
         },
         {
           "path": "package.json",
           "sha256": "cd012c0fd8955b64e96a6a6019d1bcb06900e985e2a810f4a23654bb1c6a4ed2",
-          "url": "https://github.com/cloud-itonami/ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/package.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/package.json"
         },
         {
           "path": "svelte/src/lib/server/mcp.ts",
           "sha256": "feab555dead617d041b390f474dd0919cb293d3a62f34e6ac85bc7dd6f6c2b6d",
-          "url": "https://github.com/cloud-itonami/ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/svelte/src/lib/server/mcp.ts"
+          "url": "https://github.com/cloud-itonami/app-itonami-ses/blob/964952fc1027e9dc316ed925b11e6ae803e5c480/svelte/src/lib/server/mcp.ts"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/suji",
+      "repository": "cloud-itonami/app-itonami-suji",
       "commit": "3cde24cd3837e9c9146cd80bb270388b62ba4fc4",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -696,19 +696,19 @@
         {
           "path": "README.md",
           "sha256": "4134163a14334d86b59f438e6b39a5f21ce7a0ef964d17071bc2e2c529e34f23",
-          "url": "https://github.com/cloud-itonami/suji/blob/3cde24cd3837e9c9146cd80bb270388b62ba4fc4/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-suji/blob/3cde24cd3837e9c9146cd80bb270388b62ba4fc4/README.md"
         },
         {
           "path": "hermes/profiles/suji-anatomy/skills/suji-anatomy-tick/SKILL.md",
           "sha256": "0a9970df579282389016e8b4ea9dab9470bd29ba1d8642353d24a4939875a780",
-          "url": "https://github.com/cloud-itonami/suji/blob/3cde24cd3837e9c9146cd80bb270388b62ba4fc4/hermes/profiles/suji-anatomy/skills/suji-anatomy-tick/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-suji/blob/3cde24cd3837e9c9146cd80bb270388b62ba4fc4/hermes/profiles/suji-anatomy/skills/suji-anatomy-tick/SKILL.md"
         }
       ],
       "liveOperations": false,
       "profilesModified": false
     },
     {
-      "repository": "cloud-itonami/yabai-actor",
+      "repository": "cloud-itonami/app-itonami-yabai-actor",
       "commit": "3b653cf863d3801d97b4620ed41a8e4084493442",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -718,7 +718,7 @@
         {
           "path": "hermes/profiles/yabai-intel/skills/yabai-intel-ioc-iteration/SKILL.md",
           "sha256": "26e4083613b2b86dc64b3cb89c89241a34d054558c2c396a442c8e09b7e63f6d",
-          "url": "https://github.com/cloud-itonami/yabai-actor/blob/3b653cf863d3801d97b4620ed41a8e4084493442/hermes/profiles/yabai-intel/skills/yabai-intel-ioc-iteration/SKILL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-yabai-actor/blob/3b653cf863d3801d97b4620ed41a8e4084493442/hermes/profiles/yabai-intel/skills/yabai-intel-ioc-iteration/SKILL.md"
         }
       ],
       "liveOperations": false,

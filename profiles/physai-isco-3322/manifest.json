@@ -4,16 +4,16 @@
   "id": "physai-isco-3322",
   "name": "physai-isco-3322",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-3322: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isco-3322: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-isco-3322/tree/c670db81d155a145c44411f70915563ce8d3d199",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3322/tree/c670db81d155a145c44411f70915563ce8d3d199",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-isco-3322",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-isco-3322",
     "commit": "c670db81d155a145c44411f70915563ce8d3d199",
     "path": "hermes/profiles/physai-isco-3322",
     "checksum": "sha256-tree:2f49866a9447b742e6d6ba51f1256a6cf4a0f7b717d672d12252f074816675ef",

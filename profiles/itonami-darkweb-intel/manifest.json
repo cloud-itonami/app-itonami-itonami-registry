@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "darkweb-intel: Tor 経由の .onion 公開面 ingest (ahmia 検索 → R2/hyakka 台帳)",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/onion/tree/44c0aeceb58cba65d2500fe0efbdc9bcf3fa11b5",
+  "source": "https://github.com/cloud-itonami/app-itonami-onion/tree/44c0aeceb58cba65d2500fe0efbdc9bcf3fa11b5",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/onion",
+    "repository": "cloud-itonami/app-itonami-onion",
     "commit": "44c0aeceb58cba65d2500fe0efbdc9bcf3fa11b5",
     "path": "hermes/profiles/itonami-darkweb-intel",
     "checksum": "sha256-tree:253372af780e26a4fac5eddb1a6276baaf4b837c7acadc2138f0cfcf3a0c4b75",

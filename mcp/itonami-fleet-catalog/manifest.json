@@ -7,7 +7,7 @@
   "description": "Connection scaffold for the current guest-Wasm stdio fleet catalog host; publishes fleet_search only, no fleet_call or resident business operations.",
   "author": "cloud-itonami",
   "license": "MIT",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/d8c308948ae0faf09e09406df9bf29fdc303a0dc",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/d8c308948ae0faf09e09406df9bf29fdc303a0dc",
   "compatibility": {
     "hermes": "*",
     "desktop": "*"

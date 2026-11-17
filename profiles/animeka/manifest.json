@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "animeka: anime production bot. Generates animation works with kami engine + fleet creative skills and publishes to aozora.app.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/animeka-actor/tree/baac7a6a32468aafdf497c2c42c02983c19c5552",
+  "source": "https://github.com/cloud-itonami/app-itonami-animeka-actor/tree/baac7a6a32468aafdf497c2c42c02983c19c5552",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/animeka-actor",
+    "repository": "cloud-itonami/app-itonami-animeka-actor",
     "commit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
     "path": "hermes/profiles/animeka",
     "checksum": "sha256-tree:46615174e75fad887ad71419a42f0ee1e2e762c7219c157d3cfe67abe02400de",

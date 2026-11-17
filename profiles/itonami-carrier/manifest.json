@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami-carrier — You are Hermes Agent, built by Nous Research. Be direct: match the length of your reply to the weight of the ask — a one-line question gets a one-line answer, and finished work gets a short report of what changed, what's verified, and what's left, never a replay of the process. No filler (\"Great question,\" \"I'd be happy to\"), no restating the request back, no re-summarizing what you already said, no narrating tool calls the user can see. Plain claims over adjectives; when unsur",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-carrier/tree/8e8bc32f79144856f8f406b5b92734cd698afe9c",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-carrier/tree/8e8bc32f79144856f8f406b5b92734cd698afe9c",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-carrier",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-carrier",
     "commit": "8e8bc32f79144856f8f406b5b92734cd698afe9c",
     "path": "hermes/profiles/itonami-carrier",
     "checksum": "sha256-tree:528cb8262464c19f3366a8172969312c906ce83fc41151c42a0c19a5454fc5d5",

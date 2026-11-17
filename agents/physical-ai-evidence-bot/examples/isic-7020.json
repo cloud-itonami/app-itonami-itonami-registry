@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.parameters.v1",
   "sourceRef": "isic",
   "parameters": {
-    "targetRepo": "cloud-itonami/cloud-itonami-isic-7020",
+    "targetRepo": "cloud-itonami/app-itonami-cloud-itonami-isic-7020",
     "taxonomy": {
       "system": "ISIC Rev.4",
       "code": "7020"

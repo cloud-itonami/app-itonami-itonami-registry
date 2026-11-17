@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Reviews code and designs: finds correctness bugs and simplifications, states the failure scenario.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-assistant",
+    "repository": "cloud-itonami/app-itonami-assistant",
     "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
     "path": "hermes/profiles/review",
     "checksum": "sha256-tree:08049ccf968b3a874b0b9161c32748609448de3f8620697782af35a992d5b8d1",

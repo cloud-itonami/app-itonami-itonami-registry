@@ -7,7 +7,7 @@
   "description": "Review an actual diff against contracts and callers and report actionable regressions.",
   "author": "cloud-itonami",
   "license": "MIT",
-  "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/f7a3d69f6dd2fb5a5b47d822e62c940d0496396c",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/f7a3d69f6dd2fb5a5b47d822e62c940d0496396c",
   "compatibility": {
     "hermes": "*",
     "desktop": "*"

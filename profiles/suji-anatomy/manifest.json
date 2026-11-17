@@ -4,16 +4,16 @@
   "id": "suji-anatomy",
   "name": "suji-anatomy",
   "version": "0.1.0",
-  "description": "suji-anatomy — 人体力学モデルの成熟度・カバレッジ bot — 役割: **姿勢が人体に作る負荷を計算する 3 repo** —— `cloud-itonami/suji`（物理）、",
+  "description": "suji-anatomy — 人体力学モデルの成熟度・カバレッジ bot — 役割: **姿勢が人体に作る負荷を計算する 3 repo** —— `cloud-itonami/app-itonami-suji`（物理）、",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/suji/tree/3cde24cd3837e9c9146cd80bb270388b62ba4fc4",
+  "source": "https://github.com/cloud-itonami/app-itonami-suji/tree/3cde24cd3837e9c9146cd80bb270388b62ba4fc4",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/suji",
+    "repository": "cloud-itonami/app-itonami-suji",
     "commit": "3cde24cd3837e9c9146cd80bb270388b62ba4fc4",
     "path": "hermes/profiles/suji-anatomy",
     "checksum": "sha256-tree:cdcaef26a7d67a587844e9778ebed8e6da8969ad243c31b3fde4d971ea403bea",

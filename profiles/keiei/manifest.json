@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "keiei C-suite ledger resident bot (propose-only)",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/keiei/tree/9bdea2807c3bdb5e676650ff826029c2899ec34f",
+  "source": "https://github.com/cloud-itonami/app-itonami-keiei/tree/9bdea2807c3bdb5e676650ff826029c2899ec34f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/keiei",
+    "repository": "cloud-itonami/app-itonami-keiei",
     "commit": "9bdea2807c3bdb5e676650ff826029c2899ec34f",
     "path": "hermes/profiles/keiei",
     "checksum": "sha256-tree:3f950d9d23793399dea88080832a06ce6acf5715b36172f9381471998c57457e",

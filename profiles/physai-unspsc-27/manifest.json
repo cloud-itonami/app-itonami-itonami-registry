@@ -4,16 +4,16 @@
   "id": "physai-unspsc-27",
   "name": "physai-unspsc-27",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-unspsc-27/tree/05d2c2ac7a559d201e324f3f291353396f91fe45",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/tree/05d2c2ac7a559d201e324f3f291353396f91fe45",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-unspsc-27",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-27",
     "commit": "05d2c2ac7a559d201e324f3f291353396f91fe45",
     "path": "hermes/profiles/physai-unspsc-27",
     "checksum": "sha256-tree:0b365b95492826e23bf57399a1836162132ca00f69c1a94bc919cf43a5ee89cc",

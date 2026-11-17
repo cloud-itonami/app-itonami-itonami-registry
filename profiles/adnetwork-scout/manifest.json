@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "adnetwork 広告主情報を収集して Cloudflare R2 data catalog (Iceberg) に保存する bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+  "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/adserver",
+    "repository": "cloud-itonami/app-itonami-adserver",
     "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
     "path": "hermes/profiles/adnetwork-scout",
     "checksum": "sha256-tree:ec963f6ed2cc3f2b6a16b19e1256d39ae9c1db85c667127d99f13b3f0c72b7b0",

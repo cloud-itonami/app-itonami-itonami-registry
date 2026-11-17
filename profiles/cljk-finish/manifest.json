@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "cljk-finish - finish the clj/cljc/cljs to cljk rename follow-through (string-literal path refs, bb residue liveness, stale extension grep). 1 tick 1 finding, propose-only ledger.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-repo-steward",
+    "repository": "cloud-itonami/app-itonami-repo-steward",
     "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
     "path": "hermes/profiles/cljk-finish",
     "checksum": "sha256-tree:da1eee185180971635a7ceed95f8b811352e3a140cc158a116c7369ebd3680b2",

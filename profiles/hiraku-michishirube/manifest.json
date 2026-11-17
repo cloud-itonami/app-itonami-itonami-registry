@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "hiraku-michishirube: propose-only bot that measures the 道しるべ catalog (axis x stage coverage, link liveness) for closing information gaps by gender/region/age/culture/disability/economy/family, and proposes one free public resource per tick.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-hiraku/tree/1074e64bb56f6360228ebdbb6eff32d2ef67550e",
+  "source": "https://github.com/cloud-itonami/app-itonami-hiraku/tree/1074e64bb56f6360228ebdbb6eff32d2ef67550e",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-hiraku",
+    "repository": "cloud-itonami/app-itonami-hiraku",
     "commit": "1074e64bb56f6360228ebdbb6eff32d2ef67550e",
     "path": "hermes/profiles/hiraku-michishirube",
     "checksum": "sha256-tree:4bf55a0308cf7d2a86da155ea616a7c0e841e8ecd90b7d749cf7975f2ddb47ce",

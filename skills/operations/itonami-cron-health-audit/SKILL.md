@@ -1,7 +1,7 @@
 ---
 name: itonami-cron-health-audit
 description: Audit measured Hermes bot cron health across caller-selected profiles and distinguish guarded skips, transient infrastructure errors and persistent failures.
-metadata: {"hermes": {"version": "0.1.0", "author": "cloud-itonami", "source": "https://github.com/cloud-itonami/ao-bot-fleet/tree/b6120bb7214ac92b14e81c865c34048b14e5f762", "compatibility": {"hermes": "*", "desktop": "*"}}}
+metadata: {"hermes": {"version": "0.1.0", "author": "cloud-itonami", "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/b6120bb7214ac92b14e81c865c34048b14e5f762", "compatibility": {"hermes": "*", "desktop": "*"}}}
 ---
 
 # Itonami cron health audit

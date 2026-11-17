@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "rule-kaizen bot: standing な言い方が実装スナップショットを言語にしていないか測り、1 反復 1 finding で直す (ADR-2608261200), 3h cron",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-repo-steward",
+    "repository": "cloud-itonami/app-itonami-repo-steward",
     "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
     "path": "hermes/profiles/rule-kaizen",
     "checksum": "sha256-tree:826499bacde4c5872d9d3a0b0797a951d7e1ae1ea1891cdc2aa92d0b59021da4",

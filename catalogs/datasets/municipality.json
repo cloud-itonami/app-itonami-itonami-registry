@@ -7,7 +7,7 @@
   "entries": [
     {
       "id": "municipality/are-abu-dhabi",
-      "repository": "cloud-itonami/cloud-itonami-municipality-are-abu-dhabi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi",
       "commit": "39cdbad92790bbe28553180f2d7a514a771eeb79",
       "visibility": "public",
       "archived": false,
@@ -35,7 +35,7 @@
     },
     {
       "id": "municipality/arg-buenos-aires",
-      "repository": "cloud-itonami/cloud-itonami-municipality-arg-buenos-aires",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-arg-buenos-aires",
       "commit": "0aa6fcb930be5af5ab17b8862f886f7c9f10686a",
       "visibility": "public",
       "archived": false,
@@ -63,7 +63,7 @@
     },
     {
       "id": "municipality/aus-sydney",
-      "repository": "cloud-itonami/cloud-itonami-municipality-aus-sydney",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aus-sydney",
       "commit": "cb06d6d82714eb947d2737692be6173dd351fe7c",
       "visibility": "public",
       "archived": false,
@@ -91,7 +91,7 @@
     },
     {
       "id": "municipality/aut-vienna",
-      "repository": "cloud-itonami/cloud-itonami-municipality-aut-vienna",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-aut-vienna",
       "commit": "d9065baf8fe54659a570fa5cb9bdd63ab79d8ce9",
       "visibility": "public",
       "archived": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "municipality/bel-brussels",
-      "repository": "cloud-itonami/cloud-itonami-municipality-bel-brussels",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bel-brussels",
       "commit": "0f9e290a5d52373711f70a6f950fa2fe05198755",
       "visibility": "public",
       "archived": false,
@@ -147,7 +147,7 @@
     },
     {
       "id": "municipality/bra-sao-paulo",
-      "repository": "cloud-itonami/cloud-itonami-municipality-bra-sao-paulo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-bra-sao-paulo",
       "commit": "1bd0b0b589145d67ec4b4f7f19ab3ed81b29fa6d",
       "visibility": "public",
       "archived": false,
@@ -175,7 +175,7 @@
     },
     {
       "id": "municipality/can-toronto",
-      "repository": "cloud-itonami/cloud-itonami-municipality-can-toronto",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-can-toronto",
       "commit": "b032a6432b5360bcb8828d0a6e2c20ab74966115",
       "visibility": "public",
       "archived": false,
@@ -203,7 +203,7 @@
     },
     {
       "id": "municipality/che-bern",
-      "repository": "cloud-itonami/cloud-itonami-municipality-che-bern",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-che-bern",
       "commit": "1a5011116662fe3b1fb0564cc07d4f189fe7ba26",
       "visibility": "public",
       "archived": false,
@@ -231,7 +231,7 @@
     },
     {
       "id": "municipality/chl-santiago",
-      "repository": "cloud-itonami/cloud-itonami-municipality-chl-santiago",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chl-santiago",
       "commit": "57b1b4e702a015e5a384b5fbd288780b8234e5d6",
       "visibility": "public",
       "archived": false,
@@ -259,7 +259,7 @@
     },
     {
       "id": "municipality/chn-beijing",
-      "repository": "cloud-itonami/cloud-itonami-municipality-chn-beijing",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-beijing",
       "commit": "6f0363ba4909631e1866a2a62712a79bbd6f08d2",
       "visibility": "public",
       "archived": false,
@@ -287,7 +287,7 @@
     },
     {
       "id": "municipality/chn-shanghai",
-      "repository": "cloud-itonami/cloud-itonami-municipality-chn-shanghai",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shanghai",
       "commit": "aa815ddb5c3543ef7b646691977e44a8c523ec93",
       "visibility": "public",
       "archived": false,
@@ -315,7 +315,7 @@
     },
     {
       "id": "municipality/chn-shenzhen",
-      "repository": "cloud-itonami/cloud-itonami-municipality-chn-shenzhen",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-chn-shenzhen",
       "commit": "0079775e5c48e8d7bd3451b769f4a37df22d0624",
       "visibility": "public",
       "archived": false,
@@ -343,7 +343,7 @@
     },
     {
       "id": "municipality/col-bogota",
-      "repository": "cloud-itonami/cloud-itonami-municipality-col-bogota",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-col-bogota",
       "commit": "fd933ce8a0a3e90b9e5377a1bc40083dd2718e79",
       "visibility": "public",
       "archived": false,
@@ -371,7 +371,7 @@
     },
     {
       "id": "municipality/cri-san-jose",
-      "repository": "cloud-itonami/cloud-itonami-municipality-cri-san-jose",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cri-san-jose",
       "commit": "771445fc40e0159d8b060999f6e217bbf1b16db7",
       "visibility": "public",
       "archived": false,
@@ -399,7 +399,7 @@
     },
     {
       "id": "municipality/cze-prague",
-      "repository": "cloud-itonami/cloud-itonami-municipality-cze-prague",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-cze-prague",
       "commit": "3d0e6e49ae6b6a07ae18a1637f7145cef473c835",
       "visibility": "public",
       "archived": false,
@@ -427,7 +427,7 @@
     },
     {
       "id": "municipality/deu-berlin",
-      "repository": "cloud-itonami/cloud-itonami-municipality-deu-berlin",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-berlin",
       "commit": "77e3d06720609e56bcc88824b80f2095eae1e4e6",
       "visibility": "public",
       "archived": false,
@@ -455,7 +455,7 @@
     },
     {
       "id": "municipality/deu-munich",
-      "repository": "cloud-itonami/cloud-itonami-municipality-deu-munich",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-deu-munich",
       "commit": "4ec27b59e29193f68504fca5aabb063191607b95",
       "visibility": "public",
       "archived": false,
@@ -483,7 +483,7 @@
     },
     {
       "id": "municipality/dnk-copenhagen",
-      "repository": "cloud-itonami/cloud-itonami-municipality-dnk-copenhagen",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-dnk-copenhagen",
       "commit": "658a91cb1a5106b5128b7629133635f7788bfe1f",
       "visibility": "public",
       "archived": false,
@@ -511,7 +511,7 @@
     },
     {
       "id": "municipality/ecu-quito",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ecu-quito",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ecu-quito",
       "commit": "5918105feb9d02f741f1c9279036ac5003eb3c5b",
       "visibility": "public",
       "archived": false,
@@ -539,7 +539,7 @@
     },
     {
       "id": "municipality/egy-cairo",
-      "repository": "cloud-itonami/cloud-itonami-municipality-egy-cairo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-egy-cairo",
       "commit": "767f2d5e2d18c6a2f5b2898b161b30f512bfe1f4",
       "visibility": "public",
       "archived": false,
@@ -567,7 +567,7 @@
     },
     {
       "id": "municipality/esp-barcelona",
-      "repository": "cloud-itonami/cloud-itonami-municipality-esp-barcelona",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-barcelona",
       "commit": "2c119b799f63e43374bd64495eab1c604af6a13d",
       "visibility": "public",
       "archived": false,
@@ -595,7 +595,7 @@
     },
     {
       "id": "municipality/esp-madrid",
-      "repository": "cloud-itonami/cloud-itonami-municipality-esp-madrid",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-esp-madrid",
       "commit": "299da9164e74d0a4f4d9893234513708590d03a5",
       "visibility": "public",
       "archived": false,
@@ -623,7 +623,7 @@
     },
     {
       "id": "municipality/fin-helsinki",
-      "repository": "cloud-itonami/cloud-itonami-municipality-fin-helsinki",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fin-helsinki",
       "commit": "21a5c6b768ffb9cb63d20826125100270356d318",
       "visibility": "public",
       "archived": false,
@@ -651,7 +651,7 @@
     },
     {
       "id": "municipality/fra-lyon",
-      "repository": "cloud-itonami/cloud-itonami-municipality-fra-lyon",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-lyon",
       "commit": "8273ce3505f5554ab516455c605ef75eb24d0682",
       "visibility": "public",
       "archived": false,
@@ -679,7 +679,7 @@
     },
     {
       "id": "municipality/fra-marseille",
-      "repository": "cloud-itonami/cloud-itonami-municipality-fra-marseille",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-marseille",
       "commit": "783c000133fd3a5c4352e5fc476d1770dc5606ef",
       "visibility": "public",
       "archived": false,
@@ -707,7 +707,7 @@
     },
     {
       "id": "municipality/fra-paris",
-      "repository": "cloud-itonami/cloud-itonami-municipality-fra-paris",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-fra-paris",
       "commit": "f75ddf8dc755dbf74e7fecdd081a33a2fd8ba432",
       "visibility": "public",
       "archived": false,
@@ -735,7 +735,7 @@
     },
     {
       "id": "municipality/gbr-london",
-      "repository": "cloud-itonami/cloud-itonami-municipality-gbr-london",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gbr-london",
       "commit": "fd11e109c55c93a54a49c02f0edbfa125f97ed10",
       "visibility": "public",
       "archived": false,
@@ -763,7 +763,7 @@
     },
     {
       "id": "municipality/gtm-guatemala-city",
-      "repository": "cloud-itonami/cloud-itonami-municipality-gtm-guatemala-city",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-gtm-guatemala-city",
       "commit": "55b7c29856aaa2f9dd8f40be78b63779766b03e8",
       "visibility": "public",
       "archived": false,
@@ -791,7 +791,7 @@
     },
     {
       "id": "municipality/hnd-tegucigalpa",
-      "repository": "cloud-itonami/cloud-itonami-municipality-hnd-tegucigalpa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-hnd-tegucigalpa",
       "commit": "aeacc7ca56dc78a31cac04feee8aa592664ec2f5",
       "visibility": "public",
       "archived": false,
@@ -819,7 +819,7 @@
     },
     {
       "id": "municipality/idn-jakarta",
-      "repository": "cloud-itonami/cloud-itonami-municipality-idn-jakarta",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-idn-jakarta",
       "commit": "94ca179f2f5c28e84657974e30124d05d10f82f7",
       "visibility": "public",
       "archived": false,
@@ -847,7 +847,7 @@
     },
     {
       "id": "municipality/ind-new-delhi",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ind-new-delhi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ind-new-delhi",
       "commit": "fb1b4b5c393ce88c97226a0cb0463f207c574403",
       "visibility": "public",
       "archived": false,
@@ -875,7 +875,7 @@
     },
     {
       "id": "municipality/irl-dublin",
-      "repository": "cloud-itonami/cloud-itonami-municipality-irl-dublin",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-irl-dublin",
       "commit": "8989c67e81d83fe159dc59af171a2fa160bf080c",
       "visibility": "public",
       "archived": false,
@@ -903,7 +903,7 @@
     },
     {
       "id": "municipality/ita-firenze",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ita-firenze",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-firenze",
       "commit": "7104a4e353b9e31e59a8ae18b0968e6bf399e3e4",
       "visibility": "public",
       "archived": false,
@@ -931,7 +931,7 @@
     },
     {
       "id": "municipality/ita-milano",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ita-milano",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-milano",
       "commit": "d4afb2c1261ea1ca19624ad05b6d417e4f239a09",
       "visibility": "public",
       "archived": false,
@@ -959,7 +959,7 @@
     },
     {
       "id": "municipality/ita-napoli",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ita-napoli",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-napoli",
       "commit": "5739e0dbb28d81c5970eae5b252bbbb18a118326",
       "visibility": "public",
       "archived": false,
@@ -987,7 +987,7 @@
     },
     {
       "id": "municipality/ita-roma",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ita-roma",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-roma",
       "commit": "820f0b781ef65c9f21db11b71b709aeff4b9c580",
       "visibility": "public",
       "archived": false,
@@ -1015,7 +1015,7 @@
     },
     {
       "id": "municipality/ita-venezia",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ita-venezia",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ita-venezia",
       "commit": "80a36058c16118b102711207bbcbdcaa329cef71",
       "visibility": "public",
       "archived": false,
@@ -1043,7 +1043,7 @@
     },
     {
       "id": "municipality/jpn-kyoto",
-      "repository": "cloud-itonami/cloud-itonami-municipality-jpn-kyoto",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-kyoto",
       "commit": "07e672dfc63f149bb658d05d489d4e4f7a68a76f",
       "visibility": "public",
       "archived": false,
@@ -1071,7 +1071,7 @@
     },
     {
       "id": "municipality/jpn-osaka",
-      "repository": "cloud-itonami/cloud-itonami-municipality-jpn-osaka",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-osaka",
       "commit": "55d8040e56ed55b2a732a5805f74b915ec48ba30",
       "visibility": "public",
       "archived": false,
@@ -1099,7 +1099,7 @@
     },
     {
       "id": "municipality/jpn-tokyo",
-      "repository": "cloud-itonami/cloud-itonami-municipality-jpn-tokyo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-jpn-tokyo",
       "commit": "35adf07aae05d5b496bda64dbdfb8a23e49bc0f2",
       "visibility": "public",
       "archived": false,
@@ -1127,7 +1127,7 @@
     },
     {
       "id": "municipality/ken-nairobi",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ken-nairobi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ken-nairobi",
       "commit": "12eb8287fa9ad8dbb0e437bacc29b68432c1761f",
       "visibility": "public",
       "archived": false,
@@ -1155,7 +1155,7 @@
     },
     {
       "id": "municipality/kor-seoul",
-      "repository": "cloud-itonami/cloud-itonami-municipality-kor-seoul",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-kor-seoul",
       "commit": "0f65d13da02a81bde434bb1d8513bb047225e6a2",
       "visibility": "public",
       "archived": false,
@@ -1183,7 +1183,7 @@
     },
     {
       "id": "municipality/mex-guadalajara",
-      "repository": "cloud-itonami/cloud-itonami-municipality-mex-guadalajara",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mex-guadalajara",
       "commit": "a79a9e8925f6ceea74587f464d6b2c1bfa016e51",
       "visibility": "public",
       "archived": false,
@@ -1211,7 +1211,7 @@
     },
     {
       "id": "municipality/mys-kuala-lumpur",
-      "repository": "cloud-itonami/cloud-itonami-municipality-mys-kuala-lumpur",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-mys-kuala-lumpur",
       "commit": "3f2c49e75051cae001df76a12bbb50e6a63df93f",
       "visibility": "public",
       "archived": false,
@@ -1239,7 +1239,7 @@
     },
     {
       "id": "municipality/nga-abuja",
-      "repository": "cloud-itonami/cloud-itonami-municipality-nga-abuja",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nga-abuja",
       "commit": "df90b1d4ac5673575624abae7d9cdd3826e8d9f2",
       "visibility": "public",
       "archived": false,
@@ -1267,7 +1267,7 @@
     },
     {
       "id": "municipality/nld-amsterdam",
-      "repository": "cloud-itonami/cloud-itonami-municipality-nld-amsterdam",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nld-amsterdam",
       "commit": "7e7b436cbce22d0fe2a697d0c74f80b5dc82a51a",
       "visibility": "public",
       "archived": false,
@@ -1295,7 +1295,7 @@
     },
     {
       "id": "municipality/nor-oslo",
-      "repository": "cloud-itonami/cloud-itonami-municipality-nor-oslo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nor-oslo",
       "commit": "5464fda8500088db6eabb2ec1b41ba272b633c61",
       "visibility": "public",
       "archived": false,
@@ -1323,7 +1323,7 @@
     },
     {
       "id": "municipality/nzl-wellington",
-      "repository": "cloud-itonami/cloud-itonami-municipality-nzl-wellington",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-nzl-wellington",
       "commit": "81ffd1fd323f9de5b12dc2b33f81563bbe33346a",
       "visibility": "public",
       "archived": false,
@@ -1351,7 +1351,7 @@
     },
     {
       "id": "municipality/pan-panama-city",
-      "repository": "cloud-itonami/cloud-itonami-municipality-pan-panama-city",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pan-panama-city",
       "commit": "e4befdd3c20c794c8a04aebee5dc2e8aa03a4ce7",
       "visibility": "public",
       "archived": false,
@@ -1379,7 +1379,7 @@
     },
     {
       "id": "municipality/phl-manila",
-      "repository": "cloud-itonami/cloud-itonami-municipality-phl-manila",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-phl-manila",
       "commit": "8073f07a0c634c197bb3965d3c32d85b9cc83fc2",
       "visibility": "public",
       "archived": false,
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "municipality/pol-warsaw",
-      "repository": "cloud-itonami/cloud-itonami-municipality-pol-warsaw",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pol-warsaw",
       "commit": "669020507c529b339648a99cca6e09033057f028",
       "visibility": "public",
       "archived": false,
@@ -1435,7 +1435,7 @@
     },
     {
       "id": "municipality/prt-lisbon",
-      "repository": "cloud-itonami/cloud-itonami-municipality-prt-lisbon",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-prt-lisbon",
       "commit": "fadb1931144cc6fdc4f660b0c52635028f1ecaaf",
       "visibility": "public",
       "archived": false,
@@ -1463,7 +1463,7 @@
     },
     {
       "id": "municipality/pry-asuncion",
-      "repository": "cloud-itonami/cloud-itonami-municipality-pry-asuncion",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-pry-asuncion",
       "commit": "8f0aae395fb5eef25b445570bde1d8e2b26b73a6",
       "visibility": "public",
       "archived": false,
@@ -1491,7 +1491,7 @@
     },
     {
       "id": "municipality/sau-riyadh",
-      "repository": "cloud-itonami/cloud-itonami-municipality-sau-riyadh",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-sau-riyadh",
       "commit": "1b8d902e73bf39327abd7a64dc2529dbec84d9d1",
       "visibility": "public",
       "archived": false,
@@ -1519,7 +1519,7 @@
     },
     {
       "id": "municipality/swe-gothenburg",
-      "repository": "cloud-itonami/cloud-itonami-municipality-swe-gothenburg",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-swe-gothenburg",
       "commit": "0f81ea6b73fec561d02380eb8cab143a1041b1c0",
       "visibility": "public",
       "archived": false,
@@ -1547,7 +1547,7 @@
     },
     {
       "id": "municipality/tha-bangkok",
-      "repository": "cloud-itonami/cloud-itonami-municipality-tha-bangkok",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tha-bangkok",
       "commit": "28c47b9fd62dcb4c0dd7b8a5a929d938098b2b17",
       "visibility": "public",
       "archived": false,
@@ -1575,7 +1575,7 @@
     },
     {
       "id": "municipality/tur-ankara",
-      "repository": "cloud-itonami/cloud-itonami-municipality-tur-ankara",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-tur-ankara",
       "commit": "2b4b9092f49c6493ac2c10e3fc42f751e55a60ef",
       "visibility": "public",
       "archived": false,
@@ -1603,7 +1603,7 @@
     },
     {
       "id": "municipality/ury-montevideo",
-      "repository": "cloud-itonami/cloud-itonami-municipality-ury-montevideo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-ury-montevideo",
       "commit": "c5831168a299bee1173ff96ad95f05e50fd6313b",
       "visibility": "public",
       "archived": false,
@@ -1631,7 +1631,7 @@
     },
     {
       "id": "municipality/usa-new-orleans",
-      "repository": "cloud-itonami/cloud-itonami-municipality-usa-new-orleans",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-new-orleans",
       "commit": "22e416445a0fcd1c2e0ce7321247d2f308eeb0e8",
       "visibility": "public",
       "archived": false,
@@ -1659,7 +1659,7 @@
     },
     {
       "id": "municipality/usa-washington-dc",
-      "repository": "cloud-itonami/cloud-itonami-municipality-usa-washington-dc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-usa-washington-dc",
       "commit": "c443f59e9555a3665ed79b5125813a0edd096609",
       "visibility": "public",
       "archived": false,
@@ -1687,7 +1687,7 @@
     },
     {
       "id": "municipality/vnm-hanoi",
-      "repository": "cloud-itonami/cloud-itonami-municipality-vnm-hanoi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-vnm-hanoi",
       "commit": "8f19e7e7d3a7ed2078c441e1964bec9ea380a853",
       "visibility": "public",
       "archived": false,
@@ -1715,7 +1715,7 @@
     },
     {
       "id": "municipality/zaf-cape-town",
-      "repository": "cloud-itonami/cloud-itonami-municipality-zaf-cape-town",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town",
       "commit": "fa800adaee22fe11a05ae95aa882fb4347f9352a",
       "visibility": "public",
       "archived": false,

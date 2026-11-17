@@ -4,16 +4,16 @@
   "id": "physai-jsic-3914",
   "name": "physai-jsic-3914",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-3914: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-jsic-3914: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-jsic-3914/tree/b1715e429d537d4eeffe5f81f2bb25c9308787b9",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/tree/b1715e429d537d4eeffe5f81f2bb25c9308787b9",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-jsic-3914",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-jsic-3914",
     "commit": "b1715e429d537d4eeffe5f81f2bb25c9308787b9",
     "path": "hermes/profiles/physai-jsic-3914",
     "checksum": "sha256-tree:01ed7fb71d7a390315e83ca569c19a0f6e24c970a0bf34acba0d5afad002b6e3",

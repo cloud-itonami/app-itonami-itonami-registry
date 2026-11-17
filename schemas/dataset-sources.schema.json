@@ -18,7 +18,7 @@
         "properties": {
           "id": {"type": "string", "pattern": "^(lei|assoc|municipality)/[a-z0-9-]+$"},
           "name": {"type": "string", "minLength": 1},
-          "repository": {"type": "string", "pattern": "^cloud-itonami/cloud-itonami-[A-Za-z0-9_.-]+$"},
+          "repository": {"type": "string", "pattern": "^cloud-itonami/(app-itonami|cloud-itonami)-[A-Za-z0-9_.-]+$"},
           "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
           "visibility": {"const": "public"},
           "archived": {"type": "boolean"},

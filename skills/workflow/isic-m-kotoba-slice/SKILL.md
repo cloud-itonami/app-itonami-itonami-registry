@@ -1,7 +1,7 @@
 ---
 name: isic-m-kotoba-slice
 description: Porting isic actor .cljk to .kotoba, gating with amu check.
-metadata: {"hermes": {"version": "0.1.0", "author": "cloud-itonami", "source": "https://github.com/cloud-itonami/cloud-itonami-isic-7310/tree/5b0c39170d4f2ee91c67ecb35a673766a17d624d", "compatibility": {"hermes": "*", "desktop": "*"}}}
+metadata: {"hermes": {"version": "0.1.0", "author": "cloud-itonami", "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7310/tree/5b0c39170d4f2ee91c67ecb35a673766a17d624d", "compatibility": {"hermes": "*", "desktop": "*"}}}
 ---
 
 # ISIC-M .kotoba slice workflow (measured 2026-09-20, actor 7310 phase.cljk)

@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.parameters.v1",
   "sourceRef": "isco",
   "parameters": {
-    "targetRepo": "cloud-itonami/cloud-itonami-isco-2421",
+    "targetRepo": "cloud-itonami/app-itonami-cloud-itonami-isco-2421",
     "taxonomy": {
       "system": "ISCO-08",
       "code": "2421"
