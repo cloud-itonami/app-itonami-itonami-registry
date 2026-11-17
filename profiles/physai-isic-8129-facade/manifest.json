@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-8129-facade: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8129-facade/tree/21e9aea0ca673ac92de043c9b405604aba532c98",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-8129-facade/tree/a0436707a4a3db8df53632d689477d803e659e8b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-8129-facade",
-    "commit": "21e9aea0ca673ac92de043c9b405604aba532c98",
+    "commit": "a0436707a4a3db8df53632d689477d803e659e8b",
     "path": "hermes/profiles/physai-isic-8129-facade",
     "checksum": "sha256-tree:3395750f82072a35b0090f599c9eb6393e590d4279a5e4a9f3b9065100543bae",
     "files": [
