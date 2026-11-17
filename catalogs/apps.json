@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.app-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 282,
+  "count": 269,
   "entries": [
     {
       "id": "app/app-itonami",
@@ -736,30 +736,6 @@
       }
     },
     {
-      "id": "app/amano-dns",
-      "repository": "cloud-itonami/app-itonami-amano-dns",
-      "commit": "a651100732f86db8d78a7102ac198bb17d0b74d4",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "amano-dns"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "60f581541424fa2af6cd57ef7b6260c7a5919758afaefe166bed4b134e833cd9"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/ameno",
       "repository": "cloud-itonami/app-itonami-ameno",
       "commit": "be615c1fdfbb399b27a723538a5e4da63c57401c",
@@ -1228,30 +1204,6 @@
       }
     },
     {
-      "id": "app/assistant",
-      "repository": "cloud-itonami/app-itonami-assistant",
-      "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "assistant"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "569e408f3938163e46e08c77eecc9604cc5df34d2e3eac7a6bf172f77f4f4a0a"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/auth",
       "repository": "cloud-itonami/app-itonami-auth",
       "commit": "9f58f18b2b1dfbb54090372d92045dd2751c8756",
@@ -1294,34 +1246,6 @@
         {
           "path": "nbb.edn",
           "sha256": "4da7222967cc1275a5cbf2429cf143710a8537e5639a2349eaf08030a66cfb61"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/auto-sales-erp",
-      "repository": "cloud-itonami/app-itonami-auto-sales-erp",
-      "commit": "15971900371827e887b7fb6621562aafc806ac3a",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "auto-sales-erp"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "4c838f1feba1a2d3be03fa14edae1c9828c3efa9a37e89086695dcdd7d6313be"
-        },
-        {
-          "path": "cljk-origin.edn",
-          "sha256": "181f010d5a8592c2872cb97962520ab44af8dfa16e50131be25a277ea753f801"
         }
       ],
       "digestStatus": "verified",
@@ -1434,34 +1358,6 @@
         {
           "path": "AGENTS.md",
           "sha256": "08125ea93dbc88170fe9052930bbe95492d0d4df27806683b86790c437cafb0d"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/bot-fleet",
-      "repository": "cloud-itonami/app-itonami-bot-fleet",
-      "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "bot-fleet"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "4bb1b40e5f4b3c349e65567c0d5382d98609d41521bfee3238229222160a7952"
-        },
-        {
-          "path": "cljk-origin.edn",
-          "sha256": "d97d9237bbbf03428e0e947380aa943f401ab9708fcaad6e73ad9babf4fffe67"
         }
       ],
       "digestStatus": "verified",
@@ -1686,30 +1582,6 @@
         {
           "path": "cljk-origin.edn",
           "sha256": "4963f58a1634c5ab7c15c018cb182185cd5ec02d8a37a7d33ad7faeeb6c9fb1f"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/casino",
-      "repository": "cloud-itonami/app-itonami-casino",
-      "commit": "c50e456e6e6bfa4e7cc78164c1d0ec53f7dd8df9",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "casino"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "fe8fc90580e99fafc672d1d449b7acad2d9fa2e144fcd83bca289a99a64eab2b"
         }
       ],
       "digestStatus": "verified",
@@ -2032,38 +1904,6 @@
       }
     },
     {
-      "id": "app/cluster-murakumo",
-      "repository": "cloud-itonami/app-itonami-cluster-murakumo",
-      "commit": "fbf0c35191e3af82cdda5a253a174a8fdfa493cb",
-      "visibility": "public",
-      "archived": false,
-      "license": "Apache-2.0",
-      "kind": "other",
-      "keys": {
-        "app": "cluster-murakumo"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "b3931992fcae10d9ff490d60ad85438835b09a218bee5f190dbdddec2fc4955d"
-        },
-        {
-          "path": "LICENSE",
-          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
-        },
-        {
-          "path": "NOTICE",
-          "sha256": "a45d24bf26b0e3efec103be2c0f03a84eee73e429f31c1e509f5d74439dd0f1e"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/cmdb",
       "repository": "cloud-itonami/app-itonami-cmdb",
       "commit": "2ddfbab71c837bf9d5c15b776dadedb932180513",
@@ -2313,30 +2153,6 @@
         {
           "path": "cljk-origin.edn",
           "sha256": "2bf019ffaf85794d328de3b376a984463cc20efc29b1a434c4cfee77d1dad4b1"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/compute-energy-watch",
-      "repository": "cloud-itonami/app-itonami-compute-energy-watch",
-      "commit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "compute-energy-watch"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "73a82c34512a94169a16dff7b320df84b48c420de53d58c520d79cf6342d5e00"
         }
       ],
       "digestStatus": "verified",
@@ -4171,30 +3987,6 @@
       }
     },
     {
-      "id": "app/hiraku",
-      "repository": "cloud-itonami/app-itonami-hiraku",
-      "commit": "1074e64bb56f6360228ebdbb6eff32d2ef67550e",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "hiraku"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "fb8f9dfad34cec345eec6aa284c10d912744acba9ce6f7faa785f366ac27effd"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/hospitality",
       "repository": "cloud-itonami/app-itonami-hospitality",
       "commit": "19c97a52b1caa33d7397187ffd94c113cc0f3cc7",
@@ -5305,34 +5097,6 @@
         {
           "path": "LICENSE",
           "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/kotoba-server",
-      "repository": "cloud-itonami/app-itonami-kotoba-server",
-      "commit": "1e4a71d5647ec95a2bcb32d7653e861075671ba8",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "kotoba-server"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "b77961163616b7f0d8ee8b264dcaad91712172c993363dc9cd823fc956b484e1"
-        },
-        {
-          "path": "cljk-origin.edn",
-          "sha256": "066d8b863c1fa24dac8398d8114cefb5356f79ca84eee752dad86b83c4635972"
         }
       ],
       "digestStatus": "verified",
@@ -7858,30 +7622,6 @@
       }
     },
     {
-      "id": "app/performers",
-      "repository": "cloud-itonami/app-itonami-performers",
-      "commit": "e7451b3ab5f94c8f95f23c42721822cb11c41273",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "performers"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "0783ea5f57175f0e276f444f67d1ea562f4f0592817a50c1f535b6f5818fa8ac"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/pharma",
       "repository": "cloud-itonami/app-itonami-pharma",
       "commit": "483799b26dd8dc3b6f8981096dcee85557b1e1c3",
@@ -8298,34 +8038,6 @@
       }
     },
     {
-      "id": "app/repo-steward",
-      "repository": "cloud-itonami/app-itonami-repo-steward",
-      "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "repo-steward"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "c048c8b97e227068a0067ad7e2cb68664ac6023361fc47a22c678c1a04851290"
-        },
-        {
-          "path": "cljk-origin.edn",
-          "sha256": "ff4cb6b7e2a7c2e8c0f2cd8f98e0a0fce46af0436f6b099b210f28f9c0395acd"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
       "id": "app/researcher-bio-gene",
       "repository": "cloud-itonami/app-itonami-researcher-bio-gene",
       "commit": "2a88a42096aa3777f8e5ed3c06d6c5c6c49d392d",
@@ -8420,34 +8132,6 @@
         {
           "path": "NOTICE",
           "sha256": "9c15d4314e8b4f3466e7cc085b57c49ae3d6233b70fed4dc7987803ebf79f856"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/root-router",
-      "repository": "cloud-itonami/app-itonami-root-router",
-      "commit": "82eab79bc43046479ac1b02382afa658991c32d2",
-      "visibility": "public",
-      "archived": false,
-      "license": "Apache-2.0",
-      "kind": "other",
-      "keys": {
-        "app": "root-router"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "76c37db0fdf974dbfeabdbfec84937fc4fb5ea08cb19458adadd22b8e2bee780"
-        },
-        {
-          "path": "LICENSE",
-          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
         }
       ],
       "digestStatus": "verified",
@@ -8908,30 +8592,6 @@
         {
           "path": "cljk-origin.edn",
           "sha256": "1b72cc635238dee0ea2b87566fc6f4839527055bf74b2e94fea9cb03ce51ea9a"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/social-capital",
-      "repository": "cloud-itonami/app-itonami-social-capital",
-      "commit": "27e60629cd4667cd59bc1b8d89b3fd94e9016be7",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "social-capital"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "ae835357b34dcfe752d5948d6bfb1e55faa20633f119f28f234491807b4c3bd8"
         }
       ],
       "digestStatus": "verified",
