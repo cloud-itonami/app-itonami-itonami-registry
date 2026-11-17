@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T05:14:37.720154Z",
+  "generated": "2026-11-17T08:21:23.065348Z",
   "count": 2020,
   "entries": [
     {
@@ -23005,13 +23005,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/90-docs",
-      "checksum": "sha256:a0a1c0eb7ba00e5bc4c16da77306b613cddc70fd589b7c6dc7e80754c36305dd",
+      "checksum": "sha256:cebfbafa704d1f7e637e6b227e7a62259d8861080d9f98ce5f47b62d864f1f0d",
       "profileChecksum": "sha256-tree:0e316eb43b2c361fa57c1b565defebff38382d4239a0fba214e69d25bbbd56b5"
     },
     {
@@ -23325,13 +23325,13 @@
       "version": "0.1.0",
       "description": "network-awai D1/DO/KV binding removal driver (ADR-2609132007): one repo per tick, read source, migrate to R2, verify, PR + merge. propose-only for deploy.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/awai-store-removal",
-      "checksum": "sha256:828200cdf55c43bafea9e6caf6973eebb87188a73ea41fbd1b90849f8715049b",
+      "checksum": "sha256:4edccae81850e67599ffe4b99cdf9166e8a09f58cc0b3bb008e35a124708756a",
       "profileChecksum": "sha256-tree:0c0dbf0d7b0ddbf7bf8f1c20a0642048f27e7d8373560799230e1050c9afd043"
     },
     {
@@ -23357,13 +23357,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/branch-drain",
-      "checksum": "sha256:9aa2271e7c5d39972dcaa691993147adad9d2ba8e610d3040c32549d3789906d",
+      "checksum": "sha256:3ae23009a84480aae9fab34ff916a5a7d11abc351e31721df2b3ae22d141aa07",
       "profileChecksum": "sha256-tree:2248d9644a3988ba60132208d5787fb7defcec1f1120499922c0ba2eccc4f928"
     },
     {
@@ -23379,7 +23379,7 @@
         "itonami": "*"
       },
       "path": "profiles/bridgetestclone",
-      "checksum": "sha256:a82d9fe14ffcc66464b020e85f3b56685c731d42bdc327e989deb5656de10d83",
+      "checksum": "sha256:4cb5a3253a2f2f493b35b739dab09cd8d18b33ba583a4072e256a764638ed56a",
       "profileChecksum": "sha256-tree:7ecbb9d4e6a4ec4ceff158e21832947f819decd8afb123c31ad4f022a10e41d3"
     },
     {
@@ -23395,7 +23395,7 @@
         "itonami": "*"
       },
       "path": "profiles/bridgetestfresh",
-      "checksum": "sha256:51aac4bcc9f0cceae4681659e095703b2d5c1926e52041a3730922b46319a1aa",
+      "checksum": "sha256:76f87d8c1ba167f27f7e8d66cb8c29877ba9bb03a2d08c7d674dbd717af31914",
       "profileChecksum": "sha256-tree:21a9aa4e154cb9253d67a34a29c73108dc8d29493c20b9f0eb45aa1ef7a9dff3"
     },
     {
@@ -23459,7 +23459,7 @@
         "itonami": "*"
       },
       "path": "profiles/chain-amano-dns",
-      "checksum": "sha256:73f17bf804f27762a429be1464a33e6e2da9f9fa07c1d28e91254fb7df327d19",
+      "checksum": "sha256:517a442a45b35ae5d7f4b000414ca978fc61116ee9200f1d9052e0e55c66042f",
       "profileChecksum": "sha256-tree:53dc543a6521ed64c3e4868c8191acd147224d065377ef9fe4d1a894c8fd3a96"
     },
     {
@@ -23469,13 +23469,13 @@
       "version": "0.1.0",
       "description": "cljk-finish - finish the clj/cljc/cljs to cljk rename follow-through (string-literal path refs, bb residue liveness, stale extension grep). 1 tick 1 finding, propose-only ledger.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cljk-finish",
-      "checksum": "sha256:29a65357ed73d54189d00a115e1a98504da4f937201db210fae6d6583d507bd1",
+      "checksum": "sha256:4de3e985276ff5b7dc565446fd893680b2715cdfcd5d7c6b192f28574389801d",
       "profileChecksum": "sha256-tree:da1eee185180971635a7ceed95f8b811352e3a140cc158a116c7369ebd3680b2"
     },
     {
@@ -23501,13 +23501,13 @@
       "version": "0.1.0",
       "description": "codinator — 他のbotが適切に動いているかをメンテナンス",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/codinator",
-      "checksum": "sha256:fee2ed67c2d798dc4fa81734717c01579f63d6ebe2f10aa86e9186b71192cb28",
+      "checksum": "sha256:1c500af2bb5bc0432b02c47f3c7d9c483fc104bf892112b5e5c71633b801f3c5",
       "profileChecksum": "sha256-tree:37c84eaa6f25c70b8a326ebe67ac823fdc71539362f5180214d4c29dd580f9bc"
     },
     {
@@ -23539,7 +23539,7 @@
         "itonami": "*"
       },
       "path": "profiles/compute-energy-watch",
-      "checksum": "sha256:733b1cd3315c30e7b32940166c3266d7ec7e9901e031ffa31f92f5f7da0317d7",
+      "checksum": "sha256:9a21baeaf95bb24360b26071b3389bf7db17fdebcd95f0da69566cd52b1f960c",
       "profileChecksum": "sha256-tree:2861afc75e0adf71143d1866e9f99692eab08973d207ee8cf6b7d94b58f79f96"
     },
     {
@@ -23549,13 +23549,13 @@
       "version": "0.1.0",
       "description": "cron-health: hourly Hermes bot cron fleet health auditor - scans all profiles, detects breaks. propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cron-health",
-      "checksum": "sha256:ddcfad0a7f8621c59c61ea071ddb46aa7be3db5d33bea5735ab7d5abfcb906a5",
+      "checksum": "sha256:11472af8cd8897d9de6dcf7a5823423838b659b241e87bb27c3b7244b82de9b8",
       "profileChecksum": "sha256-tree:3a506fc22ec0a74956109c72b11aa9ccaa96e00f4f4290a15d735ea9c23991fe"
     },
     {
@@ -23635,7 +23635,7 @@
         "itonami": "*"
       },
       "path": "profiles/default",
-      "checksum": "sha256:7362787694c8e2624ee1c3e1e40a465f9c47f35f37113311f520ec530adb5155",
+      "checksum": "sha256:ea468c4ff85744d24a53fa87fd30048edd518166bf2105ec25592ff8f8e41790",
       "profileChecksum": "sha256-tree:55dab6c9608d7e9901cfa30202cdcbbd36a6c7b4b089f8390395957ed45e6aa7"
     },
     {
@@ -23645,13 +23645,13 @@
       "version": "0.1.0",
       "description": "デザイン/アクセシビリティ監査担当。itonami.cloud と workspace 配下の web UI を jp-go-dds (DADS) + kotoba design + WCAG/HIG の観点で監査する。design-quality.audit (決定論層) と実画面 screenshot review (sample-visual 層) を回し、 design-quality-ledger.edn に採点を追記する。fail-closed — 計測できないものは unmeasured と書き、green を偽らない。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/design-audit",
-      "checksum": "sha256:717abad6dd9e9edfe4b679a654b4b827c0622feeeb9b3166e7a3e9e808146ed8",
+      "checksum": "sha256:a8e60da341c8d71ee7892de2bf01fc20b7c2427ffb28a0831df051f2374fc88e",
       "profileChecksum": "sha256-tree:6858ff1f047a091ff29b72aa81d7c7cacea662658e82b13b3ed3d487e4f8caad"
     },
     {
@@ -23661,13 +23661,13 @@
       "version": "0.1.0",
       "description": "docs-currency audit bot: checks shared read-only models, rules, md, ADR freshness against the latest landed state; files one finding per drift with PR-ready pointers",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/docs-audit",
-      "checksum": "sha256:68a6283d204446b30195cd2de4612f6ec4d17f312fd57cd9f82eeec88c8bc07a",
+      "checksum": "sha256:6cbf8269f421aa8e0800ddc35e51d2544a469796b944b9d7ecd7b0e927cdb17b",
       "profileChecksum": "sha256-tree:1fb419d2ecf2ab529fe5e4199db1fb75adc5faa0ca40f0ad8c8f2e491328f71b"
     },
     {
@@ -23709,13 +23709,13 @@
       "version": "0.1.0",
       "description": "Capability-model watch for the murakumo fleet: measures serving state and freshness of image/video/music/tts/cua/vision model candidates in the /infer/models catalog and HF availability of tier candidates, appends to an append-only ledger. propose-only, no_agent script job.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/fleet-capability-watch",
-      "checksum": "sha256:cec2b78cab0115512e96f1c21a6033b18b9021e7da2ccf069839c3596deb5a01",
+      "checksum": "sha256:4802877bb31e5a47d7a2a6409db43caa418907d528d2426ea4804745860ea969",
       "profileChecksum": "sha256-tree:7abd81cc58340324e427dc7b5bc1edbe20522dd39cf2d218541bfffc801fb434"
     },
     {
@@ -23725,14 +23725,14 @@
       "version": "0.1.0",
       "description": "fleet-kaizen — 品質・安定性・性能の kaizen bot — 全 Hermes fleet (約 170 profile / 156 cron job) の**実測ログだけ**を材料に、",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/fleet-kaizen",
-      "checksum": "sha256:8e13c84fc34fefa1776f8cd911aa14b736e2800fafd4c57a2513496772c12f92",
-      "profileChecksum": "sha256-tree:fc2f01542ec3c5a41d3368f3191de532e036bc2df8f9d9e95f4c43d16be04428"
+      "checksum": "sha256:09cba6f924776276e11cb07e855c625a49bfeecdf399926d26d6df1bfc06d243",
+      "profileChecksum": "sha256-tree:d65a53951cbcb8d2bbe05c08fa141f340695e5cf38b59234eac4a327323a3ad7"
     },
     {
       "id": "fleet-model-watch",
@@ -23741,13 +23741,13 @@
       "version": "0.1.0",
       "description": "Fleet model-assignment health monitor. Measures per-model ok-rate and burn from scheduler logs, flags fault signatures (402/429/resolve-fail/dead-fallback) and streak growth. Tier map: skill fleet-model-tier-assignment.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/fleet-model-watch",
-      "checksum": "sha256:99fd3c95d11806f7ac5c65d75c81f2952b5c946f01eb0d540d7c7fbb699d4b2b",
+      "checksum": "sha256:e7c3f2640b1614c3b5d2cfa100b4ee77842bf9fa46b0b293a3b46461a9e8bc05",
       "profileChecksum": "sha256-tree:4ac06b4b4278c9e02788ff31fefb6fc50cd17c7b4c9ee9ad6983dea8d746e6ed"
     },
     {
@@ -23757,13 +23757,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/fleet-watchdog",
-      "checksum": "sha256:d69d9f218341043a252ee7646c704659a3aa2cb7b22d4a7cc8a210716ad15b08",
+      "checksum": "sha256:ad4da2f6a562fe166553f7b4095e1fa19dd89ee164bba370fbb1d4d40d011a03",
       "profileChecksum": "sha256-tree:03c1173afbbc62f974054799115fc135db4069ddaf0c6180261f022979910155"
     },
     {
@@ -23795,7 +23795,7 @@
         "itonami": "*"
       },
       "path": "profiles/gftd-support",
-      "checksum": "sha256:50a282cfdba82f6a56ed98c9862101fe307b5ad305dbe3f666350b821ffeef4c",
+      "checksum": "sha256:d0a983b41e8a8aae9f11bfcb3f30f01148dbb633120c6966557bb808205285d9",
       "profileChecksum": "sha256-tree:f447a80f7f734733b1af22b6623d3b1612f0cc3230c1aceefbb973469c67532c"
     },
     {
@@ -23885,13 +23885,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/git-cleanup-ops",
-      "checksum": "sha256:02027dbfa8106ab3c3ba8508c6d4b80bcd5a9b29e2b3eacac6807acd09c93598",
+      "checksum": "sha256:d0de74b6465d1eeecb52b46a9303148673420da3a500f6f284a1acf34c8a77f9",
       "profileChecksum": "sha256-tree:cd520d2883b466cde65a5bf274de58dcf97970715a7557d9e5b1c426ee5d19c0"
     },
     {
@@ -23917,13 +23917,13 @@
       "version": "0.1.0",
       "description": "World power, CPU, network, storage, GPU production and utilization tracker: measures public indicators, keeps a ledger, proposes outlook and source updates. Propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/global-infra-capacity",
-      "checksum": "sha256:4bac1a77ac3743c6a29e770d36e0982cd5f2b2f3a853a626822f903fc744f2a7",
+      "checksum": "sha256:2b9c1dd92a63a303a23600c3c02dc26588b2356d5255dd14c0dfe1872644d253",
       "profileChecksum": "sha256-tree:636db39ed6188a368481249213965f69c072ed1260ac5b292dd2385ce09ce08f"
     },
     {
@@ -23971,7 +23971,7 @@
         "itonami": "*"
       },
       "path": "profiles/hiraku-kyozai",
-      "checksum": "sha256:6b90074cf66db488a5d48919ad9e9a6eece30f7cd29dc2de0643052610d729d5",
+      "checksum": "sha256:ff469489dc8a672620dda6788dd35b64965c01477c31058d29a0aa41618a7b06",
       "profileChecksum": "sha256-tree:ff22b01e1ba0939ae1538a32406eb9b24021fa8d5ed51cddcb0e5ec2929e83c8"
     },
     {
@@ -23987,7 +23987,7 @@
         "itonami": "*"
       },
       "path": "profiles/hiraku-michishirube",
-      "checksum": "sha256:e7aa7cf2414073c4d9031ed91340a76c6cd7c11e658bab50386e2bd97ed256fc",
+      "checksum": "sha256:46968efd515421bb02827016cc4c8ca0da03351ef9b477a7db02f8e5c3fd86a1",
       "profileChecksum": "sha256-tree:4bf55a0308cf7d2a86da155ea616a7c0e841e8ecd90b7d749cf7975f2ddb47ce"
     },
     {
@@ -24003,7 +24003,7 @@
         "itonami": "*"
       },
       "path": "profiles/hiraku-soudan",
-      "checksum": "sha256:7e87f55e5c0a2e0e0478d4f42e6afca4318cc1e5da8b80e94fc3434dd3ea8f2f",
+      "checksum": "sha256:db7704db6c860142bab9ab12511496c0e5b6eb6ca40d00f1683451564295ca29",
       "profileChecksum": "sha256-tree:dc7f410004bcf564d665af3b83738f419e96165c3544396e2af7b6cc6dc930b1"
     },
     {
@@ -25043,7 +25043,7 @@
         "itonami": "*"
       },
       "path": "profiles/kotoba-engineer",
-      "checksum": "sha256:9107daf0dfccc9b48cbf4e9bfeae3264059deeb4a151c5bd4019d53dfd2b34bf",
+      "checksum": "sha256:f8cd7a9f5f3884dd52abe379cfb4fb9bcf2bb2914ef2e552ed9e1a3981e53fe2",
       "profileChecksum": "sha256-tree:999aef25b68b9bcc8261ae79bc1f546371f1b9ec545572ed9428eacf59a7c25a"
     },
     {
@@ -25101,13 +25101,13 @@
       "version": "0.1.0",
       "description": "kotoba-merger — org-wide PR review & merge bot — com-junkawasaki fleet の org 横断 PR 審査 bot。bot fleet が立てた PR を",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-merger",
-      "checksum": "sha256:aeab636cea64eb02a2cf811f739c0c25964a4beedbfc0055cfee058ab57c51c5",
+      "checksum": "sha256:7b1eba5ab4ce02d1b8980e3b9649d0902b1f9addf99e2f066088881b256ef7fc",
       "profileChecksum": "sha256-tree:fb5f2905d4c3c0b4fb3bad02ff982be9c49cf2d1e768ce2e13a85294448dcbd3"
     },
     {
@@ -25421,13 +25421,13 @@
       "version": "0.1.0",
       "description": "maanger — 他の bot がちゃんと働いているか確認",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/manager",
-      "checksum": "sha256:a3d4eb848c20d96604258e6d20ac31a04afda36f15671863e5395f94f4c3ae2a",
+      "checksum": "sha256:1f8b88e803840b52456a5b401098bde02488ecc29b662f4bba834069d8163862",
       "profileChecksum": "sha256-tree:d5c841a7edd2a7a8ff50c7f7e79a6317ccdedfdb37536d62181b3a7fe5e7eb47"
     },
     {
@@ -25437,13 +25437,13 @@
       "version": "0.1.0",
       "description": "ISIC/ISCO 807 repo の成熟度を毎日観測し最低スコアの1本に1 finding提案する propose-only bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+      "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/maturity-fleet",
-      "checksum": "sha256:120932e67f44c6ea6737d2c31b5794a457ac39bb1d7248d0adfe1c19e7f7ded7",
+      "checksum": "sha256:8653e6a1ebd653ad76095adf064d069b905c4026a510f257ad228dfcb353dbc4",
       "profileChecksum": "sha256-tree:ccb27e3fe94a3965c8c9b2504da1e9172a2489b25d72894f4b331f9a9d6dd695"
     },
     {
@@ -25475,7 +25475,7 @@
         "itonami": "*"
       },
       "path": "profiles/mithril-coder-openrouter",
-      "checksum": "sha256:04f2c726d2cbfddb94037c17b1d0eacaec6203cd6758d85070b46e8ca9d169d8",
+      "checksum": "sha256:ee054c0bb2e320f3dd8e2649cee7b0e7221600e666228874bfc87ff62059888e",
       "profileChecksum": "sha256-tree:a3b01874486ef3661f1657416b189679d2448a8b05d6aed746b20adf6b3d095c"
     },
     {
@@ -36525,13 +36525,13 @@
       "version": "0.1.0",
       "description": "pr-cleanup — github pr を cleanup",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/pr-cleanup",
-      "checksum": "sha256:af62743eb246871b3a01501ad3ae5a3a147dcf723d5eb55645b2dec8a11ee9cd",
+      "checksum": "sha256:2d7f8bb46e630bb7048842ba5d708e0e53de3efb413b63dba24f2865df109f52",
       "profileChecksum": "sha256-tree:4db6a0585728ceedec5463987629c6257482df5f9dfce31707da43958fb93ec3"
     },
     {
@@ -36541,13 +36541,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/pr-drain",
-      "checksum": "sha256:d2a016dedc0563f1d27391a0332087c8004f51f280978fb91619f69dd3931762",
+      "checksum": "sha256:43a55d788dd8d7461d62d85720e5d75ddca215dc7bd408ca2317d528e0b04614",
       "profileChecksum": "sha256-tree:358d1eb795e38d49e54ad25cfced768f77a5e963cdb8d644abe4c025610e289f"
     },
     {
@@ -36627,7 +36627,7 @@
         "itonami": "*"
       },
       "path": "profiles/research",
-      "checksum": "sha256:594d486ede618dfae7bf73aceb0b192a1ef800fdc809812a91a49b50085651e5",
+      "checksum": "sha256:a2fb41cefc7e639899a372c38a66a902e9a0a8949f260198a9d3897dfcf76c5d",
       "profileChecksum": "sha256-tree:7b60e62a64d2fb0710331c5b129b19e3dde262d297e36fd9def32f76223af61f"
     },
     {
@@ -36643,7 +36643,7 @@
         "itonami": "*"
       },
       "path": "profiles/review",
-      "checksum": "sha256:afe6412decaa090dc8abcb20efd014e899463cddb8dd5f7bf70800acb5835a59",
+      "checksum": "sha256:9709204c070e03226bd321e9aa84fe2f1a22dc89b9fd52ab1dafb18178bf81b9",
       "profileChecksum": "sha256-tree:08049ccf968b3a874b0b9161c32748609448de3f8620697782af35a992d5b8d1"
     },
     {
@@ -36653,13 +36653,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/reviewer",
-      "checksum": "sha256:bbdd92a60f454e92426534fc1b013076745e1d5bce8ce3f6a1287fceeeeb91af",
+      "checksum": "sha256:38aaea4138304242f62fd0969e9292978bc82fef383d85b3822bc8c1e99adfee",
       "profileChecksum": "sha256-tree:1ed4ed6e5f79a37f698a8cc634630cf4b18526b561dae1bcebc1d6469b0323f7"
     },
     {
@@ -36669,13 +36669,13 @@
       "version": "0.1.0",
       "description": "rule-kaizen bot: standing な言い方が実装スナップショットを言語にしていないか測り、1 反復 1 finding で直す (ADR-2608261200), 3h cron",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/rule-kaizen",
-      "checksum": "sha256:79da822b2d21b37a04f48bac425259c7d44539ca14f977cbbdcd7e30c66eef2e",
+      "checksum": "sha256:8c034ce05fa91a8af05ca9d0e89a99494eb85adb84837bc87339be2b6a6b4d29",
       "profileChecksum": "sha256-tree:826499bacde4c5872d9d3a0b0797a951d7e1ae1ea1891cdc2aa92d0b59021da4"
     },
     {
@@ -36765,13 +36765,13 @@
       "version": "0.1.0",
       "description": "cleanup・整理整頓専任。superproject と各 repo の cleanup(cleanup.cljs/cleanup-land.cljs)、west orphan audit、worktree/branch/stash の棚卸しと整理、ディレクトリ構造の秩序維持。",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+      "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/seiri",
-      "checksum": "sha256:91df86517d12f2d9a09ef4e81ba3c499eff17c902633984fb5e2fc1f0fcbf59c",
+      "checksum": "sha256:23455679bdc221cc2cb22f301f09416cf60d9a674dc01dae704a78ab69987582",
       "profileChecksum": "sha256-tree:4fa4ab1da52b48bbcd744bb70d05773008a86a86a9991315b549f502d288f4a3"
     },
     {
@@ -36813,13 +36813,13 @@
       "version": "0.1.0",
       "description": "social-capital: propose-only bot for the individual data contribution social capital ledger. Measures hyakka claims, aozora records, yataverse lake, moyoshi settles into an append-only evidence ledger and proposes the next step of ADR-2609141203.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-social-capital/tree/cb7b974a2fe01160ccf77361c4faf835067166d8",
+      "source": "https://github.com/cloud-itonami/app-itonami-social-capital/tree/27e60629cd4667cd59bc1b8d89b3fd94e9016be7",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/social-capital",
-      "checksum": "sha256:d4bedf3b0191bfc34147ecd6a8c47977768c4b66bf77d5b234798fdf62afa3c4",
+      "checksum": "sha256:1e54686564d9c86b0153d4e29da8f81e50edae7f72cfb0878fa54a00c6a29ac1",
       "profileChecksum": "sha256-tree:abe63d986082c424a6508ddd9eda4077374fcc0a0ec3459e4e25950a9ad88363"
     },
     {
@@ -36899,7 +36899,7 @@
         "itonami": "*"
       },
       "path": "profiles/theme-designer",
-      "checksum": "sha256:9a660b247a2f21a9f5f141d46aea40e4a1269d7014afe190180d3fd0cfb65338",
+      "checksum": "sha256:0674d69f07c0e45e04fe6f5aedb91d20186360f5bd0f63d57a64fcb29488f596",
       "profileChecksum": "sha256-tree:e7b4bd7ad4c0b6c2d081b38ead6ebe8b6e0392926bc15b24a15da95438653466"
     },
     {
@@ -37219,7 +37219,7 @@
         "itonami": "*"
       },
       "path": "profiles/writing",
-      "checksum": "sha256:b0db862f63fd7be207bf959095069608ec424bf623517479071fc2f1fe66ebb2",
+      "checksum": "sha256:41197a794634f42ff44a3479409393d54f61ea5a82070189610003cf3dded4f6",
       "profileChecksum": "sha256-tree:96bea2808e639952cbae222bdf54eb8c93fb89e7aed43cd4dd3679b31e16c034"
     },
     {

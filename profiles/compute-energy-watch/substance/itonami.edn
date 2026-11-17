@@ -1,0 +1,17 @@
+;; itonami profile (cloud.itonami.profile.v2). Additive to the Hermes layout:
+;; Hermes ignores this file; removing it returns the profile to plain Hermes.
+{:itonami/schema "cloud.itonami.profile.v2"
+ :profile/id "compute-energy-watch"
+ :profile/description "Analyst for worldwide supply, demand and consumption of power, CPU, network, storage and GPU, from cited public sources only (no investment advice)"
+ :profile/hermes-compatible true
+ :agent/kind :worker
+ :runtime {:engine :itonami-agent :scheduler :hermes}
+ :placement {:mode :local :inference-rail :murakumo}
+ :inference {:rails [:murakumo] :authorities ["api.murakumo.cloud"] :deny-hosts ["openrouter.ai"]}
+ :state {:workspace :host-local :results :cid-receipts :secrets :never-leave-host}
+ :ids {:repo "cloud-itonami/app-itonami-compute-energy-watch"}
+ :authority {:default-decision :approval-required :source :yakuwari :ref "yakuwari.edn"}
+ :capabilities [:read_source :fetch_public_source :write_digest]
+ :org/world :host
+ :invocation :resident
+ :cron? false}

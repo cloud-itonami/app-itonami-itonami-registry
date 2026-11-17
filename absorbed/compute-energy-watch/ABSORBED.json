@@ -1,0 +1,43 @@
+{
+  "origin": "cloud-itonami/app-itonami-compute-energy-watch",
+  "commit": "a5b824a1ea70062d07c2f470de16ed58be7c68b6",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.edn",
+      "sha256": "9310869da1ea48fec5bfe4c1b411426465c066530dd9550012b1d107f6bfa749",
+      "bytes": 113
+    },
+    {
+      "path": "README.md",
+      "sha256": "73a82c34512a94169a16dff7b320df84b48c420de53d58c520d79cf6342d5e00",
+      "bytes": 816
+    },
+    {
+      "path": "docs/data-sources.md",
+      "sha256": "434964c3524d282828fca3c0541a17c7b19bf911975c4fa492a9c0c7467357fb",
+      "bytes": 7047
+    },
+    {
+      "path": "docs/design.md",
+      "sha256": "189b3254058eeeaca1926df89cdf35ac29efb7d5c40a794cb89e2121805d12f0",
+      "bytes": 5308
+    },
+    {
+      "path": "docs/digest-format.md",
+      "sha256": "05bdecb498dca2ccdff414458139177d9bf851bda3f32648771fcacaf2b0bd7d",
+      "bytes": 3524
+    },
+    {
+      "path": "docs/metrics.md",
+      "sha256": "fc18f1e9fac0a794fda2a11f6db8f828941af38ad50a2801d70d740b4cafe8bd",
+      "bytes": 4863
+    },
+    {
+      "path": "docs/permission-requests.md",
+      "sha256": "a61cfe919f14c604f308426efcfb3fc6c1a95b1904be0da44e453910ba50179f",
+      "bytes": 2548
+    }
+  ]
+}

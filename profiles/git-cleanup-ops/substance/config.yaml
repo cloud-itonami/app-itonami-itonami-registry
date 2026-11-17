@@ -1,0 +1,95 @@
+# Host-local blocks (command_allowlist, onboarding, secrets, skills, terminal) are kept on the host and omitted here.
+_config_version: 46
+agent:
+  max_turns: 500
+  run_budget_seconds: 600
+auxiliary:
+  free_only: true
+  vision:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: qwen3-vl-2b-instruct
+    reasoning_effort: none
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  web_extract:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  compression:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    reasoning_effort: none
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  skills_hub:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  approval:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  mcp:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  title_generation:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    reasoning_effort: none
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  triage_specifier:
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    provider: murakumo
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+browser:
+  cloud_provider: nous
+fallback_providers: []
+image_gen:
+  provider: nous
+model:
+  provider: murakumo
+  base_url: https://api.murakumo.cloud/v1
+  key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+  default: mishima
+  max_tokens: 1024
+  context_length: 131072
+plugins:
+  enabled: []
+providers:
+  murakumo:
+    base_url: https://api.murakumo.cloud/v1
+    api_mode: chat_completions
+    stale_timeout_seconds: 600
+    request_timeout_seconds: 900
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+stt:
+  provider: nous
+tts:
+  provider: nous
+web:
+  backend: nous
+cron:
+  bot_chat_delivery_timeout_seconds: 900
+  max_parallel_jobs: 12
+mcp_servers:
+  github-forest:
+    command: /opt/homebrew/bin/node
+    args:
+    - ${userHome}/github/com-junkawasaki/west-manifest/scripts/forest-maintenance.mjs
+    - mcp
+    lazy: true

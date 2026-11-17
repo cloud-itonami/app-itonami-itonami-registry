@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "base_url": "https://api.murakumo.cloud/v1",
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "71b62595d8f4",
+      "model": "mishima",
+      "name": "amano-dns-tick",
+      "no_agent": false,
+      "prompt": "Execute dns_evidence.py, observe amano chain & dns probe metrics, and report 1 concise finding regarding quorum and resolver health per SOUL.md.",
+      "provider": "murakumo",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */2 * * *",
+        "display": "0 */2 * * *"
+      },
+      "script": "dns_evidence.py",
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

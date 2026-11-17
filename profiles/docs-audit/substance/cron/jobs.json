@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "997bff3dd423",
+      "model": null,
+      "name": "docs-audit-weekly",
+      "no_agent": false,
+      "prompt": "docs-audit weekly pass. 検査 (全て実測で答える。捏造ゼロ、unknown は unknown):\n(1) superproject 90-docs/adr/ accepted ADR の現在地記述 (Still open/gaps/last_verified) が main/pin/deploy 実測と一致するか — 疑わしい ADR 上位 3 本を深掘り\n(2) cloud-itonami-app 90-docs/adr/ slice 記録が landed PR を追従しているか\n(3) itonami profile skills の実測節 (日付つき) が live 状態と一致するか\n(4) itonami profile memory の SHA/pin/job id が現行か\n(5) scripts/hermes-hyakka-bots/ 正本↔~/.hermes/profiles/hyakka-corpus/scripts/ copy の同期 (cmp) + bundle-manifest sha 突合\n出力: drift あり = 1 finding ごとに「何が/どこが/どうあるべき/PR pointer」4 点。drift 0 = 「差分なし」1 行。修正はしない (報告専任、merge しない)。",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "display": "0 13 * * *"
+      },
+      "script": null,
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    },
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "fefcae7b9f6b",
+      "model": null,
+      "name": "docs-reality-tick",
+      "no_agent": false,
+      "prompt": "docs-audit daily drift tick (ADR-2609072600)。1 反復 = 1 finding。\n\n## 手順 1: 測定（これを飛ばして判断しない）\n\n最初の行動として、次を **そのまま** 実行する:\n\n    nbb scripts/docs-reality-tick.cljs --root ~/github/com-junkawasaki\n\nその stdout だけがあなたの測定である。node/python のインライン計算で代替しない。\n**報告には必ず `SYNC` / `DOC-REALITY` / `findings=` / `AGENTS-MD` の 4 行をそのまま引用する。**\n引用できないなら測定していないので、その旨を報告して終える（推測で埋めない）。\n\n⚠ hermes の cron は shebang を honour せず `.sh`/`.bash` 以外を Python で実行するため、\nこの monitor は `--script` では注入できない（注入すると Python が `.cljs` を読んで\nSyntaxError になり、しかも job は completed と記録される）。だから自分で nbb を呼ぶ。\n\n## 手順 2: 測定を読む\n\n- `SYNC` の ff-exit が 0 でない / behind-after が 0 でない → checkout は origin/main と\n  一致していない。その事実を最初に報告し、drift findings を権威として扱わない。\n  同期を自分で強制しない（他セッションの WIP を壊す）。\n- `DOC-REALITY exit=2` → 測れていない。findings 0 と読まない。\n\n## 手順 3: findings が 1 件以上なら 1 件だけ扱う（報告専任。AGENTS.md は直さない）\n\n⚠ **この profile は報告専任**（SOUL.md「修正はしない (報告専任)」）。かつ\n`AGENTS.md` は protected file guard に守られており、この bot の\n権限では編集できない（2026-09-07 実測: guard が block した。**別経路で回避しない** ——\nguard に阻まれたらそう報告して終える）。\n\nしたがって扱い方は finding の種類で分かれる:\n\n- **cited-superseded / dead-path（AGENTS.md 内）→ 報告のみ。**\n  「何が・どの行が・後継 ADR は何か・どう直すべきか」の 4 点を書く。自分で直さない。\n- **agents-md-stale → これだけは実行してよい。** `nbb scripts/gen-agents-md.cljs` は\n  生成器であり、AGENTS.md は生成物（ADR-2609062600）。手編集ではないので guard の対象外。\n  それでも block されたら報告して終える。\n\n旧版のこの節は「1 件だけ直す」と指示していたが、profile の charter と guard の\n両方に反していた（実測 2026-09-07、guard が正しく止めた）。\n\n- cited-superseded: AGENTS.md は agent 指示の正本。該当行が旧 ADR を「現行の根拠」として\n  引いているなら、後継 ADR を指すか、経緯だと 1 行で分かる形に直す。決定は変えない。歴史も消さない。\n- dead-path: 本当に撤去済みなら文書側を直す。撤去されていないなら path を直す。\n  どちらか分からないなら「起票のみ」で報告して直さない。\n- agents-md-stale: `nbb scripts/gen-agents-md.cljs` を回す。AGENTS.md を手で編集しない（生成物）。\n\n**AGENTS.md を直したら AGENTS.md も再生成する**（ADR-2609062600）。\n\n## 着地\n\n- 共有 checkout に直接 commit しない。`nbb scripts/root-worktree.cljs create <task> --profile docs`\n  で worktree を切る。\n- 検証: `nbb scripts/verify-doc-reality.cljs . --findings` が該当 finding を出さなくなること、\n  および `nbb --classpath \".:scripts/nbb_compat\" scripts/fleet-ci/gates/docs-edn-check.cljs . --sub 90-docs/adr --strict-keys` が 0。\n- push が west pin guard に阻まれたら、branch が pin を変えていないことを確認の上、\n  GitHub API のサーバ側 commit で着地させる（AGENTS.md「Git operations」）。\n\nfindings 0 なら「findings 0 / adr-inventory backlog N 件」を 1〜2 行で報告して終える。何も作らない。\nADR-INVENTORY の件数は backlog 指標として報告するだけ。直すのは skill `adr-inventory` の担当。",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "37 16 * * *",
+        "display": "37 16 * * *"
+      },
+      "script": null,
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "maanger — 他の bot がちゃんと働いているか確認",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/manager",
     "checksum": "sha256-tree:d5c841a7edd2a7a8ff50c7f7e79a6317ccdedfdb37536d62181b3a7fe5e7eb47",
     "files": [
@@ -38,6 +38,7 @@
         "sha256": "6ff15baf94e84071b460883db42366b5eef203d516610ec4f18b4b49f1a0b633",
         "bytes": 286
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

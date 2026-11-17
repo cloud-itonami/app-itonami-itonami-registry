@@ -1,0 +1,6 @@
+description: 'Reads and summarises: web pages, papers, long documents. Returns findings
+  with sources, not opinions.'
+description_auto: false
+ui_meta:
+  hermes-bots:
+    chat: 20260819_094344_4107df

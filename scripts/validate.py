@@ -20,10 +20,21 @@ def validate_profile(root, folder, e, side, refs):
     no credential/memory/state files, and a tree checksum that matches."""
     m = read(folder / 'manifest.json')
     Draft202012Validator(read(root / 'schemas/itonami/profile.schema.json')).validate(m)
-    extra = sorted(p.name for p in folder.iterdir() if p.name not in ('manifest.json', 'itonami.json', 'README.md'))
+    prof = m['profile']
+    resident = prof.get('storage') == 'registry'
+    allowed_names = ('manifest.json', 'itonami.json', 'README.md') + (('substance',) if resident else ())
+    extra = sorted(p.name for p in folder.iterdir() if p.name not in allowed_names)
     if extra:
         raise ValueError(f'Profile entry must not copy profile files: {extra}')
-    prof = m['profile']
+    if resident:
+        # ADR 0016: the substance is kept verbatim and must equal the pinned digests, file for file.
+        base = folder / 'substance'
+        present = sorted(p.relative_to(base).as_posix() for p in base.rglob('*') if p.is_file()) if base.is_dir() else []
+        if present != sorted(f['path'] for f in prof['files']):
+            raise ValueError(f"Profile substance differs from the pinned file list: {m['id']}")
+        for f in prof['files']:
+            if hashlib.sha256((base / f['path']).read_bytes()).hexdigest() != f['sha256']:
+                raise ValueError(f"Profile substance digest mismatch: {m['id']}/{f['path']}")
     if m['source'] != f"https://github.com/{prof['repository']}/tree/{prof['commit']}":
         raise ValueError('Profile source differs from its pinned profile commit')
     if side.get('roleKind') != 'profile':
@@ -236,6 +247,7 @@ def validate(root=ROOT):
     validate_blueprints(root)
     validate_libraries(root)
     validate_apps(root)
+    validate_absorbed(root)
     validate_compat(root)
     validate_apis(root, catalog, identities, {r['id']: r for r in external['registries']})
     load_declared(root)
@@ -459,6 +471,22 @@ def validate_apps(root):
         paths = [p['path'] for p in e['payload']]
         if len(set(paths)) != len(paths) or (e['digestStatus'] == 'verified') != bool(paths):
             raise ValueError(f"App payload invalid: {e['id']}")
+
+
+def validate_absorbed(root):
+    """Files of absorbed repositories (ADR 0016) must equal their recorded digests."""
+    base = root / 'absorbed'
+    if not base.is_dir():
+        return
+    for rec_path in sorted(base.glob('*/ABSORBED.json')):
+        rec = read(rec_path)
+        folder = rec_path.parent
+        present = sorted(p.relative_to(folder).as_posix() for p in folder.rglob('*') if p.is_file() and p.name != 'ABSORBED.json')
+        if present != sorted(f['path'] for f in rec['files']):
+            raise ValueError(f'Absorbed file list differs: {folder.name}')
+        for f in rec['files']:
+            if hashlib.sha256((folder / f['path']).read_bytes()).hexdigest() != f['sha256']:
+                raise ValueError(f"Absorbed file digest mismatch: {folder.name}/{f['path']}")
 
 
 def validate_origin_extract(root, apis):

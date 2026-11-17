@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "kotoba-merger — org-wide PR review & merge bot — com-junkawasaki fleet の org 横断 PR 審査 bot。bot fleet が立てた PR を",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-repo-steward",
-    "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+    "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
     "path": "hermes/profiles/kotoba-merger",
     "checksum": "sha256-tree:fb5f2905d4c3c0b4fb3bad02ff982be9c49cf2d1e768ce2e13a85294448dcbd3",
     "files": [
@@ -198,6 +198,7 @@
         "sha256": "8c96bd0fb31b6dcd50ec441bdf856cbdc6b109c742e3f7cd72348c763352ed56",
         "bytes": 3824
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

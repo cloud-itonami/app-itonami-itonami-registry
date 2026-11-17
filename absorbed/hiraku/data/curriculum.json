@@ -1,0 +1,31 @@
+{
+  "schema": "hiraku.curriculum.v1",
+  "note": "kyozai はこの順で (theme × stage × lang) を回し、ready 教材がないセルを 1 本ずつ起こす。",
+  "langs_rotation": ["ja-easy", "ja", "en", "pt", "vi", "zh"],
+  "themes": [
+    {"id": "shirabekata",   "title": "わからないことの しらべかた", "axes": ["region","age","economy"], "stages": ["elementary","junior_high","high_school"],
+     "goal": "信頼できる情報源（公的機関・図書館・辞書）を見分け、自分で調べる力をつける", "links": ["ndl-digital","nhk-for-school","aozora"]},
+    {"id": "soudan-shikata", "title": "こまったときの 相談のしかた", "axes": ["family","age"], "stages": ["elementary","junior_high","high_school"],
+     "goal": "相談してよいこと、相談先（学校外を含む）、言い方の例を知る", "links": ["childline","kodomo-sos"]},
+    {"id": "rikei-dareni",  "title": "理系は だれのもの？ — いろいろな科学者", "axes": ["gender"], "stages": ["junior_high","high_school"],
+     "goal": "性別に関係なく理系・工学・情報の道があることを、多様なロールモデルで知る", "links": ["rikochalle","khan-ja","scratch"]},
+    {"id": "shigoto-erabu", "title": "仕事の えらびかたは ひとつじゃない", "axes": ["gender","region","age"], "stages": ["junior_high","high_school","youth"],
+     "goal": "性別・地域で仕事を決めつけず、職業の幅と調べ方を知る", "links": ["hellowork","saposute"]},
+    {"id": "okane-shingaku", "title": "進学のお金 — 給付型奨学金と修学支援", "axes": ["economy","region"], "stages": ["high_school","guardian"],
+     "goal": "返さなくてよいお金・授業料減免があること、申し込みの時期と窓口を知る", "links": ["jasso","mext-kyufu"]},
+    {"id": "programming-1", "title": "はじめてのプログラミング", "axes": ["region","economy","gender"], "stages": ["elementary","junior_high"],
+     "goal": "無料ツールで最初の作品を作る道すじを知る", "links": ["scratch","code-org"]},
+    {"id": "nihongo-gakkou", "title": "日本の学校のしくみ（外国につながる家族へ）", "axes": ["culture"], "stages": ["guardian","elementary","junior_high"],
+     "goal": "入学・進学・高校受験・奨学金など、日本の学校制度の前提を多言語で知る", "links": ["casta-net","isa-portal"]},
+    {"id": "young-carer",   "title": "家族のお世話と 自分の時間", "axes": ["family","age"], "stages": ["junior_high","high_school","youth"],
+     "goal": "ヤングケアラーという言葉と、使える支援・相談先を知る", "links": ["cfa-young-carer","childline"]},
+    {"id": "gakkou-igai",   "title": "学校に行けないときの 学びかた", "axes": ["family","disability"], "stages": ["elementary","junior_high","guardian"],
+     "goal": "不登校は失敗ではないこと、学校外の学びの場とオンライン教材を知る", "links": ["freeschool-net","nhk-for-school","khan-ja"]},
+    {"id": "goriteki-hairyo","title": "合理的配慮ってなに？", "axes": ["disability"], "stages": ["high_school","youth","guardian"],
+     "goal": "学校・大学・職場で配慮を求めてよいこと、求め方を知る", "links": ["heart-net","jasso"]},
+    {"id": "otona-manabu",  "title": "大人になってからの 学びなおし", "axes": ["age","region","economy"], "stages": ["youth","guardian"],
+     "goal": "年齢に関係なく無料・低額で学べる場（MOOC・放送大学）を知る", "links": ["gacco","jmooc","ouj"]},
+    {"id": "sei-no-arikata","title": "性のあり方は いろいろ", "axes": ["gender"], "stages": ["junior_high","high_school"],
+     "goal": "多様な性のあり方を知り、悩んだときの居場所・相談先を知る", "links": ["nijiizu","yorisoi"]}
+  ]
+}

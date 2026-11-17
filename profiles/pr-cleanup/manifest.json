@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "pr-cleanup — github pr を cleanup",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-repo-steward",
-    "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+    "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
     "path": "hermes/profiles/pr-cleanup",
     "checksum": "sha256-tree:4db6a0585728ceedec5463987629c6257482df5f9dfce31707da43958fb93ec3",
     "files": [
@@ -48,6 +48,7 @@
         "sha256": "8751aec42f5cfc6a21ee8a512e07af72e56e3109cc7d4bd92265b07711c73338",
         "bytes": 1312
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

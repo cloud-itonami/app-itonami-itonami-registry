@@ -1,0 +1,4 @@
+description: 'docs-currency audit bot: checks shared read-only models, rules, md,
+  ADR freshness against the latest landed state; files one finding per drift with
+  PR-ready pointers'
+description_auto: false

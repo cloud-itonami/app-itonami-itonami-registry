@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-6973c16"
+    "repo-steward-c7e960da"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotoba-merger — org-wide PR review & merge bot — com-junkawasaki fleet の org 横断 PR 審査 bot。bot fleet が立てた PR を",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

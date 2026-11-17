@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-bot-fleet-78afef28"
+    "bot-fleet-d53810bb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: Capability-model watch for the murakumo fleet: measures serving state and freshness of image/video/music/tts/cua/vision model candidates in the /infer/models catalog and HF availability of tier candid",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

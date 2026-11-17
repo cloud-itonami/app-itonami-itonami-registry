@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Capability-model watch for the murakumo fleet: measures serving state and freshness of image/video/music/tts/cua/vision model candidates in the /infer/models catalog and HF availability of tier candidates, appends to an append-only ledger. propose-only, no_agent script job.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/fleet-capability-watch",
     "checksum": "sha256-tree:7abd81cc58340324e427dc7b5bc1edbe20522dd39cf2d218541bfffc801fb434",
     "files": [
@@ -63,6 +63,7 @@
         "sha256": "f16b16508903c4cc762f09e63e1dbae983ee10ef544f794d41282282d7235ef3",
         "bytes": 7731
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

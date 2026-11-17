@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "World power, CPU, network, storage, GPU production and utilization tracker: measures public indicators, keeps a ledger, proposes outlook and source updates. Propose-only.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/global-infra-capacity",
     "checksum": "sha256-tree:636db39ed6188a368481249213965f69c072ed1260ac5b292dd2385ce09ce08f",
     "files": [
@@ -53,6 +53,7 @@
         "sha256": "d44f265509c078692ec481058f12e2753a627bcdb7735f250af008668c182686",
         "bytes": 1477
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

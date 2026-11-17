@@ -1,0 +1,3 @@
+agent:
+  max_turns: 100
+  run_budget_seconds: 1800

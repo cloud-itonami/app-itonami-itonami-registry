@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "a534c09016ad",
+      "model": null,
+      "name": "cljk-finish-measure",
+      "no_agent": true,
+      "prompt": "",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "34 * * * *",
+        "display": "34 * * * *"
+      },
+      "script": "cljk_finish_measure.py",
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    },
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "45b7658124b1",
+      "model": null,
+      "name": "cljk-finish-tick",
+      "no_agent": false,
+      "prompt": "SOUL.md を読んで 1 tick 実行せよ。直近の測定結果（~/.hermes/profiles/cljk-finish/workspace/cljk-finish-ledger.jsonl 最終行）の候補から 1 repo だけ片付け、報告書式で報告せよ。候補 0 なら 0 候補と正直に報告。",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "40 */2 * * *",
+        "display": "40 */2 * * *"
+      },
+      "script": null,
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

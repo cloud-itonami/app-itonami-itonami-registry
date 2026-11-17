@@ -1,0 +1,657 @@
+{
+ "schema": "hiraku.catalog.v1",
+ "entries": [
+  {
+   "id": "childline",
+   "name": "チャイルドライン",
+   "kind": "soudan",
+   "axes": [
+    "family",
+    "age",
+    "gender"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "18さいまでの子どもが、名前を言わずに話せる電話とチャットです。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://childline.or.jp/",
+   "phone": "0120-99-7777"
+  },
+  {
+   "id": "kodomo-sos",
+   "name": "24時間子供SOSダイヤル",
+   "kind": "soudan",
+   "axes": [
+    "family",
+    "age"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "いじめや なやみを、24時間いつでも電話で相談できます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "phone": "0120-0-78310"
+  },
+  {
+   "id": "jidosodan-189",
+   "name": "児童相談所 虐待対応ダイヤル 189",
+   "kind": "soudan",
+   "axes": [
+    "family"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "たたかれる・ごはんがない など、家でつらいときに電話できます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "phone": "189"
+  },
+  {
+   "id": "yorisoi",
+   "name": "よりそいホットライン",
+   "kind": "soudan",
+   "axes": [
+    "culture",
+    "gender",
+    "economy",
+    "family",
+    "disability"
+   ],
+   "stages": [
+    "youth",
+    "guardian",
+    "high_school"
+   ],
+   "langs": [
+    "ja",
+    "en",
+    "pt",
+    "zh",
+    "tl",
+    "vi",
+    "ne"
+   ],
+   "cost": "free",
+   "easy_ja": "24時間、だれでも電話できます。外国語や、性のなやみの専用の番号もあります。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "phone": "0120-279-338"
+  },
+  {
+   "id": "nijiizu",
+   "name": "にじーず（10代〜23歳のLGBT等の居場所）",
+   "kind": "ibasho",
+   "axes": [
+    "gender"
+   ],
+   "stages": [
+    "junior_high",
+    "high_school",
+    "youth"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "LGBTかもしれない10代〜23歳が、安心して集まれる場所です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://24zzz-lgbt.com/"
+  },
+  {
+   "id": "nhk-for-school",
+   "name": "NHK for School",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "disability"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "学校の勉強を、無料の動画で見られます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.nhk.or.jp/school/"
+  },
+  {
+   "id": "khan-ja",
+   "name": "Khan Academy（日本語）",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "culture"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "youth"
+   ],
+   "langs": [
+    "ja",
+    "en",
+    "pt",
+    "vi",
+    "zh"
+   ],
+   "cost": "free",
+   "easy_ja": "算数・数学・理科を、自分のペースで無料で学べます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://ja.khanacademy.org/"
+  },
+  {
+   "id": "scratch",
+   "name": "Scratch",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "gender"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high"
+   ],
+   "langs": [
+    "ja",
+    "en",
+    "pt",
+    "vi",
+    "zh",
+    "tl",
+    "ne"
+   ],
+   "cost": "free",
+   "easy_ja": "ブロックをならべて、ゲームやアニメを作れるプログラミングです。無料です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://scratch.mit.edu/"
+  },
+  {
+   "id": "code-org",
+   "name": "Code.org",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "gender"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school"
+   ],
+   "langs": [
+    "ja",
+    "en",
+    "pt",
+    "vi",
+    "zh"
+   ],
+   "cost": "free",
+   "easy_ja": "プログラミングの はじめの一歩を、無料で学べます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://code.org/"
+  },
+  {
+   "id": "aozora",
+   "name": "青空文庫",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "disability"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "むかしの本を、無料で読めます。読み上げソフトでも使えます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.aozora.gr.jp/"
+  },
+  {
+   "id": "ndl-digital",
+   "name": "国立国会図書館デジタルコレクション",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy"
+   ],
+   "stages": [
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "国の図書館の本や資料を、ネットで読めます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://dl.ndl.go.jp/"
+  },
+  {
+   "id": "gacco",
+   "name": "gacco（大学の無料オンライン講座）",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "age"
+   ],
+   "stages": [
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "大学の先生の授業を、無料でネットで受けられます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://gacco.org/"
+  },
+  {
+   "id": "jmooc",
+   "name": "JMOOC",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy",
+    "age"
+   ],
+   "stages": [
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "日本の大学などの無料オンライン講座をまとめたサイトです。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.jmooc.jp/"
+  },
+  {
+   "id": "ouj",
+   "name": "放送大学",
+   "kind": "learning",
+   "axes": [
+    "age",
+    "region"
+   ],
+   "stages": [
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "low",
+   "easy_ja": "何さいからでも、家で大学の勉強ができます（お金がかかります）。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.ouj.ac.jp/"
+  },
+  {
+   "id": "mit-ocw",
+   "name": "MIT OpenCourseWare",
+   "kind": "learning",
+   "axes": [
+    "region",
+    "economy"
+   ],
+   "stages": [
+    "high_school",
+    "youth"
+   ],
+   "langs": [
+    "en"
+   ],
+   "cost": "free",
+   "easy_ja": "アメリカの大学の授業の資料を、無料で見られます（英語）。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://ocw.mit.edu/"
+  },
+  {
+   "id": "rikochalle",
+   "name": "リコチャレ（理工チャレンジ）",
+   "kind": "learning",
+   "axes": [
+    "gender"
+   ],
+   "stages": [
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "理科や工学に興味がある女子中高生のためのイベントや情報です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.gender.go.jp/c-challenge/"
+  },
+  {
+   "id": "casta-net",
+   "name": "かすたねっと（外国につながる子どもの学習支援）",
+   "kind": "learning",
+   "axes": [
+    "culture"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja",
+    "en",
+    "pt",
+    "vi",
+    "zh",
+    "tl"
+   ],
+   "cost": "free",
+   "easy_ja": "外国につながる子どものための教材を、いろいろな言葉でさがせます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://casta-net.mext.go.jp/"
+  },
+  {
+   "id": "isa-portal",
+   "name": "外国人生活支援ポータル（出入国在留管理庁）",
+   "kind": "shien",
+   "axes": [
+    "culture"
+   ],
+   "stages": [
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja",
+    "ja-easy",
+    "en",
+    "pt",
+    "vi",
+    "zh",
+    "tl",
+    "ne"
+   ],
+   "cost": "free",
+   "easy_ja": "日本で生活するための情報を、やさしい日本語や外国語で読めます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.moj.go.jp/isa/support/portal/index.html"
+  },
+  {
+   "id": "yasashii-guideline",
+   "name": "在留支援のためのやさしい日本語ガイドライン",
+   "kind": "shien",
+   "axes": [
+    "culture"
+   ],
+   "stages": [
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "やさしい日本語で伝えるためのルールです（大人・先生向け）。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.moj.go.jp/isa/support/portal/plainjapanese_guideline.html"
+  },
+  {
+   "id": "heart-net",
+   "name": "NHKハートネット",
+   "kind": "learning",
+   "axes": [
+    "disability",
+    "family"
+   ],
+   "stages": [
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "障害や生きづらさについての番組や情報があります。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.nhk.or.jp/heart-net/"
+  },
+  {
+   "id": "jasso",
+   "name": "日本学生支援機構（JASSO）奨学金",
+   "kind": "money",
+   "axes": [
+    "economy",
+    "region"
+   ],
+   "stages": [
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "大学や専門学校に行くための奨学金です。返さなくてよい「給付型」もあります。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.jasso.go.jp/"
+  },
+  {
+   "id": "mext-kyufu",
+   "name": "高等教育の修学支援新制度",
+   "kind": "money",
+   "axes": [
+    "economy"
+   ],
+   "stages": [
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "大学や専門学校の授業料が安くなったり、お金がもらえたりする国の制度です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.mext.go.jp/kyufu/"
+  },
+  {
+   "id": "jfc-kyoiku",
+   "name": "国の教育ローン（日本政策金融公庫）",
+   "kind": "money",
+   "axes": [
+    "economy"
+   ],
+   "stages": [
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "loan",
+   "easy_ja": "進学のお金を借りられる国のローンです（返す必要があります）。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.jfc.go.jp/n/finance/ippan/"
+  },
+  {
+   "id": "saposute",
+   "name": "地域若者サポートステーション（サポステ）",
+   "kind": "shien",
+   "axes": [
+    "age",
+    "economy",
+    "region"
+   ],
+   "stages": [
+    "youth"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "15〜49さいで、働くことになやんでいる人を応援する場所です。無料です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://saposute-net.mhlw.go.jp/"
+  },
+  {
+   "id": "hellowork",
+   "name": "ハローワークインターネットサービス",
+   "kind": "shien",
+   "axes": [
+    "age",
+    "economy",
+    "region"
+   ],
+   "stages": [
+    "youth"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "仕事をさがせる国のサイトです。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.hellowork.mhlw.go.jp/"
+  },
+  {
+   "id": "cfa-young-carer",
+   "name": "ヤングケアラーについて（こども家庭庁）",
+   "kind": "shien",
+   "axes": [
+    "family",
+    "age"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "youth",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "家族のお世話で勉強や遊びの時間がない子ども（ヤングケアラー）への支援です。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://www.cfa.go.jp/policies/young-carer/"
+  },
+  {
+   "id": "musubie",
+   "name": "むすびえ（こども食堂）",
+   "kind": "ibasho",
+   "axes": [
+    "economy",
+    "family",
+    "region"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "近くのこども食堂（無料や安い値段でごはんが食べられる場所）をさがせます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://musubie.org/"
+  },
+  {
+   "id": "freeschool-net",
+   "name": "フリースクール全国ネットワーク",
+   "kind": "ibasho",
+   "axes": [
+    "family"
+   ],
+   "stages": [
+    "elementary",
+    "junior_high",
+    "high_school",
+    "guardian"
+   ],
+   "langs": [
+    "ja"
+   ],
+   "cost": "free",
+   "easy_ja": "学校に行けないとき、行かないときの、学びの場所をさがせます。",
+   "verified": false,
+   "source": "seed-2026-10-07",
+   "url": "https://freeschoolnetwork.jp/"
+  }
+ ]
+}
