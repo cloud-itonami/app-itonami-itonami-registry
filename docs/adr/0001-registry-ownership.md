@@ -4,7 +4,7 @@ Status: accepted for initial publication, 2026-10-10.
 
 ## Decision
 
-cloud-itonami/itonami-registry owns curated, reusable bot role templates, operational skills, workflow recipes and MCP connection definitions. Hermes storage shapes are preserved; Itonami parameter, effect, authority and provider discovery data use separately versioned schemas.
+cloud-itonami/app-itonami-itonami-registry owns curated, reusable bot role templates, operational skills, workflow recipes and MCP connection definitions. Hermes storage shapes are preserved; Itonami parameter, effect, authority and provider discovery data use separately versioned schemas.
 
 Actual profiles remain under hermes/profiles in their existing repositories. Source relationships express derivation, not adoption. Templates grant no capabilities, inherit no bot identity, import no prior measurements, and activate no cron. A target owner binds a new definition and its existing policy in the target repository.
 

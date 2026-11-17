@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/itonami-registry/tree/b181b5a93890900f03dbfd4550bec23d6b0a3fb6
+    source: https://github.com/cloud-itonami/app-itonami-itonami-registry/tree/b181b5a93890900f03dbfd4550bec23d6b0a3fb6
     compatibility:
       hermes: '*'
       desktop: '*'

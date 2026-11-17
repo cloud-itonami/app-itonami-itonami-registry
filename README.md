@@ -42,7 +42,7 @@ The physical-AI agent includes ISIC 7020 and ISCO 2421 parameter examples. Templ
 
 ## Discover and consume
 
-Start at [llms.txt](llms.txt), then [llms-full.txt](llms-full.txt). The public discovery endpoint is https://raw.githubusercontent.com/cloud-itonami/itonami-registry/main/index.json. Resolve the registry to one immutable commit and verify the complete selected folder checksum before use.
+Start at [llms.txt](llms.txt), then [llms-full.txt](llms-full.txt). The public discovery endpoint is https://raw.githubusercontent.com/cloud-itonami/app-itonami-itonami-registry/main/index.json. Resolve the registry to one immutable commit and verify the complete selected folder checksum before use.
 
 Skills use SKILL.md frontmatter; MCPs, agents and workflows use Hermes manifest shapes. itonami.json contains supplemental inputs, effects and authority requirements. Wildcard Hermes/desktop version fields express no declared version filter; only catalog format has been checked. Runtime installation compatibility has not been qualified. workflow.json uses an Itonami recipe schema and requires a compatible reader; it is not a proven Hermes executable workflow.
 

@@ -24,7 +24,7 @@ from pathlib import Path
 
 from build_index import ROOT, frontmatter
 
-REGISTRY = {'id': 'itonami-registry', 'repository': 'cloud-itonami/itonami-registry'}
+REGISTRY = {'id': 'itonami-registry', 'repository': 'cloud-itonami/app-itonami-itonami-registry'}
 
 
 def read(path):
