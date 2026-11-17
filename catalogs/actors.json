@@ -1,0 +1,3036 @@
+{
+  "schemaVersion": "itonami.actor-sources.v1",
+  "observedOn": "2026-11-17",
+  "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
+  "count": 83,
+  "entries": [
+    {
+      "id": "actor/abuse",
+      "repository": "cloud-itonami/app-itonami-abuse",
+      "commit": "124d09fd0c6c28ddc9a452cce82a6e3fd74b34ae",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "abuse"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "e276fb6ad9e48d19dbfd17aff89b2d4c63aac00c60799a4a6d75c47ef6a7d283"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4b7810f90c8c30e9d02b9fa65c86e37b829ce54a6acbc2bf8e911466393a1611"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-ameno",
+      "repository": "cloud-itonami/app-itonami-actor-ameno",
+      "commit": "aab688a9c16dc450200d5b21275913c3b22ed2b9",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ameno",
+        "did": "did:web:ameno.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "5cae1e9b2c08f98e26603ca250ffe57006eb7c3482f1e6a093fc8684017182de"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "f5890004e86394c847e1b94719074c510459b86c6b1510a906ced0b5235f1721"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-bunken",
+      "repository": "cloud-itonami/app-itonami-actor-bunken",
+      "commit": "b28290bf9aad9994b14fb5890c0bc52302e00c6d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "bunken"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "92b5996353d28517af56ff8f35f9d60fc12fca16f75de88201507cea1de1bfce"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "ce9f4298da79b174fa0ee1a139430cb71c58136dcde7eea7d140620c18090fcb"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-hinagata",
+      "repository": "cloud-itonami/app-itonami-actor-hinagata",
+      "commit": "8d84c8f194d08290d76bed45f33bcdb54cb89fb2",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "hinagata",
+        "did": "did:web:etzhayyim.github.io:com-etzhayyim-hinagata"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "ce883d9485d8aab9c49ca8e09cdd20fe88b84909cb32a6c08f8915c023e51d79"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "3437a0fda20f29b0739d9323838a68cfcf0dc514d5f6e6cc6511f94d6d444b4b"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "ee558341049fb6357ff042b338e3ef7607d022f12bd3171865811ee9f2369720"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "6e3024441bde17e4345e89d3eeb60487bc74401eda83f4f3d96565e6466e443b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-kami-sabiotoshi",
+      "repository": "cloud-itonami/app-itonami-actor-kami-sabiotoshi",
+      "commit": "45a386428c44d0c924911a291994fe9c8ed0a4ee",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kami-sabiotoshi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "032f45c3abe5186c90d3c926ee5addd33b93193acecd0cfc3cb5b2b3831b30f9"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "a4e6e4ab3873bc2973ec191ef4114280325ec743a3c7c9290b860c7efe575759"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-kenkyusha",
+      "repository": "cloud-itonami/app-itonami-actor-kenkyusha",
+      "commit": "4c74447c24c90312144aa5fcbf81bf2b8da2d2cd",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kenkyusha"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "eb1f9c2668124ab6eb0628937cc497712a755ec60af64d627c08159975e8c485"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "2b29c85e07c9ee4c1adaab0992ab1ddba63a442e13014759990a8f59ceeea43a"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "00296d4ed3927b1d9f888f96f2a664ef1381c5408f20be7ae6a02c150a51572e"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/actor-shirabe",
+      "repository": "cloud-itonami/app-itonami-actor-shirabe",
+      "commit": "4590e3514ad1d9c1e41697a0f1c47126cc0a26ac",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shirabe"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "a4ecc48581ca2545bc2fb19ff90c9b77849cfca21232f0451829cc8554f37d21"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "392a0e2c2523c624782e48c96a79a77ccec5fa6c67c277d48468ad901974494a"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "8114600fa3c7358740cd5131b47128690f242d81bf7251849cc1c53f18e335a9"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "f1efa9c2f9c3a81ca63642ccbd1fd111b2722e04db9b66dbc8132371b1199782"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "497e52cbe1648e27493877594852185c9af50514bec3b841c20ebf82bea2dd48"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/ake",
+      "repository": "cloud-itonami/app-itonami-ake",
+      "commit": "de5f82df2ebba277608fceecf680cd0dc42157a9",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ake",
+        "did": "did:web:etzhayyim.com:actor:ake"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "3183f429cec2dcdb9295e037731fd479d7ca5f6e9d3879854af7803e207a541d"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "43aa65f3e388d636a22a5583e151791ac84b44b0c9c494a4e0b9a2505b8a0ad6"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "794ee5909b8ed46acf35f40a2a86b3d1a852c17a34879edf21a4119469378a48"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "28ffe0c1aaa540ea534e8726d2d1a6b58c0b5e23c7af56b81a02f51ac7c9c231"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "88d46527fe033ad1764a97287a7ac59c26ca3ede63fb8f65fe77f4e3ddae8f12"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "ca8f8d06d882433c2c1809db47b6440273e37a046aaaf384653225ec5e5feae5"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "f8662538614476579126f16721a86c768ace920d3a5ca1c00090520e39614645"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/asobi",
+      "repository": "cloud-itonami/app-itonami-asobi",
+      "commit": "a6d49e9912492f3e4c8d1bad13212eaa53dc4021",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "asobi",
+        "did": "did:web:etzhayyim.com:actor:asobi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "3b6c0686396ddee18e66661452a746f7076230f1290c7fa3fedc9f72043467fb"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "5db625f1ed2945e7fe68483f1404b9bf67eac20395fb960fe50d589e4b930f4b"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "243f9742c03fd9e9c0df9a332d3f342b337c1e0c71a68f41e807ff67641fec8a"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "fb4c069bcb0a076d32a8d0f0f92e445472b70f0d7f6f550e576d618b84d581c3"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "531f3aed06bc14809641c7607574bf43724bf83489a45433dff029faf7cce66c"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "19bdbd5398ec50db0d25de37fc88c7e7ae54ea49b349d701965697188721b465"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/audio",
+      "repository": "cloud-itonami/app-itonami-audio",
+      "commit": "f2f62fcc8017d5b0fa17c2123a911b1e4b52b0b7",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "audio"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "74633c08f0c68a1cdad26104956428b65142c24efc6d5c86dff007429010f9e9"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/avatar",
+      "repository": "cloud-itonami/app-itonami-avatar",
+      "commit": "5cd8fcb645d3dbfee936ef21c84b211298ab6b8d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "avatar"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "9774a6f7eb40068f6d4adb870f3f1fa0b9869943bcd4d1c3a3143a7a02765f1e"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/busshi",
+      "repository": "cloud-itonami/app-itonami-busshi",
+      "commit": "efa7666bfda260abe75596916c6f7e91277fc7d1",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "busshi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "f9b19ff0ef8e4780709c1e973fd9bb4eeca8818acddac42c73f8e02f836ba656"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "21a1ba22006e98fb90c9d57891723276a11f46873cf62db22d70ad8671c688c1"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "991841b1a4836b2a31041247030daea8c65021cfea403bc67045c2180105733e"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "ad403f14f38d9f5e7d4a493051cb3e9e86cf6de6dcea29e9b5f808c388783636"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "2f5ce729e5b870f6d2d3a95230e5a973c1e4c0f05b19178f27f3eb19aafa7292"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "40f1423aca642df4425dc5041e67a9270e2580e4f3a8da09aeeaee1e06785a12"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/chigiri",
+      "repository": "cloud-itonami/app-itonami-chigiri",
+      "commit": "82c10406ebd02a91b122a7783961e9208f65a76e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "chigiri",
+        "did": "did:web:chigiri.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "762f2fe4d9de1ce3ee298cf41ceca14ed744ad76ffe9cd2f03cd792c8c88fc12"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "690ed71b853dfea1e3fd063ec085374e234f274e0cf120f42fc481de09f8dc03"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "b9b14b0533c6102e11e068149ddbfcad6786747bff7ce34ce243021072e6c6f2"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "7b4f9b044eb956c5264e061c75bb46b625a7222b31073915af21c2937885e54f"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "68c2af6a6b6e878beb7ee995b7dd028ec11201a7264fa0e118e320569b64c545"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "2c7261b5a39ad29916a88901dc05dc7b53d6c2b61f67583ba0a27185c3acb5da"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/creative-studio",
+      "repository": "cloud-itonami/app-itonami-creative-studio",
+      "commit": "05214225fee4244fb80803c0cabe5e7c08e6854a",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "creative-studio"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "494dfd597d1ee22ca7084395048b62bdfeb08c9b4253748a5d586b0e69011d6d"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "bd9b69ae313e2fcde53be4c8be5d2c6bd85c5f57709219a605dbc966aabc5a4d"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/credits-contracts",
+      "repository": "cloud-itonami/app-itonami-credits-contracts",
+      "commit": "39dda0565700fe5a82481c0064e14d1ec7540d4d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "credits"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "febb11c87f78bc9e8a9d9005390d44d019b6664873bb2895084902530e58249f"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "daa776c7c14d3a776c615d6d2d58bc9d441de3f6c4540bb35821bbde5dd01f28"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/crew",
+      "repository": "cloud-itonami/app-itonami-crew",
+      "commit": "8802cf2743bb8ce5db512113d88e8a2b70a8d040",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "crew"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "80df2e306c94f32a2e09165d89e5c1088169dea9fee55c427d5a051429547bbd"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/cs-cert",
+      "repository": "cloud-itonami/app-itonami-cs-cert",
+      "commit": "e2b81c0275c6642076d9aad59cb26aeb4b6988ec",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "cs-cert"
+      },
+      "payload": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "9eabb2bc7f2f6098f2f9056efdf23c340936c38e14d1eee8018a34d67329097a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/distill",
+      "repository": "cloud-itonami/app-itonami-distill",
+      "commit": "b09cd6ce2fc583ca1a7c082c8723a39804306c5a",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "distill"
+      },
+      "payload": [],
+      "digestStatus": "unverified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/esign",
+      "repository": "cloud-itonami/app-itonami-esign",
+      "commit": "61857d4b53c28634f08b6a4712b6b06d8399e3a1",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "esign",
+        "did": "did:web:esign.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "ceb597e443d357d532dec1f502a38b1a3b780e5daaa02b6bca64cb0b25062271"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "40263b2a69c35a19e7d36e7adb80f49fdcde529e05380e90a0903f5bc41b50d9"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "c9232f7fd8d638608bc446781d76b158b78223e480c055912b2f54c7c1e9cae0"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/fuchi",
+      "repository": "cloud-itonami/app-itonami-fuchi",
+      "commit": "6f9dc422c80ba84ff83513a2a6220bbdf5cddf4a",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "fuchi",
+        "did": "did:web:etzhayyim.com:actor:fuchi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "d21d0f3958e4c157d9b4d3030cf873057aed5c4aa97bce6ec44e2d878123ed5f"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "9476324de15ea1118be8c44661d79122d77b46e4a74186ce4ce38b7a7a49d332"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "7362b168525fce9756eeca54d65960986437996591a753bf12eb5f2b7624ba40"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "06d978a2d04af82981bebd7bc82cdbbbae1d592f6c189786763fa439f59ede24"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "bb34d7de0aefc9e444002775bfcdf393c7c7dcb3fa7a99458c451e98285adf5e"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "d62cb27027ed80bea0d03f542f6e1254f294d66c1d6d7220b2536a0b22a2d4ea"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "142033ba3076ffcd7c5569a60bbad6b95b77aa6268e896496cc752e65f87ca1b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/hanrei-aozora",
+      "repository": "cloud-itonami/app-itonami-hanrei-aozora",
+      "commit": "f2667f1f61ddd2913bb00d4958aa6ccc7ba593a8",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "hanrei",
+        "did": "did:web:etzhayyim.com:actor:hanrei"
+      },
+      "payload": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "9cebb55721e467f3c73bc84d2b42faa0cca33d97a05103d7f6f2d54a0d258e02"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "816cab13dbd76e489e801ee03790c1f0e44b616a9714f8d2b2d7fa1a667aa5d3"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "c210265f5101d643569d11d026012a5cfa14144f5357ad884cd0422c970eb824"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "8f7fce801bacb2eadf0e1bf479fbad9030f73e710d87d833ad97e20e00c97cbc"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "ed77a2fef8a9234e586f4f3d999193fdeedf0f0b66d5c3d2c02cc0c347276512"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/hokorobi",
+      "repository": "cloud-itonami/app-itonami-hokorobi",
+      "commit": "c2c3f878239e908ca6cce1a578c64662a01c4442",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "hokorobi",
+        "did": "did:web:etzhayyim.com:actor:hokorobi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "4711a5b76a6055f0c088018f77485fb043419ee84aa63df4978b51f5f20338be"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "b6455ddc37b6ab328716c930e732d221f1d43fd936d66b80a13ce208b2139af5"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "90bd8b40e0cfa75bd76ae76e69a0d9282069940857ed0b18d73c463766ff9582"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "8eb44d87232d8683fb19f35f00bafaf32542b1dbf81311ec56656503be1e132d"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "39acda3ba3d32b86b2130a0a2b95540b94798d184b72eca772fe6ad050da3049"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "b79673e69ab4ef99472c135e331a886adb432fcd5f23588d406cf52a78ad3b04"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/hoshimori",
+      "repository": "cloud-itonami/app-itonami-hoshimori",
+      "commit": "8c055b17b9d16a4d196683d40886c08a39b8e193",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "hoshimori",
+        "did": "did:web:etzhayyim.github.io:com-etzhayyim-hoshimori"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "1aefc509eb5484c17bc44f8b924d33acd5dfa16d4f3152942eb4e61e457074ad"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "1a25c5288f8aceaf5730d28af5d864f3a6faaedf618056a8a156c672a56af348"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "524beff3f0eff50d3f4fb762f977bf514866932eb10913c515d4f6228e3176c8"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "1b384f10da5bf6fafa6c7fb27aa01fecf291be56eda1e4dd8b481e33236d0c79"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "3efe71c45082aa5f64e3fbe07a491cb0ef08bfbc2f2e4a7bcdbb10962bc7ee83"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "92f1a1bc0b90bff191fa7901cf013bca5c0a1b8f9d0ec093a8208b82a24855a7"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "9eb9e1b57b633cbe68f93285f067277dcc2a2d43a616634828f8682b0a4a5095"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/ibuki",
+      "repository": "cloud-itonami/app-itonami-ibuki",
+      "commit": "f09d614a504cfa07132aadb5b91b4ea80dd3141d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ibuki",
+        "did": "did:web:etzhayyim.com:actor:ibuki"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "d3fa3c273f9a2c6006eac4b6a6ddeadfe208ae3977a11fcd05fb26e71ce86896"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "947ce6449ec5cf78eb893901a79658f00a02f3cbc9d1af9cac883829268f35f0"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "30085e5d233ea6201d65dcad46ba6fe83ac864f3a63587a998a92a9802ea82df"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "7dbbfc7b02f4ea23deb172bfa6f57ca11a568906562a6e16a4874d3784d00354"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/illust",
+      "repository": "cloud-itonami/app-itonami-illust",
+      "commit": "d312a92957f62becfcad78c4006ddb9d16f3cca9",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "illust"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "c03a1588e7e4efd2ac39f67fdb5eb8279fd861e71f4459d0d46b59de4f9ab73f"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/inochi",
+      "repository": "cloud-itonami/app-itonami-inochi",
+      "commit": "b1cfbf39e3ef97634cb71caa8516c96dcb7a67a3",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "inochi",
+        "did": "did:web:etzhayyim.com:actor:inochi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "d4c84b0f02054fc0f0889eca78236e27288cf999e143cdadb52d19cbd146e790"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "8a2df09a2b42ce87f8cfec26869d461e2854130639a7d869d1d0dd02d2f15104"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "de266f4b6f075ac64522b0f363adba0f7366f161c532391bee83a82cd5e2be50"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "41736b43876d4999f66305b79d4741a3be04b72eb39c526b5a481ffdaf497a95"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "fead6a4c808265c048735828716de5902c748e84fa3c9a3b8efcdb1a98fd636f"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "0c9a6033ba9b53294b1980f1d187bbe757a6d6c880c19da34e0f136c4cd29508"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/iriai",
+      "repository": "cloud-itonami/app-itonami-iriai",
+      "commit": "ce5a91a19a319eff73aaca1a6c0ded1b68bf690a",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "iriai",
+        "did": "did:web:etzhayyim.com:iriai"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "dd516ba3d2e7bcaae720a5a3221a3ab84d9e9fbfe42ff3d78201f6d9dde492e8"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "7aecfadc4bb6c77bfe939c8a582be06a1781dd4bb3a9639275a8a254467df692"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "8a11bb3410fdbf1277de22c8de91682fc872f3824b31eb8f1ce10f97a8d10471"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "a2caced1a28cef69c978127c40b8656eee7adff2036e0a2a3740b1e9c421c8a4"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/itonami-actor",
+      "repository": "cloud-itonami/app-itonami-itonami-actor",
+      "commit": "732f15d3458898abb9205cc03cd73d063ae38bbc",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "itonami",
+        "did": "did:web:etzhayyim.com:actor:itonami"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "cbe62365a09e50f41618a8c71b32c0a7b4ce76882e6f2d7f712eba6a05b2add2"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "847e41aca63877db21207c1ff91e6c8e7de7e93cc954ef464662cb3b0e2ef2b2"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "523369532132b1db557f82394921991ca2b7fe44eecca3afaad403d02d736c1d"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/joucho",
+      "repository": "cloud-itonami/app-itonami-joucho",
+      "commit": "b557064e87ca1ea80243289cbc27991dc352c220",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "joucho",
+        "did": "did:web:joucho.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "a8da06c4c39f95a88d81b4bc1ed488cf4efb0075dc41675c808e5385e1691fe2"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "772c56206089070734d19d3e21b73c110e92ec875aa1504765fcd6dc8d51c854"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "b3fc861d8aa6069bd4c07ef911b4138a522609d24768447559aa633ea57a42fe"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "83e32265ceaa9cc72cf19e563990d83022e6bc69d14a3a3691c237e74efc631e"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "335c4149adfa44aa4d31c22ae365fe5e5932a19787c2b979be6bedf4a3e7aaab"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/junkan",
+      "repository": "cloud-itonami/app-itonami-junkan",
+      "commit": "bfda479dff4ef609d6712b34bace7897ef3d9f93",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "junkan"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "fdf447a86af7041ccfae9495a99ff283cc9fe4fe74307917c369dc8c1deb368f"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "926ce9cac06f637a56589420a18cc4b36957ff3f517d954543f6444a23b9199a"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "912d6fb427306da8a1a2f6bf2bce8efabf3e00a105fd96d4397de452d9fd4b67"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "887b7dd33c63c94ee0811d23b93b41fca0afe16fe4844c28a5b7d3fa9800fee1"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "1b83986cea786f6e7fd6d93f2e3288733f39930d2e4c68d209176aeecbadf7ec"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kabuto-actor",
+      "repository": "cloud-itonami/app-itonami-kabuto-actor",
+      "commit": "ed53afa061a633074b6103827df359cb17f1ced7",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kabuto",
+        "did": "did:web:etzhayyim.com:actor:kabuto"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "335897c28cea56c8a0813719140aef63b3321fdc0cffb9f0a52cab8004b64453"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "2256cb1588cabfa056978f1db2fd08c8f7bba4cf1edf5fedea3b91ef1e17a4b6"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "79492e3b42ced82c11e1fb706b7726ac486576b204439df234ceb48b82452cbf"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "ddc7a86f65b5b15de062a936e5eec080254524221e38266b25cad335152747f6"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "8a509012be6846df05097d1c6042aafe1d30317a145c481cc026c873fdf183d7"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "be23930da6aac396ab0c77d0e44bbade2e01d0eb2695f184a52d13c046d59858"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "a5d1a2a5cd66caab88f5f5d23b02471f35deea9d1f1267ecd407a93be26954a2"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kafun",
+      "repository": "cloud-itonami/app-itonami-kafun",
+      "commit": "dc66fc6944767fed4d6f70a69e282501af415f3f",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kafun",
+        "did": "did:web:etzhayyim.github.io:com-etzhayyim-kafun"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "368dc4daed45b164038f7e7cef8043565cc8be35ab4f7ab985e0a083f8617eaa"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4598fd809bd018356d42b5aac859c7239745e2e880f33a7413fa61d07b773d4b"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "d00c3267690eb2b6ea0a5fadb4fb17d9b8c45c0a6e0a95900f300a9787b4f57e"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "ca2b3d852b5149ff635a71a6270b214c96b929e2edd3e927d9177c60feac223f"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "de1719bcc05ab73ca9443af27e1b5871cb9122db845ae84ee45ff8e31c43d6f8"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "6f31dcb3f00da5604fad8307e28255086efe00689966db5ec1ae4f8869222a1b"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "80dfa5606c745779c7691b82287ad8dbb7791e7c98aaabf6ecd6106f86785547"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kaiyaku",
+      "repository": "cloud-itonami/app-itonami-kaiyaku",
+      "commit": "beb3a40dc41f62fd76cd98e8f424e02f514f783b",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kaiyaku",
+        "did": "did:web:etzhayyim.com:actor:kaiyaku"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "6a166f4fdf4cb7b5ec286bdd530c6370cf367522fc46ff0a6b44340c98cc6b58"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d513312db4d9dffd95a25ee14d686ffb7d13a18966d39c2c35b51576dda57b9c"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "1f77702a042e5066607a28411ae920ae337d53d675c5a72780c1c2666f8822b6"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "6e02d8e7540e802d7a7504d24922bc8fe3d2c85336fa30f7f5d0ce2c5dc45163"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "995816c1498d0f8bd010f108f6658758f1636b96ff9e620e1c781c133c425ad3"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kareyanagi",
+      "repository": "cloud-itonami/app-itonami-kareyanagi",
+      "commit": "e05716bca513e3efa2fd6ad1f5e8b835ee4490b3",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kareyanagi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "70b4470a064aa197b9a8567c8779491803b608328713881b8e3a1dba7cfcba04"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "17c93dbef063bff30e784f86424f5a6ed669f57ca934059d3ec397dc8e76a367"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/karute-actor",
+      "repository": "cloud-itonami/app-itonami-karute-actor",
+      "commit": "75bf0ee1d0ff7a338a39d9b82a5378ef2fc61349",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "karute",
+        "did": "did:web:etzhayyim.com:actor:karute"
+      },
+      "payload": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "1a2db5b78a914dc4f7579bfffd7c6a92debae0d64086bca78142f7a0d32baa69"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "0bf329d8baac75dc55b655e48c6a2bbb83c2974f88d31286857cce1b24209187"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "22fe7a7e01235017ad56427c571e0392cf01499266efcde24e0154c61ba6839f"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "38e05b9a7e5233816f2c392372d3545718c034c465e2d98071061d91893b163f"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "4c30cf58124f47227e84afb52d87b087245a4376cf26c5a095d785e21b024f23"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "f651eef6e2fbce94ed5114c1901919012f954716483b9401384f02a9343e8eab"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kasa",
+      "repository": "cloud-itonami/app-itonami-kasa",
+      "commit": "21bd1800033487f23f0ede06b75a7b41fc0b1cc1",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kasa",
+        "did": "did:web:etzhayyim.com:actor:kasa"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "2fe4213c775f97556d92bd4fb08081af2f7986c95600ae1ac563f044a0819cf0"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "9402bf8b34619b8a5e903fb7299c35ade3b3a61c9d814af09728d11b60ffdb7b"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "f957d0a481c388d7f7acdc91ccbd3ec8084a5dec7c0aaf5f565a64e3f2c3807c"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "15a96dcf9ba1a18ad5efa716eb58870dc8c6579cb56e6b4464b275675b33edcd"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "024565bce65715bcfa7d61d8cbd696afa9bf346d4c8de085c458913e4c857bdc"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "ee61102dfb1fd1874a37c251f66ecdbba58f185b4d77fe3f9b48e24bb624b3c3"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "45f99af8708fd15c51663d8b6b97684822229c14c69f2eb550877d89742e7111"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kataribe",
+      "repository": "cloud-itonami/app-itonami-kataribe",
+      "commit": "647aee97a364fd5a621ef9568ab17d47de7b20cd",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kataribe",
+        "did": "did:web:kataribe.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "999cd18f237299ad237fd708d00e5c160ac6e381cda9b742e31b590b38271ff2"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "0cb1eb18fadaf1f58e13ecfdf276ca50d0dca5ece75acc889f6ce5651869153e"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "ed9acc9e09c7040b861e837e1ed54aaf91331b3d15401fb7e2d949b0e95fd407"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "fcd90e1c48bf010ca99334c06cc657e652879eab6466867bac18aa9938a82b18"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "77cfeec32c9bdf6a2e0b4ee92e8fa610c93be0d690dffd27f017f146a45998fe"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "da777acccad058f275e758a9a0c9d89865a4f9851716264aba16961418110138"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "4c966bcc77e85617bb11f1db0815a8c6ddf7c331fe38fbce604637473b551086"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kawaraban",
+      "repository": "cloud-itonami/app-itonami-kawaraban",
+      "commit": "45b62fe7ba2cbe50bcc9bcd8a1b724ba5e6e8a1a",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kawaraban"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "163a9d741e0ad9fd3b3c66fc0f9db3064dcaa33e4af9269677907ddc7b74d8c5"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "e3465ca9d70840e1555f6ea521acbe8c2c6dc73387ac63d262c7b30a9a749fbb"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "b169bd122f04aa3b3331f8522cbc01842e6e60687e8d2f1f93acda6d1ee12398"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "7da9711a40acf2370c9472216a55fbcd23f747020869de9fd12ee3d091afb154"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kazaori",
+      "repository": "cloud-itonami/app-itonami-kazaori",
+      "commit": "d744a56a5a62b2994c19f3be7170d6ab8f3fabaf",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kazaori",
+        "did": "did:web:kazaori.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "ab6bfb6b8336317d5119371172b966388ef779db94b14fc36510690307cee731"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "9f43b461afb30ebbb439e4f938493a25961a228397cb64c1bdc4356056ae61d9"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "fde592dd55739b4d524fa921ae5eea7f7e40b4dcb4209385016e38ad7e8e0b74"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "d38f22c9ea0b52c44c12189f90c08d00aeefe9972a1d6641e7aefb29c8a6c020"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "54f61692a6199b62e1b90f468067a269686d8965abd543f5e75d645fe0cd7990"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "aa2cee3797457b5175ce946a8f35464557ea982f7a6eb258545c3567583f5072"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kenchi-identity",
+      "repository": "cloud-itonami/app-itonami-kenchi-identity",
+      "commit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kenchi-identity",
+        "did": "did:web:kenchi.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "32c39ff48f7fa766aa9fb3ea3854b9728b1c9fbb87c8086564eac4f4b719992d"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "337acabc25a42fcbe0af9afe2315c1d4a048a48aab4e65e3ef0b10191a0ae2e8"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "28cddb78b84189993efeb5c561b9384f4df8cd8e8e97265f812520c67367df23"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "df6ca79ecac5dbd653e0fb6034352b145e9f8e2a4b95ee1dd6f1936f092c3eff"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "84bf08c9c300de0fad34d7f6e031900d6e2071169f6e36efeee985eac5748071"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "7ac14ff046d7cb27d2b9686953a8b8a591ff8dbf2aba79f87caf3c5c8df27f63"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kizashi",
+      "repository": "cloud-itonami/app-itonami-kizashi",
+      "commit": "fa181b2e09dd354ee76d69967f001049d8990f10",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kizashi",
+        "did": "did:web:etzhayyim.com:kizashi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "fc8b38fbbba7a93ec2122202f051a8ad3c1e1e344f1ad2a0e08998d43e02e7a0"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d9353b12dbe84d4df1289df951eb0ced6056ced193c0302babf2e38ce145d361"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "0e8f3ba2ba8b7841fe4c23944631bb2f25992cacd4ecbc9d5f0fb357b521ae44"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "4546847790ab0f5df88229280a3100ef937dd01846acd2ef4a3baac8c9fb7c16"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "fdd66600979ac73f35bd4a06081f8812265aaef1f9b3e0fd00316e7cf916c41b"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "32a2854d8cc0c88c35d5ea908ecbe985843fade7b7646d0e5d1a06485162a1df"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "d23dcb10165b655bb7c0bb6c3fa3da21e531d0e3b62c43a05e1b7eaa47cbf5cc"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kizuna",
+      "repository": "cloud-itonami/app-itonami-kizuna",
+      "commit": "d04dc8462040d60b78eaf98eda74f4fec406957e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kizuna",
+        "did": "did:web:kizuna.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "8b72fa8bd00840b902a2c476a85026ca4e838b5a9cf2b7a1781b0469f41d9744"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "44ecf1a04d01b7304bf5b7f088da99c686b9161d838e27b3c721b252db3c0a04"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "e56c128b2918cebf1669cfc899b4d1439e4616b1849abea6378b90e4a9527c46"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "ca12dbd561c30400baffbcd2503c921b8edcb3643d8c25e3a4ff8d2ef0313f81"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "d03581814627810db9cb10d345876841c379d9125bc43b238f6c4da7486e53d3"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "fca15addb8a5ab2b743774755e024b37d74034d967bda168c8a17d0108bdbda4"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "ea57a5134539a5f871faa09c1580c3f99c36ae6d1a3a1281d87203d058c393a7"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/kurashimori",
+      "repository": "cloud-itonami/app-itonami-kurashimori",
+      "commit": "90d673cf296b2ccde8a807f8d1285a130bd0e5b8",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "kurashimori",
+        "did": "did:web:kurashimori.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "54f1a55160e6bf29d8399f38d2590d7071a9ab79ee242e66d966dd9e2770118b"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "6a0310d9b1130ef66ad75978b34e2d2edfd7575fcd2478aaade3544aebd445a2"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "c9257b822cb2f11ebafce6172fa94bc97fb4259742b3e5c6353103760c1284ee"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "6853690039b150475921a08e3debf2f04808e6346962769ffdc9633b4b5d7eca"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "e2b6864da6370ae8c25ab92ab1aa56aaac91bde6c19b730633fbb9a3a36c07ae"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "363f771b60d743e623a6d5f606c1de8d4aad5fde3343bde334539687e5fe4624"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "dbb94dac44743738c0a463d92324770c2d2a99b40bacadb4750621488b7a11a9"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/loop-innen",
+      "repository": "cloud-itonami/app-itonami-loop-innen",
+      "commit": "17da74a8838bf8872301625fa376ccbe63da2fa7",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "loop-innen"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "0e565263c81febffdf0af462cc477b30c32488b979635f84636b7f66a3d2b3d5"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/loop-jiten",
+      "repository": "cloud-itonami/app-itonami-loop-jiten",
+      "commit": "70102974dd58ce98689169ffecba18354030e858",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "loop-jiten"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "0842602097439b8087fa79a714bb50389fbcd7d3ac4667e010480392d11e8799"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/loop-system-dynamics",
+      "repository": "cloud-itonami/app-itonami-loop-system-dynamics",
+      "commit": "3ee8bc39e7d59d57e0b046f3efc7634dcebd9a21",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "loop-system-dynamics"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "1ab57b838a1d496da4eafed02879480b230f1c2d953bf6e429e02fd2de6bf20c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/magatama",
+      "repository": "cloud-itonami/app-itonami-magatama",
+      "commit": "74409c85d6992a3d200088ac221c89acfca99997",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "magatama",
+        "did": "did:web:etzhayyim.com:magatama"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "69edc4b98acf48226af618cc81726f0d846cf73a409c058aec2e047f43d56b56"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "739832e826ac84dd98343ce70718c5020783b9bb9261e9237f2c156766166fcb"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "120326ca753e2aca679b6385e51ece0e4fc7eb9bc6ab38cdb2c95c88ecc6911d"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "175851e65c0436cccdc56b2546f838cc22911fd136ca0627c5ab7eef893bfd2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/manabi",
+      "repository": "cloud-itonami/app-itonami-manabi",
+      "commit": "aa29a5eab70589a8c2eca4e971501e32bacba5ad",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "manabi",
+        "did": "did:web:etzhayyim.com:actor:manabi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "812da3fd283a250c20d5459c4fca2b2f88da1f3dbff1322e32be604df987ae95"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "2699c6698ea6ac58b51484d412a20c82e35cc21e545ba0f48975f0392ca5dced"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "459ecbb57de27c28025925c227b8e65d041e91d36931706fb18aff8430ea8230"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "f06299f2fab67911959244ce5e7eaa785ee02ceca20f6b43c7ebb3a356d0811f"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "06aa0fd0cd507bc86bdf11e9482a98487299fb23a00f883150402fcefb0b3744"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "1947087c151ab76822c6fee314d4cb3737a72101a7deb76ee87de27eeeb3181e"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/maps-standalone",
+      "repository": "cloud-itonami/app-itonami-maps-standalone",
+      "commit": "54504bf09d348054ff30e7ee4977d32bff938f02",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "maps-standalone",
+        "did": "did:web:etzhayyim.github.io:com-etzhayyim-maps"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "0ae341a8f01060f854b27db018dde8312a22190e558ccc547b271022f3addcd1"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "8fe90952171dc99296653ce09ee2627d32e963a36add2e04a909a2ba5263e2be"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "9512299003050fee5602c6f65ed5c2421bf5139ce80a1081f9a488b7d5be87fc"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "6433c82421957fba7bb6a277d83d892ef66ba82df1ce50d99469d94e99c89c01"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/masago",
+      "repository": "cloud-itonami/app-itonami-masago",
+      "commit": "816bdaecd493745364e0638fa03a4abae737d763",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "masago",
+        "did": "did:web:etzhayyim.com:actor:masago"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "374909051391efa234ea0ed7e072dbcc51e6539182f1ccf6afc72e4bee6b3e8d"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "7631df3469dd9ff1dabce486883e5a3354d77dc081aae254b749b9bc26db8731"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "8a466cea1c5bba8a991be8addcefdf9f37a691ac2629e23d155ab15855471687"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "1232ebc61d2810c7d45243ab4d4bd9d949c1edbcda94f1f12960e10ba51fcf1e"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "a03a220b284a58c9f07f46f07eae30543e43c3c6b895b4af46cf6996bc07c0dc"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/mitsuho",
+      "repository": "cloud-itonami/app-itonami-mitsuho",
+      "commit": "264fa8eb827319b811a4ceded20a27f0247abe21",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "mitsuho",
+        "did": "did:web:etzhayyim.com:mitsuho"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "baa951b32f8b326b21470f41fd46dcaf6a77818855c36475b8abe7359f25f3f7"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "2235d89c42cddd2f4d1c218ee29f130acbed45169010b49511f97a3788054419"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "23b8ed7c6a43fb6955a43a8bad907704df375bd733bd61913c1bcebbbbb8d699"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "0b973ad9a2b7bcca9a6d63435dd2e11fb0a5d9162aa8f55d5f7cfdb803e10189"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "5437f71cee0c2b8e1d6333dc58e62420615b5f4cf79e737d1fc2df9a7bed9bb4"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "0883120be831f1f340a1d683885eba2e4b2b23583e4486cbb0629fb0e522858a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/mizuho",
+      "repository": "cloud-itonami/app-itonami-mizuho",
+      "commit": "4975e35ce1693214e5d8ecacc7006a6680ba538d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "mizuho"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "23739a5649d614c15d24ad08042eef9271c5762219d2a680e8511f5ba7ab1df9"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "9f637b1c60f5b8c5647f072fef87e46fa64fae484c6f3adc0026e73e51a3471d"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "f797e0f9969303899771a5d86b62e639548b2503a0741f83b7c50640ae65e9e5"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "e32c5b90a69b3ff93481daaf71edcd5596241a1f3655ff84727f7ca0bb8fa00c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/motion",
+      "repository": "cloud-itonami/app-itonami-motion",
+      "commit": "001d2dddae1dd209969a6a553d9dfe24887e0bba",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "motion"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "ba5aaca6cb4151029c002a6bfc21468fcbe9b8caf01a22ca1676ad4f4562aed5"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/musubi",
+      "repository": "cloud-itonami/app-itonami-musubi",
+      "commit": "d5e337e7ab880dfbdd616ae80c663939f311cbdf",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "musubi",
+        "did": "did:web:musubi.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "73a9ae890fecd56ee01e961fc6e3841ac4d5136634b611052d82ede72725281d"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "a8fca0f447ffcd27ec7fb5c8c8619052427878dc0fbb389901cc3f3c4f1281b0"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "4f5c813991e8ac6af2c3ec7944b821e1e3005ba0f8647a53a0d6120aaa4e2d1a"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "19c6c91e24caad63c4f1954128e90823e7f751762f42c5e58bb0bbd809897482"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "a58f5d9ceed3f355fe7b9c57aa920fbd5564f7c0ea4e233119f6d133c3d04369"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "b466152f840b16173af70a30da3ac94d886fb42950df39064bffb09c89fb509d"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/natural-person",
+      "repository": "cloud-itonami/app-itonami-natural-person",
+      "commit": "4019300cd5585ae369ddb7436e0c0e6a89c1566b",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "natural-person"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "01d972824fb400d14b92994d21be4615758fa509fb684e7788ae1770da5a5733"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c8002d2a463d9f19a7376137a1d4212ab0c5b49440381d0432677cfeecc4da48"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/niyaku",
+      "repository": "cloud-itonami/app-itonami-niyaku",
+      "commit": "69fa94bb9a6104671464faef3532b5c1555ddb3f",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "niyaku",
+        "did": "did:web:etzhayyim.com:niyaku"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "79bf9e47d7db8941c16b724d70fe34163aefccd9e684525b2e88c688abccd78e"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "244c5429bbbc0d8bcd43b1d0e60b9577c78f7253631c22e669d201c08afd4bd2"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "0b4e13180657bfcc77e4f74729793b81ecb4028e0efbf432648a808420ef352e"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "43e6d17d44c6c1e9cabc4fb951631ced3450601750caed6be761415c7918499a"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "5bb634408142b03f465d401e735cd37d422f039b295c53a7e54fcb58cd2cf4bc"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/nusa",
+      "repository": "cloud-itonami/app-itonami-nusa",
+      "commit": "9a491d54001364bcd96cc63ee88fd371605092bb",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "nusa",
+        "did": "did:web:etzhayyim.com:actor:nusa"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "60ec96af6598e85ebec5f64dafb5c33140c8700619990171fe9f699d7674b96e"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "679a3b47f45ad9dc0fd8d21070db89aa2e9ead69f4fd5b2b5cb3760149df49aa"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "e1009511583f61a90a2a7b2282f26e66c5da1619bf732bab99823374d7ca58eb"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "9aa2bd325fa77ca39a0c846b95229891669d01601728817b08aa492d3b211240"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "72aa9c4fd4f51e16ebde60828cd3afafed825fdd98256468f8ea57bdde845e49"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/ohanashi",
+      "repository": "cloud-itonami/app-itonami-ohanashi",
+      "commit": "41455a75a2257507da96a8118694651cda7606fc",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ohanashi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "18d66801db494fde97355544c6886f64a433fd41ed13e3bb67f0bb14df07d8e9"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/organisms",
+      "repository": "cloud-itonami/app-itonami-organisms",
+      "commit": "f3555b7f74545bb3142ba80f04710d33ae3e596b",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "organisms"
+      },
+      "payload": [
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "f13464ec5bacaa95201cdd00b5884be399e4edfb173c1ff05e97e30031fb7089"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/ossekai",
+      "repository": "cloud-itonami/app-itonami-ossekai",
+      "commit": "6dc9d0a3ac9484e88d6b913b71d0af49fec656f5",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ossekai",
+        "did": "did:web:ossekai.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "a675c6d01d05f1cf1b08c85a6e95c4c759f051f91c9a8ab4e50966aa1e03c383"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "fd033437f0af9a87ee1fcbcc5717680061915130e55ea4069f5f11d14191469b"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "c5e6eb8f501ecd489c948d635675d0109dfd130400205511c70124685312ee97"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "cf9ab100d39a4eead440897eefb7a0cd6ca8913f9ba7c5cbf1d3c4e48763eea5"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/projection-operator",
+      "repository": "cloud-itonami/app-itonami-projection-operator",
+      "commit": "2454e1428037fb23dafb791840486c0e29a9f064",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "projection-operator"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "2f718c4941400be5d3648f39260df431233f868e212259df0e37dd298c745f19"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "8f0ab8fcf1d437b03b6845fbd1ef8b78b409f49a5c62ca72a2ad7e8005b40da9"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/pylori",
+      "repository": "cloud-itonami/app-itonami-pylori",
+      "commit": "d8cbcbd3671a42bdf32ac0b2475dc16c75128809",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "pylori"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "cd70ff06bcde6280d4f4f81d2e40daa5807691f7dbc5bcc8a3a8f418149f61be"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/rasen",
+      "repository": "cloud-itonami/app-itonami-rasen",
+      "commit": "871d7c3270bfbcce7ce1b4f19b1218247d00d674",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "rasen",
+        "did": "did:web:etzhayyim.com:actor:rasen"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "4bcc26bb44a93cade0fd46e6286a6ebd51d5ccfa293be813a7ef9c234841ff40"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "fede6ac3c8e2dd547d0a89941cd550fa5b1ae9cb7b8ca2505cff4a367610c20f"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "36c14a096242b4ad6e563bb19fd097b96bfbfe8e1fdc2744ef9d622ae57f4391"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "f1214e76f274d56b8bb12f81ec670d188b8d76f6497d0a7209c8783a2594e44f"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "751416905b77515486141347bd5fa2045c12b5974c8d269a2629e35cb92450f8"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "4ea8dc206c950a6a35044f5ff9d9da5a92e4b7e5665cc9cf53565ee9c2115cde"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "64f191eb45ec3d849b815af6111502f60a9e9bee380646fc3ea4da23c2541c01"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/rig",
+      "repository": "cloud-itonami/app-itonami-rig",
+      "commit": "ff7fdd2dd619be39ab2be074f06b744fe2b8b1d8",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "rig"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "4827fa44df1ade187c0e345ea7b06550aa4da9997791b2ba72f99fd55b1118cb"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/sanae",
+      "repository": "cloud-itonami/app-itonami-sanae",
+      "commit": "996a929b4a2a4a3efdaf54dfa535cdb664b22a11",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "sanae",
+        "did": "did:web:etzhayyim.com:actor:sanae"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "09ac90649a2fd764170acd6aede34e34071264bffebec87353a778d0fde4db5c"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c1551127ba9465bce63833293f57d116ef8692ca4193dcaec66e033d686428d9"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "e73fedf79af2d83fe2189706ba34d2187bf37ce18bc2bd6dc78ac5c5bca841eb"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "bb5aa614e6d98e030e084d300be26f6de0acca42a796dfbcb731bcf1022cbe7e"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "e84ddad1cfb590b9413ab0b7f7c477c08fc5d4e74a68333e4edcb259f43e1e3e"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/sentei",
+      "repository": "cloud-itonami/app-itonami-sentei",
+      "commit": "b95a2669c1c3688f5fa712efca0d832e4b1cfad9",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "sentei",
+        "did": "did:web:sentei.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "b1646b7d801e4e8ca260c337e358c8edefa88d498c1539c2da880dce007263ba"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "df675bcaf93ce592be1da2afa19ad2c3d0fee7b0bbdbd041007eb6db6e28d0b6"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "d6cad6278d344b3ac4c3b4e2bff4f7d6385b63b1f63136652a9e72cba1a50be0"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "e4d3b1982ff3e0079e79ae24c07d86e4fd884ffdbf12a1b36649c995f4e5dedd"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "25663bf09376d8ccc45009c9172fe8eaf99c11f842bd12faccb8bf2141b6f616"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "c7472ef393b549b5360042e0616a1a43a697927b40a41b896de4c6e4c68f80d2"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/shidemori",
+      "repository": "cloud-itonami/app-itonami-shidemori",
+      "commit": "d24d127466ffd286248ed7d497e28e6385b962a8",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shidemori",
+        "did": "did:web:shidemori.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "cdc0a69b99e13bea5ccfbee8773cd23d1f628739846090ad8be268eced4e9a4c"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "64d4b42a7d785d8fba1346b20a181f5cd9958eebc82160da51cab242f4aae057"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "04014a82af6701cbf18be5bf75c7ef247998085a28c1f99119e6ad2cb6c027dc"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "d71aa52771c4a783d16101be1995a0bf584efcd9ad971ef1db0eac234c7b4681"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "3fa0a08f3abf5f5c6b3ecc17f099ac6bd85fcae9bffdcbb3577d54783ca0a6a9"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "921428916660e3d381c02b63ad555f4afa8492e00f146bd11b00e2e219db2522"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/shinka",
+      "repository": "cloud-itonami/app-itonami-shinka",
+      "commit": "b4c47bc1aa65895d2e69b8464de5ecf5b24b03ad",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shinka",
+        "did": "did:web:shinka.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "241a15f190bc09fe149ae964efda56c5f1565f4e6584c7f2a2e615dd379729e5"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "b94626c310a7fa58f49702decadf25e68b1ef54d957cb0bff781696bffb7c1a2"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "4d358d3889b53fb76b1f248c443889fad8dae278762e07ea715bd8a55134314f"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "f04aad399c20abfa5c142aa9396d676c5075535d244288408b13483448e6a8ad"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/shinshi-growth",
+      "repository": "cloud-itonami/app-itonami-shinshi-growth",
+      "commit": "c9aa907c0d1913ee42da6afde1b0c637e46b72dc",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shinshi-growth"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "e1e95928551ca4a2ea339529b208daab340bcdb43e21bba704fb76fa4cbff2ad"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/shiori",
+      "repository": "cloud-itonami/app-itonami-shiori",
+      "commit": "a4ff3936da54a53c1497cc7ca59c8e4eb95e0fee",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shiori",
+        "did": "did:web:etzhayyim.com:actor:shiori"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "969fc601210b8cb5ffb02df433995703179c575913d5a6ed67e0716d85fe79a9"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "f6362ac0f4c82f8524cbf2c76ba22aa2cee62ee160b7b039b9d72b8f0cc28ba6"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "e5dcec426f6fd3506f5d5f8a0a708e3b238a89929e7b5e49078350553231159c"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "65f3a3c612932851deee52cfd63a3dbc0cb895dc085671984e1745466e978998"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "7a7ed41fed63bdbb0f4e1d17878bf0a288f254c9b1649b2bd34a491a5a4de60b"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "1bb603c5152783e4c611c0a64763ff40eac2f05f21cd13f7d5bc6a0d48dd8858"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "a71bb0f23616eedb1dea597f78af62aabe0079ba5c6cb99ddc00c7063a88b249"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/shukubo",
+      "repository": "cloud-itonami/app-itonami-shukubo",
+      "commit": "3f01412193c196ecfd554cb93b6037034bb66b00",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "shukubo"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "6ce20b689259cca5f84d04427cb0a3fb4c6cc6dfcc3be029bbb4c2da50a307d0"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "11b41a910ce1277ff18bd046508dd0ec04d255ad38fa415448a4f4294b50aa1d"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "60f75c32a38bc8d9fb62b815eb6f74ee96b868b234bbf228517053401ac1ba3f"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "286ce0242a86a802bbf0eac11ead2c20683ee65c0ac5754ccdfc137cd509757d"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/society6-boundary",
+      "repository": "cloud-itonami/app-itonami-society6-boundary",
+      "commit": "eb13f2c3335fd25ab54ea5e87a2c3dbdc3bd28ba",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "society6"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "bbfd7667353c4200b9649d3e887801f87bbaa9f9a06b25a56cb891febea6ea7f"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4150c634173b9cd55133b8796212dad1f6c9f709e7db2a23f09c6d85123c0569"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/sonae",
+      "repository": "cloud-itonami/app-itonami-sonae",
+      "commit": "b5bf93750ae50de4e752935abed3e90f6257dbfc",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "sonae",
+        "did": "did:web:sonae.etzhayyim.com"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "7f494179891f9b552fe50076a01dbb2272dfc81123181f9967f83e195466e814"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "0c991cbb4471e6638f12be8f5753954c586922f0bbecf834526b91b5183e6cad"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "0a8124a55770143cbdff6a8fa9655ba230d26ed2d39fd5c0c94df3ae568c3c78"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "0ecd542d5100d6f1047d749cf42c374dec7295f5fcabde635f5087339cdf04d7"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "3d2e682dea4fde02b02f8019b6b845cac62712d31bfffe484774ea0684408b40"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "a337ec7022ecf68d86947db437a84cac98670fd4fa2a4f3c3f4369bc66fe0347"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/suji-instrument",
+      "repository": "cloud-itonami/app-itonami-suji-instrument",
+      "commit": "e58a3a864945289c40c98958e10f1d2452138d1d",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "suji",
+        "did": "did:web:etzhayyim.com:actor:suji"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "4134163a14334d86b59f438e6b39a5f21ce7a0ef964d17071bc2e2c529e34f23"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "6bbf84b211a6da323b427e67a2b3e9eb484b255410f89cd716c97121028f7ec5"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "9b394fab4e13aa403e19576f722c4f9d44c9d8bc24de6b6308c836abaed88568"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/swachh",
+      "repository": "cloud-itonami/app-itonami-swachh",
+      "commit": "806ed365b8abf3c848eed1f61fbc164a96412b16",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "kind": "actor",
+      "keys": {
+        "actor": "swachh"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "daba80b76756f91bc38c88240df055f7d97dac9a2ba9a209af9af7a1a4602a95"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/tanemaki",
+      "repository": "cloud-itonami/app-itonami-tanemaki",
+      "commit": "93d330c94aec7f84d05ccdd743ea7b58b8372625",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "tanemaki",
+        "did": "did:web:etzhayyim.com:actor:tanemaki"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "54a7162b71b5e5a0d97c8505edb3f4f3a221c8b955c442bd06a6c0c7a5b75186"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "6f96a02f5444253b619c3ff8ca6cfd3dec6bd11dc27b35ab4913740f6a864850"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "2770a5b44528aaa39bac3133c2732539a45558d5b86fa658f6e8ad0d6e806b09"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "fe040f195212b4b90e0a05931c9e7b4ddd89fdf840f18f9f96c61f4b55eaebd9"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "9aa9f91c2f7d4529199a332f4f36056d55a0aa6b2609aa75c13369d7cb12d063"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "be7f8d44f2c9733236689fdb5ab7c3a9a744b29a748108e7de60ec7ac8608594"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "95c066a59a94b93e99926d954d9e547ec6c822bf999f70cb3ef031a15b22d6da"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/tatekata-west",
+      "repository": "cloud-itonami/app-itonami-tatekata-west",
+      "commit": "354da547651b493d96e62191e6f5b909a94e2003",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "tatekata",
+        "did": "did:web:etzhayyim.com:tatekata"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "71753319c66fa2fa8186ab891f07e7be82a035a86e9695f1bba383788acae9db"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "66e414d42ff01552f7ecf864f8a030d8f916f4211246aff2fc796e0487b14b48"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "2f070fcb9f802d431aaadd9a3cf48ba1f74af71d2c50b85402489758db182ff2"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "91279d7be7897a06bbaf07572b1ed535b40601b18e5cceabaca2822ff90076ad"
+        },
+        {
+          "path": "actor.edn",
+          "sha256": "fc9da5d15baccf038d51b10d89918d4eb49679bce625fc6f1974fc93048506dd"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "a25f93664181cbc868a95357c6148672e4740790f1af2794671bbc9e1ee88bdc"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "893dc60aca52cd442b233b184704e3445c1446b08f221e1f556691312e23eded"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/tsukuru-aozora",
+      "repository": "cloud-itonami/app-itonami-tsukuru-aozora",
+      "commit": "3d902ae51d149436028b599d43f88ae9b2e207ed",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "tsukuru"
+      },
+      "payload": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "0091ba72f33825dabc960943b03423e8eca01544235533c6355c631a54c00fc3"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "91d75ac59a9dd158b0ae4ba53d62afc4320dd552f92e17eae79161b53a98228b"
+        },
+        {
+          "path": "identity.edn",
+          "sha256": "a54712f3fe2b638dad5c5fb0f8808ec2c3bdc558ae38c99b36db897ed774b810"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "98b1d8477d4cbea5a3ebaaaada335aa9d0a4833f14e043ad836a59f9d9278e87"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "76571f93220c38267146777d92cb2d6d1728a2f6e67d94ba3cea99ffdea1913b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/ugachi",
+      "repository": "cloud-itonami/app-itonami-ugachi",
+      "commit": "a37b9af30442dafe9a89abcd27853713d55a0881",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "ugachi"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "489f3423c4f711a3adc54e0026338f3bf91d8936b7cdb8952f81260ad0cfac5b"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c7a138f2b5794c3031b81ebcf618ca4295599b6458e153847ce47cc5d9cdd51e"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "58aba7087f9a964291aa06e88f75be83db9b2e894a7b7e75fdafbae268b10995"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "9442a136a088c28e5c9970f054ffd5974d295043e0d1861677c353406a3916de"
+        },
+        {
+          "path": "repository-contracts.edn",
+          "sha256": "d2de055e7deed3ef0183183124f67c64e356e6900bfea98f74ce905e6ddc8a46"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/uzu",
+      "repository": "cloud-itonami/app-itonami-uzu",
+      "commit": "a380a3292b75cf6c913cbaddcf03b43b6a401108",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "uzu"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "fd3aa0df4eff3a2b4dd3f2bfeeb598d39f1ff55ea5f14734d6def0bf65ea1d67"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "5ed0f68c0e9705a75a6919a2c0e1fc56e6ac3c92bde177ea3ae0940e550e6c81"
+        },
+        {
+          "path": "manifest.edn",
+          "sha256": "c84cb0d14eb157b95ec2d3fb25cbe6c29747ac345bf0a342a919d431c9e3029c"
+        },
+        {
+          "path": "MATURITY.md",
+          "sha256": "1a0a68c0f9671888c649bf063731ca17dfb4bb6021be1607d1a5f2b79ca1ab94"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/voice",
+      "repository": "cloud-itonami/app-itonami-voice",
+      "commit": "f961e25496238603f6810a63f1f8dc1d4d7449b2",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "persona-loop",
+      "keys": {
+        "actor": "voice"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "49a5da70786119bba370788777f083125bd8df6b724cba4c25f6445f0d446f38"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/yosoku",
+      "repository": "cloud-itonami/app-itonami-yosoku",
+      "commit": "74a85632c1939aeaac2a39516d72a05f753ba614",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "yosoku"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "d43d5379a222162c93f054b11285460ea51ca0fee1a36d46e3d429304505ea13"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "actor/za",
+      "repository": "cloud-itonami/app-itonami-za",
+      "commit": "24b498d456cb9343cbfac0548687c3ee55e32763",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "kind": "actor",
+      "keys": {
+        "actor": "za"
+      },
+      "payload": [
+        {
+          "path": "README.md",
+          "sha256": "c7e85d3d629ce32a02e94b1031a7e4315494b0a0ab42b3d3e8499795a313276a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    }
+  ]
+}
