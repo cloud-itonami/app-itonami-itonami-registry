@@ -258,7 +258,7 @@
       "payloadSha256": "938a1b073181753e281ba964270a10be32c9e2afaa6d7abccd9014a163898e03",
       "payloadBytes": 7716,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-itonami-agent",
+      "repository": "kotoba-lang/itonami-agent",
       "sourceCommit": "6f7df914606f84e317786f302511f2545f721574",
       "files": 7,
       "excluded": []

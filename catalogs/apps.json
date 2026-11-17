@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.app-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 269,
+  "count": 268,
   "entries": [
     {
       "id": "app/app-itonami",
@@ -4453,38 +4453,6 @@
         {
           "path": "cljk-origin.edn",
           "sha256": "4cc986b260e15300ffba60196ea9a8e1b04f4497bc76a631c7660d86936e2576"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "app/itonami-agent",
-      "repository": "cloud-itonami/app-itonami-itonami-agent",
-      "commit": "06539adabb9402d321c20a3ff84854a3264dcd27",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "other",
-      "keys": {
-        "app": "itonami-agent"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "5fc39e6a35ff31c7317d48b2760870933d76ee73e7cdf272e59e498ea9eae4a7"
-        },
-        {
-          "path": "AGENTS.md",
-          "sha256": "078bbb3ac19262c49e70d7c1584bad9ffc856c24223bb42f4b96c7dc4f43388d"
-        },
-        {
-          "path": "cljk-origin.edn",
-          "sha256": "bb0344211796e49c3864178f692f448376ac36684d7896bcf7cc97145ab93ade"
         }
       ],
       "digestStatus": "verified",
