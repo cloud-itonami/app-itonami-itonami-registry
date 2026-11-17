@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.actor-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 233,
+  "count": 232,
   "entries": [
     {
       "id": "actor/aburi",
@@ -458,34 +458,6 @@
         {
           "path": "AGENTS.md",
           "sha256": "7f6509825bfabea26aced603d9ed0bbad88aa0fcb4434a856c8aaf4b637f4b60"
-        }
-      ],
-      "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "actor/animeka-actor",
-      "repository": "cloud-itonami/app-itonami-animeka-actor",
-      "commit": "baac7a6a32468aafdf497c2c42c02983c19c5552",
-      "visibility": "public",
-      "archived": false,
-      "license": "NOASSERTION",
-      "kind": "actor",
-      "keys": {
-        "actor": "animeka"
-      },
-      "payload": [
-        {
-          "path": "README.md",
-          "sha256": "12c073077ac42e7e7940dd47834e302d8ce35ffb9328dc63e0cac20105ba868f"
-        },
-        {
-          "path": "AGENTS.md",
-          "sha256": "4b3651cb38a3b44e55678c1f43d4a12aeeba1a7d7bd4e19443d3a6cc468b4b4c"
         }
       ],
       "digestStatus": "verified",
