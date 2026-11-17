@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/fleet-watchdog",
     "checksum": "sha256-tree:03c1173afbbc62f974054799115fc135db4069ddaf0c6180261f022979910155",
     "files": [
@@ -183,6 +183,7 @@
         "sha256": "bf211704b9caa37a44aea6d2e745d45418a16a3ef384be76e6bdf67062f96c91",
         "bytes": 1921
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

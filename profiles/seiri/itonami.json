@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-repo-steward-6973c16"
+    "repo-steward-c7e960da"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cleanup・整理整頓専任。superproject と各 repo の cleanup(cleanup.cljs/cleanup-land.cljs)、west orphan audit、worktree/branch/stash の棚卸しと整理、ディレクトリ構造の秩序維持。",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

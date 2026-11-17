@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "4516b07725c6",
+      "model": null,
+      "name": "awai-store-removal-tick",
+      "no_agent": false,
+      "prompt": "awai-store-removal tick: SOUL.md を読み、scripts/awai_violations.py を 1 回実行し、PICK された repo の state-store binding を 1 件撤去せよ。手順・置換の既定・merge 経路・報告書式は SOUL.md と skill awai-state-store-policy のとおり。捏造なし。",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "41 */2 * * *",
+        "display": "41 */2 * * *"
+      },
+      "script": "awai_violations.py",
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

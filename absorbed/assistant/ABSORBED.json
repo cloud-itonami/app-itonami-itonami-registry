@@ -1,0 +1,18 @@
+{
+  "origin": "cloud-itonami/app-itonami-assistant",
+  "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "569e408f3938163e46e08c77eecc9604cc5df34d2e3eac7a6bf172f77f4f4a0a",
+      "bytes": 1416
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "fc16ff27a0d797bd22f7da9309026503ce07c02746ce81b50429e76233ac092d",
+      "bytes": 1634
+    }
+  ]
+}

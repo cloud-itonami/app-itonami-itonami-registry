@@ -1,0 +1,18 @@
+{
+  "origin": "cloud-itonami/app-itonami-social-capital",
+  "commit": "27e60629cd4667cd59bc1b8d89b3fd94e9016be7",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "ae835357b34dcfe752d5948d6bfb1e55faa20633f119f28f234491807b4c3bd8",
+      "bytes": 957
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "ca030618454eb0122b4ea8b2a0fe00cbeed4ed14bc37528134be020b7cec1c33",
+      "bytes": 1204
+    }
+  ]
+}

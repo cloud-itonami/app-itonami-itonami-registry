@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "base_url": "https://api.murakumo.cloud/v1",
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": [
+        "file"
+      ],
+      "id": "64291435d4e6",
+      "model": "mishima",
+      "name": "kyozai-tick",
+      "no_agent": false,
+      "prompt": "hiraku-kyozai profile の SOUL.md に従う。注入された hiraku_kyozai_tick.hy の出力（GATE/BRIEF/CITE/SAFETY 行）を読み、BRIEF の output パスに SOUL のテンプレートどおり教材を 1 本だけ書く。名前・URL・電話番号は CITE/SAFETY 行にあるものだけ使う。ready/rejected は動かさない。報告は書いたパスと前回の gate 結果だけ。",
+      "provider": "murakumo",
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9,17 * * *",
+        "display": "30 9,17 * * *"
+      },
+      "script": "hiraku_kyozai_tick.hy",
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

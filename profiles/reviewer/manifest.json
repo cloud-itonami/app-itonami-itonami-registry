@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-repo-steward",
-    "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+    "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
     "path": "hermes/profiles/reviewer",
     "checksum": "sha256-tree:1ed4ed6e5f79a37f698a8cc634630cf4b18526b561dae1bcebc1d6469b0323f7",
     "files": [
@@ -33,6 +33,7 @@
         "sha256": "b5c030ecaea46bc490b23a6c68111598612b1dcf2cb995477feffe92b9492ed8",
         "bytes": 863
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

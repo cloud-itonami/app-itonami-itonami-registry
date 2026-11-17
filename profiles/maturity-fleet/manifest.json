@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "ISIC/ISCO 807 repo の成熟度を毎日観測し最低スコアの1本に1 finding提案する propose-only bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/maturity-fleet",
     "checksum": "sha256-tree:ccb27e3fe94a3965c8c9b2504da1e9172a2489b25d72894f4b331f9a9d6dd695",
     "files": [
@@ -43,6 +43,7 @@
         "sha256": "e1ccc61ceaaa184efda979b3c209b556c983ed76174b615f66b386827ca62995",
         "bytes": 4237
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

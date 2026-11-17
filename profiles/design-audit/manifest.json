@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "デザイン/アクセシビリティ監査担当。itonami.cloud と workspace 配下の web UI を jp-go-dds (DADS) + kotoba design + WCAG/HIG の観点で監査する。design-quality.audit (決定論層) と実画面 screenshot review (sample-visual 層) を回し、 design-quality-ledger.edn に採点を追記する。fail-closed — 計測できないものは unmeasured と書き、green を偽らない。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+  "source": "https://github.com/cloud-itonami/app-itonami-repo-steward/tree/c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-repo-steward",
-    "commit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+    "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
     "path": "hermes/profiles/design-audit",
     "checksum": "sha256-tree:6858ff1f047a091ff29b72aa81d7c7cacea662658e82b13b3ed3d487e4f8caad",
     "files": [
@@ -38,6 +38,7 @@
         "sha256": "7a6db18a2e7c6434c67199c74817869d45d6cac4a842fbba3ccafeaedf76f99b",
         "bytes": 462
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

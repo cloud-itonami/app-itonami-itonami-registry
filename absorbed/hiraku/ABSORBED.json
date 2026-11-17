@@ -1,0 +1,38 @@
+{
+  "origin": "cloud-itonami/app-itonami-hiraku",
+  "commit": "1074e64bb56f6360228ebdbb6eff32d2ef67550e",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "fb8f9dfad34cec345eec6aa284c10d912744acba9ce6f7faa785f366ac27effd",
+      "bytes": 3617
+    },
+    {
+      "path": "data/axes.json",
+      "sha256": "b0fb7848849c69cb971705bf2ebedc25363175afbc9e05200b1b3bdf9d68c9d3",
+      "bytes": 1402
+    },
+    {
+      "path": "data/catalog.json",
+      "sha256": "6c995123dff47f388002f75f1d5eebb98d823b4d78e618b0859bf918cb79878e",
+      "bytes": 13577
+    },
+    {
+      "path": "data/curriculum.json",
+      "sha256": "8a5f8faf2dfdad270563aa28b112ed8b1fd28eddbac9ffa5725532b97669eb64",
+      "bytes": 3912
+    },
+    {
+      "path": "data/safety.json",
+      "sha256": "5241b7507889fb2918014d99284acc4b6c02d43856b70b69da5230fb69c85d97",
+      "bytes": 2580
+    },
+    {
+      "path": "docs/empowerment-process.md",
+      "sha256": "024b8c5807ef7758f0e57645c4b3d735aef15e15c909c1f4e2a1a8154913d1c7",
+      "bytes": 5759
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+# Host-local blocks (command_allowlist, onboarding, secrets, skills, terminal) are kept on the host and omitted here.
+model:
+  provider: murakumo
+  base_url: https://api.murakumo.cloud/v1
+  key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+  default: mishima
+  max_tokens: 4096
+  context_length: 32768
+providers:
+  murakumo:
+    base_url: https://api.murakumo.cloud/v1
+    api_mode: chat_completions
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+security:
+  file_tools_workspace_only: true
+plugins:
+  enabled: []
+_config_version: 46
+mcp_servers:
+  github-forest:
+    command: /opt/homebrew/bin/node
+    args:
+    - ~/github/com-junkawasaki/west-manifest/scripts/forest-maintenance.mjs
+    - mcp
+    lazy: true
+fallback_providers: []
+auxiliary:
+  skills_hub:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  triage_specifier:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  approval:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  vision:
+    provider: murakumo
+    model: qwen3-vl-2b-instruct
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  mcp:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  title_generation:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  web_extract:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []
+  compression:
+    provider: murakumo
+    model: mishima
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    fallback_chain: []

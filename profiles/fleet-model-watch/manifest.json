@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "Fleet model-assignment health monitor. Measures per-model ok-rate and burn from scheduler logs, flags fault signatures (402/429/resolve-fail/dead-fallback) and streak growth. Tier map: skill fleet-model-tier-assignment.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/fleet-model-watch",
     "checksum": "sha256-tree:4ac06b4b4278c9e02788ff31fefb6fc50cd17c7b4c9ee9ad6983dea8d746e6ed",
     "files": [
@@ -43,6 +43,7 @@
         "sha256": "4dac99e7767b6876bdd6e73e4a709c93f0c338c276082381d83d020016013005",
         "bytes": 8813
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

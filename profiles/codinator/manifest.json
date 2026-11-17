@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "codinator — 他のbotが適切に動いているかをメンテナンス",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/codinator",
     "checksum": "sha256-tree:37c84eaa6f25c70b8a326ebe67ac823fdc71539362f5180214d4c29dd580f9bc",
     "files": [
@@ -38,6 +38,7 @@
         "sha256": "d9e7a580c17e9cd8d5973f9cf6e0f22cdff04fb3d1286bb1c09944fb0c887ddd",
         "bytes": 277
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

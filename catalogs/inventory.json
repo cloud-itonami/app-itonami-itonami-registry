@@ -1126,39 +1126,39 @@
           "entry": "agent/repo-maturity-steward"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/codinator"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/cron-health"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/fleet-capability-watch"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/fleet-kaizen"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/fleet-model-watch"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/fleet-watchdog"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/global-infra-capacity"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/manager"
         },
         {
-          "sourceCommit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+          "sourceCommit": "d53810bb10a503a4971e033222ea2851edb43e06",
           "entry": "profile/maturity-fleet"
         },
         {
@@ -1350,55 +1350,55 @@
           "entry": "agent/independent-evidence-reviewer"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/90-docs"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/awai-store-removal"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/branch-drain"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/cljk-finish"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/design-audit"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/docs-audit"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/git-cleanup-ops"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/kotoba-merger"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/pr-cleanup"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/pr-drain"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/reviewer"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/rule-kaizen"
         },
         {
-          "sourceCommit": "6973c165ec461d09ebb5e41d717d53dfe43c2fdf",
+          "sourceCommit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
           "entry": "profile/seiri"
         }
       ]
@@ -1428,7 +1428,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "cb7b974a2fe01160ccf77361c4faf835067166d8",
+          "sourceCommit": "27e60629cd4667cd59bc1b8d89b3fd94e9016be7",
           "entry": "profile/social-capital"
         }
       ]

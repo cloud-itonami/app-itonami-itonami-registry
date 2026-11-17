@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-bot-fleet-78afef28"
+    "bot-fleet-d53810bb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: ISIC/ISCO 807 repo の成熟度を毎日観測し最低スコアの1本に1 finding提案する propose-only bot",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

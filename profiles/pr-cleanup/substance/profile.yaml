@@ -1,0 +1,11 @@
+description: pr-cleanup — github pr を cleanup
+description_auto: false
+ui_meta:
+  hermes-bots:
+    shape: blobatar
+    color: '#f97316'
+    imageKind: shape
+    title: pr-cleanup
+    created: 1788091034559
+_ui_meta_revisions:
+  hermes-bots: 1

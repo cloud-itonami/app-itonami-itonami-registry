@@ -1,0 +1,15 @@
+;; Unlisted capabilities are denied. The capability list is copied into
+;; itonami.edn and grants nothing by itself — this file is the authority.
+{:yakuwari/capabilities
+ [{:capability :read_source        :decision :autonomous}
+  {:capability :write_digest       :decision :autonomous
+   :note "local workspace only; every figure carries source URL, retrieval date, unit and period"}
+  {:capability :fetch_public_source :decision :approval-required
+   :note "per-operation approval naming the service, endpoint and data categories; only sources marked verified in docs/design.md"}
+  {:capability :send_external      :decision :blocked}
+  {:capability :trade_or_transfer  :decision :blocked}
+  {:capability :give_investment_advice :decision :blocked}
+  {:capability :use_remote_inference :decision :blocked
+   :note "inference stays on the murakumo rail; no remote fallback"}
+  {:capability :enable_cron        :decision :blocked}]
+ :yakuwari/runners [{:runner :hermes :weight 1}]}

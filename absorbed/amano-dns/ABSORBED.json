@@ -1,0 +1,18 @@
+{
+  "origin": "cloud-itonami/app-itonami-amano-dns",
+  "commit": "a651100732f86db8d78a7102ac198bb17d0b74d4",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "60f581541424fa2af6cd57ef7b6260c7a5919758afaefe166bed4b134e833cd9",
+      "bytes": 856
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "0e9f998590ddcb2f36278f568bbb3479218c73de8748cd5dce4584a0e3decbf5",
+      "bytes": 1119
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Host-local blocks (command_allowlist, onboarding, secrets, skills, terminal) are kept on the host and omitted here.
+providers:
+  murakumo:
+    base_url: https://api.murakumo.cloud/v1
+    api_mode: chat_completions
+    models:
+      mishima:
+        context_length: 131072
+        max_tokens: 1024
+      nex-n2.5-mini-uncensored:
+        context_length: 65536
+        max_tokens: 8192
+    stale_timeout_seconds: 600
+    request_timeout_seconds: 900
+    extra_headers:
+      HTTP-Referer: https://itonami.cloud
+      X-Title: Itonami By KotobaLabs
+model:
+  provider: murakumo
+  base_url: https://api.murakumo.cloud/v1
+  key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+  default: murakumo/mishima
+  max_tokens: 1024
+  context_length: 131072
+auxiliary:
+  vision:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    key_env: CUSTOM_PROVIDER_MURAKUMO_KEY
+    model: mishima
+    reasoning_effort: none
+  web_extract:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+  compression:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    reasoning_effort: none
+  skills_hub:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+  approval:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+  mcp:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+  title_generation:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+    reasoning_effort: none
+  triage_specifier:
+    provider: murakumo
+    base_url: https://api.murakumo.cloud/v1
+    model: mishima
+plugins:
+  enabled: []
+_config_version: 46
+agent:
+  max_turns: 500
+  run_budget_seconds: 600
+
+
+
+cron:
+  bot_chat_delivery_timeout_seconds: 900
+  max_parallel_jobs: 12
+mcp_servers:
+  github-forest:
+    command: /opt/homebrew/bin/node
+    args:
+      - ${userHome}/github/com-junkawasaki/west-manifest/scripts/forest-maintenance.mjs
+      - mcp
+    lazy: true

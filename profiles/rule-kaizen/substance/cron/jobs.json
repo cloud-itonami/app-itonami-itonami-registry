@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "24b4bec8c51b",
+      "model": null,
+      "name": "rule-kaizen-tick",
+      "no_agent": false,
+      "prompt": "rule-kaizen bot。SOUL.md の「1 tick の仕事」に従う。まず bash ~/.hermes/profiles/rule-kaizen/scripts/kaizen_tick.sh を実行して状態測定。findings>=1 なら next の指すファイルを 1 件だけ直し（needle の :fix と :superseded-by ADR を先に読む）、検証（括弧収支 / edn parse / スキャナ再実行で finding 消滅確認）をして commit→push。findings 0 なら何も作らず報告して終える。報告書式: corpus listed/readable/unread、直した finding、findings 前回→今回、異常の有無。",
+      "provider": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 1440,
+        "display": "every 1440m"
+      },
+      "script": null,
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

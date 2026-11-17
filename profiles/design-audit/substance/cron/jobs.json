@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "base_url": "https://api.murakumo.cloud/v1",
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": null,
+      "id": "62204614f8fa",
+      "model": "mishima",
+      "name": "design-audit-weekly",
+      "no_agent": false,
+      "prompt": "design-audit 週次監査。1) 90-docs/design-quality/audit.cljc を nbb で itonami.cloud の主要ページ (/, /bots/, /ja/) + 実 theme.css に対して実行し、negative control も回す。2) playwright で desktop (1440px) + mobile (390px, isMobile:true) の screenshot を撮り vision review で per-section PASS/FAIL。3) 結果を design-quality-ledger.edn に追記 (run-id は design-quality-site-<yyyymmdd-hhmm>)。4) findings があれば headroom 順に報告。fail-closed: 計測できない項目は unmeasured と書く。",
+      "provider": "murakumo",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "0 9 * * 1"
+      },
+      "script": null,
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

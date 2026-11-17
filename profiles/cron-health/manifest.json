@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "cron-health: hourly Hermes bot cron fleet health auditor - scans all profiles, detects breaks. propose-only.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,7 +14,7 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/cron-health",
     "checksum": "sha256-tree:3a506fc22ec0a74956109c72b11aa9ccaa96e00f4f4290a15d735ea9c23991fe",
     "files": [
@@ -43,6 +43,7 @@
         "sha256": "6bce00cc7f499b448a7d056722d47faf9374a76fc4e4219145403fe9484fd2a1",
         "bytes": 6195
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

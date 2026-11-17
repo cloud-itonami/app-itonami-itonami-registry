@@ -1,0 +1,28 @@
+{
+  "origin": "cloud-itonami/app-itonami-bot-fleet",
+  "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "4bb1b40e5f4b3c349e65567c0d5382d98609d41521bfee3238229222160a7952",
+      "bytes": 1744
+    },
+    {
+      "path": "cljk-origin.edn",
+      "sha256": "d97d9237bbbf03428e0e947380aa943f401ab9708fcaad6e73ad9babf4fffe67",
+      "bytes": 461
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "1b7f533c71f70350ffc8d574bb5ca695a0f749a4efda3e801c05374ea1aa5b52",
+      "bytes": 1878
+    },
+    {
+      "path": "hermes/tests/accountability_steward/test_growth_gate.py",
+      "sha256": "1a2438415ad74091df315898aec409990c985873ab37e9d99e4bd7d15937f96f",
+      "bytes": 8104
+    }
+  ]
+}

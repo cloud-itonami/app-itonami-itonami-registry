@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-bot-fleet-78afef28"
+    "bot-fleet-d53810bb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: fleet-kaizen — 品質・安定性・性能の kaizen bot — 全 Hermes fleet (約 170 profile / 156 cron job) の**実測ログだけ**を材料に、",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

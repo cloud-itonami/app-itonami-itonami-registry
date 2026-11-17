@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-bot-fleet-78afef28"
+    "bot-fleet-d53810bb"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: maanger — 他の bot がちゃんと働いているか確認",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",

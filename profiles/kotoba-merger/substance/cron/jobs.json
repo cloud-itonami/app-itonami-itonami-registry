@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "base_url": null,
+      "context_from": null,
+      "deliver": "local",
+      "enabled": true,
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "web"
+      ],
+      "id": "9e054a0c7e39",
+      "model": null,
+      "name": "kotoba-merger-tick",
+      "no_agent": false,
+      "prompt": "fleet 横断の bot PR を審査し、緑なら merge する (1 回の tick で最大 3 件まで順次処理)。SOUL.md の手順に従う。\n\n【対象範囲】\norgs: cloud-itonami, network-awai, kotoba-lang, gftdcojp, etzhayyim, com-junkawasaki の全 repo。\n\n【入力】run の冒頭に scripts/pr_queue_scan.py の出力 (PR_QUEUE_SCAN_V1) が注入されている。\n**gh search を自分で組み立てない。** WORK 行の 1 番目から順に、まだ他 actor が触っていないものを処理する。\n- 先頭が REFUSED なら queue は測れていない。1 行報告して終了 (空の queue と読まない)。\n- **head の接頭辞で絞らない。** `bot/*`, `agent/*`, `chore/*`, `fix/*`, `feat/*` 等全 PR が対象。\n\n【処理サイクル (最大 3 件)】\n(1) WORK 行から順に選ぶ (古い順が既定。action が CLOSE-SUPERSEDED? のものを優先してよい)。\n(2) diff を読み、PR 本文と一致するか / スコープ外変更や secret 混入がないかを確認する。\n(3) repo のテスト・ビルド (shadow-cljs compile app、clojure -M:test、nbb test/run.cljs 等) を\n    **実際に実行**する。赤なら merge しない。main でも落ちる既存の赤は merge 可だが\n    「pre-existing」と明記する。**checks=none は緑ではない** — 走らせた結果だけが検証。\n(4) 緑なら `gh pr merge --squash --delete-branch`。\n    action=RESOLVE-THEN-MERGE なら先に origin/main を PR branch へ **普通の merge commit** で\n    取り込む (rebase / force-push 禁止)。\n    action=CLOSE-SUPERSEDED? なら containment を自分で 1 度確かめ、evidence を書いて close。\n(5) ~/.hermes/profiles/kotoba-merger/workspace/merges.md に 1 行追記する。\n(6) 問題があれば merge せず、行番号つき review comment を残す。\n\ndeploy はしない。force push / main 直接 push 禁止。対象が無ければ [SILENT]。\n出力は日本語で簡潔に (PR 番号 + 処置結果)。",
+      "provider": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "11 3-23/4 * * *",
+        "display": "11 3-23/4 * * *"
+      },
+      "script": "pr_queue_scan.py",
+      "skill": null,
+      "skills": [],
+      "workdir": null
+    }
+  ]
+}

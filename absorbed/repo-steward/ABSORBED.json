@@ -1,0 +1,23 @@
+{
+  "origin": "cloud-itonami/app-itonami-repo-steward",
+  "commit": "c7e960daf2e7e111065a0fef2b9e8b602f0eddea",
+  "absorbedOn": "2026-11-17",
+  "note": "Files outside hermes/profiles/ copied verbatim; profile files are in profiles/<id>/substance.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c048c8b97e227068a0067ad7e2cb68664ac6023361fc47a22c678c1a04851290",
+      "bytes": 1973
+    },
+    {
+      "path": "cljk-origin.edn",
+      "sha256": "ff4cb6b7e2a7c2e8c0f2cd8f98e0a0fce46af0436f6b099b210f28f9c0395acd",
+      "bytes": 592
+    },
+    {
+      "path": "hermes/README.md",
+      "sha256": "1b5bf1c884f2adbe57a758a361df04db496cb34b1fd8cf3fd5e5de69752840cd",
+      "bytes": 2001
+    }
+  ]
+}

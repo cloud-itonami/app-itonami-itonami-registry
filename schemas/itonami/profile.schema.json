@@ -4,51 +4,149 @@
   "title": "Itonami profile catalog entry",
   "description": "An Itonami profile is a Hermes profile (SOUL.md, profile.yaml, config.yaml, skills/<id>/SKILL.md, cron/jobs.json, scripts/) owned by another repository. The registry entry pins that folder to one commit and lists every file with its sha256; it never copies the files (ADR 0001, ADR 0002). A Bot is an Itonami profile presented in a roster.",
   "type": "object",
-  "required": ["schemaVersion", "type", "id", "name", "version", "description", "author", "source", "compatibility", "profile"],
+  "required": [
+    "schemaVersion",
+    "type",
+    "id",
+    "name",
+    "version",
+    "description",
+    "author",
+    "source",
+    "compatibility",
+    "profile"
+  ],
   "additionalProperties": false,
   "properties": {
-    "schemaVersion": {"const": "1"},
-    "type": {"const": "profile"},
-    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"},
-    "name": {"type": "string", "minLength": 1},
-    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
-    "description": {"type": "string", "minLength": 1},
-    "author": {"type": "string", "minLength": 1},
-    "license": {"type": "string"},
-    "tags": {"type": "array", "items": {"type": "string"}},
-    "source": {"type": "string", "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/tree/[0-9a-f]{40}$"},
+    "schemaVersion": {
+      "const": "1"
+    },
+    "type": {
+      "const": "profile"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "license": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+/tree/[0-9a-f]{40}$"
+    },
     "compatibility": {
       "type": "object",
-      "required": ["hermes", "itonami"],
-      "properties": {"hermes": {"type": "string"}, "itonami": {"type": "string"}},
+      "required": [
+        "hermes",
+        "itonami"
+      ],
+      "properties": {
+        "hermes": {
+          "type": "string"
+        },
+        "itonami": {
+          "type": "string"
+        }
+      },
       "additionalProperties": false
     },
     "bot": {
       "type": "object",
       "description": "Roster presentation when the profile is installed as a Bot (Hermes Bot Mode ui_meta equivalent).",
-      "properties": {"title": {"type": "string"}, "avatar": {"type": "string"}},
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "avatar": {
+          "type": "string"
+        }
+      },
       "additionalProperties": false
     },
     "profile": {
       "type": "object",
-      "required": ["layout", "repository", "commit", "path", "checksum", "files"],
+      "required": [
+        "layout",
+        "repository",
+        "commit",
+        "path",
+        "checksum",
+        "files"
+      ],
       "additionalProperties": false,
       "properties": {
-        "layout": {"const": "hermes-profile"},
-        "repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
-        "commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
-        "path": {"type": "string", "pattern": "^[A-Za-z0-9_./-]+$"},
-        "checksum": {"type": "string", "pattern": "^sha256-tree:[0-9a-f]{64}$"},
+        "layout": {
+          "const": "hermes-profile"
+        },
+        "repository": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_./-]+$"
+        },
+        "checksum": {
+          "type": "string",
+          "pattern": "^sha256-tree:[0-9a-f]{64}$"
+        },
         "files": {
-          "type": "array", "minItems": 1,
+          "type": "array",
+          "minItems": 1,
           "items": {
-            "type": "object", "required": ["path", "sha256", "bytes"], "additionalProperties": false,
+            "type": "object",
+            "required": [
+              "path",
+              "sha256",
+              "bytes"
+            ],
+            "additionalProperties": false,
             "properties": {
-              "path": {"type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_./-]*$"},
-              "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
-              "bytes": {"type": "integer", "minimum": 0}
+              "path": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9_][A-Za-z0-9_./-]*$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              }
             }
           }
+        },
+        "storage": {
+          "const": "registry",
+          "description": "ADR 0016: the pinned files are also kept verbatim in profiles/<id>/substance, so the owning repository is not needed to resolve them."
         }
       }
     }

@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "fleet-kaizen — 品質・安定性・性能の kaizen bot — 全 Hermes fleet (約 170 profile / 156 cron job) の**実測ログだけ**を材料に、",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/d53810bb10a503a4971e033222ea2851edb43e06",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,14 +14,14 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-bot-fleet",
-    "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
+    "commit": "d53810bb10a503a4971e033222ea2851edb43e06",
     "path": "hermes/profiles/fleet-kaizen",
-    "checksum": "sha256-tree:fc2f01542ec3c5a41d3368f3191de532e036bc2df8f9d9e95f4c43d16be04428",
+    "checksum": "sha256-tree:d65a53951cbcb8d2bbe05c08fa141f340695e5cf38b59234eac4a327323a3ad7",
     "files": [
       {
         "path": "SOUL.md",
-        "sha256": "9045f1fff88ccdef1a69f04fde15931e64bbd7d7fde9019dcc58fb5ce6382bfb",
-        "bytes": 3387
+        "sha256": "17a9f6a29a8e153c043dda1fe3f1980e613eaa6ef9ac9a71aaefd78582436f92",
+        "bytes": 4157
       },
       {
         "path": "config.yaml",
@@ -30,14 +30,20 @@
       },
       {
         "path": "cron/jobs.json",
-        "sha256": "864d49e159b30df423f679d80ac2c3071aa4299bafcccc22ef2a3845a5734e4e",
-        "bytes": 979
+        "sha256": "29eab8ac9e3c33617077d8a4f23f91e0f1b5f0dc00bbac3a9f4d945bc680c325",
+        "bytes": 1109
       },
       {
-        "path": "scripts/fleet-kaizen-audit.py",
-        "sha256": "ccbab8be91dd1dac3a99919c88e6eba0b3c06e64f45c3d442feabd8a4806ab79",
-        "bytes": 6290
+        "path": "scripts/fleet-kaizen-audit.cljk",
+        "sha256": "f46d485b326c2d531b650d0554ca214192b8955da8243cccfb9497ae2e9386bc",
+        "bytes": 10704
+      },
+      {
+        "path": "scripts/fleet-kaizen-audit.sh",
+        "sha256": "0431b31a5fbf24c359cb3594404fef363b61872ec5d4178d2b0af845ef678781",
+        "bytes": 211
       }
-    ]
+    ],
+    "storage": "registry"
   }
 }

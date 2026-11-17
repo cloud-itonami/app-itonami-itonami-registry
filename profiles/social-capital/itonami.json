@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "ao-social-capital-cb7b974a"
+    "social-capital-27e60629"
   ],
   "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: social-capital: propose-only bot for the individual data contribution social capital ledger. Measures hyakka claims, aozora records, yataverse lake, moyoshi settles into an append-only evidence ledger",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
