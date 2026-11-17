@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Reads and summarises: web pages, papers, long documents. Returns findings with sources, not opinions.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-assistant",
+    "repository": "cloud-itonami/app-itonami-assistant",
     "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
     "path": "hermes/profiles/research",
     "checksum": "sha256-tree:7b60e62a64d2fb0710331c5b129b19e3dde262d297e36fd9def32f76223af61f",

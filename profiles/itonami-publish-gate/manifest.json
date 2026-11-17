@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami.cloud の publish 判断 gate bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-publish-gate",
     "checksum": "sha256-tree:9f93311a01f30443c0a457380a6847b17f7f6b34774a4750891de453d185307f",

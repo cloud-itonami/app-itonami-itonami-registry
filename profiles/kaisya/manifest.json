@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kaisya company portal resident bot (propose-only)",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/kaisya/tree/5aaf6f33b0a69969e55e912f8cceb7e2bdb34933",
+  "source": "https://github.com/cloud-itonami/app-itonami-kaisya/tree/5aaf6f33b0a69969e55e912f8cceb7e2bdb34933",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/kaisya",
+    "repository": "cloud-itonami/app-itonami-kaisya",
     "commit": "5aaf6f33b0a69969e55e912f8cceb7e2bdb34933",
     "path": "hermes/profiles/kaisya",
     "checksum": "sha256-tree:4a75ec39e9de3627caa612cf5ff80453b020bc14ad33d71da7274f67c3f4d719",

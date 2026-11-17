@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "cloud-itonami 各 business の bot 群を murakumo fleet 上で分散稼働させる dispatch bot。kanban swarm で worker を並列実行し、isolated context envelope で context 共有を制御、checkpoint で長期実行耐性を担保する。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-dispatch",
     "checksum": "sha256-tree:c52fa7515545ddd7c3fdcbd7df0c351b55da0bb02b9a73a029989215f9099d69",

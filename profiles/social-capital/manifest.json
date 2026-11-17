@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "social-capital: propose-only bot for the individual data contribution social capital ledger. Measures hyakka claims, aozora records, yataverse lake, moyoshi settles into an append-only evidence ledger and proposes the next step of ADR-2609141203.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-social-capital/tree/cb7b974a2fe01160ccf77361c4faf835067166d8",
+  "source": "https://github.com/cloud-itonami/app-itonami-social-capital/tree/cb7b974a2fe01160ccf77361c4faf835067166d8",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-social-capital",
+    "repository": "cloud-itonami/app-itonami-social-capital",
     "commit": "cb7b974a2fe01160ccf77361c4faf835067166d8",
     "path": "hermes/profiles/social-capital",
     "checksum": "sha256-tree:abe63d986082c424a6508ddd9eda4077374fcc0a0ec3459e4e25950a9ad88363",

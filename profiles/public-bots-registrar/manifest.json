@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami.cloud public bots registry bot: awai-arb 登録状態の監視 + owner passkey 依頼 + register 可能になったら直ぐ申請",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/public-bots-registrar",
     "checksum": "sha256-tree:d69677d1b0a2d4521da1131dca197425c39769bf7e6fccd912ccd0cdaf1a5bc5",

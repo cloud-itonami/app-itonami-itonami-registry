@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISIC major Q Human health and social work occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+  "source": "https://github.com/cloud-itonami/app-itonami-isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isic",
+    "repository": "cloud-itonami/app-itonami-isic",
     "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-q",
     "checksum": "sha256-tree:95b9e2cd6e4cb788b77c78957479a0c58535aaac2d248d942425e6c167f057c0",

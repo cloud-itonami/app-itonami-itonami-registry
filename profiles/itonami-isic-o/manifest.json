@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISIC major O Public administration and defence occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+  "source": "https://github.com/cloud-itonami/app-itonami-isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isic",
+    "repository": "cloud-itonami/app-itonami-isic",
     "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-o",
     "checksum": "sha256-tree:75c3d6f66761ad1e8b35dbb19867e0d25d7b36ce0939df8c30184caa156f13d1",

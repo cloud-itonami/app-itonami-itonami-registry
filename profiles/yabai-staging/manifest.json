@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
+  "source": "https://github.com/cloud-itonami/app-itonami-yabai-actor/tree/c1ba3c699ccebebc2302fef6381ff582818250ed",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/yabai-actor",
+    "repository": "cloud-itonami/app-itonami-yabai-actor",
     "commit": "c1ba3c699ccebebc2302fef6381ff582818250ed",
     "path": "hermes/profiles/yabai-staging",
     "checksum": "sha256-tree:ae57ecfe3011308d92cfabdb6f69fbb269e325b19876a6a4cc2733f43e7fa233",

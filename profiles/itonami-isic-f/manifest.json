@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISIC major F Construction occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+  "source": "https://github.com/cloud-itonami/app-itonami-isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isic",
+    "repository": "cloud-itonami/app-itonami-isic",
     "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-f",
     "checksum": "sha256-tree:d274b335bbe2f53caaa7840ff4b82d6bc5cf36354d4842e6b3bc4b44bcdb7bc0",

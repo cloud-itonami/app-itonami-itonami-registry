@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 1 Managers occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
+  "source": "https://github.com/cloud-itonami/app-itonami-isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isco",
+    "repository": "cloud-itonami/app-itonami-isco",
     "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-1",
     "checksum": "sha256-tree:f2dfc81eede34e9914180cd8dced2b42c08a0e9a95d6ad9a7106a9dd3f7f73f5",

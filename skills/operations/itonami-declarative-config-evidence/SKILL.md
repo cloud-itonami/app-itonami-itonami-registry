@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/ao-assistant/tree/5c803ed4fa159742e11e2d050dc449b58c7ff233
+    source: https://github.com/cloud-itonami/app-itonami-assistant/tree/5c803ed4fa159742e11e2d050dc449b58c7ff233
     compatibility:
       hermes: '*'
       desktop: '*'

@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Email support inbox bot (polling agentmail.to, created 2026-09-02)",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
+  "source": "https://github.com/cloud-itonami/app-itonami-assistant/tree/f55bdf360bb403db0a20ae1ffce252d3eb24d331",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-assistant",
+    "repository": "cloud-itonami/app-itonami-assistant",
     "commit": "f55bdf360bb403db0a20ae1ffce252d3eb24d331",
     "path": "hermes/profiles/gftd-support",
     "checksum": "sha256-tree:f447a80f7f734733b1af22b6623d3b1612f0cc3230c1aceefbb973469c67532c",

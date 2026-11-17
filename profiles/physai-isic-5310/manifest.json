@@ -4,16 +4,16 @@
   "id": "physai-isic-5310",
   "name": "physai-isic-5310",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-5310: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-5310: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-isic-5310/tree/7dd45a1046bad3e1cc765f3bb488ee414502fa2b",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-5310/tree/7dd45a1046bad3e1cc765f3bb488ee414502fa2b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-isic-5310",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-5310",
     "commit": "7dd45a1046bad3e1cc765f3bb488ee414502fa2b",
     "path": "hermes/profiles/physai-isic-5310",
     "checksum": "sha256-tree:cdc4deb4e1b94dbd9bf3cb3a05edf3b78ab2708dac34cd2dedacc41210a05e38",

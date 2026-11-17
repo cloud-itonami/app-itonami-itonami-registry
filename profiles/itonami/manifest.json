@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami: business OS bot. Runs itonami fleet ingests (ISIC/ISO/LEI/grok-bots corpora), maturity loops, and feeds wiki.yataverse.com via hyakka.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami",
     "checksum": "sha256-tree:8ccb791bd3f12c6917345c3052622cf3bea000f306201e4df8b2b4b7779cad80",

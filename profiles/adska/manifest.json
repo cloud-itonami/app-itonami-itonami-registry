@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "adska: adult ad-operations bot. Campaign plans, budgets, placement compliance, measured CTR/CVR into the itonami ledger.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+  "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/adserver",
+    "repository": "cloud-itonami/app-itonami-adserver",
     "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
     "path": "hermes/profiles/adska",
     "checksum": "sha256-tree:9cfdaa3750168582885ec2bc758074df1d5969f9f6c594f108adf1988b7e2f5c",

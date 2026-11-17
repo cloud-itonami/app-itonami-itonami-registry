@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/ao-arbitrage/tree/2233648e8757628f8ecfb97127ae498ceaa73692
+    source: https://github.com/cloud-itonami/app-itonami-arbitrage/tree/2233648e8757628f8ecfb97127ae498ceaa73692
     compatibility:
       hermes: '*'
       desktop: '*'

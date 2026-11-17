@@ -4,16 +4,16 @@
   "id": "bim-app-maint",
   "name": "bim-app-maint",
   "version": "0.1.0",
-  "description": "bim-app-maint: maintainer bot for cloud-itonami/bim (bim): health scan, CI red detection, propose-only PRs, 30min cron",
+  "description": "bim-app-maint: maintainer bot for cloud-itonami/app-itonami-bim (bim): health scan, CI red detection, propose-only PRs, 30min cron",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/bim/tree/328e7d138a982a9d4012290b73caec63083c0ecf",
+  "source": "https://github.com/cloud-itonami/app-itonami-bim/tree/328e7d138a982a9d4012290b73caec63083c0ecf",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/bim",
+    "repository": "cloud-itonami/app-itonami-bim",
     "commit": "328e7d138a982a9d4012290b73caec63083c0ecf",
     "path": "hermes/profiles/bim-app-maint",
     "checksum": "sha256-tree:ec4c7fa189355e4e46743f59debe2dd26b638b88d6fde09782b01d5e3ee9ae44",

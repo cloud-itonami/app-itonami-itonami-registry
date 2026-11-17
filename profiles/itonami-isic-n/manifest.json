@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISIC major N Administrative and support occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+  "source": "https://github.com/cloud-itonami/app-itonami-isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isic",
+    "repository": "cloud-itonami/app-itonami-isic",
     "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-n",
     "checksum": "sha256-tree:7366ee25ce12101f6a07e1697b1a03ed7f4c07848580d7b034dd3f208290cc6f",

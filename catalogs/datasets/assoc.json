@@ -7,7 +7,7 @@
   "entries": [
     {
       "id": "assoc/0126-idn-gapki",
-      "repository": "cloud-itonami/cloud-itonami-assoc-0126-idn-gapki",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0126-idn-gapki",
       "commit": "30c4b22a5dfd2cea8e3db02a7a7de6211f425519",
       "visibility": "public",
       "archived": false,
@@ -36,7 +36,7 @@
     },
     {
       "id": "assoc/0126-mys-mpoa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-0126-mys-mpoa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0126-mys-mpoa",
       "commit": "6dfe7439e5db7eff928d9224a38bfb95a98651f7",
       "visibility": "public",
       "archived": false,
@@ -65,7 +65,7 @@
     },
     {
       "id": "assoc/0150-usa-afbf",
-      "repository": "cloud-itonami/cloud-itonami-assoc-0150-usa-afbf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0150-usa-afbf",
       "commit": "fb9006252d431b4bf465e716fd4a4d46d34f8904",
       "visibility": "public",
       "archived": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "assoc/0610-usa-api",
-      "repository": "cloud-itonami/cloud-itonami-assoc-0610-usa-api",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-0610-usa-api",
       "commit": "07f29fb34133e2fe0db98aac34ae747a3375a598",
       "visibility": "public",
       "archived": false,
@@ -123,7 +123,7 @@
     },
     {
       "id": "assoc/2011-usa-acc",
-      "repository": "cloud-itonami/cloud-itonami-assoc-2011-usa-acc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2011-usa-acc",
       "commit": "2336e99fee195829e03a615e86127a25a1dce051",
       "visibility": "public",
       "archived": false,
@@ -152,7 +152,7 @@
     },
     {
       "id": "assoc/2100-usa-phrma",
-      "repository": "cloud-itonami/cloud-itonami-assoc-2100-usa-phrma",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2100-usa-phrma",
       "commit": "bbf5a67fa2756a1884dbc4b82d05a7cb780d2fd9",
       "visibility": "public",
       "archived": false,
@@ -181,7 +181,7 @@
     },
     {
       "id": "assoc/2910-chn-caam",
-      "repository": "cloud-itonami/cloud-itonami-assoc-2910-chn-caam",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-chn-caam",
       "commit": "b988476523225af95826b77e7a360a7fff6613a3",
       "visibility": "public",
       "archived": false,
@@ -210,7 +210,7 @@
     },
     {
       "id": "assoc/2910-deu-vda",
-      "repository": "cloud-itonami/cloud-itonami-assoc-2910-deu-vda",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-deu-vda",
       "commit": "f7c1e07871add72b724dde465033550488ad3c9b",
       "visibility": "public",
       "archived": false,
@@ -239,7 +239,7 @@
     },
     {
       "id": "assoc/2910-gbr-smmt",
-      "repository": "cloud-itonami/cloud-itonami-assoc-2910-gbr-smmt",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-2910-gbr-smmt",
       "commit": "8c81f179de07dfdecc64987cade897904ec92a54",
       "visibility": "public",
       "archived": false,
@@ -268,7 +268,7 @@
     },
     {
       "id": "assoc/3510-usa-eei",
-      "repository": "cloud-itonami/cloud-itonami-assoc-3510-usa-eei",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-3510-usa-eei",
       "commit": "5db584540ddaf7f8546c654d62e602b4cd9cf4a6",
       "visibility": "public",
       "archived": false,
@@ -297,7 +297,7 @@
     },
     {
       "id": "assoc/3600-usa-awwa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-3600-usa-awwa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-3600-usa-awwa",
       "commit": "fcb0bc780662ae96146a297ac8d99db3819a4880",
       "visibility": "public",
       "archived": false,
@@ -326,7 +326,7 @@
     },
     {
       "id": "assoc/4100-usa-agc",
-      "repository": "cloud-itonami/cloud-itonami-assoc-4100-usa-agc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4100-usa-agc",
       "commit": "bb6c7b3d6f0c963741cb61748b90fca61c7dc732",
       "visibility": "public",
       "archived": false,
@@ -355,7 +355,7 @@
     },
     {
       "id": "assoc/4719-chn-ccfa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-4719-chn-ccfa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4719-chn-ccfa",
       "commit": "42b027f451092ee7f7bb93d4e14abe29ba29c115",
       "visibility": "public",
       "archived": false,
@@ -384,7 +384,7 @@
     },
     {
       "id": "assoc/4719-usa-nrf",
-      "repository": "cloud-itonami/cloud-itonami-assoc-4719-usa-nrf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4719-usa-nrf",
       "commit": "b915e351781209cc466a8fe7df2731989426b1d7",
       "visibility": "public",
       "archived": false,
@@ -413,7 +413,7 @@
     },
     {
       "id": "assoc/4923-usa-ata",
-      "repository": "cloud-itonami/cloud-itonami-assoc-4923-usa-ata",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-4923-usa-ata",
       "commit": "d8279608c4c302c9a5c1cdec520ff4c85120fe79",
       "visibility": "public",
       "archived": false,
@@ -442,7 +442,7 @@
     },
     {
       "id": "assoc/5010-nor-rederiforbundet",
-      "repository": "cloud-itonami/cloud-itonami-assoc-5010-nor-rederiforbundet",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5010-nor-rederiforbundet",
       "commit": "93143f3db4981f9ab6717f061d638383e4ea1429",
       "visibility": "public",
       "archived": false,
@@ -471,7 +471,7 @@
     },
     {
       "id": "assoc/5110-usa-a4a",
-      "repository": "cloud-itonami/cloud-itonami-assoc-5110-usa-a4a",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5110-usa-a4a",
       "commit": "9aefd260ef478deb92fcae83fca80dbe2fa320c8",
       "visibility": "public",
       "archived": false,
@@ -500,7 +500,7 @@
     },
     {
       "id": "assoc/5510-usa-ahla",
-      "repository": "cloud-itonami/cloud-itonami-assoc-5510-usa-ahla",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5510-usa-ahla",
       "commit": "d27f626718c38b02cfd050242f3f40e94e14ece6",
       "visibility": "public",
       "archived": false,
@@ -529,7 +529,7 @@
     },
     {
       "id": "assoc/5610-usa-nra",
-      "repository": "cloud-itonami/cloud-itonami-assoc-5610-usa-nra",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-5610-usa-nra",
       "commit": "696a8d2278ec3599dd67af7d13bf047818a45f73",
       "visibility": "public",
       "archived": false,
@@ -558,7 +558,7 @@
     },
     {
       "id": "assoc/6020-usa-nab",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6020-usa-nab",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6020-usa-nab",
       "commit": "4eade3c7b770d6de4aeba7692f8a00fc7732c8bb",
       "visibility": "public",
       "archived": false,
@@ -587,7 +587,7 @@
     },
     {
       "id": "assoc/6120-usa-ctia",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6120-usa-ctia",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6120-usa-ctia",
       "commit": "b1c653029addccb3423fafa2ecb2f48773575985",
       "visibility": "public",
       "archived": false,
@@ -616,7 +616,7 @@
     },
     {
       "id": "assoc/6201-usa-gtia",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6201-usa-gtia",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6201-usa-gtia",
       "commit": "9ad9f69a13dfda75842ae9aa9c3c9598f1801953",
       "visibility": "public",
       "archived": false,
@@ -645,7 +645,7 @@
     },
     {
       "id": "assoc/6411-jpn-boj",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6411-jpn-boj",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6411-jpn-boj",
       "commit": "f5def3d90971dd1de53a3967e1a173e0ecc3e68d",
       "visibility": "public",
       "archived": false,
@@ -674,7 +674,7 @@
     },
     {
       "id": "assoc/6419-are-ubf",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-are-ubf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-are-ubf",
       "commit": "ce0381741d2b88a55c1462d906ea2d4a757fe1cd",
       "visibility": "public",
       "archived": false,
@@ -703,7 +703,7 @@
     },
     {
       "id": "assoc/6419-aus-aba",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-aus-aba",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-aus-aba",
       "commit": "a5c4a746bb75e07c1f9a537d4fb6f1a9c3d0cc07",
       "visibility": "public",
       "archived": false,
@@ -732,7 +732,7 @@
     },
     {
       "id": "assoc/6419-che-sba",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-che-sba",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-che-sba",
       "commit": "dabc273ef4c7c99ead5a4dbf0b7381fbc7793560",
       "visibility": "public",
       "archived": false,
@@ -761,7 +761,7 @@
     },
     {
       "id": "assoc/6419-deu-bankenverband",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-deu-bankenverband",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-deu-bankenverband",
       "commit": "9cef9647aafa572a598f2689f156557360905511",
       "visibility": "public",
       "archived": false,
@@ -790,7 +790,7 @@
     },
     {
       "id": "assoc/6419-esp-aeb",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-esp-aeb",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-esp-aeb",
       "commit": "f7ab3ae3976718f53708bf01d3bbd16b1312a9d0",
       "visibility": "public",
       "archived": false,
@@ -819,7 +819,7 @@
     },
     {
       "id": "assoc/6419-fra-fbf",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-fra-fbf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-fra-fbf",
       "commit": "e9de63de52c8653957f38a1edb9c7eb5809248f7",
       "visibility": "public",
       "archived": false,
@@ -848,7 +848,7 @@
     },
     {
       "id": "assoc/6419-jpn-zenginkyo",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-jpn-zenginkyo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-jpn-zenginkyo",
       "commit": "533c7abacb21362ae7d9e2f43c6267b1deddb987",
       "visibility": "public",
       "archived": false,
@@ -877,7 +877,7 @@
     },
     {
       "id": "assoc/6419-nga-cibn",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-nga-cibn",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-nga-cibn",
       "commit": "d61c6681db8ae368d2bd2ee3d9f930180d6658e1",
       "visibility": "public",
       "archived": false,
@@ -906,7 +906,7 @@
     },
     {
       "id": "assoc/6419-phl-bap",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-phl-bap",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-phl-bap",
       "commit": "3ad85c633e9c94e8bf8a9d1ed2d70334095b99c4",
       "visibility": "public",
       "archived": false,
@@ -935,7 +935,7 @@
     },
     {
       "id": "assoc/6419-tur-tbb",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-tur-tbb",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-tur-tbb",
       "commit": "d26728340e85779e8417de0f29e9216e98553715",
       "visibility": "public",
       "archived": false,
@@ -964,7 +964,7 @@
     },
     {
       "id": "assoc/6419-vnm-vnba",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6419-vnm-vnba",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6419-vnm-vnba",
       "commit": "d5c207a266d062b2359e60307e2e0e46ac28b59f",
       "visibility": "public",
       "archived": false,
@@ -993,7 +993,7 @@
     },
     {
       "id": "assoc/6492-eu-emf",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6492-eu-emf",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6492-eu-emf",
       "commit": "f8e0f574b84b51ad9c053c8a3085c77d99f033ea",
       "visibility": "public",
       "archived": false,
@@ -1022,7 +1022,7 @@
     },
     {
       "id": "assoc/6511-jpn-seiho",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6511-jpn-seiho",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6511-jpn-seiho",
       "commit": "16481a390af8f0efe225cf1d57cf64246844383e",
       "visibility": "public",
       "archived": false,
@@ -1051,7 +1051,7 @@
     },
     {
       "id": "assoc/6512-jpn-sonpo",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6512-jpn-sonpo",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6512-jpn-sonpo",
       "commit": "3f21d34de48cdb93d998f1f0992052b5a416367f",
       "visibility": "public",
       "archived": false,
@@ -1080,7 +1080,7 @@
     },
     {
       "id": "assoc/6512-usa-naic",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6512-usa-naic",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6512-usa-naic",
       "commit": "0ce6c52e9057180d1c41aecafba3da603ad2c130",
       "visibility": "public",
       "archived": false,
@@ -1109,7 +1109,7 @@
     },
     {
       "id": "assoc/6612-jpn-jsda",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6612-jpn-jsda",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6612-jpn-jsda",
       "commit": "60d245b6204d46f708e080548299480f85ee7cd0",
       "visibility": "public",
       "archived": false,
@@ -1138,7 +1138,7 @@
     },
     {
       "id": "assoc/6612-usa-finra",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6612-usa-finra",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6612-usa-finra",
       "commit": "4b40191533aae8d5df7572d4c4c83a407b970949",
       "visibility": "public",
       "archived": false,
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "assoc/6810-jpn-recaj",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6810-jpn-recaj",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6810-jpn-recaj",
       "commit": "8204335d8c35795fd0d36cab03a6127f910dbbd9",
       "visibility": "public",
       "archived": false,
@@ -1196,7 +1196,7 @@
     },
     {
       "id": "assoc/6910-jpn-nichibenren",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6910-jpn-nichibenren",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6910-jpn-nichibenren",
       "commit": "4adcbdba08d10190ec1a9354cc077b3245de4e8e",
       "visibility": "public",
       "archived": false,
@@ -1225,7 +1225,7 @@
     },
     {
       "id": "assoc/6920-jpn-jicpa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6920-jpn-jicpa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6920-jpn-jicpa",
       "commit": "7990d163fbf2ebc715b5912bebe30bd957e8cd6b",
       "visibility": "public",
       "archived": false,
@@ -1254,7 +1254,7 @@
     },
     {
       "id": "assoc/6920-usa-aicpa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-6920-usa-aicpa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-6920-usa-aicpa",
       "commit": "29052bb57fe7a6071f62272430324639d9962607",
       "visibility": "public",
       "archived": false,
@@ -1283,7 +1283,7 @@
     },
     {
       "id": "assoc/8621-usa-ama",
-      "repository": "cloud-itonami/cloud-itonami-assoc-8621-usa-ama",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-8621-usa-ama",
       "commit": "d5905fc2d34a38a3617059483556848620596bbc",
       "visibility": "public",
       "archived": false,
@@ -1312,7 +1312,7 @@
     },
     {
       "id": "assoc/9411-arg-uia",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-arg-uia",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-arg-uia",
       "commit": "3f227cee944bf39789ade8a3c5594d6339a83244",
       "visibility": "public",
       "archived": false,
@@ -1341,7 +1341,7 @@
     },
     {
       "id": "assoc/9411-aut-wko",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-aut-wko",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-aut-wko",
       "commit": "313f8bcd95565ffb7f0418ea1ed389a52df97a7e",
       "visibility": "public",
       "archived": false,
@@ -1370,7 +1370,7 @@
     },
     {
       "id": "assoc/9411-bel-feb",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-bel-feb",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-bel-feb",
       "commit": "02c6e152691fd7900ad76265d954df82d3b21bb3",
       "visibility": "public",
       "archived": false,
@@ -1399,7 +1399,7 @@
     },
     {
       "id": "assoc/9411-bra-cni",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-bra-cni",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-bra-cni",
       "commit": "a918e211d7cf75b24e57766c1804b5f74679ed87",
       "visibility": "public",
       "archived": false,
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "assoc/9411-can-chamber",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-can-chamber",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-can-chamber",
       "commit": "d48365256b990e1dbc5709041e2144cbd1bef125",
       "visibility": "public",
       "archived": false,
@@ -1457,7 +1457,7 @@
     },
     {
       "id": "assoc/9411-chl-sofofa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-chl-sofofa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-chl-sofofa",
       "commit": "62fe62fa6c87629d5e5e341ea139f40d0a024129",
       "visibility": "public",
       "archived": false,
@@ -1486,7 +1486,7 @@
     },
     {
       "id": "assoc/9411-col-andi",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-col-andi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-col-andi",
       "commit": "d4e5811a02b446208972b339c3eac04ce7071b65",
       "visibility": "public",
       "archived": false,
@@ -1515,7 +1515,7 @@
     },
     {
       "id": "assoc/9411-cri-uccaep",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-cri-uccaep",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-cri-uccaep",
       "commit": "ac6754c0a5361344f1716c11de9a1c7c40533e20",
       "visibility": "public",
       "archived": false,
@@ -1544,7 +1544,7 @@
     },
     {
       "id": "assoc/9411-cze-spcr",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-cze-spcr",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-cze-spcr",
       "commit": "7a62631ee2e4a0fd9afefee19e354003c157aa7f",
       "visibility": "public",
       "archived": false,
@@ -1573,7 +1573,7 @@
     },
     {
       "id": "assoc/9411-deu-bdi",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-deu-bdi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-deu-bdi",
       "commit": "1d70266ddaa75c087ff1a7af1be1385cb7c69e8f",
       "visibility": "public",
       "archived": false,
@@ -1602,7 +1602,7 @@
     },
     {
       "id": "assoc/9411-dnk-di",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-dnk-di",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-dnk-di",
       "commit": "191aa7be515a945f32052805d877fd5cba810a40",
       "visibility": "public",
       "archived": false,
@@ -1631,7 +1631,7 @@
     },
     {
       "id": "assoc/9411-ecu-cip",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-ecu-cip",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ecu-cip",
       "commit": "c1dfaba75e2e08a2e8778ac055f4fe3dc77afa47",
       "visibility": "public",
       "archived": false,
@@ -1660,7 +1660,7 @@
     },
     {
       "id": "assoc/9411-egy-fei",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-egy-fei",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-egy-fei",
       "commit": "971499222ec3ed8d0e45a3f86f34e32ab39f7162",
       "visibility": "public",
       "archived": false,
@@ -1689,7 +1689,7 @@
     },
     {
       "id": "assoc/9411-fin-ek",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-fin-ek",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-fin-ek",
       "commit": "e69912a5b248058e4811510a4e2489fd6b64688b",
       "visibility": "public",
       "archived": false,
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "assoc/9411-fra-medef",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-fra-medef",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-fra-medef",
       "commit": "3601379dda068722ea519346f4c9bfb7bd122021",
       "visibility": "public",
       "archived": false,
@@ -1747,7 +1747,7 @@
     },
     {
       "id": "assoc/9411-gbr-cbi",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-gbr-cbi",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-gbr-cbi",
       "commit": "f8db9b646ff86092daa0bd2643578d717fe5f7d0",
       "visibility": "public",
       "archived": false,
@@ -1776,7 +1776,7 @@
     },
     {
       "id": "assoc/9411-gtm-cacif",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-gtm-cacif",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-gtm-cacif",
       "commit": "8f1646fc0bfa3fd30b9150515c8f075947d9e4f0",
       "visibility": "public",
       "archived": false,
@@ -1805,7 +1805,7 @@
     },
     {
       "id": "assoc/9411-hnd-cohep",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-hnd-cohep",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-hnd-cohep",
       "commit": "be9f06a3eaa3dbc4b97f8eda0675c9afe62db46c",
       "visibility": "public",
       "archived": false,
@@ -1834,7 +1834,7 @@
     },
     {
       "id": "assoc/9411-ind-cii",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-ind-cii",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ind-cii",
       "commit": "00fe5a806898eb216ddf392d5bff62d2a6720821",
       "visibility": "public",
       "archived": false,
@@ -1863,7 +1863,7 @@
     },
     {
       "id": "assoc/9411-irl-ibec",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-irl-ibec",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-irl-ibec",
       "commit": "0be625ff90a03b613d88e819765b0926dd5a35f1",
       "visibility": "public",
       "archived": false,
@@ -1892,7 +1892,7 @@
     },
     {
       "id": "assoc/9411-ita-confindustria",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-ita-confindustria",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ita-confindustria",
       "commit": "86404b505fbbdde5db3c69da47de2a1bcf6ca568",
       "visibility": "public",
       "archived": false,
@@ -1921,7 +1921,7 @@
     },
     {
       "id": "assoc/9411-jpn-keidanren",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-jpn-keidanren",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-jpn-keidanren",
       "commit": "90ae1cc4b5f51d0a4a9bc5780f784b7c5c546c08",
       "visibility": "public",
       "archived": false,
@@ -1950,7 +1950,7 @@
     },
     {
       "id": "assoc/9411-ken-kam",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-ken-kam",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ken-kam",
       "commit": "15c03b7a8f5a8abf58db11385fd52274bd19367f",
       "visibility": "public",
       "archived": false,
@@ -1979,7 +1979,7 @@
     },
     {
       "id": "assoc/9411-kor-kcci",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-kor-kcci",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-kor-kcci",
       "commit": "0ae4ff8123aeb29553529a73afc0ca5b682cc825",
       "visibility": "public",
       "archived": false,
@@ -2008,7 +2008,7 @@
     },
     {
       "id": "assoc/9411-mex-coparmex",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-mex-coparmex",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-mex-coparmex",
       "commit": "b17a7668fff19ae452f75a7e982cbbfc00fc0a30",
       "visibility": "public",
       "archived": false,
@@ -2037,7 +2037,7 @@
     },
     {
       "id": "assoc/9411-nld-vnoncw",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-nld-vnoncw",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-nld-vnoncw",
       "commit": "667d98336ebdcb1af038d7db3aeda6070c0de910",
       "visibility": "public",
       "archived": false,
@@ -2066,7 +2066,7 @@
     },
     {
       "id": "assoc/9411-nzl-businessnz",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-nzl-businessnz",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-nzl-businessnz",
       "commit": "cff0d67de08843dfe3185f87ed2383baebf84319",
       "visibility": "public",
       "archived": false,
@@ -2095,7 +2095,7 @@
     },
     {
       "id": "assoc/9411-pan-conep",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-pan-conep",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pan-conep",
       "commit": "b53f28607892fe4a542e1f267bd91331aa3545b4",
       "visibility": "public",
       "archived": false,
@@ -2124,7 +2124,7 @@
     },
     {
       "id": "assoc/9411-pol-lewiatan",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-pol-lewiatan",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pol-lewiatan",
       "commit": "4e04457122de44cf4adef3fbd690c88cb9e60cfb",
       "visibility": "public",
       "archived": false,
@@ -2153,7 +2153,7 @@
     },
     {
       "id": "assoc/9411-prt-cip",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-prt-cip",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-prt-cip",
       "commit": "6dc263a3aa8f85f166b5394e5a83ccc98782f055",
       "visibility": "public",
       "archived": false,
@@ -2182,7 +2182,7 @@
     },
     {
       "id": "assoc/9411-pry-uip",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-pry-uip",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-pry-uip",
       "commit": "ea57dde3f4f230d67c4fe4a89476016cb2bef675",
       "visibility": "public",
       "archived": false,
@@ -2211,7 +2211,7 @@
     },
     {
       "id": "assoc/9411-sau-fsc",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-sau-fsc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-sau-fsc",
       "commit": "a35b55c0e7858aa0441020163f08872dc5c05b64",
       "visibility": "public",
       "archived": false,
@@ -2240,7 +2240,7 @@
     },
     {
       "id": "assoc/9411-swe-sn",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-swe-sn",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-swe-sn",
       "commit": "fbdb07135ce1d3f23dc0068e42ec0c29bdaf49e4",
       "visibility": "public",
       "archived": false,
@@ -2269,7 +2269,7 @@
     },
     {
       "id": "assoc/9411-tha-fti",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-tha-fti",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-tha-fti",
       "commit": "a2ada4184ee5e7acf569c52e688becb95245a772",
       "visibility": "public",
       "archived": false,
@@ -2298,7 +2298,7 @@
     },
     {
       "id": "assoc/9411-ury-ciu",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-ury-ciu",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-ury-ciu",
       "commit": "4d4a195b9e4295de5a5beca1d5821e06684bf4ec",
       "visibility": "public",
       "archived": false,
@@ -2327,7 +2327,7 @@
     },
     {
       "id": "assoc/9411-zaf-busa",
-      "repository": "cloud-itonami/cloud-itonami-assoc-9411-zaf-busa",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-assoc-9411-zaf-busa",
       "commit": "4afcf67f572bf3b798335107b4651069a361c349",
       "visibility": "public",
       "archived": false,

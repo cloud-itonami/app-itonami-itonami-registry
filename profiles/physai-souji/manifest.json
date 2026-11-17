@@ -4,16 +4,16 @@
   "id": "physai-souji",
   "name": "physai-souji",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-souji/tree/7b63444404e208f872429075a2942898cff474d0",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/tree/7b63444404e208f872429075a2942898cff474d0",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-souji",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-souji",
     "commit": "7b63444404e208f872429075a2942898cff474d0",
     "path": "hermes/profiles/physai-souji",
     "checksum": "sha256-tree:14cddfad321c370eae8bb89f87cc5a4abf6df67861ca3b6eed2564068bf35446",

@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "fleet-kaizen — 品質・安定性・性能の kaizen bot — 全 Hermes fleet (約 170 profile / 156 cron job) の**実測ログだけ**を材料に、",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/78afef28183c397f56c86cae18af9dda1c24ae62",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-bot-fleet",
+    "repository": "cloud-itonami/app-itonami-bot-fleet",
     "commit": "78afef28183c397f56c86cae18af9dda1c24ae62",
     "path": "hermes/profiles/fleet-kaizen",
     "checksum": "sha256-tree:fc2f01542ec3c5a41d3368f3191de532e036bc2df8f9d9e95f4c43d16be04428",

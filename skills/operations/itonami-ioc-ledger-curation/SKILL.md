@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/yabai-actor/tree/3b653cf863d3801d97b4620ed41a8e4084493442
+    source: https://github.com/cloud-itonami/app-itonami-yabai-actor/tree/3b653cf863d3801d97b4620ed41a8e4084493442
     compatibility:
       hermes: '*'
       desktop: '*'

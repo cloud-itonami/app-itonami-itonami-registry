@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 8 Plant and Machine Operators and Assemblers occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
+  "source": "https://github.com/cloud-itonami/app-itonami-isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isco",
+    "repository": "cloud-itonami/app-itonami-isco",
     "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-8",
     "checksum": "sha256-tree:91c01c6b3b36e1c045d228389a50247727ce9f8bb71579f74f7954fe548ad4e5",

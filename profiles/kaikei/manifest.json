@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kaikei accounting edge-surface resident bot (propose-only)",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/kaikei/tree/ecebb0de6260300575da8c5c314893623aef92be",
+  "source": "https://github.com/cloud-itonami/app-itonami-kaikei/tree/ecebb0de6260300575da8c5c314893623aef92be",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/kaikei",
+    "repository": "cloud-itonami/app-itonami-kaikei",
     "commit": "ecebb0de6260300575da8c5c314893623aef92be",
     "path": "hermes/profiles/kaikei",
     "checksum": "sha256-tree:008f91b43f37af820a3c35d556a401bc75b63aadd4789d0c89353e5707209ec9",

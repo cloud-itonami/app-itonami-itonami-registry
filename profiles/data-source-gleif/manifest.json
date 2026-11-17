@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "data-source / gleif-lei — itonami データソース事業 corpus bot. 対象 corpus: gleif-lei (com-junkawasaki/org-gleif-projections). 毎 tick、鮮度(HEAD)+datom 行数+ライセンス+x402 SKU readiness を read-only で測り 1 提案。x402 SKU 登録・ledger 書き込みはしない(propose のみ)。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/loop-data-source/tree/ef13432534c2ab374e7f27790abea812670b93c6",
+  "source": "https://github.com/cloud-itonami/app-itonami-loop-data-source/tree/ef13432534c2ab374e7f27790abea812670b93c6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/loop-data-source",
+    "repository": "cloud-itonami/app-itonami-loop-data-source",
     "commit": "ef13432534c2ab374e7f27790abea812670b93c6",
     "path": "hermes/profiles/data-source-gleif",
     "checksum": "sha256-tree:b96d8d2947a07dbb24bb03d58e519826f258d44f4b81edb4973b5ecfe5e264fb",

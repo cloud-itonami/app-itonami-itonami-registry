@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISIC major G Wholesale and retail trade occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
+  "source": "https://github.com/cloud-itonami/app-itonami-isic/tree/a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isic",
+    "repository": "cloud-itonami/app-itonami-isic",
     "commit": "a1a2ae0cd2f32a4312cbda8c70830026277d91a2",
     "path": "hermes/profiles/itonami-isic-g",
     "checksum": "sha256-tree:13893c5cdd377ac917959e522f46e3aa04f51d33107417c31ca192ffa94571c5",

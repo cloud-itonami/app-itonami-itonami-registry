@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/loop-data-source/tree/7468f6517514146ad10cb38e8cdc5131282b60b7
+    source: https://github.com/cloud-itonami/app-itonami-loop-data-source/tree/7468f6517514146ad10cb38e8cdc5131282b60b7
     compatibility:
       hermes: '*'
       desktop: '*'

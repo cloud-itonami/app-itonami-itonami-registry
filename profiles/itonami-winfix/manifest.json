@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami-winfix — Windows installer/launcher 起動障害の収集と修正 — itonami.cloud Windows版 (CloudItonami.exe + cloud-itonami-app.jar) の",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-app/tree/86870ddba5484e927c07f4b2ed358051bb9eae28",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/cloud-itonami-app",
+    "repository": "cloud-itonami/app-itonami-cloud-itonami-app",
     "commit": "86870ddba5484e927c07f4b2ed358051bb9eae28",
     "path": "hermes/profiles/itonami-winfix",
     "checksum": "sha256-tree:9c714b1982bdd44804a2106444fdea45744852a5f21e660cc82744fc5db33110",

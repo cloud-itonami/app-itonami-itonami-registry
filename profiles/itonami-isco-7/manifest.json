@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "itonami ISCO major 7 Craft and Related Trades Workers occupation bot",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
+  "source": "https://github.com/cloud-itonami/app-itonami-isco/tree/f440bde5dc311f03594ab5284cbf1b2edaf3210b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/isco",
+    "repository": "cloud-itonami/app-itonami-isco",
     "commit": "f440bde5dc311f03594ab5284cbf1b2edaf3210b",
     "path": "hermes/profiles/itonami-isco-7",
     "checksum": "sha256-tree:d7a1babc27a3b2d6eb74c70b08bef87a5d546f917ff7f280ece8f984ca1dffe8",

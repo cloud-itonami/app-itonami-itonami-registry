@@ -7,7 +7,7 @@
   "description": "Observe model capability changes against actual serving and modality receipts.",
   "author": "cloud-itonami",
   "license": "MIT",
-  "source": "https://github.com/cloud-itonami/ao-bot-fleet/tree/b6120bb7214ac92b14e81c865c34048b14e5f762",
+  "source": "https://github.com/cloud-itonami/app-itonami-bot-fleet/tree/b6120bb7214ac92b14e81c865c34048b14e5f762",
   "compatibility": {
     "hermes": "*",
     "desktop": "*"

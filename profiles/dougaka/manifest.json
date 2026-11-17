@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "dougaka: video creation bot. Produces original works, including VR-free rhythm fitness workouts, and publishes through the governed aozora.app path for ATProto distribution.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/dougaka-actor/tree/51ed1d2e1c8b41dd42f67370294403deb0bcef4f",
+  "source": "https://github.com/cloud-itonami/app-itonami-dougaka-actor/tree/51ed1d2e1c8b41dd42f67370294403deb0bcef4f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/dougaka-actor",
+    "repository": "cloud-itonami/app-itonami-dougaka-actor",
     "commit": "51ed1d2e1c8b41dd42f67370294403deb0bcef4f",
     "path": "hermes/profiles/dougaka",
     "checksum": "sha256-tree:8d6d3c8334348605aeb57138ecf0014312a4cb0e8390597321d13f487dc72559",

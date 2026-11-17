@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "yata-contrib-gate: measures the member-contribution path (submit - sign - governor - commit) for the yataverse/kenchi membrane; reports one gap per tick.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
+  "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/kenchi",
+    "repository": "cloud-itonami/app-itonami-kenchi",
     "commit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
     "path": "hermes/profiles/yata-contrib-gate",
     "checksum": "sha256-tree:578a2ee55db593a42f0a6defcbbac5eaa04cdc91d71913908f24fcd904f606d4",

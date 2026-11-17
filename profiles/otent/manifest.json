@@ -4,16 +4,16 @@
   "id": "otent",
   "name": "otent",
   "version": "0.1.0",
-  "description": "otent: geospatial ingest/vision bot. Runs cloud-itonami/otent feeds (satellites, quakes, aircraft, fires, vessels) into R2 Iceberg and feeds app-otent globe + hyakka claims.",
+  "description": "otent: geospatial ingest/vision bot. Runs cloud-itonami/app-itonami-otent feeds (satellites, quakes, aircraft, fires, vessels) into R2 Iceberg and feeds app-otent globe + hyakka claims.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/otent/tree/7120cc59820b7e032a6a1f70e320d4b5e0905006",
+  "source": "https://github.com/cloud-itonami/app-itonami-otent/tree/7120cc59820b7e032a6a1f70e320d4b5e0905006",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/otent",
+    "repository": "cloud-itonami/app-itonami-otent",
     "commit": "7120cc59820b7e032a6a1f70e320d4b5e0905006",
     "path": "hermes/profiles/otent",
     "checksum": "sha256-tree:bdc251e8eed6acbeb511fcab2c22deb32ebb6cd98b30e99d3e7fa315c024dcb6",

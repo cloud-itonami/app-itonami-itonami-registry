@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/hakobi/tree/eeabdc229388013be4af79f5a0c8964f85ad645b",
+  "source": "https://github.com/cloud-itonami/app-itonami-hakobi/tree/eeabdc229388013be4af79f5a0c8964f85ad645b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/hakobi",
+    "repository": "cloud-itonami/app-itonami-hakobi",
     "commit": "eeabdc229388013be4af79f5a0c8964f85ad645b",
     "path": "hermes/profiles/hakobi",
     "checksum": "sha256-tree:a8706841fe69dd79cd7ad6d6bf16f831f13898e72d1e1a3da4ed16464837afff",

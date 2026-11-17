@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Self-hosted DNS & Content-Addressed Web mesh operator for amano app-chain.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/ao-amano-dns/tree/a651100732f86db8d78a7102ac198bb17d0b74d4",
+  "source": "https://github.com/cloud-itonami/app-itonami-amano-dns/tree/a651100732f86db8d78a7102ac198bb17d0b74d4",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/ao-amano-dns",
+    "repository": "cloud-itonami/app-itonami-amano-dns",
     "commit": "a651100732f86db8d78a7102ac198bb17d0b74d4",
     "path": "hermes/profiles/chain-amano-dns",
     "checksum": "sha256-tree:53dc543a6521ed64c3e4868c8191acd147224d065377ef9fe4d1a894c8fd3a96",

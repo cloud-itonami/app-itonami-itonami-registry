@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "murakumo.cloud ad network surface driver: measure the first-party ad network (adnet auction, /advertise intake, ads MCP, ad-funded free lane, x402 SDK) and propose one bounded improvement per tick. propose-only.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+  "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/adserver",
+    "repository": "cloud-itonami/app-itonami-adserver",
     "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
     "path": "hermes/profiles/murakumo-adnetwork",
     "checksum": "sha256-tree:1418e65346a2cd8c61f7e68ecb281ece81c3ad3ed21b52689acf1d66ec72610d",

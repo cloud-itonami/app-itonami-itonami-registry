@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "data-source — itonami データソース事業 bot: 公開ライセンス corpus (market-intel SEC / GLEIF LEI 等) を収集・正規化し datom plane / lake へ同期し、kotobase.net の x402 販売 SKU 候補を提案する（1 tick = 1 corpus の鮮度・ライセンス・x402 整合を測り 1 提案）。maritime: 収集→同期→提案のみ。",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/loop-data-source/tree/ef13432534c2ab374e7f27790abea812670b93c6",
+  "source": "https://github.com/cloud-itonami/app-itonami-loop-data-source/tree/ef13432534c2ab374e7f27790abea812670b93c6",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/loop-data-source",
+    "repository": "cloud-itonami/app-itonami-loop-data-source",
     "commit": "ef13432534c2ab374e7f27790abea812670b93c6",
     "path": "hermes/profiles/data-source",
     "checksum": "sha256-tree:843b395f90babbaaefe40decaacaba7909d90531ddb39c5515d9f166fac97de2",
