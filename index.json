@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T13:12:29.329282Z",
+  "generated": "2026-11-17T14:45:27.127820Z",
   "count": 2023,
   "entries": [
     {
@@ -37460,7 +37460,7 @@
       "description": "Look up what the Itonami archive knows about a company by its LEI or name, covering verified public-registry facts, the company profile and the text of its published Terms of Use. Use when a user asks about one of these companies or their terms.",
       "category": "knowledge",
       "path": "skills/knowledge/corporate-entity-knowledge",
-      "checksum": "sha256:31caf9f6dee19e590e25e3f52fc13a8e94e2dcaf61e70e5e67dc80fb85a0bae7"
+      "checksum": "sha256:0161b578c043967f454a1f70c8e91cfa1b436032cb5726000e562137b2863253"
     },
     {
       "version": "0.1.0",
