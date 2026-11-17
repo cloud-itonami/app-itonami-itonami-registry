@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.actor-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 232,
+  "count": 231,
   "entries": [
     {
       "id": "actor/aburi",
@@ -1134,25 +1134,6 @@
         }
       ],
       "digestStatus": "verified",
-      "status": "repository-owned",
-      "authority": {
-        "grants": false,
-        "default": "blocked"
-      }
-    },
-    {
-      "id": "actor/distill",
-      "repository": "cloud-itonami/app-itonami-distill",
-      "commit": "b09cd6ce2fc583ca1a7c082c8723a39804306c5a",
-      "visibility": "public",
-      "archived": false,
-      "license": "Apache-2.0",
-      "kind": "actor",
-      "keys": {
-        "actor": "distill"
-      },
-      "payload": [],
-      "digestStatus": "unverified",
       "status": "repository-owned",
       "authority": {
         "grants": false,
