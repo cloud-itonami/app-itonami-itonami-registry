@@ -1,0 +1,7 @@
+{:company/legal-name "Simon Property Group, Inc."
+ :company/lei "529900GQL5X8H7AO3T64"
+ :company/jurisdiction "US-IN"
+ :company/website "https://www.simon.com"
+ :company/ticker "SPG (NYSE)"
+ :company/phone "+1-317-636-1600"
+ :company/profile-note "published on the company's own site (https://www.simon.com/), retrieved 2026-08-25T05:30:06.921Z by scripts/lei-profile-enrich.cljs (GET only)"}

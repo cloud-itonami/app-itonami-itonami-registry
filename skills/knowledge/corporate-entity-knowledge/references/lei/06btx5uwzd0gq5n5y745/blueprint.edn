@@ -1,0 +1,9 @@
+{:company/lei "06BTX5UWZD0GQ5N5Y745"
+ :company/profile-note "published on the company's own site (https://www.wabteccorp.com/), retrieved 2026-08-04T06:26:26.570Z by scripts/lei-profile-enrich.cljs (GET only)"
+ :company/phone "+14128251000"
+ :company/jurisdiction "US-DE"
+ :company/postal-address "30 Isabella Street, Pittsburgh, PA, 15212, USA"
+ :company/ticker "WAB (NYSE)"
+ :itonami.blueprint/maturity :implemented
+ :company/legal-name "Westinghouse Air Brake Technologies Corporation"
+ :company/website "https://www.wabteccorp.com"}

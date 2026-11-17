@@ -1,0 +1,9 @@
+{:company/lei "549300XTO5VR8SKV1V74"
+ :company/jurisdiction "US-TX"
+ :company/ticker "NYSE:VLO"
+ :itonami.blueprint/maturity :implemented
+ :itonami.blueprint/robotics false
+ :company/legal-name "Valero Energy Corporation"
+ :company/website "https://www.valero.com"
+ :required-technologies [:identity :audit-ledger]
+ :company/inquiry-form-url "https://www.valero.com/contact-us"}

@@ -1,0 +1,2409 @@
+{
+ "count": 185,
+ "entities": [
+  {
+   "lei": "06BTX5UWZD0GQ5N5Y745",
+   "name": "Westinghouse Air Brake Technologies Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.wabteccorp.com",
+   "ticker": "WAB (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/06btx5uwzd0gq5n5y745"
+  },
+  {
+   "lei": "0EEB8GF0W0NPCIHZX097",
+   "name": "AECOM",
+   "jurisdiction": "United States",
+   "website": "https://www.aecom.com",
+   "ticker": "ACM",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/0eeb8gf0w0npcihzx097"
+  },
+  {
+   "lei": "1B4S6S7G0TW5EE83BO58",
+   "name": "American Electric Power Company, Inc.",
+   "jurisdiction": "US-OH",
+   "website": "https://www.aep.com",
+   "ticker": "AEP (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/1b4s6s7g0tw5ee83bo58"
+  },
+  {
+   "lei": "2138003319Y7NM75FG53",
+   "name": "Galp Energia, SGPS, S.A.",
+   "jurisdiction": "PT",
+   "website": "https://www.galp.com/es/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2138003319y7nm75fg53"
+  },
+  {
+   "lei": "2138004JBXWWJKIURC57",
+   "name": "Pearson plc",
+   "jurisdiction": "GB",
+   "website": "https://www.pearson.com",
+   "ticker": "PSON (LSE) / PSO (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2138004jbxwwjkiurc57"
+  },
+  {
+   "lei": "2138004KW8BV57III342",
+   "name": "Publicis Groupe SA",
+   "jurisdiction": "FR",
+   "website": "https://www.publicisgroupe.com",
+   "ticker": "PUB (Euronext Paris)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2138004kw8bv57iii342"
+  },
+  {
+   "lei": "2138009TF1SYOMQLBJ60",
+   "name": "The Go-Ahead Group Limited",
+   "jurisdiction": "GB",
+   "website": "https://www.go-ahead.com",
+   "ticker": "unlisted (delisted from LSE Oct 2022; acquired by Kinetic Group 51% / Globalvia 49%)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2138009tf1syomqlbj60"
+  },
+  {
+   "lei": "213800F5XJIMCMJLLQ70",
+   "name": "Copperbelt Energy Corporation Plc",
+   "jurisdiction": "ZM",
+   "website": "https://www.cec.com.zm",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/213800f5xjimcmjllq70"
+  },
+  {
+   "lei": "213800JJ6CRPCWCQVZ25",
+   "name": "Endava plc",
+   "jurisdiction": "GB",
+   "website": "https://www.endava.com",
+   "ticker": "DAVA (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/213800jj6crpcwcqvz25"
+  },
+  {
+   "lei": "213800MZGBGCJIPOBB41",
+   "name": "YouGov plc",
+   "jurisdiction": "GB",
+   "website": "https://yougov.com",
+   "ticker": "YOU (LSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/213800mzgbgcjipobb41"
+  },
+  {
+   "lei": "213800NI74QTT3F18469",
+   "name": "SONATRACH",
+   "jurisdiction": "DZ",
+   "website": "https://www.sonatrach.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/213800ni74qtt3f18469"
+  },
+  {
+   "lei": "213800WJ8ELJ2XWXAG57",
+   "name": "Childbase Partnership Limited",
+   "jurisdiction": "GB",
+   "website": "https://www.childbasepartnership.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/213800wj8elj2xwxag57"
+  },
+  {
+   "lei": "2549003PWMAF5SDUL432",
+   "name": "ETHIO TELECOM",
+   "jurisdiction": "ET",
+   "website": "https://www.ethiotelecom.et",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2549003pwmaf5sdul432"
+  },
+  {
+   "lei": "2549004RMYDSRQL4KW41",
+   "name": "Trip.com Group Limited",
+   "jurisdiction": "KY (Cayman Islands)",
+   "website": "https://www.trip.com",
+   "ticker": "TCOM (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2549004rmydsrql4kw41"
+  },
+  {
+   "lei": "2549005O5PVA2JCH6Q33",
+   "name": "ComfortDelGro Corporation Limited",
+   "jurisdiction": "SG",
+   "website": "https://www.comfortdelgro.com",
+   "ticker": "CD (SGX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2549005o5pva2jch6q33"
+  },
+  {
+   "lei": "2549009BKSVTM7UEYT38",
+   "name": "Bright Horizons Family Solutions Inc.",
+   "jurisdiction": "US-MA",
+   "website": "https://www.brighthorizons.com",
+   "ticker": "BFAM (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2549009bksvtm7ueyt38"
+  },
+  {
+   "lei": "2549009GW3Z3DQCB8H87",
+   "name": "Expedia Group, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.expediagroup.com",
+   "ticker": "EXPE (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2549009gw3z3dqcb8h87"
+  },
+  {
+   "lei": "254900ADE8GQHM5P2648",
+   "name": "PLDT Inc.",
+   "jurisdiction": "PH",
+   "website": "https://pldthome.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900ade8gqhm5p2648"
+  },
+  {
+   "lei": "254900E3KHXCC2C8K272",
+   "name": "Jacobs Solutions Inc.",
+   "jurisdiction": "United States",
+   "website": "https://www.jacobs.com",
+   "ticker": "J",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900e3khxcc2c8k272"
+  },
+  {
+   "lei": "254900EM62Y5RRTJ9771",
+   "name": "SBS Transit Ltd",
+   "jurisdiction": "SG",
+   "website": "https://www.sbstransit.com.sg",
+   "ticker": "SBTL (SGX); 75%-owned by ComfortDelGro Corporation Limited",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900em62y5rrtj9771"
+  },
+  {
+   "lei": "254900GLQZAD4N7N5Q19",
+   "name": "Public Storage",
+   "jurisdiction": "US-MD",
+   "website": "https://www.publicstorage.com",
+   "ticker": "PSA (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900glqzad4n7n5q19"
+  },
+  {
+   "lei": "254900RHL9MEUS5NKX63",
+   "name": "NextEra Energy, Inc.",
+   "jurisdiction": "US-FL",
+   "website": "https://www.nexteraenergy.com",
+   "ticker": "NEE (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900rhl9meus5nkx63"
+  },
+  {
+   "lei": "254900UG5D8YST164N14",
+   "name": "Xero Limited",
+   "jurisdiction": "New Zealand",
+   "website": "https://www.xero.com",
+   "ticker": "XRO",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900ug5d8yst164n14"
+  },
+  {
+   "lei": "254900W703PXLDSEM056",
+   "name": "Companhia Energética de Minas Gerais - CEMIG",
+   "jurisdiction": "BR",
+   "website": "https://www.cemig.com.br",
+   "ticker": "CMIG3 / CMIG4 (B3) / CIG (NYSE ADR)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900w703pxldsem056"
+  },
+  {
+   "lei": "254900YB8UATFP21AF80",
+   "name": "SM INVESTMENTS CORPORATION",
+   "jurisdiction": "PH",
+   "website": "https://www.sminvestments.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/254900yb8uatfp21af80"
+  },
+  {
+   "lei": "2572IBTT8CCZW6AU4141",
+   "name": "The Procter & Gamble Company",
+   "jurisdiction": "US-OH",
+   "website": "https://us.pg.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2572ibtt8cczw6au4141"
+  },
+  {
+   "lei": "259400VVMM70CQREJT74",
+   "name": "ORLEN SPÓŁKA AKCYJNA",
+   "jurisdiction": "PL",
+   "website": "https://www.orlen.pl/pl",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/259400vvmm70cqrejt74"
+  },
+  {
+   "lei": "2S72QS2UO2OESLG6Y829",
+   "name": "Verizon Communications Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.verizon.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2s72qs2uo2oeslg6y829"
+  },
+  {
+   "lei": "2T3D6M0JSY48PSZI1Q41",
+   "name": "ONEOK, Inc.",
+   "jurisdiction": "US-OK",
+   "website": "https://www.oneok.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/2t3d6m0jsy48pszi1q41"
+  },
+  {
+   "lei": "335800ZQ6I4E2JXENC50",
+   "name": "HDFC BANK LIMITED",
+   "jurisdiction": "IN",
+   "website": "https://www.hdfc.bank.in/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/335800zq6i4e2jxenc50"
+  },
+  {
+   "lei": "353800678EIJLOQSWZ83",
+   "name": "東京瓦斯株式会社",
+   "jurisdiction": "JP",
+   "website": "https://www.tokyo-gas.co.jp",
+   "ticker": "9531 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/353800678eijloqswz83"
+  },
+  {
+   "lei": "353800R2LRSMVVC4I806",
+   "name": "Recruit Holdings Co., Ltd.",
+   "jurisdiction": "JP",
+   "website": "https://recruit-holdings.com",
+   "ticker": "6098 (TSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/353800r2lrsmvvc4i806"
+  },
+  {
+   "lei": "353800TJ98PCAZROVE69",
+   "name": "Mitsubishi Heavy Industries, Ltd.",
+   "jurisdiction": "JP",
+   "website": "https://www.mhi.com",
+   "ticker": "7011 (TSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/353800tj98pcazrove69"
+  },
+  {
+   "lei": "353800VHQU5VIXVUA841",
+   "name": "ＮＴＴ株式会社",
+   "jurisdiction": "JP",
+   "website": "https://group.ntt",
+   "ticker": "9432 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/353800vhqu5vixvua841"
+  },
+  {
+   "lei": "3789001900ED06F65111",
+   "name": "Eskom Holdings SOC Ltd",
+   "jurisdiction": "ZA",
+   "website": "https://www.eskom.co.za",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/3789001900ed06f65111"
+  },
+  {
+   "lei": "3SOUA6IRML7435B56G12",
+   "name": "Exelon Corporation",
+   "jurisdiction": "US-PA",
+   "website": "https://www.exeloncorp.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/3soua6irml7435b56g12"
+  },
+  {
+   "lei": "3SU7BEP7TH9YEQOZCS77",
+   "name": "Canadian National Railway Company",
+   "jurisdiction": "CA",
+   "website": "https://www.cn.ca",
+   "ticker": "CNI (NYSE) / CNR (TSX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/3su7bep7th9yeqozcs77"
+  },
+  {
+   "lei": "4NT01YGM4X7ZX86ISY52",
+   "name": "EQT Corporation",
+   "jurisdiction": "US-PA",
+   "website": "https://www.eqt.com",
+   "ticker": "NYSE:EQT",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/4nt01ygm4x7zx86isy52"
+  },
+  {
+   "lei": "4YV9Y5M8S0BRK1RP0397",
+   "name": "Merck & Co., Inc.",
+   "jurisdiction": "US-NJ",
+   "website": "https://www.merck.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/4yv9y5m8s0brk1rp0397"
+  },
+  {
+   "lei": "5299001RBS9GK9STN379",
+   "name": "Amedisys, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.amedisys.com",
+   "ticker": "AMED (NASDAQ, pending Optum acquisition)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5299001rbs9gk9stn379"
+  },
+  {
+   "lei": "5299003FU7V4I45FU310",
+   "name": "KDDI株式会社",
+   "jurisdiction": "JP",
+   "website": "https://www.kddi.com",
+   "ticker": "9433 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5299003fu7v4i45fu310"
+  },
+  {
+   "lei": "5299004EMJ3R4RVR5Y75",
+   "name": "東京電力ホールディングス株式会社",
+   "jurisdiction": "JP",
+   "website": "https://www.tepco.co.jp",
+   "ticker": "9501 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5299004emj3r4rvr5y75"
+  },
+  {
+   "lei": "52990063S23N13HU4E98",
+   "name": "Deutsche Bahn AG",
+   "jurisdiction": "DE",
+   "website": "https://www.bahn.de",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/52990063s23n13hu4e98"
+  },
+  {
+   "lei": "52990083ZRR5UT591988",
+   "name": "Nexstar Media Group, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.nexstar.tv",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/52990083zrr5ut591988"
+  },
+  {
+   "lei": "5299008FNTQ0LDQ3UZ44",
+   "name": "G8 Education Limited",
+   "jurisdiction": "AU",
+   "website": "https://www.g8education.edu.au",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5299008fntq0ldq3uz44"
+  },
+  {
+   "lei": "52990090ZT33AKPDBX62",
+   "name": "Addus HomeCare Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.addus.com",
+   "ticker": "ADUS (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/52990090zt33akpdbx62"
+  },
+  {
+   "lei": "529900A76GOP0PGNHT63",
+   "name": "中部電力株式会社",
+   "jurisdiction": "JP",
+   "website": "https://www.chuden.co.jp",
+   "ticker": "9502 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900a76gop0pgnht63"
+  },
+  {
+   "lei": "529900AS2CYWYFHRS781",
+   "name": "Six Flags Entertainment Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.sixflags.com",
+   "ticker": "FUN (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900as2cywyfhrs781"
+  },
+  {
+   "lei": "529900E95812SYWMCE44",
+   "name": "Avis Budget Group, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.avisbudgetgroup.com",
+   "ticker": "CAR (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900e95812sywmce44"
+  },
+  {
+   "lei": "529900FHO4DYRMCNSV67",
+   "name": "Flix SE",
+   "jurisdiction": "DE",
+   "website": "https://www.flixbus.com",
+   "ticker": "unlisted (private)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900fho4dyrmcnsv67"
+  },
+  {
+   "lei": "529900GQL5X8H7AO3T64",
+   "name": "Simon Property Group, Inc.",
+   "jurisdiction": "US-IN",
+   "website": "https://www.simon.com",
+   "ticker": "SPG (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900gql5x8h7ao3t64"
+  },
+  {
+   "lei": "529900GWGZPE83MJOV59",
+   "name": "Manchester United plc",
+   "jurisdiction": "KY",
+   "website": "https://www.manutd.com",
+   "ticker": "MANU (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900gwgzpe83mjov59"
+  },
+  {
+   "lei": "529900JPV47PIUWMA015",
+   "name": "Booz Allen Hamilton Holding Corporation",
+   "jurisdiction": "United States",
+   "website": "https://www.boozallen.com",
+   "ticker": "BAH",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900jpv47piuwma015"
+  },
+  {
+   "lei": "529900MUF4C20K50JS49",
+   "name": "Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München",
+   "jurisdiction": "DE",
+   "website": "https://www.munichre.com",
+   "ticker": "MUV2",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900muf4c20k50js49"
+  },
+  {
+   "lei": "529900O5RR7R39FRDM42",
+   "name": "H & M Hennes & Mauritz AB",
+   "jurisdiction": "SE",
+   "website": "https://hmgroup.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900o5rr7r39frdm42"
+  },
+  {
+   "lei": "529900PH4ZGUH2MNEU89",
+   "name": "HCA Healthcare, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://hcahealthcare.com",
+   "ticker": "HCA (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900ph4zguh2mneu89"
+  },
+  {
+   "lei": "529900PM64WH8AF1E917",
+   "name": "BASF SE",
+   "jurisdiction": "DE",
+   "website": "https://www.basf.com",
+   "ticker": "BAS (XETRA)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900pm64wh8af1e917"
+  },
+  {
+   "lei": "529900QBVWXMWANH7H45",
+   "name": "Siemens Healthineers AG",
+   "jurisdiction": "DE",
+   "website": "https://www.siemens-healthineers.com",
+   "ticker": "SHL (XETRA)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900qbvwxmwanh7h45"
+  },
+  {
+   "lei": "529900S21EQ1BO4ESM68",
+   "name": "TotalEnergies SE",
+   "jurisdiction": "FR",
+   "website": "https://totalenergies.com",
+   "ticker": "TTE (NYSE/Euronext Paris)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900s21eq1bo4esm68"
+  },
+  {
+   "lei": "529900VBK42Y5HHRMD23",
+   "name": "BlackRock, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.blackrock.com",
+   "ticker": "BLK (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900vbk42y5hhrmd23"
+  },
+  {
+   "lei": "529900WQB1ZU9KB6EL71",
+   "name": "Compañia de Minas Buenaventura S.A.A.",
+   "jurisdiction": "PE",
+   "website": "https://buenaventura.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900wqb1zu9kb6el71"
+  },
+  {
+   "lei": "529900XO0YTOOKCLQB44",
+   "name": "Borussia Dortmund GmbH & Co. Kommanditgesellschaft auf Aktien",
+   "jurisdiction": "DE",
+   "website": "https://www.bvb.de",
+   "ticker": "BVB (FRA)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/529900xo0ytookclqb44"
+  },
+  {
+   "lei": "5493000C01ZX7D35SD85",
+   "name": "Berkshire Hathaway Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.berkshirehathaway.com",
+   "ticker": "BRK.A / BRK.B (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493000c01zx7d35sd85"
+  },
+  {
+   "lei": "5493000F4ZO33MV32P92",
+   "name": "Intercontinental Exchange, Inc.",
+   "jurisdiction": "US",
+   "website": "https://www.ice.com",
+   "ticker": "ICE (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493000f4zo33mv32p92"
+  },
+  {
+   "lei": "5493000SJVZVZJKHJF48",
+   "name": "Clean Harbors, Inc.",
+   "jurisdiction": "US-MA",
+   "website": "https://www.cleanharbors.com",
+   "ticker": "CLH (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493000sjvzvzjkhjf48"
+  },
+  {
+   "lei": "5493001D9VBAVY1OKJ46",
+   "name": "Cumulus Media New Holdings Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.cumulusmedia.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493001d9vbavy1okj46"
+  },
+  {
+   "lei": "5493001EZOOA66PTBR68",
+   "name": "Atos Group",
+   "jurisdiction": "FR",
+   "website": "https://atos.net",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493001ezooa66ptbr68"
+  },
+  {
+   "lei": "5493003BZYYYCDIO0R13",
+   "name": "ソフトバンクグループ株式会社",
+   "jurisdiction": "JP",
+   "website": "https://www.softbankgroup.com",
+   "ticker": "9984 (TSE Prime)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493003bzyyycdio0r13"
+  },
+  {
+   "lei": "5493003UOETFYRONLG31",
+   "name": "RELIANCE INDUSTRIES LIMITED",
+   "jurisdiction": "IN",
+   "website": "https://www.ril.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493003uoetfyronlg31"
+  },
+  {
+   "lei": "5493004DT6DCDUZNDM53",
+   "name": "Interactive Brokers Group, Inc.",
+   "jurisdiction": "US-CT",
+   "website": "https://www.interactivebrokers.com",
+   "ticker": "IBKR (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493004dt6dcduzndm53"
+  },
+  {
+   "lei": "5493005JBO5YSIGK1814",
+   "name": "Phillips 66",
+   "jurisdiction": "US-DE",
+   "website": "https://www.phillips66.com",
+   "ticker": "NYSE:PSX",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493005jbo5ysigk1814"
+  },
+  {
+   "lei": "5493006QMFDDMYWIAM13",
+   "name": "BANCO SANTANDER S.A.",
+   "jurisdiction": "ES",
+   "website": "https://www.santander.com/en/home",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493006qmfddmywiam13"
+  },
+  {
+   "lei": "54930076J6KDZL504O62",
+   "name": "iHeartCommunications, Inc.",
+   "jurisdiction": "US-TX",
+   "website": "https://www.iheart.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/54930076j6kdzl504o62"
+  },
+  {
+   "lei": "5493008H3828EMEXB082",
+   "name": "ANHEUSER-BUSCH INBEV",
+   "jurisdiction": "BE",
+   "website": "https://www.ab-inbev.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5493008h3828emexb082"
+  },
+  {
+   "lei": "549300B2FTG34FILDR98",
+   "name": "Uber Technologies, Inc.",
+   "jurisdiction": "US",
+   "website": "https://www.uber.com",
+   "ticker": "UBER (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300b2ftg34fildr98"
+  },
+  {
+   "lei": "549300BTNS7MHSHRLR55",
+   "name": "Par Pacific Holdings, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.parpacific.com",
+   "ticker": "NYSE:PARR",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300btns7mhshrlr55"
+  },
+  {
+   "lei": "549300DDU6FDRBIELS05",
+   "name": "Fox Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.fox.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ddu6fdrbiels05"
+  },
+  {
+   "lei": "549300DE8ZAIYS2T6Q22",
+   "name": "Teekay Tankers Ltd.",
+   "jurisdiction": "BM",
+   "website": "https://www.teekay.com",
+   "ticker": "TNK (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300de8zaiys2t6q22"
+  },
+  {
+   "lei": "549300DEJZCPWA4HKM93",
+   "name": "FirstGroup plc",
+   "jurisdiction": "GB",
+   "website": "https://www.firstgroupplc.com",
+   "ticker": "FGP (LSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300dejzcpwa4hkm93"
+  },
+  {
+   "lei": "549300DOVZ3EDJB7O259",
+   "name": "DXC Technology Company",
+   "jurisdiction": "US-NV",
+   "website": "https://dxc.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300dovz3edjb7o259"
+  },
+  {
+   "lei": "549300DYP6F5ZJL0LB74",
+   "name": "Hologic, Inc.",
+   "jurisdiction": "US-MA",
+   "website": "https://www.hologic.com",
+   "ticker": "HOLX (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300dyp6f5zjl0lb74"
+  },
+  {
+   "lei": "549300EEJH4FEPDBBR25",
+   "name": "TELEFONICA SA",
+   "jurisdiction": "ES",
+   "website": "https://www.telefonica.com/es/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300eejh4fepdbbr25"
+  },
+  {
+   "lei": "549300EJG376EN5NQE29",
+   "name": "CVS Health Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.cvshealth.com",
+   "ticker": "CVS (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ejg376en5nqe29"
+  },
+  {
+   "lei": "549300FC3G3YU2FBZD92",
+   "name": "The Southern Company",
+   "jurisdiction": "US-GA",
+   "website": "https://www.southerncompany.com",
+   "ticker": "SO (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300fc3g3yu2fbzd92"
+  },
+  {
+   "lei": "549300FV8X6UID6I1413",
+   "name": "Tenaga Nasional Berhad",
+   "jurisdiction": "MY",
+   "website": "https://www.tnb.com.my",
+   "ticker": "5347 (Bursa Malaysia)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300fv8x6uid6i1413"
+  },
+  {
+   "lei": "549300G8ZPNQ5DNI6A45",
+   "name": "Grab Holdings Inc.",
+   "jurisdiction": "KY",
+   "website": "https://www.grab.com",
+   "ticker": "GRAB (Nasdaq); HQ operations Singapore",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300g8zpnq5dni6a45"
+  },
+  {
+   "lei": "549300GHBMY8T5GXDE41",
+   "name": "UnitedHealth Group Incorporated",
+   "jurisdiction": "US-DE",
+   "website": "https://www.unitedhealthgroup.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ghbmy8t5gxde41"
+  },
+  {
+   "lei": "549300GZKULIZ0WOW665",
+   "name": "The Walt Disney Company",
+   "jurisdiction": "US-DE",
+   "website": "https://thewaltdisneycompany.com",
+   "ticker": "DIS (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300gzkuliz0wow665"
+  },
+  {
+   "lei": "549300H7I5VN334XVZ52",
+   "name": "Lyft, Inc.",
+   "jurisdiction": "US",
+   "website": "https://www.lyft.com",
+   "ticker": "LYFT (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300h7i5vn334xvz52"
+  },
+  {
+   "lei": "549300HDLRTPBQU69P29",
+   "name": "Waste Connections, Inc.",
+   "jurisdiction": "CA-ON",
+   "website": "https://www.wasteconnections.com",
+   "ticker": "WCN (NYSE/TSX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300hdlrtpbqu69p29"
+  },
+  {
+   "lei": "549300HQV672RJ7RQV66",
+   "name": "Amdocs Limited",
+   "jurisdiction": "GG",
+   "website": "https://www.amdocs.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300hqv672rj7rqv66"
+  },
+  {
+   "lei": "549300I2PVFBC9MFAC61",
+   "name": "Teladoc Health, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.teladochealth.com",
+   "ticker": "TDOC (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300i2pvfbc9mfac61"
+  },
+  {
+   "lei": "549300IGLYTZUK3PVP70",
+   "name": "WEC Energy Group, Inc.",
+   "jurisdiction": "US-WI",
+   "website": "https://www.wecenergygroup.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300iglytzuk3pvp70"
+  },
+  {
+   "lei": "549300IHYHCQP2PIR591",
+   "name": "GATX Corporation",
+   "jurisdiction": "US-NY",
+   "website": "https://www.gatx.com",
+   "ticker": "GATX (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ihyhcqp2pir591"
+  },
+  {
+   "lei": "549300J0DYC0N31V7G13",
+   "name": "Workday, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.workday.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300j0dyc0n31v7g13"
+  },
+  {
+   "lei": "549300J6ZJW5IH4WEE46",
+   "name": "RICHTER GEDEON VEGYÉSZETI GYÁR NYILVÁNOSAN MŰKÖDŐ RT.",
+   "jurisdiction": "HU",
+   "website": "https://www.gedeonrichter.com/en",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300j6zjw5ih4wee46"
+  },
+  {
+   "lei": "549300JZ4OKEHW3DPJ59",
+   "name": "Visa Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.visa.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300jz4okehw3dpj59"
+  },
+  {
+   "lei": "549300KI75VYLLMSK856",
+   "name": "SSE plc",
+   "jurisdiction": "GB",
+   "website": "https://www.sse.com",
+   "ticker": "SSE (LSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ki75vyllmsk856"
+  },
+  {
+   "lei": "549300KJ06GHJLM4Z895",
+   "name": "AON GLOBAL HOLDINGS PLC",
+   "jurisdiction": "GB",
+   "website": "https://www.aon.com",
+   "ticker": "AON (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300kj06ghjlm4z895"
+  },
+  {
+   "lei": "549300KPBTIINY0VBM50",
+   "name": "Nord Anglia Education, Inc.",
+   "jurisdiction": "KY",
+   "website": "https://www.nordangliaeducation.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300kpbtiiny0vbm50"
+  },
+  {
+   "lei": "549300L8X1Q78ERXFD06",
+   "name": "Nasdaq, Inc.",
+   "jurisdiction": "US",
+   "website": "https://www.nasdaq.com",
+   "ticker": "NDAQ (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300l8x1q78erxfd06"
+  },
+  {
+   "lei": "549300LSGBXPYHXGDT93",
+   "name": "WPP plc",
+   "jurisdiction": "JE",
+   "website": "https://www.wpp.com",
+   "ticker": "WPP (LSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300lsgbxpyhxgdt93"
+  },
+  {
+   "lei": "549300M3U2DNF4QVSS04",
+   "name": "DP WORLD LIMITED",
+   "jurisdiction": "AE-DU",
+   "website": "https://www.dpworld.com/en",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300m3u2dnf4qvss04"
+  },
+  {
+   "lei": "549300M8OMBYLAW8P692",
+   "name": "Trenitalia S.p.A.",
+   "jurisdiction": "IT",
+   "website": "https://www.trenitalia.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300m8ombylaw8p692"
+  },
+  {
+   "lei": "549300MMVL80RTBP3O28",
+   "name": "SOLVAY",
+   "jurisdiction": "BE",
+   "website": "https://www.solvay.com/en/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300mmvl80rtbp3o28"
+  },
+  {
+   "lei": "549300NVJUH16NXG8K87",
+   "name": "Scorpio Tankers Inc.",
+   "jurisdiction": "MH",
+   "website": "https://www.scorpiotankers.com",
+   "ticker": "STNG (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300nvjuh16nxg8k87"
+  },
+  {
+   "lei": "549300O7PRTLVBF2ZE53",
+   "name": "Cushman & Wakefield, Inc.",
+   "jurisdiction": "US-NY",
+   "website": "https://www.cushmanwakefield.com",
+   "ticker": "CWK (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300o7prtlvbf2ze53"
+  },
+  {
+   "lei": "549300OI9J7XOWZMUN85",
+   "name": "GE HealthCare Technologies Inc.",
+   "jurisdiction": "US-WI",
+   "website": "https://www.gehealthcare.com",
+   "ticker": "GEHC (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300oi9j7xowzmun85"
+  },
+  {
+   "lei": "549300RIG2CXWN6IV731",
+   "name": "CEMEX, S.A.B. DE C.V.",
+   "jurisdiction": "MX",
+   "website": "https://www.cemex.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300rig2cxwn6iv731"
+  },
+  {
+   "lei": "549300RS7EWPM9MA6C78",
+   "name": "Synchrony Financial",
+   "jurisdiction": "United States (Delaware)",
+   "website": "https://www.synchrony.com",
+   "ticker": "SYF (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300rs7ewpm9ma6c78"
+  },
+  {
+   "lei": "549300RSKQN4Z5ZSGH94",
+   "name": "PT. Bank Mandiri (Persero) Tbk.",
+   "jurisdiction": "ID",
+   "website": "https://www.bankmandiri.co.id/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300rskqn4z5zsgh94"
+  },
+  {
+   "lei": "549300SIV6FPS9Y7IH33",
+   "name": "T. Rowe Price Group, Inc.",
+   "jurisdiction": "US-MD",
+   "website": "https://www.troweprice.com",
+   "ticker": "TROW (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300siv6fps9y7ih33"
+  },
+  {
+   "lei": "549300SZYINBBLJQU475",
+   "name": "AerCap Holdings N.V.",
+   "jurisdiction": "NL",
+   "website": "https://www.aercap.com",
+   "ticker": "AER (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300szyinbbljqu475"
+  },
+  {
+   "lei": "549300TTCXZOGZM2EY83",
+   "name": "INDUSTRIA DE DISEÑO TEXTIL, S.A.",
+   "jurisdiction": "ES",
+   "website": "https://www.inditex.com/itxcomweb/es/en/home",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ttcxzogzm2ey83"
+  },
+  {
+   "lei": "549300UGKOFV2IWJJG27",
+   "name": "TC Energy Corporation",
+   "jurisdiction": "CA-AB",
+   "website": "https://www.tcenergy.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300ugkofv2iwjjg27"
+  },
+  {
+   "lei": "549300VSGCJ7E698NM85",
+   "name": "The Charles Schwab Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.schwab.com",
+   "ticker": "SCHW (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300vsgcj7e698nm85"
+  },
+  {
+   "lei": "549300W9JLPW15XIFM52",
+   "name": "Telefonaktiebolaget LM Ericsson",
+   "jurisdiction": "SE",
+   "website": "https://www.ericsson.com/en",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300w9jlpw15xifm52"
+  },
+  {
+   "lei": "549300WR7IX8XE0TBO16",
+   "name": "Kinder Morgan, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.kindermorgan.com",
+   "ticker": "KMI (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300wr7ix8xe0tbo16"
+  },
+  {
+   "lei": "549300X3UK4GG3FNMO06",
+   "name": "Electricité de France SA",
+   "jurisdiction": "FR",
+   "website": "https://www.edf.fr",
+   "ticker": "(state-owned; renationalised/delisted 2023)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300x3uk4gg3fnmo06"
+  },
+  {
+   "lei": "549300XCD1MPI1C5GK90",
+   "name": "J. B. Hunt Transport Services, Inc.",
+   "jurisdiction": "US-AR",
+   "website": "https://www.jbhunt.com",
+   "ticker": "JBHT (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300xcd1mpi1c5gk90"
+  },
+  {
+   "lei": "549300XMP3KDCKJXIU47",
+   "name": "Marsh & McLennan Companies, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.marshmclennan.com",
+   "ticker": "MMC (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300xmp3kdckjxiu47"
+  },
+  {
+   "lei": "549300XTO5VR8SKV1V74",
+   "name": "Valero Energy Corporation",
+   "jurisdiction": "US-TX",
+   "website": "https://www.valero.com",
+   "ticker": "NYSE:VLO",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300xto5vr8skv1v74"
+  },
+  {
+   "lei": "549300Y650407RU8B149",
+   "name": "The Travelers Companies, Inc.",
+   "jurisdiction": "US-MN",
+   "website": "https://www.travelers.com",
+   "ticker": "TRV (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300y650407ru8b149"
+  },
+  {
+   "lei": "549300Y7C05BKC4HZB40",
+   "name": "TENARIS S.A.",
+   "jurisdiction": "LU",
+   "website": "https://www.tenaris.com/en",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300y7c05bkc4hzb40"
+  },
+  {
+   "lei": "549300Y7VHGU0I7CE873",
+   "name": "Netflix, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.netflix.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300y7vhgu0i7ce873"
+  },
+  {
+   "lei": "549300Z1XH47TTIIJS11",
+   "name": "ALICORP SAA",
+   "jurisdiction": "PE",
+   "website": "https://www.alicorp.com.pe/pe/es",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300z1xh47ttiijs11"
+  },
+  {
+   "lei": "549300Z40J86GGSTL398",
+   "name": "AT&T Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.att.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/549300z40j86ggstl398"
+  },
+  {
+   "lei": "5586006WD91QHB7J4X50",
+   "name": "Saudi Arabian Oil Company",
+   "jurisdiction": "SA",
+   "website": "https://www.aramco.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5586006wd91qhb7j4x50"
+  },
+  {
+   "lei": "5PRBRS5FEH7NREC8OR45",
+   "name": "Prudential Financial, Inc.",
+   "jurisdiction": "US-NJ",
+   "website": "https://www.prudential.com",
+   "ticker": "PRU (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/5prbrs5feh7nrec8or45"
+  },
+  {
+   "lei": "635400EG4YIJLJMZJ782",
+   "name": "Flutter Entertainment Public Limited Company",
+   "jurisdiction": "IE",
+   "website": "https://www.flutter.com",
+   "ticker": "FLUT (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/635400eg4yijljmzj782"
+  },
+  {
+   "lei": "635400IUIZZIUJSAMF76",
+   "name": "Fortum Oyj",
+   "jurisdiction": "FI",
+   "website": "https://www.fortum.com/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/635400iuizziujsamf76"
+  },
+  {
+   "lei": "6SYKCME112RT8TQUO411",
+   "name": "Jones Lang LaSalle Incorporated",
+   "jurisdiction": "US-DE",
+   "website": "https://www.jll.com",
+   "ticker": "JLL (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/6sykcme112rt8tquo411"
+  },
+  {
+   "lei": "7245009EAAUUQJ0U4T57",
+   "name": "Randstad N.V.",
+   "jurisdiction": "NL",
+   "website": "https://www.randstad.com",
+   "ticker": "RAND (Euronext Amsterdam)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/7245009eaauuqj0u4t57"
+  },
+  {
+   "lei": "765LHXWGK1KXCLTFYQ30",
+   "name": "Pfizer Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.pfizer.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/765lhxwgk1kxcltfyq30"
+  },
+  {
+   "lei": "784F5XWPLTWKTBV3E584",
+   "name": "The Goldman Sachs Group, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.goldmansachs.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/784f5xwpltwktbv3e584"
+  },
+  {
+   "lei": "7JDSZWRGUQY2DSTWCR57",
+   "name": "BANK LEUMI LE-ISRAEL LTD.",
+   "jurisdiction": "IL",
+   "website": "https://www.leumi.co.il/he",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/7jdszwrguqy2dstwcr57"
+  },
+  {
+   "lei": "8EU0XUFVJ48U37IIDH51",
+   "name": "Casella Waste Systems, Inc.",
+   "jurisdiction": "US-VT",
+   "website": "https://www.casella.com",
+   "ticker": "CWST (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/8eu0xufvj48u37iidh51"
+  },
+  {
+   "lei": "96950020QIOHAAK9V551",
+   "name": "Sopra Steria Group",
+   "jurisdiction": "FR",
+   "website": "https://www.soprasteria.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/96950020qiohaak9v551"
+  },
+  {
+   "lei": "9695002OY2X35E9X8W87",
+   "name": "Ipsos SA",
+   "jurisdiction": "FR",
+   "website": "https://www.ipsos.com",
+   "ticker": "IPS (Euronext Paris)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/9695002oy2x35e9x8w87"
+  },
+  {
+   "lei": "96950032TUYMW11FB530",
+   "name": "Alstom SA",
+   "jurisdiction": "FR",
+   "website": "https://www.alstom.com",
+   "ticker": "ALO (Euronext Paris)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/96950032tuymw11fb530"
+  },
+  {
+   "lei": "969500568M45LZ4WYF39",
+   "name": "Keolis SA",
+   "jurisdiction": "FR",
+   "website": "https://www.keolis.com",
+   "ticker": "unlisted (70% SNCF / 30% Caisse de dépôt et placement du Québec since 2012)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/969500568m45lz4wyf39"
+  },
+  {
+   "lei": "96950077L0TN7BAROX36",
+   "name": "Capgemini SE",
+   "jurisdiction": "FR",
+   "website": "https://www.capgemini.com",
+   "ticker": "CAP (Euronext Paris)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/96950077l0tn7barox36"
+  },
+  {
+   "lei": "969500J9KG4HF67VC976",
+   "name": "RATP Developpement",
+   "jurisdiction": "FR",
+   "website": "https://www.ratpdev.com",
+   "ticker": "unlisted (international operating subsidiary of RATP Group, state-owned)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/969500j9kg4hf67vc976"
+  },
+  {
+   "lei": "969500LMWJBG5RHVJV88",
+   "name": "Transdev Group SA",
+   "jurisdiction": "FR",
+   "website": "https://www.transdev.com",
+   "ticker": "unlisted (majority owned by Caisse des Dépôts + Rethmann)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/969500lmwjbg5rhvjv88"
+  },
+  {
+   "lei": "969500TPU5T3HA5D1F11",
+   "name": "Bureau Veritas",
+   "jurisdiction": "France",
+   "website": "https://www.bureauveritas.com",
+   "ticker": "BVI",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/969500tpu5t3ha5d1f11"
+  },
+  {
+   "lei": "969500XCGTMV08D76N87",
+   "name": "Europcar Mobility Group SA",
+   "jurisdiction": "FR",
+   "website": "https://www.europcar-mobility-group.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/969500xcgtmv08d76n87"
+  },
+  {
+   "lei": "9845007375EBB04C6F49",
+   "name": "Nigerian National Petroleum Company Limited",
+   "jurisdiction": "NG",
+   "website": "https://www.nnpcgroup.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/9845007375ebb04c6f49"
+  },
+  {
+   "lei": "988400CAR8W9URQLGF30",
+   "name": "HD Hyundai Heavy Industries Co., Ltd.",
+   "jurisdiction": "KR",
+   "website": "https://hd-hhi.com",
+   "ticker": "329180 (KRX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/988400car8w9urqlgf30"
+  },
+  {
+   "lei": "988400QG33WS7JEIV602",
+   "name": "KEPCO (Korea Electric Power Corporation)",
+   "jurisdiction": "KR",
+   "website": "https://www.kepco.co.kr",
+   "ticker": "015760 (KRX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/988400qg33ws7jeiv602"
+  },
+  {
+   "lei": "98TPTUM4IVMFCZBCUR27",
+   "name": "Enbridge Inc.",
+   "jurisdiction": "CA",
+   "website": "https://www.enbridge.com",
+   "ticker": "ENB (NYSE/TSX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/98tptum4ivmfczbcur27"
+  },
+  {
+   "lei": "APVBKPOULHUX7YZLKU17",
+   "name": "Antero Resources Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.anteroresources.com",
+   "ticker": "NYSE:AR",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/apvbkpoulhux7yzlku17"
+  },
+  {
+   "lei": "BN6WCCZ8OVP3ITUUVN49",
+   "name": "LyondellBasell Industries N.V.",
+   "jurisdiction": "GB",
+   "website": "https://www.lyondellbasell.com",
+   "ticker": "LYB (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/bn6wccz8ovp3ituuvn49"
+  },
+  {
+   "lei": "C4BXATY60WC6XEOZDX54",
+   "name": "MetLife, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.metlife.com",
+   "ticker": "MET (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/c4bxaty60wc6xeozdx54"
+  },
+  {
+   "lei": "D71FAKCBLFS2O0RBPG08",
+   "name": "The Williams Companies, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.williams.com",
+   "ticker": "WMB (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/d71fakcblfs2o0rbpg08"
+  },
+  {
+   "lei": "DPRBOZP0K5RM2YE8UU08",
+   "name": "Lockheed Martin Corporation",
+   "jurisdiction": "US",
+   "website": "https://www.lockheedmartin.com",
+   "ticker": "LMT (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/dprbozp0k5rm2ye8uu08"
+  },
+  {
+   "lei": "E0JAN6VLUDI1HITHT809",
+   "name": "Chubb Limited",
+   "jurisdiction": "CH",
+   "website": "https://www.chubb.com",
+   "ticker": "CB (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/e0jan6vludi1hitht809"
+  },
+  {
+   "lei": "F1OF2ZSX47CR0BCWA982",
+   "name": "Carnival Corporation Ltd.",
+   "jurisdiction": "BM",
+   "website": "https://www.carnival.com",
+   "ticker": "CCL (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/f1of2zsx47cr0bcwa982"
+  },
+  {
+   "lei": "FCNMH6O7VWU7LHXMK351",
+   "name": "Coterra Energy Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.coterra.com",
+   "ticker": "NYSE:CTRA",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/fcnmh6o7vwu7lhxmk351"
+  },
+  {
+   "lei": "FDPVHDGJ1IQZFK9KH630",
+   "name": "Eastman Chemical Company",
+   "jurisdiction": "US-DE",
+   "website": "https://www.eastman.com",
+   "ticker": "EMN (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/fdpvhdgj1iqzfk9kh630"
+  },
+  {
+   "lei": "FXM8FAOHMYDIPD38UZ17",
+   "name": "Booking Holdings Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.bookingholdings.com",
+   "ticker": "BKNG (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/fxm8faohmydipd38uz17"
+  },
+  {
+   "lei": "I07WOS4YJ0N7YRFE7309",
+   "name": "RTX Corporation",
+   "jurisdiction": "US",
+   "website": "https://www.rtx.com",
+   "ticker": "RTX (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/i07wos4yj0n7yrfe7309"
+  },
+  {
+   "lei": "ILUL7B6Z54MRYCF6H308",
+   "name": "Dominion Energy, Inc.",
+   "jurisdiction": "US-VA",
+   "website": "https://www.dominionenergy.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/ilul7b6z54mrycf6h308"
+  },
+  {
+   "lei": "INR2EJN1ERAN0W5ZP974",
+   "name": "Microsoft Corporation",
+   "jurisdiction": "US-WA",
+   "website": "https://www.microsoft.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/inr2ejn1eran0w5zp974"
+  },
+  {
+   "lei": "J3WHBG0MTS7O8ZVMDC91",
+   "name": "Exxon Mobil Corporation",
+   "jurisdiction": "US-NJ",
+   "website": "https://corporate.exxonmobil.com",
+   "ticker": "XOM (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/j3whbg0mts7o8zvmdc91"
+  },
+  {
+   "lei": "K2NEH8QNVW44JIWK7Z55",
+   "name": "Royal Caribbean Cruises Ltd.",
+   "jurisdiction": "LR",
+   "website": "https://www.royalcaribbean.com",
+   "ticker": "RCL (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/k2neh8qnvw44jiwk7z55"
+  },
+  {
+   "lei": "LH7MQB13NWY7CJ9VC445",
+   "name": "Brookdale Senior Living Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.brookdale.com",
+   "ticker": "BKD (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/lh7mqb13nwy7cj9vc445"
+  },
+  {
+   "lei": "LUZQVYP4VS22CLWDAR65",
+   "name": "3M Company",
+   "jurisdiction": "US-DE",
+   "website": "https://www.3m.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/luzqvyp4vs22clwdar65"
+  },
+  {
+   "lei": "NI14Y5UMU60O7JE9P611",
+   "name": "Adecco Group AG",
+   "jurisdiction": "CH",
+   "website": "https://www.adeccogroup.com",
+   "ticker": "ADEN (SIX Swiss Exchange)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/ni14y5umu60o7je9p611"
+  },
+  {
+   "lei": "OQSJ1DU9TAOC51A47K68",
+   "name": "Starbucks Corporation",
+   "jurisdiction": "US-WA",
+   "website": "https://www.starbucks.com",
+   "ticker": "SBUX (NASDAQ)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/oqsj1du9taoc51a47k68"
+  },
+  {
+   "lei": "P4GTT6GF1W40CVIMFR43",
+   "name": "POWSZECHNA KASA OSZCZĘDNOŚCI BANK POLSKI SPÓŁKA AKCYJNA",
+   "jurisdiction": "PL",
+   "website": "https://www.pkobp.pl/",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/p4gtt6gf1w40cvimfr43"
+  },
+  {
+   "lei": "Q2CCMS6R0AS67HJMBN42",
+   "name": "Delta Air Lines, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.delta.com",
+   "ticker": "DAL (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/q2ccms6r0as67hjmbn42"
+  },
+  {
+   "lei": "R4PP93JZOLY261QX3811",
+   "name": "American Express Company",
+   "jurisdiction": "United States (New York)",
+   "website": "https://www.americanexpress.com",
+   "ticker": "AXP (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/r4pp93jzoly261qx3811"
+  },
+  {
+   "lei": "RCGZFPDMRW58VJ54VR07",
+   "name": "Salesforce, Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://www.salesforce.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/rcgzfpdmrw58vj54vr07"
+  },
+  {
+   "lei": "RVHJWBXLJ1RFUBSY1F30",
+   "name": "The Boeing Company",
+   "jurisdiction": "US",
+   "website": "https://www.boeing.com",
+   "ticker": "BA (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/rvhjwbxlj1rfubsy1f30"
+  },
+  {
+   "lei": "UE2136O97NLB5BYP9H04",
+   "name": "McDonald's Corporation",
+   "jurisdiction": "US-DE",
+   "website": "https://www.mcdonalds.com",
+   "ticker": "MCD (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/ue2136o97nlb5byp9h04"
+  },
+  {
+   "lei": "UNZWILHE4KMRP9K2L524",
+   "name": "NCL Corporation Ltd.",
+   "jurisdiction": "BM",
+   "website": "https://www.ncl.com",
+   "ticker": "NCLH (parent, NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/unzwilhe4kmrp9k2l524"
+  },
+  {
+   "lei": "UWJKFUJFZ02DKWI3RY53",
+   "name": "The Coca-Cola Company",
+   "jurisdiction": "US-DE",
+   "website": "https://www.coca-colacompany.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/uwjkfujfz02dkwi3ry53"
+  },
+  {
+   "lei": "WDJNR2L6D8RWOEB8T652",
+   "name": "Texas Instruments Incorporated",
+   "jurisdiction": "US-DE",
+   "website": "https://www.ti.com",
+   "ticker": "TXN (Nasdaq)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/wdjnr2l6d8rwoeb8t652"
+  },
+  {
+   "lei": "WOCMU6HCI0OJWNPRZS33",
+   "name": "Enel S.p.A.",
+   "jurisdiction": "IT",
+   "website": "https://www.enel.com",
+   "ticker": "ENEL (Borsa Italiana) / ENLAY (NYSE ADR)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/wocmu6hci0ojwnprzs33"
+  },
+  {
+   "lei": "WP5O65E6BMU84LNO4227",
+   "name": "Sirius XM Radio LLC",
+   "jurisdiction": "US-DE",
+   "website": "https://www.siriusxm.com",
+   "ticker": null,
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/wp5o65e6bmu84lno4227"
+  },
+  {
+   "lei": "WPTL2Z3FIYTHSP5V2253",
+   "name": "ConocoPhillips",
+   "jurisdiction": "US-DE",
+   "website": "https://www.conocophillips.com",
+   "ticker": "COP (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/wptl2z3fiythsp5v2253"
+  },
+  {
+   "lei": "Y87794H0US1R65VBXU25",
+   "name": "Walmart Inc.",
+   "jurisdiction": "US-DE",
+   "website": "https://corporate.walmart.com",
+   "ticker": "WMT (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/y87794h0us1r65vbxu25"
+  },
+  {
+   "lei": "Z1YLO2USPORE63VVUL20",
+   "name": "Discover Financial Services",
+   "jurisdiction": "United States (Delaware)",
+   "website": "https://www.discover.com",
+   "ticker": "DFS (NYSE)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/z1ylo2uspore63vvul20"
+  },
+  {
+   "lei": "ZP5ILWVSYE4LJGMMVD57",
+   "name": "AIA Group Limited",
+   "jurisdiction": "HK",
+   "website": "https://www.aia.com",
+   "ticker": "1299 (HKEX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/zp5ilwvsye4ljgmmvd57"
+  },
+  {
+   "lei": "ZSN2LWNPYW6ISMRUC664",
+   "name": "Origin Energy Limited",
+   "jurisdiction": "AU",
+   "website": "https://www.originenergy.com.au",
+   "ticker": "ORG (ASX)",
+   "files": [
+    "blueprint.edn",
+    "facts.edn",
+    "tos.journal.edn"
+   ],
+   "dir": "references/lei/zsn2lwnpyw6ismruc664"
+  }
+ ]
+}

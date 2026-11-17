@@ -1,0 +1,9 @@
+{:company/lei "4YV9Y5M8S0BRK1RP0397"
+ :company/profile-note "published on the company's own site (https://www.merck.com/contact-us/), retrieved 2026-08-04T07:40:37.183Z by scripts/lei-profile-enrich.cljs (GET only)"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.merck.com/contact-us/), retrieved 2026-07-25T05:03:02.872Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/phone "+1-908-740-4000"
+ :company/jurisdiction "US-NJ"
+ :company/contact-email "investor_relations@merck.com"
+ :company/legal-name "Merck & Co., Inc."
+ :company/website "https://www.merck.com"
+ :company/inquiry-form-url "https://www.merck.com/contact-us/"}

@@ -1,0 +1,6 @@
+{:company/legal-name "J. B. Hunt Transport Services, Inc."
+ :company/lei "549300XCD1MPI1C5GK90"
+ :company/jurisdiction "US-AR"
+ :company/website "https://www.jbhunt.com"
+ :company/ticker "JBHT (NASDAQ)"
+ :itonami.blueprint/maturity :implemented}

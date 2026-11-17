@@ -1,0 +1,16 @@
+{:company/legal-name "American Express Company"
+ :company/lei "R4PP93JZOLY261QX3811"
+ ;; Jurisdiction corrected 2026-08-20 from "United States (Delaware)".
+ ;; Three authorities contradict the Delaware claim independently, and each is a
+ ;; live row in facts/catalog.edn:
+ ;;   GLEIF "jurisdiction":"US-NY", ocid us_ny/188055  (gleif-jurisdiction-us-ny, gleif-ocid)
+ ;;   NY DOS "entity_type":"DOMESTIC BUSINESS CORPORATION"  (ny-entity-type-domestic)
+ ;;   SEC   "stateOfIncorporation":"NY"                (sec-state-of-incorporation-ny)
+ ;; DOMESTIC is the New York register's own word for "incorporated in this state";
+ ;; a Delaware corporation would be recorded there as FOREIGN.
+ :company/jurisdiction "United States (New York)"
+ :company/home-register "RA000628 -- New York Department of State, Division of Corporations"
+ :company/home-registration-number "188055"
+ :company/website "https://www.americanexpress.com"
+ :company/ticker "AXP (NYSE)"
+ :company/inquiry-form-url "https://www.americanexpress.com/ja-jp/support/?inav=jp_utility_contact"}

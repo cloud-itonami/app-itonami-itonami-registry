@@ -1,0 +1,9 @@
+{:company/lei "52990063S23N13HU4E98"
+ :company/profile-note "published on the company's own site (https://www.bahn.de/impressum?dbkanal_007=footerlinks-impressum), retrieved 2026-08-04T06:23:43.105Z by scripts/lei-profile-enrich.cljs (GET only)"
+ :company/contact-email-note "general ticket/customer-service contact published on the company's own Hilfe/Kontakt page"
+ :company/phone "+49 30 2970"
+ :company/jurisdiction "DE"
+ :company/contact-email "fahrkartenservice@bahn.de"
+ :company/registration-number "HRB 83"
+ :company/legal-name "Deutsche Bahn AG"
+ :company/website "https://www.bahn.de"}

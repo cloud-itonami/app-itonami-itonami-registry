@@ -1,0 +1,9 @@
+{:company/lei "549300DYP6F5ZJL0LB74"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.hologic.com/support), retrieved 2026-07-25T05:03:13.163Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/jurisdiction "US-MA"
+ :company/ticker "HOLX (Nasdaq)"
+ :itonami.blueprint/maturity :implemented
+ :company/contact-email "clientservices@biotheranostics.com"
+ :company/legal-name "Hologic, Inc."
+ :company/website "https://www.hologic.com"
+ :company/inquiry-form-url "https://www.hologic.com/support/locations"}

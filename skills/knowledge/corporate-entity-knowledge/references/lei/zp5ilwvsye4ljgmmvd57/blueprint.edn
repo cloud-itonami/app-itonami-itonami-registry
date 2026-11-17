@@ -1,0 +1,8 @@
+{:company/legal-name "AIA Group Limited"
+ :company/lei "ZP5ILWVSYE4LJGMMVD57"
+ :company/jurisdiction "HK"
+ :company/website "https://www.aia.com"
+ :company/ticker "1299 (HKEX)"
+ :company/contact-email "ir@aia.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.aia.com/en/contact-us), retrieved 2026-07-25T05:03:29.169Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.aia.com/en/contact-us"}

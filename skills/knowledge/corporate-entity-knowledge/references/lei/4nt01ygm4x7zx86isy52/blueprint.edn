@@ -1,0 +1,9 @@
+{:company/lei "4NT01YGM4X7ZX86ISY52"
+ :company/profile-note "published on the company's own site (https://www.eqt.com/about/board), retrieved 2026-08-04T07:40:35.325Z by scripts/lei-profile-enrich.cljs (GET only)"
+ :company/phone "(800)242-3109"
+ :company/jurisdiction "US-PA"
+ :company/ticker "NYSE:EQT"
+ :itonami.blueprint/robotics false
+ :company/legal-name "EQT Corporation"
+ :company/website "https://www.eqt.com"
+ :required-technologies [:identity :audit-ledger]}

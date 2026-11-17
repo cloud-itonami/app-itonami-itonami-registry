@@ -1,0 +1,7 @@
+{:company/legal-name "H & M Hennes & Mauritz AB"
+ :company/lei "529900O5RR7R39FRDM42"
+ :company/jurisdiction "SE"
+ :company/website "https://hmgroup.com/"
+ :company/contact-email "info@hm.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://hmgroup.com/about-us/contact-us/), retrieved 2026-08-04T04:45:09.398Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://hmgroup.com/about-us/contact-us/"}

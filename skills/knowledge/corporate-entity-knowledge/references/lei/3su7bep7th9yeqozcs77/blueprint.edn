@@ -1,0 +1,8 @@
+{:company/legal-name "Canadian National Railway Company"
+ :company/lei "3SU7BEP7TH9YEQOZCS77"
+ :company/jurisdiction "CA"
+ :company/website "https://www.cn.ca"
+ :company/ticker "CNI (NYSE) / CNR (TSX)"
+ :company/inquiry-form-url "https://www.cn.ca/en/contact-us/"
+ :company/phone "+1-800-465-9239"
+ :company/profile-note "published on the company's own site (https://www.cn.ca/en/), retrieved 2026-08-04T07:40:32.385Z by scripts/lei-profile-enrich.cljs (GET only)"}

@@ -1,0 +1,6 @@
+{:company/legal-name "Flutter Entertainment Public Limited Company"
+ :company/lei "635400EG4YIJLJMZJ782"
+ :company/jurisdiction "IE"
+ :company/website "https://www.flutter.com"
+ :company/ticker "FLUT (NYSE)"
+ :itonami.blueprint/maturity :implemented}

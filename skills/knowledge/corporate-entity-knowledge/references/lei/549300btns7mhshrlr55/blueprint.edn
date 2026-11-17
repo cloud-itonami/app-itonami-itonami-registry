@@ -1,0 +1,7 @@
+{:company/legal-name "Par Pacific Holdings, Inc."
+ :company/lei "549300BTNS7MHSHRLR55"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.parpacific.com"
+ :company/ticker "NYSE:PARR"
+ :itonami.blueprint/robotics false
+ :required-technologies [:identity :audit-ledger]}

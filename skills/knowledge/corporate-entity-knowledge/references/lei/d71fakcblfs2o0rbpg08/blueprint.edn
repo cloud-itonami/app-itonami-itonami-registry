@@ -1,0 +1,8 @@
+{:company/legal-name "The Williams Companies, Inc."
+ :company/lei "D71FAKCBLFS2O0RBPG08"
+ :company/jurisdiction "US-DE"
+ :company/website "https://www.williams.com"
+ :company/ticker "WMB (NYSE)"
+ :company/contact-email "media@williams.com"
+ :company/contact-email-note "published as a mailto: link on the company's own site (https://www.williams.com/contact/), retrieved 2026-07-25T05:03:24.089Z by scripts/lei-contact-discover.cljs (GET only)"
+ :company/inquiry-form-url "https://www.williams.com/contact/"}

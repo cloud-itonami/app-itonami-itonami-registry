@@ -35198,7 +35198,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "2f9e5f343ee0cadd7c08a729cacc1d907e020915",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-0eeb8gf0w0npcihzx097",
@@ -35221,7 +35226,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ef739a423162de12f7de72a5703d21152123eb0f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-1b4s6s7g0tw5ee83bo58",
@@ -35244,7 +35254,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4c00a6b852c5d987bd9339d3efc2b6aa5d9635da",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2138003319y7nm75fg53",
@@ -35267,7 +35282,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "dd65e7b0415f1a751aef428373980a84365e1cb6",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2138004jbxwwjkiurc57",
@@ -35290,7 +35310,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4ad58536be0358635264beb29a88ba3c2ae834ca",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2138004kw8bv57iii342",
@@ -35313,7 +35338,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d28ccf2b232115011a671e6ed7c9d9bdfeb807cd",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2138009tf1syomqlbj60",
@@ -35336,7 +35366,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e7e0697897451ae923d70752749df07f91909591",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-213800f5xjimcmjllq70",
@@ -35359,7 +35394,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "915d170e43602f4d8d95d34f3eaad0221dafe118",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-213800jj6crpcwcqvz25",
@@ -35382,7 +35422,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7696d3cc1d5976bba20c232c55113b9ff34fbb59",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-213800mzgbgcjipobb41",
@@ -35405,7 +35450,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c373d16000d23142925616539cfa7a1588b92b29",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-213800ni74qtt3f18469",
@@ -35428,7 +35478,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "81289099b0389b0e93b13e369524ba561ecbacdb",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-213800wj8elj2xwxag57",
@@ -35451,7 +35506,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0bb68c5a7ad3b1bce46d48e57e13ad9b4f48b2b1",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2549003pwmaf5sdul432",
@@ -35474,7 +35534,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e33586de323fe5344ce7613bb5e6b07c1569fcf7",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2549004rmydsrql4kw41",
@@ -35497,7 +35562,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4960bf08c9c3ca998f966a1303c823ae9497083b",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2549005o5pva2jch6q33",
@@ -35520,7 +35590,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "dd74d7d8c769b0e4de93f9f438a9fcec7c8d77e8",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2549009bksvtm7ueyt38",
@@ -35543,7 +35618,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c701ed5ff0f38956504d6325dac44a103e19c198",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2549009gw3z3dqcb8h87",
@@ -35566,7 +35646,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "3cbe2eb2148b3026acb9b1a34a0f9bbd6bc7691f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900ade8gqhm5p2648",
@@ -35589,7 +35674,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d3030c94917c42af5665f54321271954d6846c74",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900e3khxcc2c8k272",
@@ -35612,7 +35702,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "76a41b6cd5368798e6a3fe9a2ca4a258935f180d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900em62y5rrtj9771",
@@ -35635,7 +35730,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ddf3c8c1a6e5683ec4e5eaec1e5a85389fd211f6",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900glqzad4n7n5q19",
@@ -35658,7 +35758,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0b985106fc66386f79691cace063b880ebc61b56",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900rhl9meus5nkx63",
@@ -35681,7 +35786,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "021184f832750f6b70342d605f84d44577f00c32",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900ug5d8yst164n14",
@@ -35704,7 +35814,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "aa93485f02eb5e7aed51191a4467122e8e83bec9",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900w703pxldsem056",
@@ -35727,7 +35842,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "227d1303937e715dda6293de6f8989277fb9e0f6",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-254900yb8uatfp21af80",
@@ -35750,7 +35870,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "874f134de2e8d91783095a3a2ae581ab0a4abea0",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2572ibtt8cczw6au4141",
@@ -35773,7 +35898,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6709fd2d917ff8955bee75f15cbd33583ad2233a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-259400vvmm70cqrejt74",
@@ -35796,7 +35926,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "5f908ab59ad170276488f93f0016077bbdfc4c49",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2s72qs2uo2oeslg6y829",
@@ -35819,7 +35954,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "01697f4e963119e25f54eb9efdbe5aee2974d152",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-2t3d6m0jsy48pszi1q41",
@@ -35842,7 +35982,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "97273ed7d482ac5623de8d3e0e53dc86acfb0400",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-335800zq6i4e2jxenc50",
@@ -35865,7 +36010,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "756802c169cfca342e5810684aeaa751c4e5e884",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-353800678eijloqswz83",
@@ -35888,7 +36038,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "af45584f784ddff2196ee3ddaa6dc1e7aa546327",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-353800r2lrsmvvc4i806",
@@ -35911,7 +36066,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7f8da4203d77a772fc0f87d4ca8dff6e68ea4fbd",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-353800tj98pcazrove69",
@@ -35934,7 +36094,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "b8eabe3acb24170171cc556e1fe29c039480ff29",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-353800vhqu5vixvua841",
@@ -35957,7 +36122,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a37e9a52fadecdd853c7f82467a804310c25232b",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-3789001900ed06f65111",
@@ -35980,7 +36150,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1444bc2ebea557f2c1b294f1fd4eb226d7d99c62",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-3soua6irml7435b56g12",
@@ -36003,7 +36178,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e4233de32f8719d74942b8a4648661c78f3f098f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-3su7bep7th9yeqozcs77",
@@ -36026,7 +36206,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bb8f5df80cf8d276e5526df3a337171a62167a54",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-4nt01ygm4x7zx86isy52",
@@ -36049,7 +36234,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "99da21b5fb34c90132d4a0d94f9b0224fc02575c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-4yv9y5m8s0brk1rp0397",
@@ -36072,7 +36262,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bb556321dc6eb11ced9bcb7b5a8ee1ecaa49c17a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5299001rbs9gk9stn379",
@@ -36095,7 +36290,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "214257737ba3956870bd1441ca4f4b7e36022b70",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5299003fu7v4i45fu310",
@@ -36118,7 +36318,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f1f15ab5cd659860e9f1bc671e222a169836267f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5299004emj3r4rvr5y75",
@@ -36141,7 +36346,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1a4a2372fb30711a200c1c861473c4fa5a86e85e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-52990063s23n13hu4e98",
@@ -36164,7 +36374,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ae936ac3a4e0b5d7c4e6061c51775d39e9be7b22",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-52990083zrr5ut591988",
@@ -36187,7 +36402,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bba56ccdffe4865eec2640ce33e61e4ba8696081",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5299008fntq0ldq3uz44",
@@ -36210,7 +36430,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0192e2607342d9664c18eb58a0c760177516d446",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-52990090zt33akpdbx62",
@@ -36233,7 +36458,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a7e0d5b983178f8b6cb39da3ca244fc64a4cf212",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900a76gop0pgnht63",
@@ -36256,7 +36486,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "69584a4f83d57b1ea5156a003943ba4f87b03924",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900as2cywyfhrs781",
@@ -36279,7 +36514,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bb9fe4878ade47afe892ddbb3587493d6e287adf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900e95812sywmce44",
@@ -36302,7 +36542,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f493b117896429ffc980862e4eb54d57f625c04a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900fho4dyrmcnsv67",
@@ -36325,7 +36570,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f0673539778d17aa2d91f76008cf9226b2b622ce",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900gql5x8h7ao3t64",
@@ -36348,7 +36598,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "22589e53551249359536a09989f730b62677adab",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900gwgzpe83mjov59",
@@ -36371,7 +36626,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "57e1eaba8b1c4f6bec27638e1d8e9aa698a5c5e9",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900jpv47piuwma015",
@@ -36394,7 +36654,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e435bcdc490b4e2f5cc584d3020a016a379961a9",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900muf4c20k50js49",
@@ -36417,7 +36682,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a6d662a7f1a7cf4c26d508b0e4d59ba55a902b1f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900o5rr7r39frdm42",
@@ -36440,7 +36710,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d1352e8ec1bb4c3643a627c764ab4b32f91d10d1",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900ph4zguh2mneu89",
@@ -36463,7 +36738,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "479399fa2aa3854e3bafc5453ca868f67062ad2a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900pm64wh8af1e917",
@@ -36486,7 +36766,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d81082e02beb4a854eb8d6bd9b5083fee4c80c15",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900qbvwxmwanh7h45",
@@ -36509,7 +36794,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "759abab9c6923e839e3f387fe40d5a780128dfd8",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900s21eq1bo4esm68",
@@ -36532,7 +36822,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "45689008409708901e07514151449b2ffb58af4f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900vbk42y5hhrmd23",
@@ -36555,7 +36850,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "35bafbb96b92466e88b56e32042e75b290e202bf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900wqb1zu9kb6el71",
@@ -36578,7 +36878,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "91ba11845f2dcdc976eedb5f885bd0fee284001a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-529900xo0ytookclqb44",
@@ -36601,7 +36906,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a973821470df53b7416bf22fd845ee960e135ce0",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493000c01zx7d35sd85",
@@ -36624,7 +36934,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f1e9764edf9ea5919ff5eb05dd93b6f3b3fe90ef",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493000f4zo33mv32p92",
@@ -36647,7 +36962,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1460df179917f63250bc74599b38a9d580566bdf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493000sjvzvzjkhjf48",
@@ -36670,7 +36990,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4b5365579ae8fdc485c952615b756cbe53ee7614",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493001d9vbavy1okj46",
@@ -36693,7 +37018,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4ebecc39882a2b7bac39e37c2dc667a2f1379b9e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493001ezooa66ptbr68",
@@ -36716,7 +37046,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a0e604dc1b6fd38020f8caaf32e8071a49943896",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493003bzyyycdio0r13",
@@ -36739,7 +37074,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "07018fbcb688635ba0b570591349036c2130f3ce",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493003uoetfyronlg31",
@@ -36762,7 +37102,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a274b35730f5b664c7bc8d4b8ac27faa1783e754",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493004dt6dcduzndm53",
@@ -36785,7 +37130,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1f506227353a18a8775b8328e1789ba7982f4743",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493005jbo5ysigk1814",
@@ -36808,7 +37158,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d58c1e6fe4819c6662f7280835144d6a8e8f7f5e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493006qmfddmywiam13",
@@ -36831,7 +37186,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "244321f743d6f326ae7ea718dc42681d6ca3d217",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-54930076j6kdzl504o62",
@@ -36854,7 +37214,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "09a16a51411a837b4452c2028ad1b92a91df5c53",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5493008h3828emexb082",
@@ -36877,7 +37242,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6115d2ae2f72b5654f0d3e61250199b8dfef2a44",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300b2ftg34fildr98",
@@ -36900,7 +37270,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bef2663a84a7ffe5d55f0ae6fe14e31cc9b7195c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300btns7mhshrlr55",
@@ -36923,7 +37298,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f93fad85425f1bde667e26bbb2a3f70a60b252fb",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ddu6fdrbiels05",
@@ -36946,7 +37326,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d0a15e86f18640787a36e8644e5b8dd6fb40a61a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300de8zaiys2t6q22",
@@ -36969,7 +37354,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "78f78b45f5646b3f3d8aa1f152be3e79a8587042",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300dejzcpwa4hkm93",
@@ -36992,7 +37382,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "115b579f25af47d895570c08baf1d667e3cd2adf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300dovz3edjb7o259",
@@ -37015,7 +37410,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0293dadcfb93723ff333241da5aeb40ccbc13aec",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300dyp6f5zjl0lb74",
@@ -37038,7 +37438,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "93e5e9ce85decb04f39bc1fae912158404eb9574",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300eejh4fepdbbr25",
@@ -37061,7 +37466,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ae4edcd5a542c50afd0cab8863c51d5e6cdf4fe3",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ejg376en5nqe29",
@@ -37084,7 +37494,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0d276573b8ef35af91ef0ca650aafa0bec4132fe",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300fc3g3yu2fbzd92",
@@ -37107,7 +37522,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "8b1502b39c506d9a4c20b75e728eeaf48e561629",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300fv8x6uid6i1413",
@@ -37130,7 +37550,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6768107fb2100c7aea4fe4c440cc4a0b447acc43",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300g8zpnq5dni6a45",
@@ -37153,7 +37578,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "89f06dadaa66bb855c7d5d0b20f1f34e5c13585d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ghbmy8t5gxde41",
@@ -37176,7 +37606,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "529e5cc48a2827ab8ac6074844b20bb1efacd402",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300gzkuliz0wow665",
@@ -37199,7 +37634,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0bf730101d0aa5e0607ca8000a6a950810ff52a7",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300h7i5vn334xvz52",
@@ -37222,7 +37662,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "b1179285c0ca3a973cde55a5e9e5d9937ba57434",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300hdlrtpbqu69p29",
@@ -37245,7 +37690,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "845b38969c145775237a4b5d1a8f9ffe141a1997",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300hqv672rj7rqv66",
@@ -37268,7 +37718,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0547765748d013a9fd9e96aa37b088e35ef3004c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300i2pvfbc9mfac61",
@@ -37291,7 +37746,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "81c3f531c26cf7375d36c5278e193d9863e3237d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300iglytzuk3pvp70",
@@ -37314,7 +37774,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "621b3e91d67bda7dbe1461ee9ece1917376f1e06",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ihyhcqp2pir591",
@@ -37337,7 +37802,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "75cc6ac1e380c7bb86bb148ebb20aaa9e7007b8d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300j0dyc0n31v7g13",
@@ -37360,7 +37830,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "65ac5ed2515abf66c875f030dae4756ffe79baf9",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300j6zjw5ih4wee46",
@@ -37383,7 +37858,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "799562b6259a8966d43b29cfc80bcd3de45c499c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300jz4okehw3dpj59",
@@ -37406,7 +37886,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1236c4ac92111614b04da844e9baa30f147e945f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ki75vyllmsk856",
@@ -37429,7 +37914,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "09429d217324b94de2cddbd54789091581d7d92f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300kj06ghjlm4z895",
@@ -37452,7 +37942,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0a5361133d01494677bac1b3ac250147f1bee1ce",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300kpbtiiny0vbm50",
@@ -37475,7 +37970,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1e133d2a88804e330d6ed867adca77e5a4ae3e47",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300l8x1q78erxfd06",
@@ -37498,7 +37998,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "99301a221289c2da3e08e0a1c6f6f1002293a27e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300lsgbxpyhxgdt93",
@@ -37521,7 +38026,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "545a7d23d4a41888fee9fae7ac7c55121639da8d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300m3u2dnf4qvss04",
@@ -37544,7 +38054,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "5b0788b957c79cac609ca45e92327f8c9b72f47b",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300m8ombylaw8p692",
@@ -37567,7 +38082,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6bfb5b7aec8d66988e5eb71fe9a83e520a094ac1",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300mmvl80rtbp3o28",
@@ -37590,7 +38110,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "94667b578d6f34638f82afe3a526339abe7f2655",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300nvjuh16nxg8k87",
@@ -37613,7 +38138,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "4642dfb5a741ee69943734bf1152276f7316ec8c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300o7prtlvbf2ze53",
@@ -37636,7 +38166,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e628d76c38cc579088a6acf66469ad7867ab2103",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300oi9j7xowzmun85",
@@ -37659,7 +38194,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "da5c3f52c660fe07c152da93d9564914790297df",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300rig2cxwn6iv731",
@@ -37682,7 +38222,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "9badfd6b478d1f8c4031c1811d07ec0d68fcd85d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300rs7ewpm9ma6c78",
@@ -37705,7 +38250,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "dd72e68a45cb5fd5cb6e996315a764f9b2c70375",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300rskqn4z5zsgh94",
@@ -37728,7 +38278,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7e9a7dd061d9f85c50729027780afc8d4d4cc726",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300siv6fps9y7ih33",
@@ -37751,7 +38306,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "aabfa91f2ef9ec2a16640e0eb588e631fe04888a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300szyinbbljqu475",
@@ -37774,7 +38334,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0979fd35a6c04b4296c6a4e5947aaa294f9ab97d",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ttcxzogzm2ey83",
@@ -37797,7 +38362,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d5620c60c63a231da9e412dad8316ded241af6e4",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300ugkofv2iwjjg27",
@@ -37820,7 +38390,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1c6c716a05af925717fae4e7a09f7b618a9bcc59",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300vsgcj7e698nm85",
@@ -37843,7 +38418,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "9461cdec7cef0d1700d3560b39d74d63008eab6a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300w9jlpw15xifm52",
@@ -37866,7 +38446,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a9254deba114c2e0fa0ec460bd26b3a8cc7a354f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300wr7ix8xe0tbo16",
@@ -37889,7 +38474,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "9918d2ca8823fbcba64ea430a64c0304b9f5ecb6",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300x3uk4gg3fnmo06",
@@ -37912,7 +38502,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "cf4caa9527be0487725d7dc635c2d4d3a5caf442",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300xcd1mpi1c5gk90",
@@ -37935,7 +38530,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "2dcc22e226b70811e433b3d9b5a64bcdb1d5b4ac",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300xmp3kdckjxiu47",
@@ -37958,7 +38558,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "be67ca4d0b24610ff43b1707ebeca34968c8da4b",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300xto5vr8skv1v74",
@@ -37981,7 +38586,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "66b05230b5e4e6bfdd89b987e178b185f7ffa764",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300y650407ru8b149",
@@ -38004,7 +38614,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ba436864fb55f9f63ba099f810a5ae206eb19eb0",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300y7c05bkc4hzb40",
@@ -38027,7 +38642,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e66c6b9e5f54d77044fa17180a1b99bd58911535",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300y7vhgu0i7ce873",
@@ -38050,7 +38670,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "56089b634c74bd09bf13c90a2eb26e47a6648858",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300z1xh47ttiijs11",
@@ -38073,7 +38698,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "88285bf73208bd69f358a35d0388707135b0652c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-549300z40j86ggstl398",
@@ -38096,7 +38726,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c8cd91b4915b2cac20e49cbad8535302ea7fa58e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5586006wd91qhb7j4x50",
@@ -38119,7 +38754,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e5e5ba735a184fcdaea0944f139261afd5684f95",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-5prbrs5feh7nrec8or45",
@@ -38142,7 +38782,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d61326bda1dd2b29555a68abb60c5171c41a07f1",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-635400eg4yijljmzj782",
@@ -38165,7 +38810,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "fb7bd7cb41282181c1910bd4f50d4ffa5f5e67a0",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-635400iuizziujsamf76",
@@ -38188,7 +38838,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "bc19b739c2601aa810894e71b66d03a88d455c43",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-6sykcme112rt8tquo411",
@@ -38211,7 +38866,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6dac7462a225b40cc91e5a3e9f09b8bba9cbcad5",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-7245009eaauuqj0u4t57",
@@ -38234,7 +38894,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "75c00f5b00a2749febad4c3b0aebe11786808d6f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-765lhxwgk1kxcltfyq30",
@@ -38257,7 +38922,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "85edfd0b3386b967e3af69b5a00cafca2891029c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-784f5xwpltwktbv3e584",
@@ -38280,7 +38950,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "cecb665c9fec497adb1d59cfe0d5f753280aad61",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-7jdszwrguqy2dstwcr57",
@@ -38303,7 +38978,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "0cfa70686c932db59422b54197c7a569e357ca71",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-8eu0xufvj48u37iidh51",
@@ -38326,7 +39006,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "5f080cd02545a7712a3a100f927f689f29740289",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-96950020qiohaak9v551",
@@ -38349,7 +39034,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "9713702e416dfff3f78f24bd9530545df8dd882a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-9695002oy2x35e9x8w87",
@@ -38372,7 +39062,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "5eaa915308fe7fde1fa0fef38c12ff9210131261",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-96950032tuymw11fb530",
@@ -38395,7 +39090,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "80b2a660b675fcfbcadd18689b79839b305a7b39",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-969500568m45lz4wyf39",
@@ -38418,7 +39118,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f9ebc1bb1cfe14122985c1678b5e0d7549e5bea3",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-96950077l0tn7barox36",
@@ -38441,7 +39146,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1f4b211441e7132c4331fa9f9bb15c30652430ef",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-969500j9kg4hf67vc976",
@@ -38464,7 +39174,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a7a95640434deb4210ffb7bd2029623280caba74",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-969500lmwjbg5rhvjv88",
@@ -38487,7 +39202,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "338cb2a761eb7316171129e24c2709a4b2706110",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-969500tpu5t3ha5d1f11",
@@ -38510,7 +39230,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "861f50072ad944cd2cc106641ab6aca8343fa393",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-969500xcgtmv08d76n87",
@@ -38533,7 +39258,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e4755d31cd46360ed5aed08a16cab45a5603910f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-9845007375ebb04c6f49",
@@ -38556,7 +39286,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "edf0ef404e3a43fc605a01a689c0c36891165f61",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-988400car8w9urqlgf30",
@@ -38579,7 +39314,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "70b1048621f0644ca1bfac9dd79815c94143bb53",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-988400qg33ws7jeiv602",
@@ -38602,7 +39342,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "61e38e16b6a69e9837e08bd70f694a5afd848273",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-98tptum4ivmfczbcur27",
@@ -38625,7 +39370,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "5624060ce464d22279ff5cc238ffae72dceb5b33",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-apvbkpoulhux7yzlku17",
@@ -38648,7 +39398,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "a501492f74291a4b28b92fc90ac193f47f5721eb",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-bn6wccz8ovp3ituuvn49",
@@ -38671,7 +39426,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c8617e3c8a47a0ce7d371570767e0c5bf25bb73a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-c4bxaty60wc6xeozdx54",
@@ -38694,7 +39454,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7f52f8fa57f95aa50a7f26e07c12d1679f21ff51",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-d71fakcblfs2o0rbpg08",
@@ -38717,7 +39482,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ca60b17443aaaa126ac75fe8ee214a973191a84c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-dprbozp0k5rm2ye8uu08",
@@ -38740,7 +39510,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d1c32cb49623b94074d91aaa02c5a8218cf30f93",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-e0jan6vludi1hitht809",
@@ -38763,7 +39538,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "2ff064db10d415c067cf0ff8a4aba7ab9e327609",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-f1of2zsx47cr0bcwa982",
@@ -38786,7 +39566,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7de807d9581d2d0217e365aa30349aacb4be1131",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-fcnmh6o7vwu7lhxmk351",
@@ -38809,7 +39594,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "83bc55ff6b8e30b7c78725a99c62ec08144b639e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-fdpvhdgj1iqzfk9kh630",
@@ -38832,7 +39622,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ac89b6cacb64e7ebac32b4ce7d491bf2fede827f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-fxm8faohmydipd38uz17",
@@ -38855,7 +39650,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "e919d31c134df8b8a0d0963797056f7883cc556b",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-i07wos4yj0n7yrfe7309",
@@ -38878,7 +39678,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "64487fae923331addc14870ba6124ca7da7b6bae",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-ilul7b6z54mrycf6h308",
@@ -38901,7 +39706,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "00b3fdc65197ee50a314b9c51a2a9f727821a234",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-inr2ejn1eran0w5zp974",
@@ -38924,7 +39734,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "8bc4f933bcd4ab13e171dda795674c0300f6353a",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-j3whbg0mts7o8zvmdc91",
@@ -38947,7 +39762,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "01fc214da4aa3db53c1a13c52604f2cfdcc0d7f4",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-k2neh8qnvw44jiwk7z55",
@@ -38970,7 +39790,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d280809eb4c1d8080831053c85b5ae27243c2bd8",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-lh7mqb13nwy7cj9vc445",
@@ -38993,7 +39818,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "3ec9ff809bfecd7d30f28f3c4ca830b4d97fccd8",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-luzqvyp4vs22clwdar65",
@@ -39016,7 +39846,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "3d3c14b9e08b4991f9e1c9accfcb5b8550ca8873",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-ni14y5umu60o7je9p611",
@@ -39039,7 +39874,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "d51d58e669418e5fe45f7ad99318f88685ed7c97",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-oqsj1du9taoc51a47k68",
@@ -39062,7 +39902,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "95e46cd9dc405e248de477c5cfecba3fce5d2e51",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-p4gtt6gf1w40cvimfr43",
@@ -39085,7 +39930,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "78689555ea1eb1f355a14e7f8b748c0295b066f6",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-q2ccms6r0as67hjmbn42",
@@ -39108,7 +39958,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "1d6a5ed3299c8764f5d4005dc49b0dc18738dedf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-r4pp93jzoly261qx3811",
@@ -39131,7 +39986,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "2a8b66ddd10302a5eca1ecf5138fcefbcfbff548",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-rcgzfpdmrw58vj54vr07",
@@ -39154,7 +40014,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "6f27a53cc77b549cd6f4a9ca3ffaa0b8f13b3ef8",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-rvhjwbxlj1rfubsy1f30",
@@ -39177,7 +40042,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "f558903842da891f09f45ba94d23499e3a8bfeab",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-ue2136o97nlb5byp9h04",
@@ -39200,7 +40070,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c7721f5ed793c7facf2e899c4da49babadef985e",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-unzwilhe4kmrp9k2l524",
@@ -39223,7 +40098,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "7cb4918ec4b5ed6b9b5192469a8e9b3046c7ee7c",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-uwjkfujfz02dkwi3ry53",
@@ -39246,7 +40126,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "dad1b446ac43fcfe6a49adb57ef15a9051a8fa92",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-wdjnr2l6d8rwoeb8t652",
@@ -39269,7 +40154,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "ab931eed6cb606a498dcf37587b1bb72861f5fc2",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-wocmu6hci0ojwnprzs33",
@@ -39292,7 +40182,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "90bc678ee2874c92dea8603da654ee94502dea78",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-wp5o65e6bmu84lno4227",
@@ -39315,7 +40210,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "44d791f8003c0c04d43e37c3e5ed11ad9c0e9a91",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-wptl2z3fiythsp5v2253",
@@ -39338,7 +40238,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "8358317056e83a65aafe595c5bd8c0e67e056c37",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-y87794h0us1r65vbxu25",
@@ -39361,7 +40266,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "94ad73a35e6324fb4ef1349f22c620e494d58ac4",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-z1ylo2uspore63vvul20",
@@ -39384,7 +40294,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "17a1b8bbe07ed6b07e05122232b2d0c7ffcb1f1f",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-zp5ilwvsye4ljgmmvd57",
@@ -39407,7 +40322,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "8bd6eab7ebf1b8bc007cb26e6419daf1fe3a4233",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-lei-zsn2lwnpyw6ismruc664",
@@ -39430,7 +40350,12 @@
       },
       "disposition": "no-selected-registry-marker",
       "reason": "No selected filename marker; repository presence alone does not imply installable tool or role.",
-      "registrations": []
+      "registrations": [
+        {
+          "sourceCommit": "c894e821862c8afda552d0a0673c52f377fb3bcf",
+          "entry": "skill/corporate-entity-knowledge"
+        }
+      ]
     },
     {
       "repository": "cloud-itonami/app-itonami-cloud-itonami-licensed-operator",

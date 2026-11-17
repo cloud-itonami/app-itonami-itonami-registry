@@ -1,0 +1,10 @@
+{:company/legal-name "ETHIO TELECOM"
+ :company/lei "2549003PWMAF5SDUL432"
+ :company/jurisdiction "ET"
+ :company/website "https://www.ethiotelecom.et"
+ :company/isic-rev5 "6110"
+ :company/sector :telecom-wired
+ :company/reg-status "LAPSED"
+ :company/reg-note "real GLEIF entity-verified LEI, not annually renewed (state-owned telecom); same convention as isic-6492 Discover Financial / TEPCO / DEWA"
+ :company/contact-email "994@ethionet.et"
+ :company/contact-email-note "published general customer-service contact email on the company's own site (also reachable via SMS/call to short-code 994); no separate general-inquiry address beyond this found this pass"}
