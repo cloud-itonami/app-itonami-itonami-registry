@@ -26,6 +26,8 @@ affiliated with the company**. It is reference material, not legal advice.
    - `blueprint.edn`: short profile (legal name, address, phone, website, ticker, retrieval note). Start here.
    - `facts.edn`: verified registry facts (legal form, status, parent/ultimate-parent or the reporting exception),
      each with its source URL and retrieval time. Use it for ownership and status questions.
+   - `citations.edn` and `CORRECTIONS.md` (only for some entities, listed in the index `files`): the catalog of what each
+     fact was checked against, and the corrections applied to it. Read `CORRECTIONS.md` first when it exists.
    - `tos.journal.edn`: the full text of the company's published Terms of Use as tx-data. It is long; search it for the
      clause in question instead of reading it whole, and quote sparingly.
 3. State where the answer comes from (file and the `:source/retrieved-at` or retrieval date). These files are snapshots
