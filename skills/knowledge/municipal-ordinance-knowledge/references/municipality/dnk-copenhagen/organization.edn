@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Copenhagen"
+ :name-local "Københavns Kommune"
+ :official-url "https://www.kk.dk/"
+ :wikidata "Q1748"
+ :ordinance-database-url "https://www.kk.dk/"
+ :head-role-note "institutional office title only (Overborgmester / Lord Mayor, and six departmental mayors under the mellemformstyre governance model); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Copenhagen" :country "dnk" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1748" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-15 -- both entries cite kk.dk-family official pages/PDFs, which rendered cleanly with explicit dates"}

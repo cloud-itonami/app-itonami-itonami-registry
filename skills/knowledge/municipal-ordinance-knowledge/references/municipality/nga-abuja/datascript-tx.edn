@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "abuja.decree-6-1976-federal-capital-territory-act"
+             :title "Federal Capital Territory Act (Decree No. 6 of 1976)"
+             :municipality "abuja"
+             :country "NGA"
+             :kind :local-act
+             :number "1976 No. 6"
+             :url "http://lawsofnigeria.placng.org/laws/F6.pdf"
+             :url-provenance :placng-org-legal-database
+             :enacted-date "1976-02-04"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "abuja.act-10-1997-abuja-environmental-protection-board"
+             :title "Abuja Environmental Protection Board Act"
+             :municipality "abuja"
+             :country "NGA"
+             :kind :local-act
+             :number "Act No. 10 of 1997"
+             :url "https://www.fcta.gov.ng/ova_dep/abuja-environmental-protection-board-aepb/"
+             :url-provenance :official-fcta-gov-ng
+             :enacted-date "1997"
+             :retrieved-at "2026-07-17"
+             :topic [:environment]}]

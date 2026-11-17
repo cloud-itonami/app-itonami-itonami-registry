@@ -1,0 +1,9 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Department of Municipalities and Transport (Abu Dhabi)"
+ :abbreviation "DMT"
+ :official-url "https://www.dmt.gov.ae/"
+ :wikidata "Q1519"
+ :head-role-note "institutional office title only (Chairman of DMT); personal names of current and former office-holders/rulers were incidentally encountered on the org's own About page while confirming institutional history -- read only for that purpose, never persisted here"
+ :hq {:line-en "Abu Dhabi" :country "are" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1519" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-16 -- DMT's own About Us page gave historical narrative without exact law numbers/dates for most milestones; the two entries here instead cite two directly-legible official PDFs: Al Ain City Municipality's own fine/violations document (which legibly states the exact citation 'Law No. (2) of 2012') and the Abu Dhabi Government's own Official Gazette (Eleventh Edition, 30 November 2019), whose table of contents legibly lists 'Law No. (30) of 2019 Concerning the Establishment of the Department of Municipalities and Transport'"}

@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Municipality of San José (Cantón Central)"
+ :name-local "Municipalidad de San José"
+ :official-url "https://www.msj.go.cr/"
+ :wikidata "Q3070"
+ :ordinance-database-url "https://pgrweb.go.cr/scij/"
+ :head-role-note "institutional office title only (Alcalde/Alcaldesa, and Concejo Municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "San José" :country "cri" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3070" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- msj.go.cr (the municipality's own domain) was entirely unreachable (connect ECONNREFUSED 196.40.1.83:443); both entries instead cite pgrweb.go.cr (SCIJ, the national Sistema Costarricense de Información Jurídica, which also indexes municipal/cantonal regulations), which rendered fully"}

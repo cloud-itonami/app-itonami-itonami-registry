@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney files.
+
+[#:ordinance{:id "buenos-aires.codigo-contravencional-ley1472"
+             :title "Código Contravencional de la Ciudad Autónoma de Buenos Aires"
+             :municipality "buenos-aires"
+             :country "ARG"
+             :kind :ordinance
+             :number "Ley 1472"
+             :url "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/62598"
+             :url-provenance :official-boletinoficial-buenosaires
+             :enacted-date "2004-10-28"
+             :retrieved-at "2026-07-15"
+             :topic [:public-order]}
+ #:ordinance{:id "buenos-aires.ley-acceso-informacion-104"
+             :title "Ley de Acceso a la Información"
+             :municipality "buenos-aires"
+             :country "ARG"
+             :kind :ordinance
+             :number "Ley 104"
+             :url "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/982"
+             :url-provenance :official-boletinoficial-buenosaires
+             :enacted-date "1998-12-17"
+             :retrieved-at "2026-07-15"
+             :topic [:information-disclosure :transparency]}]

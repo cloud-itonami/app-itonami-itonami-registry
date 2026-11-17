@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Osaka"
+ :name-local "大阪市"
+ :official-url "https://www.city.osaka.lg.jp/"
+ :wikidata "Q35765"
+ :ordinance-database-url "https://www.city.osaka.lg.jp/shisei/category/3054-4-2-0-0-0-0-0-0-0.html"
+ :head-role-note "institutional office title only (大阪市長 / Mayor of Osaka, and 大阪市会 / Osaka City Council); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Osaka" :country "jpn" :kind "capital of Osaka Prefecture; designated city (not national capital; Tokyo is)" :provenance "https://www.wikidata.org/wiki/Q35765" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17"}

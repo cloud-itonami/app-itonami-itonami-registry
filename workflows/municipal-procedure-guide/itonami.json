@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "municipality-are-abu-dhabi-5c86b0e5"
+  ],
+  "useWhen": "A user wants to know which local rules apply to something they want to do in a covered municipality and where to read them.",
+  "avoidWhen": "The municipality is not covered, the user wants the procedure carried out for them, or the question needs legal advice.",
+  "inputs": {
+    "parameters": [
+      "municipality",
+      "procedure",
+      "userSituation"
+    ]
+  },
+  "outputs": {
+    "result": "a sourced checklist and a hand-off to the official channel"
+  },
+  "effects": [
+    "filesystem-read",
+    "user-approved-network-fetch"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "the user approves each network fetch; the workflow never files or applies"
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "not-tested",
+    "live": false
+  },
+  "compatibilityNote": "Hermes storage format only; client installation and execution are not qualified. Wildcard versions do not establish runtime compatibility.",
+  "executionNote": "workflow.json is an Itonami declarative recipe; no Hermes workflow executor compatibility is claimed."
+}

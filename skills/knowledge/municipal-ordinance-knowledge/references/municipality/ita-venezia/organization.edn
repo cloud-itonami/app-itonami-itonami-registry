@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Venice"
+ :name-local "Comune di Venezia"
+ :official-url "https://www.comune.venezia.it/"
+ :wikidata "Q641"
+ :ordinance-database-url "https://www.comune.venezia.it/it/content/regolamenti"
+ :head-role-note "institutional office title only (Sindaco di Venezia, and Consiglio Comunale); personal names of current or past office-holders are intentionally NOT stored, including names appearing incidentally in primary-source regulation prefaces read to verify the entries here"
+ :hq {:line-en "Venice" :country "ita" :kind "regional capital of Veneto (not national capital; Rome is)" :provenance "https://www.wikidata.org/wiki/Q641" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17"}

@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Metropolitan District of Quito"
+ :name-local "Distrito Metropolitano de Quito"
+ :official-url "https://www.quito.gob.ec/"
+ :wikidata "Q2900"
+ :ordinance-database-url "https://www.gob.ec/"
+ :head-role-note "institutional office title only (Alcalde/Alcaldesa, and Concejo Metropolitano); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Quito" :country "ecu" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2900" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite gob.ec (Ecuador's official government portal, which also indexes municipal/metropolitan ordinances alongside national law), the same portal already proven reliable for this country's statute.facts one tick earlier"}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1",
+  "type": "workflow",
+  "id": "municipal-procedure-guide",
+  "name": "municipal-procedure-guide",
+  "version": "0.1.0",
+  "description": "Guide a user through finding the rules and official sources for an administrative procedure in a covered municipality, and hand off to the official channel. Never files or applies for the user.",
+  "author": "cloud-itonami",
+  "license": "AGPL-3.0-or-later",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/tree/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f",
+  "compatibility": {
+    "hermes": "*",
+    "desktop": "*"
+  },
+  "entry": "workflow.json",
+  "requires": [
+    "skill/municipal-ordinance-knowledge"
+  ],
+  "permissions": [
+    "filesystem:read"
+  ]
+}

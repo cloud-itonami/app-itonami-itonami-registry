@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "munich", :retrieved-at "2026-07-17", :country "DEU", :url "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/810/version1/0.html", :number "Stadtrecht Nr. 810; vom 15. Juni 2012 (MüABl. S. 197, bekanntgemacht 10.07.2012)", :enacted-date "2012-06-15", :url-provenance :official-stadt-muenchen-de, :topic #{:public-space :parks}, :title "Satzung über die Benutzung der städtischen öffentlichen Grünanlagen (Grünanlagensatzung)", :id "munich.gruenanlagensatzung-2012"}
+#:ordinance{:kind :ordinance, :municipality "munich", :retrieved-at "2026-07-17", :country "DEU", :url "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/240/version3/0.html", :last-revised-date "2019-04-24", :number "Stadtrecht Nr. 240; vom 4. Dezember 1979 (MüABl. S. 278, bekanntgemacht 20.12.1979)", :enacted-date "1979-12-04", :url-provenance :official-stadt-muenchen-de, :topic #{:public-space :sanitation}, :title "Satzung über die Straßenreinigung der Landeshauptstadt München (Straßenreinigungssatzung)", :id "munich.strassenreinigungssatzung-1979"}
+]

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "itonami.workflow.v1",
+  "mode": "recipe",
+  "inputs": [
+    "municipality",
+    "procedure",
+    "userSituation"
+  ],
+  "steps": [
+    {
+      "id": "identify",
+      "action": "Confirm the municipality and what the user wants to do (the procedure). Ask only for what is needed; do not collect personal data."
+    },
+    {
+      "id": "lookup",
+      "action": "Find the municipality in the knowledge skill and list the ordinances that may apply, with their official URLs and retrieval dates.",
+      "uses": [
+        "skill/municipal-ordinance-knowledge"
+      ]
+    },
+    {
+      "id": "read-primary",
+      "action": "Ask the user to open the official source, or, only if the user approves that exact request, fetch the official page; read the primary text before stating any rule."
+    },
+    {
+      "id": "checklist",
+      "action": "Produce a checklist of what the user must confirm or prepare, each item tied to its source; mark anything not found in the primary text as unknown."
+    },
+    {
+      "id": "handoff",
+      "action": "Point to the official channel for the procedure (site, office, contact from the organization record). State that the information is a snapshot and that the user files or applies personally."
+    }
+  ],
+  "stopWhen": [
+    "municipality-not-in-archive",
+    "request-needs-personal-data",
+    "user-asks-to-file-or-apply-on-their-behalf"
+  ],
+  "automaticExecution": false
+}

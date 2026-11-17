@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "milano", :retrieved-at "2026-07-17", :country "ITA", :url "https://www2.comune.milano.it/documents/20126/200621210/Regolamento+Edilizio+2016.pdf/ef520144-6ac6-d3c2-c51e-99c6232fa962?t=1551192584474", :last-revised-date "2016-02-03", :number "Adozione: Deliberazione n. 9 del 14/04/2014; Approvazione: Deliberazione n. 27 del 02/10/2014; testo aggiornato con Deliberazione di Giunta n. 2542 del 29/12/2015 e Determinazione Dirigenziale n. 8 del 03/02/2016", :enacted-date "2014-10-02", :url-provenance :official-comune-milano-it, :topic #{:building :urban-planning}, :title "Regolamento Edilizio", :id "milano.regolamento-edilizio-2014"}
+#:ordinance{:kind :ordinance, :municipality "milano", :retrieved-at "2026-07-17", :country "ITA", :url "https://www.comune.milano.it/documents/20118/253355/Regolamento+per+il+Benessere+e+la+tutela+degli+animali+del+Comune+di+Milano.pdf/4c3ebb5e-d8e6-3433-543a-8a7c34f4a5eb?version=1.0&t=1749044016492&download=true", :number "Deliberazione del Consiglio Comunale n. 4 del 3 febbraio 2020", :enacted-date "2020-02-03", :url-provenance :official-comune-milano-it, :topic #{:animal-welfare :public-order}, :title "Regolamento per il benessere e la tutela degli animali del Comune di Milano", :id "milano.regolamento-benessere-tutela-animali-2020"}
+]

@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Panama City (Ciudad de Panamá)"
+ :official-url "https://mupa.gob.pa/"
+ :wikidata "Q3306"
+ :head-role-note "institutional office title only (Mayor of Panama City / Alcalde); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Panama City" :country "pan" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3306" :last-verified "2026-07-18" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read) 2026-07-18 -- Panama City is Panama's stable capital, with no ongoing ambiguity (Wikidata Q3306). This catalog's entries directly cite the official Panamanian National Assembly LEGISPAN system (read via the PDF saved-path fallback, for the current national municipal-regime law, Ley N.° 106 de 1973) and Wikipedia (for the 1519 founding, with a documented 10-day date discrepancy between Wikipedia's cross-language-corroborated 15 August and Wikidata's own 25 August)."}

@@ -1,0 +1,625 @@
+{
+ "count": 62,
+ "municipalities": [
+  {
+   "id": "usa-washington-dc",
+   "country": "USA",
+   "name": "Council of the District of Columbia",
+   "name-local": "Washington, D.C.",
+   "official-url": "https://dccouncil.gov/",
+   "wikidata": "Q61",
+   "ordinances": 0,
+   "dir": "references/municipality/usa-washington-dc"
+  },
+  {
+   "id": "are-abu-dhabi",
+   "country": "are",
+   "name": "Department of Municipalities and Transport (Abu Dhabi)",
+   "name-local": null,
+   "official-url": "https://www.dmt.gov.ae/",
+   "wikidata": "Q1519",
+   "ordinances": 0,
+   "dir": "references/municipality/are-abu-dhabi"
+  },
+  {
+   "id": "arg-buenos-aires",
+   "country": "arg",
+   "name": "Autonomous City of Buenos Aires",
+   "name-local": "Ciudad Autónoma de Buenos Aires",
+   "official-url": "https://buenosaires.gob.ar/",
+   "wikidata": "Q1486",
+   "ordinances": 0,
+   "dir": "references/municipality/arg-buenos-aires"
+  },
+  {
+   "id": "aus-sydney",
+   "country": "aus",
+   "name": "City of Sydney",
+   "name-local": "City of Sydney",
+   "official-url": "https://www.cityofsydney.nsw.gov.au/",
+   "wikidata": "Q3130",
+   "ordinances": 0,
+   "dir": "references/municipality/aus-sydney"
+  },
+  {
+   "id": "aut-vienna",
+   "country": "aut",
+   "name": "City of Vienna (Stadt Wien)",
+   "name-local": null,
+   "official-url": "https://www.wien.gv.at/",
+   "wikidata": "Q1741",
+   "ordinances": 0,
+   "dir": "references/municipality/aut-vienna"
+  },
+  {
+   "id": "bel-brussels",
+   "country": "bel",
+   "name": "City of Brussels",
+   "name-local": "Ville de Bruxelles / Stad Brussel",
+   "official-url": "https://www.bruxelles.be/",
+   "wikidata": "Q239",
+   "ordinances": 0,
+   "dir": "references/municipality/bel-brussels"
+  },
+  {
+   "id": "bra-sao-paulo",
+   "country": "bra",
+   "name": "City of São Paulo",
+   "name-local": "Município de São Paulo",
+   "official-url": "https://capital.sp.gov.br/",
+   "wikidata": "Q174",
+   "ordinances": 0,
+   "dir": "references/municipality/bra-sao-paulo"
+  },
+  {
+   "id": "can-toronto",
+   "country": "can",
+   "name": "City of Toronto",
+   "name-local": "Toronto",
+   "official-url": "https://www.toronto.ca/",
+   "wikidata": "Q172",
+   "ordinances": 0,
+   "dir": "references/municipality/can-toronto"
+  },
+  {
+   "id": "che-bern",
+   "country": "che",
+   "name": "City of Bern (Stadt Bern)",
+   "name-local": null,
+   "official-url": "https://www.bern.ch/",
+   "wikidata": "Q70",
+   "ordinances": 0,
+   "dir": "references/municipality/che-bern"
+  },
+  {
+   "id": "chl-santiago",
+   "country": "chl",
+   "name": "Municipality of Santiago (Comuna de Santiago)",
+   "name-local": "Municipalidad de Santiago",
+   "official-url": "https://www.munistgo.cl/",
+   "wikidata": "Q2887",
+   "ordinances": 0,
+   "dir": "references/municipality/chl-santiago"
+  },
+  {
+   "id": "chn-beijing",
+   "country": "chn",
+   "name": "Beijing Municipality",
+   "name-local": "北京市",
+   "official-url": "https://www.beijing.gov.cn/",
+   "wikidata": null,
+   "ordinances": 0,
+   "dir": "references/municipality/chn-beijing"
+  },
+  {
+   "id": "chn-shanghai",
+   "country": "chn",
+   "name": "Shanghai Municipality",
+   "name-local": "上海市",
+   "official-url": "https://www.shanghai.gov.cn/",
+   "wikidata": null,
+   "ordinances": 0,
+   "dir": "references/municipality/chn-shanghai"
+  },
+  {
+   "id": "chn-shenzhen",
+   "country": "chn",
+   "name": "Shenzhen Municipality",
+   "name-local": "深圳市",
+   "official-url": "https://www.sz.gov.cn/",
+   "wikidata": null,
+   "ordinances": 0,
+   "dir": "references/municipality/chn-shenzhen"
+  },
+  {
+   "id": "col-bogota",
+   "country": "col",
+   "name": "Bogotá, D.C. (Capital District)",
+   "name-local": "Bogotá, Distrito Capital",
+   "official-url": "https://bogota.gov.co/",
+   "wikidata": "Q2841",
+   "ordinances": 0,
+   "dir": "references/municipality/col-bogota"
+  },
+  {
+   "id": "cri-san-jose",
+   "country": "cri",
+   "name": "Municipality of San José (Cantón Central)",
+   "name-local": "Municipalidad de San José",
+   "official-url": "https://www.msj.go.cr/",
+   "wikidata": "Q3070",
+   "ordinances": 0,
+   "dir": "references/municipality/cri-san-jose"
+  },
+  {
+   "id": "cze-prague",
+   "country": "cze",
+   "name": "Capital City of Prague (Hlavní město Praha)",
+   "name-local": null,
+   "official-url": "https://praha.eu/",
+   "wikidata": "Q1085",
+   "ordinances": 0,
+   "dir": "references/municipality/cze-prague"
+  },
+  {
+   "id": "deu-berlin",
+   "country": "deu",
+   "name": "State of Berlin",
+   "name-local": "Land Berlin",
+   "official-url": "https://www.berlin.de/",
+   "wikidata": "Q64",
+   "ordinances": 0,
+   "dir": "references/municipality/deu-berlin"
+  },
+  {
+   "id": "deu-munich",
+   "country": "deu",
+   "name": "City of Munich",
+   "name-local": "Landeshauptstadt München",
+   "official-url": "https://stadt.muenchen.de/",
+   "wikidata": "Q1726",
+   "ordinances": 0,
+   "dir": "references/municipality/deu-munich"
+  },
+  {
+   "id": "dnk-copenhagen",
+   "country": "dnk",
+   "name": "City of Copenhagen",
+   "name-local": "Københavns Kommune",
+   "official-url": "https://www.kk.dk/",
+   "wikidata": "Q1748",
+   "ordinances": 0,
+   "dir": "references/municipality/dnk-copenhagen"
+  },
+  {
+   "id": "ecu-quito",
+   "country": "ecu",
+   "name": "Metropolitan District of Quito",
+   "name-local": "Distrito Metropolitano de Quito",
+   "official-url": "https://www.quito.gob.ec/",
+   "wikidata": "Q2900",
+   "ordinances": 0,
+   "dir": "references/municipality/ecu-quito"
+  },
+  {
+   "id": "egy-cairo",
+   "country": "egy",
+   "name": "Cairo Governorate",
+   "name-local": null,
+   "official-url": "https://www.cairo.gov.eg/en/",
+   "wikidata": "Q85",
+   "ordinances": 0,
+   "dir": "references/municipality/egy-cairo"
+  },
+  {
+   "id": "esp-barcelona",
+   "country": "esp",
+   "name": "Barcelona City Council",
+   "name-local": "Ajuntament de Barcelona",
+   "official-url": "https://www.barcelona.cat/",
+   "wikidata": "Q1492",
+   "ordinances": 0,
+   "dir": "references/municipality/esp-barcelona"
+  },
+  {
+   "id": "esp-madrid",
+   "country": "esp",
+   "name": "City of Madrid",
+   "name-local": "Ayuntamiento de Madrid",
+   "official-url": "https://www.madrid.es/",
+   "wikidata": "Q2807",
+   "ordinances": 0,
+   "dir": "references/municipality/esp-madrid"
+  },
+  {
+   "id": "fin-helsinki",
+   "country": "fin",
+   "name": "City of Helsinki",
+   "name-local": "Helsingin kaupunki",
+   "official-url": "https://www.hel.fi/en",
+   "wikidata": "Q1757",
+   "ordinances": 0,
+   "dir": "references/municipality/fin-helsinki"
+  },
+  {
+   "id": "fra-lyon",
+   "country": "fra",
+   "name": "City of Lyon",
+   "name-local": "Ville de Lyon",
+   "official-url": "https://www.lyon.fr/",
+   "wikidata": "Q456",
+   "ordinances": 0,
+   "dir": "references/municipality/fra-lyon"
+  },
+  {
+   "id": "fra-marseille",
+   "country": "fra",
+   "name": "City of Marseille",
+   "name-local": "Ville de Marseille",
+   "official-url": "https://www.marseille.fr/",
+   "wikidata": "Q23482",
+   "ordinances": 0,
+   "dir": "references/municipality/fra-marseille"
+  },
+  {
+   "id": "fra-paris",
+   "country": "fra",
+   "name": "City of Paris",
+   "name-local": "Ville de Paris",
+   "official-url": "https://www.paris.fr/",
+   "wikidata": "Q90",
+   "ordinances": 0,
+   "dir": "references/municipality/fra-paris"
+  },
+  {
+   "id": "gbr-london",
+   "country": "gbr",
+   "name": "Greater London Authority",
+   "name-local": "London",
+   "official-url": "https://www.london.gov.uk/",
+   "wikidata": "Q84",
+   "ordinances": 0,
+   "dir": "references/municipality/gbr-london"
+  },
+  {
+   "id": "gtm-guatemala-city",
+   "country": "gtm",
+   "name": "Guatemala City (Ciudad de Guatemala / Nueva Guatemala de la Asunción)",
+   "name-local": null,
+   "official-url": "https://muniguate.com/",
+   "wikidata": "Q1555",
+   "ordinances": 0,
+   "dir": "references/municipality/gtm-guatemala-city"
+  },
+  {
+   "id": "hnd-tegucigalpa",
+   "country": "hnd",
+   "name": "Tegucigalpa (Distrito Central, Francisco Morazán)",
+   "name-local": null,
+   "official-url": "https://amdc.hn/",
+   "wikidata": "Q3238",
+   "ordinances": 0,
+   "dir": "references/municipality/hnd-tegucigalpa"
+  },
+  {
+   "id": "idn-jakarta",
+   "country": "idn",
+   "name": "Special Capital Region of Jakarta (DKI Jakarta)",
+   "name-local": "Daerah Khusus Ibukota Jakarta",
+   "official-url": "https://jdih.jakarta.go.id/",
+   "wikidata": "Q3630",
+   "ordinances": 0,
+   "dir": "references/municipality/idn-jakarta"
+  },
+  {
+   "id": "ind-new-delhi",
+   "country": "ind",
+   "name": "New Delhi Municipal Council",
+   "name-local": "नई दिल्ली नगर पालिका परिषद",
+   "official-url": "https://www.ndmc.gov.in/",
+   "wikidata": "Q987",
+   "ordinances": 0,
+   "dir": "references/municipality/ind-new-delhi"
+  },
+  {
+   "id": "irl-dublin",
+   "country": "irl",
+   "name": "Dublin City Council",
+   "name-local": null,
+   "official-url": "https://www.dublincity.ie/",
+   "wikidata": "Q1761",
+   "ordinances": 0,
+   "dir": "references/municipality/irl-dublin"
+  },
+  {
+   "id": "ita-firenze",
+   "country": "ita",
+   "name": "City of Florence",
+   "name-local": "Comune di Firenze",
+   "official-url": "https://www.comune.firenze.it/",
+   "wikidata": "Q2044",
+   "ordinances": 0,
+   "dir": "references/municipality/ita-firenze"
+  },
+  {
+   "id": "ita-milano",
+   "country": "ita",
+   "name": "City of Milan",
+   "name-local": "Comune di Milano",
+   "official-url": "https://www.comune.milano.it/",
+   "wikidata": "Q490",
+   "ordinances": 0,
+   "dir": "references/municipality/ita-milano"
+  },
+  {
+   "id": "ita-napoli",
+   "country": "ita",
+   "name": "City of Naples",
+   "name-local": "Comune di Napoli",
+   "official-url": "https://www.comune.napoli.it/",
+   "wikidata": "Q2634",
+   "ordinances": 0,
+   "dir": "references/municipality/ita-napoli"
+  },
+  {
+   "id": "ita-roma",
+   "country": "ita",
+   "name": "Rome Capital",
+   "name-local": "Roma Capitale",
+   "official-url": "https://www.comune.roma.it/",
+   "wikidata": "Q220",
+   "ordinances": 0,
+   "dir": "references/municipality/ita-roma"
+  },
+  {
+   "id": "ita-venezia",
+   "country": "ita",
+   "name": "City of Venice",
+   "name-local": "Comune di Venezia",
+   "official-url": "https://www.comune.venezia.it/",
+   "wikidata": "Q641",
+   "ordinances": 0,
+   "dir": "references/municipality/ita-venezia"
+  },
+  {
+   "id": "jpn-kyoto",
+   "country": "jpn",
+   "name": "City of Kyoto",
+   "name-local": "京都市",
+   "official-url": "https://www.city.kyoto.lg.jp/",
+   "wikidata": "Q34600",
+   "ordinances": 0,
+   "dir": "references/municipality/jpn-kyoto"
+  },
+  {
+   "id": "jpn-osaka",
+   "country": "jpn",
+   "name": "City of Osaka",
+   "name-local": "大阪市",
+   "official-url": "https://www.city.osaka.lg.jp/",
+   "wikidata": "Q35765",
+   "ordinances": 0,
+   "dir": "references/municipality/jpn-osaka"
+  },
+  {
+   "id": "jpn-tokyo",
+   "country": "jpn",
+   "name": "Tokyo Metropolitan Government",
+   "name-local": "東京都",
+   "official-url": "https://www.metro.tokyo.lg.jp/",
+   "wikidata": "Q1490",
+   "ordinances": 0,
+   "dir": "references/municipality/jpn-tokyo"
+  },
+  {
+   "id": "ken-nairobi",
+   "country": "ken",
+   "name": "Nairobi City County",
+   "name-local": null,
+   "official-url": "https://nairobi.go.ke/",
+   "wikidata": "Q3870",
+   "ordinances": 0,
+   "dir": "references/municipality/ken-nairobi"
+  },
+  {
+   "id": "kor-seoul",
+   "country": "kor",
+   "name": "Seoul Metropolitan Government",
+   "name-local": "서울특별시",
+   "official-url": "https://english.seoul.go.kr/",
+   "wikidata": "Q8684",
+   "ordinances": 0,
+   "dir": "references/municipality/kor-seoul"
+  },
+  {
+   "id": "mex-guadalajara",
+   "country": "mex",
+   "name": "City of Guadalajara",
+   "name-local": "Municipio de Guadalajara",
+   "official-url": "https://www.guadalajara.gob.mx/",
+   "wikidata": "Q9022",
+   "ordinances": 0,
+   "dir": "references/municipality/mex-guadalajara"
+  },
+  {
+   "id": "mys-kuala-lumpur",
+   "country": "mys",
+   "name": "Kuala Lumpur City Hall (Dewan Bandaraya Kuala Lumpur, DBKL)",
+   "name-local": null,
+   "official-url": "https://www.dbkl.gov.my/en",
+   "wikidata": "Q1865",
+   "ordinances": 0,
+   "dir": "references/municipality/mys-kuala-lumpur"
+  },
+  {
+   "id": "nga-abuja",
+   "country": "nga",
+   "name": "Federal Capital Territory, Abuja (Federal Capital Development Authority)",
+   "name-local": null,
+   "official-url": "https://fcta.gov.ng/",
+   "wikidata": "Q3787",
+   "ordinances": 0,
+   "dir": "references/municipality/nga-abuja"
+  },
+  {
+   "id": "nld-amsterdam",
+   "country": "nld",
+   "name": "City of Amsterdam",
+   "name-local": "Gemeente Amsterdam",
+   "official-url": "https://www.amsterdam.nl/",
+   "wikidata": "Q727",
+   "ordinances": 0,
+   "dir": "references/municipality/nld-amsterdam"
+  },
+  {
+   "id": "nor-oslo",
+   "country": "nor",
+   "name": "City of Oslo",
+   "name-local": "Oslo kommune",
+   "official-url": "https://www.oslo.kommune.no/",
+   "wikidata": "Q585",
+   "ordinances": 0,
+   "dir": "references/municipality/nor-oslo"
+  },
+  {
+   "id": "nzl-wellington",
+   "country": "nzl",
+   "name": "Wellington City Council",
+   "name-local": null,
+   "official-url": "https://wellington.govt.nz/",
+   "wikidata": "Q23661",
+   "ordinances": 0,
+   "dir": "references/municipality/nzl-wellington"
+  },
+  {
+   "id": "pan-panama-city",
+   "country": "pan",
+   "name": "Panama City (Ciudad de Panamá)",
+   "name-local": null,
+   "official-url": "https://mupa.gob.pa/",
+   "wikidata": "Q3306",
+   "ordinances": 0,
+   "dir": "references/municipality/pan-panama-city"
+  },
+  {
+   "id": "phl-manila",
+   "country": "phl",
+   "name": "City of Manila (Lungsod ng Maynila)",
+   "name-local": null,
+   "official-url": "https://manila.gov.ph/",
+   "wikidata": "Q1461",
+   "ordinances": 0,
+   "dir": "references/municipality/phl-manila"
+  },
+  {
+   "id": "pol-warsaw",
+   "country": "pol",
+   "name": "Capital City of Warsaw",
+   "name-local": "Miasto Stołeczne Warszawa",
+   "official-url": "https://um.warszawa.pl/",
+   "wikidata": "Q270",
+   "ordinances": 0,
+   "dir": "references/municipality/pol-warsaw"
+  },
+  {
+   "id": "prt-lisbon",
+   "country": "prt",
+   "name": "City of Lisbon (Cidade de Lisboa)",
+   "name-local": null,
+   "official-url": "https://www.lisboa.pt/",
+   "wikidata": "Q597",
+   "ordinances": 0,
+   "dir": "references/municipality/prt-lisbon"
+  },
+  {
+   "id": "pry-asuncion",
+   "country": "pry",
+   "name": "Municipality of Asunción",
+   "name-local": "Municipalidad de Asunción",
+   "official-url": "https://www.asuncion.gov.py/",
+   "wikidata": "Q2933",
+   "ordinances": 0,
+   "dir": "references/municipality/pry-asuncion"
+  },
+  {
+   "id": "sau-riyadh",
+   "country": "sau",
+   "name": "Riyadh Municipality (Amanat al-Riyadh) / Royal Commission for Riyadh City",
+   "name-local": null,
+   "official-url": "https://www.alriyadh.gov.sa/en",
+   "wikidata": "Q3692",
+   "ordinances": 0,
+   "dir": "references/municipality/sau-riyadh"
+  },
+  {
+   "id": "swe-gothenburg",
+   "country": "swe",
+   "name": "City of Gothenburg",
+   "name-local": "Göteborgs Stad",
+   "official-url": "https://goteborg.se/",
+   "wikidata": "Q25287",
+   "ordinances": 0,
+   "dir": "references/municipality/swe-gothenburg"
+  },
+  {
+   "id": "tha-bangkok",
+   "country": "tha",
+   "name": "Bangkok Metropolitan Administration",
+   "name-local": null,
+   "official-url": "https://official.bangkok.go.th/",
+   "wikidata": "Q1861",
+   "ordinances": 0,
+   "dir": "references/municipality/tha-bangkok"
+  },
+  {
+   "id": "tur-ankara",
+   "country": "tur",
+   "name": "Ankara Metropolitan Municipality (Ankara Büyükşehir Belediyesi)",
+   "name-local": null,
+   "official-url": "https://www.ankara.bel.tr/",
+   "wikidata": "Q3640",
+   "ordinances": 0,
+   "dir": "references/municipality/tur-ankara"
+  },
+  {
+   "id": "ury-montevideo",
+   "country": "ury",
+   "name": "Intendencia de Montevideo (Department of Montevideo)",
+   "name-local": "Intendencia de Montevideo",
+   "official-url": "https://montevideo.gub.uy/",
+   "wikidata": "Q1335",
+   "ordinances": 0,
+   "dir": "references/municipality/ury-montevideo"
+  },
+  {
+   "id": "usa-new-orleans",
+   "country": "usa",
+   "name": "City of New Orleans",
+   "name-local": "City of New Orleans",
+   "official-url": "https://nola.gov/",
+   "wikidata": "Q34404",
+   "ordinances": 0,
+   "dir": "references/municipality/usa-new-orleans"
+  },
+  {
+   "id": "vnm-hanoi",
+   "country": "vnm",
+   "name": "People's Committee of Hanoi City",
+   "name-local": "Ủy ban nhân dân Thành phố Hà Nội",
+   "official-url": "https://english.hanoi.gov.vn/",
+   "wikidata": "Q1858",
+   "ordinances": 0,
+   "dir": "references/municipality/vnm-hanoi"
+  },
+  {
+   "id": "zaf-cape-town",
+   "country": "zaf",
+   "name": "City of Cape Town",
+   "name-local": "City of Cape Town / Stad Kaapstad",
+   "official-url": "https://www.capetown.gov.za/",
+   "wikidata": "Q5465",
+   "ordinances": 0,
+   "dir": "references/municipality/zaf-cape-town"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Jefe/Jefa de Gobierno) — no personal names.
+{:name-en "Autonomous City of Buenos Aires"
+ :name-local "Ciudad Autónoma de Buenos Aires"
+ :official-url "https://buenosaires.gob.ar/"
+ :wikidata "Q1486"
+ :ordinance-database-url "https://boletinoficial.buenosaires.gob.ar/"
+ :head-role-note "institutional office title only (Jefe/Jefa de Gobierno de la Ciudad); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Buenos Aires" :country "arg" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1486" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- the direct PDF republication rendered with a font-subsetting artifact worse than usual (even the title itself illegible), so both entries cite boletinoficial.buenosaires.gob.ar's own HTML norm pages instead, which rendered cleanly"}

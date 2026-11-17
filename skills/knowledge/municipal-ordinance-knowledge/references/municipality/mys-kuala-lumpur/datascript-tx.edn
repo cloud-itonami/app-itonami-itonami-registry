@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "kuala-lumpur.act-190-1960-federal-capital-act"
+             :title "Federal Capital Act 1960"
+             :municipality "kuala-lumpur"
+             :country "MYS"
+             :kind :local-act
+             :number "Act 190"
+             :url "https://simplymalaysia.wordpress.com/wp-content/uploads/2011/10/act-190-federal-capital-act-1960.pdf"
+             :url-provenance :laws-of-malaysia-official-reprint-mirror
+             :enacted-date "1961-04-01"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "kuala-lumpur.act-59-1971-city-of-kuala-lumpur-act"
+             :title "City of Kuala Lumpur Act 1971"
+             :municipality "kuala-lumpur"
+             :country "MYS"
+             :kind :local-act
+             :number "Act 59"
+             :url "https://simplymalaysia.wordpress.com/wp-content/uploads/2011/10/act-59-city-of-kuala-lumpur-act-1971.pdf"
+             :url-provenance :laws-of-malaysia-official-reprint-mirror
+             :enacted-date "1972-02-01"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}]

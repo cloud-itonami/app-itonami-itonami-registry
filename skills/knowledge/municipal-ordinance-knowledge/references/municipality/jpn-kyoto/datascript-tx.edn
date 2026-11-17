@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "kyoto", :retrieved-at "2026-07-17", :country "JPN", :url "https://www.city.kyoto.lg.jp/sankan/page/0000150907.html", :number "平成25年1月1日京都市条例第32号（平成25年1月15日施行）", :enacted-date "2013-01-01", :url-provenance :official-city-kyoto-lg-jp, :topic #{:traditional-industry :culture}, :title "京都市清酒の普及の促進に関する条例 (Kyoto City Ordinance on the Promotion of Sake)", :id "kyoto.seishu-fukyu-sokushin-jorei-2013"}
+#:ordinance{:kind :ordinance, :municipality "kyoto", :retrieved-at "2026-07-17", :country "JPN", :url "https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000155/155468/jorei%28R051213%29.pdf", :last-revised-date "2023-12-13", :number "平成25年12月24日条例第80号", :enacted-date "2013-12-24", :url-provenance :official-city-kyoto-lg-jp, :topic #{:housing :urban-planning}, :title "京都市空家等の活用、適正管理等に関する条例 (Kyoto City Ordinance on the Utilization and Proper Management of Vacant Houses)", :id "kyoto.akiya-katsuyo-tekisei-kanri-jorei-2013"}
+]

@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "firenze", :retrieved-at "2026-07-17", :country "ITA", :url "https://ediliziaurbanistica.comune.fi.it/export/sites/ediliziaurbanistica/materiali/RegolamentoEdilizio_2025C00035.pdf", :number "Deliberazione Consiglio Comunale 2025/C/00035 del 10/06/2025", :enacted-date "2025-06-10", :url-provenance :official-comune-fi-it, :topic #{:building :urban-planning}, :title "Regolamento Edilizio — Comune di Firenze", :id "firenze.regolamento-edilizio-2025"}
+#:ordinance{:kind :ordinance, :municipality "firenze", :retrieved-at "2026-07-17", :country "ITA", :url "https://amministrazionetrasparente.comune.firenze.it/system/files/2025-09/06092025_Regolamento%20del%20Consiglio%20Comunale_0.pdf", :number "Deliberazione del Consiglio comunale n. 60 del 26/10/2015, modificato con Del. n. 13 del 16/04/2018, Del. n. 52 del 29/10/2018, Del. n. 11 del 28/03/2022, Del. n. 5 del 06/03/2023 e Del. n. 55 del 2025", :enacted-date "2015-10-26", :url-provenance :official-comune-firenze-it, :topic #{:governance :municipal-council}, :title "Regolamento del Consiglio Comunale", :id "firenze.regolamento-consiglio-comunale-2015"}
+]

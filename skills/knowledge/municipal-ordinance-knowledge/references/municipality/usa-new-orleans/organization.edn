@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of New Orleans"
+ :name-local "City of New Orleans"
+ :official-url "https://nola.gov/"
+ :wikidata "Q34404"
+ :ordinance-database-url "https://czo.nola.gov/"
+ :head-role-note "institutional office title only (Mayor of New Orleans, and New Orleans City Council); personal names of current or past office-holders are intentionally NOT stored, including names appearing incidentally in primary-source council/CPC documents read during verification"
+ :hq {:line-en "New Orleans" :country "usa" :kind "largest city of the state of Louisiana; consolidated city-county (not national capital; Washington, D.C. is)" :provenance "https://www.wikidata.org/wiki/Q34404" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17"}

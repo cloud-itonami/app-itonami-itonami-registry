@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london files.
+
+[#:ordinance{:id "toronto.municipal-code-ch545-licensing"
+             :title "Toronto Municipal Code Chapter 545, Licensing"
+             :municipality "toronto"
+             :country "CAN"
+             :kind :municipal-code
+             :number "Chapter 545"
+             :url "https://www.toronto.ca/legdocs/municode/1184_545.pdf"
+             :url-provenance :official-toronto-municode
+             :enacted-date "2001-01-01"
+             :last-revised-date "2025-01-01"
+             :retrieved-at "2026-07-15"
+             :topic [:licensing]}
+ #:ordinance{:id "toronto.municipal-code-ch67-fair-wage"
+             :title "Toronto Municipal Code Chapter 67, Fair Wage"
+             :municipality "toronto"
+             :country "CAN"
+             :kind :municipal-code
+             :number "Chapter 67 (By-law 498-2024)"
+             :url "https://www.toronto.ca/legdocs/municode/1184_067.pdf"
+             :url-provenance :official-toronto-municode
+             :enacted-date "2024-07-01"
+             :last-revised-date "2025-05-01"
+             :retrieved-at "2026-07-15"
+             :topic [:labor :fair-wage]}]

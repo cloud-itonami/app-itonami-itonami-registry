@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Greater London Authority"
+ :name-local "London"
+ :official-url "https://www.london.gov.uk/"
+ :wikidata "Q84"
+ :ordinance-database-url "https://www.legislation.gov.uk/ukla"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "London" :country "gbr" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q84" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- london.gov.uk itself 403'd WebFetch (like several other government portals in this family), so both entries cite legislation.gov.uk's UK Local Acts series (ukla) instead, which rendered cleanly"}

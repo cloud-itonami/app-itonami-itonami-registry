@@ -1,0 +1,22 @@
+{:itonami.blueprint/id "cloud-itonami-municipality-chn-shanghai"
+ :itonami.blueprint/name "Municipal Ordinance Compliance Catalog — Shanghai (上海市)"
+ :itonami.blueprint/iso3166 "CHN"
+ :itonami.blueprint/municipality "shanghai"
+ :itonami.blueprint/domain :public-sector/municipal-ordinance-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :municipal-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 1
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"
+ :itonami.blueprint/coverage-note
+ "The second CHN member of the municipality family, after
+ cloud-itonami-municipality-chn-beijing (gap recorded in ADR-2607277000).
+ 2 ordinance entries and 6 culture entries, all read 2026-07-27. Unlike the
+ Beijing sibling, BOTH ordinance entries are the consolidated ordinance
+ text: the waste one was read from the official cgzf.sh.gov.cn PDF, whose
+ header and 第六十五条 supply the 通过 and 施行 dates verbatim. No
+ :performing-art culture entry — the Huju (沪剧) source returned HTTP 404 and
+ nothing was recorded from a page that was not read."}

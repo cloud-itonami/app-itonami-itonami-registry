@@ -1,0 +1,9 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Capital City of Warsaw"
+ :name-local "Miasto Stołeczne Warszawa"
+ :official-url "https://um.warszawa.pl/"
+ :wikidata "Q270"
+ :head-role-note "institutional office title only (Prezydent m.st. Warszawy, and Rada m.st. Warszawy / City Council); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Warsaw" :country "pol" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q270" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- isap.sejm.gov.pl (the primary Polish national legal-act database) is CAPTCHA-gated site-wide and was not attempted further (never solve/bypass CAPTCHAs); bip.warszawa.pl, um.warszawa.pl, transport.um.warszawa.pl all returned HTTP 403; edziennik.mazowieckie.pl (the regional official gazette) timed out on three separate document URLs; warszawa19115.pl refused the connection outright. Both entries here instead cite two domains that DID render cleanly: a Kancelaria Sejmu (Sejm Chancellery)-published consolidated-text PDF mirrored on up.warszawa.pl, and eto.um.warszawa.pl's own council-resolution bulletin board"}

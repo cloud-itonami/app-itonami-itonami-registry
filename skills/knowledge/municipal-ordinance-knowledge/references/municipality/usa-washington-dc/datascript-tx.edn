@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo file.
+
+[#:ordinance{:id "washington-dc.freedom-of-information-act"
+             :title "Freedom of Information Act (D.C. Official Code Title 2, Chapter 5, Subchapter II)"
+             :municipality "washington-dc"
+             :country "USA"
+             :kind :municipal-code
+             :url "https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/5/subchapters/II"
+             :url-provenance :official-dc-law-library
+             :retrieved-at "2026-07-15"
+             :topic [:information-disclosure :transparency]}
+ #:ordinance{:id "washington-dc.human-rights-act"
+             :title "Human Rights Law (D.C. Official Code Title 2, Chapter 14, Unit A)"
+             :municipality "washington-dc"
+             :country "USA"
+             :kind :municipal-code
+             :url "https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/14/units/A"
+             :url-provenance :official-dc-law-library
+             :enacted-date "1977-12-13"
+             :retrieved-at "2026-07-15"
+             :topic [:anti-discrimination :human-rights]}]

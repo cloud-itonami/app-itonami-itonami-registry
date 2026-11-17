@@ -1,0 +1,30 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo files.
+
+[#:ordinance{:id "montevideo.resolucion-326-13-terminologia-departamental"
+             :title "Resolución IM N.º 326/13 (cambio de terminología de 'Municipal' a 'Departamental')"
+             :municipality "montevideo"
+             :country "URY"
+             :kind :ordinance
+             :number "Res. IM N.º 326/13"
+             :url "https://normativa.montevideo.gub.uy/"
+             :url-provenance :official-normativa-montevideo-gub-uy
+             :enacted-date "2013-01-21"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "montevideo.decreto-34353-ruina-riesgo-edificacion"
+             :title "Determinación de la Ruina y del Grado de Riesgo de la Edificación (Dto. JDM 34.353)"
+             :municipality "montevideo"
+             :country "URY"
+             :kind :ordinance
+             :number "D.4504 (Dto. JDM 34.353)"
+             :url "https://normativa.montevideo.gub.uy/content/d4504"
+             :url-provenance :official-normativa-montevideo-gub-uy
+             :enacted-date "2012-10-01"
+             :retrieved-at "2026-07-16"
+             :topic [:building-safety :public-safety]}]

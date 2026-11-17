@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Tokyo Metropolitan Government"
+ :name-local "東京都"
+ :official-url "https://www.metro.tokyo.lg.jp/"
+ :wikidata "Q1490"
+ :ordinance-database-url "https://www.reiki.metro.tokyo.lg.jp/"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Tokyo" :country "jpn" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1490" :last-verified "2026-07-14" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-14, NOT via com-etzhayyim-ooyake -- see cloud-itonami-iso3166-jpn organization.edn commit 15252d7 for the P36 ingestion bug this avoids"}

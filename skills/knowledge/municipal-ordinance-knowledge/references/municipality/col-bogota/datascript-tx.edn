@@ -1,0 +1,30 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago files.
+
+[#:ordinance{:id "bogota.acuerdo-001-2026-autenticacion-digital"
+             :title "Acuerdo 001 de 2026 (Estándares Técnicos para la Autenticación Digital)"
+             :municipality "bogota"
+             :country "COL"
+             :kind :ordinance
+             :number "Acuerdo 001 de 2026"
+             :url "https://secretariageneral.gov.co/transparencia-y-acceso-la-informacion-publica/normativa-aplicable/acuerdos"
+             :url-provenance :official-secretariageneral-gov-co
+             :enacted-date "2026-02-05"
+             :retrieved-at "2026-07-16"
+             :topic [:technology-standards :governance]}
+ #:ordinance{:id "bogota.acuerdo-002-2025-comision-gasto-calidad"
+             :title "Acuerdo 002 de 2025 (Reglamento Interno de la Comisión de Gasto de Calidad y Modernización Distrital)"
+             :municipality "bogota"
+             :country "COL"
+             :kind :ordinance
+             :number "Acuerdo 002 de 2025"
+             :url "https://secretariageneral.gov.co/transparencia-y-acceso-la-informacion-publica/normativa-aplicable/acuerdos"
+             :url-provenance :official-secretariageneral-gov-co
+             :enacted-date "2025-10-28"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

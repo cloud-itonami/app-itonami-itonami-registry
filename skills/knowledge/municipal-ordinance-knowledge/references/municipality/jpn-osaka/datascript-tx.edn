@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "osaka", :retrieved-at "2026-07-17", :country "JPN", :url "https://www.city.osaka.lg.jp/kankyo/page/0000009868.html", :last-revised-date "2024-03-29", :number "平成19年大阪市条例第54号", :url-provenance :official-city-osaka-lg-jp, :topic #{:public-health :public-space}, :title "大阪市路上喫煙の防止に関する条例 (Osaka City Ordinance on the Prevention of Street Smoking)", :id "osaka.rojo-kitsuen-boshi-jorei-2007"}
+#:ordinance{:kind :ordinance, :municipality "osaka", :retrieved-at "2026-07-17", :country "JPN", :url "https://www.city.osaka.lg.jp/kensetsu/cmsfiles/contents/0000074/74392/shin_160301jourei.pdf", :last-revised-date "2016-03-01", :number "平成22年条例第4号（制定 平成22年2月26日）", :enacted-date "2010-02-26", :url-provenance :official-city-osaka-lg-jp, :topic #{:transport :urban-planning}, :title "大阪市自転車駐車場の附置等に関する条例 (Osaka City Ordinance on the Mandatory Provision of Bicycle Parking Facilities)", :id "osaka.jitensha-chushajo-fuchi-jorei-2010"}
+]

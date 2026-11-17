@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T12:52:29.837782Z",
-  "count": 2021,
+  "generated": "2026-11-17T13:11:55.207362Z",
+  "count": 2023,
   "entries": [
     {
       "id": "abaki",
@@ -38329,6 +38329,22 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/tree/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "id": "municipal-ordinance-knowledge",
+      "type": "skill",
+      "name": "municipal-ordinance-knowledge",
+      "description": "Look up what the Itonami archive knows about a municipality, covering its official organization details and a catalog of its ordinances with official source links. Use when a user asks about local rules or an administrative procedure in one of these cities.",
+      "category": "knowledge",
+      "path": "skills/knowledge/municipal-ordinance-knowledge",
+      "checksum": "sha256:c74c9cd0ad8bbec07b560862acb5b476c89ab06211b32a618d5c98055e1b3d8a"
+    },
+    {
+      "version": "0.1.0",
+      "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
@@ -38517,6 +38533,22 @@
       "license": "MIT",
       "path": "workflows/fleet-health-review",
       "checksum": "sha256:e5cdc9daa9e913cbea3bc4272948b657ae4c8162c980bcc13ac4036e715721ff"
+    },
+    {
+      "id": "municipal-procedure-guide",
+      "type": "workflow",
+      "name": "municipal-procedure-guide",
+      "version": "0.1.0",
+      "description": "Guide a user through finding the rules and official sources for an administrative procedure in a covered municipality, and hand off to the official channel. Never files or applies for the user.",
+      "author": "cloud-itonami",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-are-abu-dhabi/tree/5c86b0e59bf1e4b2581abb1d8c7a9a6b46f0597f",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "license": "AGPL-3.0-or-later",
+      "path": "workflows/municipal-procedure-guide",
+      "checksum": "sha256:e5f9b2122e3dad5732e4ca9703bea18a72d3b21cb1dccd0ced13c7d6ae036e8c"
     }
   ]
 }

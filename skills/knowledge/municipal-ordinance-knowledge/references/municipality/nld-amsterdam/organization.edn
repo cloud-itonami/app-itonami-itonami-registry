@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Burgemeester) — no personal names.
+{:name-en "City of Amsterdam"
+ :name-local "Gemeente Amsterdam"
+ :official-url "https://www.amsterdam.nl/"
+ :wikidata "Q727"
+ :ordinance-database-url "https://lokaleregelgeving.overheid.nl/"
+ :head-role-note "institutional office title only (Burgemeester); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Amsterdam" :country "nld" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q727" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- both entries cite lokaleregelgeving.overheid.nl (the Dutch national portal for local/municipal legislation, CVDR identifiers), which rendered cleanly"}

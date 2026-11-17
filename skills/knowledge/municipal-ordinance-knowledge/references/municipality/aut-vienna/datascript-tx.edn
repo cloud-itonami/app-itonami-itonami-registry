@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "vienna.wstv-1920-stadtverfassung"
+             :title "Verfassung der Bundeshauptstadt Wien (Wiener Stadtverfassung)"
+             :municipality "vienna"
+             :country "AUT"
+             :kind :local-act
+             :number "LGBl. für Wien Nr. 1/1920"
+             :url "https://www.verfassungen.at/wien/verf68.htm"
+             :url-provenance :verfassungen-at-legal-text-archive
+             :enacted-date "1920-11-10"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "vienna.bauordnung-1829-first-building-code"
+             :title "First Bauordnung (Vienna building code)"
+             :municipality "vienna"
+             :country "AUT"
+             :kind :local-act
+             :number "Bauordnung 1829"
+             :url "https://www.geschichtewiki.wien.gv.at/Bauordnung"
+             :url-provenance :official-wien-geschichte-wiki
+             :enacted-date "1829-12-13"
+             :retrieved-at "2026-07-17"
+             :topic [:construction]}]

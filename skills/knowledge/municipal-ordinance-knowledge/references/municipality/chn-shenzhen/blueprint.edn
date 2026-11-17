@@ -1,0 +1,24 @@
+{:itonami.blueprint/id "cloud-itonami-municipality-chn-shenzhen"
+ :itonami.blueprint/name "Municipal Ordinance Compliance Catalog — Shenzhen (深圳市)"
+ :itonami.blueprint/iso3166 "CHN"
+ :itonami.blueprint/municipality "shenzhen"
+ :itonami.blueprint/domain :public-sector/municipal-ordinance-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :municipal-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 1
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"
+ :itonami.blueprint/coverage-note
+ "The third CHN member of the municipality family, after -chn-beijing and
+ -chn-shanghai. Its point is that Shenzhen legislates under TWO instruments
+ and the catalog holds one of each: a 经济特区法规 (SEZ regulation, effective
+ without provincial approval) and a 地方性法规 whose own announcement records
+ GUANGDONG PROVINCIAL approval (2020-06-23) between municipal passage
+ (2019-12-31) and effect (2020-09-01) — a step the 直辖市 siblings do not
+ have. The culture catalog is deliberately small (3 entries, no dish/
+ festival/craft): a 45-year-old city, with two Ming-era walled towns inside
+ its boundary. Candidates whose sources did not tie them to Shenzhen were
+ dropped, not padded in."}

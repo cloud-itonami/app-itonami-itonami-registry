@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Vienna (Stadt Wien)"
+ :official-url "https://www.wien.gv.at/"
+ :wikidata "Q1741"
+ :head-role-note "institutional office title only (Mayor of Vienna / Bürgermeister); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Vienna" :country "aut" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1741" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Vienna is Austria's stable capital, with no ongoing ambiguity. Austria's official federal legal-information system (ris.bka.gv.at) returned HTTP 503 on both attempts, so this catalog's entries instead cite verfassungen.at (a constitutional/statutory text archive) and geschichtewiki.wien.gv.at (Wien Geschichte Wiki, an official City of Vienna cultural-heritage domain)."}

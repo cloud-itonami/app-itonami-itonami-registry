@@ -1,0 +1,29 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota / -cri-san-jose / -bra-sao-paulo /
+;; -ury-montevideo / -zaf-cape-town / -ecu-quito / -swe-gothenburg /
+;; -pry-asuncion files.
+
+[#:ordinance{:id "guadalajara.codigo-gobierno-municipal"
+             :title "Código de Gobierno Municipal de Guadalajara"
+             :municipality "guadalajara"
+             :country "MEX"
+             :kind :ordinance
+             :url "https://transparencia.guadalajara.gob.mx/sites/default/files/reglamentos/CodigoGobiernoMunicipalGuadalajara.pdf"
+             :url-provenance :official-guadalajara-gob-mx
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "guadalajara.reglamento-ayuntamiento"
+             :title "Reglamento del Ayuntamiento de Guadalajara"
+             :municipality "guadalajara"
+             :country "MEX"
+             :kind :ordinance
+             :url "http://imuvigdl.gob.mx/descargas/Leyes-y-Reglamentos/4-28-reg.ayuntamientoguadalajara_0.pdf"
+             :url-provenance :official-guadalajara-gob-mx
+             :enacted-date "2010-01-01"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}]

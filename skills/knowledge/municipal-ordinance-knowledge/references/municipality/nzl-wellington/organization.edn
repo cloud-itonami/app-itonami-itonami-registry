@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Wellington City Council"
+ :official-url "https://wellington.govt.nz/"
+ :wikidata "Q23661"
+ :head-role-note "institutional office title only (Mayor of Wellington); personal names of current/historical office-holders (e.g. the first mayor of the 1870 corporation) were incidentally encountered but never persisted here"
+ :hq {:line-en "Wellington" :country "nzl" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q23661" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Wellington is New Zealand's stable capital, with no ongoing ambiguity. wellington.govt.nz's own history page returned HTTP 403, so this catalog's entries instead cite en.wikipedia.org, directly WebFetched and read (not merely WebSearch-cited)."}

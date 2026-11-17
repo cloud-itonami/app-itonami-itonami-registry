@@ -1,0 +1,31 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul / -ita-roma / -aus-sydney / -arg-buenos-aires /
+;; -fin-helsinki / -dnk-copenhagen / -nor-oslo / -bel-brussels /
+;; -chl-santiago / -col-bogota files.
+
+[#:ordinance{:id "san-jose.reglamento-autonomo-organizacion-servicio"
+             :title "Reglamento Autónomo de Organización y Servicio de la Municipalidad de San José"
+             :municipality "san-jose"
+             :country "CRI"
+             :kind :ordinance
+             :number "N.º 472"
+             :url "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=25393&nValor3=75923&strTipM=TC"
+             :url-provenance :official-pgrweb-go-cr
+             :enacted-date "1997-08-26"
+             :last-revised-date "2009-03-03"
+             :retrieved-at "2026-07-16"
+             :topic [:governance]}
+ #:ordinance{:id "san-jose.reglamento-publicidad-exterior"
+             :title "Reglamento de Publicidad Exterior (Reglamentos de Desarrollo Urbano del Cantón de San José)"
+             :municipality "san-jose"
+             :country "CRI"
+             :kind :ordinance
+             :url "https://pgrweb.go.cr/scij/busqueda/normativa/normas/nrm_texto_completo.aspx?nValor1=1&nValor2=77325"
+             :url-provenance :official-pgrweb-go-cr
+             :enacted-date "1995-01-24"
+             :last-revised-date "2023-12-21"
+             :retrieved-at "2026-07-16"
+             :topic [:urban-planning :public-order]}]

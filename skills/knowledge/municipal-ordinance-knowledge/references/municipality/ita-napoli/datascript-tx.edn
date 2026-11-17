@@ -1,0 +1,9 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700; Wave 1b repos per ADR-2607171400
+;; addendum 2). Same shape as the cloud-itonami-municipality-* siblings.
+;; Do not hand-edit; regenerate from the catalog.
+
+[
+#:ordinance{:kind :ordinance, :municipality "napoli", :retrieved-at "2026-07-17", :country "ITA", :url "https://static-www.comune.napoli.it/wp-content/uploads/2025/09/regolamento_toponomastica_CC_n_2_del_22_1_2021.pdf", :last-revised-date "2021-01-22", :number "Deliberazione C.C. n. 42 del 03/10/2012, modificato con Deliberazione C.C. n. 2 del 22/01/2021", :enacted-date "2012-10-03", :url-provenance :official-comune-napoli-it, :topic #{:toponymy :civic-numbering}, :title "Regolamento comunale per la toponomastica e la numerazione civica", :id "napoli.regolamento-toponomastica-numerazione-civica-2021"}
+#:ordinance{:kind :ordinance, :municipality "napoli", :retrieved-at "2026-07-17", :country "ITA", :url "https://static-www.comune.napoli.it/wp-content/uploads/2025/09/regolamento_cimiteri.pdf", :last-revised-date "2015-07-16", :number "Deliberazione C.C. n. 11 del 21/02/2006, art. 10 sostituito con Deliberazione C.C. n. 28 del 16/07/2015", :enacted-date "2006-02-21", :url-provenance :official-comune-napoli-it, :topic #{:public-health :cemetery-services}, :title "Regolamento di polizia mortuaria e dei servizi funebri e cimiteriali", :id "napoli.regolamento-polizia-mortuaria-2006"}
+]

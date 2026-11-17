@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Intendencia de Montevideo (Department of Montevideo)"
+ :name-local "Intendencia de Montevideo"
+ :official-url "https://montevideo.gub.uy/"
+ :wikidata "Q1335"
+ :ordinance-database-url "https://normativa.montevideo.gub.uy/"
+ :head-role-note "institutional office title only (Intendente/Intendenta, and Junta Departamental); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Montevideo" :country "ury" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1335" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite normativa.montevideo.gub.uy (the Intendencia's own official 'Normativa Departamental' repository), which rendered cleanly with explicit dates"}

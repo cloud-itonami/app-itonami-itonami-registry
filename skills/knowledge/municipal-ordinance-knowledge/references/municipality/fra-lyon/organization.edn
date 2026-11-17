@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Lyon"
+ :name-local "Ville de Lyon"
+ :official-url "https://www.lyon.fr/"
+ :wikidata "Q456"
+ :ordinance-database-url "https://www.lyon.fr/documents_cm"
+ :head-role-note "institutional office title only (Maire, and Conseil municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Lyon" :country "fra" :kind "third-largest city (not national capital; Paris is)" :provenance "https://www.wikidata.org/wiki/Q456" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- Guatemala City was attempted first this tick, but its official domain (muniguate.com) 301-redirected entirely to a suspicious lookalike domain ('munigate10.com') -- not followed, abandoned as a likely domain compromise. Both entries here instead cite lyon.fr's own deliberation PDFs, which rendered cleanly with explicit dates"}

@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Kyoto"
+ :name-local "京都市"
+ :official-url "https://www.city.kyoto.lg.jp/"
+ :wikidata "Q34600"
+ :ordinance-database-url "https://www.city.kyoto.lg.jp/menu5/category/75-2-0-0-0-0-0-0-0-0.html"
+ :head-role-note "institutional office title only (京都市長 / Mayor of Kyoto, and 京都市会 / Kyoto City Council); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Kyoto" :country "jpn" :kind "capital of Kyoto Prefecture; designated city and former national capital (not current national capital; Tokyo is)" :provenance "https://www.wikidata.org/wiki/Q34600" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-17"}

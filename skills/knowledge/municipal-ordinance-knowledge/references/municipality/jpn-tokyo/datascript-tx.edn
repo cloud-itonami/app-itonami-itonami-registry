@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). No :db/id per entity
+;; (DataScript auto-assigns), same shape as the sibling statute.facts /
+;; legal-source tx-data files. `:ordinance/topic` serialized as a vector.
+
+[#:ordinance{:id "tokyo.info-disclosure"
+             :title "東京都情報公開条例 (Tokyo Metropolitan Information Disclosure Ordinance)"
+             :municipality "tokyo"
+             :country "JPN"
+             :kind :ordinance
+             :number "条例第五号"
+             :url "https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101RG00000214.html"
+             :url-provenance :official-reiki-database
+             :enacted-date "1999-03-19"
+             :retrieved-at "2026-07-14"
+             :topic [:information-disclosure :transparency]}
+ #:ordinance{:id "tokyo.appi-implementation"
+             :title "個人情報の保護に関する法律施行条例 (Ordinance for Implementation of the Act on Protection of Personal Information)"
+             :municipality "tokyo"
+             :country "JPN"
+             :kind :ordinance
+             :number "条例第一三〇号"
+             :url "https://www.reiki.metro.tokyo.lg.jp/reiki/reiki_honbun/g101RG00005236.html"
+             :url-provenance :official-reiki-database
+             :enacted-date "2022-12-22"
+             :retrieved-at "2026-07-14"
+             :topic [:data-protection :privacy]}]

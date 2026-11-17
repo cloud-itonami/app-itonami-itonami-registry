@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "City of Toronto"
+ :name-local "Toronto"
+ :official-url "https://www.toronto.ca/"
+ :wikidata "Q172"
+ :ordinance-database-url "https://www.toronto.ca/legdocs/bylaws/lawmcode.htm"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Toronto" :country "can" :kind "city" :provenance "https://www.wikidata.org/wiki/Q172" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

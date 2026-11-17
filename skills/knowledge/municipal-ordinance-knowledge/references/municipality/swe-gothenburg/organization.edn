@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "City of Gothenburg"
+ :name-local "Göteborgs Stad"
+ :official-url "https://goteborg.se/"
+ :wikidata "Q25287"
+ :ordinance-database-url "https://goteborg.se/"
+ :head-role-note "institutional office title only (Kommunstyrelsens ordförande, and Kommunfullmäktige); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Gothenburg" :country "swe" :kind "second-largest city (not national capital; Stockholm is)" :provenance "https://www.wikidata.org/wiki/Q25287" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/Read of saved PDFs) 2026-07-16 -- Stockholm was abandoned in an earlier tick after its ordinance PDF rendered too garbled to read; Gothenburg's official goteborg.se-hosted PDFs rendered cleanly instead"}

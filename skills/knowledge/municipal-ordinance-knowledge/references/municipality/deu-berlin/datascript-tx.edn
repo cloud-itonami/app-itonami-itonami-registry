@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto files.
+
+[#:ordinance{:id "berlin.informationsfreiheitsgesetz"
+             :title "Gesetz zur Förderung der Informationsfreiheit im Land Berlin (Berliner Informationsfreiheitsgesetz, IFG)"
+             :municipality "berlin"
+             :country "DEU"
+             :kind :ordinance
+             :number "GVBl. 1999, 561"
+             :url "https://www.datenschutz-berlin.de/fileadmin/user_upload/pdf/gesetzestexte/2025-GVBl_IFG.pdf"
+             :url-provenance :official-berlin-datenschutzbeauftragte
+             :enacted-date "1999-10-15"
+             :last-revised-date "2025-07-10"
+             :retrieved-at "2026-07-15"
+             :topic [:information-disclosure :transparency]}
+ #:ordinance{:id "berlin.datenschutzgesetz"
+             :title "Berliner Datenschutzgesetz (BlnDSG)"
+             :municipality "berlin"
+             :country "DEU"
+             :kind :ordinance
+             :url "https://www.datenschutz-berlin.de/fileadmin/user_upload/pdf/gesetzestexte/2022-BlnBDI_BlnDSG.pdf"
+             :url-provenance :official-berlin-datenschutzbeauftragte
+             :enacted-date "1978-07"
+             :last-revised-date "2018-06-13"
+             :retrieved-at "2026-07-15"
+             :topic [:data-protection :privacy]}]

@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:ordinance{:id "ankara.law-3030-1984-metropolitan-municipalities-administration"
+             :title "Büyük Şehir Belediyelerinin Yönetimi Hakkında Kanun Hükmünde Kararnamenin Değiştirilerek Kabulü Hakkında Kanun (Law on the Adoption with Amendments of the Decree Law on the Administration of Metropolitan Municipalities)"
+             :municipality "ankara"
+             :country "TUR"
+             :kind :local-act
+             :number "Kanun No. 3030"
+             :url "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc067/kanuntbmmc067/kanuntbmmc06703030.pdf"
+             :url-provenance :official-tbmm-gov-tr-archive
+             :enacted-date "1984-06-27"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}
+ #:ordinance{:id "ankara.law-5216-2004-buyuksehir-belediyesi-kanunu"
+             :title "Büyükşehir Belediyesi Kanunu (Metropolitan Municipality Law)"
+             :municipality "ankara"
+             :country "TUR"
+             :kind :local-act
+             :number "Kanun No. 5216"
+             :url "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc088/kanuntbmmc088/kanuntbmmc08805216.pdf"
+             :url-provenance :official-tbmm-gov-tr-archive
+             :enacted-date "2004-07-10"
+             :retrieved-at "2026-07-17"
+             :topic [:governance]}]

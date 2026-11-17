@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Riyadh Municipality (Amanat al-Riyadh) / Royal Commission for Riyadh City"
+ :official-url "https://www.alriyadh.gov.sa/en"
+ :wikidata "Q3692"
+ :head-role-note "institutional office title only (Mayor of Riyadh / President of the Royal Commission for Riyadh City); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Riyadh" :country "sau" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3692" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Riyadh is Saudi Arabia's stable capital, with no ongoing ambiguity. alriyadh.gov.sa's own homepage offered only a portal/navigation hub with no specific regulation numbers or founding dates; balady.gov.sa's own hosted PDF of the national Law of Municipalities and Villages rendered entirely illegible via Arabic-script font-subsetting. This catalog's entries instead cite the Lexis Middle East legal database (for the national founding-charter law) and rcrc.gov.sa (the Royal Commission for Riyadh City's own official domain, for the Riyadh-specific development-authority founding decree)."}

@@ -1,0 +1,18 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+;; This repo is NOT the municipality and never acts as it.
+{:name-en "Shanghai Municipality"
+ :name-local "上海市"
+ :official-url "https://www.shanghai.gov.cn/"
+ ;; :wikidata deliberately absent -- no Wikidata item was fetched and read
+ ;; for this entry, and this repo does not record identifiers it did not
+ ;; verify.
+ :ordinance-source-url "https://cgzf.sh.gov.cn/channel_89/"
+ :ordinance-source-note "法律法规 section of 上海市城市管理行政执法局 (Shanghai Municipal Administration of Urban Management Enforcement) — the municipal body whose site hosts both texts cited here, including the official PDF of 生活垃圾管理条例"
+ :head-role-note "institutional office title only (上海市市长 / Mayor, 上海市人民代表大会 and its 常务委员会 / the Shanghai Municipal People's Congress and its Standing Committee, which enact the 地方性法规 catalogued here); personal names of current or past office-holders are intentionally NOT stored"
+ :hq {:line-en "Shanghai" :line-local "上海市" :country "chn"
+      :kind "direct-administered municipality (直辖市)"
+      :provenance "https://www.shanghai.gov.cn/"
+      :last-verified "2026-07-27" :sourcing "authoritative"}
+ :enacting-body-note "生活垃圾管理条例 was passed by the FULL 上海市第十五届人民代表大会第二次会议, not its Standing Committee — the ordinance's own header line says so, and that distinction is preserved in :ordinance/number rather than flattened to 常务委员会"
+ :sourced-from "verified directly on 2026-07-27: the 生活垃圾管理条例 PDF was downloaded from cgzf.sh.gov.cn and its first and last pages read (header 通过 clause + 第六十五条 施行 clause); the 公共场所控制吸烟条例 page was fetched from the same host and its header line and 第一条 read"}

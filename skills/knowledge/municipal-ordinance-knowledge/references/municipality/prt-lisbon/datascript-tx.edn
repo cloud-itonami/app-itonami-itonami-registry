@@ -1,0 +1,187 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700). Same shape as sibling files.
+;;
+;; GENERATED — do not hand-edit. Regenerate with:
+;;   kbb -M -i tools/gen_tx.cljk
+;; `test/ordinance/facts_test.cljk` fails if this file drifts from the catalog.
+
+[#:ordinance{:kind :local-act,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=592&tabela=lei_velhas&nversao=4",
+             :number "Lei n.º 169/99",
+             :enacted-date "1999-09-18",
+             :url-provenance :official-pgdlisboa-pt,
+             :url-verified-phrase "Lei n.º 169/99",
+             :topic [:governance],
+             :title
+             "Lei n.º 169/99, de 18 de Setembro (Autarquias Locais - Competências e Regime Jurídico)",
+             :id "lisbon.lei-169-1999-autarquias-locais"}
+ #:ordinance{:kind :local-act,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url "https://en.wikipedia.org/wiki/History_of_Lisbon",
+             :number "1147",
+             :enacted-date "1147-10-22",
+             :url-provenance :wikipedia-corroborated,
+             :url-verified-phrase
+             "the Moors capitulated on 22 October",
+             :topic [:governance],
+             :title
+             "1147 Siege of Lisbon: after a four-month siege, Christian crusaders captured the city and Christian rule returned; the Moors capitulated on 22 October",
+             :id "lisbon.1147-portuguese-conquest"}
+ #:ordinance{:kind :national-act,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://files.diariodarepublica.pt/1s/2013/09/17600/0568805724.pdf",
+             :gazette
+             "Diário da República, 1.ª série — N.º 176 — 12 de setembro de 2013, p. 5688",
+             :number "Lei n.º 75/2013",
+             :enacted-date "2013-09-12",
+             :url-provenance :official-diario-da-republica,
+             :url-verified-phrase
+             "Estabelece o regime jurídico das autarquias locais",
+             :topic [:governance],
+             :title
+             "Lei n.º 75/2013, de 12 de setembro — Regime Jurídico das Autarquias Locais (RJAL): establishes the legal regime of local authorities, the statute of inter-municipal entities, the regime for transferring competences from the State to local authorities, and the regime of municipal associationism",
+             :id "lisbon.lei-75-2013-rjal"}
+ #:ordinance{:kind :municipal-plan,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://files.diariodarepublica.pt/gratuitos/2s/2012/08/2S168A0000S00.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 168 — 30 de agosto de 2012, p. 30275",
+             :number "Aviso n.º 11622/2012",
+             :enacted-date "2012-08-30",
+             :url-provenance :official-diario-da-republica,
+             :url-verified-phrase
+             "aprovar a Revisão do Plano Diretor Municipal de Lisboa",
+             :topic [:land-use :urbanism],
+             :title
+             "Aviso n.º 11622/2012 — Aprovação da revisão do Plano Diretor Municipal de Lisboa (PDM), including the Regulamento, the Planta de Ordenamento and the Planta de Condicionantes, approved by the Assembleia Municipal de Lisboa on 24 July 2012 via Deliberação n.º 46/AML/2012 and Deliberação n.º 47/AML/2012",
+             :id "lisbon.aviso-11622-2012-pdm"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://files.diariodarepublica.pt/gratuitos/2s/2009/07/2S129A0000S00.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 129 — 7 de julho de 2009, p. 26549",
+             :number "Aviso n.º 11983/2009",
+             :enacted-date "2009-07-07",
+             :url-provenance :official-diario-da-republica,
+             :url-verified-phrase
+             "Regulamento Municipal de Taxas Relacionadas com a Actividade Urbanística e Operações Conexas",
+             :topic [:taxation :urbanism],
+             :title
+             "Aviso n.º 11983/2009 — Regulamento Municipal de Taxas Relacionadas com a Actividade Urbanística e Operações Conexas (RMTRAUOC), approved by Deliberação n.º 15/AM/2009; in force from 6 August 2009",
+             :id "lisbon.aviso-11983-2009-rmtrauoc"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://www.lisboa.pt/fileadmin/info_administrativa/normativas/regulamentos/urbanismo/RMTRAUOC.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 193 — 4 de outubro de 2012",
+             :number "Aviso n.º 13293/2012",
+             :enacted-date "2012-10-04",
+             :url-provenance :official-cml-lisboa-pt,
+             :url-verified-phrase
+             "a alteração ao Regulamento Municipal de Taxas Relacionadas com a Atividade Urbanística e Operações Conexas",
+             :topic [:taxation :urbanism],
+             :title
+             "Aviso n.º 13293/2012 — alteração ao Regulamento Municipal de Taxas Relacionadas com a Atividade Urbanística e Operações Conexas, approved by the Assembleia Municipal de Lisboa on 24 July 2012 via Deliberação n.º 48/AML/2012 (Deliberação n.º 734/CM/2011)",
+             :id "lisbon.aviso-13293-2012-rmtrauoc-alteracao"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://files.diariodarepublica.pt/gratuitos/2s/2015/12/2S247A0000S00.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 247 — 18 de dezembro de 2015, p. 36752",
+             :number "Aviso n.º 14828/2015",
+             :enacted-date "2015-12-18",
+             :url-provenance :official-diario-da-republica,
+             :url-verified-phrase
+             "foi aprovado o Regulamento de Infraestruturas em Espaço Público",
+             :topic [:public-space :urbanism],
+             :title
+             "Aviso n.º 14828/2015 — Regulamento de Infraestruturas em Espaço Público (RIEP), approved by the Câmara Municipal on 29 April 2015 and the Assembleia Municipal on 7 July 2015",
+             :id "lisbon.aviso-14828-2015-riep"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://files.diariodarepublica.pt/gratuitos/2s/2020/07/2S126A0000S01.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 126, 1.º Suplemento — 1 de julho de 2020, p. 304-(2)",
+             :number "Aviso n.º 9897-A/2020",
+             :enacted-date "2020-07-01",
+             :url-provenance :official-diario-da-republica,
+             :url-verified-phrase
+             "Sumário: Regulamento do Património Imobiliário do Município de Lisboa",
+             :topic [:property],
+             :title
+             "Aviso n.º 9897-A/2020 — Regulamento do Património Imobiliário do Município de Lisboa, approved by the Assembleia Municipal de Lisboa in ordinary session on 27 February 2020, on a Câmara Municipal proposal approved at its extraordinary meeting of 19 December 2019",
+             :id "lisbon.aviso-9897-a-2020-patrimonio-imobiliario"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://www.lisboa.pt/fileadmin/info_administrativa/normativas/regulamentos/ambiente/Regulamento_de_Gest%C3%A3o_de_Res%C3%ADduos_Limpeza_e_Higiene_Urbana_de_Lisboa.pdf",
+             :gazette
+             "Diário da República, 2.ª série — N.º 251 — 31 de dezembro de 2019, p. 331-(143)",
+             :number "Aviso n.º 20811-B/2019",
+             :enacted-date "2019-12-31",
+             :url-provenance :official-cml-lisboa-pt,
+             :url-verified-phrase
+             "Regulamento de gestão de resíduos, limpeza e higiene urbana de Lisboa",
+             :topic [:environment],
+             :title
+             "Aviso n.º 20811-B/2019 — Regulamento de gestão de resíduos, limpeza e higiene urbana de Lisboa, approved by the Assembleia Municipal de Lisboa on 3 December 2019 under Proposta de Câmara n.º 676/CM/2019",
+             :id "lisbon.aviso-20811-b-2019-residuos"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://www.lisboa.pt/fileadmin/info_administrativa/normativas/regulamentos/comercio/Regulamento_Geral_das_Feiras.pdf",
+             :gazette
+             "Boletim Municipal da Câmara Municipal de Lisboa",
+             :number "Deliberação n.º 28/AM/2005",
+             :enacted-date "2005-01-01",
+             :url-provenance :official-cml-lisboa-pt,
+             :url-verified-phrase "Deliberação n.º 28/AM/2005",
+             :topic [:commerce],
+             :title
+             "Regulamento Geral das Feiras da Cidade de Lisboa — Deliberação n.º 28/AM/2005 (Deliberação n.º 31/CM/2005, Proposta n.º 31/2005), replacing the 1982 Regulamento da Feira da Ladra and the Regulamento das Feiras do Relógio e Galinheiras",
+             :id "lisbon.regulamento-geral-das-feiras-2005"}
+ #:ordinance{:kind :municipal-regulation,
+             :municipality "lisbon",
+             :retrieved-at "2026-09-01",
+             :country "PRT",
+             :url
+             "https://www.lisboa.pt/fileadmin/info_administrativa/normativas/municipio/regimento_CML_1_Suplemento_BM_1657_20_11_2025.pdf",
+             :gazette
+             "1.º Suplemento ao Boletim Municipal n.º 1657, 20 de novembro de 2025",
+             :number "Proposta n.º 596/2025",
+             :enacted-date "2025-11-19",
+             :url-provenance :official-cml-lisboa-pt,
+             :url-verified-phrase
+             "Aprovou o Regimento da Câmara Municipal de Lisboa",
+             :topic [:governance],
+             :title
+             "Regimento da Câmara Municipal de Lisboa — approved by Proposta n.º 596/2025 at the extraordinary meeting of the Câmara Municipal held on 19 November 2025",
+             :id "lisbon.regimento-cml-2025"}]

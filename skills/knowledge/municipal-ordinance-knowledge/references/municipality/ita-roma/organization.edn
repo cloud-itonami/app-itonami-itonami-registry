@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only (Sindaco/Sindaca di Roma) — no personal names.
+{:name-en "Rome Capital"
+ :name-local "Roma Capitale"
+ :official-url "https://www.comune.roma.it/"
+ :wikidata "Q220"
+ :ordinance-database-url "https://www.comune.roma.it/web/it/elenco-regolamenti.page"
+ :head-role-note "institutional office title only (Sindaco/Sindaca di Roma); personal names of current or past office-holders are intentionally NOT stored, including names appearing incidentally in primary-source meeting-minutes documents cited here"
+ :hq {:line-en "Rome" :country "ita" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q220" :last-verified "2026-07-15" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

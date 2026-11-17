@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/ordinance/facts.cljk
+;; `ordinance.facts/catalog` (ADR-2607141700 Wave 0). Same shape as the
+;; sibling cloud-itonami-municipality-jpn-tokyo / -usa-washington-dc /
+;; -gbr-london / -can-toronto / -deu-berlin / -fra-paris / -nld-amsterdam /
+;; -esp-madrid / -kor-seoul files.
+
+[#:ordinance{:id "roma.regolamento-albo-pretorio-online-2021"
+             :title "Nuovo Regolamento per la disciplina dell'Albo Pretorio on line"
+             :municipality "roma"
+             :country "ITA"
+             :kind :ordinance
+             :number "Deliberazione di Giunta Capitolina n. 71/2021"
+             :url "https://www.comune.roma.it/web-resources/cms/documents/Delib_G_C_n__71__2021.pdf"
+             :url-provenance :official-comune-roma-it
+             :enacted-date "2021-04-02"
+             :retrieved-at "2026-07-15"
+             :topic [:information-disclosure :transparency]}
+ #:ordinance{:id "roma.regolamento-attivita-commerciali-citta-storica-2023"
+             :title "Regolamento per l'esercizio delle attività commerciali e artigianali nel territorio della città storica"
+             :municipality "roma"
+             :country "ITA"
+             :kind :ordinance
+             :number "Deliberazione di Assemblea Capitolina n. 109/2023"
+             :url "https://www.comune.roma.it/web-resources/cms/documents/.REGOLAMENTO_ATTIVIT_COMMERCIALI_ARTIGIANALI_CITTA_STORICA_DAC_109_2023pdf.pdf"
+             :url-provenance :official-comune-roma-it
+             :enacted-date "2023-05-30"
+             :retrieved-at "2026-07-15"
+             :topic [:licensing :commerce]}]

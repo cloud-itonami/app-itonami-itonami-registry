@@ -1,0 +1,10 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Municipality of Asunción"
+ :name-local "Municipalidad de Asunción"
+ :official-url "https://www.asuncion.gov.py/"
+ :wikidata "Q2933"
+ :ordinance-database-url "https://www.asuncion.gov.py/ordenanzas"
+ :head-role-note "institutional office title only (Intendente/Intendenta, and Junta Municipal); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Asunción" :country "pry" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q2933" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- both entries cite the Municipality's own asuncion.gov.py pages"}

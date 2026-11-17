@@ -1,0 +1,9 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "People's Committee of Hanoi City"
+ :name-local "Ủy ban nhân dân Thành phố Hà Nội"
+ :official-url "https://english.hanoi.gov.vn/"
+ :wikidata "Q1858"
+ :head-role-note "institutional office title only (Chairman of the People's Committee; National Assembly Chairman for the national Capital Law); personal names of current office-holders are intentionally NOT stored (the primary Law on the Capital citation source incidentally named the National Assembly Chairman who signed it -- read only to confirm the citation, never persisted here)"
+ :hq {:line-en "Hanoi" :country "vnm" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q1858" :last-verified "2026-07-16" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- english.hanoi.gov.vn's own homepage lists dated administrative decisions; the national Law on the Capital (Luật Thủ đô) was instead confirmed via english.luatvietnam.vn, a private legal-translation distributor of Vietnam's Official Gazette texts (not a government domain itself, but citing genuine official-gazette content)"}

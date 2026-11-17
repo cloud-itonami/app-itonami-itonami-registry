@@ -1,0 +1,8 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Ankara Metropolitan Municipality (Ankara Büyükşehir Belediyesi)"
+ :official-url "https://www.ankara.bel.tr/"
+ :wikidata "Q3640"
+ :head-role-note "institutional office title only (Mayor of Ankara Metropolitan Municipality); personal names of current office-holders are intentionally NOT stored"
+ :hq {:line-en "Ankara" :country "tur" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q3640" :last-verified "2026-07-17" :sourcing "authoritative"}
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-17 -- Ankara has been Turkey's stable capital since 29 October 1923 (replacing Istanbul/Constantinople), with no ongoing ambiguity; Wikidata's P36 for Turkey (Q43) correctly lists Ankara. ankara.bel.tr (the municipality's own portal) returned HTTP 403 on every URL tried (both /meclis/kararlar and a council-decisions news page), so this catalog's entries instead cite the two national founding-charter laws that establish and currently govern Ankara's büyükşehir (metropolitan municipality) status, directly WebFetch/Read-tool-verified against their own text as rendered from mevzuat.gov.tr and the TBMM (Turkish Grand National Assembly) archive."}
