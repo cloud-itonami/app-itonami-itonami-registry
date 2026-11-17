@@ -232,6 +232,7 @@ def validate(root=ROOT):
         if review['decision'] == 'registered' and not any(s['repository'] == review['repository'] and s['commit'] == review['commit'] for s in refs.values()):
             raise ValueError('Registered candidate lacks matching source provenance')
     validate_datasets(root)
+    validate_actors(root)
     validate_compat(root)
     validate_apis(root, catalog, identities, {r['id']: r for r in external['registries']})
     load_declared(root)
@@ -373,6 +374,27 @@ def validate_datasets(root):
         ids = [e['id'] for e in doc['entries']]
         if len(set(ids)) != len(ids):
             raise ValueError(f'Duplicate dataset id: {path.name}')
+
+
+def validate_actors(root):
+    """Actor source catalog (ADR 0011): references only, pinned, never a Hermes entry, grants nothing."""
+    path = root / 'catalogs/actors.json'
+    schema = read(root / 'schemas/actor-sources.schema.json')
+    Draft202012Validator.check_schema(schema)
+    doc = read(path)
+    Draft202012Validator(schema).validate(doc)
+    if doc['count'] != len(doc['entries']):
+        raise ValueError('Actor catalog count mismatch')
+    ids, repos = set(), set()
+    for e in doc['entries']:
+        if e['id'] in ids or e['repository'] in repos:
+            raise ValueError(f"Duplicate actor entry: {e['id']}")
+        ids.add(e['id'])
+        repos.add(e['repository'])
+        if (e['digestStatus'] == 'verified') != bool(e['payload']):
+            raise ValueError(f"Actor digest status disagrees with payload: {e['id']}")
+        if len({p['path'] for p in e['payload']}) != len(e['payload']):
+            raise ValueError(f"Duplicate actor payload path: {e['id']}")
 
 
 def validate_origin_extract(root, apis):

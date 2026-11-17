@@ -9,3 +9,5 @@ candidate-reviews.json records the separately dated review of previously pending
 `targeted-public-sources.json` records specifically reviewed public owners beyond the dated full-organization inventory. It does not assert a full survey of additional organizations. Its pinned registrations are validated alongside inventory provenance.
 
 `datasets/{lei,assoc,municipality}.json` index keyed data repositories of the cloud-itonami organization by pinned commit and file sha256 (ADR 0004). They are references, not copies, are not in `index.json`, and change no owning repository. `unverified` entries have no digests because the builder had no local commit object. Regenerate with `scripts/build_dataset_catalog.py --clones <dir>`.
+
+`actors.json` indexes public Kotoba actor repositories by pinned commit and identity-file sha256 (ADR 0011). It is a reference, not a copy, is not in `index.json`, grants no authority, and changes no owning repository. Regenerate with `scripts/build_actor_catalog.py`.
