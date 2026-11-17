@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1",
+  "type": "profile",
+  "id": "awai-support",
+  "name": "awai-support",
+  "version": "0.1.0",
+  "description": "awai-support: receives support for Awai Network as a whole on behalf of Awai Network LLC. Explains the purpose and shows the consent card; never signs for a sponsor, never holds sponsor keys, never moves real assets. EN devnet only, no schedule.",
+  "author": "network-awai",
+  "source": "https://github.com/network-awai/awai-os/tree/56152bd15bd2d82f089333d6c610d7ee475aee2d",
+  "compatibility": {
+    "hermes": "*",
+    "itonami": "*"
+  },
+  "profile": {
+    "layout": "hermes-profile",
+    "repository": "network-awai/awai-os",
+    "commit": "56152bd15bd2d82f089333d6c610d7ee475aee2d",
+    "path": "dapps/awai-support/hermes/profiles/awai-support",
+    "checksum": "sha256-tree:df3d70c3fd207d327c0fd30f557ea431d3bf1cc1d6715ee99ed16d5554ecbd45",
+    "files": [
+      {
+        "path": "SOUL.md",
+        "sha256": "8bec11b034385a0d9fbdc9c29053add723b6b603cf21a5eb269a704c14e20858",
+        "bytes": 2324
+      },
+      {
+        "path": "profile.yaml",
+        "sha256": "b5d99f3b1abb59b0cc7d157b7bfe64a2b1430c853174a37afa4d91b4d6509ec6",
+        "bytes": 291
+      }
+    ]
+  }
+}
