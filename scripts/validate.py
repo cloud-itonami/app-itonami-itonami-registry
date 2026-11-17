@@ -233,6 +233,7 @@ def validate(root=ROOT):
             raise ValueError('Registered candidate lacks matching source provenance')
     validate_datasets(root)
     validate_actors(root)
+    validate_blueprints(root)
     validate_compat(root)
     validate_apis(root, catalog, identities, {r['id']: r for r in external['registries']})
     load_declared(root)
@@ -395,6 +396,29 @@ def validate_actors(root):
             raise ValueError(f"Actor digest status disagrees with payload: {e['id']}")
         if len({p['path'] for p in e['payload']}) != len(e['payload']):
             raise ValueError(f"Duplicate actor payload path: {e['id']}")
+
+
+def validate_blueprints(root):
+    """Blueprint source catalog (ADR 0012): references only, pinned, never a Hermes entry, grants nothing."""
+    path = root / 'catalogs/blueprints.json'
+    schema = read(root / 'schemas/blueprint-sources.schema.json')
+    Draft202012Validator.check_schema(schema)
+    doc = read(path)
+    Draft202012Validator(schema).validate(doc)
+    if doc['count'] != len(doc['entries']):
+        raise ValueError('Blueprint catalog count mismatch')
+    ids, repos, bps = set(), set(), set()
+    for e in doc['entries']:
+        if e['id'] in ids or e['repository'] in repos:
+            raise ValueError(f"Duplicate blueprint entry: {e['id']}")
+        ids.add(e['id'])
+        repos.add(e['repository'])
+        bps.add(e['keys']['blueprint'])
+        paths = [p['path'] for p in e['payload']]
+        if len(set(paths)) != len(paths):
+            raise ValueError(f"Duplicate blueprint payload path: {e['id']}")
+        if 'blueprint.edn' not in paths:
+            raise ValueError(f"Blueprint entry lacks blueprint.edn: {e['id']}")
 
 
 def validate_origin_extract(root, apis):
