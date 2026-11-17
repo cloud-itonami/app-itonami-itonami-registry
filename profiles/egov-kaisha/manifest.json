@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1",
+  "type": "profile",
+  "id": "egov-kaisha",
+  "name": "egov-kaisha",
+  "version": "0.1.0",
+  "description": "Kaisha: 法人・団体の登記変更などの手続きを、代表権を確認したうえで出典つき候補として整理する（国民側・組織）",
+  "author": "network-awai",
+  "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+  "compatibility": {
+    "hermes": "*",
+    "itonami": "*"
+  },
+  "profile": {
+    "layout": "hermes-profile",
+    "repository": "network-awai/app-itonami-egov",
+    "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
+    "path": "hermes/profiles/kaisha",
+    "checksum": "sha256-tree:6b2edce5d6ed18f169297f71a48d2a9e85a6d8ee0115fe2b806c52ca0e6644fd",
+    "files": [
+      {
+        "path": "SOUL.md",
+        "sha256": "4fb8ba6ae1ed1cd935b9ab8e7af97756662693864fce89c140bfcd3938a13dd7",
+        "bytes": 1919
+      },
+      {
+        "path": "config.yaml",
+        "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+        "bytes": 593
+      },
+      {
+        "path": "cron/jobs.json",
+        "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+        "bytes": 12
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "4e10dd731edb9af07e15c5435b13db05fe16e74542dca96018341d160a73d3b7",
+        "bytes": 2651
+      },
+      {
+        "path": "profile.yaml",
+        "sha256": "51259d0641d5686f6a26359755ddfc3e3202f5a2bb4262d0e876307da0693181",
+        "bytes": 187
+      },
+      {
+        "path": "yakuwari.edn",
+        "sha256": "6caeb20e9aed9b57ee5503c39c5957df290e7180e860c7d82926d9a78f3f7327",
+        "bytes": 1956
+      }
+    ]
+  }
+}

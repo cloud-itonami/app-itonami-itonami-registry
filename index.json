@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T14:45:27.127820Z",
-  "count": 2023,
+  "generated": "2026-11-17T16:52:27.457429Z",
+  "count": 2026,
   "entries": [
     {
       "id": "abaki",
@@ -23685,6 +23685,54 @@
       "path": "profiles/dougaka",
       "checksum": "sha256:e4eb1d017088a944988630356e1fcbc35e94f2fc04103adafd1d366ad6fd1d1f",
       "profileChecksum": "sha256-tree:8d6d3c8334348605aeb57138ecf0014312a4cb0e8390597321d13f487dc72559"
+    },
+    {
+      "id": "egov-kaisha",
+      "type": "profile",
+      "name": "egov-kaisha",
+      "version": "0.1.0",
+      "description": "Kaisha: 法人・団体の登記変更などの手続きを、代表権を確認したうえで出典つき候補として整理する（国民側・組織）",
+      "author": "network-awai",
+      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "compatibility": {
+        "hermes": "*",
+        "itonami": "*"
+      },
+      "path": "profiles/egov-kaisha",
+      "checksum": "sha256:219ca6173c2dd79f33aa6b6385d4e3424d16d282c48362ef38e13f359aac8a73",
+      "profileChecksum": "sha256-tree:6b2edce5d6ed18f169297f71a48d2a9e85a6d8ee0115fe2b806c52ca0e6644fd"
+    },
+    {
+      "id": "egov-matsuri",
+      "type": "profile",
+      "name": "egov-matsuri",
+      "version": "0.1.0",
+      "description": "Matsuri: 政府・自治体の担当者を補助し、受け渡し票を受付準備まで整えて人の審査者へ引き継ぐ（政府側）",
+      "author": "network-awai",
+      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "compatibility": {
+        "hermes": "*",
+        "itonami": "*"
+      },
+      "path": "profiles/egov-matsuri",
+      "checksum": "sha256:8d6597761997bca3f8becab9a5ace862710c756c29da27937650c419941e8115",
+      "profileChecksum": "sha256-tree:4a283c59ed6cfa3fb07b2532bfe370a5d62fd803b93c2cd5349b12f29465796d"
+    },
+    {
+      "id": "egov-shakai",
+      "type": "profile",
+      "name": "egov-shakai",
+      "version": "0.1.0",
+      "description": "Shakai: 個人・家族の行政手続きを、制度パックの出典つき候補・期限・不明点として整理する（国民側）",
+      "author": "network-awai",
+      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "compatibility": {
+        "hermes": "*",
+        "itonami": "*"
+      },
+      "path": "profiles/egov-shakai",
+      "checksum": "sha256:16b346bd4cbd0122338af9404ea86beee7fa6f9e6efc14a8e2f2bcc4c457b865",
+      "profileChecksum": "sha256-tree:99fdb80e40446cd1d37a7a90114c9650742ee0c062bd1bbffbd40f2491beb329"
     },
     {
       "id": "fleet-alloc",

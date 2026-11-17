@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1",
+  "type": "profile",
+  "id": "egov-shakai",
+  "name": "egov-shakai",
+  "version": "0.1.0",
+  "description": "Shakai: 個人・家族の行政手続きを、制度パックの出典つき候補・期限・不明点として整理する（国民側）",
+  "author": "network-awai",
+  "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+  "compatibility": {
+    "hermes": "*",
+    "itonami": "*"
+  },
+  "profile": {
+    "layout": "hermes-profile",
+    "repository": "network-awai/app-itonami-egov",
+    "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
+    "path": "hermes/profiles/shakai",
+    "checksum": "sha256-tree:99fdb80e40446cd1d37a7a90114c9650742ee0c062bd1bbffbd40f2491beb329",
+    "files": [
+      {
+        "path": "SOUL.md",
+        "sha256": "d13579bb62870f5e7c49c749573cef7f6cbf8cf152bd617733e36c2644dde2a1",
+        "bytes": 2515
+      },
+      {
+        "path": "config.yaml",
+        "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+        "bytes": 593
+      },
+      {
+        "path": "cron/jobs.json",
+        "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+        "bytes": 12
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "fa7218a6fe45f8bcf5d41acc500e17103f5e492f665e9c6edb8e5c08cd9c605c",
+        "bytes": 2738
+      },
+      {
+        "path": "profile.yaml",
+        "sha256": "bf311771467ebd0982884c049d285279b2cd173e247dec9520fa2432e5a0c522",
+        "bytes": 169
+      },
+      {
+        "path": "yakuwari.edn",
+        "sha256": "2e8922d8fa2cc06723a66ae27482fc3122241f997794b83e12cff1ee1900c09c",
+        "bytes": 2079
+      }
+    ]
+  }
+}
