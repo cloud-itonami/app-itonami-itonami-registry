@@ -146,6 +146,27 @@
           "sourceCommit": "753a3d84eddedbfd1466e7744fd87592e20e2514"
         }
       ]
+    },
+    {
+      "repository": "network-awai/app-itonami-egov",
+      "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
+      "visibility": "public",
+      "reviewedOn": "2026-11-18",
+      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey.",
+      "registrations": [
+        {
+          "entry": "profile/egov-kaisha",
+          "sourceCommit": "10259965581c108e0924acfd32a0714ad478aaf8"
+        },
+        {
+          "entry": "profile/egov-matsuri",
+          "sourceCommit": "10259965581c108e0924acfd32a0714ad478aaf8"
+        },
+        {
+          "entry": "profile/egov-shakai",
+          "sourceCommit": "10259965581c108e0924acfd32a0714ad478aaf8"
+        }
+      ]
     }
   ]
 }

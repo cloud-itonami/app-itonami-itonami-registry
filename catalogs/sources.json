@@ -57921,6 +57921,103 @@
           "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-municipality-zaf-cape-town/blob/74e65675561046df679d8f052caffa2a25931dc3/organization.edn"
         }
       ]
+    },
+    {
+      "id": "app-itonami-egov",
+      "repository": "network-awai/app-itonami-egov",
+      "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
+      "files": [
+        {
+          "path": "hermes/profiles/kaisha/SOUL.md",
+          "sha256": "4fb8ba6ae1ed1cd935b9ab8e7af97756662693864fce89c140bfcd3938a13dd7",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/kaisha/config.yaml",
+          "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/kaisha/cron/jobs.json",
+          "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/kaisha/itonami.edn",
+          "sha256": "4e10dd731edb9af07e15c5435b13db05fe16e74542dca96018341d160a73d3b7",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/kaisha/profile.yaml",
+          "sha256": "51259d0641d5686f6a26359755ddfc3e3202f5a2bb4262d0e876307da0693181",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/kaisha/yakuwari.edn",
+          "sha256": "6caeb20e9aed9b57ee5503c39c5957df290e7180e860c7d82926d9a78f3f7327",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/kaisha/yakuwari.edn"
+        },
+        {
+          "path": "hermes/profiles/matsuri/SOUL.md",
+          "sha256": "23acc35b13b42c81ce1264804dbb3716e515a2b3bec0262b08481a75ee56addf",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/matsuri/config.yaml",
+          "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/matsuri/cron/jobs.json",
+          "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/matsuri/itonami.edn",
+          "sha256": "d1f19b336cf70707203dffba5735d05075e2d2a561f06cf8728a2ab97b1b1236",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/matsuri/profile.yaml",
+          "sha256": "9278637de51100f2531deec98c3e8d7576f54f31690157acb96760b4cf67bcf7",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/matsuri/yakuwari.edn",
+          "sha256": "d7ea9f6c5797bb1645815073d1ba8c37a727124584e928d6b5dc3a1ac49951b4",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/matsuri/yakuwari.edn"
+        },
+        {
+          "path": "hermes/profiles/shakai/SOUL.md",
+          "sha256": "d13579bb62870f5e7c49c749573cef7f6cbf8cf152bd617733e36c2644dde2a1",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/shakai/config.yaml",
+          "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/shakai/cron/jobs.json",
+          "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/shakai/itonami.edn",
+          "sha256": "fa7218a6fe45f8bcf5d41acc500e17103f5e492f665e9c6edb8e5c08cd9c605c",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/shakai/profile.yaml",
+          "sha256": "bf311771467ebd0982884c049d285279b2cd173e247dec9520fa2432e5a0c522",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/shakai/yakuwari.edn",
+          "sha256": "2e8922d8fa2cc06723a66ae27482fc3122241f997794b83e12cff1ee1900c09c",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/yakuwari.edn"
+        }
+      ]
     }
   ]
 }

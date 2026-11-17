@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T14:45:27.127820Z",
+  "generated": "2026-11-17T16:52:27.457429Z",
   "types": [
     {
       "type": "agent",
@@ -19,7 +19,7 @@
     },
     {
       "type": "profile",
-      "count": 899,
+      "count": 902,
       "categories": []
     },
     {

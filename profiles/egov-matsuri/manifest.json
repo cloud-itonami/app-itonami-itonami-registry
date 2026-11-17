@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1",
+  "type": "profile",
+  "id": "egov-matsuri",
+  "name": "egov-matsuri",
+  "version": "0.1.0",
+  "description": "Matsuri: 政府・自治体の担当者を補助し、受け渡し票を受付準備まで整えて人の審査者へ引き継ぐ（政府側）",
+  "author": "network-awai",
+  "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+  "compatibility": {
+    "hermes": "*",
+    "itonami": "*"
+  },
+  "profile": {
+    "layout": "hermes-profile",
+    "repository": "network-awai/app-itonami-egov",
+    "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
+    "path": "hermes/profiles/matsuri",
+    "checksum": "sha256-tree:4a283c59ed6cfa3fb07b2532bfe370a5d62fd803b93c2cd5349b12f29465796d",
+    "files": [
+      {
+        "path": "SOUL.md",
+        "sha256": "23acc35b13b42c81ce1264804dbb3716e515a2b3bec0262b08481a75ee56addf",
+        "bytes": 1921
+      },
+      {
+        "path": "config.yaml",
+        "sha256": "492c193d6e55839fa9d8f4358e637506bc9b5ec1e1b816e665d9ecfe5f9d8b05",
+        "bytes": 593
+      },
+      {
+        "path": "cron/jobs.json",
+        "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
+        "bytes": 12
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "d1f19b336cf70707203dffba5735d05075e2d2a561f06cf8728a2ab97b1b1236",
+        "bytes": 2533
+      },
+      {
+        "path": "profile.yaml",
+        "sha256": "9278637de51100f2531deec98c3e8d7576f54f31690157acb96760b4cf67bcf7",
+        "bytes": 174
+      },
+      {
+        "path": "yakuwari.edn",
+        "sha256": "d7ea9f6c5797bb1645815073d1ba8c37a727124584e928d6b5dc3a1ac49951b4",
+        "bytes": 1816
+      }
+    ]
+  }
+}
