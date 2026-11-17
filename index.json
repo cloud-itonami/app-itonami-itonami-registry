@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T13:11:55.207362Z",
+  "generated": "2026-11-17T13:12:29.329282Z",
   "count": 2023,
   "entries": [
     {
@@ -38340,7 +38340,7 @@
       "description": "Look up what the Itonami archive knows about a municipality, covering its official organization details and a catalog of its ordinances with official source links. Use when a user asks about local rules or an administrative procedure in one of these cities.",
       "category": "knowledge",
       "path": "skills/knowledge/municipal-ordinance-knowledge",
-      "checksum": "sha256:c74c9cd0ad8bbec07b560862acb5b476c89ab06211b32a618d5c98055e1b3d8a"
+      "checksum": "sha256:6b2ba129dd52c843ff86e0119518f0c053a859723ba1e9c7904c0b257b14abfe"
     },
     {
       "version": "0.1.0",

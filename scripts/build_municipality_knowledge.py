@@ -55,7 +55,7 @@ def main():
         tx = data[e['id']].get('data/datascript-tx.edn', b'').decode('utf-8', 'replace')
         index.append({'id': mid, 'country': e['keys'].get('country'), 'name': e.get('name') or kw(org, 'name-en'), 'name-local': kw(org, 'name-local'),
                       'official-url': kw(org, 'official-url'), 'wikidata': kw(org, 'wikidata'),
-                      'ordinances': len(re.findall(r':ordinance/id\s', tx)), 'dir': f'references/municipality/{mid}'})
+                      'ordinances': len(re.findall(r'#:ordinance\{:id\s', tx)), 'dir': f'references/municipality/{mid}'})
         sources.append({'id': f"municipality-{mid}-{e['commit'][:8]}", 'repository': e['repository'], 'commit': e['commit'],
                         'files': sorted(({'path': p['path'], 'sha256': p['sha256'],
                                           'url': f"https://github.com/{e['repository']}/blob/{e['commit']}/{p['path']}"} for p in e['payload']),
