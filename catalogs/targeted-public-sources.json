@@ -167,6 +167,19 @@
           "sourceCommit": "10259965581c108e0924acfd32a0714ad478aaf8"
         }
       ]
+    },
+    {
+      "repository": "network-awai/awai-os",
+      "commit": "56152bd15bd2d82f089333d6c610d7ee475aee2d",
+      "visibility": "public",
+      "reviewedOn": "2026-11-18",
+      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey.",
+      "registrations": [
+        {
+          "entry": "profile/awai-support",
+          "sourceCommit": "56152bd15bd2d82f089333d6c610d7ee475aee2d"
+        }
+      ]
     }
   ]
 }

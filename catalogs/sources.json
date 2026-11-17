@@ -58018,6 +58018,23 @@
           "url": "https://github.com/network-awai/app-itonami-egov/blob/10259965581c108e0924acfd32a0714ad478aaf8/hermes/profiles/shakai/yakuwari.edn"
         }
       ]
+    },
+    {
+      "id": "awai-os",
+      "repository": "network-awai/awai-os",
+      "commit": "56152bd15bd2d82f089333d6c610d7ee475aee2d",
+      "files": [
+        {
+          "path": "dapps/awai-support/hermes/profiles/awai-support/SOUL.md",
+          "sha256": "8bec11b034385a0d9fbdc9c29053add723b6b603cf21a5eb269a704c14e20858",
+          "url": "https://github.com/network-awai/awai-os/blob/56152bd15bd2d82f089333d6c610d7ee475aee2d/dapps/awai-support/hermes/profiles/awai-support/SOUL.md"
+        },
+        {
+          "path": "dapps/awai-support/hermes/profiles/awai-support/profile.yaml",
+          "sha256": "b5d99f3b1abb59b0cc7d157b7bfe64a2b1430c853174a37afa4d91b4d6509ec6",
+          "url": "https://github.com/network-awai/awai-os/blob/56152bd15bd2d82f089333d6c610d7ee475aee2d/dapps/awai-support/hermes/profiles/awai-support/profile.yaml"
+        }
+      ]
     }
   ]
 }

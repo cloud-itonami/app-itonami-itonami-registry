@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-17T16:52:27.457429Z",
-  "count": 2026,
+  "generated": "2026-11-17T17:12:03.700308Z",
+  "count": 2027,
   "entries": [
     {
       "id": "abaki",
@@ -23333,6 +23333,22 @@
       "path": "profiles/awai-store-removal",
       "checksum": "sha256:4edccae81850e67599ffe4b99cdf9166e8a09f58cc0b3bb008e35a124708756a",
       "profileChecksum": "sha256-tree:0c0dbf0d7b0ddbf7bf8f1c20a0642048f27e7d8373560799230e1050c9afd043"
+    },
+    {
+      "id": "awai-support",
+      "type": "profile",
+      "name": "awai-support",
+      "version": "0.1.0",
+      "description": "awai-support: receives support for Awai Network as a whole on behalf of Awai Network LLC. Explains the purpose and shows the consent card; never signs for a sponsor, never holds sponsor keys, never moves real assets. EN devnet only, no schedule.",
+      "author": "network-awai",
+      "source": "https://github.com/network-awai/awai-os/tree/56152bd15bd2d82f089333d6c610d7ee475aee2d",
+      "compatibility": {
+        "hermes": "*",
+        "itonami": "*"
+      },
+      "path": "profiles/awai-support",
+      "checksum": "sha256:c377c4ddb1a16a04ac3b443744aa5190a3b94033f135bea3db87a56ce8c1740c",
+      "profileChecksum": "sha256-tree:df3d70c3fd207d327c0fd30f557ea431d3bf1cc1d6715ee99ed16d5554ecbd45"
     },
     {
       "id": "bim-app-maint",
