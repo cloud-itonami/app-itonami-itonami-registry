@@ -24,6 +24,7 @@ The Itonami Registry is the Hermes registry's equivalent for Itonami (ADR 0002).
 **Site and API.**
 - `scripts/build_site.py` builds a static site and JSON API (`api/v1/index.json`, `categories.json`, `models.json`, `registries.json`, `entries/<registry>/<type>/<id>.json`), published by GitHub Pages.
 - The Hermes registry (fathah/hermes-registry) is federated as `hermes-registry/<type>/<id>`: metadata only, pinned commit, upstream checksums.
+- The [association rules viewer](https://cloud-itonami.github.io/app-itonami-itonami-registry/assoc/) filters by country or region and ISIC. It shows catalogued titles, citation links, retrieval dates and reference sections when recorded. The site build projects the pinned association EDN into inert HTML data after checking its SHA-256 against `catalogs/datasets/assoc.json`. Building requires access to the pinned GitHub files. The built `assoc/` directory uses relative assets and searches its bundled snapshot locally, so it can be included in a future Tauri frontend alongside the Registry index. External citations are opened on demand and need connectivity.
 
 **Contributing.** See [CONTRIBUTING.md](CONTRIBUTING.md); profiles are registered with `scripts/add_profile.py`.
 

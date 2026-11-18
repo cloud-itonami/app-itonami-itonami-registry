@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>業界団体のルールと出典 · Itonami Registry</title>
+<link rel="stylesheet" href="./assoc.css">
+<script src="./assoc.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <nav aria-label="レジストリ">
+    <a href="../index.html">Itonami Registry</a>
+  </nav>
+</header>
+<main>
+  <h1>業界団体のルールと出典</h1>
+  <p class="intro">国・地域と業種で団体を絞り込み、収録されたルールや活動の記録から出典を確認できます。</p>
+  <search id="filters" hidden>
+    <form>
+      <div class="field">
+        <label for="country">国・地域</label>
+        <select id="country" name="country"><option value="">すべての国・地域</option></select>
+      </div>
+      <div class="field">
+        <label for="industry">業種（ISIC）</label>
+        <select id="industry" name="industry"><option value="">すべての業種</option></select>
+      </div>
+      <button type="submit">絞り込む</button>
+      <button type="reset">クリア</button>
+    </form>
+  </search>
+  <noscript>絞り込みとルールの表示には JavaScript が必要です。</noscript>
+  <section aria-labelledby="results-heading">
+    <div class="section-heading">
+      <h2 id="results-heading">団体一覧</h2>
+      <span id="snapshot"></span>
+    </div>
+    <p id="status" role="status"></p>
+    <div id="results"></div>
+  </section>
+</main>
+<script id="assoc-data" type="application/json"><!-- ASSOC_DATA --></script>
+</body>
+</html>
