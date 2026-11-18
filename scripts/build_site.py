@@ -8,6 +8,7 @@ registry is static: everything a client needs is a file, so it can be served
 from GitHub Pages (or any static host) and verified against git.
 
     site/index.html                                   browse / search
+    site/assoc/index.html                             association rules and citations
     site/api/v1/index.json                            every entry, all registries
     site/api/v1/categories.json, models.json          Hermes registry shapes
     site/api/v1/registries.json                       which registries, which commits
@@ -22,6 +23,7 @@ import json
 import shutil
 from pathlib import Path
 
+import build_assoc_catalog
 from build_index import ROOT, frontmatter
 
 REGISTRY = {'id': 'itonami-registry', 'repository': 'cloud-itonami/app-itonami-itonami-registry'}
@@ -104,6 +106,11 @@ def build(root, out):
         shutil.copy(root / name, api / name)
     shutil.copy(root / 'catalogs/api-classification.json', api / 'api-classification.json')
     shutil.copy(root / 'web/index.html', out / 'index.html')
+    assoc = out / 'assoc'
+    assoc.mkdir()
+    for name in ('assoc.css', 'assoc.js'):
+        shutil.copy(root / 'web/assoc' / name, assoc / name)
+    build_assoc_catalog.build(root, assoc)
     (out / '.nojekyll').write_text('')
     return len(rows)
 

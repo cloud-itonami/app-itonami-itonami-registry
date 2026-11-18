@@ -1,2 +1,4 @@
 jsonschema==4.23.0
 PyYAML==6.0.2
+edn_format==0.7.5
+pycountry==24.6.1
