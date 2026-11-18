@@ -1,0 +1,87 @@
+;; 制度パック: ドイツ（連邦の法令レベル、AWAI-3448）
+;; 出典は gesetze-im-internet.de（連邦司法省と juris による統合版。官報 BGBl. そのものではない）から
+;; 2026-11-18 に取得し、§ 17 のページの sha256 を記録した。改正の状態は同じサイトの xml.zip の
+;; standangabe による。専門家レビューは未実施。:review/status :unreviewed の間は「候補」の提示だけを許し、
+;; 提出の提案はしない（AWAI-155）。
+;;
+;; Land Berlin と Landeshauptstadt München の参考情報は itonami registry の municipal-ordinance-knowledge を元にし、
+;; 各文書を取り直して sha256 を記録した。条例・規則は手続きではない。
+{:pack/id :de/melderecht-move
+ :pack/version "2026.11.18-1"
+ :pack/jurisdiction [:de]
+ :pack/language :de
+ :pack/requires-subdivision false
+ :pack/subdivisions
+ {:de.land/berlin
+  {:name "Land Berlin"
+   :fixture false
+   :knowledge {:registry "cloud-itonami/app-itonami-itonami-registry"
+               :commit "318be726826f8a3a430249135e20bfae22d147ff"
+               :path "skills/knowledge/municipal-ordinance-knowledge/references/municipality/deu-berlin/datascript-tx.edn"
+               :sha256 "dedd5b55f39e3982f8cabf88a3a4d174009c575569060e8381f49cd324309cc7"}
+   :references
+   [{:id :de.berlin/informationsfreiheitsgesetz
+     :title "Berliner Informationsfreiheitsgesetz (IFG)"
+     :issuer "Berliner Beauftragte für Datenschutz und Informationsfreiheit"
+     :url "https://www.datenschutz-berlin.de/fileadmin/user_upload/pdf/gesetzestexte/2025-GVBl_IFG.pdf"
+     :topic :freedom-of-information
+     :retrieved-on "2026-11-18"
+     :sha256 "a1a0ca2f687b71a912db85770f5fe2e43efeac202c4bf5a8bec915b542c3ebf9"}
+    {:id :de.berlin/datenschutzgesetz
+     :title "Berliner Datenschutzgesetz (BlnDSG)"
+     :issuer "Berliner Beauftragte für Datenschutz und Informationsfreiheit"
+     :url "https://www.datenschutz-berlin.de/fileadmin/user_upload/pdf/gesetzestexte/2022-BlnBDI_BlnDSG.pdf"
+     :topic :data-protection
+     :retrieved-on "2026-11-18"
+     :sha256 "f2aacc3ca88af018687cf93291320046ed59b83373c49a52768c31afa418e5dd"}]}
+  :de.stadt/muenchen
+  {:name "Landeshauptstadt München"
+   :fixture false
+   :knowledge {:registry "cloud-itonami/app-itonami-itonami-registry"
+               :commit "318be726826f8a3a430249135e20bfae22d147ff"
+               :path "skills/knowledge/municipal-ordinance-knowledge/references/municipality/deu-munich/datascript-tx.edn"
+               :sha256 "4052c9bb09550cafca6a4893ec26417753c9c38f174e3c33c506c7b859666266"}
+   :references
+   [{:id :de.muenchen/gruenanlagensatzung
+     :title "Satzung über die Benutzung der städtischen öffentlichen Grünanlagen (Grünanlagensatzung)"
+     :issuer "Landeshauptstadt München"
+     :url "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/810/version1/0.html"
+     :topic :public-space
+     :retrieved-on "2026-11-18"
+     :sha256 "d0f94e5d5d573601f1f3e0ee55780305e2a2588494764f538b495f65598d420a"}
+    {:id :de.muenchen/strassenreinigungssatzung
+     :title "Satzung über die Straßenreinigung der Landeshauptstadt München (Straßenreinigungssatzung)"
+     :issuer "Landeshauptstadt München"
+     :url "https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/240/version3/0.html"
+     :topic :sanitation
+     :retrieved-on "2026-11-18"
+     :sha256 "df03ef8c96b847568f97869bdf026f61734f435060437a7a850cd366e4f1790b"}]}
+  :de.fixture/gemeinde-a {:name "Fiktive Gemeinde A（テスト用・実在しない）" :fixture true}}
+ :pack/checked-on "2026-11-18"
+ :pack/review-by "2027-02-18"
+ :review/status :unreviewed
+ :review/reviewer nil
+ :review/reviewed-on nil
+ :pack/sources
+ {:de.law/bmg-17
+  {:title "Bundesmeldegesetz (BMG) § 17 Anmeldung, Abmeldung"
+   :issuer "Bundesministerium der Justiz / juris（gesetze-im-internet.de、非公式の統合版）"
+   :url "https://www.gesetze-im-internet.de/bmg/__17.html"
+   :api "https://www.gesetze-im-internet.de/bmg/xml.zip"
+   :law-revision-id "BMG, zuletzt geändert durch Art. 10 G v. 22.7.2026 I Nr. 222（xml.zip builddate 20261116220005）"
+   :digest-scope :section-page
+   :retrieved-on "2026-11-18"
+   :sha256 "c377275ab2ce15f8393536c53549b96c22c6b31b06f37e87ac8ab0ee4c1905cb"}}
+ :pack/procedures
+ [{:procedure/id :de/anmeldung
+   :procedure/title "Anmeldung（住所の届出）"
+   :subject :person
+   ;; § 17 Abs. 1: 住居に入った人は、同じ市町村内でも別の市町村からでも届け出る。
+   :applies-when #{:move-within-municipality :move-between-municipalities}
+   ;; 「innerhalb von zwei Wochen nach dem Einzug」
+   :deadline {:kind :within-days :days 14 :anchor :moved-on}
+   :submit-to :to-municipality
+   ;; § 17 は「die Meldebehörde」とだけ書く。どの機関が管轄するかは州法で決まり、この条文では確かめていない。
+   ;; 国外への転出の Abmeldung（同条 Abs. 2）と 16 歳未満の扱い（Abs. 3）は未収録。
+   :unknowns [:de/competent-meldebehoerde-not-in-cited-section]
+   :sources [:de.law/bmg-17]}]}

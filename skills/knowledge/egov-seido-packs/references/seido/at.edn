@@ -1,0 +1,58 @@
+;; 制度パック: オーストリア（連邦の法令レベル、AWAI-3448）
+;; 出典は Rechtsinformationssystem des Bundes（RIS）の OGD API（data.bka.gv.at）で 2026-11-18 に取得した
+;; § 3 の文書（NOR40257117、2023-12-12 から有効）の sha256。専門家レビューは未実施。
+;; :review/status :unreviewed の間は「候補」の提示だけを許し、提出の提案はしない（AWAI-155）。
+;;
+;; Wien の参考情報は itonami registry の municipal-ordinance-knowledge を元にした。目録にある 2 件のうち、
+;; verfassungen.at のページは 2026-11-18 に HTTP 403 で取得できなかったので入れていない。
+{:pack/id :at/meldegesetz-move
+ :pack/version "2026.11.18-1"
+ :pack/jurisdiction [:at]
+ :pack/language :de
+ :pack/requires-subdivision false
+ :pack/subdivisions
+ {:at.gemeinde/wien
+  {:name "Wien"
+   :fixture false
+   :knowledge {:registry "cloud-itonami/app-itonami-itonami-registry"
+               :commit "318be726826f8a3a430249135e20bfae22d147ff"
+               :path "skills/knowledge/municipal-ordinance-knowledge/references/municipality/aut-vienna/datascript-tx.edn"
+               :sha256 "e63bf3206cf66ba3259230af9cb89c9618d80ce0a87239432aab1a7939ec686e"}
+   :references
+   [{:id :at.wien/bauordnung-geschichte
+     :title "Bauordnung（Wien Geschichte Wiki、歴史の解説）"
+     :issuer "Stadt Wien（Wien Geschichte Wiki）"
+     :url "https://www.geschichtewiki.wien.gv.at/Bauordnung"
+     :topic :building
+     :retrieved-on "2026-11-18"
+     :sha256 "ed5d40dd9fe695eb49e1fcea9e3f06a1db79d03e90e05335cf69d074c6ef4e36"}]}
+  :at.fixture/gemeinde-a {:name "Fiktive Gemeinde A（テスト用・実在しない）" :fixture true}}
+ :pack/checked-on "2026-11-18"
+ :pack/review-by "2027-02-18"
+ :review/status :unreviewed
+ :review/reviewer nil
+ :review/reviewed-on nil
+ :pack/sources
+ {:at.law/meldeg-3
+  {:title "Meldegesetz 1991 (MeldeG) § 3 Unterkunft in Wohnungen; An- oder Ummeldung"
+   :issuer "Rechtsinformationssystem des Bundes (RIS), Bundeskanzleramt"
+   :url "https://ogd.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40257117/NOR40257117.html"
+   :api "https://data.bka.gv.at/ris/api/v2.6/Bundesrecht?Applikation=BrKons&Gesetzesnummer=10005799&Abschnitt.Von=3&Abschnitt.Bis=3&Abschnitt.Typ=Paragraph&Fassung.FassungVom=2026-11-18"
+   :law-revision-id "NOR40257117（Gesetzesnummer 10005799）"
+   :in-force-from "2023-12-12"
+   :digest-scope :section-page
+   :retrieved-on "2026-11-18"
+   :sha256 "29646d2d192f307a02a5b57c5890ffe2715bd0d1d61e8e6ee59655b0011aee82"}}
+ :pack/procedures
+ [{:procedure/id :at/anmeldung
+   :procedure/title "Anmeldung oder Ummeldung（住所の届出）"
+   :subject :person
+   ;; § 3 Abs. 1: 住居に宿所をとった人は届け出る。
+   :applies-when #{:move-within-municipality :move-between-municipalities}
+   ;; 「innerhalb von drei Tagen danach」
+   :deadline {:kind :within-days :days 3 :anchor :moved-on}
+   :submit-to :to-municipality
+   ;; Anmeldung と Ummeldung の区別（§ 11 Abs. 4 を参照）、前の住居の Abmeldung、Meldebehörde の管轄は
+   ;; § 3 だけでは確かめていない。
+   :unknowns [:at/anmeldung-or-ummeldung-not-distinguished :at/abmeldung-not-covered]
+   :sources [:at.law/meldeg-3]}]}

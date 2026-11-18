@@ -6,7 +6,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: network-awai
-    source: https://github.com/network-awai/app-itonami-egov/tree/bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec
+    source: https://github.com/network-awai/app-itonami-egov/tree/2db4b704e22fd84fea3e898acd5730725e2b67dd
     compatibility:
       hermes: '*'
       desktop: '*'
@@ -14,7 +14,7 @@ metadata:
 
 # E-government institution packs
 
-`references/seido/*.edn` are verbatim copies of the institution packs in `network-awai/app-itonami-egov` at `bf8253f1`. Each pack holds, for
+`references/seido/*.edn` are verbatim copies of the institution packs in `network-awai/app-itonami-egov` at `2db4b704`. Each pack holds, for
 one country: procedures (who, when it applies, deadline, where to submit), the primary legal sources with retrieval
 date and sha256, subdivisions (real municipalities are marked `:fixture false`; test ones `:fixture true`) and local
 reference documents. `references/index.json` lists the packs, their review state and procedures.
