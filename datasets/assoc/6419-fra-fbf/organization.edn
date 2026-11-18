@@ -1,0 +1,14 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "French Banking Federation"
+ :name-local "Fédération bancaire française"
+ :abbreviation "FBF"
+ :legal-form "association loi 1901"
+ :official-url "https://www.fbf.fr/fr/"
+ :official-url-en "https://www.fbf.fr/en/"
+ :wikidata "Q3091456"
+ :isic "6419"
+ :country "FRA"
+ :established-date "2000-11"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15"}

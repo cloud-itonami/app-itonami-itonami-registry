@@ -1,0 +1,174 @@
+;; data/datascript-tx.edn — DataScript tx-data for the RECAJ self-regulatory
+;; rule catalog (ADR-2607141700). This file is the SOURCE the other two
+;; readings come from: `scripts/gen_association_facts_kotoba.cljk` generates
+;; `src/association_facts.kotoba` from it, and `association.facts-test`
+;; asserts `src/association/facts.cljk` agrees with it field for field.
+;;
+;; No :db/id per entity, same shape as the sibling tx-data files.
+;; `:association-rule/topic` is serialized as a vector; the .cljc holds a set.
+;;
+;; Every :association-rule/url was fetched and answered 200 with the content
+;; type its extension implies -- `kbb --backend sci scripts/verify_citations.cljk` is how you
+;; check that again. A rule that is not in this file has NO spec-basis; extend
+;; it from an fdk.or.jp page you actually read, never from memory.
+
+[#:association-rule{:id "recaj.articles-of-incorporation"
+                    :title "定款 (Articles of Incorporation)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "http://www.fdk.or.jp/f_outline/pdf/teikan.pdf"
+                    :url-provenance :official-association-site
+                    :retrieved-at "2026-07-15"
+                    :topic [:governance]}
+ #:association-rule{:id "recaj.voluntary-action-plan-fair-transactions"
+                    :title "適正取引の推進に向けた自主行動計画 (Voluntary Action Plan for Promoting Fair Transactions)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://fdk.or.jp/k_etc/plan.html"
+                    :url-provenance :official-association-site
+                    :last-revised-date "2024-06-28"
+                    :retrieved-at "2026-07-15"
+                    :topic [:fair-transaction :consumer-protection]}
+ #:association-rule{:id "recaj.after-service-standard-mid-high-rise"
+                    :title "中高層住宅アフターサービス規準 (After-Service Standard for Mid- and High-Rise Housing)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_afterservice/index.html"
+                    :url-provenance :official-association-site
+                    :last-revised-date "2000-04-21"
+                    :retrieved-at "2026-09-09"
+                    :topic [:after-service :consumer-protection]}
+ #:association-rule{:id "recaj.after-service-standard-detached-house"
+                    :title "戸建住宅アフターサービス規準 (After-Service Standard for Detached Housing)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_afterservice/token.html"
+                    :url-provenance :official-association-site
+                    :last-revised-date "2000-07-14"
+                    :retrieved-at "2026-09-09"
+                    :topic [:after-service :consumer-protection]}
+ #:association-rule{:id "recaj.after-service-standard-residential-land"
+                    :title "宅地アフターサービス規準 (After-Service Standard for Residential Land)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_afterservice/takuti.html"
+                    :url-provenance :official-association-site
+                    :retrieved-at "2026-09-09"
+                    :topic [:after-service :consumer-protection]}
+ #:association-rule{:id "recaj.condominium-trust-restoration-agreement"
+                    :title "マンションの信頼性を回復するための取り組みに関する申し合わせ (Agreement on Measures to Restore Confidence in Condominiums)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_etc/pdf/18mansion.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2006-03-02"
+                    :retrieved-at "2026-09-09"
+                    :topic [:building-safety :consumer-protection]}
+ #:association-rule{:id "recaj.foundation-pile-construction-measures"
+                    :title "基礎ぐい工事問題に関する対策委員会の中間とりまとめ報告書を踏まえた当協会の取り組みについて (Association Measures Following the Interim Report on the Foundation Pile Construction Problem)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.fdk.or.jp/news/pdf/houdoupress_20160121.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2016-01-21"
+                    :retrieved-at "2026-09-09"
+                    :topic [:building-safety :consumer-protection]}
+ #:association-rule{:id "recaj.barrier-free-information-agreement"
+                    :title "共同住宅のバリアフリーに関する情報提供の取組に関する申合せ (Agreement on Providing Barrier-Free Information for Multi-Unit Housing)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_etc/pdf/barrierfree_1807.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2018-07-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:accessibility :consumer-protection]}
+ #:association-rule{:id "recaj.speculative-short-term-resale-measures"
+                    :title "分譲マンションの投機的短期転売問題にかかる取組みについて (Measures on Speculative Short-Term Resale of Condominium Units)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_etc/pdf/tankitenbai_2511.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2025-11-25"
+                    :retrieved-at "2026-09-09"
+                    :topic [:fair-transaction :consumer-protection]}
+ #:association-rule{:id "recaj.business-continuity-plan-guideline-office"
+                    :title "不動産協会事業継続計画ガイドライン～オフィスビル賃貸事業編～ (RECAJ Business Continuity Plan Guideline: Office Building Leasing Edition)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :practice-guidance
+                    :url "https://www.fdk.or.jp/k_etc/guideline.html"
+                    :url-provenance :official-association-site
+                    :established-date "2007-11-16"
+                    :retrieved-at "2026-09-09"
+                    :topic [:business-continuity :disaster-preparedness]}
+ #:association-rule{:id "recaj.long-term-repair-plan-preparation-guideline"
+                    :title "長期修繕計画の作成指針 (Guideline for Preparing a Long-Term Repair Plan)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :practice-guidance
+                    :url "https://www.fdk.or.jp/k_plan/tyouki.html"
+                    :url-provenance :official-association-site
+                    :retrieved-at "2026-09-09"
+                    :topic [:building-maintenance :consumer-protection]}
+ #:association-rule{:id "recaj.repair-reserve-fund-policy"
+                    :title "長期修繕計画及び適正な修繕積立金のあり方 (Policy on Long-Term Repair Plans and Appropriate Repair Reserve Funds)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.fdk.or.jp/k_plan/tsumitate.html"
+                    :url-provenance :official-association-site
+                    :retrieved-at "2026-09-09"
+                    :topic [:building-maintenance :consumer-protection]}
+ #:association-rule{:id "recaj.bim-apartment-brochure-drawing-handbook"
+                    :title "不動産協会標準_集合住宅パンフレット図面作成の手引 (RECAJ Standard: Handbook for Preparing Multi-Unit Housing Brochure Drawings)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :practice-guidance
+                    :url "https://www.fdk.or.jp/k_bim/pdf/bim_tebiki.pdf"
+                    :url-provenance :official-association-site
+                    :retrieved-at "2026-09-09"
+                    :topic [:digital-standard]}
+ #:association-rule{:id "recaj.real-estate-industry-environment-action-plan"
+                    :title "不動産業環境実行計画～サステナブルなまちづくりに向けて～ (Real Estate Industry Environmental Action Plan: Toward Sustainable Town Development)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.fdk.or.jp/k_environment/plan_sustainable.html"
+                    :url-provenance :official-association-site
+                    :established-date "2013-03-21"
+                    :retrieved-at "2026-09-09"
+                    :topic [:environment]}
+ #:association-rule{:id "recaj.personal-information-handling-policy"
+                    :title "個人情報の取扱いについて (Policy on the Handling of Personal Information)"
+                    :association "recaj"
+                    :isic "6810"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.fdk.or.jp/kojin/handling.html"
+                    :url-provenance :official-association-site
+                    :established-date "2005-04-01"
+                    :retrieved-at "2026-09-09"
+                    :topic [:privacy :governance]}]

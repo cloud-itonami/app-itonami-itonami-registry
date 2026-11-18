@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "CTIA - The Wireless Association"
+ :name-local "CTIA"
+ :abbreviation "CTIA"
+ :legal-form "501(c)(6) nonprofit trade association"
+ :official-url "https://www.ctia.org/"
+ :wikidata "Q5014574"
+ :isic "6120"
+ :country "USA"
+ :established-date "1984"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- www.ctia.org itself failed WebFetch with a TLS certificate error, so both entries cite api.ctia.org (the same organization's document-hosting subdomain, which rendered/downloaded cleanly) instead; established-date corroborated via multiple independent WebSearch sources (Wikipedia, Zippia), not a primary CTIA page"}

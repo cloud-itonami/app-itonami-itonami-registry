@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only (President / Chief Executive) — no personal names.
+{:name-en "Society of Motor Manufacturers and Traders"
+ :abbreviation "SMMT"
+ :official-url "https://www.smmt.co.uk/"
+ :wikidata "Q7552564"
+ :isic "2910"
+ :country "GBR"
+ :established-date "1902-07-22"
+ :head-role-note "institutional office title only (President / Chief Executive); personal names of current office-holders are intentionally NOT stored (the About page names both incumbents, read only to confirm the governance-structure description, never persisted here)"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- SMMT's own History page states plainly: 'On 22 July 1902 the Society of Motor Manufacturers and Traders (SMMT) was created'"}

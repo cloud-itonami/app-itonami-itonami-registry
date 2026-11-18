@@ -1,0 +1,144 @@
+;; data/datascript-tx.edn — DataScript tx-data for `association.facts`
+;; (ADR-2607141700). This file is the catalog's source of truth: it is what
+;; `scripts/gen_association_facts_kotoba.cljk` reads to emit
+;; `src/association_facts.kotoba`, and what `association.facts-test` compares
+;; `association.facts/catalog` against. No :db/id per entity, same shape as
+;; sibling tx-data files. `:association-rule/topic` serialized as a vector
+;; because the Kotoba port indexes topics by position.
+;;
+;; Every entry cites an OFFICIAL nichibenren.or.jp URL. Entries 0-1 were
+;; verified 2026-07-15; entries 2-10 were verified 2026-09-09 by fetching each
+;; URL (all 200 application/pdf) and reading the enactment and most recent
+;; amendment dates off each document's own cover page. A rule not in this table
+;; has NO spec-basis — extend it, never invent an id/url.
+
+[#:association-rule{:id "nichibenren.basic-rules-on-duties-of-practicing-attorneys"
+                    :title "Basic Rules on the Duties of Practicing Attorneys (弁護士職務基本規程, Federation's Rule No. 70)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Basic_Rules_Practicing.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2004-11-10"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-07-15"
+                    :topic [:ethics :member-conduct]}
+ #:association-rule{:id "nichibenren.about-jfba-profile"
+                    :title "What is the JFBA? (organization profile)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.nichibenren.or.jp/en/about/us/profile.html"
+                    :url-provenance :official-association-site
+                    :established-date "1949-09-01"
+                    :retrieved-at "2026-07-15"
+                    :topic [:governance]}
+ #:association-rule{:id "nichibenren.articles-of-association"
+                    :title "Articles of Association of Japan Federation of Bar Associations (日本弁護士連合会会則)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Articl_Bar_Associations.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "1949-07-09"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "nichibenren.basic-rules-on-duties-of-foreign-special-members"
+                    :title "Basic Rules on the Duties of Foreign Special Members (外国特別会員基本規程, Federation's Rule No. 25)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Basic_Rules_Foreign.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "1987-01-24"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:ethics :member-conduct]}
+ #:association-rule{:id "nichibenren.basic-rules-on-duties-of-registered-foreign-lawyers"
+                    :title "Basic Rules on the Duties of Registered Foreign Lawyers / Gaikokuho-Jimu-Bengoshi (外国法事務弁護士等職務基本規程, Federation's Rule No. 100)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Basic_Rules_Registered.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2014-12-05"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:ethics :member-conduct]}
+ #:association-rule{:id "nichibenren.basic-rules-for-joint-corporation-members"
+                    :title "Basic Rules for Joint Corporation Members (共同法人会員基本規程, Federation's Rule No. 105)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Joint_Corp_Rules.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2021-06-11"
+                    :last-revised-date "2021-12-03"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :member-conduct]}
+ #:association-rule{:id "nichibenren.rules-on-disclosure-of-disciplinary-records"
+                    :title "Rules Concerning Disclosure of Disciplinary Records of Registered Foreign Lawyers (外国法事務弁護士等の懲戒処分歴の開示に関する規程, Federation's Rule No. 88)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Rules_Disclosure.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2008-12-05"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :discipline]}
+ #:association-rule{:id "nichibenren.rules-on-office-name-of-registered-foreign-lawyers"
+                    :title "Rules on Office Name of Registered Foreign Lawyers (外国法事務弁護士事務所等の名称等に関する規程, Federation's Rule No. 76)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :practice-guidance
+                    :url "https://www.nichibenren.or.jp/library/en/about/data/Rules_Office_Name.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2006-03-03"
+                    :last-revised-date "2021-06-11"
+                    :retrieved-at "2026-09-09"
+                    :topic [:member-conduct]}
+ #:association-rule{:id "nichibenren.rules-on-verification-of-client-identity"
+                    :title "Rules Concerning Verification of Client Identity and Retention of Records (依頼者の本人特定事項等の確認及び記録保存等に関する規程, Rules of the Federation No. 95)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :self-regulatory-code
+                    :url "https://www.nichibenren.or.jp/library/pdf/jfba_info/rules/kaiki/kaiki_no_95_en_2404.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2012-12-07"
+                    :last-revised-date "2023-03-03"
+                    :retrieved-at "2026-09-09"
+                    :topic [:anti-money-laundering :member-conduct]}
+ #:association-rule{:id "nichibenren.regulations-on-verification-of-client-identity"
+                    :title "Regulations Concerning Verification of Client Identity and Retention of Records (依頼者の本人特定事項等の確認及び記録保存等に関する規則, Regulation No. 154)"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :practice-guidance
+                    :url "https://www.nichibenren.or.jp/library/pdf/jfba_info/rules/kisoku/kisoku_no_154_en_2404.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2012-12-20"
+                    :last-revised-date "2024-11-20"
+                    :retrieved-at "2026-09-09"
+                    :topic [:anti-money-laundering :member-conduct]}
+ #:association-rule{:id "nichibenren.mission-statement-on-international-affairs"
+                    :title "Mission Statement on International Affairs"
+                    :association "nichibenren"
+                    :isic "6910"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.nichibenren.or.jp/library/en/document/data/mission-statement.pdf"
+                    :url-provenance :official-association-site
+                    :established-date "2016-02-18"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}]

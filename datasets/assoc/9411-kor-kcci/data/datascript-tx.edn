@@ -1,0 +1,175 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Sources, each individually retrieved and checked on 2026-09-10:
+;;   korcham.net  — KCCI's own chronology page, reached from links on korcham.net's
+;;                  home page (not a guessed path).
+;;   law.go.kr    — 국가법령정보센터, the Ministry of Government Legislation's statute
+;;                  portal; both statutes cross-checked against its open API, which
+;;                  returned the same Act/Decree numbers and effective dates.
+
+[#:association-rule{:id "kcci.predecessor-seoul-chamber-1884"
+                     :title "KCCI's earliest predecessor, the Hanseong Chamber of Commerce (한성상업회의소), was established in 1884 -- the year KCCI's own chronology dates its institutional history from"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1884"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.commercial-conference-regulations-1895"
+                     :title "The Commercial Conference Regulations (상무회의소규례) were enacted on 10 November 1895, the first legal framework for Korean chambers of commerce"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :statute
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1895-11-10"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "kcci.joseon-chamber-founded-1946"
+                     :title "The Joseon Chamber of Commerce and Industry (조선상공회의소) was founded on 19 May 1946"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1946-05-19"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.gyeongseong-chamber-founded-1946"
+                     :title "The Gyeongseong Chamber of Commerce and Industry (경성상공회의소) was founded on 26 September 1946"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1946-09-26"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.renamed-kcci-1948"
+                     :title "On 23 July 1948 the bodies were renamed the Korea Chamber of Commerce and Industry (대한상공회의소) and the Seoul Chamber of Commerce and Industry (서울상공회의소), the names in use today"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :constitutive-instrument
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1948-07-23"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.statutory-body-1952"
+                     :title "The Chambers of Commerce and Industry Act (상공회의소법) was enacted on 20 December 1952, making KCCI an official statutory body"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :statute
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1952-12-20"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "kcci.commerce-industry-day-1974"
+                     :title "The first Commerce and Industry Day (제1회 상공의 날) was held on 20 March 1974"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1974-03-20"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.centenary-1984"
+                     :title "KCCI marked the centenary of the Korean chamber-of-commerce system (상공회의소 창립 100주년) on 31 October 1984"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1984-10-31"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.ean-barcode-1988"
+                     :title "KCCI joined EAN and began issuing Korea's distribution standard codes (EAN 가입 및 유통표준코드 보급) on 5 July 1988"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1988-07-05"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.vocational-training-1994"
+                     :title "KCCI took over eight vocational training institutes and began its vocational training programme (8개 직업훈련원 인수 및 직업훈련사업) on 1 April 1994"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "1994-04-01"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.wcc-seoul-2001"
+                     :title "KCCI hosted the 2nd World Chambers Congress (제2차 세계 상공회의소총회) in Seoul on 7 June 2001"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "2001-06-07"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.sustainability-institute-2005"
+                     :title "KCCI established the Korea Business Council for Sustainable Development (지속가능경영원) on 16 February 2005"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "2005-02-16"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.sgi-2018"
+                     :title "KCCI established the Sustainable Growth Initiative (SGI) on 10 May 2018"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :governance-program
+                     :url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+                     :url-provenance :official-korcham-net
+                     :established-date "2018-05-10"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance]}
+ #:association-rule{:id "kcci.chambers-act-in-force-2026"
+                     :title "The Chambers of Commerce and Industry Act (상공회의소법) in force is Act No. 21152, promulgated 2 December 2025 and effective 3 March 2026, administered by the Ministry of Trade and Industry -- KCCI's standing statutory basis"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :statute
+                     :url "https://www.law.go.kr/법령/상공회의소법"
+                     :url-provenance :official-law-go-kr
+                     :established-date "2026-03-03"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "kcci.chambers-act-enforcement-decree-2025"
+                     :title "The Enforcement Decree of the Chambers of Commerce and Industry Act (상공회의소법 시행령) in force is Presidential Decree No. 35803, promulgated and effective 1 October 2025"
+                     :association "kcci"
+                     :isic "9411"
+                     :country "KOR"
+                     :kind :statute
+                     :url "https://www.law.go.kr/법령/상공회의소법시행령"
+                     :url-provenance :official-law-go-kr
+                     :established-date "2025-10-01"
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance :statute]}]

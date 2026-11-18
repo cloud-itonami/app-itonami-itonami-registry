@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Financial Industry Regulatory Authority"
+ :abbreviation "FINRA"
+ :legal-form "SEC-registered self-regulatory organization (not-for-profit)"
+ :official-url "https://www.finra.org/"
+ :wikidata "Q387071"
+ :isic "6612"
+ :country "USA"
+ :established-date "2007-07-26"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-14"}

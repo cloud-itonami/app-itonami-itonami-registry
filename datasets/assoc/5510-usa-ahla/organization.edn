@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Hotel & Lodging Association"
+ :name-local "American Hotel & Lodging Association"
+ :abbreviation "AHLA"
+ :legal-form "trade association"
+ :official-url "https://www.ahla.com/"
+ :wikidata "Q19872202"
+ :isic "5510"
+ :country "USA"
+ :established-date "1910"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- founding year (as the American Hotel Protective Association, 1910, later renamed) corroborated via WebSearch/Wikipedia, not stated on the association's own About page"}

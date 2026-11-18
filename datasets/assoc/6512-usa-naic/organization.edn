@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "National Association of Insurance Commissioners"
+ :abbreviation "NAIC"
+ :legal-form "non-governmental standard-setting organization governed by state insurance commissioners (NOT itself a regulator; produces model laws for state adoption, distinct from FINRA-style direct SROs)"
+ :official-url "https://www.naic.org/"
+ :official-url-content "https://content.naic.org/"
+ :wikidata "Q6970687"
+ :isic "6512"
+ :country "USA"
+ :established-date "1871"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-14"}

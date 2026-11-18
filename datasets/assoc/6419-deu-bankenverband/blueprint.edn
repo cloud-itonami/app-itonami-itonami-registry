@@ -1,0 +1,14 @@
+{:itonami.blueprint/id "cloud-itonami-assoc-6419-deu-bankenverband"
+ :itonami.blueprint/name "Industry Self-Regulatory Rule Catalog — Association of German Banks (Bundesverband deutscher Banken)"
+ :itonami.blueprint/isic "6419"
+ :itonami.blueprint/iso3166 "DEU"
+ :itonami.blueprint/domain :public-sector/industry-association-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :association-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 0
+ :itonami.blueprint/isic-8291-linked true
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"}

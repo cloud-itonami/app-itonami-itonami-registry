@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI (ADR-2607141700 Wave 0).
+
+[#:association-rule{:id "rederiforbundet.founding-1909"
+                     :title "Norges Rederiforbund founding (Vår historie)"
+                     :association "rederiforbundet"
+                     :isic "5010"
+                     :country "NOR"
+                     :kind :governance-program
+                     :url "https://www.rederi.no/om-oss/historie/"
+                     :url-provenance :official-rederi-no
+                     :established-date "1909-09-15"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "rederiforbundet.thor-heyerdahl-award-1999"
+                     :title "Thor Heyerdahl International Maritime Award (About us)"
+                     :association "rederiforbundet"
+                     :isic "5010"
+                     :country "NOR"
+                     :kind :governance-program
+                     :url "https://www.rederi.no/en/about-us/"
+                     :url-provenance :official-rederi-no
+                     :established-date "1999"
+                     :retrieved-at "2026-07-16"
+                     :topic [:environment]}]

@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "CACIF (Comité Coordinador de Asociaciones Agrícolas, Comerciales, Industriales y Financieras)"
+ :abbreviation "CACIF"
+ :official-url "https://cacif.org.gt/"
+ :isic "9411"
+ :country "GTM"
+ :established-date "1957"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified 2026-07-18 -- cacif.org.gt itself returned HTTP 403 Forbidden on every direct WebFetch attempt (both '/quienes-somos/' and '/quienes-somos/nuestra-historia/'), so its own history page could NOT be directly read. Instead, two independent secondary sources were directly read: a Scribd document ('Historia de CACIF') states verbatim 'El CACIF se estableció en 1957 como el Comité Coordinador de Asociaciones Agrícolas, Comerciales, Industriales y Financieras' (year-only precision); and an independent Guatemalan historical-almanac blog (biogt.blogspot.com, 'Efemérides Guatemala, Abril') states verbatim '24 de Abril de 1961. Fueron aprobados los estatutos del Comité Coordinador de Asociaciones Agrícolas, Comerciales, Industriales y Financieras (CACIF)' (day-precise). A commonly-repeated claim of a '16 January 1957' first-meeting date surfaced only in aggregated web-search summaries, never in a page this tick could directly read (hoyhistoriagt.org redirected to unrelated content about a New Mexico magazine; cacif.org.gt itself is blocked) -- so that specific day-level claim is deliberately NOT used in this catalog."}

@@ -1,0 +1,34 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (ADR-2607141700 Wave 0). No :db/id per
+;; entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+;;
+;; Both entries cite the SAME url: CAAM's 协会简介 page is the only source
+;; that was reachable from the authoring network on 2026-07-27, and it is
+;; the page that states both the organization profile and the twelve-item
+;; 业务范围 list that includes 行业自律. No separate self-regulatory-code
+;; document URL is claimed — see the README's Verification section.
+
+[#:association-rule{:id "caam.about-organization"
+                    :title "中国汽车工业协会简介 (About CAAM, organization profile)"
+                    :association "caam"
+                    :isic "2910"
+                    :country "CHN"
+                    :kind :governance-program
+                    :url "http://www.caam.org.cn/chn/2/cate_7/con_5223237.html"
+                    :url-provenance :official-association-site
+                    :established-date "1990-01-01"
+                    :last-revised-date "2023-06-12"
+                    :retrieved-at "2026-07-27"
+                    :topic [:governance :standards]}
+ #:association-rule{:id "caam.industry-self-discipline-scope"
+                    :title "行业自律 (industry self-discipline), one of CAAM's twelve stated 业务范围"
+                    :association "caam"
+                    :isic "2910"
+                    :country "CHN"
+                    :kind :self-regulatory-mandate
+                    :url "http://www.caam.org.cn/chn/2/cate_7/con_5223237.html"
+                    :url-provenance :official-association-site
+                    :last-revised-date "2023-06-12"
+                    :retrieved-at "2026-07-27"
+                    :topic [:self-discipline]}]

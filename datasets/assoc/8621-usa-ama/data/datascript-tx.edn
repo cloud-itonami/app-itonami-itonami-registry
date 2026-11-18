@@ -1,0 +1,73 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.kotoba `association.facts/catalog`
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; `:topic` is written as a vector because the Kotoba port indexes topics by
+;; position; the catalog itself holds a set. The written order here is the
+;; order the port answers in, and the parity suite compares the two as sets.
+
+[#:association-rule{:id "ama.ama-history"
+                     :title "AMA History"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.ama-assn.org/about/ama-history/ama-history"
+                     :url-provenance :official-association-site
+                     :established-date "1847"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "ama.code-of-medical-ethics"
+                     :title "Code of Medical Ethics"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.ama-assn.org/about/ethics/why-does-medical-profession-need-code-ethics"
+                     :url-provenance :official-association-site
+                     :established-date "1847"
+                     :retrieved-at "2026-07-16"
+                     :topic [:ethics :medical-ethics]}
+ #:association-rule{:id "ama.principles-of-medical-ethics"
+                     :title "AMA Principles of Medical Ethics"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://code-medical-ethics.ama-assn.org/principles"
+                     :url-provenance :official-association-site
+                     :established-date "1957-06"
+                     :last-revised-date "2001-06"
+                     :retrieved-at "2026-09-10"
+                     :topic [:ethics :governance]}
+ #:association-rule{:id "ama.declaration-of-professional-responsibility"
+                     :title "AMA Declaration of Professional Responsibility"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.ama-assn.org/delivering-care/ethics/ama-declaration-professional-responsibility"
+                     :url-provenance :official-association-site
+                     :established-date "2001-12-04"
+                     :retrieved-at "2026-09-10"
+                     :topic [:ethics :professional-responsibility]}
+ #:association-rule{:id "ama.council-ethical-judicial-affairs"
+                     :title "Council on Ethical & Judicial Affairs (CEJA)"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.ama-assn.org/councils/council-ethical-judicial-affairs"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-10"
+                     :topic [:governance :ethics]}
+ #:association-rule{:id "ama.cpt"
+                     :title "CPT® (Current Procedural Terminology)"
+                     :association "ama"
+                     :isic "8621"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.ama-assn.org/practice-management/cpt"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-10"
+                     :topic [:coding :professional-standard]}]

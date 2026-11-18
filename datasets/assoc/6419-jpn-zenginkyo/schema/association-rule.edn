@@ -1,0 +1,36 @@
+;; schema/association-rule.edn — DataScript schema for the association-rule
+;; catalog (ADR-2607141700). Same shape convention as the sibling
+;; statute.facts / ordinance.facts / legal-source schemas.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+
+ ;; WHO the rule speaks to: `:member-bank` | `:corporate-customer` |
+ ;; `:general-public`. Recorded because a rule that names a parameter and a
+ ;; rule that hands that parameter to someone else are different facts, and
+ ;; the difference is only legible if the addressee is stored.
+ :association-rule/addressee {:db/index true}
+
+ ;; WHAT the rule does with any numeric parameter it raises:
+ ;;   :sets-numeric-default   -- the association fixes the number
+ ;;   :delegates-to-adopter   -- names the parameter, leaves the number to
+ ;;                              whoever adopts the rule
+ ;;   :conditions-liability-on-adopter-choice
+ ;;                           -- attaches a consequence to how the adopter set
+ ;;                              a parameter the association did not fix
+ ;;   :no-parameter           -- no numeric parameter at issue
+ ;; Descriptive only. A query returning zero `:sets-numeric-default` entries
+ ;; for a topic reports an absence in the published record; it does not assert
+ ;; that a default ought to exist.
+ :association-rule/parameter-disposition {:db/index true}
+
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Swiss Bankers Association"
+ :name-local "Schweizerische Bankiervereinigung"
+ :abbreviation "SBA"
+ :official-url "https://www.swissbanking.ch/en"
+ :wikidata "Q798804"
+ :isic "6419"
+ :country "CHE"
+ :established-date "1912"
+ :head-role-note "institutional office title only; personal names of current/former office-holders (e.g. board members/chairmen incidentally encountered) were never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- en.wikipedia.org's own article, directly read, states verbatim: 'The trade association known as the Swiss Bankers Association was founded in 1912 in Basel, Switzerland.' Separately, swissbanking.ch's own hosted PDF cover page directly confirms the 2020 release of its due-diligence self-regulatory code: 'Agreement on the Swiss banks' code of conduct with regard to the exercise of due diligence (CDB 20)', dated 2020; an earlier 1977 origin for this Agreement was found via WebSearch but the CDB 20 document itself (read via the Read-tool saved-path fallback) does not state that earlier date in its own preamble, so only the directly-confirmable 2020 release is used."}

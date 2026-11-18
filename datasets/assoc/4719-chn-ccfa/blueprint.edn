@@ -1,0 +1,23 @@
+{:itonami.blueprint/id "cloud-itonami-assoc-4719-chn-ccfa"
+ :itonami.blueprint/name "Retail / Chain-Store Rule Catalog — 中国连锁经营协会 (China Chain Store & Franchise Association, CCFA)"
+ :itonami.blueprint/isic "4719"
+ :itonami.blueprint/iso3166 "CHN"
+ :itonami.blueprint/domain :public-sector/industry-association-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :association-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 0
+ :itonami.blueprint/isic-8291-linked true
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"
+ :itonami.blueprint/coverage-note
+ "The second CHN member of the assoc family, after
+ cloud-itonami-assoc-2910-chn-caam, and the CHN peer of
+ cloud-itonami-assoc-4719-usa-nrf. Seeded from CCFA's own 简介 page
+ (发布 2025/01/01), read 2026-07-27. NOTE the scope mismatch, recorded
+ rather than hidden: CCFA's own membership spans 零售・餐饮・服务・供应商,
+ which is wider than ISIC 4719; 4719 follows the assignment the usa-nrf
+ peer already uses so the two join, and the coverage-note says the code is
+ narrower than the association."}

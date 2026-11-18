@@ -80,7 +80,7 @@ details[open] > summary { background: var(--accent-soft); border-radius: .6rem .
 .rules li { padding-block: .8rem; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
 .rules h3 { margin: 0 0 .2rem; font-size: 1rem; }
 .rules p { margin: .2rem 0; }
-details footer { margin-top: .85rem; }
+details footer { margin-top: .85rem; overflow-wrap: anywhere; }
 @media (max-width: 45rem) {
   form { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .field { grid-column: 1 / -1; }

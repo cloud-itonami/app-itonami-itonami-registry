@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "EK (Elinkeinoelämän keskusliitto, Confederation of Finnish Industries)"
+ :abbreviation "EK"
+ :official-url "https://ek.fi/"
+ :wikidata "Q5159811"
+ :isic "9411"
+ :country "FIN"
+ :established-date "2005"
+ :head-role-note "institutional office title only (Director General/Chairman); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "ek.fi's own domain did not surface a navigable founding-history page this tick (main page rendered but had no historical content; a guessed history-page URL 404'd). Verified instead directly (WebFetch) against en.wikipedia.org's own article, which states verbatim: 'The history of the Confederation of Finnish Industries dates back to 1907, when employers established the General Employers' Confederation of Finland'; and fi.wikipedia.org's own article, which states verbatim: 'aloitti toimintansa vuoden 2005 alussa, kun Palvelutyönantajat (lyhenne PT) ja Teollisuuden ja Työnantajain Keskusliitto (TT) yhdistyivät'. The 2005 date is independently corroborated by Wikidata Q5159811's own inception statement."}

@@ -1,0 +1,181 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Every entry carries the verbatim span its claim rests on
+;; (`:association-rule/source-quote`), the page that span was read from, and how
+;; precisely that page dates the fact (`:association-rule/date-precision`).
+;; scripts/verify-catalog.cljs checks both: `--live` requires the span to still
+;; be in the page, and the structural pass requires the span to actually NAME
+;; the date the entry claims. A citation that resolves is not the same as a
+;; citation that supports, and the two look identical without the span.
+;;
+;; The CBI's own site (cbi.org.uk) answers HTTP 403 to this fetcher, so unlike
+;; most siblings NOT ONE entry here is the organisation speaking about itself.
+;; Every span is a third party: the UK public record, the UK registrar, UK
+;; government departments, BusinessEurope, and en.wikipedia.org. The provenance
+;; keywords say so rather than borrowing the word "official".
+
+[#:association-rule{:id "cbi.charter-petition-1965-04-15"
+                     :title "Federation of British Industries petitioned Her Majesty in Council for a new Charter under the style and title of 'The Confederation of British Industry'; the Privy Council Office notice is dated 15 April 1965 and was published in The London Gazette issue 43627, page 3777"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.thegazette.co.uk/London/issue/43627/page/3777/data.pdf"
+                     :url-provenance :uk-public-record
+                     :source-article "The London Gazette, Issue 43627 (16 April 1965), Page 3777 -- Privy Council Office notice"
+                     :source-quote "Notice is hereby given that a Petition of the Federation of British Industries, praying for the grant of a new Charter under the style and title of \" The Confederation of British Industry\", has been presented to Her Majesty in Council, and, Her Majesty having referred the said Petition to a Committee of the Lords of the Council, Notice is further given that all Petitions for or against such grant should be delivered to the Privy Council Office on or before the llth day of May next. 15th April 1965."
+                     :established-date "1965-04-15"
+                     :date-precision :day
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :public-record]}
+ #:association-rule{:id "cbi.royal-charter-company-rc000139"
+                     :title "CBI is on the UK company register as a Royal Charter company, company number RC000139"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://find-and-update.company-information.service.gov.uk/company/RC000139"
+                     :url-provenance :uk-registrar
+                     :source-article "Companies House -- Company Overview for CONFEDERATION OF BRITISH INDUSTRY (RC000139)"
+                     :source-quote "CONFEDERATION OF BRITISH INDUSTRY Company number RC000139 Follow this company Company Overview for CONFEDERATION OF BRITISH INDUSTRY (RC000139) Company type Royal Charter company"
+                     :date-unknown-because :registry-overview-carries-no-date
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :registration]}
+ #:association-rule{:id "cbi.businesseurope-member"
+                     :title "CBI is listed as the United Kingdom member federation of BusinessEurope"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.businesseurope.eu/members"
+                     :url-provenance :peak-body-businesseurope
+                     :source-article "BusinessEurope -- Members"
+                     :source-quote "Confederation of British Industry – CBI United Kingdom"
+                     :date-unknown-because :directory-listing-carries-no-date
+                     :retrieved-at "2026-09-06"
+                     :topic [:european-representation :membership]}
+ #:association-rule{:id "cbi.headquarters-cannon-place"
+                     :title "BusinessEurope's member directory gives CBI's headquarters as Cannon Place, 78 Cannon Place, London EC4N 6HN -- independently corroborating the Cannon Place address that en.wikipedia.org dates to a March 2014 relocation"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.businesseurope.eu/member/confederation-of-british-industry-cbi/"
+                     :url-provenance :peak-body-businesseurope
+                     :source-article "BusinessEurope -- Member: Confederation of British Industry - CBI"
+                     :source-quote "Member – United Kingdom Confederation of British Industry – CBI Headquarters Confederation of British Industry – CBI Cannon Place 78 Cannon Place GB- London EC4N 6HN"
+                     :date-unknown-because :directory-entry-carries-no-date
+                     :retrieved-at "2026-09-06"
+                     :topic [:contact :membership]}
+ #:association-rule{:id "cbi.brussels-office-address"
+                     :title "CBI maintains a Brussels office at Rue de la science 14, 1040 Bruxelles; the same directory entry gives cbi.org.uk as its own site"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.businesseurope.eu/member/confederation-of-british-industry-cbi/"
+                     :url-provenance :peak-body-businesseurope
+                     :source-article "BusinessEurope -- Member: Confederation of British Industry - CBI"
+                     :source-quote "https://www.cbi.org.uk/ Brussels office Rue de la science 14 1040 Bruxelles"
+                     :date-unknown-because :directory-entry-carries-no-date
+                     :retrieved-at "2026-09-06"
+                     :topic [:european-representation :contact]}
+ #:association-rule{:id "cbi.gov-cic-regulator-payments-2014-10-01"
+                     :title "The Office of the Regulator of Community Interest Companies published a Freedom of Information release on payments made to the CBI on 1 October 2014"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.gov.uk/government/publications/payments-made-to-the-confederation-of-british-industry"
+                     :url-provenance :uk-government
+                     :source-article "GOV.UK FOI release -- Payments made to the Confederation of British Industry"
+                     :source-quote "From: Office of the Regulator of Community Interest Companies Published: 1 October 2014 Get emails about this page Documents Payments made to the Confederation of British Industry"
+                     :established-date "2014-10-01"
+                     :date-precision :day
+                     :retrieved-at "2026-09-06"
+                     :topic [:transparency]}
+ #:association-rule{:id "cbi.gov-cprc-fees-2014-09-17"
+                     :title "The Civil Procedure Rule Committee published its CBI and subsidiaries membership fees on 17 September 2014"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.gov.uk/government/publications/confederation-of-british-industry-fees"
+                     :url-provenance :uk-government
+                     :source-article "GOV.UK FOI release -- Confederation of British Industry fees"
+                     :source-quote "Confederation of British Industry (CBI) and subsidiaries membership fees. From: Civil Procedure Rule Committee Published: 17 September 2014"
+                     :established-date "2014-09-17"
+                     :date-precision :day
+                     :retrieved-at "2026-09-06"
+                     :topic [:transparency]}
+ #:association-rule{:id "cbi.gov-defra-expenditure-2014-11-21"
+                     :title "Defra published, on 21 November 2014, the amount paid to the CBI and its regional subsidiaries by each organisation in the Defra family for the financial years 2009-10 to 2013-14"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.gov.uk/government/publications/confederation-of-british-industry-cbi-expenditure-2009-to-2014"
+                     :url-provenance :uk-government
+                     :source-article "GOV.UK FOI release -- Confederation of British Industry (CBI) Expenditure 2009 to 2014"
+                     :source-quote "Confederation of British Industry (CBI) - FOI amount paid to the CBI (and its regional subsidiaries) by each of the organisations within the Defra family in membership fees, fees for one off conferences or other events and fees paid to the CBI for any other services for the financial years from 2009 to 2010 through to 2013 to 2014. Updates to this page Published 21 November 2014"
+                     :established-date "2014-11-21"
+                     :date-precision :day
+                     :retrieved-at "2026-09-06"
+                     :topic [:transparency]}
+ #:association-rule{:id "cbi.gov-companies-house-foi-2016-08-22"
+                     :title "Companies House published, on 22 August 2016, an FOI response on the amount it paid to the CBI and its subsidiaries in membership fees for 2009 to 2014"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://www.gov.uk/government/publications/request-for-the-amount-paid-by-companies-house-to-the-confederation-of-british-industry-cbi"
+                     :url-provenance :uk-government
+                     :source-article "GOV.UK FOI release -- Request for the amount paid by Companies House to the Confederation of British Industry (CBI)"
+                     :source-quote "Request for the amount paid by Companies House to the CBI. From: Companies House Published: 22 August 2016"
+                     :established-date "2016-08-22"
+                     :date-precision :day
+                     :retrieved-at "2026-09-06"
+                     :topic [:transparency]}
+ #:association-rule{:id "cbi.founding-1965"
+                     :title "CBI was formed in 1965 out of a merger of the Federation of British Industries, the British Employers' Confederation and the National Association of British Manufacturers (year-only precision: this is how the source dates it)"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Confederation_of_British_Industry"
+                     :url-provenance :wikipedia-corroborated
+                     :source-article "Confederation of British Industry -- History"
+                     :source-quote "The organisation was formed in 1965 out of a merger of the Federation of British Industries (known as FBI), the British Employers' Confederation and the National Association of British Manufacturers ."
+                     :established-date "1965"
+                     :date-precision :year
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "cbi.brussels-office-1971"
+                     :title "CBI opened an office in Brussels in 1971"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Confederation_of_British_Industry"
+                     :url-provenance :wikipedia-corroborated
+                     :source-article "Confederation of British Industry -- History"
+                     :source-quote "The CBI opened an office in Brussels in 1971, to open up opportunities in Europe ."
+                     :established-date "1971"
+                     :date-precision :year
+                     :retrieved-at "2026-09-06"
+                     :topic [:european-representation]}
+ #:association-rule{:id "cbi.hq-relocation-2014-03"
+                     :title "CBI moved its headquarters from Centre Point, London, to Cannon Place in March 2014"
+                     :association "cbi"
+                     :isic "9411"
+                     :country "GBR"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Confederation_of_British_Industry"
+                     :url-provenance :wikipedia-corroborated
+                     :source-article "Confederation of British Industry -- History"
+                     :source-quote "In March 2014 it moved its headquarters from Centre Point , London, to offices in Cannon Place, located above Cannon Street railway station in the City of London ."
+                     :established-date "2014-03"
+                     :date-precision :month
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :contact]}]

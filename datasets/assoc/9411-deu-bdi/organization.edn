@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "BDI (Bundesverband der Deutschen Industrie / Federation of German Industries)"
+ :abbreviation "BDI"
+ :official-url "https://bdi.eu/"
+ :isic "9411"
+ :country "DEU"
+ :established-date "1949-10-19"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- bdi.eu's own official '/en/the-bdi/verbandsgeschichte' history page states verbatim: 'On 19 October 1949 representatives of 32 business associations and working groups founded the Ausschuss für Wirtschaftsfragen der industriellen Verbände' (BDI's direct predecessor, renamed to 'BDI' only weeks later without an exact date being given). Independently corroborated and extended by de.wikipedia.org, which additionally states 'Am 1. Juli 1949 stimmten die Vertreter der Militärregierung der Satzung einer solchen Vertretung zu' (on 1 July 1949 the Allied military government's representatives approved the statute for such a representation) -- a distinct, day-precise, earlier milestone not present on BDI's own page."}

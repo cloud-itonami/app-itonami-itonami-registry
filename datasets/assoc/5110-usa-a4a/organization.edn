@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Airlines for America"
+ :name-local "Airlines for America"
+ :abbreviation "A4A"
+ :legal-form "trade association (formerly Air Transport Association of America, ATA)"
+ :official-url "https://www.airlines.org/"
+ :wikidata "Q408816"
+ :isic "5110"
+ :country "USA"
+ :established-date "1936"
+ :head-role-note "institutional office title only (President and CEO); personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15"}

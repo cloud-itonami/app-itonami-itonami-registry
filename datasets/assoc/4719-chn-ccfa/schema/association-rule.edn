@@ -1,0 +1,19 @@
+;; schema/association-rule.edn — DataScript schema for the association
+;; catalog (ADR-2607141700). Identical shape to every sibling
+;; cloud-itonami-assoc-* file (e.g. -2910-deu-vda, -2910-gbr-smmt,
+;; -6419-jpn-zenginkyo, -6419-deu-bankenverband, -4719-usa-nrf), so the
+;; federated query in com-junkawasaki/root's
+;; scripts/compliance-fact-query.cljs joins across all of them unchanged.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Austrian Federal Economic Chamber"
+ :name-local "Wirtschaftskammer Österreich"
+ :abbreviation "WKÖ"
+ :official-url "https://www.wko.at/"
+ :wikidata "Q248843"
+ :isic "9411"
+ :country "AUT"
+ :established-date "1946-07-24"
+ :head-role-note "institutional office title only; personal names of current/former office-holders (e.g. the current Director/Manager listed on Wikidata) were incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- wko.at's own history page states the 'Neues Handelskammergesetz' (new trade chamber law) was passed on 24 July 1946, establishing the 'Bundeskammer der gewerblichen Wirtschaft' (predecessor name of WKÖ); the same page separately confirms the 'Errichtung der ersten österreichischen Handelskammer in Wien' (establishment of Austria's first trade chamber in Vienna) in 1848 (year-only, exact day not confirmed on this page). Wikidata (Q248843) gives a conflicting 'inception date' of 1839, which is not used here since it could not be corroborated by any directly-read primary source -- :established-date uses the directly-confirmed 1946 statutory founding date instead."}

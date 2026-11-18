@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Business Unity South Africa (BUSA)"
+ :abbreviation "BUSA"
+ :official-url "https://www.busa.org.za/"
+ :isic "9411"
+ :country "ZAF"
+ :established-date "2003-10"
+ :head-role-note "institutional office title only (CEO/President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- busa.org.za's own 'About BUSA' page (https://www.busa.org.za/about-busa/), directly read, states verbatim: 'BUSA was formed in October 2003 and began operating in January 2004.' en.wikipedia.org's own article additionally states verbatim: 'BUSA was founded in October 2003, through a merger of Business South Africa and the South African Chamber of Business.' No dedicated Wikidata entry for BUSA itself was found (only for an individual office-holder, not persisted here)."}

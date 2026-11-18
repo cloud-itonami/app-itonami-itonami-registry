@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Chartered Institute of Bankers of Nigeria"
+ :abbreviation "CIBN"
+ :official-url "https://cibng.org/"
+ :wikidata "Q5086805"
+ :isic "6419"
+ :country "NGA"
+ :established-date "1963-11-28"
+ :head-role-note "institutional office title only; personal names of current/former office-holders were not encountered on the pages read for this catalog"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- cibng.org's own 'Corporate Information' page states the founding date as 28 November 1963 (as the Local Centre of the Institute of Bankers, London, in Nigeria) and directly quotes 'the attainment of a Chartered Status, achieved on May 18th, 1990 by the Federal Government Act No. 12 of 1990', now re-enacted as CIBN Act No. 5 of 2007"}

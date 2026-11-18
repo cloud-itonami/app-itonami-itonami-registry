@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Sociedad de Fomento Fabril (SOFOFA)"
+ :abbreviation "SOFOFA"
+ :official-url "https://www.sofofa.cl/"
+ :wikidata "Q6131011"
+ :isic "9411"
+ :country "CHL"
+ :established-date "1883-10-07"
+ :head-role-note "institutional office title only (President); Chilean President Domingo Santa María's name, incidentally encountered as historical context for the founding date (not an office-holder of SOFOFA itself), is never persisted here"
+ :sourced-from-current "re-verified 2026-09-24: sff.sofofa.cl answers HTTP 522, so the July history page below can no longer be read. SOFOFA's own 2018 Ethics Charter (https://www.sofofa.cl/wp-content/uploads/2025/04/Carta-de-Etica-de-la-Sociedad-de-Fomento-Fabril-2018.pdf) closes with 'Sociedad de Fomento Fabril Fundada en Santiago de Chile, el 7 de Octubre de 1883', which carries the same founding date; data/datascript-tx.edn cites it and scripts/verify-catalog.cljk --live re-reads it."
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- SOFOFA's own official history page (https://sff.sofofa.cl/nosotros/que-es-sofofa/historia/) states verbatim: 'Fundada el 7 de octubre de 1883, bajo la presidencia de la República de don Domingo Santa María'. Independently corroborated by Memoria Chilena (memoriachilena.gob.cl, the Chilean National Library's own historical archive), directly read: 'Fundada en 1883 a instancias del presidente de la república Domingo Santa María, la Sociedad de Fomento Fabril tuvo en sus inicios un papel de órgano consultivo del Estado'. Also corroborated by Wikidata Q6131011's own inception statement (1883)."}

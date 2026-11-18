@@ -1,0 +1,19 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-6419-jpn-zenginkyo / -6419-deu-bankenverband /
+;; -6419-fra-fbf / -6419-aus-aba / -6419-are-ubf / -6419-vnm-vnba /
+;; -6419-phl-bap / -6419-esp-aeb / -6419-tur-tbb / -6419-nga-cibn /
+;; -9411-sau-fsc / -9411-aut-wko / -0126-mys-mpoa / ... files.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

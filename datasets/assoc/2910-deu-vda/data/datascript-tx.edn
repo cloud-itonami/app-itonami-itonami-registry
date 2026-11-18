@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "vda.code-of-conduct-business-partners"
+                     :title "Code of Conduct für Geschäftspartner (Code of Conduct for Business Partners), jointly with CLEPA"
+                     :association "vda"
+                     :isic "2910"
+                     :country "DEU"
+                     :kind :self-regulatory-code
+                     :url "https://www.vda.de/dam/jcr:4c19640b-b6fc-44bd-b633-01a2d317fc49/VDA-Leitfaden_Code-of-Conduct_Empfehlung.pdf"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:human-rights :supply-chain]}
+ #:association-rule{:id "vda.about-organization"
+                     :title "About VDA (organization profile)"
+                     :association "vda"
+                     :isic "2910"
+                     :country "DEU"
+                     :kind :governance-program
+                     :url "https://www.vda.de/en/association/about"
+                     :url-provenance :official-association-site
+                     :established-date "1901"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

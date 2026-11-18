@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "feb.predecessor-ccti-1895"
+                     :title "Le Comité Central du Travail Industriel (FEB's earliest predecessor, 'un organisme de défense de l'industrie'), fondé en 1895 (fr.wikipedia.org)"
+                     :association "feb"
+                     :isic "9411"
+                     :country "BEL"
+                     :kind :governance-program
+                     :url "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_entreprises_de_Belgique"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1895"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "feb.founding-1973-merger"
+                     :title "FEB (Fédération des Entreprises de Belgique) created 1973 via merger of the Fédération des Industries Belges (est. 1946) and Fédération des Entreprises Non Industrielles de Belgique (est. 1957) (fr.wikipedia.org and en.wikipedia.org, corroborated by Wikidata Q3091635 inception statement)"
+                     :association "feb"
+                     :isic "9411"
+                     :country "BEL"
+                     :kind :governance-program
+                     :url "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_entreprises_de_Belgique"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1973"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

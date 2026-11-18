@@ -1,0 +1,14 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "The Life Insurance Association of Japan"
+ :name-local "一般社団法人 生命保険協会"
+ :abbreviation "LIAJ / seiho"
+ :legal-form "一般社団法人 (general incorporated association)"
+ :official-url "https://www.seiho.or.jp/"
+ :official-url-en "https://www.seiho.or.jp/english/"
+ :wikidata "Q11574460"
+ :isic "6511"
+ :country "JPN"
+ :established-date "1908"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

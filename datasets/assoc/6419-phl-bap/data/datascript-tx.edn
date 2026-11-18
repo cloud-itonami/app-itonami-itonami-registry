@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "bap.founding-1949"
+                     :title "BAP founding (About Us)"
+                     :association "bap"
+                     :isic "6419"
+                     :country "PHL"
+                     :kind :governance-program
+                     :url "https://bap.org.ph/aboutus.html"
+                     :url-provenance :official-bap-org-ph
+                     :established-date "1949-03-29"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "bap.sec-incorporation-1964"
+                     :title "BAP SEC incorporation (About Us)"
+                     :association "bap"
+                     :isic "6419"
+                     :country "PHL"
+                     :kind :governance-program
+                     :url "https://bap.org.ph/aboutus.html"
+                     :url-provenance :official-bap-org-ph
+                     :established-date "1964-08-24"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}]

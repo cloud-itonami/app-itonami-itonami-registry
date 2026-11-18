@@ -1,0 +1,261 @@
+;; data/datascript-tx.edn — the COPARMEX catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote), in the Spanish the page
+;; is written in. `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches each :url and requires that span to still be in it.
+;;
+;; No personal names of office-holders are persisted here. The History page
+;; names the founder next to the founding date, and the governance pages list
+;; the people who sit on each organ; the spans quoted below stop before every
+;; name, and no page is cited for its list of names.
+;;
+;; Every source is coparmex.org.mx. Figures COPARMEX gives about itself (its
+;; membership, its share of GDP) are recorded as what COPARMEX states, not as
+;; independently measured facts; the titles say so.
+
+[#:association-rule{:id "coparmex.founding-1929"
+                    :title "COPARMEX (Confederación Patronal de la República Mexicana) was born in Mexico City on 26 September 1929"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :governance-program
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia"
+                    :source-quote "Coparmex nace en la Ciudad de México el 26 de septiembre de 1929"
+                    :established-date "1929-09-26"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "coparmex.founded-independent-voluntary"
+                    :title "At its founding COPARMEX was conceived as an independent organisation of voluntary affiliation, distinct from the chambers constituted by legal mandate"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :constitution
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia"
+                    :source-quote "La novedad era que sería una organización independiente de afiliación voluntaria, distinta las cámaras constituidas por disposición legal."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :history]}
+ #:association-rule{:id "coparmex.employers-union-form"
+                    :title "COPARMEX took the legal form of an employers' union (sindicato patronal), which its founders chose as the form that allowed freedom and autonomy"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :constitution
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia (¿Por qué somos un sindicato patronal?)"
+                    :source-quote "nuestros fundadores encontraron en la figura “sindical” la forma jurídica que permitía libertad y autonomía"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :labor]}
+ #:association-rule{:id "coparmex.electoral-observer-1989"
+                    :title "In 1989 COPARMEX began work as an electoral observer"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :governance-program
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia (Liderazgo e incidencia en nuestra historia)"
+                    :source-quote "1989: Trabajos de observación electoral Coparmex inicia trabajos como observador electoral."
+                    :established-date "1989"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history :policy]}
+ #:association-rule{:id "coparmex.conacon-2004"
+                    :title "In 2004 the National Taxpayers' Convention (CONACON) was started"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :policy-program
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia (Liderazgo e incidencia en nuestra historia)"
+                    :source-quote "2004: Convención Nacional de Contribuyentes Se inicia la Convención Nacional de Contribuyentes (CONACON)"
+                    :established-date "2004"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :policy]}
+ #:association-rule{:id "coparmex.dual-training-model-2015"
+                    :title "In 2015 the Mexican Dual Training Model (MMFD), promoted by COPARMEX since 2013, was published as public policy in the DOF"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :policy-program
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia (Liderazgo e incidencia en nuestra historia)"
+                    :source-quote "2015: Formación Dual (MMFD) Gracias al impulso de Coparmex desde 2013 como organismo articulador escuela – empresa, el Modelo Mexicano de Formación Dual (MMFD) se publica como política pública en el DOF"
+                    :established-date "2015"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :policy :labor]}
+ #:association-rule{:id "coparmex.anticorruption-route-2016"
+                    :title "In 2016 COPARMEX started the Route Against Corruption (Ruta Contra la Corrupción)"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :policy-program
+                    :url "https://coparmex.org.mx/nuestra-historia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Nuestra Historia (Liderazgo e incidencia en nuestra historia)"
+                    :source-quote "2016: Ruta contra la corrupción Coparmex inicia la Ruta Contra la Corrupción."
+                    :established-date "2016"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :policy]}
+ #:association-rule{:id "coparmex.self-description"
+                    :title "COPARMEX describes itself as an independent, non-partisan employers' union of voluntary affiliation that brings together employers of all sizes and sectors"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :constitution
+                    :url "https://coparmex.org.mx/quienes-somos/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "¿Quiénes somos?"
+                    :source-quote "Somos un sindicato patronal independiente, apartidista y de afiliación voluntaria que reúne a empresarios de todos tamaños y sectores"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :membership]}
+ #:association-rule{:id "coparmex.assembly-supreme-organ"
+                    :title "The Assembly is the supreme organ of the Confederation, made up of the affiliated employers' unions, the direct member companies and the associations, and meets at least twice a year"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :organisational-structure
+                    :url "https://coparmex.org.mx/estructura-nacional/asamblea/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Estructura Nacional » Asamblea"
+                    :source-quote "La Asamblea es el órgano supremo de la Confederación, está integrada por los Sindicatos Patronales afiliados, las empresas socias directas y las asociaciones. Sesiona al menos 2 veces al año."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "coparmex.board-of-directors"
+                    :title "The National Board of Directors (Consejo Directivo) is in charge of the public agenda and of ensuring strict compliance with the Confederation's governing documents"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :organisational-structure
+                    :url "https://coparmex.org.mx/estructura-nacional/consejo-nacional-directivo/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Estructura Nacional » Consejo Nacional Directivo"
+                    :source-quote "El Consejo Directivo se encarga de la agenda pública y de velar por el estricto cumplimiento a los documentos rectores de la Confederación"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "coparmex.executive-commission"
+                    :title "The Executive Commission is responsible for the proper running of the Confederation, ensuring operational continuity and financial sustainability"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :organisational-structure
+                    :url "https://coparmex.org.mx/estructura-nacional/comision-ejecutiva/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Estructura Nacional » Comisión Ejecutiva"
+                    :source-quote "La Comisión Ejecutiva es el órgano responsable de la buena marcha de la Confederación conduciendo las acciones de sus voluntarios y profesionales a cargo de ello, y asegurando continuidad operativa y la sustentabilidad financiera de la Confederación."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "coparmex.federations-registered-with-stps"
+                    :title "COPARMEX federations are union bodies with their own legal personality, to be registered only at the Confederation's instance and before the Ministry of Labour and Social Welfare (STPS)"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :constitution
+                    :url "https://coparmex.org.mx/estructura-nacional/federaciones/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Estructura Nacional » Federaciones y Centros Empresariales"
+                    :source-quote "Las Federaciones deberán registrarse únicamente a instancia de la Confederación y ante la Secretaria del Trabajo y Previsión Social"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :labor :statute]}
+ #:association-rule{:id "coparmex.71-centres-14-federations"
+                    :title "COPARMEX states that its 71 Business Centres, grouped in 14 Federations, form its local representation across the country"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :organisational-structure
+                    :url "https://coparmex.org.mx/coparmex-en-tu-estado/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Coparmex en tu Estado"
+                    :source-quote "Nuestros 71 Centros Empresariales, reunidos a través de 14 Federaciones a lo largo y ancho de la República, conforman la representación local y la fuerza nacional de la Confederación."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "coparmex.21-working-commissions"
+                    :title "COPARMEX states that it currently has 21 national Working Commissions (Comisiones de Trabajo)"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :organisational-structure
+                    :url "https://coparmex.org.mx/estructura-nacional/comisiones-de-trabajo/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Estructura Nacional » Comisiones de Trabajo"
+                    :source-quote "Actualmente a nivel nacional, Coparmex cuenta con 21 Comisiones de Trabajo"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "coparmex.statutes-under-federal-labour-law"
+                    :title "COPARMEX's statutes determine the functions, obligations and rights of the members of the Confederation, in accordance with the Federal Labour Law; the page gives their last reform as 12/6/25"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :constitution
+                    :url "https://coparmex.org.mx/documentos-base/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Documentos Base (Estatutos de la Confederación Patronal de la República Mexicana)"
+                    :source-quote "atendiendo lo que establece la Ley Federal del Trabajo, respetando nuestra autonomía. Vigentes y actualizados, última reforma 12/6/25"
+                    :date-unknown-because :source-writes-two-digit-year-in-short-numeric-form
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :statute :labor]}
+ #:association-rule{:id "coparmex.transparency-committee-2016"
+                    :title "COPARMEX's Transparency Committee was constituted by an act of integration dated 9 September 2016"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :governance-program
+                    :url "https://coparmex.org.mx/transparencia/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Transparencia (Comité de Transparencia, Actas de Comité)"
+                    :source-quote "Acta de integración de comité de transparencia – 9 de septiembre de 2016"
+                    :established-date "2016-09-09"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "coparmex.membership-36000"
+                    :title "COPARMEX states that it has more than 36,000 member employers, responsible for 30% of GDP and 4.8 million formal jobs"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :membership-rule
+                    :url "https://coparmex.org.mx/ser-socio-coparmex/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Ser Socio Coparmex"
+                    :source-quote "Los más de 36,000 empresarios socios en todo el país, responsables del 30% del PIB y de 4.8 millones de empleos formales en el territorio nacional"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership]}
+ #:association-rule{:id "coparmex.international-peer-organisations"
+                    :title "COPARMEX states that it collaborates with counterpart employers' organisations abroad, naming MEDEF (France), BDI (Germany), UCCAEP (Costa Rica), ANDI (Colombia), CEOE (Spain) and AOTS (Japan)"
+                    :association "coparmex"
+                    :isic "9411"
+                    :country "MEX"
+                    :kind :international-affiliation
+                    :url "https://coparmex.org.mx/representacion-nacional-e-internacional/"
+                    :url-provenance :official-coparmex-org-mx
+                    :source-article "Representación Nacional e Internacional (Representación internacional)"
+                    :source-quote "desarrollamos una importante vinculación y colaboración con organismos empresariales homólogas a COPARMEX en otros países del mundo, como por ejemplo: MEDEF (Francia), BDI (Alemania), UCCAEP (Costa Rica), ANDI (Colombia), CEOE (España), AOTS (Japón)."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:international]}]

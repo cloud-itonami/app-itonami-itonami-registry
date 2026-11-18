@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "CBI (Confederation of British Industry)"
+ :abbreviation "CBI"
+ :official-url "https://www.cbi.org.uk/"
+ :isic "9411"
+ :country "GBR"
+ :established-date "1965"
+ :head-role-note "institutional office title only (President/Director-General); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :own-site-status "cbi.org.uk answers HTTP 403 to the catalog's fetcher (re-measured 2026-09-06, unchanged since 2026-07-18), so NO entry in src/association/facts.cljc is CBI speaking about itself. :official-url is recorded as identity, not as a source."
+ :sourced-from "verified directly 2026-09-06. Founding year 1965 is year-precise: en.wikipedia.org states 'formed in 1965 out of a merger of the Federation of British Industries (known as FBI), the British Employers' Confederation and the National Association of British Manufacturers', with no day or month. The two day-level claims that circulate in aggregated web-search summaries ('3 July 1965' and '30 July 1965') DISAGREE with each other and neither could be read from a source directly, so neither is used. NEW 2026-09-06: The London Gazette issue 43627 (published 16 April 1965), page 3777, carries the Privy Council Office notice -- dated 15 April 1965 -- that the Federation of British Industries had petitioned for a new Charter under the style and title of 'The Confederation of British Industry'. That is the PETITION, not the GRANT, so it narrows the record without settling the founding date; a Gazette search across 1965-1967 surfaced no readable grant notice. Companies House lists the CBI as a Royal Charter company, number RC000139, which corroborates that the Charter route was completed but carries no date. BusinessEurope's member directory gives the headquarters as Cannon Place, 78 Cannon Place, London EC4N 6HN, independently corroborating the Cannon Place relocation en.wikipedia.org dates to March 2014."}

@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Banks Association of Turkey"
+ :name-local "Türkiye Bankalar Birliği"
+ :abbreviation "TBB"
+ :official-url "https://www.tbb.org.tr/en"
+ :wikidata "Q6034678"
+ :isic "6419"
+ :country "TUR"
+ :established-date "1958-10-08"
+ :head-role-note "institutional office title only; personal names of current/former office-holders were not encountered on the pages read for this catalog"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- tbb.org.tr's own 'Vision Mission Values' page states 'Kurulduğu 1958 yılından bu yana' (since its founding in 1958); tbb.org.tr's own 'Milestones' (Kilometre Taşları) page gives the exact founding date as '8 Ekim'de Kuruldu' (Established on October 8) under the 1958 heading, and separately confirms under 2007 that 'Bireysel Müşteriler Hakem Heyeti uygulaması hayata geçirildi' (Individual Customer Arbitration Board application was implemented)"}

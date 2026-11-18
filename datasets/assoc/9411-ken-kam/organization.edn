@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Kenya Association of Manufacturers (KAM)"
+ :abbreviation "KAM"
+ :official-url "https://kam.co.ke/"
+ :isic "9411"
+ :country "KEN"
+ :established-date "1959"
+ :head-role-note "institutional office title only (Chairman/CEO); personal names of current/former office-holders incidentally encountered (e.g. inside a directly attributed quote about the founding) but never persisted here as standalone facts"
+ :sourced-from "kam.co.ke's own domain returned a TLS certificate-verification error on every page tried (both bare and www hostnames) 2026-07-17. Verified instead directly (WebFetch) against Manufacturing Outlook's KAM spotlight article, which quotes KAM's own Chairman verbatim: 'Established in 1959, we have evolved into a dynamic, vibrant, credible and respected business association...'. Independently corroborated by LinkedIn's official company profile field 'Founded: 1959', directly read. The 2009 golden-jubilee rebrand is WebSearch-corroborated only (zero conflicting alternative date, internally consistent with 1959+50)."}

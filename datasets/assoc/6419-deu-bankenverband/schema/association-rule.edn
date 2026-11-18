@@ -1,0 +1,17 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-6419-jpn-zenginkyo / -6512-jpn-sonpo / -6612-jpn-jsda
+;; files.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Ibec (Irish Business and Employers Confederation)"
+ :abbreviation "Ibec"
+ :official-url "https://www.ibec.ie/"
+ :wikidata "Q6070569"
+ :isic "9411"
+ :country "IRL"
+ :established-date "1993"
+ :head-role-note "institutional office title only; personal names of historical figures (e.g. the 1911 founder of a predecessor body) incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- en.wikipedia.org's own article, directly read, states verbatim: 'IBEC was founded in 1993 by the merger of the Federation of Irish Employers (FIE) and the Confederation of Irish Industry (CII).' The same article separately confirms: 'The FIE's history begins with the foundation of the Dublin Employers' Federation... in 1911, which was incorporated in 1928 as Federated Employers Ltd, renamed the Federated Union of Employers (FUE) in 1942... and finally renamed FIE in 1989.' ibec.ie's own 'About us' page did not itself state an exact founding date."}

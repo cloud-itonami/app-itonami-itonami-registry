@@ -1,0 +1,123 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.kotoba
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "fei.founding-1922-league-of-industries"
+                     :title "Established in 1922 under the name 'رابطة الصناعات في مصر' (League of Industries in Egypt) -- the formal founding, distinct from the 1915 origin of the idea per fei.org.eg's own site (ar.wikipedia.org)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://ar.wikipedia.org/wiki/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1922"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.law-73-1947-current-name"
+                     :title "Law No. 73 of 1947 established a federation of industrial chambers under the name 'اتحاد الصناعات المصرية' (Federation of Egyptian Industries), its current name (ar.wikipedia.org)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://ar.wikipedia.org/wiki/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1947"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.law-70-2019-organizing-fei-and-chambers"
+                     :title "Law No. 70 of 2019 organizing the Federation of Egyptian Industries and the industrial chambers -- the statute FEI itself files first under 'FEI & chambers' on its laws page (fei.org.eg)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :constitutive-instrument
+                     :url "https://fei.org.eg/storage/law_attachments/7fa3ab72-39f1-4661-ab1c-2aadea60f606.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2019"
+                     :retrieved-at "2026-09-24"
+                     :topic [:governance :constitution]}
+ #:association-rule{:id "fei.ministerial-decision-101-1967-industrial-chambers"
+                     :title "Ministerial Decision No. 101 of 1967 on the identification of the industrial chambers (fei.org.eg laws page, 'FEI & chambers')"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :constitutive-instrument
+                     :url "https://fei.org.eg/storage/law_attachments/f8811632-6b3f-4d71-9a72-ae62947c1984.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "1967"
+                     :retrieved-at "2026-09-24"
+                     :topic [:constitution :membership]}
+ #:association-rule{:id "fei.law-21-1958-regulating-encouraging-industry"
+                     :title "Law No. 21 of 1958 on regulating and encouraging industry (fei.org.eg laws page, 'FEI & chambers')"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/storage/law_attachments/41ae94ba-fa51-4b16-90a4-9ae983a48973.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "1958"
+                     :retrieved-at "2026-09-24"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.law-2-2017-amending-law-21-1958"
+                     :title "Law No. 2 of 2017 amending some provisions of Law No. 21 of 1958 on regulating and encouraging industry (fei.org.eg laws page, 'FEI & chambers')"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/storage/law_attachments/cc198fcb-816a-4853-9d68-8c6520e76d20.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2017"
+                     :retrieved-at "2026-09-24"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.ministerial-decision-73-2015-real-estate-development-chamber"
+                     :title "Decision No. 73 of 2015 of the Minister of Industry and Trade identifying the industries of the Real Estate Development Chamber of Industry and including them in the Federation of Egyptian Industries (fei.org.eg laws page)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/storage/law_attachments/7f8737af-46bd-44cb-8168-fdd3ead38bf6.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2015"
+                     :retrieved-at "2026-09-24"
+                     :topic [:membership]}
+ #:association-rule{:id "fei.pm-decision-753-2024-advertising-chamber"
+                     :title "Prime Minister's Decision No. 753 of 2024 establishing the Chamber of Advertising Industries (Publicity and Advertising Chamber) (fei.org.eg laws page, 'FEI & chambers')"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/storage/law_attachments/f00e4d74-1e21-48f4-a162-715f7d789b44.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2024"
+                     :retrieved-at "2026-09-24"
+                     :topic [:membership]}
+ #:association-rule{:id "fei.decision-449-2025-appointed-members-2025-2029"
+                     :title "Decision No. 449 of 2025 of the Deputy Prime Minister for Industrial Development and Minister of Industry nominating the appointed members of FEI for the 2025/2029 electoral cycle (fei.org.eg laws page; names in the attachment are not persisted here)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/storage/law_attachments/8cfe8fd1-9956-4f59-9485-12af332fc695.pdf"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2025"
+                     :retrieved-at "2026-09-24"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.law-5-2015-local-product-preference-certificates"
+                     :title "FEI issues the local-product preference certificates of Law No. 5 of 2015 on the preference of Egyptian products in government contracts, alongside Law No. 182 of 2018 on public contracts (fei.org.eg LAW5 introduction page)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/en/law5/intro"
+                     :url-provenance :official-fei-org-eg
+                     :established-date "2015"
+                     :retrieved-at "2026-09-24"
+                     :topic [:procurement]}
+ #:association-rule{:id "fei.membership-21-chambers"
+                     :title "FEI's own self-description: 21 active industrial chambers as members, representing over 104,000 industrial enterprises, more than 90% private-sector (fei.org.eg 'Who we are', as read 2026-09-24; a time-varying figure)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://fei.org.eg/en/aboutus"
+                     :url-provenance :official-fei-org-eg
+                     :retrieved-at "2026-09-24"
+                     :topic [:membership]}]

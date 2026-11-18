@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Cámara de Industrias y Producción de Ecuador (CIP)"
+ :abbreviation "CIP"
+ :official-url "https://www.cip.org.ec/"
+ :wikidata "Q20014352"
+ :isic "9411"
+ :country "ECU"
+ :established-date "1936"
+ :head-role-note "institutional office title only (Executive President); personal names of current/former office-holders (e.g. the current executive president incidentally encountered on the official site) are never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- es.wikipedia.org's own article states verbatim: 'En 1936, luego de una crisis económica originada por la debacle en la producción cacaotera' (founded as Cámara de Industriales de la Provincia de Pichincha) and 'En el año 2009, la Cámara reformó sus estatutos, dejando de ser una entidad gremial provincial y convirtiéndose en una institución de cobertura nacional'. cip.org.ec's own 'Somos CIP' page gives a decade-bucketed (not individually dated) history but internally corroborates 1936 via multiple independent anniversary references across the site (82 years in 2018, 87 years in October 2023, 90 years currently). Wikidata Q20014352 exists but has NO inception-date property -- noted transparently as a genuine data gap."}

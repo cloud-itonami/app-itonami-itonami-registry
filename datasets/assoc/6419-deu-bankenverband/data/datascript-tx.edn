@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "bankenverband.statutes"
+                     :title "Statutes of the Association of German Banks"
+                     :association "bankenverband"
+                     :isic "6419"
+                     :country "DEU"
+                     :kind :self-regulatory-code
+                     :url "https://bankenverband.de/en/about-us/statutes"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2024-04"
+                     :retrieved-at "2026-07-14"
+                     :topic [:governance]}
+ #:association-rule{:id "bankenverband.deposit-protection-fund-bylaws"
+                     :title "By-laws of the Deposit Protection Fund (Statut des Einlagensicherungsfonds)"
+                     :association "bankenverband"
+                     :isic "6419"
+                     :country "DEU"
+                     :kind :self-regulatory-code
+                     :url "https://einlagensicherungsfonds.de/sites/default/files/medien/3/dokumente/einlagensicherungsfonds_statut_en.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2023-10"
+                     :retrieved-at "2026-07-14"
+                     :topic [:consumer-protection :deposit-protection]}]

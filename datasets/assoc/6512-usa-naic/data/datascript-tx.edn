@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "naic.model-laws-program"
+                     :title "Model Laws - About"
+                     :association "naic"
+                     :isic "6512"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://content.naic.org/model-laws/about"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-14"
+                     :topic [:governance]}
+ #:association-rule{:id "naic.unfair-trade-practices-act"
+                     :title "Unfair Trade Practices Act (NAIC Model Law #880)"
+                     :association "naic"
+                     :isic "6512"
+                     :country "USA"
+                     :kind :model-law
+                     :url "https://content.naic.org/sites/default/files/model-law-880.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2024 (Spring 2024 edition)"
+                     :retrieved-at "2026-07-14"
+                     :topic [:consumer-protection :fair-competition]}]

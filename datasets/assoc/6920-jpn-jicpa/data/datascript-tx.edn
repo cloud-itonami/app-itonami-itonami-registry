@@ -1,0 +1,84 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+;;
+;; 2026-09-06: the 倫理規則 entry now cites the current edition
+;; (2-22-0-2-20260730.pdf, 最終改正2026年７月22日). The edition it used to
+;; cite is kept as `:association-rule/supersedes-url` rather than dropped.
+
+[#:association-rule{:id "jicpa.ethics-rules"
+                     :title "倫理規則 (Ethics Rules)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://jicpa.or.jp/specialized_field/files/2-22-0-2-20260730.pdf"
+                     :url-provenance :official-association-site
+                     :supersedes-url "https://jicpa.or.jp/specialized_field/2-22-0-2-20190618.pdf"
+                     :established-date "1966-12-01"
+                     :last-revised-date "2026-07-22"
+                     :retrieved-at "2026-09-06"
+                     :topic [:ethics :independence :member-conduct]}
+ #:association-rule{:id "jicpa.self-regulatory-initiatives"
+                     :title "自主規制の取り組み (Self-Regulatory Initiatives)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://jicpa.or.jp/about/activity/self-regulatory/criterion/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :audit-quality]}
+ #:association-rule{:id "jicpa.ethics-practice-guidance-1"
+                     :title "倫理規則実務ガイダンス第１号「倫理規則に関するQ&A（実務ガイダンス）」"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :practice-guidance
+                     :url "https://jicpa.or.jp/specialized_field/files/2-22-1-2a-20260430r.pdf"
+                     :url-provenance :official-association-site
+                     :established-date "2022-12-15"
+                     :last-revised-date "2026-04-17"
+                     :retrieved-at "2026-09-06"
+                     :topic [:ethics :independence]}
+ #:association-rule{:id "jicpa.quality-control-review"
+                     :title "品質管理レビュー制度 (Quality Control Review System)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://jicpa.or.jp/about/activity/self-regulatory/quality/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :audit-quality]}
+ #:association-rule{:id "jicpa.listed-company-auditor-registration"
+                     :title "上場会社等監査人登録制度 (Listed Company Audit Firm Registration System)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://jicpa.or.jp/about/activity/self-regulatory/lcaf/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :registration]}
+ #:association-rule{:id "jicpa.case-inspection"
+                     :title "個別事案審査制度 (Individual Case Review System)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://jicpa.or.jp/about/activity/self-regulatory/inspection/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :discipline :member-conduct]}
+ #:association-rule{:id "jicpa.self-regulation-monitoring"
+                     :title "自主規制のモニタリング (Self-Regulation Monitoring)"
+                     :association "jicpa"
+                     :isic "6920"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://jicpa.or.jp/about/activity/self-regulatory/monitoring/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :oversight]}]

@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Canadian Chamber of Commerce"
+ :abbreviation "CCC"
+ :official-url "https://chamber.ca/"
+ :wikidata "Q132656646"
+ :isic "9411"
+ :country "CAN"
+ :established-date "1925"
+ :head-role-note "institutional office title only (President/CEO); personal names of current/former office-holders (e.g. the first President, S.B. Gundy, incidentally encountered on chamber.ca's own History page) incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- chamber.ca's own 'History' page (https://chamber.ca/about/history/), directly read, states verbatim: 'At a national conference in Winnipeg, business leaders resolved to create a unified voice for Canadian commerce' (1925) and 'First Annual Meeting held in Saint John, New Brunswick. The organization became the Canadian Board of Trade' (1926). The 1925 date is independently corroborated by Wikidata Q132656646's own 'inception' statement, read directly."}

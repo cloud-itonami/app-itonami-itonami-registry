@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Norwegian Shipowners' Association"
+ :name-local "Norges Rederiforbund"
+ :official-url "https://www.rederi.no/en/"
+ :wikidata "Q7061257"
+ :isic "5010"
+ :country "NOR"
+ :established-date "1909-09-15"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored (the org's own history page names its first president, a historical figure from the 1909 founding meeting -- read only to confirm the founding date, never persisted here)"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- rederi.no's own 'Vår historie' page states plainly: 'Konstituerende møte ble avholdt 15. september 1909 og det ble enstemmig vedtatt å stifte Norges Rederforbund' (the constitutive meeting was held 15 September 1909, unanimously deciding to establish the association)"}

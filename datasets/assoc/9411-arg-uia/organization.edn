@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Unión Industrial Argentina (UIA, Argentine Industrial Union)"
+ :abbreviation "UIA"
+ :official-url "https://www.uia.org.ar/"
+ :wikidata "Q4789403"
+ :isic "9411"
+ :country "ARG"
+ :established-date "1887-02-07"
+ :head-role-note "institutional office title only (President); the first president's name (Antonino/Antonio Cambaceres), incidentally encountered on multiple pages, is never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- uia.org.ar's own official '130 años' article states verbatim 'Un lunes 7 de febrero de 1887 ... se dio origen a la Unión Industrial Argentina', independently corroborated by Argentina's national government site (argentina.gob.ar), es.wikipedia.org, and Wikidata Q4789403's own inception statement (which itself cites argentina.gob.ar). A separate uia.org.ar page's claim that a predecessor organization was founded in '1785' was checked, found historically implausible (predates Argentina's 1816 independence, contradicts secondary sources placing it circa 1875), and was NOT used -- rejected as an apparent source error rather than propagated."}

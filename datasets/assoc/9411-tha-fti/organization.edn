@@ -1,0 +1,36 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Federation of Thai Industries (FTI)"
+ :name-th "สภาอุตสาหกรรมแห่งประเทศไทย"
+ :abbreviation "FTI"
+ :official-url "https://www.fti.or.th/"
+ :wikidata "Q4924184"
+ :isic "9411"
+ :country "THA"
+ :predecessor "Association of Thai Industries (ATI), founded 1967-11-13"
+ :established-date "1987-12-29"
+ :established-date-note
+ "Two sources, one day apart, both recorded rather than reconciled. FTI's own
+  background page (https://fti.or.th/AboutUs/background) states that the
+  government promulgated the Federation of Thai Industries Act B.E. 2530 in the
+  Royal Gazette on 28 December B.E. 2530, raising ATI to become FTI under the
+  supervision of the Minister of Industry. Wikipedia and Wikidata Q4924184 date
+  the upgrade to 29 December 1987. Thai acts commonly take effect the day after
+  promulgation, which would make both true, but no source consulted says so for
+  THIS act, so the inference is not made here. The value above is the
+  longer-standing one; the catalog carries both as separate entries with
+  separate provenance."
+ :statutory-basis "Federation of Thai Industries Act B.E. 2530 (1987)"
+ :supervising-minister-role "Minister of Industry"
+ :head-office "Creative Technology Building, No. 2 Nang Linchi Road, Thung Maha Mek, Sathon, Bangkok 10120"
+ :head-role-note "institutional office title only (Chairman/President); personal names of current/former office-holders are encountered on the source pages but never persisted here"
+ :sourced-from
+ "Re-sourced 2026-09-11 to the federation's own domain. The earlier note here
+  read that fti.or.th 'rendered successfully but did not surface
+  founding-history detail on the pages checked'; that was measured again and is
+  false. fti.or.th is a Next.js site whose longest prose lives in the
+  __NEXT_DATA__ payload rather than in the rendered markup, so a reader that
+  strips tags and looks at the visible text sees the headings and not the
+  history. 19 of the 20 catalog entries are now cited to fti.or.th or
+  mit.fti.or.th; see data/citation-evidence.edn for the substring each one
+  claims, and scripts/verify_citations.cljk for the check that demands it back."}

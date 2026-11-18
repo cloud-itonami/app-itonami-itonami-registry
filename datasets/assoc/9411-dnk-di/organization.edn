@@ -1,0 +1,15 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Dansk Industri (DI, Confederation of Danish Industry)"
+ :abbreviation "DI"
+ :official-url "https://www.danskindustri.dk/"
+ :wikidata "Q3374832"
+ :isic "9411"
+ :country "DNK"
+ :established-date "1992"
+ :cvr "16077593"
+ :lei "5493005AKRE38Z596314"
+ :eu-transparency-register "5749958415-41"
+ :registered-office "H. C. Andersens Boulevard 18, 1553 København V"
+ :head-role-note "institutional office title only (CEO/Chairman); personal names of current/former office-holders incidentally encountered but never persisted here -- DI's own organization page and its EU Transparency Register declaration both carry them"
+ :sourced-from "Identifiers are DI's own: it publishes CVR-nr. 16077593 and Transparency-nr. 5749958415-41 in the footer of https://www.danskindustri.dk/om-di/hvad-er-di/. The LEI was resolved from that CVR number via GLEIF's own API (api.gleif.org, filter entity.registeredAs=16077593 -> 5493005AKRE38Z596314, FULLY_CORROBORATED against RA000170 = the Danish CVR); note GLEIF reports the entity ACTIVE but the LEI *registration* LAPSED, renewal having been due 2022-01-25. :established-date 1992 is still the one field here with no first-party source: walking DI's own links on 2026-09-10 (home -> /om-di/ -> /om-di/hvad-er-di/ and all children, plus all of /english/about-di/) reaches no founding history, and a guessed /om-di/di-historie/ 404s. It rests on en.wikipedia.org's article, corroborated by Wikidata Q3374832's inception statement. Everything else in association.facts now cites DI's own statutes and site or a first-party register; see README.md for the probes and their negative controls."}

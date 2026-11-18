@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Associated General Contractors of America"
+ :name-local "Associated General Contractors of America"
+ :abbreviation "AGC"
+ :legal-form "trade association"
+ :official-url "https://www.agc.org/"
+ :wikidata "Q21015616"
+ :isic "4100"
+ :country "USA"
+ :established-date "1918"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- founding directly confirmed on AGC's own centennial history page ('Over 250 general contractors representing 165 firms establish the AGC at a meeting in Chicago', 1918)"}

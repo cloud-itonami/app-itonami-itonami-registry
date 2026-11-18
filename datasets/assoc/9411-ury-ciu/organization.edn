@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Cámara de Industrias del Uruguay (CIU)"
+ :abbreviation "CIU"
+ :official-url "https://www.ciu.com.uy/"
+ :isic "9411"
+ :country "URY"
+ :established-date "1898-11-12"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- ciu.com.uy's own official 'Qué es la CIU?' page states verbatim: 'Nuestra constitución se remonta al 12 de noviembre de 1898 con el objetivo de promover el desarrollo industrial del país'. Independently corroborated by the Uruguayan Parliament's own library catalog (pmb.parlamento.gub.uy), directly read: 'Cámara de Industrias del Uruguay : fundada el 12 de noviembre de 1898'. No Wikidata entry exists for CIU, no Spanish Wikipedia article exists (404), and CIU's own older historia.html page has gone dead (404) -- only this one precisely dateable fact could be verified despite checking five distinct sources."}

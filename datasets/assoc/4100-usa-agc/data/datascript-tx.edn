@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "agc.safety-management-best-practices-2018"
+                     :title "2018 Construction Safety Excellence Awards (CSEA): Safety Management Best Practices, jointly with Willis Towers Watson"
+                     :association "agc"
+                     :isic "4100"
+                     :country "USA"
+                     :kind :best-practices-guide
+                     :url "https://www.agc.org/sites/default/files/Files/Safety%20&%20Health/WTW-AGC-Willis%20Towers%20Watson%20CSEA%20Best%20Practices_0.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2018"
+                     :retrieved-at "2026-07-15"
+                     :topic [:worker-safety :best-practices]}
+ #:association-rule{:id "agc.centennial-history-profile"
+                     :title "Our History (Centennial, organization profile)"
+                     :association "agc"
+                     :isic "4100"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://centennial.agc.org/our-history/"
+                     :url-provenance :official-association-site
+                     :established-date "1918"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

@@ -1,0 +1,213 @@
+;; data/datascript-tx.edn — the KAM catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote).
+;; `kbb --backend sci scripts/verify-catalog.cljk --live` fetches each :url
+;; and requires that span to still be in it.
+;;
+;; No personal names of office-holders are persisted here.
+
+[#:association-rule{:id "kam.founding-1959"
+                    :title "Kenya Association of Manufacturers (KAM) is a Business Membership Organization established in 1959 to unite industrialists and give the manufacturing sector a common voice (kam.co.ke official About Us page)"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :governance-program
+                    :url "https://kam.co.ke/about"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "About Us — Our History"
+                    :source-quote "Kenya Association of Manufacturers (KAM) is a Business Membership Organization (BMO) established in 1959 to unite industrialists and offer a common voice for the manufacturing sector."
+                    :established-date "1959"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "kam.founding-1959-chairman-interview"
+                    :title "KAM's own Chairman, interviewed by Manufacturing Outlook, dates KAM's establishment to 1959 (independent corroboration of the About Us page)"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :governance-program
+                    :url "https://www.mfg-outlook.com/manufacturing-spotlights/kenya-association-of-manufacturers-kam-spotlight"
+                    :url-provenance :mfg-outlook-corroborated
+                    :source-article "Kenya Association of Manufacturers (KAM) spotlight (Manufacturing Outlook), Chairman interview"
+                    :source-quote "Established in 1959, we have evolved into a dynamic, vibrant, credible and respected business association that unites industrialists and offers a common voice for businesses."
+                    :established-date "1959"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history]}
+ #:association-rule{:id "kam.government-dialogue-link"
+                    :title "KAM represents its members' views and concerns to the relevant authorities as a link for dialogue with Government"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :policy-program
+                    :url "https://kam.co.ke/about"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "About Us — Our History"
+                    :source-quote "KAM provides an essential link for dialogue and understanding with Government by representing the views and concerns of its members to the relevant authorities."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "kam.mission"
+                    :title "KAM's stated mission is to promote global competitiveness, sustainable local manufacturing and exports"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :governance-program
+                    :url "https://kam.co.ke/about"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "About Us — Mission"
+                    :source-quote "To promote global competitiveness, sustainable local manufacturing and exports."
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "kam.sectors-unido-classification"
+                    :title "KAM's sectors are structured in line with the UNIDO classification, grouped by imported raw materials or by manufactured products"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :membership-rule
+                    :url "https://kam.co.ke/sectors"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Sectors Profile"
+                    :source-quote "KAM's sectors are structured in line with UNIDO classification and grouped by either the raw materials companies import or the products they manufacture."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "kam.sector-elected-chair"
+                    :title "Every KAM sector is led by an elected Chair, with a Vice-Chair and a dedicated KAM Sector Officer"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :governance-program
+                    :url "https://kam.co.ke/sectors"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Sectors Profile — Structured Leadership"
+                    :source-quote "Every sector is led by an elected Chair, supported by a Vice-Chair and a dedicated KAM Sector Officer."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "kam.seven-regions"
+                    :title "KAM's membership is organised into seven regions, each with an elected committee led by a Chair"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :membership-rule
+                    :url "https://kam.co.ke/regions"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Regional Offices & County Support — Our Regional Network"
+                    :source-quote "KAM's membership is distributed across seven regions: Nairobi, Lower Eastern, North Rift, South Rift, Nyanza/Western, Coast, and Central."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :regional]}
+ #:association-rule{:id "kam.ordinary-membership-eligibility"
+                    :title "Ordinary membership is for companies directly involved in processing, manufacturing or value addition, and carries full voting rights at the AGM"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :membership-rule
+                    :url "https://kam.co.ke/membership-categories"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Membership Categories — Ordinary Membership"
+                    :source-quote "For companies directly involved in processing, manufacturing, or value addition activities Key Features: Full voting rights at the Annual General Meeting (AGM)"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "kam.membership-fee-turnover"
+                    :title "The KAM membership fee is based on the applicant's annual turnover"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :membership-rule
+                    :url "https://kam.co.ke/membership-categories"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Membership Categories — Ordinary Membership, How To Apply"
+                    :source-quote "The membership fee is based on the applicant's annual turnover."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :finance]}
+ #:association-rule{:id "kam.ceec-ministry-partnership"
+                    :title "The Center for Energy Efficiency and Conservation (CEEC) was established in partnership between the Ministry of Energy & Petroleum and KAM"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/centre-for-energy-efficiency-conservation"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Center for Energy Efficiency and Conservation"
+                    :source-quote "CEEC was established in partnership with the Ministry of Energy & Petroleum and KAM, dedicated to promoting and facilitating energy efficiency and conservation in industry and the country at large."
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-24"
+                    :topic [:energy :policy]}
+ #:association-rule{:id "kam.cggcc-one-stop-shop"
+                    :title "The Center for Green Growth and Climate Change (CGGCC) is a one-stop shop within KAM for green practices, ESG adoption and climate change mitigation"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/centre-for-green-growth-and-climate-change"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Center for Green Growth and Climate Change"
+                    :source-quote "The Center for Green Growth and Climate Change (CGGCC) is a one-stop shop within KAM that drives sustainable industrial growth by promoting green business practices, adoption of ESG principles, resource efficiency, and climate change mitigation."
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-24"
+                    :topic [:environment]}
+ #:association-rule{:id "kam.women-in-manufacturing-2017"
+                    :title "The Women In Manufacturing (WIM) Programme, housed within KAM, was launched in 2017"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/women-in-manufacturing"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Women in Manufacturing — About the WIM Programme"
+                    :source-quote "Launched in 2017, WIM Programme is a strategic initiative housed within Kenya Association of Manufacturers (KAM)."
+                    :established-date "2017"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:inclusion]}
+ #:association-rule{:id "kam.manufacturing-academy-2013"
+                    :title "KAM's Manufacturing Academy, offering demand-driven training programmes, was established in 2013"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/manufacturing-academy"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Manufacturing Academy — Elevating Manufacturing Excellence"
+                    :source-quote "Established in 2013, the Manufacturing Academy offers demand-driven training programs."
+                    :established-date "2013"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:training]}
+ #:association-rule{:id "kam.trainings-nita-approved"
+                    :title "All KAM trainings are approved by the National Industrial Training Authority (NITA)"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/manufacturing-academy"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "Manufacturing Academy — Elevating Manufacturing Excellence"
+                    :source-quote "All trainings offered by the KAM are approved by the National Industrial Training Authority (NITA)."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:training :regulatory]}
+ #:association-rule{:id "kam.tvet-programme"
+                    :title "The KAM TVET programme aligns technical and vocational education with industry needs"
+                    :association "kam"
+                    :isic "9411"
+                    :country "KEN"
+                    :kind :service-program
+                    :url "https://kam.co.ke/technical-vocational-and-education-training"
+                    :url-provenance :official-kam-co-ke
+                    :source-article "The TVET Programme — Driving the Skills Agenda for Kenya"
+                    :source-quote "The KAM TVET program addresses the mismatch between technical training and industry needs."
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-24"
+                    :topic [:training]}]

@@ -1,0 +1,152 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Entries 0-1 are the pre-existing history pair, corroborated against
+;; fr.wikipedia.org. Entries 2-12 were each read from the instrument itself:
+;; MEDEF's own statuts (medef.com) and, on Legifrance, the Code du travail
+;; articles, the loi that created the représentativité patronale regime, and
+;; the two most recent arrêtés that name MEDEF as representative.
+
+[#:association-rule{:id "medef.cnpf-founding-1945-12-21"
+                     :title "CNPF (Conseil National du Patronat Français, MEDEF's direct predecessor)'s constituent assembly took place on 21 December 1945"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :governance-program
+                     :url "https://fr.wikipedia.org/wiki/Conseil_national_du_patronat_fran%C3%A7ais"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1945-12-21"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "medef.renamed-1998-10-27"
+                     :title "MEDEF (Mouvement des entreprises de France) was inaugurated in Strasbourg on 27 October 1998, succeeding CNPF"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :governance-program
+                     :url "https://fr.wikipedia.org/wiki/Mouvement_des_entreprises_de_France"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1998-10-27"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "medef.statuts-art1-association-loi-1901"
+                     :title "Statuts art. 1 (Dénomination et objet): sous la dénomination de Mouvement des Entreprises de France (MEDEF), une association de la loi de 1901 est constituée, sous forme de confédération, entre les organisations professionnelles et territoriales d'entreprises, qui adhèrent aux présents statuts"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :constitutive-instrument
+                     :url "https://www.medef.com/uploads/media/default/0019/99/14271-statuts-medef-11-2021.pdf"
+                     :url-provenance :official-medef-com
+                     :established-date "1998-10-27"
+                     :last-revised-date "2019-07-02"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :corporate-form]}
+ #:association-rule{:id "medef.statuts-art4-siege-paris"
+                     :title "Statuts art. 4 (Siège social): le Mouvement des entreprises de France a son siège au 55 avenue Bosquet, 75007 Paris; il peut être transféré en tout autre endroit par décision du conseil exécutif"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :governance-program
+                     :url "https://www.medef.com/uploads/media/default/0019/99/14271-statuts-medef-11-2021.pdf"
+                     :url-provenance :official-medef-com
+                     :last-revised-date "2019-07-02"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "medef.statuts-art5-duree-illimitee"
+                     :title "Statuts art. 5 (Durée): la durée du Mouvement des entreprises de France n'est pas limitée"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :constitutive-instrument
+                     :url "https://www.medef.com/uploads/media/default/0019/99/14271-statuts-medef-11-2021.pdf"
+                     :url-provenance :official-medef-com
+                     :last-revised-date "2019-07-02"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :corporate-form]}
+ #:association-rule{:id "medef.statuts-art6-composition"
+                     :title "Statuts art. 6 (Composition): MEDEF est constitué d'organisations professionnelles nationales et d'organisations territoriales (régionales, départementales et locales), qui en sont les membres actifs; des membres associés siègent à l'assemblée générale avec voix consultative et à l'assemblée électorale avec voix délibérative"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :membership-rule
+                     :url "https://www.medef.com/uploads/media/default/0019/99/14271-statuts-medef-11-2021.pdf"
+                     :url-provenance :official-medef-com
+                     :last-revised-date "2019-07-02"
+                     :retrieved-at "2026-09-06"
+                     :topic [:membership]}
+ #:association-rule{:id "medef.statuts-art31-cotisations"
+                     :title "Statuts art. 31 (Budget - Cotisations): les ressources se composent des cotisations de ses membres, de l'intérêt des fonds placés et de toutes autres ressources autorisées par la loi; les taux de cotisation sont votés en même temps et dans les mêmes conditions que le budget"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :membership-rule
+                     :url "https://www.medef.com/uploads/media/default/0019/99/14271-statuts-medef-11-2021.pdf"
+                     :url-provenance :official-medef-com
+                     :last-revised-date "2019-07-02"
+                     :retrieved-at "2026-09-06"
+                     :topic [:membership :finance]}
+ #:association-rule{:id "medef.ct-l2151-1-criteres-representativite"
+                     :title "Code du travail art. L2151-1: la représentativité des organisations professionnelles d'employeurs est déterminée d'après les critères cumulatifs suivants: 1° le respect des valeurs républicaines; 2° l'indépendance; 3° la transparence financière; 4° une ancienneté minimale de deux ans; puis l'influence et l'audience"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033023411"
+                     :url-provenance :official-legifrance
+                     :last-revised-date "2016-08-08"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "medef.ct-l2152-1-branche"
+                     :title "Code du travail art. L2152-1: dans les branches professionnelles, sont représentatives les organisations professionnelles d'employeurs qui satisfont aux critères de l'article L. 2151-1, disposent d'une implantation territoriale équilibrée au sein de la branche et dont les entreprises adhérentes représentent au moins 8 % des entreprises adhérant aux organisations candidates"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029946324/2014-12-22"
+                     :url-provenance :official-legifrance
+                     :last-revised-date "2014-12-20"
+                     :retrieved-at "2026-09-06"
+                     :topic [:statute]}
+ #:association-rule{:id "medef.ct-l2152-4-national-interprofessionnel"
+                     :title "Code du travail art. L2152-4: sont représentatives au niveau national et interprofessionnel les organisations professionnelles d'employeurs qui satisfont aux critères des 1° à 5° de l'article L. 2151-1, dont les organisations adhérentes sont représentatives à la fois dans des branches de l'industrie, de la construction, du commerce et des services, et dont les entreprises et organisations adhérentes représentent au moins 8 % de l'ensemble ou au moins 8 % des salariés"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000028689659/"
+                     :url-provenance :official-legifrance
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "medef.loi-2014-288-democratie-sociale"
+                     :title "LOI n° 2014-288 du 5 mars 2014 relative à la formation professionnelle, à l'emploi et à la démocratie sociale (NOR ETSX1400015L): son Titre II (Démocratie sociale) porte la représentativité patronale, la représentativité syndicale et le financement des organisations professionnelles d'employeurs et syndicales"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028683576"
+                     :url-provenance :official-legifrance
+                     :established-date "2014-03-05"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "medef.arrete-2025-07-08-representativite"
+                     :title "Arrêté du 8 juillet 2025 (NOR TSST2509392A, JORF du 9 juillet 2025 n° 0158) art. 1: sont reconnues représentatives au niveau national et interprofessionnel le Mouvement des entreprises de France (MEDEF), la Confédération des petites et moyennes entreprises (CPME) et l'Union des entreprises de proximité (U2P); art. 2 fixe la pondération du MEDEF à 63,42 %"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051862327"
+                     :url-provenance :official-legifrance
+                     :established-date "2025-07-08"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "medef.arrete-2024-02-09-representativite"
+                     :title "Arrêté du 9 février 2024 (NOR TSST2401325A, JORF du 16 février 2024 n° 0039) art. 1: mêmes trois organisations reconnues représentatives au niveau national et interprofessionnel, pondération du MEDEF alors fixée à 69,21 % — remplacé par l'arrêté du 8 juillet 2025"
+                     :association "medef"
+                     :isic "9411"
+                     :country "FRA"
+                     :kind :statute
+                     :url "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049151004"
+                     :url-provenance :official-legifrance
+                     :established-date "2024-02-09"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}]

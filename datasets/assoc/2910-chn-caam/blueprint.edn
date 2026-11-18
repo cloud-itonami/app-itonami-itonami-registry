@@ -1,0 +1,20 @@
+{:itonami.blueprint/id "cloud-itonami-assoc-2910-chn-caam"
+ :itonami.blueprint/name "Motor Vehicle Manufacturing Rule Catalog — 中国汽车工业协会 (China Association of Automobile Manufacturers, CAAM)"
+ :itonami.blueprint/isic "2910"
+ :itonami.blueprint/iso3166 "CHN"
+ :itonami.blueprint/domain :public-sector/industry-association-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :association-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 0
+ :itonami.blueprint/isic-8291-linked true
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation.md"
+ :itonami.blueprint/coverage-note
+ "The FIRST CHN member of the assoc family — before this repo the 106
+ cloud-itonami-assoc-* repos covered 38 usa / 18 jpn / 6 deu / 4 gbr / 4 fra
+ and 0 chn. Seeded from CAAM's own 协会简介 page only; that was the single
+ CAAM URL reachable from the authoring network on 2026-07-27, so no separate
+ self-regulatory-code document is cited."}

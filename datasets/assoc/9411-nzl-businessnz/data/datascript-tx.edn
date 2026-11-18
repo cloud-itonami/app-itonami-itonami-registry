@@ -1,0 +1,202 @@
+;; data/datascript-tx.edn — the AUTHORED copy of the BusinessNZ catalog.
+;; `src/association/facts.cljc` holds the same entries inline and is held to
+;; this file by test/association/facts_test.clj; `src/association_facts.kotoba`
+;; is generated from this file by scripts/gen-kotoba-port.cljs. ADR-2607141700
+;; (cloud-itonami-compliance-fact-federation), Wave 0.
+;;
+;; Every entry names the page it comes from and the verbatim span it rests on,
+;; so `kbb --backend sci scripts/verify-catalog.cljk --live` can fetch the source and fail if
+;; the document no longer says it. Reachability alone would not do: a URL that
+;; answers 200 without the claim looks exactly like one that supports it.
+;;
+;; On provenance. businessnz.org.nz answers 403 to every client this workspace
+;; has tried, on every URL tried -- measured 2026-07-17 and measured again
+;; 2026-09-06, so this is a standing property of the host and not a bad day.
+;; teara.govt.nz does the same. The association's own words are therefore cited
+;; through Internet Archive captures, whose URLs carry the capture instant and
+;; stay fetchable. That is a deliberate provenance, recorded as
+;; :official-businessnz-org-nz-web-archive rather than smuggled in as a direct
+;; read; verify-catalog.cljs rejects an entry whose URL and provenance disagree
+;; about which of the two it is.
+;;
+;; On dates. None of these pages states when the rule it carries was adopted --
+;; a membership term or a board composition is published without a date on the
+;; site. Those entries therefore carry :date-unknown-because rather than a date
+;; invented from the capture instant, which would be indistinguishable, in the
+;; field, from a date the association actually gave. The two founding entries
+;; do carry dates, because the Wikipedia article states them.
+;;
+;; On people. BusinessNZ publishes the names of its board members and staff.
+;; This catalog records institutional facts only and never persists a personal
+;; name, so no entry is read from /our-people/ and no quote spans a name --
+;; even where the surrounding sentence was the most convenient one to cite.
+
+[#:association-rule{:id "businessnz.predecessor-employers-federation-1902"
+                    :title "New Zealand Employers Federation founded, BusinessNZ's earliest predecessor body (Wikipedia)"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Business_New_Zealand"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Business New Zealand, History"
+                    :source-quote "came together to form the New Zealand Employers Federation"
+                    :established-date "1902"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "businessnz.founding-2001-merger"
+                    :title "BusinessNZ founded via merger of NZ Employers Federation and NZ Manufacturers Federation (Wikipedia)"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Business_New_Zealand"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Business New Zealand, History"
+                    :source-quote "merged with the New Zealand Manufacturers Federation to form Business New Zealand"
+                    :established-date "2001"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "businessnz.board-is-the-governance-body"
+                    :title "The BusinessNZ Board is the association's governance body and develops policy by consulting member businesses"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20240104111039/https://businessnz.org.nz/about-us/businessnz-board/"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "about-us/businessnz-board (capture 2024-01-04)"
+                    :source-quote "guides and contributes to policy development formulated through consultation with thousands of member businesses"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "businessnz.board-composed-of-regional-councils"
+                    :title "The BusinessNZ Board is composed of representatives of the four regional organisations"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20240104111039/https://businessnz.org.nz/about-us/businessnz-board/"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "about-us/businessnz-board (capture 2024-01-04)"
+                    :source-quote "The BusinessNZ Board is made up of representatives of the four regional organisations"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "businessnz.network-rooted-in-four-regional-organisations"
+                    :title "The BusinessNZ Network is rooted in four regional member organisations covering the whole country"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20240111111403/https://businessnz.org.nz/about-us/"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "about-us (capture 2024-01-11)"
+                    :source-quote "has its roots in four large regional organisations of member businesses that together cover the entire country"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "businessnz.regional-membership-is-automatic"
+                    :title "Joining BusinessNZ automatically confers membership of the regional business organisation for the member's area"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20240111111403/https://businessnz.org.nz/about-us/"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "about-us (capture 2024-01-11)"
+                    :source-quote "automatically become a member of the regional business organisation in your area"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "businessnz.mcg-bound-by-regional-association-rules"
+                    :title "Major Companies Group applicants agree to be bound by the rules of their regional association and by the MCG terms"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20250908160811/https://businessnz.org.nz/membership/terms-conditions"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "membership/terms-conditions (capture 2025-09-08)"
+                    :source-quote "agrees to be bound by the rules of the relevant regional association to which the company belongs, or intends to belong, and by the specific MCG terms and conditions set out below"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "businessnz.mcg-initial-two-year-term"
+                    :title "Major Companies Group membership runs for an initial two-year period with a right of renewal"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20250908160811/https://businessnz.org.nz/membership/terms-conditions"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "membership/terms-conditions (capture 2025-09-08)"
+                    :source-quote "Membership of the MCG is for an initial two-year period (with a right of renewal)"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "businessnz.mcg-payment-due-within-two-months"
+                    :title "Major Companies Group subscription must be paid within two months of joining"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20250908160811/https://businessnz.org.nz/membership/terms-conditions"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "membership/terms-conditions (capture 2025-09-08)"
+                    :source-quote "The MCG membership payment must be made within two months of the date on which the Company joins the MCG"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "businessnz.three-membership-types"
+                    :title "BusinessNZ offers three membership types: MCG, MCG Gold, and the Affiliated Industries Group for industry associations"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20250913110513/https://businessnz.org.nz/membership/how-to-join"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "membership/how-to-join (capture 2025-09-13)"
+                    :source-quote "There are three membership types for BusinessNZ Major Companies Group (MCG) for significant New Zealand companies, Major Companies Group Gold (MCG Gold) for significant companies yet to gain MCG status, and Affiliated Industries Group (AIG) for industry associations."
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "businessnz.international-employer-body-affiliations"
+                    :title "BusinessNZ names the ILO, Business at OECD (BIAC) and the International Organisation of Employers as its international partners"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :international-affiliation
+                    :url "https://web.archive.org/web/20250913110513/https://businessnz.org.nz/membership/how-to-join"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "membership/how-to-join, International Partners (capture 2025-09-13)"
+                    :source-quote "International Labour Organisation (ILO) Business at OECD (BIAC) International Organisation of Employers (IOE)"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:international]}
+ #:association-rule{:id "businessnz.psi-monthly-services-index"
+                    :title "BusinessNZ co-publishes the BNZ - BusinessNZ Performance of Services Index, a monthly survey of New Zealand service sector activity"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :statistical-programme
+                    :url "https://web.archive.org/web/20250913101236/https://businessnz.org.nz/psi"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "psi (capture 2025-09-13)"
+                    :source-quote "is a monthly survey providing an early indicator of levels of activity in the New Zealand service sector"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:statistics]}
+ #:association-rule{:id "businessnz.pmi-seasonally-adjusted-manufacturing-index"
+                    :title "BusinessNZ co-publishes the BNZ - BusinessNZ Performance of Manufacturing Index, reported seasonally adjusted"
+                    :association "businessnz"
+                    :isic "9411"
+                    :country "NZL"
+                    :kind :statistical-programme
+                    :url "https://web.archive.org/web/20240924180908/https://businessnz.org.nz/pmi/"
+                    :url-provenance :official-businessnz-org-nz-web-archive
+                    :source-article "pmi (capture 2024-09-24)"
+                    :source-quote "BusinessNZ Performance of Manufacturing Index (PMI). The seasonally adjusted PMI"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:statistics]}]

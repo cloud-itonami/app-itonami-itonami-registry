@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "seiho.conduct-guidelines-overview"
+                     :title "行動規範・指針・自主ガイドライン等 (Codes of Conduct, Directives, and Voluntary Guidelines)"
+                     :association "seiho"
+                     :isic "6511"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://www.seiho.or.jp/activity/guideline/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance :member-conduct]}
+ #:association-rule{:id "seiho.business-quality-assessment-guideline-a"
+                     :title "業務品質評価基準ガイドライン（A版） (Business Quality Assessment Standards Guideline, Version A)"
+                     :association "seiho"
+                     :isic "6511"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.seiho.or.jp/quality/pdf/guideline.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-02-26"
+                     :retrieved-at "2026-07-15"
+                     :topic [:consumer-protection :sales-quality]}]

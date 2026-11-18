@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "gtia.about-us"
+                     :title "About Us"
+                     :association "gtia"
+                     :isic "6201"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://gtia.org/about-us"
+                     :url-provenance :official-association-site
+                     :established-date "1982"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "gtia.code-of-conduct"
+                     :title "Code of Conduct"
+                     :association "gtia"
+                     :isic "6201"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://gtia.org/policies/code-of-conduct"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2025-02-26"
+                     :retrieved-at "2026-07-16"
+                     :topic [:ethics]}]

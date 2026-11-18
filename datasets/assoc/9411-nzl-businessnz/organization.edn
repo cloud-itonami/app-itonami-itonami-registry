@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Business New Zealand (BusinessNZ)"
+ :abbreviation "BusinessNZ"
+ :official-url "https://businessnz.org.nz/"
+ :wikidata "Q5001766"
+ :isic "9411"
+ :country "NZL"
+ :established-date "2001"
+ :head-role-note "institutional office title only (Chief Executive); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- businessnz.org.nz and teara.govt.nz (Te Ara Encyclopedia of New Zealand, an official government-run resource) both returned HTTP 403 on every URL tried. en.wikipedia.org's own article, directly read, states verbatim: 'In 1902 several regional employers' associations came together to form the New Zealand Employers Federation... In 2001 the New Zealand Employers Federation merged with the New Zealand Manufacturers Federation to form Business New Zealand (BusinessNZ)'."}

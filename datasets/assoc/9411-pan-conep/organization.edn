@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Consejo Nacional de la Empresa Privada (CoNEP)"
+ :abbreviation "CoNEP"
+ :official-url "https://conep.org.pa/"
+ :isic "9411"
+ :country "PAN"
+ :established-date "1964-07-03"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders are published by conep.org.pa but are never persisted here"
+ :sourced-from "re-measured 2026-08-31 -- conep.org.pa now answers HTTP 200 (it returned 403 Forbidden on every attempt on 2026-07-18, which is why this file previously carried month precision). Its own Estatutos, approved 24 November 2021 and published at https://conep.org.pa/estatutos/ and https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf, state in article 1: 'El Consejo Nacional de la Empresa Privada (CoNEP), fundado en la ciudad de Panama, Republica de Panama, el 3 de julio de 1964, constituye una asociacion civil sin fines lucrativos o politicos, constituida de conformidad con el ordinal 5o., del Articulo 64 del Codigo Civil.' That is the primary source at DAY precision and it supersedes the month-precision 1964-07 reading taken from ceib.info while the site was blocked; ceib.info's independently-read entry ('En julio de 1964, en la ciudad de Panama, aparecio el Consejo Nacional de la Empresa Privada') remains consistent with it. No Wikipedia article exists for CoNEP. The quoted span is checked against the live document by scripts/verify-catalog.cljs --live."}
