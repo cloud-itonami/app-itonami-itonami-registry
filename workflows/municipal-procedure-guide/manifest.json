@@ -14,7 +14,8 @@
   },
   "entry": "workflow.json",
   "requires": [
-    "skill/municipal-ordinance-knowledge"
+    "skill/municipal-ordinance-knowledge",
+    "skill/egov-seido-packs"
   ],
   "permissions": [
     "filesystem:read"

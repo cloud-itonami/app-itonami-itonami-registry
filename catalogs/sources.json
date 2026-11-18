@@ -58035,6 +58035,28 @@
           "url": "https://github.com/network-awai/awai-os/blob/56152bd15bd2d82f089333d6c610d7ee475aee2d/dapps/awai-support/hermes/profiles/awai-support/profile.yaml"
         }
       ]
+    },
+    {
+      "id": "app-itonami-egov-seido-bf8253f1",
+      "repository": "network-awai/app-itonami-egov",
+      "commit": "bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec",
+      "files": [
+        {
+          "path": "seido/jp.edn",
+          "sha256": "8277259d897b266a06651e45485120a8704964f0f8f9c51f02359b93750bef28",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec/seido/jp.edn"
+        },
+        {
+          "path": "seido/se.edn",
+          "sha256": "fedc37b09d85b28fe26ee20eaa8c264dfd2ab9eec7ced1fb5f2faed5d7dc55e1",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec/seido/se.edn"
+        },
+        {
+          "path": "seido/us.edn",
+          "sha256": "322d2829c1720b2543dfa726a435ffad8fa5a550c3532344c1dd07ebb9b6056d",
+          "url": "https://github.com/network-awai/app-itonami-egov/blob/bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec/seido/us.edn"
+        }
+      ]
     }
   ]
 }

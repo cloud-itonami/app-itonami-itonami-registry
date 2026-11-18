@@ -1,0 +1,68 @@
+;; 制度パック: スウェーデン（国の法令レベル、AWAI-3421）
+;; 出典は Sveriges riksdag の公開データ（data.riksdagen.se）から 2026-11-18 に取得し、
+;; 取得したテキスト全体の sha256 を記録した。専門家レビューは未実施。
+;; :review/status :unreviewed の間は「候補」の提示だけを許し、提出の提案はしない（AWAI-155）。
+;;
+;; 引越しの届出（flyttanmälan）は市町村ではなく国の機関（Skatteverket）へ出す。
+;; そのため市町村（kommun）は手続きの提出先ではなく、地域の条例・方針の参考情報を持つだけ。
+;; Göteborgs kommun の参考情報は itonami registry の municipal-ordinance-knowledge
+;; （元 cloud-itonami-municipality-swe-gothenburg、AWAI-3088 で registry に移した）を出典にする。
+{:pack/id :se/folkbokforing-move
+ :pack/version "2026.11.18-1"
+ :pack/jurisdiction [:se]
+ :pack/language :sv
+ ;; 届出先は国の機関なので、市町村が未指定でも候補を出せる。
+ :pack/requires-subdivision false
+ :pack/subdivisions
+ {:se.kommun/goteborg
+  {:name "Göteborgs kommun"
+   :fixture false
+   ;; 公開されている自治体の条例・方針の所在だけを持つ。個人や案件の情報は持たない。
+   :knowledge {:registry "cloud-itonami/app-itonami-itonami-registry"
+               :commit "312b6f648b16e7994bf9e57af3ca05495bcb786e"
+               :path "skills/knowledge/municipal-ordinance-knowledge/references/municipality/swe-gothenburg/datascript-tx.edn"
+               :sha256 "9da4e5626a0b934cea180fe83a10e4062392dd4706bacdb26f631069b0856fdb"}
+   :references
+   [{:id :se.goteborg/lokala-ordningsforeskrifter
+     :title "Lokala ordningsföreskrifter för Göteborgs kommun"
+     :issuer "Göteborgs Stad"
+     :url "https://goteborg.se/wps/wcm/connect/6b3e77e8-c13a-4d62-bcc4-f7809e7a4912/Lokala+ordningsf%C3%B6reskrifter+f%C3%B6r+G%C3%B6teborgs+kommun.pdf?MOD=AJPERES"
+     :topic :public-order
+     :retrieved-on "2026-11-18"
+     :sha256 "66ce988d3f9daa0e573218246bc0d5bbca4569fb5baa71937fc447a039f3005b"}
+    {:id :se.goteborg/stadsmiljopolicy
+     :title "Göteborgs Stadsmiljöpolicy"
+     :issuer "Göteborgs Stad"
+     :url "https://goteborg.se/wps/wcm/connect/3ffbf99d-7a74-48b3-8cf4-e88192e91e59/G%C3%B6teborgs+stadsmilj%C3%B6policy+%C3%B6vergripande.pdf?MOD=AJPERES"
+     :topic :urban-planning
+     :retrieved-on "2026-11-18"
+     :sha256 "6b7cec808d8666e636de8f0a04afa375885690a254610b57d8882d59b800cec0"}]}
+  :se.fixture/kommun-a {:name "Fiktiv kommun A（テスト用・実在しない）" :fixture true}}
+ :pack/checked-on "2026-11-18"
+ :pack/review-by "2027-02-18"
+ :review/status :unreviewed
+ :review/reviewer nil
+ :review/reviewed-on nil
+ :pack/sources
+ {:se.law/fbl-25
+  {:title "Folkbokföringslag (1991:481) 25 §"
+   :issuer "Sveriges riksdag（Regeringskansliet / Lagrummet）"
+   :url "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/folkbokforingslag-1991481_sfs-1991-481/"
+   :api "https://data.riksdagen.se/dokument/sfs-1991-481.text"
+   ;; 文書の見出し「Ändrad: t.o.m. SFS 2026:1613」。sha256 は 25 § だけでなく、取得した文書全体のもの。
+   :law-revision-id "SFS 1991:481 ändrad t.o.m. SFS 2026:1613"
+   :digest-scope :whole-document
+   :retrieved-on "2026-11-18"
+   :sha256 "bdaa12bc4ea3eb5cb6b3fab600325820e299cf3193e45de98e2de7bdf2b0bf7d"}}
+ :pack/procedures
+ [{:procedure/id :se/flyttanmalan
+   :procedure/title "Flyttanmälan（引越しの届出）"
+   :subject :person
+   ;; 同じ市町村内でも、別の市町村へでも、同じ届出（25 § 第1項）。
+   :applies-when #{:move-within-municipality :move-between-municipalities}
+   ;; 「inom en vecka」= 1 週間以内。
+   :deadline {:kind :within-days :days 7 :anchor :moved-on}
+   :submit-to {:agency :se/skatteverket :name "Skatteverket"}
+   ;; 引越しを伴わない郵便の宛先変更（25 § 第2項）と、国外への転出・国外からの転入（26・27 §）は未収録。
+   :unknowns [:se/postal-address-change-without-move]
+   :sources [:se.law/fbl-25]}]}

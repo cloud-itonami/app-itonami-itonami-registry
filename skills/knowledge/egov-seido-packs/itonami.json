@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "app-itonami-egov-seido-bf8253f1"
+  ],
+  "useWhen": "A user asks which government procedures follow an address change in a country that has an institution pack, or an egov profile (Shakai, Kaisha, Matsuri) needs the pack data.",
+  "avoidWhen": "The country has no pack, the pack is past its review date, or the user wants a determination, legal advice or a filing made for them.",
+  "inputs": {
+    "jurisdiction": "country, and subdivision where the pack requires one"
+  },
+  "outputs": {
+    "answer": "candidate procedures with primary sources, deadlines, submission target and review state"
+  },
+  "effects": [
+    "filesystem-read"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "caller authorization; read-only reference material"
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "3 pack files copied verbatim from the pinned commit; evaluated by the source repository tests (bb test), not by an agent through this skill",
+    "live": false
+  },
+  "compatibilityNote": "Hermes skill shape with bundled references. Wildcard versions express no runtime compatibility."
+}

@@ -165,6 +165,10 @@
         {
           "entry": "profile/egov-shakai",
           "sourceCommit": "10259965581c108e0924acfd32a0714ad478aaf8"
+        },
+        {
+          "entry": "skill/egov-seido-packs",
+          "sourceCommit": "bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec"
         }
       ]
     },
