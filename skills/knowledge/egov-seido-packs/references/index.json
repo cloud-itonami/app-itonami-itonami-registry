@@ -1,10 +1,67 @@
 {
- "count": 3,
+ "count": 5,
  "source": {
   "repository": "network-awai/app-itonami-egov",
-  "commit": "bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec"
+  "commit": "2db4b704e22fd84fea3e898acd5730725e2b67dd"
  },
  "packs": [
+  {
+   "file": "references/seido/at.edn",
+   "sha256": "492c9e002dc220485ebe9a4934a70fa7c9e60ebd62e0cd33dcde1ee5ee02b2d3",
+   "pack-id": ":at/meldegesetz-move",
+   "version": "2026.11.18-1",
+   "jurisdiction": "[:at]",
+   "language": ":de",
+   "checked-on": "2026-11-18",
+   "review-by": "2027-02-18",
+   "review-status": ":unreviewed",
+   "procedures": [
+    ":at/anmeldung"
+   ],
+   "subdivisions": [
+    {
+     "key": ":at.gemeinde/wien",
+     "name": "Wien",
+     "fixture": false
+    },
+    {
+     "key": ":at.fixture/gemeinde-a",
+     "name": "Fiktive Gemeinde A（テスト用・実在しない）",
+     "fixture": true
+    }
+   ]
+  },
+  {
+   "file": "references/seido/de.edn",
+   "sha256": "76e9f40492752a881a73f6d77d5337615a8f036a266cc7758ab2af2d977011ca",
+   "pack-id": ":de/melderecht-move",
+   "version": "2026.11.18-1",
+   "jurisdiction": "[:de]",
+   "language": ":de",
+   "checked-on": "2026-11-18",
+   "review-by": "2027-02-18",
+   "review-status": ":unreviewed",
+   "procedures": [
+    ":de/anmeldung"
+   ],
+   "subdivisions": [
+    {
+     "key": ":de.land/berlin",
+     "name": "Land Berlin",
+     "fixture": false
+    },
+    {
+     "key": ":de.stadt/muenchen",
+     "name": "Landeshauptstadt München",
+     "fixture": false
+    },
+    {
+     "key": ":de.fixture/gemeinde-a",
+     "name": "Fiktive Gemeinde A（テスト用・実在しない）",
+     "fixture": true
+    }
+   ]
+  },
   {
    "file": "references/seido/jp.edn",
    "sha256": "8277259d897b266a06651e45485120a8704964f0f8f9c51f02359b93750bef28",
