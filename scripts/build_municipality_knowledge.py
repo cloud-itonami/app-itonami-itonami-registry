@@ -10,6 +10,7 @@ SK = ROOT / 'skills/knowledge/municipal-ordinance-knowledge'
 WF = ROOT / 'workflows/municipal-procedure-guide'
 SKILL_ENTRY = 'skill/municipal-ordinance-knowledge'
 WF_ENTRY = 'workflow/municipal-procedure-guide'
+SEIDO_ENTRY = 'skill/egov-seido-packs'  # ADR 0019: national procedures with primary legal sources
 
 
 def raw(repo, commit, path):
@@ -123,13 +124,13 @@ For a step-by-step procedure, use the `workflow/municipal-procedure-guide` recip
         'description': 'Guide a user through finding the rules and official sources for an administrative procedure in a covered municipality, and hand off to the official channel. Never files or applies for the user.',
         'author': 'cloud-itonami', 'license': 'AGPL-3.0-or-later', 'source': tree,
         'compatibility': {'hermes': '*', 'desktop': '*'}, 'entry': 'workflow.json',
-        'requires': [SKILL_ENTRY], 'permissions': ['filesystem:read']}, indent=2) + '\n')
+        'requires': [SKILL_ENTRY, SEIDO_ENTRY], 'permissions': ['filesystem:read']}, indent=2) + '\n')
     (WF / 'workflow.json').write_text(json.dumps({
         'schemaVersion': 'itonami.workflow.v1', 'mode': 'recipe',
         'inputs': ['municipality', 'procedure', 'userSituation'],
         'steps': [
             {'id': 'identify', 'action': 'Confirm the municipality and what the user wants to do (the procedure). Ask only for what is needed; do not collect personal data.'},
-            {'id': 'lookup', 'action': 'Find the municipality in the knowledge skill and list the ordinances that may apply, with their official URLs and retrieval dates.', 'uses': [SKILL_ENTRY]},
+            {'id': 'lookup', 'action': 'Find the municipality in the knowledge skill and list the ordinances that may apply, with their official URLs and retrieval dates. If the country has an institution pack, also list its candidate procedures with their primary sources and say whether the pack is current.', 'uses': [SKILL_ENTRY, SEIDO_ENTRY]},
             {'id': 'read-primary', 'action': 'Ask the user to open the official source, or, only if the user approves that exact request, fetch the official page; read the primary text before stating any rule.'},
             {'id': 'checklist', 'action': 'Produce a checklist of what the user must confirm or prepare, each item tied to its source; mark anything not found in the primary text as unknown.'},
             {'id': 'handoff', 'action': 'Point to the official channel for the procedure (site, office, contact from the organization record). State that the information is a snapshot and that the user files or applies personally.'}],

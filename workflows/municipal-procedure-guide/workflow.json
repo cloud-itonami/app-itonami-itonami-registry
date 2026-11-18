@@ -13,9 +13,10 @@
     },
     {
       "id": "lookup",
-      "action": "Find the municipality in the knowledge skill and list the ordinances that may apply, with their official URLs and retrieval dates.",
+      "action": "Find the municipality in the knowledge skill and list the ordinances that may apply, with their official URLs and retrieval dates. If the country has an institution pack, also list its candidate procedures with their primary sources and say whether the pack is current.",
       "uses": [
-        "skill/municipal-ordinance-knowledge"
+        "skill/municipal-ordinance-knowledge",
+        "skill/egov-seido-packs"
       ]
     },
     {

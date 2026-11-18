@@ -1,0 +1,16 @@
+;; 制度パック: 米国（骨組みのみ）
+;; 連邦と州・地方の制度が重なるため、州を指定しない限り候補を出さない（AWAI-155）。
+;; 州ごとの手続きはまだ収録していない。
+{:pack/id :us/skeleton
+ :pack/version "2026.11.18-1"
+ :pack/jurisdiction [:us]
+ :pack/language :en
+ :pack/requires-subdivision true
+ :pack/subdivisions {}
+ :pack/checked-on "2026-11-18"
+ :pack/review-by "2027-02-18"
+ :review/status :unreviewed
+ :review/reviewer nil
+ :review/reviewed-on nil
+ :pack/sources {}
+ :pack/procedures []}

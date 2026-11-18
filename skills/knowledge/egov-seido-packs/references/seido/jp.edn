@@ -1,0 +1,87 @@
+;; 制度パック: 日本（国の法令レベル）
+;; 出典は e-Gov 法令 API v2 で 2026-11-18 に取得し、応答 JSON の sha256 を記録した。
+;; 専門家レビューは未実施。:review/status :unreviewed の間は「候補」の提示だけを許し、
+;; 提出の提案はしない（AWAI-155）。
+{:pack/id :jp/residence-and-corporate-address
+ :pack/version "2026.11.18-1"
+ :pack/jurisdiction [:jp]
+ :pack/language :ja
+ ;; 国の法令だけで候補を出せるが、窓口・様式は市町村ごとに違うので、
+ ;; 受付先の市町村が確認できないときは結論を出さない。
+ :pack/requires-subdivision false
+ :pack/subdivisions
+ {:jp.fixture/city-a {:name "架空市A（テスト用・実在しない）" :fixture true}
+  :jp.fixture/city-b {:name "架空市B（テスト用・実在しない）" :fixture true}}
+ :pack/checked-on "2026-11-18"
+ :pack/review-by "2027-02-18"
+ :review/status :unreviewed
+ :review/reviewer nil
+ :review/reviewed-on nil
+ :pack/sources
+ {:jp.law/jumin-22
+  {:title "住民基本台帳法 第22条（転入届）"
+   :issuer "e-Gov 法令検索（デジタル庁）"
+   :url "https://laws.e-gov.go.jp/law/342AC0000000081"
+   :api "https://laws.e-gov.go.jp/api/2/law_data/342AC0000000081?law_full_text_format=json&elm=MainProvision-Article_22"
+   :law-revision-id "342AC0000000081_20261024_508AC0000000066"
+   :in-force-from "2026-10-24"
+   :retrieved-on "2026-11-18"
+   :sha256 "4fcd8ce5cb628859634e33ac4c64fe14c2a9f768caf7a72d4395ed83d21ccd2b"}
+  :jp.law/jumin-23
+  {:title "住民基本台帳法 第23条（転居届）"
+   :issuer "e-Gov 法令検索（デジタル庁）"
+   :url "https://laws.e-gov.go.jp/law/342AC0000000081"
+   :api "https://laws.e-gov.go.jp/api/2/law_data/342AC0000000081?law_full_text_format=json&elm=MainProvision-Article_23"
+   :law-revision-id "342AC0000000081_20261024_508AC0000000066"
+   :in-force-from "2026-10-24"
+   :retrieved-on "2026-11-18"
+   :sha256 "04a5056658bf91d0d65e169f9afd340854aa8460ed8b22baa8fd98926094cb1f"}
+  :jp.law/jumin-24
+  {:title "住民基本台帳法 第24条（転出届）"
+   :issuer "e-Gov 法令検索（デジタル庁）"
+   :url "https://laws.e-gov.go.jp/law/342AC0000000081"
+   :api "https://laws.e-gov.go.jp/api/2/law_data/342AC0000000081?law_full_text_format=json&elm=MainProvision-Article_24"
+   :law-revision-id "342AC0000000081_20261024_508AC0000000066"
+   :in-force-from "2026-10-24"
+   :retrieved-on "2026-11-18"
+   :sha256 "0b2692450e352983aa517f667e46c6935e206468b3cec92c735ef306121570da"}
+  :jp.law/kaisha-915
+  {:title "会社法 第915条（変更の登記）"
+   :issuer "e-Gov 法令検索（デジタル庁）"
+   :url "https://laws.e-gov.go.jp/law/417AC0000000086"
+   :api "https://laws.e-gov.go.jp/api/2/law_data/417AC0000000086?law_full_text_format=json&elm=MainProvision-Article_915"
+   :law-revision-id "417AC0000000086_20260812_508AC0000000064"
+   :in-force-from "2026-08-12"
+   :retrieved-on "2026-11-18"
+   :sha256 "48bdca4c76f3685e4463760d511a9cb9aae5d5c981d6b4ee03b57501aab6321a"}}
+ :pack/procedures
+ [{:procedure/id :jp/tenshutsu-todoke
+   :procedure/title "転出届"
+   :subject :person
+   :applies-when :move-between-municipalities
+   :deadline {:kind :before :anchor :moved-on}
+   :submit-to :from-municipality
+   :sources [:jp.law/jumin-24]}
+  {:procedure/id :jp/tennyu-todoke
+   :procedure/title "転入届"
+   :subject :person
+   :applies-when :move-between-municipalities
+   :deadline {:kind :within-days :days 14 :anchor :moved-on}
+   :submit-to :to-municipality
+   :sources [:jp.law/jumin-22]}
+  {:procedure/id :jp/tenkyo-todoke
+   :procedure/title "転居届"
+   :subject :person
+   :applies-when :move-within-municipality
+   :deadline {:kind :within-days :days 14 :anchor :moved-on}
+   :submit-to :to-municipality
+   :sources [:jp.law/jumin-23]}
+  {:procedure/id :jp/honten-iten-toki
+   :procedure/title "本店移転の変更登記"
+   :subject :kabushiki-kaisha
+   :applies-when :head-office-move
+   :deadline {:kind :within-days :days 14 :anchor :moved-on}
+   :submit-to :registry-office
+   ;; 管轄の異なる登記所へ移る場合の扱い（会社法 第916条）は未収録。
+   :unknowns [:jp/honten-iten-across-registry-offices]
+   :sources [:jp.law/kaisha-915]}]}

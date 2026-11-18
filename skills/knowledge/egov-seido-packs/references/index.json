@@ -1,0 +1,77 @@
+{
+ "count": 3,
+ "source": {
+  "repository": "network-awai/app-itonami-egov",
+  "commit": "bf8253f1c2fb3a8d20721e4682f8c8e08fea2dec"
+ },
+ "packs": [
+  {
+   "file": "references/seido/jp.edn",
+   "sha256": "8277259d897b266a06651e45485120a8704964f0f8f9c51f02359b93750bef28",
+   "pack-id": ":jp/residence-and-corporate-address",
+   "version": "2026.11.18-1",
+   "jurisdiction": "[:jp]",
+   "language": ":ja",
+   "checked-on": "2026-11-18",
+   "review-by": "2027-02-18",
+   "review-status": ":unreviewed",
+   "procedures": [
+    ":jp/tenshutsu-todoke",
+    ":jp/tennyu-todoke",
+    ":jp/tenkyo-todoke",
+    ":jp/honten-iten-toki"
+   ],
+   "subdivisions": [
+    {
+     "key": ":jp.fixture/city-a",
+     "name": "架空市A（テスト用・実在しない）",
+     "fixture": true
+    },
+    {
+     "key": ":jp.fixture/city-b",
+     "name": "架空市B（テスト用・実在しない）",
+     "fixture": true
+    }
+   ]
+  },
+  {
+   "file": "references/seido/se.edn",
+   "sha256": "fedc37b09d85b28fe26ee20eaa8c264dfd2ab9eec7ced1fb5f2faed5d7dc55e1",
+   "pack-id": ":se/folkbokforing-move",
+   "version": "2026.11.18-1",
+   "jurisdiction": "[:se]",
+   "language": ":sv",
+   "checked-on": "2026-11-18",
+   "review-by": "2027-02-18",
+   "review-status": ":unreviewed",
+   "procedures": [
+    ":se/flyttanmalan"
+   ],
+   "subdivisions": [
+    {
+     "key": ":se.kommun/goteborg",
+     "name": "Göteborgs kommun",
+     "fixture": false
+    },
+    {
+     "key": ":se.fixture/kommun-a",
+     "name": "Fiktiv kommun A（テスト用・実在しない）",
+     "fixture": true
+    }
+   ]
+  },
+  {
+   "file": "references/seido/us.edn",
+   "sha256": "322d2829c1720b2543dfa726a435ffad8fa5a550c3532344c1dd07ebb9b6056d",
+   "pack-id": ":us/skeleton",
+   "version": "2026.11.18-1",
+   "jurisdiction": "[:us]",
+   "language": ":en",
+   "checked-on": "2026-11-18",
+   "review-by": "2027-02-18",
+   "review-status": ":unreviewed",
+   "procedures": [],
+   "subdivisions": []
+  }
+ ]
+}
