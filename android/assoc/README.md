@@ -1,6 +1,6 @@
 # Itonami Registry Assoc for Android
 
-The Android app starts at the Registry site's existing association page. The build embeds the static site and the verified association snapshots from the same checkout. Search, the recorded source information, and the bundled EDN files work without network access. A citation can be opened in Android's browser when connectivity is available.
+The Android app starts at the Registry site's existing association page. The build embeds the static site and the verified association snapshots from the same checkout. Search and source information work without network access. Tap the EDN link to read the verified bundled record in the app. A citation can be opened in Android's browser when connectivity is available.
 
 The wrapper pins and verifies the canonical Kotoba browser runtime, license and notice at build time. The descriptor declares memory-only filters, zero workers and zero external service operations. The Tauri window keeps the Registry on its local HTTPS origin and hands web citations to the system browser.
 

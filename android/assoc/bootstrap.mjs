@@ -13,15 +13,7 @@ try {
   }
   applyOfflineClientPolicy();
 
-  // Android WebView does not support Tauri's new-window callback. Let a
-  // reader's link activate the native navigation delegate in this window.
-  document.addEventListener('click', (event) => {
-    if (!event.isTrusted || !(event.target instanceof Element)) return;
-    const anchor = event.target.closest('a[target="_blank"]');
-    if (anchor && anchor.origin !== location.origin) {
-      anchor.target = '_self';
-    }
-  }, {capture: true});
+  await import('../mobile-links.mjs');
   await import('./assoc.js');
 } catch (error) {
   document.getElementById('status').textContent = '業界団体カタログを起動できませんでした。';
