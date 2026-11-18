@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.dataset-sources.v1",
   "family": "assoc",
   "observedOn": "2026-10-25",
-  "method": "GitHub GraphQL default-branch commit + license; payload sha256 read from the pinned commit in a local clone when its object is present, else unverified. Repository content is not copied.",
+  "method": "GitHub GraphQL default-branch commit + license; payload sha256 read from the pinned commit in a local clone when its object is present, else unverified. Repository content is not copied. The Registry preserves the verified payloads verbatim. The schema digest was added from the same pinned Git object on 2026-11-18.",
   "count": 81,
   "entries": [
     {
@@ -28,6 +28,10 @@
         {
           "path": "organization.edn",
           "sha256": "49bca425ac527421a59864348c6c982e881d8e9cc6275cd9848ef1bf41eb05f8"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6c199b5e2cfa3b54186eb94b9d0c2b374de7958e8387a8204a3edb5ee89edabb"
         }
       ],
       "digestStatus": "verified",
@@ -57,6 +61,10 @@
         {
           "path": "organization.edn",
           "sha256": "e0808953b097e638d28b22b1644e5cb4bd36c13280763dde954db5ca0dcac4a2"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "d8214167ab1e84b5952abe2411d76ee1bdbeaa9a0a87694008f49c74e5ceee9f"
         }
       ],
       "digestStatus": "verified",
@@ -86,6 +94,10 @@
         {
           "path": "organization.edn",
           "sha256": "a3fd82512ccf97cbee222f0032e5022343f46e1da69ad0a2dcf5646422bda2a9"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "0511ebb3250de545557ed0a1a515dbe3212971196bdd7da1fde535bcf6ef7e24"
         }
       ],
       "digestStatus": "verified",
@@ -115,6 +127,10 @@
         {
           "path": "organization.edn",
           "sha256": "be504eb76586d83627ae995568272345615d753f193fa7669893551ea487c662"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "93d6d2b78912f966e64167fe2240a62dfd7c9038043ed8e1da50ad925ca7c064"
         }
       ],
       "digestStatus": "verified",
@@ -144,6 +160,10 @@
         {
           "path": "organization.edn",
           "sha256": "811467b113948e765d2da202fee3a0b81f8f2451960ce2e0cf0dc15d6dc35510"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "e2a1b3a35530767c378844f991500ef02e26c6170c41ee6e31587ea57ac0670f"
         }
       ],
       "digestStatus": "verified",
@@ -173,6 +193,10 @@
         {
           "path": "organization.edn",
           "sha256": "c3d6e92708075cb07d9287e7fe171d159a4dbac7a87b4e99c1b6c061e60e8af6"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "af06826901ec5a88c9dd1945e6c2501d013a7aa3baf5411a194511d9babe1159"
         }
       ],
       "digestStatus": "verified",
@@ -202,6 +226,10 @@
         {
           "path": "organization.edn",
           "sha256": "478c7f8bcba35ca23e04da840aae28ac05e3f4310fcb806cfb9a961d889ca039"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "9cb23cdb8f14191cb05a6ac45a4152f0d0b97c73f23b4521100baaa292052420"
         }
       ],
       "digestStatus": "verified",
@@ -231,6 +259,10 @@
         {
           "path": "organization.edn",
           "sha256": "fe61a5053780853b3da1c4470f45b0b8448eb9ddfd2b161a845d8cb88d27b9a2"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "96abe41b22abe1d51c48de9ebfb77be1f1f2a516e8ce1a1f27ab9a92792c29df"
         }
       ],
       "digestStatus": "verified",
@@ -260,6 +292,10 @@
         {
           "path": "organization.edn",
           "sha256": "d593c30b51954d51bb20ad74a4cd277e8dd1b4bc9f63b0502a021be4fe3a0cd9"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "4ce5301a546d49ea7d1956f9b71827fe53a14dacf0c4a9d53363b84c8bd3cf2b"
         }
       ],
       "digestStatus": "verified",
@@ -289,6 +325,10 @@
         {
           "path": "organization.edn",
           "sha256": "84adb13d4cb5b76849dbef28d68996bb07d7b39a0569cc13139f72ecbf7167f7"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "74817ad3d88259b8bd2a58cdda704b695c764ef591ec0bd7800c52128d3fc2e3"
         }
       ],
       "digestStatus": "verified",
@@ -318,6 +358,10 @@
         {
           "path": "organization.edn",
           "sha256": "3f9b7d5e94ead381da6f2c0d14d33b8c04ed3e05e0b53fe8a795968804defce9"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "3d9b3d8b35c4bbf5eb98ab6c8121624263abf16577ec7a98e90fd39c939279bd"
         }
       ],
       "digestStatus": "verified",
@@ -347,6 +391,10 @@
         {
           "path": "organization.edn",
           "sha256": "1d85d4ad98c37f11e51174469d1f952f8a94248954afea23d5601fcce13ce9c8"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "b32b9d7280583d8ffa671ccf804904451d1a2401d1cdc1688128ae9071d76ce8"
         }
       ],
       "digestStatus": "verified",
@@ -376,6 +424,10 @@
         {
           "path": "organization.edn",
           "sha256": "7b4f32142a1dc8b392c06f1dff1c9dfff026db38d65c82052d3296ecbc648819"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "9cb23cdb8f14191cb05a6ac45a4152f0d0b97c73f23b4521100baaa292052420"
         }
       ],
       "digestStatus": "verified",
@@ -405,6 +457,10 @@
         {
           "path": "organization.edn",
           "sha256": "7707d35be9430cdc24a690aa2e647cfd110b9261d272215cddb8dff0cabe7f7b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6452c6c9ab1406f04373a88d13388f6938ff011fcde5fa68ddb2ab9bc7fda6df"
         }
       ],
       "digestStatus": "verified",
@@ -434,6 +490,10 @@
         {
           "path": "organization.edn",
           "sha256": "3dbc6eed88a61fe528b25452059e0cadfbf7410b6f3f230fb4ddc14dd4524baa"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "90e2505bcdfdae36d67b72d2b5a61d7a2410d2cc4563f45b67f890f8c41d040e"
         }
       ],
       "digestStatus": "verified",
@@ -463,6 +523,10 @@
         {
           "path": "organization.edn",
           "sha256": "24da801e9539efed2e1eee14bba904ead0d3c00d04cef412a6cd77d2355faf5a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "465801fa070e5ec6873659951747075609fc41afbf590484f11d541c6c4c7eaa"
         }
       ],
       "digestStatus": "verified",
@@ -492,6 +556,10 @@
         {
           "path": "organization.edn",
           "sha256": "ff4174b28f61a0ce43737ea73b8013c71781080b409de9f2d74eabf3a05d707e"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "4aa7b8f5f5df90b4c1a6ee00435b20eb19220af440603f927eecbe0d4ac64998"
         }
       ],
       "digestStatus": "verified",
@@ -521,6 +589,10 @@
         {
           "path": "organization.edn",
           "sha256": "6dc38fb92a01343003d8f3c54957461f1915bd93c354236b2c11a8185b985f63"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "1e94ac2ab580db86eab941997abebe60839ba0d52b660f1ea853ab7dc8a12ac0"
         }
       ],
       "digestStatus": "verified",
@@ -550,6 +622,10 @@
         {
           "path": "organization.edn",
           "sha256": "db527784b08b8dfdc9b47339eeabd8d49094d24e0adc20fa9c86b9cbcf28ae32"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "3dfdf397f95f78b465ae5fa12ceb6aa90cb47c85aca75bb427da2f6fe372ad48"
         }
       ],
       "digestStatus": "verified",
@@ -579,6 +655,10 @@
         {
           "path": "organization.edn",
           "sha256": "8b2454508648ca9c6664d20cda1fde8f957886e7e9ae82f097d68c43ffdd72c2"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "68ea079d73b65bde84084425faf9fafee2b662c7d8f9f38b6eceaadb9ffa8d71"
         }
       ],
       "digestStatus": "verified",
@@ -608,6 +688,10 @@
         {
           "path": "organization.edn",
           "sha256": "5e68647b3993483b9aab748f4a163c411ec50985fa9a0bb482efa5bef078cdba"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "77d8f87384856e990bc95d1ffa251e4fcb5fd5dd808db79a9f4bb62483f19181"
         }
       ],
       "digestStatus": "verified",
@@ -637,6 +721,10 @@
         {
           "path": "organization.edn",
           "sha256": "a8d8b04d85e12c67d405299f1ed7b67bbcda4a8cabd3529f4c4dfbd40f077f60"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "a244ac22abe379bc18a2dfa898d0751893246789367c550b6ef76041de24fc78"
         }
       ],
       "digestStatus": "verified",
@@ -666,6 +754,10 @@
         {
           "path": "organization.edn",
           "sha256": "82929fd99280e7f93951365ca0d7f501a5870c1c7f8875947b937bee137d28bf"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "23f1c3bac93ca3907c75d5fa30b7c70348e8ebac13fd2aa89fd9fb33714c3b3c"
         }
       ],
       "digestStatus": "verified",
@@ -695,6 +787,10 @@
         {
           "path": "organization.edn",
           "sha256": "020667ea6932e0332f05d14a523f1cd61b026d574cbdd3436336c33ee5a2a97b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "8d801581eda17c8f6fd6670b4c1a223d60ae9eb9c0dad37b211e3cd111515c39"
         }
       ],
       "digestStatus": "verified",
@@ -724,6 +820,10 @@
         {
           "path": "organization.edn",
           "sha256": "9ca462082cb64f35e5e0769ad929e1eddf1401c750bfaff3b21933fea2f728c0"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "37b895b434fe0c256ea81a9b98bb4007fe662d6e2c5b4daae99d12891278ce37"
         }
       ],
       "digestStatus": "verified",
@@ -753,6 +853,10 @@
         {
           "path": "organization.edn",
           "sha256": "eb5cb7cd34b74bfa4cb2f8678dfd3c0f71aaf3f97c0ee3a93c57908979a2bdeb"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "257893cccb5ce02cf21e45f490f708c6bfffa0ed24a2bf23e878e7ad9cbcaca5"
         }
       ],
       "digestStatus": "verified",
@@ -782,6 +886,10 @@
         {
           "path": "organization.edn",
           "sha256": "e024289fed3dc44187871847add76f87ea09ba07f73bdd14591a37ff2fb9259a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "d9bdc3f0a5d84dd6d96babbaa774635c81be98b4f6bec190e8b35e61f9da52c8"
         }
       ],
       "digestStatus": "verified",
@@ -811,6 +919,10 @@
         {
           "path": "organization.edn",
           "sha256": "1821e7771dc352e3fad6f430380c17796b13da1eb72d44e4967d2c0d86a1f63c"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "7851bb6386b61e6170e03f52a3c367e48b726a3179ecc8b80db3b6c3362be492"
         }
       ],
       "digestStatus": "verified",
@@ -840,6 +952,10 @@
         {
           "path": "organization.edn",
           "sha256": "089ab48aa9c7b2456d92202f6706c3310b6414c8cd80d8c603e852a71d353dab"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "c896dfafa7898f33250c7f2381c4ce1faa18f6942107e9a0c66d475b0e3872ce"
         }
       ],
       "digestStatus": "verified",
@@ -869,6 +985,10 @@
         {
           "path": "organization.edn",
           "sha256": "ca113d6451b748cdcf747c36ff7211c0e39d6bfa112b0ca79fab233839fd02b0"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "29a56ee799ddba50d592cc3a97a2569e645bfc3908d7e7fe98bf845ddf83a350"
         }
       ],
       "digestStatus": "verified",
@@ -898,6 +1018,10 @@
         {
           "path": "organization.edn",
           "sha256": "9c35d494858353b3ca1f69674d807e3f17b4bbe5f9f0b7aebf096ff52c949a09"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6cffdf435333f1b219af1de6745ef61b6de3e60329e43f91a4a0aa77137763ae"
         }
       ],
       "digestStatus": "verified",
@@ -927,6 +1051,10 @@
         {
           "path": "organization.edn",
           "sha256": "6d14761580ddefb56e7deae681ead744ef74afcc5e0ddcf1dec005353d2fda9a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "752733a17fd949050b5647ed3ce389ca0749b9228b9b7e819acb7e8bdd2eeb8a"
         }
       ],
       "digestStatus": "verified",
@@ -956,6 +1084,10 @@
         {
           "path": "organization.edn",
           "sha256": "174f2e2249136a79b5e3815ffa0c8c65856ec498e32335974a222d4275ac29ed"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6f62e00688f1dca796099670446849dd4d9fe6de4f301866ff633747ef083d70"
         }
       ],
       "digestStatus": "verified",
@@ -985,6 +1117,10 @@
         {
           "path": "organization.edn",
           "sha256": "37bb9eff0e040583f2bbfefced6919f8b4fc665b6523f9ec006124643739593e"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "5b47d72bdbafacacbe7aafcfc2c635ffc167f0123dbe0a1260869532426eedcf"
         }
       ],
       "digestStatus": "verified",
@@ -1014,6 +1150,10 @@
         {
           "path": "organization.edn",
           "sha256": "671a15859aa256b08038c7b4557ded7d6e8c3eb5f8aeb1099e2a400578e2ed52"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "197e98b4aff8ce4489906e146b7574e0c146cdfc4e45e3b2bae483f1aeea7dce"
         }
       ],
       "digestStatus": "verified",
@@ -1043,6 +1183,10 @@
         {
           "path": "organization.edn",
           "sha256": "f097b4851af4e7014ce6a6104c4a6d3485c45c7d3507b3942d9e093b0fdf43a2"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "e9826050b5e3892fcb376574a962425bf8a9386e054851e4353373cbefcafa18"
         }
       ],
       "digestStatus": "verified",
@@ -1072,6 +1216,10 @@
         {
           "path": "organization.edn",
           "sha256": "d3078c5f919970ab9aa706bb743bd49cd07490da5fc1dd2a7830b5b4233f73e1"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "171c8fca27923560d72e7741536d81e7c0097ae98af82f355b10249b6a67d688"
         }
       ],
       "digestStatus": "verified",
@@ -1101,6 +1249,10 @@
         {
           "path": "organization.edn",
           "sha256": "9aab2a9a8e621ffb3580490f4bcf141621f9c9f18f403527d354a177445d7bb8"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "c0cab8505217a3fcfb29f6b9dbf7a630bff94a06b38e0d3684be77b6a2272366"
         }
       ],
       "digestStatus": "verified",
@@ -1130,6 +1282,10 @@
         {
           "path": "organization.edn",
           "sha256": "297b8bfc22ccbf020f8e45ef65fe8047888a77a797614ac3ca123f25d26e6d13"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "e8dd1e94ba3de75568564831dd0a0aeecb9ec8ee2c56a68cd5041da84d7efe41"
         }
       ],
       "digestStatus": "verified",
@@ -1159,6 +1315,10 @@
         {
           "path": "organization.edn",
           "sha256": "515f4bda833dbb05dd55d3cca82047b042b28887bddcb1791c2b75f44f766f6d"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "27eebd4a71f07a4281f9bb1c6cc1765238ddef6ab1e682602321d36316cf0508"
         }
       ],
       "digestStatus": "verified",
@@ -1188,6 +1348,10 @@
         {
           "path": "organization.edn",
           "sha256": "0e5da09721d41eecb29d5e6e1b2055b575c2cae50beccfd4a345b2a0af06980c"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "1d01d93b11abf33489495090341f66a1bc09e9d0b6cf1babb38371f1ce0c9186"
         }
       ],
       "digestStatus": "verified",
@@ -1217,6 +1381,10 @@
         {
           "path": "organization.edn",
           "sha256": "e9b2675d0f0eb5660d804bfaace13e2bc004a911d0123584d4bd821864090100"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "fb0de1e6eaabc82185730ced42b58a0c4c0516503f1f3f4959a4a58e69d8a7e5"
         }
       ],
       "digestStatus": "verified",
@@ -1246,6 +1414,10 @@
         {
           "path": "organization.edn",
           "sha256": "e27e67da2f052bb6dfcf45ad8b6a43b7945c43b3081ec48e1d28c37f3a6448b6"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "787cc736df810b2f58417908d7fdbe3aca63a992d39cc3f8dee66ab47574b885"
         }
       ],
       "digestStatus": "verified",
@@ -1275,6 +1447,10 @@
         {
           "path": "organization.edn",
           "sha256": "83c9c711b15f37acc6ccacd6e2c44c826c07dffbd7d00c8e890ab08457a2544b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "3344af0e477f4f75dc5c11b563491c0e77ad143bac466707f1bc7871d37e2919"
         }
       ],
       "digestStatus": "verified",
@@ -1304,6 +1480,10 @@
         {
           "path": "organization.edn",
           "sha256": "d74ee63bfeaf47d480911de87729d06bc7c2a35f5d220baa5f8071833bb35ae9"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "bfc5a9881185d53c76b03367ff60cf950c126cb35b3213cb1b3e154a3f9e7c93"
         }
       ],
       "digestStatus": "verified",
@@ -1333,6 +1513,10 @@
         {
           "path": "organization.edn",
           "sha256": "d3b8052fbff4c6c3ab6f5f57e1a2bf46a167cc3dc64cb84883c7fa1a6f8ce4cd"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "cf38acd398badb685a3c535d94d76e62658bdfa5064c30e5253ace348aebe653"
         }
       ],
       "digestStatus": "verified",
@@ -1362,6 +1546,10 @@
         {
           "path": "organization.edn",
           "sha256": "1fdb227c134e3a732b0a50d2bc37341172bc50563fd8a1ea6f658c6e937adb08"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "b4ff522e8b84358335bb546d0e8965095937d96e7d00d2b706bcbc5ee738844e"
         }
       ],
       "digestStatus": "verified",
@@ -1391,6 +1579,10 @@
         {
           "path": "organization.edn",
           "sha256": "81f30e2d188fc3c102eeed861c8fefc82f3f45b6259522f6b86f796313f44a5b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6a9a151e96619587856182ce3342c604a5475890e9a19813ae0e7922fc8842c5"
         }
       ],
       "digestStatus": "verified",
@@ -1420,6 +1612,10 @@
         {
           "path": "organization.edn",
           "sha256": "c35a4951c4442647a1f92b337d57832833e30115139eb68ed9b22e54ca0a100d"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "9213b6dca1ae7c14d303d9d5704832b7851f558a056c4420591d591e5fcbd16b"
         }
       ],
       "digestStatus": "verified",
@@ -1449,6 +1645,10 @@
         {
           "path": "organization.edn",
           "sha256": "5e76b38cf568c4f5395bf311cc857fbc33b9edac08cdbb477b77f7c884158cb5"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "0a0da7c0e3ad6237b00e343ba6dc055ce1ebec64981d9d7091071cf8ae241f7a"
         }
       ],
       "digestStatus": "verified",
@@ -1478,6 +1678,10 @@
         {
           "path": "organization.edn",
           "sha256": "448baa9daf92a7baaa7fd1db3b8362be6e76528f417b59b2055f86d392be3b1b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "07338a7258fee2953014e2fe79e2549025d7e3a979ff77c3053335695a69e5f9"
         }
       ],
       "digestStatus": "verified",
@@ -1507,6 +1711,10 @@
         {
           "path": "organization.edn",
           "sha256": "940c68d670aeb095ad99bf06672dc1b6fcaf40ec6f59b52c3bed72816dd7fe97"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "911b600d4b45fa7593609eb3909306e9b245666cb945f2e62f0e65764df7099b"
         }
       ],
       "digestStatus": "verified",
@@ -1536,6 +1744,10 @@
         {
           "path": "organization.edn",
           "sha256": "af234afc9d04930cad747fce392943d124870e8c28fe6d30331c079b90198692"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "2a5b8591ee970d2f1c99dacb32c1e984432603032b29ffa6143e3080b58872ef"
         }
       ],
       "digestStatus": "verified",
@@ -1565,6 +1777,10 @@
         {
           "path": "organization.edn",
           "sha256": "5c51da1972a0dc9c099cc14eab36f35704e7762c7224825cacd06473b4429f72"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "aca9c5dfb1bb0291ba223e4523c7205cc04916be0d7f93c7cef97b7fb6e787ce"
         }
       ],
       "digestStatus": "verified",
@@ -1594,6 +1810,10 @@
         {
           "path": "organization.edn",
           "sha256": "d9285b2c83ef47e0db2f5054eb9e9cdc3b0fa2f3ad1ded94120c7bc2bb79ea05"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ff8cc1e00ac098c18bac5ae0011e34609e4ea2c4fb70f84170f091c48f805152"
         }
       ],
       "digestStatus": "verified",
@@ -1623,6 +1843,10 @@
         {
           "path": "organization.edn",
           "sha256": "227d3d8736d39f8aea0027ca6c994ec185e1b5631740bea8de7d20ec8c33f12c"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ed3fd161d5b0a5859595eb934e8f21d1f7ed95b26bb4251e552509c279b48e90"
         }
       ],
       "digestStatus": "verified",
@@ -1652,6 +1876,10 @@
         {
           "path": "organization.edn",
           "sha256": "6c8850fdc537300bfd9391a906c741861e194abdfbfa7581e5a23ad2fe260cff"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "84a41762ed1196526da5f9e46b5acbe9e08366f0a543528b4b5e716d347bcdca"
         }
       ],
       "digestStatus": "verified",
@@ -1681,6 +1909,10 @@
         {
           "path": "organization.edn",
           "sha256": "da055999f8d335bc58b20016e0df787fb358f81beac767ac334bdaf3f4109baf"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "dcce779406db72b524a593ad436d9525fa2645d9ce6bb6a2b79cd4b57b63bb95"
         }
       ],
       "digestStatus": "verified",
@@ -1710,6 +1942,10 @@
         {
           "path": "organization.edn",
           "sha256": "981857ef3f8b80a22aede1b4dbc811fcef8e49b781cfe2c7b8a61b5b00101cf3"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "945533f96c4154a20a4ab7f736a8796ff1f23cde88553f2073840c2802a07851"
         }
       ],
       "digestStatus": "verified",
@@ -1739,6 +1975,10 @@
         {
           "path": "organization.edn",
           "sha256": "a6dc3c9eb17fdb56480cc40616a95323a83d9c2da7a46e4f064baeda6976fe3a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ec5704c65dd1b0590ed1e634520cc036d5dfcd01e08dcaf15b008685c9ca7e8e"
         }
       ],
       "digestStatus": "verified",
@@ -1768,6 +2008,10 @@
         {
           "path": "organization.edn",
           "sha256": "1dc9e15436e527b7f12d8adb40751f8478006f2b06e1d8f1e7e1d233810534a4"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ec5704c65dd1b0590ed1e634520cc036d5dfcd01e08dcaf15b008685c9ca7e8e"
         }
       ],
       "digestStatus": "verified",
@@ -1797,6 +2041,10 @@
         {
           "path": "organization.edn",
           "sha256": "f6cfee8c0c9140e2f82f93a687daf006f89398d2465cea9fbd2f2a7a0c24f33b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ec5704c65dd1b0590ed1e634520cc036d5dfcd01e08dcaf15b008685c9ca7e8e"
         }
       ],
       "digestStatus": "verified",
@@ -1826,6 +2074,10 @@
         {
           "path": "organization.edn",
           "sha256": "5160dc43abe1348cfa53bc2469e065d125448b8b23dc677be908ca3b90574b7a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ec5704c65dd1b0590ed1e634520cc036d5dfcd01e08dcaf15b008685c9ca7e8e"
         }
       ],
       "digestStatus": "verified",
@@ -1855,6 +2107,10 @@
         {
           "path": "organization.edn",
           "sha256": "c0551a519263a8fde86fe456cd766cf971f50d84e5e3d5e1d3b0b552ea07809a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "031b8482a0ec82f9bf8a136e59fc2c8c9da4a7fcb506592dacd963d24cfdce48"
         }
       ],
       "digestStatus": "verified",
@@ -1884,6 +2140,10 @@
         {
           "path": "organization.edn",
           "sha256": "d0401962d4f8a446c64d6caaef65a35a2cfeb898a257b1bc6c6584119d6b9cd6"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "d4d21ab1696818a049fc31d9ca02ca28bb105a7be2718dd540f4ba9a2531c5f9"
         }
       ],
       "digestStatus": "verified",
@@ -1913,6 +2173,10 @@
         {
           "path": "organization.edn",
           "sha256": "95fed2b3118cf0835a18996f84cd6e52bf010d44f5b85991801af473cb7e4a27"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "b77f87bfb834bc5dd0d5f9591dfdad9eb3bcb329def5885fd31bd307b21f1a3b"
         }
       ],
       "digestStatus": "verified",
@@ -1942,6 +2206,10 @@
         {
           "path": "organization.edn",
           "sha256": "db16928e1eda91bbc7c440c1381fd79b4c24afac58af9166a574cbc8d1ec0c0d"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "ec5704c65dd1b0590ed1e634520cc036d5dfcd01e08dcaf15b008685c9ca7e8e"
         }
       ],
       "digestStatus": "verified",
@@ -1971,6 +2239,10 @@
         {
           "path": "organization.edn",
           "sha256": "81475d7b694be12595fb57e261c28a5bf79f2b33f0358614832908261b36ef57"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "1d2ec4e305dfb7c0662e346ea92edf73be4f89b2afe89b7473d768fb711ffa3a"
         }
       ],
       "digestStatus": "verified",
@@ -2000,6 +2272,10 @@
         {
           "path": "organization.edn",
           "sha256": "8c0b1e79a0e367f90833ff78ac28133f26cb7d088d2f0c78a63bbc8daef8db9a"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "bf25cdbb1da01ab6aa7e6fd868bee99efa54a5fc56578a7fd4489883288b78f0"
         }
       ],
       "digestStatus": "verified",
@@ -2029,6 +2305,10 @@
         {
           "path": "organization.edn",
           "sha256": "833890e41839a77d1d9b37ad3d42ef71b8ccb6ac3c57d248481b0a18b6d2c86e"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "9135485d92bceee1457b6a068b61fbcaa5dcc519045f2c8107fa3c52edba9dfb"
         }
       ],
       "digestStatus": "verified",
@@ -2058,6 +2338,10 @@
         {
           "path": "organization.edn",
           "sha256": "f6c4acc453f04f89002ac538fcf99760fd327174feca5520575a0aac4d36870f"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "7928b16c9a69aa0ebc23030c553a0c5d3435cd581aed27b4e0d35ad09c7c863b"
         }
       ],
       "digestStatus": "verified",
@@ -2087,6 +2371,10 @@
         {
           "path": "organization.edn",
           "sha256": "0166b1fe44749504299a07379b83ac100a65c8afdd628746af904e528a5971ef"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "d9475f083bcfa10816839122a27b3f32a36fc7d9b6120556aba82ad22c33dd0f"
         }
       ],
       "digestStatus": "verified",
@@ -2116,6 +2404,10 @@
         {
           "path": "organization.edn",
           "sha256": "26007bed52ca8ad7b2bc59f6b1d3bed91ea51a61d469c3a1ca389de914fd32ab"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "d5f421ae19bc49e9b2ab7e80c320c9d216e4568cf654d71677a457ccc123a8fc"
         }
       ],
       "digestStatus": "verified",
@@ -2145,6 +2437,10 @@
         {
           "path": "organization.edn",
           "sha256": "e49bcb93ddeeb82a7f15113f5f0c5882bb83ff9a2d73cec93df52be6591cc258"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "7ba38f3f88f4737c3a1eaf0c443e92de65cf4080a51e4f727b321be0d518cce0"
         }
       ],
       "digestStatus": "verified",
@@ -2174,6 +2470,10 @@
         {
           "path": "organization.edn",
           "sha256": "9c415af7f8391a41a22770f5d68c90cdfc3573892dd975ab41b67d42db580753"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "3d84854c8ec794ef215e3e3c232f7216375b9854e9419d9007970d9e3485f943"
         }
       ],
       "digestStatus": "verified",
@@ -2203,6 +2503,10 @@
         {
           "path": "organization.edn",
           "sha256": "f9bcc1a24464ee2132146490bc56e55256e3a01cc5dae51700dcf40ca0b56975"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "33059cdba4d7c9999a54efff8efea5df9c88411e4eb9914afafee22d619c524c"
         }
       ],
       "digestStatus": "verified",
@@ -2232,6 +2536,10 @@
         {
           "path": "organization.edn",
           "sha256": "949f0973728cc3895c604a095cd2df9e883b831b6358262626cbedf58605015b"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "509a49f6ada942b4f0711116ba4575fd678f7a073e1f33187444c57665ed4156"
         }
       ],
       "digestStatus": "verified",
@@ -2261,6 +2569,10 @@
         {
           "path": "organization.edn",
           "sha256": "505245e9cd7581b7882399cec5dc8de8e733d44613c8be071d422fbb93fe2331"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "99cd47a2e2f68ac41e014d4df17a0ccf51d2c87263cc2729cacd9c7bc98c194b"
         }
       ],
       "digestStatus": "verified",
@@ -2290,6 +2602,10 @@
         {
           "path": "organization.edn",
           "sha256": "e7477054658258aafb5235f1fd02835dabf28bd5bf72b6aa27e48277e98f5baf"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "5ef0a7513214049c0275c32df0582cf184db879f3e18a83c05826907e61d3c58"
         }
       ],
       "digestStatus": "verified",
@@ -2319,6 +2635,10 @@
         {
           "path": "organization.edn",
           "sha256": "eeb0de203ed861f78a3cd917c7ec093eae0bf5dec1fb7b645201816e12eefbc0"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "6d1d6f39aa4ec5ab80b53a1b5180e8fa5a1e4fd90922071c62f85e21961dc2ba"
         }
       ],
       "digestStatus": "verified",
@@ -2348,6 +2668,10 @@
         {
           "path": "organization.edn",
           "sha256": "d34c909837de4cbf1a93bcd00c3ac7e8f18e99b61768cabb65f2307563e1fce6"
+        },
+        {
+          "path": "schema/association-rule.edn",
+          "sha256": "44aaacf5e3bb6f9227226096abe8ff40db57c73631f0eca00c12eb2ed7238187"
         }
       ],
       "digestStatus": "verified",

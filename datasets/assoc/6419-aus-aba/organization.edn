@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Australian Banking Association"
+ :abbreviation "ABA"
+ :official-url "https://www.ausbanking.org.au/"
+ :wikidata "Q55604504"
+ :isic "6419"
+ :country "AUS"
+ :established-date "1985"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- ABA's own 'The ABA' history page traces origins to 'the late 1940s' (no exact year given by the org itself) but directly states the modern association was formed by a 1985 merger of three prior organisations, with a further mission-refocus in 1997"}

@@ -1,0 +1,157 @@
+;; data/datascript-tx.edn — DataScript tx-data for the COHEP source catalog
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; This file is the INPUT to tools/gen_kotoba.cljs, which emits
+;; src/association_facts.kotoba. src/association/facts.cljc holds the same
+;; catalog as a hand-authored literal, and the parity test compares the two.
+;;
+;; Every URL below was fetched and read on the :retrieved-at date. Nothing here
+;; is inferred from another entry: where COHEP's own pages disagree, BOTH pages
+;; are recorded rather than one of them silently chosen.
+
+[#:association-rule{:id "cohep.founding-1967"
+                    :title "COHEP describes itself as founded in 1967 (its own Acerca page)"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :governance-program
+                    :url "https://www.cohep.org/quienes-somos/acerca/"
+                    :url-provenance :official-cohep-org
+                    :established-date "1967"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.san-pedro-sula-office-2025-07-24"
+                    :title "COHEP opened a regional office in San Pedro Sula on 24 July 2025"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :governance-program
+                    :url "https://es.wikipedia.org/wiki/Consejo_Hondure%C3%B1o_de_la_Empresa_Privada"
+                    :url-provenance :wikipedia-corroborated
+                    :established-date "2025-07-24"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.codigo-etica-transparencia-integridad"
+                    :title "Codigo de Etica, Transparencia e Integridad — COHEP's anti-corruption good-practice framework for member organisations"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :code-of-ethics
+                    :url "https://www.cohep.org/codigo-etica/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "cohep.codigo-etica-pdf-es"
+                    :title "Codigo de Etica (Spanish), the instrument itself as published by COHEP — 20-page PDF"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :code-of-ethics
+                    :url "https://www.cohep.org/descargar/148/link-directo/11750/codigo-etica-esp-cohep.pdf"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics]}
+ #:association-rule{:id "cohep.codigo-etica-pdf-en"
+                    :title "Code of Ethics (English), COHEP's own translation of the same instrument — 20-page PDF"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :code-of-ethics
+                    :url "https://www.cohep.org/descargar/148/link-directo/11752/codigo-etica-eng-cohep.pdf"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics]}
+ #:association-rule{:id "cohep.estatutos-art-1-resolution-99"
+                    :title "Statutes art. 1: COHEP recognised as a legal person by Executive Resolution 99, dated 5 May 1967 on the statutes page"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :established-date "1967-05-05"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.afiliacion-resolution-99-conflicting-date"
+                    :title "The membership page dates the same Executive Resolution 99 to 8 May 1967 — COHEP's own site gives two days for one resolution"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/nuestros-miembros/como-afiliarse/"
+                    :url-provenance :official-cohep-org-conflicting
+                    :established-date "1967-05-08"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.estatutos-art-1-ilo-convention-87"
+                    :title "Statutes art. 1: COHEP is constituted under ILO Convention 87 and is independent of government, workers' organisations and political parties"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cohep.estatutos-reforma-2017"
+                    :title "Statutes in force are the reform issued at Tegucigalpa on 19 October 2017 (file PJ-13092017-600), abrogating the statutes approved by Resolution 80-2013"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :established-date "1967-05-05"
+                    :last-revised-date "2017-10-19"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.estatutos-art-12-member-obligations"
+                    :title "Statutes art. 12: members must comply with the Statutes, the Code of Ethics, the regulations and the resolutions of the Assembly and the Board, and pay their dues"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :membership-rule
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership :ethics]}
+ #:association-rule{:id "cohep.estatutos-art-49-regimen-sancionador"
+                    :title "Statutes art. 49: the Board may sanction members and officers for breaches of the Statutes, Code of Ethics and regulations — written reprimand, temporary suspension, definitive suspension"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :sanctions-regime
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:enforcement :ethics]}
+ #:association-rule{:id "cohep.estatutos-art-51-board-issued-instruments"
+                    :title "Statutes art. 51: the Board issues six instruments, among them the Code of Ethics and the regulation on admission, re-admission, suspension and withdrawal of members"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :ethics]}
+ #:association-rule{:id "cohep.estatutos-art-26-27-junta-directiva"
+                    :title "Statutes arts. 26-27: an eighteen-seat Board, two-year terms renewable once, half the seats renewed each year, and no more than one representative of any single member"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :statute
+                    :url "https://www.cohep.org/quienes-somos/estatutos/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cohep.afiliacion-requisitos"
+                    :title "Seven documents are required to apply for COHEP membership, including proof of registration with the civil-association registry URSAC"
+                    :association "cohep"
+                    :isic "9411"
+                    :country "HND"
+                    :kind :membership-rule
+                    :url "https://www.cohep.org/nuestros-miembros/como-afiliarse/"
+                    :url-provenance :official-cohep-org
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}]

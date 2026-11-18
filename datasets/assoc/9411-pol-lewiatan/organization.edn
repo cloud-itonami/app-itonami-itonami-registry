@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Konfederacja Lewiatan (Polish Confederation Lewiatan)"
+ :abbreviation "Lewiatan"
+ :official-url "https://lewiatan.org/"
+ :isic "9411"
+ :country "POL"
+ :established-date "1919-12-15"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- lewiatan.org's own official '100 lat Lewiatana' (100 years of Lewiatan) history page states verbatim: '15 grudnia 1919 roku został powołany do życia Centralny Związek Polskiego Przemysłu, Górnictwa, Handlu i Finansów' (the pre-war predecessor). The same page states the modern Polish Confederation of Private Employers took over this tradition and added the 'Lewiatan' name on 28 October 2004 ('28 października 2004 r. Polska Konfederacja Pracodawców Prywatnych przejęła tradycję przedwojennego Centralnego Związku...i dołączyła do swojej nazwy słowo Lewiatan'), and was shortened to today's 'Konfederacja Lewiatan' in 2015. The modern organization (Polska Konfederacja Pracodawców Prywatnych, pre-Lewiatan-name) was itself established in January 1999 per pl.wikipedia.org ('utworzona w stycznia 1999'), independent of lewiatan.org's own page which does not restate this specific date."}

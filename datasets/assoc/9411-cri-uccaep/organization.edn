@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "UCCAEP (Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado)"
+ :abbreviation "UCCAEP"
+ :official-url "https://www.uccaep.org/"
+ :isic "9411"
+ :country "CRI"
+ :established-date "1973"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "uccaep.org (and uccaep.or.cr, which serves the same site) serves statutes, the public-utility decree 35658-J as printed in La Gaceta, code of practice, annual reports 2003-2021, mission/principles/objectives, BIAC/OIE affiliation and the 2024-2026 board page -- measured 2026-09-11 and cited entry by entry in data/datascript-tx.edn. None of those pages states a founding date. '1973' is reached only by arithmetic from vLex's Costa Rican legal database (independent of UCCAEP), which quotes Executive Decree 27442-C of 12 November 1998 as commemorating UCCAEP's creation 'la cual en el año 1998 celebró su 25° aniversario' (1998 - 25 = 1973); that same decree declared 23 February the Día Nacional de la Empresa Privada, a commemorative date not confirmed as the founding day. Hence only '1973' here. The decree's recitals also give the registry inscription (14 April 2004, tomo 1, asiento 44) and the cédula de persona jurídica 3-002-056381; those are recorded as registry facts, not as the founding."}

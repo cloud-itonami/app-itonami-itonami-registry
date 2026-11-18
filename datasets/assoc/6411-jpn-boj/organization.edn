@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Bank of Japan"
+ :name-local "日本銀行"
+ :abbreviation "BOJ"
+ :legal-form "認可法人 (juridical person established under the Bank of Japan Act)"
+ :official-url "https://www.boj.or.jp/"
+ :wikidata "Q333101"
+ :isic "6411"
+ :country "JPN"
+ :established-date "1882-06-27"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15"}

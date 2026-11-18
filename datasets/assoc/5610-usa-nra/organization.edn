@@ -1,0 +1,16 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+;; NOTE: "NRA" here is the National Restaurant Association (ISIC 5610,
+;; restaurants), NOT the National Rifle Association -- disambiguated
+;; explicitly here to avoid confusion given the shared initialism.
+{:name-en "National Restaurant Association"
+ :name-local "National Restaurant Association"
+ :abbreviation "NRA"
+ :legal-form "national trade association"
+ :official-url "https://restaurant.org/"
+ :wikidata "Q6978094"
+ :isic "5610"
+ :country "USA"
+ :established-date "1919-03-13"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- founding directly confirmed on NRA's own 'Who We Are / Our History' page ('Kansas City restaurateurs launch a national organization, holding the first meeting of what is today's National Restaurant Association on March 13 in Kansas City')"}

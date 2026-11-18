@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "MEDEF (Mouvement des entreprises de France)"
+ :abbreviation "MEDEF"
+ :official-url "https://www.medef.com/"
+ :isic "9411"
+ :country "FRA"
+ :established-date "1945-12-21"
+ :head-role-note "institutional office title only (President); a personal name (of the individual who inaugurated MEDEF in 1998) appeared in the directly-read source text but is deliberately NOT persisted here, per standing policy against storing personal names of office-holders"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- fr.wikipedia.org's own article on the CNPF (Conseil National du Patronat Français, MEDEF's direct predecessor) states verbatim 'Son assemblée constitutive se tient le 21 décembre 1945' (its constituent assembly took place on 21 December 1945). Note: en.wikipedia.org's own infobox and article text DISAGREE with each other on this date (infobox: 1945; article body: 'founded in 1946') -- fr.wikipedia.org's precise, directly-read day-level date (21 December 1945) matches en.wikipedia.org's infobox and is used here as the more specific and internally-corroborated figure. fr.wikipedia.org's separate MEDEF article confirms the 27 October 1998 renaming/relaunch in Strasbourg, succeeding CNPF."}

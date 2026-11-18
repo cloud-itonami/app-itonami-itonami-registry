@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "VNO-NCW (Confederation of Netherlands Industry and Employers)"
+ :abbreviation "VNO-NCW"
+ :official-url "https://www.vno-ncw.nl/"
+ :wikidata "Q2054190"
+ :isic "9411"
+ :country "NLD"
+ :established-date "1997"
+ :head-role-note "institutional office title only (Chairman); founders' names (e.g. Derk Willem Stork, Jacques van der Marken), incidentally encountered on vno-ncw.nl's own Historie page, are never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- vno-ncw.nl's own 'Historie' page (https://www.vno-ncw.nl/historie), directly read, states verbatim: 'Wat nu VNO-NCW is, begon in 1899 met de oprichting van de Vereeniging van Nederlandse Werkgevers (VNW)' and 'In 1997 besloten VNO en NCW om te fuseren tot wat nu VNO-NCW is'. NOTE: en.wikipedia.org and Wikidata (Q2054190) both state VNO-NCW was 'founded in 1996', conflicting with the official page's 1997 merger date -- the official primary source's own date is used here per this session's established source-conflict discipline (prefer directly-read primary over WebSearch/secondary synthesis), and this discrepancy is documented transparently."}

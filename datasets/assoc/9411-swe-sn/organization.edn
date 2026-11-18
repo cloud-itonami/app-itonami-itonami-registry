@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Svenskt Näringsliv (Confederation of Swedish Enterprise)"
+ :abbreviation "SN"
+ :official-url "https://www.svensktnaringsliv.se/"
+ :wikidata "Q1474680"
+ :isic "9411"
+ :country "SWE"
+ :established-date "2001-03"
+ :head-role-note "institutional office title only (CEO/Chairman); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "svensktnaringsliv.se's own domain did not surface founding-history detail on the pages checked this tick. Verified instead directly (WebFetch) against sv.wikipedia.org's own article, which states verbatim: 'Organisationen bildades i mars 2001 genom en sammanslagning av Sveriges Industriförbund och Svenska Arbetsgivareföreningen, i sin tur bildade 1910 respektive 1902'. The 2001 date is independently corroborated by en.wikipedia.org's own article and Wikidata Q1474680's own inception statement."}

@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — provider artifact derived from
+;; src/association_facts.kotoba
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "api.about-api"
+                     :title "About API"
+                     :association "api"
+                     :isic "0610"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.api.org/about"
+                     :url-provenance :official-association-site
+                     :established-date "1919-03-20"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "api.first-standard-oil-country-tubular-goods"
+                     :title "Specifications for Steel and Iron Pipe for Oil Country Tubular Goods (API's first standard)"
+                     :association "api"
+                     :isic "0610"
+                     :country "USA"
+                     :kind :technical-standard
+                     :url "https://100yearsofstandards.api.org/"
+                     :url-provenance :official-association-site
+                     :established-date "1924-10-20"
+                     :retrieved-at "2026-07-16"
+                     :topic [:technical-standard :safety]}]

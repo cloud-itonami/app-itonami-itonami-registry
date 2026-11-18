@@ -1,0 +1,209 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "di.predecessor-1885-copenhagen-iron-industry"
+                    :title "The first employer association in Denmark was established in 1885 by companies within the iron industry in Copenhagen (Wikipedia) -- DI's earliest predecessor lineage"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Confederation_of_Danish_Industry"
+                    :url-provenance :wikipedia-corroborated
+                    :established-date "1885"
+                    :retrieved-at "2026-07-17"
+                    :topic [:governance]}
+ #:association-rule{:id "di.founding-1992-merger"
+                    :title "Dansk Industri (DI) formed in 1992 via merger of Industriens Arbejdsgivere and Industrirådet (Wikipedia, corroborated by Wikidata Q3374832 inception statement)"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Confederation_of_Danish_Industry"
+                    :url-provenance :wikipedia-corroborated
+                    :established-date "1992"
+                    :retrieved-at "2026-07-17"
+                    :topic [:governance]}
+ #:association-rule{:id "di.statutes-in-force-2025-09-30"
+                    :title "DI's articles of association in force are Vedtægter for DI pr. 30. september 2025; their own § 32 reads 'Disse vedtægter træder i kraft ved vedtagelsen den 30. september 2025'"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.name-and-domicile-statute-1"
+                    :title "§ 1 stk. 1-2: the organisation's name is 'DI', with 'Dansk Industri' and 'Danske Industrier' also usable; its domicile is Københavns Kommune; it is a sammenslutning (association) of enterprises in Denmark"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.purpose-statute-2"
+                    :title "§ 2 stk. 1 states five statutory objects: to act for Danish business interests; to strengthen its competitiveness and reputation; to secure the freest possible conditions for management, production and sales; to work for good relations between company managements and employees; and to give DIO members financial support during industrial disputes"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.da-obligations-statute-2-4"
+                    :title "§ 2 stk. 4: by agreement with the DIOs, DI performs the tasks and assumes the obligations that follow from the DIOs' membership of DA (Dansk Arbejdsgiverforening) -- DI's own statutes place it beneath the DA layer for those duties"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.conflict-support-statute-7"
+                    :title "§ 7: DI pays konfliktunderstøttelse to DIO members under a regulativ approved by the forretningsudvalg, for lawfully notified conflicts and for conflicts in breach of collective agreement alike; it is measured against the company's subscription-liable payroll and may not exceed the loss actually suffered"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution :labor]}
+ #:association-rule{:id "di.general-assembly-statute-18"
+                    :title "§ 18: the generalforsamling holds the highest authority in all DI matters and its lawful decisions bind every member; member companies appoint 300 delegates, apportioned by the proportionate weight of their subscription to DI in the calendar year before the ordinary annual general assembly"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.main-board-statute-19"
+                    :title "§ 19: the hovedbestyrelse sets the political guidelines for DI's work and, for DIO members, holds the competence to decide on lockout and other collective industrial action; it adopts DI's budget and must have the audited annual report before it by the end of April"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution :labor]}
+ #:association-rule{:id "di.regional-associations-statute-12"
+                    :title "§ 12: the forretningsudvalg may establish regionalforeninger to gather member companies within regional areas; they run on standard statutes it has approved, must state that they respect political guidelines set by DI's governing bodies, and levy no separate subscription"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.sector-communities-statute-13"
+                    :title "§ 13: the hovedbestyrelse, on the forretningsudvalg's recommendation, may establish tværgående branchefællesskaber for member companies with shared interests, likewise on approved standard statutes that bind them to DI's political guidelines"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :constitutive-instrument
+                    :url "https://www.danskindustri.dk/vi-radgiver-dig/di-dokumenter-for-virksomhed/publikationer/dis-vedtagter/"
+                    :url-provenance :official-danskindustri-dk
+                    :established-date "2025-09-30"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "di.membership-scale-2026"
+                    :title "DI's own English profile: more than 20,000 member companies employing approximately 650,000 people, with around 1,200 DI staff, most in Copenhagen and the rest in offices in Brussels, Mumbai, Chennai, New York, Shanghai, Berlin, Nairobi, Seoul and Ho Chi Minh, plus partner offices in Australia, Brazil and Mexico"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://www.danskindustri.dk/english/about-di/who-are-we/"
+                    :url-provenance :official-danskindustri-dk
+                    :retrieved-at "2026-09-10"
+                    :topic [:membership]}
+ #:association-rule{:id "di.sector-federations-twelve"
+                    :title "DI's own English organization page lists twelve sector federations a member may join -- DI Danish Commerce, DI Danish Service Industries, Danish Food and Drink Federation, DI Digital, DI Danish Energy Industries, DI Danish Transport Federation, DI Danish Professional Service Firms, DI Danish Construction, DI Danish Manufacturers, DI Life Science, DI Tourism Culture & Experiences and DI Biosolutions -- alongside 100 employers' associations linked to DI"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://www.danskindustri.dk/english/about-di/organization/"
+                    :url-provenance :official-danskindustri-dk
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "di.self-published-identifiers"
+                    :title "DI publishes its own registry identifiers in the site footer: CVR-nr. 16077593 and Transparency-nr. 5749958415-41, at H. C. Andersens Boulevard 18, 1553 København V -- the two numbers that make the entries below checkable against registers DI does not control"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://www.danskindustri.dk/om-di/hvad-er-di/"
+                    :url-provenance :official-danskindustri-dk
+                    :retrieved-at "2026-09-10"
+                    :topic [:identifier]}
+ #:association-rule{:id "di.eu-transparency-register-2008"
+                    :title "The EU Transparency Register's own record for 'Confederation of Danish Industry', REG number 5749958415-41: registered 23/09/2008, status Activated, category 'Trade and business associations', last registrant update 24/08/2026 with the next annual update due 20/02/2027"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://ec.europa.eu/transparencyregister/public/PUBLIC/ORGANISATION/5749958415-41"
+                    :url-provenance :official-eu-transparency-register
+                    :established-date "2008-09-23"
+                    :last-revised-date "2026-08-24"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :identifier]}
+ #:association-rule{:id "di.eu-relations-office-brussels"
+                    :title "In its Transparency Register declaration DI gives its head office as H.C. Andersen Boulevard 18, 1553 Copenhagen V and a separate office in charge of EU relations at Avenue de Cortenbergh 168, 1000 Brussels, declaring representation at European, global, national and regional/local level"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://ec.europa.eu/transparencyregister/public/PUBLIC/ORGANISATION/5749958415-41"
+                    :url-provenance :official-eu-transparency-register
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance]}
+ #:association-rule{:id "di.eu-declared-affiliations"
+                    :title "DI's Transparency Register declaration lists its own memberships of other bodies, among them BUSINESSEUROPE, The Confederation of Danish Employers (DA), CEEMET, ICC, BIAC (Business at OECD), DIGITALEUROPE, CEFIC, CECIMO and FoodDrinkEurope -- DI's federation upward, in DI's own words"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://ec.europa.eu/transparencyregister/public/PUBLIC/ORGANISATION/5749958415-41"
+                    :url-provenance :official-eu-transparency-register
+                    :retrieved-at "2026-09-10"
+                    :topic [:membership]}
+ #:association-rule{:id "di.eu-declared-annual-cost-2025"
+                    :title "For the closed financial year 01/2025-12/2025 DI declares annual costs of EUR 2,250,000-2,499,999 for activities covered by the Transparency Register, no EU grants and no intermediaries, with 10.9 full-time equivalents engaged"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://ec.europa.eu/transparencyregister/public/PUBLIC/ORGANISATION/5749958415-41"
+                    :url-provenance :official-eu-transparency-register
+                    :established-date "2025-12-31"
+                    :retrieved-at "2026-09-10"
+                    :topic [:finance]}
+ #:association-rule{:id "di.lei-registration-lapsed"
+                    :title "GLEIF holds LEI 5493005AKRE38Z596314 for 'DI' in DK, FULLY_CORROBORATED and validated as 16077593 at RA000170 (the Danish CVR) -- the entity is ACTIVE but the LEI registration status is LAPSED, initially registered 2021-03-11, next renewal due 2022-01-25 and last updated 2023-10-19"
+                    :association "di"
+                    :isic "9411"
+                    :country "DNK"
+                    :kind :governance-program
+                    :url "https://api.gleif.org/api/v1/lei-records/5493005AKRE38Z596314"
+                    :url-provenance :official-gleif
+                    :established-date "2021-03-11"
+                    :last-revised-date "2023-10-19"
+                    :retrieved-at "2026-09-10"
+                    :topic [:identifier]}]

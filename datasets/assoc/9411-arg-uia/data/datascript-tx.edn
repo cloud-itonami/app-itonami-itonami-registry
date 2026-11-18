@@ -1,0 +1,317 @@
+;; data/datascript-tx.edn -- the UIA catalog. The facts are authored HERE and
+;; nowhere else: scripts/gen-kotoba-port.cljk writes src/association/facts.kotoba
+;; and src/association_facts.kotoba from this file, and
+;; scripts/verify-catalog.cljk --live fetches every :url and requires every
+;; :source-quote to be in it (ADR-2607141700 Wave 0).
+
+[
+#:association-rule{:id "uia.founding-1887-02-07"
+                    :title "Unión Industrial Argentina (UIA) founded 7 February 1887 at an assembly of 900 people (Argentine government founding-day note; the July uia.org.ar '130 años' citation now answers 404)"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://www.argentina.gob.ar/noticias/7-de-febrero-fundacion-de-la-union-industrial-argentina"
+                    :url-provenance :government-argentina-gob-ar
+                    :source-article "argentina.gob.ar Noticias, '7 de Febrero - Fundación de la Unión Industrial Argentina', first sentence"
+                    :source-quote "Un 7 de febrero de 1887, con la celebración de una asamblea que convocó a 900 personas, se dio origen a la Unión Industrial Argentina"
+                    :established-date "1887-02-07"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:history :governance]}
+ #:association-rule{:id "uia.first-own-headquarters-1913"
+                    :title "UIA inaugurated its first own headquarters, at Cangallo 2461 (today Presidente Perón), Buenos Aires, on 27 September 1913 (es.wikipedia.org -- a secondary source)"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://es.wikipedia.org/wiki/Uni%C3%B3n_Industrial_Argentina"
+                    :url-provenance :wikipedia-es
+                    :source-article "es.wikipedia.org 'Unión Industrial Argentina', Historia section"
+                    :source-quote "El 27 de setiembre de 1913, la UIA inaugura su primera sede propia, que estaba ubicada en la calle Cangallo 2461, hoy Presidente Perón"
+                    :established-date "1913-09-27"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:history :governance]}
+ #:association-rule{:id "uia.industrial-policy-since-1887"
+                    :title "UIA states it has promoted policies for a strong, federal and competitive industrial model since 1887"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/uia/que-es-la-uia/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "¿Qué es la UIA? page, opening statement"
+                    :source-quote "Desde 1887, promovemos políticas para alcanzar un modelo industrial fuerte, federal y competitivo"
+                    :established-date "1887"
+                    :date-precision :year
+                    :retrieved-at "2026-09-25"
+                    :topic [:history :policy]}
+ #:association-rule{:id "uia.member-network"
+                    :title "UIA groups and represents the industrial sector through a network of more than 1100 companies, sectoral and regional chambers, and industrial associations"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :membership-program
+                    :url "https://uia.org.ar/uia/que-es-la-uia/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "¿Qué es la UIA? page, Presentación"
+                    :source-quote "Nucleamos y representamos a todos los actores del entramado productivo a través de una red conformada por más de 1100 empresas, cámaras sectoriales y regionales, y asociaciones industriales"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "uia.technical-departments"
+                    :title "UIA organises the follow-up of its technical agenda into departments and working commissions staffed by professionals and representatives of member chambers and companies"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/departamentos/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Departamentos page, '¿Qué son los departamentos técnicos?'"
+                    :source-quote "Integramos equipos de profesionales y representantes de nuestras cámaras y empresas socias, a través de los que organizamos en departamentos y comisiones de trabajo el seguimiento de la agenda técnica"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "uia.technical-representation"
+                    :title "UIA represents industry technically in bodies convened by the national Executive and Congress"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/departamentos/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Departamentos page, '¿Qué son los departamentos técnicos?'"
+                    :source-quote "También representamos técnicamente a la industria en espacios de representación convocados por el Poder Ejecutivo y el Congreso Nacional"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "uia.ceu-research-centre"
+                    :title "The Centro de Estudios UIA (CEU) is UIA's analysis, research and knowledge-generation unit"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :research-program
+                    :url "https://uia.org.ar/centro-de-estudios/que-es-el-ceu/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "¿Qué es el CEU? page, Presentación"
+                    :source-quote "El Centro de Estudios de la Unión Industrial Argentina (CEU) es el espacio de análisis, investigación y generación de conocimiento de la UIA"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:research]}
+ #:association-rule{:id "uia.environment-department"
+                    :title "UIA: Its Environment and Sustainable Development department analyses environmental legislation in force and bills from the Executive and Legislature"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/ambiente-y-desarrollo-sustentable/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'ambiente-y-desarrollo-sustentable', Presentación"
+                    :source-quote "Analizamos el alcance de la legislación ambiental vigente y de los proyectos propuestos por los Poderes Ejecutivo y Legislativo teniendo en cuenta la aplicabilidad y el costo-beneficio"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:environment :policy]}
+ #:association-rule{:id "uia.trade-department"
+                    :title "UIA: Its Trade and International Negotiations department monitors trade negotiations and analyses their impact on industry"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/comercio-y-negociaciones-internacionales/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'comercio-y-negociaciones-internacionales', Presentación"
+                    :source-quote "Monitoreamos el avance de negociaciones comerciales y analizamos su impacto, desafíos y oportunidades para el sector industrial y nuestras cadenas de valor"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:trade]}
+ #:association-rule{:id "uia.tax-department"
+                    :title "UIA: Its Tax Policy department promotes tax simplification with incentives for compliance and fair competition"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/poltica-tributaria/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'poltica-tributaria', Presentación"
+                    :source-quote "Promovemos la simplificación y agilidad tributaria, con incentivos al cumplimiento y la competencia leal"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:tax :compliance]}
+ #:association-rule{:id "uia.social-policy-department"
+                    :title "UIA: Its Social Policy department promotes the productivity agenda within tripartite social dialogue"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/poltica-social/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'poltica-social', Presentación"
+                    :source-quote "Promovemos la agenda de productividad en el marco del diálogo social tripartito"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:labor]}
+ #:association-rule{:id "uia.parliamentary-department"
+                    :title "UIA: Its Parliamentary Relations department monitors and analyses draft bills of interest to the productive sector"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/relaciones-parlamentarias/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'relaciones-parlamentarias', Presentación"
+                    :source-quote "Monitoreamos y analizamos en forma temprana los anteproyectos y proyectos de ley de interés para contribuir al diseño de la legislación vinculada al sector productivo"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:policy]}
+ #:association-rule{:id "uia.energy-department"
+                    :title "UIA: Its Energy department monitors regulatory change and energy-infrastructure investment and its impact on industrial users"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/energa/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'energa', Presentación"
+                    :source-quote "Monitoreamos los cambios normativos y los procesos de inversión y desarrollo de infraestructura del sector energético"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:energy :policy]}
+ #:association-rule{:id "uia.sme-department"
+                    :title "UIA: Its Pymi and Regional Development department promotes a simplified regulatory framework for SMEs"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/pymi-y-desarrollo-regional/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'pymi-y-desarrollo-regional', Presentación"
+                    :source-quote "Promovemos la generación de un marco normativo simplificado para las pymes, incentivos para las inversiones y mayores instrumentos de financiamiento volcados a este segmento"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:sme :policy]}
+ #:association-rule{:id "uia.education-department"
+                    :title "UIA: Its Education, Technology and Productive Innovation department promotes links between education and business, centred on vocational training"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :department
+                    :url "https://uia.org.ar/departamentos/educacin-tecnologa-e-innovacin-productiva/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Department page 'educacin-tecnologa-e-innovacin-productiva', Presentación"
+                    :source-quote "Generamos iniciativas y propuestas para promover el vínculo entre el ámbito educativo y empresarial, con eje en la formación profesional"
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-25"
+                    :topic [:education]}
+ #:association-rule{:id "uia.dia-de-la-industria-since-1941"
+                    :title "Argentina's Día de la Industria, which UIA celebrates yearly, commemorates the first export from the port of Buenos Aires in 1587 and since 1941 honours those in the productive sector"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :observance
+                    :url "https://uia.org.ar/uia/agenda/dia-de-la-industria/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Agenda page 'Día de la Industria'"
+                    :source-quote "una fecha que conmemora la primera exportación realizada desde el puerto de Buenos Aires en 1587 y que desde 1941, rinde homenaje al trabajo de quienes forman parte del entramado productivo argentino"
+                    :established-date "1941"
+                    :date-precision :year
+                    :retrieved-at "2026-09-25"
+                    :topic [:history]}
+ #:association-rule{:id "uia.junta-directiva-2026-08-25"
+                    :title "UIA's Junta Directiva met on 25 August 2026 to address the industrial agenda and the economic situation"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/uia/novedades/se-reunio-la-junta-directiva-de-la-uia/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'se-reunio-la-junta-directiva-de-la-uia', dateline"
+                    :source-quote "Buenos Aires, 25 de agosto de 2026. La Junta Directiva de la Unión Industrial Argentina (UIA) se reunió este martes para abordar la agenda industrial y analizar la coyuntura económica"
+                    :established-date "2026-08-25"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:governance]}
+ #:association-rule{:id "uia.packaging-law-commitment-2026-05-20"
+                    :title "On 20 May 2026 UIA led 13 business chambers in signing a sectoral commitment to promote a national packaging-management law"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :policy-position
+                    :url "https://uia.org.ar/uia/novedades/la-uia-y-13-camaras-sectoriales-firmaron-un-compro/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'la-uia-y-13-camaras-sectoriales-firmaron-un-compro', dateline"
+                    :source-quote "20 de mayo de 2026. La Unión Industrial Argentina (UIA) encabezó hoy la firma de un compromiso sectorial sin precedentes junto a 13 cámaras empresarias representativas de toda la cadena de valor de los envases, con el objetivo de promover la sanción de una Ley Nacional de Gestión Integral de Envases"
+                    :established-date "2026-05-20"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:environment :policy]}
+ #:association-rule{:id "uia.labor-modernization-law-2026-03-31"
+                    :title "On 31 March 2026 UIA expressed concern at the precautionary suspension of 82 articles of Labour Modernization Law 27.802"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :policy-position
+                    :url "https://uia.org.ar/uia/novedades/la-uia-llama-a-preservar-la-vigencia-de-la-ley-de/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'la-uia-llama-a-preservar-la-vigencia-de-la-ley-de', dateline"
+                    :source-quote "31 de marzo de 2026. La Unión Industrial Argentina (UIA) expresa su preocupación ante la suspensión cautelar de 82 artículos de la Ley N.º 27.802 de Modernización Laboral"
+                    :established-date "2026-03-31"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:labor :policy]}
+ #:association-rule{:id "uia.ilo-conference-2026-06-05"
+                    :title "UIA took part in the 114th International Labour Conference of the ILO in Geneva (dateline 5 June 2026)"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/uia/novedades/la-uia-destaco-en-ginebra-la-importancia-de-la-mod/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'la-uia-destaco-en-ginebra-la-importancia-de-la-mod', dateline"
+                    :source-quote "Ginebra, 5 de junio de 2026. La Unión Industrial Argentina (UIA) participó de la 114ª Conferencia Internacional del Trabajo de la OIT"
+                    :established-date "2026-06-05"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:labor :trade]}
+ #:association-rule{:id "uia.industria-inspira-2026-05-14"
+                    :title "UIA's youth department launched the 2026 edition of Industria Inspira, an initiative created in 2021 linking industry with technical schools"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :education-program
+                    :url "https://uia.org.ar/uia/novedades/con-un-nuevo-esquema-federal-uia-joven-lanzo-la-ed/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'con-un-nuevo-esquema-federal-uia-joven-lanzo-la-ed', dateline"
+                    :source-quote "14 de mayo de 2026. El Departamento Joven de la Unión Industrial Argentina (UIA) lanzó la edición 2026 de Industria Inspira, la iniciativa creada en 2021 que busca vincular el mundo industrial con las escuelas técnicas de todo el país"
+                    :established-date "2026-05-14"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:education]}
+ #:association-rule{:id "uia.fortalecimiento-course-2026-04-28"
+                    :title "On 28 April 2026 UIA presented the first edition of its free virtual 'Curso de Fortalecimiento Industrial'"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :education-program
+                    :url "https://uia.org.ar/uia/novedades/la-uia-lanza-la-primera-edicion-del-curso-de-forta/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'la-uia-lanza-la-primera-edicion-del-curso-de-forta', dateline"
+                    :source-quote "28 de abril de 2026. La Unión Industrial Argentina (UIA) presenta el \"Curso de Fortalecimiento Industrial\""
+                    :established-date "2026-04-28"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:education]}
+ #:association-rule{:id "uia.summit-sustainable-2026-04-14"
+                    :title "On 14 April 2026 UIA held its 3rd Summit Industria Inteligente y Sustentable"
+                    :association "uia"
+                    :isic "9411"
+                    :country "ARG"
+                    :kind :governance-program
+                    :url "https://uia.org.ar/uia/novedades/la-uia-presento-herramientas-para-le-medicion-de-l/"
+                    :url-provenance :official-uia-org-ar
+                    :source-article "Novedades post 'la-uia-presento-herramientas-para-le-medicion-de-l', dateline"
+                    :source-quote "14 de abril de 2026. La UIA llevó a cabo el 3.er Summit Industria Inteligente y Sustentable"
+                    :established-date "2026-04-14"
+                    :date-precision :day
+                    :retrieved-at "2026-09-25"
+                    :topic [:environment :education]}]

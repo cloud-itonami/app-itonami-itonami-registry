@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Trucking Associations"
+ :name-local "American Trucking Associations"
+ :abbreviation "ATA"
+ :legal-form "national trade association (self-described); federation with state trucking association affiliates in all 50 states"
+ :official-url "https://www.trucking.org/"
+ :wikidata "Q4745283"
+ :isic "4923"
+ :country "USA"
+ :established-date "1933-09-23"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- founding directly confirmed on ATA's own 'ATA: 90 Years and Rolling' article ('The ATA was incorporated on September 23, 1933 in Washington, D.C.')"}

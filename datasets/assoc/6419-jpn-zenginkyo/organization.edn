@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Japanese Bankers Association"
+ :name-local "一般社団法人 全国銀行協会"
+ :legal-form "一般社団法人 (general incorporated association)"
+ :official-url "https://www.zenginkyo.or.jp/"
+ :official-url-en "https://www.zenginkyo.or.jp/en/"
+ :wikidata "Q11389610"
+ :isic "6419"
+ :country "JPN"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-14"}

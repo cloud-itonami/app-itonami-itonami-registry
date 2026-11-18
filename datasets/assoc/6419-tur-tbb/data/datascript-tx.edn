@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "tbb.founding-1958-10-08"
+                     :title "TBB founding (Milestones / Kilometre Taşları)"
+                     :association "tbb"
+                     :isic "6419"
+                     :country "TUR"
+                     :kind :governance-program
+                     :url "https://www.tbb.org.tr/tbb-hakkinda/kilometre-taslari"
+                     :url-provenance :official-tbb-org-tr
+                     :established-date "1958-10-08"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "tbb.individual-customer-arbitration-board-2007"
+                     :title "Individual Customer Arbitration Board implementation (Milestones / Kilometre Taşları)"
+                     :association "tbb"
+                     :isic "6419"
+                     :country "TUR"
+                     :kind :governance-program
+                     :url "https://www.tbb.org.tr/tbb-hakkinda/kilometre-taslari"
+                     :url-provenance :official-tbb-org-tr
+                     :established-date "2007"
+                     :retrieved-at "2026-07-17"
+                     :topic [:consumer-protection]}]

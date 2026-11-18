@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "boj.gyomu-hoho-sho"
+                     :title "日本銀行業務方法書 (Bank of Japan Business Operations Manual)"
+                     :association "boj"
+                     :isic "6411"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.boj.or.jp/about/boj_law/ghousyo.htm"
+                     :url-provenance :official-association-site
+                     :established-date "1998-04-01"
+                     :last-revised-date "2026-04-01"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance :operations]}
+ #:association-rule{:id "boj.independence-transparency-overview"
+                     :title "日本銀行の「独立性」と「透明性」――新日本銀行法の概要 (Independence and Transparency -- Overview of the New Bank of Japan Law)"
+                     :association "boj"
+                     :isic "6411"
+                     :country "JPN"
+                     :kind :governance-program
+                     :url "https://www.boj.or.jp/about/outline/expdokuritsu.htm"
+                     :url-provenance :official-association-site
+                     :established-date "1998-04-01"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance :transparency]}]

@@ -1,0 +1,436 @@
+;; data/datascript-tx.edn — the SOFOFA catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the document it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote), in the Spanish the
+;; document is written in. `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches each :url and requires that span to still be in it.
+;;
+;; Two speakers, declared per entry by :url-provenance, both served from
+;; www.sofofa.cl:
+;;   :official-sofofa-cl        SOFOFA itself -- its pages and the documents
+;;                              its Transparencia section publishes (the 2024
+;;                              statute, the 2018 Ethics Charter, the
+;;                              councillors' Code of Conduct, the Ethics
+;;                              Commission regulation).
+;;   :ministry-certificate-published-by-sofofa
+;;                              the Subsecretaría de Economía's registry
+;;                              certificate, which SOFOFA republishes. The
+;;                              speaker is the ministry, not SOFOFA; the host
+;;                              is SOFOFA's, so the label says both.
+;;
+;; The catalog's July sources are gone: sff.sofofa.cl answers HTTP 522 for
+;; the history page both July entries cited (measured 2026-09-24). The
+;; founding date now rests on SOFOFA's own Ethics Charter, whose closing line
+;; dates it; the July "Code of Ethics dictated in 1958" entry is dropped,
+;; because no page SOFOFA serves today says 1958.
+;;
+;; No personal names of office-holders are persisted here. The Mesa
+;; Directiva page, the policy committee page, the Liceos page and the
+;; registry certificate all name people; the spans quoted below stop before
+;; every name, and no page is cited for its list of names.
+;;
+;; Figures SOFOFA gives about itself (142 years, more than 7,000 companies,
+;; 42 sectoral associations, 21 regional guilds) are recorded as what SOFOFA
+;; states, not as independently measured facts.
+
+[ #:association-rule{:id "sofofa.founding-1883-10-07"
+                    :title "Sociedad de Fomento Fabril (SOFOFA) was founded in Santiago de Chile on 7 October 1883 (closing line of SOFOFA's own 2018 Ethics Charter)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Carta-de-Etica-de-la-Sociedad-de-Fomento-Fabril-2018.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Carta de Ética de la Sociedad de Fomento Fabril (2018), closing line"
+                    :source-quote "Sociedad de Fomento Fabril Fundada en Santiago de Chile, el 7 de Octubre de 1883"
+                    :established-date "1883-10-07"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :governance]}
+ #:association-rule{:id "sofofa.ethics-charter-2018"
+                    :title "SOFOFA's Ethics Charter (Carta de Ética) is dated 2018 and subjects the private enterprise SOFOFA promotes to ethical principles"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Carta-de-Etica-de-la-Sociedad-de-Fomento-Fabril-2018.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Carta de Ética de la Sociedad de Fomento Fabril (2018), preamble"
+                    :source-quote "Carta de Ética de la Sociedad de Fomento Fabril (2018) SOFOFA propicia el desarrollo de la empresa privada en Chile, sujeto a los principios éticos"
+                    :established-date "2018"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "sofofa.ethics-members-adhere"
+                    :title "SOFOFA's members adhere to the principles and guidelines of the Ethics Charter"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Carta-de-Etica-de-la-Sociedad-de-Fomento-Fabril-2018.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Carta de Ética de la Sociedad de Fomento Fabril (2018), preamble"
+                    :source-quote "Para lograr estos fines, los miembros de la SOFOFA adscribirán a los siguientes principios y lineamientos"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :membership]}
+ #:association-rule{:id "sofofa.ethics-non-discrimination"
+                    :title "Ethics Charter principle 17: always respect the principles of non-arbitrary discrimination by age, sex, race and condition, promoting equal treatment within the company"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Carta-de-Etica-de-la-Sociedad-de-Fomento-Fabril-2018.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Carta de Ética de la Sociedad de Fomento Fabril (2018), principle 17"
+                    :source-quote "17.- Respetar siempre los principios de no discriminación arbitraria, de edad, sexo, raza y condición, promoviendo la igualdad de trato al interior de la empresa"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :labor]}
+ #:association-rule{:id "sofofa.statute-name-domicile"
+                    :title "Statute Art. 1: SOFOFA is a private-law legal person named Sociedad de Fomento Fabril Federación Gremial, domiciled in Santiago and governed by Decree-Law 2.757 of 1979"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Primero (Nombre, domicilio y vigencia)"
+                    :source-quote "Constituyese una persona jurídica de derecho privado con el nombre de “Sociedad de Fomento Fabril Federación Gremial”, en adelante e indistintamente “la Sociedad” o “SOFOFA”, que tendrá domicilio en la ciudad de Santiago, Región Metropolitana, y se regirá por el Decreto Ley Núm. 2.757 de 1979"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :constitution]}
+ #:association-rule{:id "sofofa.statute-object"
+                    :title "Statute Art. 2: SOFOFA's principal object is to promote industrial and business activity within a framework of ethical principles and values"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Segundo (Objeto de la Sociedad)"
+                    :source-quote "La SOFOFA tiene como objeto principal promover la actividad industrial y empresarial, dentro de un marco de principios y valores éticos"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-member-categories"
+                    :title "Statute Art. 4: SOFOFA's members (Socios) are in three categories -- company, institutional and indirect members"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Cuarto (Categorías de Socios)"
+                    :source-quote "Los Socios de SOFOFA se clasificarán en las siguientes categorías: A) Socios Empresas; B) Socios Institucionales; y C) Socios Indirectos."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :membership]}
+ #:association-rule{:id "sofofa.statute-company-members-by-isic"
+                    :title "Statute Art. 5: company members are legal persons whose principal activity falls in named sections of the UN International Standard Industrial Classification (ISIC)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Quinto (Socios Empresa)"
+                    :source-quote "Son Socios Empresas las personas jurídicas que realizan, como giro principal, actividades económicas incluidas en las categorías A, división 03, (Pesca y Acuicultura), C (Industrias manufactureras), D (Suministro de Electricidad y Gas), E (Suministro de Agua), H (Transporte y Almacenamiento), J (Información y Comunicación) de la Clasificación Internacional Industrial Uniforme de las Naciones Unidas"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :membership]}
+ #:association-rule{:id "sofofa.statute-general-assembly"
+                    :title "Statute Art. 34: the General Assembly, formed by company and institutional members, is SOFOFA's highest body"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Trigésimo Cuarto (Asambleas Generales)"
+                    :source-quote "La Asamblea General o “Asamblea” es el órgano superior de la Sociedad y estará conformada por los Socios categorías Empresa e Institucionales"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-ordinary-assembly"
+                    :title "Statute Art. 37: the Ordinary General Assembly is held within the second quarter of each year"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Trigésimo Séptimo (Asamblea General Ordinaria)"
+                    :source-quote "Dentro del segundo trimestre de cada año, se celebrará la Asamblea General Ordinaria de Socios"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-general-council"
+                    :title "Statute Art. 43: the General Council exercises SOFOFA's highest direction, without prejudice to the Executive Committee and the Board"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Cuadragésimo Tercero (Facultades del Consejo General)"
+                    :source-quote "La dirección superior de la Sociedad será ejercida por el Consejo General, sin perjuicio de las facultades que le corresponden al Comité Ejecutivo y la Mesa Directiva."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-elective-councillor-term"
+                    :title "Statute Art. 44: elective councillors serve four years and may be re-elected consecutively only twice"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Cuadragésimo Cuarto (Composición del Consejo General y asistencia)"
+                    :source-quote "Los Consejeros Electivos durarán cuatro (4) años en sus funciones, y solo podrán ser reelectos dos veces en forma consecutiva"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-half-renewal"
+                    :title "Statute Art. 48: elective councillors are renewed by halves, thirty every two years"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Cuadragésimo Octavo (Aspectos generales de la elección de Consejeros Electivos)"
+                    :source-quote "Los Consejeros Electivos, representantes de los Socios Empresa, se renovarán por mitades, esto es, en el número de treinta (30), cada dos años."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-president-election"
+                    :title "Statute Art. 50: the General Council elects the president from among the elective councillors, every twenty-four months"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Quincuagésimo (Elección de Presidente)"
+                    :source-quote "El Consejo General elegirá de entre sus miembros un presidente(a), que deberá tener la calidad de Consejero Electivo. Dicha elección será realizada cada veinticuatro meses"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-electoral-commission"
+                    :title "Statute Art. 51: an autonomous Electoral Commission supervises the elections of elective councillors"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Quincuagésimo Primero (Composición e inhabilidades)"
+                    :source-quote "La Comisión Electoral es una instancia autónoma que ejercerá la supervigilancia y fiscalización de los procesos electorales de Consejeros Electivos."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-executive-committee"
+                    :title "Statute Art. 54: the Executive Committee is SOFOFA's principal executive body, carrying out the General Council's and the Board's decisions"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Quincuagésimo Cuarto (Facultades del Comité Ejecutivo)"
+                    :source-quote "El Comité Ejecutivo es el órgano ejecutivo principal de la Sociedad, a cargo de ejecutar las políticas, medidas y acuerdos adoptados por el Consejo General y la Mesa Directiva."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-board-composition"
+                    :title "Statute Art. 57: the Board (Mesa Directiva) is formed by the President, the first and second vice-presidents, the secretary general and the general manager (offices only)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Quincuagésimo Séptimo (Composición y funciones de la Mesa Directiva)"
+                    :source-quote "Esta instancia estará integrada por el Presidente de SOFOFA, el primer vicepresidente, el segundo vicepresidente, el secretario general y el gerente general de la Sociedad."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-ethics-commission"
+                    :title "Statute Art. 64: the Internal Relations and Ethics Commission oversees compliance with the Statute, the Code of Ethics and SOFOFA's regulations and policies"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Sexagésimo Cuarto (Facultades de la Comisión de Relaciones Internas y Ética)"
+                    :source-quote "a) Velar por el cumplimiento de estos Estatutos, Código de Ética y demás reglamentos y políticas generales de SOFOFA."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :ethics]}
+ #:association-rule{:id "sofofa.statute-no-distribution"
+                    :title "Statute Art. 66: SOFOFA's income, benefits and surpluses belong to SOFOFA and may in no case be distributed to its members"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Sexagésimo Sexto (Patrimonio social)"
+                    :source-quote "Las rentas, beneficios o excedentes pertenecerán a SOFOFA y podrán ser invertidos en bienes muebles, inmuebles, corporales o incorporales, valores o instrumentos financieros y en ningún caso se podrán distribuir a sus afiliados"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.statute-dissolution"
+                    :title "Statute Art. 67: on dissolution for any cause, SOFOFA's assets go to the Confederación de la Producción y del Comercio"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Artículo Sexagésimo Séptimo (Disolución de la SOFOFA)"
+                    :source-quote "Para el caso de disolución de la Sociedad, por cualquier causa, sus bienes se destinarán a la Confederación de la Producción y del Comercio."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :constitution]}
+ #:association-rule{:id "sofofa.statute-electoral-changes-2025"
+                    :title "Statute, first transitory article: the 2024 amendments on electoral processes take effect from the 2025 period"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Estatutos-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Estatutos 2024, Primero Transitorio (Vigencia)"
+                    :source-quote "Las modificaciones que se refieren a procesos eleccionarios comenzarán a regir a partir del periodo 2025."
+                    :established-date "2025"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "sofofa.registry-number-149"
+                    :title "The Subsecretaría de Economía certified on 10 June 2025 that SOFOFA F.G. is entered in the Register of Trade Associations under number 149 and that its legal personality is in force (certificate republished by SOFOFA)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/06/Certificado-de-Vigencia-de-SOFOFA-F.G._junio-2025.pdf"
+                    :url-provenance :ministry-certificate-published-by-sofofa
+                    :source-article "Certificado de Vigencia, Folio CERT202510673"
+                    :source-quote "10-06-2025 La División de Asociatividad y Cooperativas de la Subsecretaría de Economía y Empresa de Menor tamaño certifica que, la entidad denominada SOCIEDAD DE FOMENTO FABRIL FEDERACION GREMIAL, se encuentra inscrita en el Registro de Asociaciones Gremiales con el Número 149 y que su personalidad jurídica se encuentra vigente."
+                    :last-revised-date "2025-06-10"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :governance]}
+ #:association-rule{:id "sofofa.councillor-code-of-conduct"
+                    :title "SOFOFA's Code of Conduct for Councillors is binding on all of SOFOFA's councillors"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/06/Codigo-Conducta-Consejeros-.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Código de Conducta Consejeros, III. Alcance"
+                    :source-quote "El presente Código de Conducta es de cumplimiento obligatorio para todos los Consejeros de SOFOFA, siendo una obligación inherente al desempeño de sus funciones."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "sofofa.ethics-commission-regulation"
+                    :title "The Ethics Commission regulation makes the Internal Relations and Ethics Commission the internal body that interprets and enforces the Statute and the Ethics Charter"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Reglamento-Comision-de-Relaciones-Internas-y-Etica-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Reglamento Comisión de Relaciones Internas y Ética, 1.- Fines"
+                    :source-quote "es un organismo interno de la SOCIEDAD DE FOMENTO FABRIL F.G., en adelante la Sociedad o SFF, que tiene como objetivo interpretar y hacer cumplir los Estatutos y la Carta de Ética del gremio"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "sofofa.evolucion-empresarial-2018-04"
+                    :title "In April 2018 SOFOFA's Business Evolution Committee issued to its member companies and guilds the Documento Evolución Empresarial, a guide to good business practice"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/wp-content/uploads/2025/04/Reglamento-Comision-de-Relaciones-Internas-y-Etica-SOFOFA.pdf"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Reglamento Comisión de Relaciones Internas y Ética, 1.- Fines"
+                    :source-quote "SFF, a través de su Comité de Evolución Empresarial, en abril 2018 puso en conocimiento de sus empresas y gremios asociados el Documento Evolución Empresarial que contiene una guía de mejores prácticas empresariales."
+                    :established-date "2018-04"
+                    :date-precision :month
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :history]}
+ #:association-rule{:id "sofofa.self-description"
+                    :title "SOFOFA describes itself as a trade federation with 142 years of history that has been the voice of Chile's private business sector since its beginnings (as SOFOFA states it)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/somos/"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Quiénes Somos"
+                    :source-quote "SOFOFA es una federación gremial con 142 años de historia, que desde sus inicios ha sido la voz del mundo empresarial privado en Chile."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "sofofa.membership-size"
+                    :title "SOFOFA states it represents companies linked to the industrial sector and groups more than 7,000 companies, 42 sectoral associations and 21 regional guilds (figures as SOFOFA states them)"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/somos/"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Quiénes Somos"
+                    :source-quote "Representamos a las empresas vinculadas al sector industrial y agrupamos a más de 7.000 compañías, 42 asociaciones sectoriales y 21 gremios regionales"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "sofofa.liceos-since-1981"
+                    :title "Since 1981 SOFOFA's Corporación de Capacitación y Empleo has administered technical-professional secondary schools (Liceos SOFOFA) in Chile"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/ecosistema-sofofa/liceos-sofofa/"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Ecosistema SOFOFA: Liceos SOFOFA"
+                    :source-quote "Desde 1981, la Corporación de Capacitación y Empleo SOFOFA administra Liceos Técnicos Profesionales en Chile"
+                    :established-date "1981"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:education :history]}
+ #:association-rule{:id "sofofa.transparency-section"
+                    :title "SOFOFA's Transparencia section (statute, ethics, constitution, applicable law, annual reports, internal rules) was developed with the support of Chile Transparente"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/transparencia/"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Transparencia"
+                    :source-quote "Esta sección ha sido desarrollada con el apoyo de Chile Transparente."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :compliance]}
+ #:association-rule{:id "sofofa.public-policy-committee"
+                    :title "SOFOFA's Public Policy Committee sets the principles and strategic guidelines for SOFOFA's participation in public-policy debate"
+                    :association "sofofa"
+                    :isic "9411"
+                    :country "CHL"
+                    :kind :governance-program
+                    :url "https://www.sofofa.cl/politicas-publicas/"
+                    :url-provenance :official-sofofa-cl
+                    :source-article "Direcciones: Políticas públicas"
+                    :source-quote "El Comité de Políticas Públicas define principios y establece los lineamientos estratégicos para la incidencia de SOFOFA en el debate de políticas públicas"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:policy :governance]}]

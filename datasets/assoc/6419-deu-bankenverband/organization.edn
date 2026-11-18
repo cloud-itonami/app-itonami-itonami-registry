@@ -1,0 +1,14 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Association of German Banks"
+ :name-local "Bundesverband deutscher Banken e.V."
+ :abbreviation "BdB / Bankenverband"
+ :legal-form "eingetragener Verein (registered association)"
+ :official-url "https://bankenverband.de"
+ :official-url-en "https://bankenverband.de/en"
+ :wikidata "Q1009084"
+ :isic "6419"
+ :country "DEU"
+ :established-date "1951"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-14"}

@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Edison Electric Institute"
+ :name-local "Edison Electric Institute"
+ :abbreviation "EEI"
+ :legal-form "trade association"
+ :official-url "https://www.eei.org/"
+ :wikidata "Q5338374"
+ :isic "3510"
+ :country "USA"
+ :established-date "1933"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "National Association of Broadcasters"
+ :name-local "National Association of Broadcasters"
+ :abbreviation "NAB"
+ :legal-form "trade association"
+ :official-url "https://www.nab.org/"
+ :wikidata "Q1759624"
+ :isic "6020"
+ :country "USA"
+ :established-date "1923"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- founding confirmed directly on NAB's own centennial mission page ('NAB's first organizational meeting held in Chicago with 16 radio stations represented', 1923, originally as the National Association of Radio Broadcasters)"}

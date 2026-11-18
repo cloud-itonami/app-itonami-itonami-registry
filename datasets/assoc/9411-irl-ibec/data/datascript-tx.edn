@@ -1,0 +1,94 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Provenance, honestly: the first two entries are Wikipedia-corroborated (ibec.ie's
+;; own "About us" page does not state a founding date). Everything after them is
+;; Ibec's or the Irish state's own publication, fetched and read on 2026-09-06.
+;; The one self-declared item (the EU Transparency Register id) says so in its title
+;; and in :url-provenance — the register itself exposes no stable per-organisation
+;; URL, so that number is NOT register-verified.
+
+[#:association-rule{:id "ibec.founding-1993-fie-cii-merger"
+                     :title "Ibec founded by merger of FIE and CII (Wikipedia)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Ibec"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1993"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "ibec.predecessor-dublin-employers-federation-1911"
+                     :title "Dublin Employers' Federation, Ibec's earliest predecessor body (Wikipedia)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Ibec"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1911"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "ibec.rules-govern-confederation"
+                     :title "The Ibec Rules govern the confederation, setting its structures and the procedures for appointment to the National Council and the Ibec Board (ibec.ie)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://www.ibec.ie/about-us/our-governance/ibec-structures"
+                     :url-provenance :official-ibec-ie
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "ibec.rules-document-registered-2022-08-22"
+                     :title "Ibec Rules, published by Ibec as a 36-page document labelled registered 22 08 2022 (ibec.ie)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://cdn.ibec.ie/-/media/documents/about-us/ibec-rules-registered-22-08-2022.pdf?rev=e350c0a7c6dd49e3b979730f42b90543"
+                     :url-provenance :official-ibec-ie
+                     :last-revised-date "2022-08-22"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "ibec.clg-company-under-companies-act-2014"
+                     :title "Ibec CLG is a company under the Companies Act 2014, established by the Irish Business and Employers Confederation (ibec.ie)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://www.ibec.ie/about-us/our-governance/ibec-structures"
+                     :url-provenance :official-ibec-ie
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :corporate-form]}
+ #:association-rule{:id "ibec.companies-act-2014-number-38"
+                     :title "Companies Act 2014 (Number 38 of 2014), the statute Ibec CLG is constituted under (Irish Statute Book)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :statute
+                     :url "https://www.irishstatutebook.ie/eli/2014/act/38/enacted/en/html"
+                     :url-provenance :official-irishstatutebook-ie
+                     :established-date "2014"
+                     :retrieved-at "2026-09-06"
+                     :topic [:corporate-form :statute]}
+ #:association-rule{:id "ibec.trade-associations-under-rules-and-byelaws"
+                     :title "Over 39 trade associations, established under the Ibec Rules and Byelaws for consultation, representation and the provision of Ibec services (ibec.ie)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :membership-rule
+                     :url "https://www.ibec.ie/about-us/trade-associations"
+                     :url-provenance :official-ibec-ie
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :membership]}
+ #:association-rule{:id "ibec.eu-transparency-register-self-declared"
+                     :title "Ibec states it maintains a presence on the EU Transparency Register under identification number 479468313744-50 (ibec.ie, self-declared; not verified against the register)"
+                     :association "ibec"
+                     :isic "9411"
+                     :country "IRL"
+                     :kind :governance-program
+                     :url "https://www.ibec.ie/about-us/our-regions-and-brussels-office/our-brussels-office"
+                     :url-provenance :official-ibec-ie-self-declared
+                     :retrieved-at "2026-09-06"
+                     :topic [:eu-representation]}]

@@ -96,7 +96,7 @@ function ruleItem(rule) {
 }
 
 function associationCard(association) {
-  const {name, rules, repository, commit, license, rulesSha256, archived} = association;
+  const {name, rules, repository, commit, license, rulesSha256, sourcePath, archived} = association;
   const details = make('details');
   const summary = make('summary');
   const count = rules === null ? 'データ未検証' : `${rules.length}件の記録`;
@@ -114,11 +114,17 @@ function associationCard(association) {
       content.append(make('p', reason));
     }
     const footer = make('footer', null, 'meta');
-    const base = `https://github.com/${repository}`;
-    const url = rulesSha256 ? `${base}/blob/${commit}/data/datascript-tx.edn` : `${base}/tree/${commit}`;
-    const label = rulesSha256 ? '収録データ（固定コミット）' : '元リポジトリ（固定コミット）';
-    footer.append(externalLink(url, label), ` · ${license}`);
+    if (sourcePath) {
+      const sourceLink = make('a', '検証済みの収録データ（EDN）');
+      sourceLink.href = sourcePath;
+      sourceLink.download = '';
+      const licenseLink = make('a', license);
+      licenseLink.href = 'source/LICENSE.txt';
+      footer.append(sourceLink, ' · ', licenseLink);
+    }
     if (archived) footer.append(' · アーカイブ');
+    footer.append(make('p', `取得元 ${repository} · ${commit}`));
+    if (rulesSha256) footer.append(make('p', `SHA-256 ${rulesSha256}`));
     content.append(footer);
     details.append(content);
   }, {once: true});

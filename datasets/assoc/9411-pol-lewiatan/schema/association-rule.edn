@@ -1,0 +1,46 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-9411-sau-fsc / -9411-aut-wko / -9411-irl-ibec /
+;; -9411-nzl-businessnz / -9411-cze-spcr / -9411-ind-cii / -9411-zaf-busa /
+;; -9411-bra-cni / -9411-ken-kam / -9411-can-chamber / -9411-mex-coparmex /
+;; -9411-ita-confindustria / -9411-nld-vnoncw / -9411-kor-kcci /
+;; -9411-arg-uia / -9411-bel-feb / -9411-dnk-di / -9411-swe-sn /
+;; -9411-fin-ek / -9411-tha-fti / -9411-chl-sofofa / -9411-col-andi /
+;; -9411-cri-uccaep / -9411-ecu-cip / -9411-egy-fei / -9411-pry-uip /
+;; ... files.
+;;
+;; The four attributes below the rule fields are what make a citation
+;; checkable instead of merely present, and they are indexed the way they are
+;; asked about:
+;;
+;;   :source-article        which page on the site, in that site's own words
+;;   :source-quote          the verbatim span the claim rests on. A URL that
+;;                          200s and no longer carries the claim is
+;;                          indistinguishable from one that does, so the span
+;;                          is what --live actually checks.
+;;   :date-precision        how precisely the SOURCE dates the fact
+;;                          (:day/:month/:year) -- a property of the source,
+;;                          not of the reader. Indexed because "which of these
+;;                          are only year-precise" is a question asked of the
+;;                          catalog, and answering it by re-reading prose is
+;;                          how precision claims rot.
+;;   :date-unknown-because  why a source gives no date. An entry that is
+;;                          simply missing a date and one that records why it
+;;                          has none must not read the same.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/source-article {}
+ :association-rule/source-quote {}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/date-precision {:db/index true}
+ :association-rule/date-unknown-because {:db/index true}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

@@ -1,0 +1,23 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-6419-jpn-zenginkyo / -6512-jpn-sonpo / -6612-jpn-jsda /
+;; -6419-deu-bankenverband / -6612-usa-finra / -6512-usa-naic /
+;; -6920-jpn-jicpa / -6920-usa-aicpa / -6419-fra-fbf / -6511-jpn-seiho /
+;; -6910-jpn-nichibenren / -6810-jpn-recaj / -6411-jpn-boj / -6120-usa-ctia /
+;; -5110-usa-a4a / -3510-usa-eei / -2910-deu-vda / -5510-usa-ahla /
+;; -2100-usa-phrma / -4719-usa-nrf / -4100-usa-agc / -6020-usa-nab /
+;; -3600-usa-awwa / -4923-usa-ata / -5610-usa-nra / -2011-usa-acc /
+;; -8621-usa-ama / -6201-usa-gtia / -0610-usa-api files.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

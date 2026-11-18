@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "National Confederation of Industry (Confederação Nacional da Indústria, CNI)"
+ :abbreviation "CNI"
+ :official-url "https://cni.portaldaindustria.com.br/"
+ :wikidata "Q1125075"
+ :isic "9411"
+ :country "BRA"
+ :established-date "1938-08-12"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders (e.g. founding president) incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- cni.portaldaindustria.com.br's own institutional page renders successfully but does not surface founding-history detail on the page checked. The FGV CPDOC (Centro de Pesquisa e Documentação de História Contemporânea do Brasil, Fundação Getulio Vargas) historical dictionary entry, directly read, states verbatim: 'criada em 12 de agosto de 1938 e reconhecida por carta do Ministério do Trabalho, Indústria e Comércio em 17 de setembro do mesmo ano' and, on its predecessor Confederação Industrial do Brasil (CIB): '25 de janeiro de 1933'. No dedicated Wikidata 'inception' statement exists for CNI (Q1125075 has no such property) -- noted transparently rather than fabricated."}

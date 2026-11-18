@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "cibn.founding-1963-11-28"
+                     :title "CIBN founding (Corporate Information)"
+                     :association "cibn"
+                     :isic "6419"
+                     :country "NGA"
+                     :kind :governance-program
+                     :url "https://cibng.org/corporate-information/"
+                     :url-provenance :official-cibng-org
+                     :established-date "1963-11-28"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "cibn.chartered-status-act-12-1990"
+                     :title "CIBN Chartered Status (Federal Government Act No. 12 of 1990)"
+                     :association "cibn"
+                     :isic "6419"
+                     :country "NGA"
+                     :kind :governance-program
+                     :url "https://cibng.org/corporate-information/"
+                     :url-provenance :official-cibng-org
+                     :established-date "1990-05-18"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

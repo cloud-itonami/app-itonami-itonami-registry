@@ -1,0 +1,121 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; This file is the written order of record for `:topic`. `:topic` is a SET in the
+;; .cljc and is indexed by position in the .kotoba port, so the order below is the
+;; order the port answers in, and the order the parity test compares against.
+
+[#:association-rule{:id "wko.handelskammergesetz-1946-07-24"
+                     :title "Neues Handelskammergesetz establishes Bundeskammer der gewerblichen Wirtschaft (Geschichte der Wirtschaftskammern Österreichs)"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :governance-program
+                     :url "https://www.wko.at/stmk/wko/geschichte-wirtschaftskammern-oesterreichs-steiermark"
+                     :url-provenance :official-wko-at
+                     :established-date "1946-07-24"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "wko.first-handelskammer-wien-1848"
+                     :title "Errichtung der ersten österreichischen Handelskammer in Wien (Geschichte der Wirtschaftskammern Österreichs)"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :governance-program
+                     :url "https://www.wko.at/stmk/wko/geschichte-wirtschaftskammern-oesterreichs-steiermark"
+                     :url-provenance :official-wko-at
+                     :established-date "1848"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "wko.wkg-1998-bgbl-i-103-1998"
+                     :title "Wirtschaftskammergesetz 1998 (WKG), BGBl. I Nr. 103/1998, in der Fassung BGBl. I Nr. 50/2025: the federal act under which the Wirtschaftskammern and Fachorganisationen are established (text published by WKÖ)"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :statute
+                     :url "https://www.wko.at/oe/wko/wkg.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "1998"
+                     :last-revised-date "2025"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :statute]}
+ #:association-rule{:id "wko.wkg-1998-para-2-mitgliedschaft"
+                     :title "WKG 1998 § 2 Mitgliedschaft: members are all physische und juristische Personen sowie sonstige Rechtsträger lawfully carrying on undertakings of Gewerbe, Handwerk, Industrie, Bergbau, Handel, Geld-, Kredit- und Versicherungswesen, Verkehr, Nachrichtenverkehr, Rundfunk, Tourismus und Freizeitwirtschaft and other Dienstleistungen"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :membership-rule
+                     :url "https://www.wko.at/oe/wko/wkg.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "1998"
+                     :retrieved-at "2026-09-06"
+                     :topic [:membership :statute]}
+ #:association-rule{:id "wko.wkg-1998-para-3-koerperschaften-oeffentlichen-rechts"
+                     :title "WKG 1998 § 3 Wirtschaftskammerorganisation: the Landeskammern, the Bundeskammer, the Fachgruppen and the Fachverbände are Körperschaften öffentlichen Rechts and together form the Wirtschaftskammerorganisation"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :constitutive-instrument
+                     :url "https://www.wko.at/oe/wko/wkg.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "1998"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance :corporate-form]}
+ #:association-rule{:id "wko.spartenordnung-sieben-sparten"
+                     :title "Spartenordnung (SpO) für die Wirtschaftskammern (Rechtsgrundlage § 13 WKG 1998): seven Sparten - Gewerbe und Handwerk, Industrie, Handel, Bank und Versicherung, Transport und Verkehr, Tourismus und Freizeitwirtschaft, Information und Consulting"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :governance-program
+                     :url "https://www.wko.at/oe/wko/spartenordnung.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "2004-06-23"
+                     :last-revised-date "2013-11-27"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "wko.fachorganisationsordnung"
+                     :title "Fachorganisationsordnung (FOO) (Rechtsgrundlage § 15 WKG 1998): regulates the establishment of the Fachverbände and Fachgruppen, in particular their number, designation and Wirkungsbereich"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :governance-program
+                     :url "https://www.wko.at/oe/wko/fachorganisationsordnung.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "2008-06-26"
+                     :last-revised-date "2025-06-26"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "wko.geschaeftsordnung-bundeskammer"
+                     :title "Geschäftsordnung der Bundeskammer (WKÖ) (GO) (Rechtsgrundlage § 58 WKG 1998): rules of procedure for the conduct of business of the Bundeskammer"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :governance-program
+                     :url "https://www.wko.at/oe/wko/geschaeftsordnung.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "2002-03-12"
+                     :last-revised-date "2025-11-26"
+                     :retrieved-at "2026-09-06"
+                     :topic [:governance]}
+ #:association-rule{:id "wko.umlagenordnung-kammerumlage"
+                     :title "Umlagenordnung der Bundeskammer (WKÖ) (UO) (Rechtsgrundlage § 129 WKG 1998): implements the Kammerumlage (§ 122) and Grundumlage (§ 123) through which members finance the Wirtschaftskammerorganisation"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :membership-rule
+                     :url "https://www.wko.at/oe/wko/umlagenordnung.pdf"
+                     :url-provenance :official-wko-at
+                     :established-date "2003-01-22"
+                     :last-revised-date "2014-06-25"
+                     :retrieved-at "2026-09-06"
+                     :topic [:membership :finance]}
+ #:association-rule{:id "wko.mitgliedsbetriebe-605826"
+                     :title "Die Wirtschaftskammern Österreichs vertreten 605.826 Mitgliedsbetriebe (WKÖ organisation page, as published on the retrieval date)"
+                     :association "wko"
+                     :isic "9411"
+                     :country "AUT"
+                     :kind :membership-rule
+                     :url "https://www.wko.at/oe/wko/wirtschaftskammer-oesterreich"
+                     :url-provenance :official-wko-at
+                     :retrieved-at "2026-09-06"
+                     :topic [:membership]}]

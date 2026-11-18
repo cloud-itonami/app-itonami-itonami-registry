@@ -1,0 +1,22 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+;; NOTE: GTIA (Global Technology Industry Association) is the direct
+;; continuation of the non-profit membership association previously
+;; known as CompTIA Community / CompTIA (est. 1982 as the Association
+;; of Better Computer Dealers, "ABCD"). In 2025 the "CompTIA" brand and
+;; its training/certification business were sold and now operate as a
+;; SEPARATE for-profit company -- GTIA is NOT that entity. Wikidata
+;; Q597534 is CompTIA's pre-split identifier and is used here as the
+;; closest available historical-lineage reference (GTIA itself is too
+;; recent, post-2025, to have its own Wikidata entry yet).
+{:name-en "Global Technology Industry Association"
+ :name-local "Global Technology Industry Association"
+ :abbreviation "GTIA"
+ :legal-form "vendor-neutral 501(c)(6) non-profit membership association for the worldwide IT channel; direct continuation of the CompTIA Community non-profit lineage (est. 1982 as ABCD, renamed CompTIA 1993, separated as GTIA 2025 when the CompTIA brand/certification business was sold to a for-profit company)"
+ :official-url "https://gtia.org/"
+ :wikidata "Q597534"
+ :isic "6201"
+ :country "USA"
+ :established-date "1982"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- founding year and name-change history directly confirmed on GTIA's own 'About Us' page ('Founded: 1982... a group of hardware and software vendors formed [ABCD]... 1993: Rebranded to...CompTIA...2025: The membership association separated and became...GTIA')"}

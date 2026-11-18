@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Federation of Saudi Chambers"
+ :name-former "Council of Saudi Chambers (renamed 2021)"
+ :abbreviation "FSC"
+ :official-url "https://fsc.org.sa/?lang=en"
+ :isic "9411"
+ :country "SAU"
+ :established-date "1980-03"
+ :head-role-note "institutional office title only; personal names of current/former office-holders were not encountered on the pages read for this catalog"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- fsc.org.sa's own 'Establishment of FSC' page states verbatim: 'The Council was formed as per the Royal Decree # R/6 dated 30/04/1400 Hijri (March 1980) with its head office in Riyadh.' No Wikidata Q-id was found for FSC/CSC specifically -- :wikidata deliberately omitted rather than guessed, matching the pattern used for BAP at tick 108."}

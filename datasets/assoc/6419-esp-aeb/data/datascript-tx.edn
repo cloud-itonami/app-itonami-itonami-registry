@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "aeb.founding-1977"
+                     :title "AEB founding (Our history)"
+                     :association "aeb"
+                     :isic "6419"
+                     :country "ESP"
+                     :kind :governance-program
+                     :url "https://aebanca.es/en/about-aeb/our-history/"
+                     :url-provenance :official-aebanca-es
+                     :established-date "1977"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "aeb.european-banking-federation-entry-1985"
+                     :title "Spain's EU accession and AEB's entry into the European Banking Federation (Our history)"
+                     :association "aeb"
+                     :isic "6419"
+                     :country "ESP"
+                     :kind :governance-program
+                     :url "https://aebanca.es/en/about-aeb/our-history/"
+                     :url-provenance :official-aebanca-es
+                     :established-date "1985"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

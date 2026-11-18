@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Vietnam Banks Association"
+ :name-local "Hiệp hội Ngân hàng Việt Nam"
+ :abbreviation "VNBA"
+ :official-url "https://vnba.org.vn/en/"
+ :isic "6419"
+ :country "VNM"
+ :established-date "1994-05-14"
+ :head-role-note "institutional office title only (President, General Secretary); personal names of past office-holders were incidentally encountered on the org's own History page (its first President/General Secretary from 1994-1998) -- read only to confirm the historical timeline, never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- vnba.org.vn's own History page states: 'Vietnam Banks Association (VNBA) was established after the Prime Minister's approval on May 14, 1994' and 'On August 23, 1994, VNBA was officially launched after its 1st Congress'. A different Vietnamese association attempted first this tick (VITAS, the Textile and Apparel Association) had a whole-domain-unreachable source (vietnamtextile.org.vn threw ECONNRESET on four separate URLs) and was abandoned. No Wikidata Q-id was found for VNBA specifically -- :wikidata deliberately omitted rather than guessed"}

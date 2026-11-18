@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "a4a.spec-2000"
+                     :title "Spec 2000: Data Exchange Standards"
+                     :association "a4a"
+                     :isic "5110"
+                     :country "USA"
+                     :kind :technical-standard
+                     :url "https://ataebiz.org/spec-2000/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:interoperability :standards]}
+ #:association-rule{:id "a4a.history-profile"
+                     :title "History (organization profile)"
+                     :association "a4a"
+                     :isic "5110"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.airlines.org/who-we-are/history/"
+                     :url-provenance :official-association-site
+                     :established-date "1936"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

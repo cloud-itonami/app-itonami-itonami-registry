@@ -1,0 +1,38 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Same shape as the sibling cloud-itonami-assoc-9411-*
+;; files, plus the three attributes this catalog needs to make its citations
+;; checkable rather than merely present (adopted from -9411-ury-ciu):
+;;
+;;   :source-article        which page or section of the source the entry reads
+;;   :source-quote          the verbatim span the entry rests on, so that
+;;                          `kbb --backend sci scripts/verify-catalog.cljk --live` can fetch
+;;                          the source and ask whether it still says it
+;;   :date-unknown-because  why the source gives neither an established nor a
+;;                          last-revised date. Present ONLY when both are
+;;                          absent; the verifier rejects an entry that carries
+;;                          it alongside a date, and rejects an entry that has
+;;                          neither a date nor this reason. A forgotten date
+;;                          and a recorded absence must not look the same.
+;;
+;; :url-provenance is indexed because it is how this catalog separates the two
+;; ways a fact was obtained. businessnz.org.nz answers 403 to every client this
+;; workspace has tried, so the association's own words are cited through
+;; Internet Archive captures and marked :official-businessnz-org-nz-web-archive;
+;; the two founding entries rest on Wikipedia and say so. Querying by that
+;; attribute is how a reader asks "what does this catalog know first-hand?".
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/source-article {}
+ :association-rule/source-quote {}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/date-unknown-because {:db/index true}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

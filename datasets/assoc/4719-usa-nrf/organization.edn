@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "National Retail Federation"
+ :name-local "National Retail Federation"
+ :abbreviation "NRF"
+ :legal-form "trade association"
+ :official-url "https://nrf.com/"
+ :wikidata "Q6978097"
+ :isic "4719"
+ :country "USA"
+ :established-date "1911"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- founding year (1911, as the National Retail Dry Goods Association, later merged/renamed) is WebSearch/Wikipedia-corroborated; NRF's own About Us page only states 'over a century' without an exact year"}

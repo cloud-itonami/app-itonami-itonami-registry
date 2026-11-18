@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba, accessed through its bounded typed ABI
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "ata.founding-90-years-and-rolling"
+                     :title "ATA: 90 Years and Rolling"
+                     :association "ata"
+                     :isic "4923"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.trucking.org/news-insights/ata-90-years-and-rolling"
+                     :url-provenance :official-association-site
+                     :established-date "1933-09-23"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}
+ #:association-rule{:id "ata.safety-policy-positions"
+                     :title "Safety (ATA Policy Positions)"
+                     :association "ata"
+                     :isic "4923"
+                     :country "USA"
+                     :kind :policy-position
+                     :url "https://trucking.org/safety"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:safety]}]

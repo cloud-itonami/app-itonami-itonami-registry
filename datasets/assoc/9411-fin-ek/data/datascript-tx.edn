@@ -1,0 +1,156 @@
+;; data/datascript-tx.edn — the EK source catalog. THIS IS THE ONLY PLACE THE
+;; FACTS ARE AUTHORED. Both readings are generated from it:
+;;
+;;   src/association/facts.kotoba   the Clojure reading (`association.facts`)
+;;   src/association_facts.kotoba   the Kotoba port
+;;
+;;   kbb --backend sci scripts/gen-kotoba-port.cljk           rewrite both
+;;   kbb --backend sci scripts/gen-kotoba-port.cljk --check   exit 1 if either has drifted
+;;   kbb --backend sci scripts/verify-catalog.cljk            structural checks, offline
+;;   kbb --backend sci scripts/verify-catalog.cljk --live     fetch every :url and require
+;;                                              every :source-quote to be in it
+;;
+;; Each entry names the page it came from (:source-article) and the verbatim
+;; span the claim rests on (:source-quote). The span is what makes the citation
+;; checkable: a URL that returns 200 without the claim reads exactly like one
+;; that carries it. While this catalog was built, a finlex.fi PDF offered as
+;; the official English translation of the Associations Act (503/1989) returned
+;; 200 and turned out to be the Act on the Finnish Red Cross (238/2000) --
+;; reachable, first-party, and the wrong document. It is not in this catalog
+;; because the text was read.
+;;
+;; No personal names of office-holders are persisted here.
+
+[#:association-rule{:id "ek.predecessor-1907-general-employers-confederation"
+                    :title "The General Employers' Confederation of Finland, EK's earliest predecessor, established 1907"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Confederation_of_Finnish_Industries"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Confederation of Finnish Industries"
+                    :source-quote "dates back to 1907"
+                    :established-date "1907"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.founding-2005-pt-tt-merger"
+                    :title "EK began operations at the start of 2005, formed by the merger of Palvelutyonantajat (PT) and Teollisuuden ja Tyonantajain Keskusliitto (TT)"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :governance-program
+                    :url "https://fi.wikipedia.org/wiki/Elinkeinoel%C3%A4m%C3%A4n_keskusliitto"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Elinkeinoelaman keskusliitto"
+                    :source-quote "vuoden 2005 alussa"
+                    :established-date "2005"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.scale-17-associations-15000-companies"
+                    :title "EK represents 17 sectoral member associations, over 15 000 member companies and some 900 000 employees"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :membership-rule
+                    :url "https://ek.fi/tietoa-meista/mika-on-ek/"
+                    :url-provenance :official-ek-fi
+                    :source-article "Mika on EK?"
+                    :source-quote "15 000 jäsenyritystä"
+                    :date-unknown-because :page-states-standing-figures-without-dating-them
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "ek.member-association-roster"
+                    :title "EK's member associations are named on its own roster page, each a registered association (ry)"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :membership-rule
+                    :url "https://ek.fi/tietoa-meista/organisaatio/ekn-jasenliitot/"
+                    :url-provenance :official-ek-fi
+                    :source-article "EK:n jasenliitot"
+                    :source-quote "Teknologiateollisuus ry"
+                    :date-unknown-because :page-is-a-standing-roster
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "ek.governance-edustajisto-125-highest-authority"
+                    :title "Highest decision-making power in EK is exercised by a 125-member representative assembly (edustajisto)"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :constitutive-instrument
+                    :url "https://ek.fi/tietoa-meista/organisaatio/"
+                    :url-provenance :official-ek-fi
+                    :source-article "Organisaatio"
+                    :source-quote "125-henkinen edustajisto"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :corporate-form]}
+ #:association-rule{:id "ek.yrittajavaltuuskunta-advisory-body"
+                    :title "EK's Entrepreneur Council, chosen annually and made up of about a hundred leading entrepreneurs, is an advisory body"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :constitutive-instrument
+                    :url "https://ek.fi/tietoa-meista/organisaatio/yrittajavaltuuskunta/"
+                    :url-provenance :official-ek-fi
+                    :source-article "Yrittajavaltuuskunta"
+                    :source-quote "eturivin yrittäjästä"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.strategy-market-economy-responsibility-entrepreneurship"
+                    :title "EK states that it acts on the principles of market economy, responsibility and entrepreneurship"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :governance-program
+                    :url "https://ek.fi/tietoa-meista/ekn-strategia-tehtavana-menestyva-suomi/"
+                    :url-provenance :official-ek-fi
+                    :source-article "EK:n strategia"
+                    :source-quote "vastuullisuuden ja yrittäjyyden"
+                    :date-unknown-because :page-does-not-date-the-strategy
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.brussels-office-since-1974"
+                    :title "EK has had its own office in Brussels since 1974"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :governance-program
+                    :url "https://ek.fi/tietoa-meista/mika-on-ek/mika-on-ek/"
+                    :url-provenance :official-ek-fi
+                    :source-article "Mita EK tekee?"
+                    :source-quote "toimisto Brysselissä vuodesta 1974"
+                    :established-date "1974"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.eu-transparency-register-number"
+                    :title "EK is entered in the EU institutions' Transparency Register under number 1274604847-34"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :governance-program
+                    :url "https://ek.fi/en/about-us/ek-in-brussels/"
+                    :url-provenance :official-ek-fi
+                    :source-article "EK in Brussels"
+                    :source-quote "REG number is: 1274604847-34"
+                    :date-unknown-because :page-states-a-standing-registration
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "ek.businesseurope-member-federation"
+                    :title "EK is BusinessEurope's Finnish member federation"
+                    :association "ek"
+                    :isic "9411"
+                    :country "FIN"
+                    :kind :membership-rule
+                    :url "https://www.businesseurope.eu/member/confederation-of-finnish-industries-ek/"
+                    :url-provenance :official-businesseurope-eu
+                    :source-article "Confederation of Finnish Industries - EK"
+                    :source-quote "Confederation of Finnish Industries"
+                    :date-unknown-because :page-states-a-standing-membership
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}]

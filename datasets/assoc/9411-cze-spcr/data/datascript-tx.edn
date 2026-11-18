@@ -1,0 +1,193 @@
+;; data/datascript-tx.edn — DataScript tx-data for the SP ČR source catalog
+;; (ADR-2607141700). This file is the SOURCE the other two readings come from:
+;; `scripts/gen_association_facts_kotoba.cljs` generates
+;; `src/association_facts.kotoba` from it, and `association.facts-test` asserts
+;; `src/association/facts.cljc` agrees with it field for field.
+;;
+;; No :db/id per entity, same shape as the sibling tx-data files.
+;; `:association-rule/topic` is serialized as a vector; the .cljc holds a set.
+;;
+;; Dates. `:established-date` is the date the cited text itself states it was
+;; approved. `:last-revised-date` is used only where the document names an
+;; earlier version it replaces, and the origin of the instrument is therefore
+;; NOT what the approval date means -- the Statutes say they amend and replace
+;; the 2021 text but do not say when the Svaz first adopted statutes, so that
+;; entry carries a revision date and no established date. An absent date is the
+;; honest answer; a completed one would be indistinguishable from a fact.
+;;
+;; `:media-type` is what the URL actually served when it was last checked.
+;; spcr.cz serves several PDFs from extension-less paths (`/stanovy-2026` is a
+;; PDF), so it cannot be inferred from the URL -- it is recorded per entry and
+;; `kbb --backend sci scripts/verify_citations.cljk` compares it against the live response.
+;;
+;; Every :association-rule/url was fetched and answered 200 with the media type
+;; recorded here. A rule that is not in this file has NO spec-basis; extend it
+;; from a page you actually read, never from memory.
+
+[#:association-rule{:id "spcr.founding-1990"
+                    :title "Svaz průmyslu České republiky founded in Ostrava on the initiative of 153 companies and organizations (Czech Wikipedia, corroborated by Wikidata Q12057458 inception statement)"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://cs.wikipedia.org/wiki/Svaz_pr%C5%AFmyslu_a_dopravy_%C4%8CR"
+                    :url-provenance :wikipedia-corroborated
+                    :media-type "text/html"
+                    :established-date "1990-05-05"
+                    :retrieved-at "2026-07-17"
+                    :topic [:governance :history]}
+ #:association-rule{:id "spcr.renaming-1994-add-transport"
+                    :title "General assembly approved renaming to Svaz průmyslu a dopravy České republiky (Confederation of Industry AND TRANSPORT), expanding scope (Czech Wikipedia)"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://cs.wikipedia.org/wiki/Svaz_pr%C5%AFmyslu_a_dopravy_%C4%8CR"
+                    :url-provenance :wikipedia-corroborated
+                    :media-type "text/html"
+                    :established-date "1994-03-17"
+                    :retrieved-at "2026-07-17"
+                    :topic [:governance :history]}
+ #:association-rule{:id "spcr.statutes-2026"
+                    :title "Stanovy Svazu průmyslu a dopravy České republiky (Statutes) -- Article 19: approved by the general assembly on 13 May 2026, amending and replacing the Statutes adopted by the general assembly on 15 June 2021"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/stanovy-2026"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :last-revised-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "spcr.employers-organisation-legal-basis"
+                    :title "Article 1(2) of the Statutes: SP ČR is an organisation of employers within the meaning of § 320 of Act No. 262/2006 Sb. (Labour Code), § 3025 of Act No. 89/2012 Sb. (Civil Code) and ILO Convention No. 87"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/stanovy-2026"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :labour-law]}
+ #:association-rule{:id "spcr.tripartite-social-dialogue"
+                    :title "Article 2(2)(a) of the Statutes: SP ČR asserts and protects its members' interests in the Council of Economic and Social Agreement of the Czech Republic (Rada hospodářské a sociální dohody ČR), the national tripartite body, alongside public authorities and trade unions"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/stanovy-2026"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:social-dialogue :governance]}
+ #:association-rule{:id "spcr.governing-bodies"
+                    :title "Article 9 of the Statutes: the organs of SP ČR are the general assembly; the elected organs (board of directors, president and vice-presidents, supervisory board, conciliation committee); the advisory organs (membership base council, expert teams); and the executive organs (secretariat, director general). The term of office of elected organs is four years"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/stanovy-2026"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "spcr.ethics-code-2021"
+                    :title "Etický kodex Svazu průmyslu a dopravy ČR (Code of Ethics) -- minimum standards of conduct binding on all members and on members of the elected organs, covering legal compliance, competition law, equal treatment and sustainable business; approved by the general assembly on 15 June 2021"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :self-regulatory-code
+                    :url "https://www.spcr.cz/images/Eticky_kodex_SPCR_2021.pdf"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2021-06-15"
+                    :retrieved-at "2026-09-09"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "spcr.payment-rules-2026"
+                    :title "Platební řád (Payment Rules) -- annual membership contributions and partner and observer payments issued under Article 8(2) of the Statutes; approved by the general assembly on 13 May 2026 and effective from 14 May 2026"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/platebni-rad-2026-05-14"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "spcr.candidate-nomination-rules-2026"
+                    :title "Pravidla pro návrh kandidátů do orgánů Svazu (Rules for Nominating Candidates to the Organs of the Confederation) -- approved by the general assembly on 13 May 2026; fixes the order of election and the eligibility condition, and the size of each organ: eighteen elected board members, seven vice-presidents, a five-member supervisory board and a three-member conciliation committee"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/pravidla-pro-navrh-kandidatu-2026"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2026-05-13"
+                    :retrieved-at "2026-09-09"
+                    :topic [:elections :governance]}
+ #:association-rule{:id "spcr.programme-declaration-2026"
+                    :title "Programové prohlášení Svazu průmyslu a dopravy ČR na rok 2026 (Programme Declaration for 2026) -- approved by the general assembly on 9 December 2025; states the Vize Česko 2029 target (the Czech Republic in the EU TOP 10 by GDP per capita and the world TOP 20 of the Global Innovation Index) and the confederation's ten priorities"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/media/27070"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2025-12-09"
+                    :retrieved-at "2026-09-09"
+                    :topic [:economic-policy :governance]}
+ #:association-rule{:id "spcr.trade-fair-committee-statutes"
+                    :title "Stanovy Veletržního výboru při Svazu průmyslu a dopravy ČR (Statutes of the Trade Fair Committee) -- an expert team constituted under the Statutes to coordinate Czech industry's participation in domestic and foreign trade fairs; signed in Prague on 23 January 2013"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/media/25986"
+                    :url-provenance :official-association-site
+                    :media-type "application/pdf"
+                    :established-date "2013-01-23"
+                    :retrieved-at "2026-09-09"
+                    :topic [:trade-promotion :governance]}
+ #:association-rule{:id "spcr.predecessor-first-union-of-industrialists"
+                    :title "SP ČR's own account of its lineage: in 2018 exactly one hundred years had passed since the founding of the first Český svaz průmyslníků (Czech Union of Industrialists), which the confederation names as its predecessor. The same page states SP ČR is a mandatory consultation body for many draft legal regulations. The year is all the page gives; no day or month is recorded here"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/kdo-jsme"
+                    :url-provenance :official-association-site
+                    :media-type "text/html"
+                    :retrieved-at "2026-09-09"
+                    :topic [:history :governance]}
+ #:association-rule{:id "spcr.eu-priorities-2024-2029"
+                    :title "Priority českého byznysu v Evropské unii pro roky 2024-2029 (Priorities of Czech Business in the European Union) -- twelve steps for the competitiveness of Czech and European business, addressed to the European Parliament and Commission for their 2024-2029 term"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/prioritybyznysu"
+                    :url-provenance :official-association-site
+                    :media-type "text/html"
+                    :last-revised-date "2025-06-02"
+                    :retrieved-at "2026-09-09"
+                    :topic [:economic-policy :eu-affairs]}
+ #:association-rule{:id "spcr.vision-cesko-2029"
+                    :title "Česko v roce 2029: vize hospodářské politiky Svazu průmyslu (Czechia in 2029: the confederation's economic-policy vision) -- published 3 October 2024; sets targets including above-EU-average DESI scores and 25 % of Czech firms using artificial intelligence by 2029"
+                    :association "spcr"
+                    :isic "9411"
+                    :country "CZE"
+                    :kind :governance-program
+                    :url "https://www.spcr.cz/cesko2029"
+                    :url-provenance :official-association-site
+                    :media-type "text/html"
+                    :established-date "2024-10-03"
+                    :retrieved-at "2026-09-09"
+                    :topic [:economic-policy]}]

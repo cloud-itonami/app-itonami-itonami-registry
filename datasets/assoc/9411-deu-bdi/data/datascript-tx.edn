@@ -1,0 +1,217 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; This file is the input to scripts/gen-kotoba-port.cljs and the subject of
+;; scripts/verify-catalog.cljs. Every :source-quote below was read off the live
+;; page on 2026-09-06; `verify-catalog.cljs --live` re-reads them.
+
+[#:association-rule{:id "bdi.reichsstand-merger-1933-06-19"
+                    :title "BDI's Weimar-era predecessor was merged into the Reichsstand der Deutschen Industrie on 19 June 1933"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://de.wikipedia.org/wiki/Bundesverband_der_Deutschen_Industrie"
+                    :url-provenance :wikipedia-corroborated
+                    :source-quote "Dieser wurde in der Zeit des Nationalsozialismus am 19. Juni 1933 mit der Vereinigung Deutscher Arbeitgeberverbände am 19. Juni 1933 zum Reichsstand der Deutschen Industrie vereinigt."
+                    :established-date "1933-06-19"
+                    :date-basis :in-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.statute-approved-1949-07-01"
+                    :title "The Allied military government's representatives approved the statute for a future German industry-wide representation on 1 July 1949"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://de.wikipedia.org/wiki/Bundesverband_der_Deutschen_Industrie"
+                    :url-provenance :wikipedia-corroborated
+                    :source-quote "Am 1. Juli 1949 stimmten die Vertreter der Militärregierung der Satzung einer solchen Vertretung zu."
+                    :established-date "1949-07-01"
+                    :date-basis :in-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.predecessor-founding-1949-10-19"
+                    :title "32 business associations and working groups founded BDI's direct predecessor, the Ausschuss für Wirtschaftsfragen der industriellen Verbände, on 19 October 1949"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://bdi.eu/en/the-bdi/verbandsgeschichte"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "On 19 October 1949 representatives of 32 business associations and working groups founded the Ausschuss für Wirtschaftsfragen der industriellen Verbände / Committee for Economic Issues of the Industrial Associations at the Excelsior Hotel in Cologne."
+                    :corroborating-url "https://de.wikipedia.org/wiki/Bundesverband_der_Deutschen_Industrie"
+                    :corroborating-provenance :wikipedia-corroborated
+                    :corroborating-quote "Am 19. Oktober 1949, nur eine Woche nach der Gründung des DGB, gründeten daraufhin Vertreter von 32 Wirtschaftsverbänden und Arbeitsgemeinschaften den Ausschuss für Wirtschaftsfragen der industriellen Verbände"
+                    :established-date "1949-10-19"
+                    :date-basis :in-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.renamed-weeks-after-founding"
+                    :title "BDI's own history page dates the rename from Ausschuss to BDI only as a few weeks after the founding"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://bdi.eu/en/the-bdi/verbandsgeschichte"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "wurde nur wenige Wochen später in „BDI“ umbenannt"
+                    :date-unknown-because :official-page-says-only-a-few-weeks-later
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.renamed-beginning-of-1950"
+                    :title "The encyclopaedia places the rename to Bundesverband der Deutschen Industrie at the beginning of 1950, later than BDI's own few-weeks account"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://de.wikipedia.org/wiki/Bundesverband_der_Deutschen_Industrie"
+                    :url-provenance :wikipedia-corroborated
+                    :source-quote "Zu Beginn des Jahres 1950 wurde der Verein in Bundesverband der Deutschen Industrie umbenannt."
+                    :established-date "1950"
+                    :date-basis :in-quote
+                    :date-not-narrowed-because :source-says-only-the-beginning-of-the-year
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.cologne-headquarters-1950-1999"
+                    :title "BDI's headquarters stood in the Haus der Deutschen Industrie in Cologne between 1950 and 1999"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://de.wikipedia.org/wiki/Bundesverband_der_Deutschen_Industrie"
+                    :url-provenance :wikipedia-corroborated
+                    :source-quote "Zwischen 1950 und 1999 befand sich der Hauptsitz des BDI im Haus der Deutschen Industrie in Köln"
+                    :date-unknown-because :source-states-a-period-not-an-event-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:contact :governance]}
+ #:association-rule{:id "bdi.brussels-office-opened-2016-02"
+                    :title "BDI opened its new Brussels office in February 2016"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://bdi.eu/en/the-bdi/verbandsgeschichte"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "When the BDI opened the new Brussels office in February 2016 it was primarily a completely new space."
+                    :established-date "2016-02"
+                    :date-basis :in-quote
+                    :date-not-narrowed-because :source-names-the-month-not-the-day
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation]}
+ #:association-rule{:id "bdi.president-leibinger-2025-01-01"
+                    :title "Peter Leibinger succeeded Siegfried Russwurm as BDI president on 1 January 2025"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://bdi.eu/en/the-bdi/verbandsgeschichte"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "tritt Leibinger am 1. Januar 2025 die Nachfolge von Siegfried Russwurm"
+                    :corroborating-url "https://www.lobbyregister.bundestag.de/suche/R000534"
+                    :corroborating-provenance :german-lobbyregister
+                    :corroborating-quote "Vertretungsberechtigte Person(en): Dr.-Ing. E.h. Peter Leibinger Funktion: Präsident"
+                    :established-date "2025-01-01"
+                    :date-basis :in-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "bdi.membership-scale-100000-companies"
+                    :title "BDI states it speaks for more than 100,000 companies employing more than eight million people"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :membership
+                    :url "https://bdi.eu/en/the-bdi/ueber-uns"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "more than 100,000 large, medium-sized and small companies from all sectors of the manufacturing industry, which together employ more than eight million people."
+                    :date-unknown-because :self-description-carries-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "bdi.industry-share-of-gdp"
+                    :title "BDI states that just under a quarter of Germany's GDP is generated by German industry"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :membership
+                    :url "https://bdi.eu/en/the-bdi/ueber-uns"
+                    :url-provenance :official-bdi-eu
+                    :source-quote "Just under a quarter of Germany's gross domestic product (GDP) is generated by German industry."
+                    :date-unknown-because :self-description-carries-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:economic-weight]}
+ #:association-rule{:id "bdi.lobbyregister-r000534-2022-02-16"
+                    :title "BDI is entered in the German Bundestag lobby register as R000534, an eingetragener Verein, first registered on 16 February 2022"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://www.lobbyregister.bundestag.de/suche/R000534"
+                    :url-provenance :german-lobbyregister
+                    :source-quote "Bundesverband der Deutschen Industrie e.V. Eingetragener Verein (e. V.) Registernummer: R000534 Ersteintrag: 16.02.2022"
+                    :established-date "2022-02-16"
+                    :date-basis :in-quote-numeric-dmy
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :registration :transparency]}
+ #:association-rule{:id "bdi.lobbyregister-address-breite-str-29"
+                    :title "BDI's registered address is Breite Str. 29, 10178 Berlin"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :membership
+                    :url "https://www.lobbyregister.bundestag.de/suche/R000534"
+                    :url-provenance :german-lobbyregister
+                    :source-quote "Adresse: Breite Str. 29 10178 Berlin Deutschland"
+                    :corroborating-url "https://www.businesseurope.eu/member/bundesverband-der-deutschen-industrie-e-v-bdi/"
+                    :corroborating-provenance :peak-body-businesseurope
+                    :corroborating-quote "Bundesverband der Deutschen Industrie e.V. – BDI Breite Strasse, 29 D-10178 Berlin"
+                    :date-unknown-because :register-field-carries-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:contact :registration]}
+ #:association-rule{:id "bdi.lobbyregister-expenditure-2025"
+                    :title "BDI declared annual lobbying expenditure of 9,550,001 to 9,560,000 euro for the financial year 01/25 to 12/25"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://www.lobbyregister.bundestag.de/suche/R000534"
+                    :url-provenance :german-lobbyregister
+                    :source-quote "Jährliche finanzielle Aufwendungen im Bereich der Interessenvertretung: Geschäftsjahr: 01/25 bis 12/25 9.550.001 bis 9.560.000 Euro"
+                    :date-unknown-because :entry-states-a-reporting-period-not-an-event-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:transparency]}
+ #:association-rule{:id "bdi.lobbyregister-fte-2025"
+                    :title "BDI declared 38.75 full-time equivalents engaged in interest representation for the financial year 01/25 to 12/25"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :governance-program
+                    :url "https://www.lobbyregister.bundestag.de/suche/R000534"
+                    :url-provenance :german-lobbyregister
+                    :source-quote "Vollzeitäquivalent der im Bereich der Interessenvertretung beschäftigten Personen: Geschäftsjahr: 01/25 bis 12/25 38,75"
+                    :date-unknown-because :entry-states-a-reporting-period-not-an-event-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:transparency]}
+ #:association-rule{:id "bdi.businesseurope-member"
+                    :title "BDI is listed by BusinessEurope as one of its two German member federations"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :membership
+                    :url "https://www.businesseurope.eu/members"
+                    :url-provenance :peak-body-businesseurope
+                    :source-quote "Bundesverband der Deutschen Industrie e.V. – BDI Germany"
+                    :date-unknown-because :directory-listing-carries-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation :membership]}
+ #:association-rule{:id "bdi.brussels-representation-address"
+                    :title "BDI Representation Brussels sits at Rue Marie de Bourgogne 58, 1000 Bruxelles"
+                    :association "bdi"
+                    :isic "9411"
+                    :country "DEU"
+                    :kind :membership
+                    :url "https://www.businesseurope.eu/member/bundesverband-der-deutschen-industrie-e-v-bdi/"
+                    :url-provenance :peak-body-businesseurope
+                    :source-quote "Brussels office BDI Representation Brussels Rue Marie de Bourgogne, 58 1000 Bruxelles"
+                    :date-unknown-because :directory-entry-carries-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation :contact]}]

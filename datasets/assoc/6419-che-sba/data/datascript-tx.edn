@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "sba.founding-1912-basel"
+                     :title "Swiss Bankers Association founded in Basel (Wikipedia)"
+                     :association "sba"
+                     :isic "6419"
+                     :country "CHE"
+                     :kind :governance-program
+                     :url "https://en.wikipedia.org/wiki/Swiss_Bankers_Association"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1912"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "sba.cdb-20-2020-due-diligence-code"
+                     :title "Agreement on the Swiss banks' code of conduct with regard to the exercise of due diligence (CDB 20)"
+                     :association "sba"
+                     :isic "6419"
+                     :country "CHE"
+                     :kind :governance-program
+                     :url "https://www.swissbanking.ch/_Resources/Persistent/6/2/e/e/62eec3df0685e359c5a376dfca79dec8b908ea9c/SBA_Agreement_CDB_2020_EN.pdf"
+                     :url-provenance :official-swissbanking-ch
+                     :established-date "2020"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

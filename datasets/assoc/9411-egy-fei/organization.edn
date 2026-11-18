@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Federation of Egyptian Industries (FEI, اتحاد الصناعات المصرية)"
+ :abbreviation "FEI"
+ :official-url "https://fei.org.eg/"
+ :isic "9411"
+ :country "EGY"
+ :established-date "1922"
+ :head-role-note "institutional office title only (Chairman); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- fei.org.eg's own site states verbatim (Arabic): 'يقوم إتحاد الصناعات المصرية منذ أن نشأت فكرته في عام 1915' (the idea originated in 1915). ar.wikipedia.org's own article, directly read, states verbatim: 'أنشأ سنة 1922 تحت اسم \"رابطة الصناعات في مصر\"' (formally established 1922) and 'في سنة 1947 صدور القانون رقم 73 لسنة 1947 بإنشاء اتحاد للغرف الصناعية تحت اسم \"اتحاد الصناعات المصرية\"' (Law No. 73 of 1947 established the current name). No dedicated Wikidata entry exists for FEI itself (only a specific internal office, Q131883883, unrelated to the founding date) -- noted transparently as a genuine data gap."}

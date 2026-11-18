@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "vnoncw.predecessor-vnw-1899"
+                     :title "Vereeniging van Nederlandse Werkgevers (VNW), VNO-NCW's earliest predecessor, founded 1899 (vno-ncw.nl official 'Historie' page)"
+                     :association "vnoncw"
+                     :isic "9411"
+                     :country "NLD"
+                     :kind :governance-program
+                     :url "https://www.vno-ncw.nl/historie"
+                     :url-provenance :official-vno-ncw-nl
+                     :established-date "1899"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "vnoncw.merger-1997"
+                     :title "VNO and NCW decided to merge into VNO-NCW in 1997 (vno-ncw.nl official 'Historie' page; NOTE: this conflicts with en.wikipedia.org and Wikidata Q2054190, which both state 1996 -- the official primary source's own date (1997) is used here per this session's source-conflict discipline)"
+                     :association "vnoncw"
+                     :isic "9411"
+                     :country "NLD"
+                     :kind :governance-program
+                     :url "https://www.vno-ncw.nl/historie"
+                     :url-provenance :official-vno-ncw-nl
+                     :established-date "1997"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

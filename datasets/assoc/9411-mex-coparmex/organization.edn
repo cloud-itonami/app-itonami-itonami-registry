@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Confederación Patronal de la República Mexicana (COPARMEX)"
+ :abbreviation "COPARMEX"
+ :official-url "https://coparmex.org.mx/"
+ :wikidata "Q2996731"
+ :isic "9411"
+ :country "MEX"
+ :established-date "1929-09-26"
+ :head-role-note "institutional office title only (President); the founder's name (Luis G. Sada), incidentally encountered on coparmex.org.mx's own History page, is never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- coparmex.org.mx's own 'Nuestra Historia' page (https://coparmex.org.mx/nuestra-historia/), directly read, states verbatim: 'Coparmex nace en la Ciudad de México el 26 de septiembre de 1929 por iniciativa del industrial regiomontano Don Luis G. Sada' and 'Coparmex inicia trabajos como observador electoral' (1989). No dedicated Wikidata inception statement exists for COPARMEX (Q2996731 has a 'start time' property, but it is attached to the organization's Facebook-username field dated 2012, not the actual founding) -- noted transparently rather than misused as corroboration."}

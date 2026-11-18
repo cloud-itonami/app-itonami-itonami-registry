@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "eei.mutual-assistance-agreement"
+                     :title "Edison Electric Institute Mutual Assistance Agreement"
+                     :association "eei"
+                     :isic "3510"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.eei.org/-/media/Project/EEI/Documents/Issues-and-Policy/Reliability-and-Emergency-Response/MAAgreementGovPrinc.pdf"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:emergency-response :mutual-aid]}
+ #:association-rule{:id "eei.about-profile"
+                     :title "About EEI (organization profile)"
+                     :association "eei"
+                     :isic "3510"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.eei.org/en/about-eei/about"
+                     :url-provenance :official-association-site
+                     :established-date "1933"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

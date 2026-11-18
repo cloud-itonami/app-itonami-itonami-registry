@@ -3,18 +3,17 @@
 import hashlib
 import json
 import re
-import time
+import shutil
 from collections.abc import Mapping, Sequence
-from concurrent.futures import ThreadPoolExecutor
 from datetime import date
-from urllib.error import URLError
 from urllib.parse import urlsplit
-from urllib.request import urlopen
 
 import pycountry
 from edn_format import Keyword, loads
 
+DATASET_DIR = 'datasets/assoc'
 RULES_PATH = 'data/datascript-tx.edn'
+PAYLOAD_PATHS = {RULES_PATH, 'blueprint.edn', 'organization.edn', 'schema/association-rule.edn'}
 RULE_FIELDS = {
     'id': 'id', 'title': 'title', 'url': 'url', 'url-provenance': 'provenance',
     'retrieved-at': 'retrievedAt', 'kind': 'kind', 'source-article': 'article',
@@ -22,17 +21,6 @@ RULE_FIELDS = {
     'corroborating-url': 'corroboratingUrl', 'corroborating-provenance': 'corroboratingProvenance',
 }
 REQUIRED_FIELDS = ('id', 'title', 'url', 'provenance', 'retrievedAt', 'kind')
-
-
-def download(url):
-    for attempt in range(3):
-        try:
-            with urlopen(url, timeout=25) as response:
-                return response.read()
-        except (URLError, TimeoutError):
-            if attempt == 2:
-                raise
-            time.sleep(2 ** attempt)
 
 
 def citation_url(value):
@@ -84,10 +72,13 @@ def read_rules(data, entry):
     return rules
 
 
-def association(entry, fetch):
+def association(entry, dataset_dir, source_dir):
     repo, commit = entry['repository'], entry['commit']
     if not re.fullmatch(r'cloud-itonami/[\w.-]+', repo) or not re.fullmatch(r'[0-9a-f]{40}', commit):
         raise ValueError(f"{entry['id']}: invalid repository or commit")
+    slug = entry['id'].removeprefix('assoc/')
+    if not re.fullmatch(r'[0-9]{4}-[a-z]{2,3}-[a-z0-9-]+', slug) or entry['id'] != f'assoc/{slug}':
+        raise ValueError(f"{entry['id']}: invalid association ID")
     country = entry['keys'].get('country')
     region = pycountry.countries.get(alpha_3=country) if country else None
     record = {
@@ -104,21 +95,32 @@ def association(entry, fetch):
     }
     if entry['digestStatus'] == 'verified':
         try:
-            digest = next(p['sha256'] for p in entry['payload'] if p['path'] == RULES_PATH)
-            data = fetch(f'https://raw.githubusercontent.com/{repo}/{commit}/{RULES_PATH}')
-            if hashlib.sha256(data).hexdigest() != digest:
-                raise ValueError('SHA-256 mismatch')
-            record['rules'] = read_rules(data, entry)
-            record['rulesSha256'] = digest
-        except (ValueError, StopIteration, URLError, TimeoutError) as error:
-            raise ValueError(f"{entry['id']} ({repo}@{commit}): could not bundle rules: {error}") from error
+            payload = {item['path']: item['sha256'] for item in entry['payload']}
+            if set(payload) != PAYLOAD_PATHS:
+                raise ValueError('unexpected payload paths')
+            for path, digest in payload.items():
+                data = (dataset_dir / slug / path).read_bytes()
+                if hashlib.sha256(data).hexdigest() != digest:
+                    raise ValueError(f'SHA-256 mismatch: {path}')
+                if path == RULES_PATH:
+                    rules_data = data
+            record['rules'] = read_rules(rules_data, entry)
+            record['rulesSha256'] = payload[RULES_PATH]
+            record['sourcePath'] = f'source/{slug}/datascript-tx.edn'
+            output = source_dir / slug / 'datascript-tx.edn'
+            output.parent.mkdir(parents=True, exist_ok=True)
+            output.write_bytes(rules_data)
+        except (ValueError, OSError) as error:
+            raise ValueError(f"{entry['id']} ({repo}@{commit}): could not bundle snapshot: {error}") from error
     return record
 
 
-def build(root, out, fetch=download):
+def build(root, out):
     catalog = json.loads((root / 'catalogs/datasets/assoc.json').read_text(encoding='utf-8'))
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        associations = list(pool.map(lambda entry: association(entry, fetch), catalog['entries']))
+    dataset_dir, source_dir = root / DATASET_DIR, out / 'source'
+    associations = [association(entry, dataset_dir, source_dir) for entry in catalog['entries']]
+    source_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(dataset_dir / 'LICENSE.txt', source_dir / 'LICENSE.txt')
     data = json.dumps({'observedOn': catalog['observedOn'], 'associations': associations},
                       ensure_ascii=False, separators=(',', ':'))
     # The inert data block eliminates runtime requests and works from bundled local assets.

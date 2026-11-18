@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "The Real Estate Companies Association of Japan"
+ :name-local "一般社団法人 不動産協会"
+ :abbreviation "RECAJ"
+ :legal-form "一般社団法人 (general incorporated association)"
+ :official-url "https://www.fdk.or.jp/"
+ :wikidata "Q11361630"
+ :isic "6810"
+ :country "JPN"
+ :established-date "1963-03-04"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

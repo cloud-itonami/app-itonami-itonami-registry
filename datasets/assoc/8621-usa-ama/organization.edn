@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Medical Association"
+ :name-local "American Medical Association"
+ :abbreviation "AMA"
+ :legal-form "national professional/trade association for physicians"
+ :official-url "https://www.ama-assn.org/"
+ :wikidata "Q465697"
+ :isic "8621"
+ :country "USA"
+ :established-date "1847"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- founding year directly confirmed on AMA's own 'AMA History' page ('An 1845 resolution to the New York Medical Association by Dr. Nathan S. Davis, calling for a national medical convention, led to the establishment of the American Medical Association (AMA) in 1847') -- no specific month/day is stated on that page, so :established-date is deliberately year-only (secondary sources place it at May 7, 1847 in Philadelphia, but that was not directly confirmed on ama-assn.org itself)"}

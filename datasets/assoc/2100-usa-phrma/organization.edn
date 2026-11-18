@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Pharmaceutical Research and Manufacturers of America"
+ :name-local "Pharmaceutical Research and Manufacturers of America"
+ :abbreviation "PhRMA"
+ :legal-form "trade association"
+ :official-url "https://www.phrma.org/"
+ :wikidata "Q5683113"
+ :isic "2100"
+ :country "USA"
+ :established-date "1958"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- full name confirmed directly in the Code on Interactions with Health Care Professionals' own Preamble text; founding year (1958) is WebSearch/Wikipedia-corroborated, not stated in either primary document read"}
