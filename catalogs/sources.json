@@ -58067,6 +58067,18 @@
           "url": "https://github.com/network-awai/app-itonami-egov/blob/2db4b704e22fd84fea3e898acd5730725e2b67dd/seido/us.edn"
         }
       ]
+    },
+    {
+      "id": "awai-os-police-guide-d9990f6a",
+      "repository": "network-awai/awai-os",
+      "commit": "d9990f6a5b8d3ee730c69de575c4060f8871a162",
+      "files": [
+        {
+          "path": "apps/soudan/src/police-guide.json",
+          "sha256": "fbcd2d7ef9fb54f701502993400b6c1614df7bfc13ee8e6c1a448b696c077b77",
+          "url": "https://github.com/network-awai/awai-os/blob/d9990f6a5b8d3ee730c69de575c4060f8871a162/apps/soudan/src/police-guide.json"
+        }
+      ]
     }
   ]
 }

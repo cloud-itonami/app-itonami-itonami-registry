@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "itonami.workflow.v1",
+  "mode": "recipe",
+  "inputs": [
+    "jurisdictionCode"
+  ],
+  "steps": [
+    {
+      "id": "select-jurisdiction",
+      "action": "Ask which country or area the user wants to look up, without requesting a victim name, address, credentials or case details. Use the ISO alpha-3 key or match its UN M49 code. Geography alone does not decide legal jurisdiction."
+    },
+    {
+      "id": "read-snapshot",
+      "action": "Read police-guide.json from this workflow folder and look up the exact jurisdiction. Check scope and status. Missing status is unassessed. For partial entries, state the documented geographical and incident scope."
+    },
+    {
+      "id": "prepare",
+      "action": "Show the agency, intake route and the evidence checklist with their exact source URLs and checked dates. Keep required, recommended and retain-only evidence distinct. Mark missing sections as unverified."
+    },
+    {
+      "id": "follow-up",
+      "action": "Quote only the confirmed stage of each public example. Keep delivery, acknowledgment, investigation, and outcome distinct. For the actual situation, show only the matching published supplement, status, service complaint or appeal route. Do not infer a right of appeal."
+    },
+    {
+      "id": "handoff",
+      "action": "Provide the documented official source address and date. The user reviews the current government guidance and chooses whether to submit."
+    }
+  ],
+  "stopWhen": [
+    "jurisdiction-not-in-snapshot",
+    "needs-private-data-or-case-specific-legal-advice",
+    "asks-to-file-or-contact-agency"
+  ],
+  "automaticExecution": false
+}
