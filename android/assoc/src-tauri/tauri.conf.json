@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Itonami Registry Assoc",
+  "identifier": "network.itonami.registry.assoc",
+  "version": "0.1.0",
+  "build": {
+    "frontendDist": "../dist",
+    "beforeBuildCommand": "python3 ../../scripts/build_assoc_android.py"
+  },
+  "app": {
+    "windows": [{
+      "label": "main",
+      "title": "Itonami Registry Assoc",
+      "url": "assoc/index.html",
+      "useHttpsScheme": true,
+      "create": false
+    }],
+    "security": {
+      "capabilities": []
+    }
+  },
+  "bundle": {
+    "active": true
+  }
+}

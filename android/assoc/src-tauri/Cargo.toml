@@ -1,0 +1,16 @@
+[package]
+name = "itonami-registry-assoc"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "itonami_registry_assoc"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "=2.7.5", features = [] }
+
+[dependencies]
+tauri = { version = "=2.12.6", features = [] }
+tauri-plugin-opener = "=2.5.4"
