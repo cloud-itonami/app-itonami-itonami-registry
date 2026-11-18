@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Unión Industrial Paraguaya (UIP)"
+ :abbreviation "UIP"
+ :official-url "https://uip.org.py/"
+ :isic "9411"
+ :country "PRY"
+ :established-date "1936-09-20"
+ :sourced-from-current "re-verified 2026-09-24: https://uip.org.py/institucional/historia/ now redirects to https://uip.org.py/historia/, whose founding sentence says 'El 20 de setiembre del mismo' with no year. UIP's own Institucional page (https://uip.org.py/institucional/) states 'El 20 de septiembre de 1936, se llevó a cabo una asamblea que culminó con la constitución definitiva de la UIP' and its Statute Art. 1 (https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf) says 'fundada el 20 de Setiembre de 1936'; data/datascript-tx.edn cites both and scripts/verify-catalog.cljk --live re-reads them."
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-18 -- UIP's own official 'Historia' page (https://uip.org.py/institucional/historia/), directly read, states verbatim: 'Al fin, el 8 de julio de 1936 se reunían en el Banco de la República, los propietarios y representantes de 55 industrias' and 'El 20 de setiembre del mismo se iniciaba una larga asamblea que concluiría con la constitución definitiva de la Unión Industrial Paraguaya y la aceptación plena de sus estatutos sociales'. No Wikidata entry exists for UIP at all (search returned 'no results matching the query') -- noted transparently."}

@@ -1,0 +1,87 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (the sole production catalog authority). No
+;; :db/id per entity (DataScript auto-assigns), same shape as the sibling
+;; statute.facts / ordinance.facts / legal-source tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+;;
+;; This file is DERIVED, and `association-facts-test/datascript-tx-matches-
+;; kotoba-authority` checks that it still matches the compiled catalog — it is
+;; not a second place to add an entry.
+
+[#:association-rule{:id "zenginkyo.code-of-conduct"
+                     :title "Code of Conduct (倫理憲章)"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.zenginkyo.or.jp/en/conduct/"
+                     :url-provenance :official-association-site
+                     :established-date "2005-11-22"
+                     :last-revised-date "2022-09-15"
+                     :retrieved-at "2026-07-14"
+                     :addressee :member-bank
+                     :parameter-disposition :no-parameter
+                     :topic [:ethics :member-conduct]}
+ #:association-rule{:id "zenginkyo.agreements"
+                     :title "申し合わせ (Board-resolved Member-Bank Arrangements)"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.zenginkyo.or.jp/agreement/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-14"
+                     :addressee :member-bank
+                     :parameter-disposition :no-parameter
+                     :topic [:consumer-protection :fair-transaction]}
+ #:association-rule{:id "zenginkyo.corporate-ib-unauthorized-withdrawal-response"
+                     :title "法人向けインターネット・バンキングに係る預金等の不正な払戻しへの対応について"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.zenginkyo.or.jp/news/2014/n3344/"
+                     :url-provenance :official-association-site
+                     :established-date "2014-05-15"
+                     :retrieved-at "2026-07-29"
+                     :addressee :member-bank
+                     :parameter-disposition :delegates-to-adopter
+                     :topic [:corporate-internet-banking :transfer-limit]}
+ #:association-rule{:id "zenginkyo.corporate-ib-compensation"
+                     :title "法人向けインターネット・バンキングにおける預金等の不正な払戻しに関する補償の考え方について"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.zenginkyo.or.jp/news/2014/n3349/"
+                     :url-provenance :official-association-site
+                     :established-date "2014-07-17"
+                     :retrieved-at "2026-07-29"
+                     :addressee :member-bank
+                     :parameter-disposition :conditions-liability-on-adopter-choice
+                     :topic [:corporate-internet-banking :compensation]}
+ #:association-rule{:id "zenginkyo.financial-crime-response"
+                     :title "金融犯罪への対応の徹底に係る申し合わせについて"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.zenginkyo.or.jp/news/2024/n051001/"
+                     :url-provenance :official-association-site
+                     :established-date "2024-05-10"
+                     :retrieved-at "2026-07-29"
+                     :addressee :member-bank
+                     :parameter-disposition :no-parameter
+                     :topic [:financial-crime :member-conduct]}
+ #:association-rule{:id "zenginkyo.corporate-ib-fraud-alert"
+                     :title "法人向けインターネット・バンキングにおける不正送金にご注意！"
+                     :association "zenginkyo"
+                     :isic "6419"
+                     :country "JPN"
+                     :kind :public-guidance
+                     :url "https://www.zenginkyo.or.jp/topic/detail/nid/3563/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-29"
+                     :addressee :corporate-customer
+                     :parameter-disposition :delegates-to-adopter
+                     :topic [:corporate-internet-banking :transfer-limit]}]

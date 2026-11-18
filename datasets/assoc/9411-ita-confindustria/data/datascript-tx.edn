@@ -1,0 +1,296 @@
+;; data/datascript-tx.edn — the Confindustria catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote), in the Italian the page
+;; is written in. `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches each :url and requires that span to still be in it.
+;;
+;; No personal names of office-holders are persisted here. The History page
+;; names the first President next to the founding date and the President
+;; elected at the 1974 Assembly, the Centro Studi page names the people
+;; under whom it was institutionalised, and the Organisation page names the
+;; Director General; the spans quoted below stop before every name, and no
+;; page is cited for its list of names.
+;;
+;; Every source is confindustria.it. Figures Confindustria gives about itself
+;; (its number of member organisations, its surplus) are recorded as what
+;; Confindustria states, not as independently measured facts; the titles say
+;; so. The Valori page says 209 member organisations and the Sistema page
+;; says 211; both are recorded as each page states them, not reconciled.
+
+[#:association-rule{:id "confindustria.founding-1910-turin"
+                    :title "The 'Confederazione Italiana dell'Industria' (Confindustria's founding name) was founded on 5 May 1910, with its first seat at the Lega Industriali di Torino in Turin"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "La prima sede della “Confederazione Italiana dell’Industria”, fondata il 5 maggio 1910, fu presso la Lega Industriali di Torino"
+                    :established-date "1910-05-05"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "confindustria.founding-purpose-1910"
+                    :title "Confindustria was born on 5 May 1910 to coordinate employers' initiatives nationally, both towards the Government and local administrations and towards the trade unions"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :constitution
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le origini di Confindustria)"
+                    :source-quote "nacque, il 5 maggio 1910, la “Confederazione italiana dell’industria”, con il fine di coordinare a livello nazionale le iniziative degli imprenditori sia nei rapporti con il Governo e le amministrazioni locali, sia nei riguardi delle Organizzazioni sindacali"
+                    :established-date "1910-05-05"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :history :labor]}
+ #:association-rule{:id "confindustria.hq-moved-rome-1919"
+                    :title "Confindustria was first seated in Turin and from 1919 in Rome"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le origini di Confindustria)"
+                    :source-quote "Prima con sede a Torino – e successivamente dal 1919 a Roma"
+                    :established-date "1919"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "confindustria.new-statute-1919"
+                    :title "On 8 April 1919 the industrialists met in Rome to approve a new statute, the name 'Confederazione Generale dell'Industria Italiana' and a new provisional seat"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :statute
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "L’8 aprile 1919, presso la sede di Assonime di Via Lata, gli industriali si riunirono per approvare il nuovo statuto, il logo “Confederazione Generale dell’Industria Italiana” e la nuova sede provvisoria in Via Vicenza 7"
+                    :established-date "1919-04-08"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history :statute]}
+ #:association-rule{:id "confindustria.dissolution-1943"
+                    :title "The present Confederazione Generale dell'Industria Italiana followed the dissolution of its predecessor in November 1943"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "la nuova Confederazione Generale dell’Industria Italiana, frutto dello scioglimento avvenuto nel novembre 1943"
+                    :established-date "1943-11"
+                    :date-precision :month
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "confindustria.brussels-office-1958"
+                    :title "On 21 March 1958 Confindustria made official to its System the establishment of its own office in Brussels"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "il 21 marzo 1958, Confindustria ufficializzò al Sistema l’istituzione di un proprio ufficio a Bruxelles"
+                    :established-date "1958-03-21"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :international]}
+ #:association-rule{:id "confindustria.eur-seat-1972"
+                    :title "In 1972 Confindustria moved from its historic seat in Piazza Venezia to the EUR district of Rome"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "Nel 1972 Confindustria si trasferì dalla storica sede di Piazza Venezia nel quartiere dell’E.U.R. a Roma"
+                    :established-date "1972"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "confindustria.congress-centre-2016"
+                    :title "In 2016 Confindustria's new Congress Centre (Auditorium della Tecnica, exhibition areas and meeting rooms) opened"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/storia"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Storia (Le Sedi di Confindustria)"
+                    :source-quote "Nel 2016 ha visto la luce il nuovo Centro Congressi di Confindustria, composto dall’Auditorium della Tecnica, dalle aree espositive e dalle sale riunioni."
+                    :established-date "2016"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history]}
+ #:association-rule{:id "confindustria.statute-1944"
+                    :title "Confindustria's Statute, originally approved in 1944, is its fundamental document"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :statute
+                    :url "https://www.confindustria.it/statuto-e-codice-etico"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Regole di sistema (Statuto)"
+                    :source-quote "Lo Statuto, approvato originariamente nel 1944, è il documento fondamentale di Confindustria."
+                    :established-date "1944"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :statute]}
+ #:association-rule{:id "confindustria.implementing-regulation"
+                    :title "An implementing Regulation governs in detail how the confederal Statute's provisions are applied"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :statute
+                    :url "https://www.confindustria.it/statuto-e-codice-etico"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Regole di sistema (Regolamento di attuazione)"
+                    :source-quote "Il Regolamento di attuazione disciplina in dettaglio le modalità operative con cui vengono applicate le disposizioni dello Statuto confederale."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "confindustria.self-description"
+                    :title "Confindustria describes itself as the main association representing manufacturing and service companies in Italy"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :constitution
+                    :url "https://www.confindustria.it/valori"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Valori e Mission"
+                    :source-quote "Confindustria è la principale associazione di rappresentanza delle imprese manifatturiere e di servizi in Italia."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :membership]}
+ #:association-rule{:id "confindustria.non-derogable-values"
+                    :title "Legality and respect for the associative rules at every level are non-derogable values of Confindustria"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :constitution
+                    :url "https://www.confindustria.it/valori"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Valori e Mission"
+                    :source-quote "Costituiscono valori inderogabili la legalità e il rispetto delle regole associative ad ogni livello"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution]}
+ #:association-rule{:id "confindustria.assembly-composition"
+                    :title "The Assembly, the highest representative organ, is made up of the Presidents of all the Organisations that form the confederal System"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/organi"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Organi (Assemblea)"
+                    :source-quote "Massimo organo di rappresentanza della base associativa, l’Assemblea è composta dai Presidenti di tutte le Organizzazioni che formano il Sistema confederale."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "confindustria.assembly-powers"
+                    :title "The Assembly meets in ordinary session at least twice a year, elects the President, the Vice Presidents, twenty General Council members, the Probiviri and the Auditors, and approves statutory amendments"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/organi"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Organi (Assemblea)"
+                    :source-quote "Si riunisce in convocazione ordinaria almeno due volte all’anno. Elegge il Presidente di Confindustria, i Vice Presidenti, venti componenti del Consiglio Generale, i Probiviri ed i Revisori. È l’organo deputato all’approvazione delle modifiche statutarie."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "confindustria.general-council"
+                    :title "The General Council (COGE) is the Confederation's political steering body and designates the Presidency team for the Assembly vote"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/organi"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Organi (Consiglio Generale)"
+                    :source-quote "E’ il consesso di indirizzo politico della Confederazione. Designa la squadra di Presidenza per il voto assembleare"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "confindustria.probiviri"
+                    :title "The Probiviri interpret the confederal rules, oversee elections and hold disciplinary powers over conduct contrary to the associative rules"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/organi"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Organi (Probiviri)"
+                    :source-quote "Interpretano la normativa confederale, vigilano sui passaggi elettorali e dispongono di poteri disciplinari in caso di comportamenti in contrasto con le regole associative."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "confindustria.voluntary-system"
+                    :title "Confindustria states that its associative System is founded on a voluntary, private basis and is structured in 211 organisations"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :constitution
+                    :url "https://www.confindustria.it/sistema-confindustria"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Sistema Confindustria"
+                    :source-quote "Fondato su base volontaria e privatistica, si struttura in 211 organizzazioni"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :membership]}
+ #:association-rule{:id "confindustria.piccola-industria"
+                    :title "Piccola Industria protects the specific interests and values of smaller enterprises within Confindustria"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :policy-program
+                    :url "https://www.confindustria.it/piccola-industria"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Piccola industria"
+                    :source-quote "Piccola Industria tutela gli interessi e i valori specifici delle imprese di minori dimensioni"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :policy]}
+ #:association-rule{:id "confindustria.csc-eurostat-2016"
+                    :title "In 2016 the Centro Studi Confindustria was recognised by Eurostat as an economic research body, which Confindustria calls the first such case in Europe for an employers' organisation"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :policy-program
+                    :url "https://www.confindustria.it/centro-studi"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Centro Studi Confindustria"
+                    :source-quote "nel 2016, ha ottenuto il riconoscimento di ente di ricerca economica da Eurostat, primo caso in Europa per un’organizzazione imprenditoriale."
+                    :established-date "2016"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :policy]}
+ #:association-rule{:id "confindustria.budget-2025-approved"
+                    :title "Confindustria states that its 2025 accounts were approved unanimously by its private Assembly on 21 May 2026, showing an operating and financial surplus of 2.7 million euro"
+                    :association "confindustria"
+                    :isic "9411"
+                    :country "ITA"
+                    :kind :governance-program
+                    :url "https://www.confindustria.it/trasparenza"
+                    :url-provenance :official-confindustria-it
+                    :source-article "Trasparenza (Bilanci)"
+                    :source-quote "Il Bilancio 2025, approvato all’unanimità il 21 maggio 2026 dall’Assemblea privata di Confindustria, rileva un avanzo della gestione operativa e finanziaria di 2,7 milioni euro"
+                    :established-date "2026-05-21"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}]

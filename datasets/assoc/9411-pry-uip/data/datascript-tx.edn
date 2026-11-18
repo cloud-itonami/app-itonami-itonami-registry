@@ -1,0 +1,511 @@
+;; data/datascript-tx.edn -- the UIP catalog. The facts are authored HERE and
+;; nowhere else: scripts/gen-kotoba-port.cljk writes src/association/facts.kotoba
+;; and src/association_facts.kotoba from this file, and
+;; scripts/verify-catalog.cljk --live fetches every :url and requires every
+;; :source-quote to be in it (ADR-2607141700 Wave 0).
+
+[#:association-rule{:id "uip.initial-meeting-1936-07-08"
+                    :title "Owners and representatives of 55 industries met at the Banco de la República on 8 July 1936, the initial step toward founding UIP"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/historia/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Historia page, third paragraph"
+                    :source-quote "Al fin, el 8 de julio de 1936 se reunían en el Banco de la República, los propietarios y representantes de 55 industrias"
+                    :established-date "1936-07-08"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :governance]}
+ #:association-rule{:id "uip.founding-1936-09-20"
+                    :title "The Unión Industrial Paraguaya (UIP) was definitively constituted on 20 September 1936, at an assembly that also accepted its bylaws"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Nuestra historia, 'Constitución de la UIP'"
+                    :source-quote "El 20 de septiembre de 1936, se llevó a cabo una asamblea que culminó con la constitución definitiva de la UIP y la aceptación de sus estatutos sociales"
+                    :established-date "1936-09-20"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :governance :constitution]}
+ #:association-rule{:id "uip.first-preliminary-assembly-1936-07-28"
+                    :title "UIP's first preliminary assembly was held on 28 July 1936 and recommended forming a steering committee"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Nuestra historia, 'Primera Asamblea Preliminar'"
+                    :source-quote "El 28 de julio de 1936, se celebró la primera asamblea preliminar, donde se recomendó la formación de una comisión directiva."
+                    :established-date "1936-07-28"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :governance]}
+ #:association-rule{:id "uip.mission"
+                    :title "UIP's mission: a business association representing the interests of the industrial sector, driving its development and competitiveness nationally and internationally"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Misión"
+                    :source-quote "Somos un gremio empresarial, que representa los intereses del sector industrial impulsando su desarrollo y competitividad, a nivel nacional e internacional."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "uip.vision"
+                    :title "UIP's vision: to consolidate itself as a leading, internationally recognized business association contributing to the country's industrial development"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Visión"
+                    :source-quote "Consolidarnos como gremio empresarial líder, reconocido a nivel internacional, contribuyendo al desarrollo industrial del país."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "uip.value-integrity"
+                    :title "UIP value 'Integridad': it fosters ethical and transparent working practices among members, maintaining high standards of conduct"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Nuestros valores, Integridad"
+                    :source-quote "Fomentamos prácticas de trabajo éticas y transparentes entre los miembros del gremio, manteniendo altos estándares de conducta."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :membership]}
+ #:association-rule{:id "uip.value-commitment"
+                    :title "UIP value 'Compromiso': it takes positions defending national industry, the environment, formal work, women's empowerment and the elimination of child labour"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Nuestros valores, Compromiso"
+                    :source-quote "Asumimos posturas en defensa de la industria nacional, el medio ambiente, el trabajo formal, el empoderamiento de la mujer y la eliminación del trabajo infantil."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:labor :policy]}
+ #:association-rule{:id "uip.axis-representation"
+                    :title "UIP strategic axis 'Representatividad': it defends the association's interests before government, advocating policies favourable to industrial development"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Ejes estratégicos, Representatividad"
+                    :source-quote "Defendemos los intereses del gremio a nivel gubernamental, abogando por políticas que favorezcan el desarrollo de la industria y la creación de un entorno empresarial favorable."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:policy :governance]}
+ #:association-rule{:id "uip.branches-guaira-alto-parana"
+                    :title "UIP has a branch in the Guairá department and an office for administrative procedures and certificates of origin in the Alto Paraná department"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/institucional/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Institucional page, Filiales"
+                    :source-quote "La Unión Industrial Paraguaya cuenta con una filial en el departamento de Guairá y una oficina para trámites administrativos y de emisión de certificados de origen en el Departamento de Alto Paraná."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :trade]}
+ #:association-rule{:id "uip.statute-art1-legal-nature"
+                    :title "Statute Art. 1: UIP is a non-profit civil entity founded on 20 September 1936, with legal personality recognized by Decree No. 7197, organized as a federative association of industrial associations and companies"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos de la Unión Industrial Paraguaya, Capítulo I, Art. 1°"
+                    :source-quote "La UNIÓN INDUSTRIAL PARAGUAYA (UIP), es una entidad civil sin fines de lucro, fundada el 20 de Setiembre de 1936, con personería jurídica reconocida por Decreto N° 7197 del 3 de diciembre del mismo año, organizada como Asociación Federativa que se integra con gremios y empresas industriales"
+                    :established-date "1936-09-20"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :constitution]}
+ #:association-rule{:id "uip.statute-art2-domicile"
+                    :title "Statute Art. 2: UIP's legal domicile is the capital of the Republic"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo I, Art. 2°"
+                    :source-quote "La Unión Industrial Paraguaya, tendrá su domicilio legal en la Capital de la República."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :constitution]}
+ #:association-rule{:id "uip.statute-art3-industrial-development"
+                    :title "Statute Art. 3(a): UIP's first aim is to further the country's industrial development, promoting suitable laws of defence and promotion"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo I, Finalidades, Art. 3° a."
+                    :source-quote "Propender al desarrollo industrial del país, su progreso, perfeccionamiento y consolidación, propiciando la sanción de adecuadas leyes de defensa y fomento."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :policy]}
+ #:association-rule{:id "uip.statute-art3-worker-skills"
+                    :title "Statute Art. 3(b): UIP promotes measures to raise the professional and technical capacity of industrial workers"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo I, Finalidades, Art. 3° b."
+                    :source-quote "Promover medidas tendientes a elevar el nivel de la capacidad profesional y técnica del trabajador industrial, para aumentar su productividad y mejorar su nivel de vida y bienestar."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :labor :education]}
+ #:association-rule{:id "uip.statute-art3-no-politics"
+                    :title "Statute Art. 3(i): UIP must prevent political or religious activities and racial discrimination within it"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo I, Finalidades, Art. 3° i."
+                    :source-quote "Evitar que, en su seno, se realicen actividades de índole política y religiosa o discriminación racial."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :ethics]}
+ #:association-rule{:id "uip.statute-art3-labor-conflicts"
+                    :title "Statute Art. 3(j): UIP studies conflicts between capital and labour and may organize conciliation or arbitration tribunals"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo I, Finalidades, Art. 3° j."
+                    :source-quote "Estudiar los conflictos entre el capital, el trabajo y los recursos humanos, perseguir la mejor armonía entre estos factores y buscar soluciones concordantes con la justicia y las leyes del país. Para el efecto, podrá organizar tribunales de conciliación o de arbitraje"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :labor]}
+ #:association-rule{:id "uip.statute-art13-member-categories"
+                    :title "Statute Art. 13: there are three membership categories -- active, adherent and honorary; active members are industrial companies and associations"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo II, Categorías, Art. 13°"
+                    :source-quote "Habrá 3 (tres) categorías de socios: activos, adherentes y honorarios. Los socios activos serán empresas y gremios industriales."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :membership]}
+ #:association-rule{:id "uip.statute-art27-arrears"
+                    :title "Statute Art. 27(a): failure to pay six overdue monthly dues is a cause for losing membership"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo II, Art. 27° a."
+                    :source-quote "Son causales para perder el carácter de asociado: a. La falta de pago de 6 (seis) mensualidades vencidas."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :membership]}
+ #:association-rule{:id "uip.statute-art36-assembly-supreme"
+                    :title "Statute Art. 36: the Assembly is UIP's highest authority"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo V, De las Asambleas, Art. 36°"
+                    :source-quote "La Asamblea es la máxima autoridad de la UIP."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "uip.statute-art58-president-term"
+                    :title "Statute Art. 58: UIP's President serves a three-year term, re-electable for one further three-year term"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo V, Duración en sus funciones, Art. 58°"
+                    :source-quote "El Presidente de la Unión Industrial Paraguaya durará en su mandato 3 (tres) años y podrá ser reelecto por un periodo más de 3 (tres) años"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "uip.statute-art81-honor-tribunal"
+                    :title "Statute Art. 81: the Tribunal de Honor interprets and assesses the ethical conduct of members and authorities under the Statute and the Code of Conduct"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo VI, Del Tribunal de Honor, Art. 81°"
+                    :source-quote "El Tribunal de Honor es un órgano que tendrá por función la interpretación y valoración de la de conducta ética de los socios y autoridades de la UIP, de acuerdo a este Estatuto, el Código de Conducta"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :ethics]}
+ #:association-rule{:id "uip.statute-art82-dissolution"
+                    :title "Statute Art. 82: dissolution only by an extraordinary general assembly with a three-quarters quorum and a two-thirds favourable vote"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, Capítulo VII, Disolución, Art. 82°"
+                    :source-quote "La disolución de la Unión Industrial Paraguaya solo podrá ser resuelta por una asamblea general extraordinaria, convocada al efecto, requiriéndose un quórum de las tres cuartas partes de los asociados en actividad y la resolución favorable de dos tercios de los asociados."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :constitution]}
+ #:association-rule{:id "uip.statute-approved-1936-09-20"
+                    :title "The Statute was approved by the general assembly of members of 20 September 1936 (the Statute's closing approval note)"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, closing approval note"
+                    :source-quote "ESTE ESTATUTO FUE APROBADO POR LA ASAMBLEA GENERAL DE SOCIOS DEL DÍA 20/IX/1936"
+                    :established-date "1936-09-20"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :history]}
+ #:association-rule{:id "uip.statute-current-reform-2023-03-13"
+                    :title "The current Statute reforms were adopted by an extraordinary general assembly of 25 January 2022 and approved by Executive Decree No. 8953 of 13 March 2023"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Estatuto.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Estatutos, closing approval note"
+                    :source-quote "LAS ACTUALES REFORMAS POR ASAMBLEA GENERAL EXTAORDINARIA DE FECHA 25/I/2022 Y POR DECRETO DEL PODER EJECUTIVO N° 8953 DE FECHA 13/III/2023"
+                    :last-revised-date "2023-03-13"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "uip.code-of-conduct-2019-12-17"
+                    :title "UIP's Code of Conduct was examined and approved by the Consejo Directivo in ordinary session on 17 December 2019"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Codigo_Conducta.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Código de Conducta de la Unión Industrial Paraguaya, preamble"
+                    :source-quote "En la ciudad de Asunción, a los 17 días del mes de diciembre del año 2019 se reúne el Consejo Directivo en Sesión Ordinaria"
+                    :established-date "2019-12-17"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "uip.code-transparency"
+                    :title "Code of Conduct Art. 7: UIP's governing bodies observe the principle of transparency in their management"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Codigo_Conducta.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Código de Conducta, Artículo 7 (Principios de conducta), Transparencia"
+                    :source-quote "Los Órganos de Gobierno de la Unión Industrial Paraguaya observarán el principio de transparencia en su gestión."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "uip.code-conflict-of-interest"
+                    :title "Code of Conduct Art. 8: a governing-body member with a personal or professional interest must abstain from taking part, voting and being present during the decision"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2023/12/UIP_Codigo_Conducta.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Código de Conducta, Artículo 8, Situación de conflictos de interés"
+                    :source-quote "Ante la existencia de cualquier interés personal o profesional, el miembro de los Órganos de Gobierno o cargo de la institución deberá abstenerse no solo de intervenir y votar, sino también de hallarse presente durante la toma de decisión."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :compliance]}
+ #:association-rule{:id "uip.quality-policy-iso-9001"
+                    :title "UIP's Quality Policy commits to excellence and innovation based on the continual-improvement principles of ISO 9001:2015"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2024/08/PoliticaDeCalidad.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Política de Calidad (signed statement)"
+                    :source-quote "Trabajamos en función de la excelencia y la innovación, basándonos en los principios de mejora continua de norma internacional ISO 9001:2015."
+                    :date-unknown-because :date-is-separated-from-span-by-a-signatory-name
+                    :retrieved-at "2026-09-24"
+                    :topic [:compliance :governance]}
+ #:association-rule{:id "uip.communication-policy-2024-12-10"
+                    :title "UIP's Communication and Institutional Image Policy was presented and approved in session No. 9 of the Consejo Directivo on 10 December 2024"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2025/02/POLITICA-DE-COMUNICACION-E-IMAGEN-INSTITUCIONAL.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Política de Comunicación de la Unión Industrial Paraguaya, closing line"
+                    :source-quote "Documento presentado y aprobado en sesión del Consejo Directivo N° 9. 10 de diciembre de 2024."
+                    :established-date "2024-12-10"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "uip.communication-policy-logo-restrictions"
+                    :title "Communication Policy 3.1: use of the UIP logo is prohibited in political or religious activities or those implying conflicts of interest"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/wp-content/uploads/2025/02/POLITICA-DE-COMUNICACION-E-IMAGEN-INSTITUCIONAL.pdf"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Política de Comunicación, 3.1 Uso del Logo e Imagen Institucional, Limitaciones"
+                    :source-quote "Queda prohibido el uso del logo en: • Actividades políticas, religiosas o que impliquen conflictos de interés."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:ethics :policy]}
+ #:association-rule{:id "uip.certificates-of-origin"
+                    :title "UIP issues Certificates of Origin for the whole tariff universe except wood and its derivatives"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/certificaciones/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Dpto. de Certificaciones page, Certificado de Origen"
+                    :source-quote "La Unión Industrial Paraguaya (UIP), presta el servicio de expedición del Certificado de Origen, para el universo arancelario, excepto madera y sus derivados."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:trade :compliance]}
+ #:association-rule{:id "uip.cee-economic-studies"
+                    :title "UIP's Centro de Estudios Económicos (CEE) promotes better business decision-making in Paraguay based on research and economic analysis"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/cee/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Centro de Estudios Económicos page"
+                    :source-quote "El Centro de Estudios Económicos (CEE) de la UIP es el órgano que promueve la permanente mejora en la toma decisiones a nivel empresarial del Paraguay, basada en la investigación, la prospección y el análisis exhaustivo de la realidad económica del país"
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:policy :education]}
+ #:association-rule{:id "uip.paraguayo-como-vos-2015"
+                    :title "UIP Joven's 'Paraguayo Como Vos' campaign, the largest national campaign promoting Paraguayan industry, was born in 2015 in an alliance with the Ministry of Industry and Commerce and the supermarket chamber"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/uip-joven/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "UIP Joven page, Actividades Destacadas, Campaña Paraguayo Como Vos"
+                    :source-quote "Se trata de la mayor campaña nacional de promoción de la industria paraguaya que nace en el año 2015 en el marco de una alianza con el Ministerio de Industria y Comercio y la Cámara Paraguaya de Supermercados"
+                    :established-date "2015"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:trade :policy]}
+ #:association-rule{:id "uip.child-labour-drawing-contest-2013"
+                    :title "The Comisión de Damas page states UIP's annual 'No al Trabajo Infantil' drawing contest began in 2013 and has run yearly except in pandemic years (the contest's own page says 'Desde 2016'; see uip.child-labour-drawing-contest-since-2016)"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/comision-de-damas/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Comisión de Damas page, Actividad destacada"
+                    :source-quote "El concurso tuvo sus inicios en el año 2013 y desde entonces se realiza de forma anual, con la excepción de los años afectados por la pandemia del COVID."
+                    :established-date "2013"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:labor :history]}
+ #:association-rule{:id "uip.child-labour-drawing-contest-since-2016"
+                    :title "The contest's own page states that since 2016 thousands of children have taken part in UIP's 'No al Trabajo Infantil' drawing initiative (the Comisión de Damas page gives 2013; both are recorded as each page states them)"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/no-al-trabajo-infantil/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Concurso de Dibujo - No al Trabajo Infantil page, 'Diez años de compromiso'"
+                    :source-quote "Desde 2016, miles de niños y niñas han participado con sus dibujos en esta iniciativa que se ha convertido en un referente de compromiso social de la UIP."
+                    :established-date "2016"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:labor :history]}
+ #:association-rule{:id "uip.fundacion-industrial"
+                    :title "The Fundación Industrial is a UIP financial instrument that seeks to accelerate the growth of industries and companies through accessible services"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/fundacion-industrial/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Fundación Industrial page, Misión"
+                    :source-quote "Somos una herramienta financiera de la UIP, que busca acelerar el crecimiento de las industrias y empresas de otros sectores a través de servicios innovadores y accesibles."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:finance :governance]}
+ #:association-rule{:id "uip.centro-mipyme-cumple"
+                    :title "Centro Mi Pyme Cumple is an initiative of UIP, CNCSP, CAPACO, UCA and the ILO supporting Paraguayan MSMEs in their transition to the formal economy"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/centro-mipyme-cumple/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Centro Mi Pyme Cumple page, Sobre el centro"
+                    :source-quote "El Centro Mi Pyme Cumple es una iniciativa de la UIP, CNCSP, CAPACO, UCA y la OIT que busca apoyar a las mipymes de Paraguay en su transición hacia la economía formal."
+                    :date-unknown-because :page-does-not-date-it
+                    :retrieved-at "2026-09-24"
+                    :topic [:labor :compliance]}
+ #:association-rule{:id "uip.90th-anniversary"
+                    :title "UIP marked 90 years of institutional life with an anniversary dinner (UIP news post of 17/09/2026; the post does not date the dinner itself)"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/2026/09/17/la-uip-celebro-sus-90-anos-con-una-mirada-sobre-la-idustria-paraguaya-y-nuevos-anuncios-para-el-sector/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Noticias: 'La UIP celebró sus 90 años ...' (17/09/2026)"
+                    :source-quote "La Unión Industrial Paraguaya (UIP) conmemoró sus 90 años de vida institucional con una cena aniversario"
+                    :date-unknown-because :post-does-not-date-the-event
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :governance]}
+ #:association-rule{:id "uip.fogain-decree-at-90th"
+                    :title "The decree creating the Fondo de Garantía Industrial (FOGAIN) was signed by the President of the Republic during UIP's 90th-anniversary celebration"
+                    :association "uip"
+                    :isic "9411"
+                    :country "PRY"
+                    :kind :governance-program
+                    :url "https://uip.org.py/2026/09/17/la-uip-celebro-sus-90-anos-con-una-mirada-sobre-la-idustria-paraguaya-y-nuevos-anuncios-para-el-sector/"
+                    :url-provenance :official-uip-org-py
+                    :source-article "Noticias: 'La UIP celebró sus 90 años ...', FOGAIN paragraph"
+                    :source-quote "A esta herramienta se suma el Fondo de Garantía Industrial (FOGAIN), cuyo decreto de creación fue firmado durante la celebración por el presidente de la República,"
+                    :date-unknown-because :post-does-not-date-the-event
+                    :retrieved-at "2026-09-24"
+                    :topic [:finance :policy]}]

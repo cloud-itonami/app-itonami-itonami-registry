@@ -1,0 +1,26 @@
+;; data/datascript-tx.edn — provider artifact derived from
+;; src/association_facts.kotoba
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "acc.our-150-years-history"
+                     :title "Our 150 Years History"
+                     :association "acc"
+                     :isic "2011"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.americanchemistry.com/about-acc/our-150-years-history"
+                     :url-provenance :official-association-site
+                     :established-date "1872"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "acc.responsible-care-overview"
+                     :title "Responsible Care Overview"
+                     :association "acc"
+                     :isic "2011"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.americanchemistry.com/driving-safety-sustainability/responsible-care-driving-safety-sustainability/resources/responsible-care-overview"
+                     :url-provenance :official-association-site
+                     :established-date "1988"
+                     :retrieved-at "2026-07-16"
+                     :topic [:safety :environment]}]

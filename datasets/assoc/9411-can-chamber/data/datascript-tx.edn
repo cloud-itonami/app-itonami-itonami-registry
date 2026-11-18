@@ -1,0 +1,267 @@
+;; data/datascript-tx.edn — the Canadian Chamber of Commerce catalog
+;; (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote).
+;; `kbb --backend sci scripts/verify-catalog.cljk --live` fetches each :url
+;; and requires that span to still be in it.
+;;
+;; No personal names of office-holders are persisted here. The History page
+;; names the first President, the first Secretary, the first woman Chair and
+;; the first woman President and CEO; the spans quoted below stop before each
+;; name, and the two "first woman" milestones are not recorded at all because
+;; no span states them without the name.
+
+[#:association-rule{:id "canadianchamber.founding-1925-winnipeg"
+                    :title "At a national conference in Winnipeg, business leaders resolved to create a unified voice for Canadian commerce, founding what became the Canadian Chamber of Commerce"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :governance-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1925 At a national conference in Winnipeg, business leaders resolved to create a unified voice for Canadian commerce."
+                    :established-date "1925"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "canadianchamber.first-agm-1926-board-of-trade"
+                    :title "The First Annual Meeting was held in Saint John, New Brunswick, where the organization became the Canadian Board of Trade"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :governance-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1926 First Annual Meeting held in Saint John, New Brunswick. The organization became the Canadian Board of Trade"
+                    :established-date "1926"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "canadianchamber.permanent-name-1927"
+                    :title "The permanent name Canadian Chamber of Commerce was chosen in 1927"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :governance-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1927 Permanent name chosen: Canadian Chamber of Commerce."
+                    :established-date "1927"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "canadianchamber.incorporation-1929-letters-patent"
+                    :title "Incorporated under the Companies Act by letters patent issued by the Secretary of State of Canada on 12 January 1929"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :constitution
+                    :url "https://chamber.ca/about/governance/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "Governance"
+                    :source-quote "We were incorporated under the Companies Act by letters patent issued by the Secretary of State of Canada on January 12, 1929."
+                    :established-date "1929-01-12"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "canadianchamber.first-trade-mission-1929"
+                    :title "In 1929 the organization was officially incorporated and launched its first international trade mission"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :international-affiliation
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1929 Officially incorporated and launched the first international trade mission."
+                    :established-date "1929"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :international]}
+ #:association-rule{:id "canadianchamber.supplementary-letters-patent-1997"
+                    :title "Supplementary letters patent were issued in 1948, 1958, 1971, 1973 and, most recently, on 22 July 1997"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :constitution
+                    :url "https://chamber.ca/about/governance/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "Governance"
+                    :source-quote "Supplementary letters patent were issued by the Secretary of State of Canada on June 18, 1948, on January 24, 1958, on February 19, 1971, on October 31, 1973 and on July 22, 1997."
+                    :last-revised-date "1997-07-22"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :constitution]}
+ #:association-rule{:id "canadianchamber.continued-under-cnca-2014"
+                    :title "Since 28 January 2014 the Chamber has been continued under, and is governed by, the Canada Not-for-profit Corporations Act"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :constitution
+                    :url "https://chamber.ca/about/governance/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "Governance"
+                    :source-quote "As of January 28, 2014, we were continued under and are currently governed by the Canada Not-for-profit Corporations Act."
+                    :last-revised-date "2014-01-28"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :constitution :statute]}
+ #:association-rule{:id "canadianchamber.bilingual-name-1958"
+                    :title "The bilingual name The Canadian Chamber of Commerce / La Chambre de commerce du Canada was adopted in 1958"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :governance-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1958 Adopted bilingual name: The Canadian Chamber of Commerce"
+                    :established-date "1958"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "canadianchamber.ata-carnet-issuing-1972"
+                    :title "The Chamber began issuing ATA Carnets to support Canadian exporters in 1972"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :trade-facilitation-service
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1972 Began issuing ATA Carnets to support Canadian exporters."
+                    :established-date "1972"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :trade]}
+ #:association-rule{:id "canadianchamber.ata-carnet-national-guaranteeing-organization"
+                    :title "The Chamber is the Canadian national guaranteeing organization for ATA Carnets, which it has issued since 1972"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :trade-facilitation-service
+                    :url "https://chamber.ca/programs-services/ata-carnet/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "ATA Carnet (About the ATA Carnet)"
+                    :source-quote "As the Canadian national guaranteeing organization, we have been issuing Carnets since 1972."
+                    :established-date "1972"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:trade :international]}
+ #:association-rule{:id "canadianchamber.head-office-to-ottawa-1982"
+                    :title "The national head office was relocated from Montreal to Ottawa in 1982"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :organisational-structure
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "1982 Relocated national head office from Montreal to Ottawa."
+                    :established-date "1982"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "canadianchamber.business-resilience-network-2020"
+                    :title "The Canadian Business Resilience Network was launched in 2020 to help businesses weather the COVID-19 pandemic"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :policy-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "2020 Launched the Canadian Business Resilience Network to help businesses weather the COVID-19 pandemic."
+                    :established-date "2020"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :policy]}
+ #:association-rule{:id "canadianchamber.strategic-plan-2022"
+                    :title "The Chamber 2025 Strategic Plan was introduced in 2022, launching initiatives such as the Business Data Lab"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :governance-program
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "2022 Introduced the Chamber 2025 Strategic Plan, launching initiatives like the Business Data Lab."
+                    :established-date "2022"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "canadianchamber.governance-modernized-2023"
+                    :title "Governance was modernized in 2023, moving to a smaller, skills-based Board and creating new advisory bodies"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :organisational-structure
+                    :url "https://chamber.ca/about/history/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "History (100 Years of Impact, Influence and Insight timeline)"
+                    :source-quote "2023 Modernized governance, moving to a smaller, skills-based Board and creating new advisory bodies."
+                    :established-date "2023"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "canadianchamber.policy-resolutions-voted-at-agm"
+                    :title "Committees and member chambers and boards of trade submit policy resolutions every year; they are voted on at the AGM and the adopted ones set the national advocacy agenda for the following year"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :policy-program
+                    :url "https://chamber.ca/advocacy/policy-resolutions/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "Policy Resolutions"
+                    :source-quote "Every year, our committees and member chambers and boards of trade submit resolutions to our policy process. The resolutions are voted on at our AGM, with adopted resolutions setting our national advocacy agenda for the upcoming year."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:policy :governance :membership]}
+ #:association-rule{:id "canadianchamber.committees-open-to-all-members"
+                    :title "Policy committees are open to all members and are the foundation of the Chamber's advocacy work"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :membership-rule
+                    :url "https://chamber.ca/advocacy/policy-committees/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "Committees"
+                    :source-quote "Committees are open to all members and are the best way for you to engage with us on policy activities."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :policy]}
+ #:association-rule{:id "canadianchamber.membership-separate-from-local-chambers"
+                    :title "Membership in the Canadian Chamber is separate from membership in a local, regional or provincial/territorial chamber"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :membership-rule
+                    :url "https://chamber.ca/about/faq/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "FAQ"
+                    :source-quote "Membership with the Canadian Chamber is separate from membership with a local, regional or provincial/territorial chamber."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership]}
+ #:association-rule{:id "canadianchamber.icc-canada-national-committee"
+                    :title "The Chamber is Canada's National Committee of the International Chamber of Commerce and operates as ICC Canada"
+                    :association "canadianchamber"
+                    :isic "9411"
+                    :country "CAN"
+                    :kind :international-affiliation
+                    :url "https://chamber.ca/about/faq/"
+                    :url-provenance :official-chamber-ca
+                    :source-article "FAQ (What's the difference between the Canadian Chamber and ICC Canada?)"
+                    :source-quote "National Committee of the International Chamber of Commerce, we operate as ICC Canada."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:international]}]

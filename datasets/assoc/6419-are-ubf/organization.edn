@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "UAE Banks Federation"
+ :abbreviation "UBF"
+ :official-url "https://www.ubf.ae/"
+ :isic "6419"
+ :country "ARE"
+ :established-date "1982"
+ :head-role-note "institutional office title only (Chairman); personal names of current office-holders are intentionally NOT stored (the org's own homepage names its sitting Chairman -- read only to confirm the governance-structure description, never persisted here)"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- ubf.ae's own homepage states plainly: 'Established in 1982, UAE Banks Federation (UBF) is the sole representative body of the member banks and financial institutions operating in the UAE.' No Wikidata Q-id was found for this organization specifically (only for related entities like the Central Bank of the UAE) -- :wikidata is deliberately omitted rather than guessed"}

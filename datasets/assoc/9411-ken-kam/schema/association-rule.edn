@@ -1,0 +1,18 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-9411-sau-fsc / -9411-aut-wko / -9411-irl-ibec /
+;; -9411-nzl-businessnz / -9411-cze-spcr / -9411-ind-cii / -9411-zaf-busa /
+;; -9411-bra-cni / ... files.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}}

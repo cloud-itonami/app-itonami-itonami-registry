@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Water Works Association"
+ :name-local "American Water Works Association"
+ :abbreviation "AWWA"
+ :legal-form "501(c)(3) nonprofit scientific and educational association"
+ :official-url "https://www.awwa.org/"
+ :wikidata "Q4745366"
+ :isic "3600"
+ :country "USA"
+ :established-date "1881-03-29"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-15 -- founding directly confirmed on AWWA's own Who We Are page ('On March 29, 1881, 22 water utility managers, engineers, and operators gathered at the Campus of Washington University in St. Louis, Missouri... marked the founding of AWWA')"}

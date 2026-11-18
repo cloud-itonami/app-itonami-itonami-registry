@@ -1,0 +1,34 @@
+;; schema/association-rule.edn — DataScript schema for `association.facts`
+;; (ADR-2607141700). Identical shape to the sibling
+;; cloud-itonami-assoc-6419-jpn-zenginkyo / -6512-jpn-sonpo / -6612-jpn-jsda /
+;; -6419-deu-bankenverband / -6612-usa-finra / -6512-usa-naic /
+;; -6920-jpn-jicpa / -6920-usa-aicpa / -6419-fra-fbf / -6511-jpn-seiho /
+;; -6910-jpn-nichibenren / -6810-jpn-recaj files.
+;;
+;; One deviation, deliberate: `:association-rule/country` holds "EU" here (the
+;; ISO 3166-1 exceptionally reserved code), not an iso3 country, because the
+;; EMF is supranational. See organization.edn `:country-code-note`.
+
+{:association-rule/id {:db/unique :db.unique/identity}
+ :association-rule/title {}
+ :association-rule/association {:db/index true}
+ :association-rule/isic {:db/index true}
+ :association-rule/country {:db/index true}
+ :association-rule/kind {:db/index true}
+ :association-rule/url {}
+ :association-rule/url-provenance {:db/index true}
+ :association-rule/established-date {}
+ :association-rule/last-revised-date {}
+ :association-rule/retrieved-at {}
+ :association-rule/topic {:db/cardinality :db.cardinality/many :db/index true}
+
+ ;; Additions over the sibling schema, so that evidence strength is queryable
+ ;; rather than buried in prose:
+ ;;   /quote               verbatim text from a page that WAS fetched
+ ;;   /note                what is known NOT to have been verified
+ ;;   /edition-url         a concrete edition of a serial publication
+ ;;   /edition-provenance  evidence strength for that edition URL specifically
+ :association-rule/quote {}
+ :association-rule/note {}
+ :association-rule/edition-url {}
+ :association-rule/edition-provenance {:db/index true}}

@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "nab.political-broadcast-catechism"
+                     :title "Political Broadcast Catechism, 16th Edition"
+                     :association "nab"
+                     :isic "6020"
+                     :country "USA"
+                     :kind :best-practices-guide
+                     :url "https://www.nab.org/documents/membership/memberDownloads/Political_Catechism.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2014"
+                     :retrieved-at "2026-07-15"
+                     :topic [:political-advertising :disclosure]}
+ #:association-rule{:id "nab.our-mission-centennial"
+                     :title "Our Mission (Celebrating 100 Years, organization profile)"
+                     :association "nab"
+                     :isic "6020"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.nab.org/100/nab/ourMission.asp"
+                     :url-provenance :official-association-site
+                     :established-date "1923"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

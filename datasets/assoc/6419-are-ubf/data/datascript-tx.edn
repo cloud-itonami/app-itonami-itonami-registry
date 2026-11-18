@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "ubf.founding-1982"
+                     :title "UBF founding (homepage)"
+                     :association "ubf"
+                     :isic "6419"
+                     :country "ARE"
+                     :kind :governance-program
+                     :url "https://www.ubf.ae/"
+                     :url-provenance :official-ubf-ae
+                     :established-date "1982"
+                     :retrieved-at "2026-07-16"
+                     :topic [:governance]}
+ #:association-rule{:id "ubf.tasharuk-platform-2017"
+                     :title "TASHARUK cyber threat intelligence sharing platform (Initiatives)"
+                     :association "ubf"
+                     :isic "6419"
+                     :country "ARE"
+                     :kind :governance-program
+                     :url "https://ubf.ae/en/activities/initiatives/initiatives-details/3"
+                     :url-provenance :official-ubf-ae
+                     :established-date "2017"
+                     :retrieved-at "2026-07-16"
+                     :topic [:technology-standards]}]

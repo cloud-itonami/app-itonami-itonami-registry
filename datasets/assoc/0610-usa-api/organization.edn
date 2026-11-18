@@ -1,0 +1,16 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+;; NOTE: "API" here is the American Petroleum Institute, NOT a
+;; software Application Programming Interface -- disambiguated
+;; explicitly given the shared initialism.
+{:name-en "American Petroleum Institute"
+ :name-local "American Petroleum Institute"
+ :abbreviation "API"
+ :legal-form "national trade association for the natural gas and oil industry"
+ :official-url "https://www.api.org/"
+ :wikidata "Q466043"
+ :isic "0610"
+ :country "USA"
+ :established-date "1919-03-20"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- founding directly confirmed on API's own 'About API' page ('The American Petroleum Institute was established on March 20, 1919')"}

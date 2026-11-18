@@ -1,0 +1,227 @@
+;; data/datascript-tx.edn — DataScript tx-data for `association.facts/catalog`
+;; (ADR-2607141700 Wave 0). Same shape as the sibling -assoc-9411-* files.
+;;
+;; Uses the "cip-prt" slug (not bare "cip") to disambiguate from Ecuador's
+;; unrelated cloud-itonami-assoc-9411-ecu-cip, which already occupies "cip".
+;;
+;; SOURCE OF TRUTH for two derived copies:
+;;   - src/association_facts.kotoba  (scripts/gen-kotoba-port.cljs, --check)
+;;   - src/association/facts.cljc    (compared to the port, field by field, by
+;;                                    test/association_facts_kotoba_parity_test.clj)
+;;
+;; Every entry carries :source-quote -- the verbatim span at :url that the
+;; entry rests on. A URL that answers 200 and no longer contains the claim
+;; looks exactly like one that does, so reachability alone would let a citation
+;; rot silently. scripts/verify-catalog.cljs --live checks the span, not the
+;; status code.
+
+[#:association-rule{:id "cip-prt.founding-1974-05"
+                    :title "CIP founded in May 1974, as Confederação da Indústria Portuguesa"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Foundation of CIP."
+                    :corroborating-url "https://pt.wikipedia.org/wiki/CIP_%E2%80%93_Confedera%C3%A7%C3%A3o_Empresarial_de_Portugal"
+                    :corroborating-provenance :wikipedia-corroborated
+                    :corroborating-quote "fundada em maio de 1974"
+                    :established-date "1974-05"
+                    :date-basis :corroborating-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.first-industry-congress-1975"
+                    :title "1st Congress of Portuguese Industry"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "1st Congress of Portuguese Industry."
+                    :established-date "1975"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.porto-delegation-1976"
+                    :title "CIP opens its Porto delegation"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Opening of CIP’s delegation in Porto."
+                    :established-date "1976"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.unice-full-member-1981"
+                    :title "CIP admitted as a full member of UNICE (today BusinessEurope)"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :membership
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Admission of CIP as full member of UNICE – Union of Industrial and Employers’ Confederation of Europe."
+                    :established-date "1981"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :europe]}
+ #:association-rule{:id "cip-prt.eesc-representation-1986"
+                    :title "CIP begins representation in the European Economic and Social Committee"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :membership
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "CIP begins its representation in the European Economic and Social Council (EESC) in Brussels."
+                    :established-date "1986"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :europe]}
+ #:association-rule{:id "cip-prt.cnep-constitution-1990"
+                    :title "Formal constitution of CNEP, with CAP and CCP"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Formal constitution of CNEP – National Council of Portuguese Companies"
+                    :established-date "1990"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.economic-social-agreement-1990"
+                    :title "Social Dialogue — Economic and Social Agreement"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :tripartite-agreement
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Social Dialogue – Economic and Social Agreement."
+                    :established-date "1990"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cip-prt.order-of-merit-1999-06-09"
+                    :title "CIP made an Honorary Member of the Order of Merit for Agriculture, Commerce and Industry (Industrial class)"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "25 years of CIP: in this occasion CIP is bestowed with the title of Honorary member of the Agricultural, Commercial and Industrial Order of Merit (Class of Industrial Merit)"
+                    :corroborating-url "https://pt.wikipedia.org/wiki/CIP_%E2%80%93_Confedera%C3%A7%C3%A3o_Empresarial_de_Portugal"
+                    :corroborating-provenance :wikipedia-corroborated
+                    :corroborating-quote "A 9 de Junho de 1999, foi agraciada com o grau de Membro-Honorário da Ordem Civil do Mérito Agrícola, Industrial e Comercial"
+                    :established-date "1999-06-09"
+                    :date-basis :corroborating-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.portuguese-business-council-2002-02-19"
+                    :title "Constitution of the Portuguese Business Council, joining CIP, CAP, CCP, AEP and AIP"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "February 19th, constitution of the Portuguese Business Council, joining CIP, CAP, CCP, AEP and AIP in one organization."
+                    :established-date "2002-02-19"
+                    :date-basis :in-quote-under-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.tripartite-labour-regulation-2008"
+                    :title "Tripartite agreement on a new system of regulation for labour relations, employment policy and social protection"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :tripartite-agreement
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Tripartite Agreement for a new System of Regulation for Labour Relations, Employment policies and Social Protection in Portugal."
+                    :corroborating-url "https://ces.pt/concertacao-social/acordos-de-concertacao-social/"
+                    :corroborating-provenance :pt-social-concertation-body
+                    :corroborating-quote "Acordo tripartido para um novo sistema de regulação das relações laborais, das políticas de emprego e da proteção social em Portugal"
+                    :established-date "2008"
+                    :date-basis :timeline-year-heading
+                    :date-not-narrowed-because "The CES index prints 29 de Março against most of its older agreements, including this one; the same day-and-month repeats across unrelated years, so it is the list's default rather than a signature date. Year-only is what two sources agree on."
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cip-prt.renamed-2010"
+                    :title "CIP established under its present name, CIP - Confederação Empresarial de Portugal"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :governance-program
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "CIP is established as CIP – Confederation of Portuguese Business."
+                    :corroborating-url "https://pt.wikipedia.org/wiki/CIP_%E2%80%93_Confedera%C3%A7%C3%A3o_Empresarial_de_Portugal"
+                    :corroborating-provenance :wikipedia-corroborated
+                    :corroborating-quote "assumiu, em 2010, a designação CIP – Confederação Empresarial de Portugal"
+                    :established-date "2010"
+                    :date-basis :corroborating-quote
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "cip-prt.tripartite-competitiveness-employment-2011"
+                    :title "Tripartite Agreement for Competitiveness and Employment"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :tripartite-agreement
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Tripartite Agreement for Competitiveness and Employment."
+                    :established-date "2011"
+                    :date-basis :timeline-year-heading
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cip-prt.mid-term-agreement-2022"
+                    :title "CIP signs the Mid-Term Agreement to improve Incomes, Wages and Competitiveness"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :tripartite-agreement
+                    :url "https://cip.org.pt/en/history/"
+                    :url-provenance :official-cip-org-pt
+                    :source-quote "Signature of the Mid-Term Agreement to improve Incomes, Wages and Competitiveness"
+                    :corroborating-url "https://ces.pt/concertacao-social/acordos-de-concertacao-social/"
+                    :corroborating-provenance :pt-social-concertation-body
+                    :corroborating-quote "Acordo de Médio Prazo de Melhoria dos Rendimentos, dos Salários e da Competitividade"
+                    :established-date "2022"
+                    :date-basis :timeline-year-heading
+                    :date-not-narrowed-because "The CES index dates this 10 de Outubro, 2022, but the agreement it links is filed as ...Competitividade_9out2022.pdf. Two statements by the same body, one day apart; neither is quoted here as the day."
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cip-prt.social-concertation-seat"
+                    :title "CIP holds an employers' confederation seat in the Standing Committee for Social Concertation"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :membership
+                    :url "https://ces.pt/concertacao-social/composicao/"
+                    :url-provenance :pt-social-concertation-body
+                    :source-quote "Confederações Empresariais CIP - Confederação Empresarial de Portugal"
+                    :date-unknown-because "The CES composition page states the current membership without saying when CIP's seat began, and no date is recorded here that the page does not carry."
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cip-prt.businesseurope-member"
+                    :title "CIP is BusinessEurope's member federation for Portugal"
+                    :association "cip-prt"
+                    :isic "9411"
+                    :country "PRT"
+                    :kind :membership
+                    :url "https://www.businesseurope.eu/members/"
+                    :url-provenance :peak-body-businesseurope
+                    :source-quote "CIP Confederação Empresarial de Portugal"
+                    :date-unknown-because "The members list names the current member per country and carries no admission date; the 1981 UNICE admission is recorded separately from CIP's own timeline."
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :europe]}]

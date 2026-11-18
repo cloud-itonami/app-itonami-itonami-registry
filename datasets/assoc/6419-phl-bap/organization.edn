@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Bankers Association of the Philippines"
+ :abbreviation "BAP"
+ :official-url "https://bap.org.ph/"
+ :isic "6419"
+ :country "PHL"
+ :established-date "1949-03-29"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- bap.org.ph's own aboutus.html page states: 'Established on March 29, 1949, the BAP was created to frame rules and regulations in cooperation with the Central Bank...' and separately 'The BAP was officially incorporated as a duly Securities and Exchange Commission (SEC)-registered corporate entity on August 24, 1964.' A WebSearch synthesis had initially conflated two conflicting founding years (1947 vs 1949) -- the org's own primary-source page resolved this in favor of 1949. No Wikidata Q-id was found for BAP specifically -- :wikidata deliberately omitted rather than guessed"}

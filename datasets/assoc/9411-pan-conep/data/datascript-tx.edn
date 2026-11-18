@@ -1,0 +1,152 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files,
+;; plus :source-article / :source-quote (see schema/association-rule.edn).
+;;
+;; Every :source-quote below is a verbatim span of the document at :url, checked by
+;; `kbb --backend sci scripts/verify-catalog.cljk --live`. Do not paraphrase one to make it read
+;; better -- the whole point is that it is the document's own words, so a citation
+;; that stops supporting its entry fails instead of passing quietly.
+
+[#:association-rule{:id "conep.founding-1964-07-03"
+                    :title "Consejo Nacional de la Empresa Privada (CoNEP) founded in Panama City on 3 July 1964; a non-profit, non-political civil association constituted under ordinal 5 of article 64 of Panama's Civil Code (CoNEP's own Estatutos, article 1)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "1"
+                    :source-quote "fundado en la ciudad de Panamá, República de Panamá, el 3 de julio de 1964"
+                    :established-date "1964-07-03"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.estatutos-2021-11-24"
+                    :title "CoNEP's Estatutos currently in force were approved on 24 November 2021; they are the instrument every article-level rule in this catalog is read from (conep.org.pa's own Estatutos page)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/estatutos/"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "preamble"
+                    :source-quote "(Aprobados el 24 de noviembre de 2021)"
+                    :established-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.membership-eligibility-art-5"
+                    :title "Membership of CoNEP is open to duly constituted business and professional associations of recognised moral standing, admitted as such by the Council (Estatutos article 5)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "5"
+                    :source-quote "Podrán formar parte del CoNEP, en calidad de miembro, las asociaciones empresariales y profesionales debidamente constituidas"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.member-dues-forfeiture-art-9"
+                    :title "A CoNEP member three or more months in arrears on dues temporarily loses its vote; at six months it loses membership permanently, by absolute majority (Estatutos article 9)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "9"
+                    :source-quote "Perderá temporalmente el derecho a voto el miembro en mora en el pago de sus cuotas, ordinarias o extraordinarias por tres o más meses"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.council-cadence-art-10"
+                    :title "The Council meets at least every two months, and additionally whenever convened by the President or requested by four of its members (Estatutos article 10)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "10"
+                    :source-quote "El Consejo se reunirá por lo menos cada dos (2) meses"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.board-composition-art-12"
+                    :title "The Junta Directiva is seven elected directors plus the immediate past president, eight voting in total, for a one-year term running 1 January to 31 December (Estatutos article 12)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "12"
+                    :source-quote "conformada por siete (7) directores más el Expresidente inmediato, para un total de ocho (directores) con voz y voto, por el período de un (1) año"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.board-cadence-art-13"
+                    :title "The Junta Directiva meets at least once a month, and representatives of all member associations may attend in addition to its own members (Estatutos article 13)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "13"
+                    :source-quote "La Junta Directiva se reunirá por lo menos una vez al mes"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.board-quorum-art-14"
+                    :title "Quorum for a Junta Directiva meeting is at least five of its members (Estatutos article 14)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "14"
+                    :source-quote "El quórum necesario para la celebración de las reuniones de la Junta Directiva será al menos de cinco (5) de sus miembros"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.president-partisan-ban-art-17"
+                    :title "While in office the CoNEP president may not take an active part in partisan politics, on pain of immediate suspension, and may not simultaneously preside over any other trade body or business council (Estatutos article 17)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "17"
+                    :source-quote "El (la) presidente(a) mientras ejerza el cargo, no podrá participar activamente en política partidista"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.statute-reform-threshold-art-21"
+                    :title "The Estatutos may be reformed in whole or in part by at least 66% of the voting members present at an extraordinary assembly convened for that purpose with quorum (Estatutos article 21)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "21"
+                    :source-quote "Los Estatutos podrán ser reformados total o parcialmente, mediante el voto a favor de al menos 66% de los miembros presentes"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}
+ #:association-rule{:id "conep.dissolution-threshold-art-22"
+                    :title "CoNEP may be dissolved only at an extraordinary meeting convened for that purpose with at least 15 days notice and at least 75% of voting members in favour (Estatutos article 22)"
+                    :association "conep"
+                    :isic "9411"
+                    :country "PAN"
+                    :kind :governance-program
+                    :url "https://conep.org.pa/wp-content/uploads/2026/04/estatutos_conep_completo.pdf"
+                    :url-provenance :official-conep-org-pa
+                    :source-article "22"
+                    :source-quote "La disolución del CoNEP podrá ser acordada ÚNICAMENTE en reunión extraordinaria convocada para tal efecto, con no menos de 15 días de anticipación"
+                    :last-revised-date "2021-11-24"
+                    :retrieved-at "2026-08-31"
+                    :topic [:governance]}]

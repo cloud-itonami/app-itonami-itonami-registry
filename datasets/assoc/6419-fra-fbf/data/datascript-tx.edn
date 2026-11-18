@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "fbf.regles-professionnelles"
+                     :title "Règles professionnelles (Professional Rules)"
+                     :association "fbf"
+                     :isic "6419"
+                     :country "FRA"
+                     :kind :governance-program
+                     :url "https://www.fbf.fr/fr/la-federation/regles-professionnelles/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}
+ #:association-rule{:id "fbf.normes-professionnelles"
+                     :title "Normes professionnelles (Professional Standards, binding on all member institutions)"
+                     :association "fbf"
+                     :isic "6419"
+                     :country "FRA"
+                     :kind :self-regulatory-code
+                     :url "https://www.fbf.fr/fr/la-federation-bancaire-francaise/regles-professionnelles/normes-professionnelles/"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:consumer-protection :fair-transaction]}]

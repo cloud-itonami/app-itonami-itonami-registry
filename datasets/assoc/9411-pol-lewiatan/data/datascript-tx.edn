@@ -1,0 +1,149 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Every entry carries the verbatim span its claim rests on
+;; (`:association-rule/source-quote`) and how precisely its source dates the
+;; fact (`:association-rule/date-precision`). scripts/verify-catalog.cljs
+;; checks both: `--live` requires the span to still be in the page, and the
+;; structural pass requires the span to actually name the date the entry
+;; claims. A citation that resolves is not the same as a citation that
+;; supports, and the two look identical without the span.
+
+[#:association-rule{:id "lewiatan.centralny-zwiazek-founding-1919-12-15"
+                    :title "Centralny Związek Polskiego Przemysłu, Górnictwa, Handlu i Finansów (Lewiatan's pre-war predecessor) founded 15 December 1919"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/100-lat-lewiatana/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "100 lat Lewiatana"
+                    :source-quote "15 grudnia został powołany do życia Centralny Związek Polskiego Przemysłu, Górnictwa, Handlu i Finansów."
+                    :established-date "1919-12-15"
+                    :date-precision :day
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "lewiatan.tradition-adopted-2004-10-28"
+                    :title "Polska Konfederacja Pracodawców Prywatnych took over the pre-war Centralny Związek's tradition and adopted the 'Lewiatan' name on 28 October 2004"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/100-lat-lewiatana/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "100 lat Lewiatana"
+                    :source-quote "28 października 2004 r. Polska Konfederacja Pracodawców Prywatnych przejęła tradycję przedwojennego Centralnego Związku"
+                    :established-date "2004-10-28"
+                    :date-precision :day
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "lewiatan.przeglad-gospodarczy-first-issue-1920-04-01"
+                    :title "First issue of the Związek's own biweekly Przegląd Gospodarczy appeared 1 April 1920"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/100-lat-lewiatana/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "100 lat Lewiatana"
+                    :source-quote "1 kwietnia 1920 wyszedł pierwszy numer organu Związku, dwutygodnika „Przegląd Gospodarczy”."
+                    :established-date "1920-04-01"
+                    :date-precision :day
+                    :retrieved-at "2026-09-06"
+                    :topic [:publications]}
+ #:association-rule{:id "lewiatan.name-shortened-2015"
+                    :title "Organisation's name shortened in 2015 to today's Konfederacja Lewiatan"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/100-lat-lewiatana/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "100 lat Lewiatana"
+                    :source-quote "W 2015 roku nazwę organizacji skrócono i dzisiaj jest znana jako Konfederacja Lewiatan."
+                    :established-date "2015"
+                    :date-precision :year
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "lewiatan.wierzbicki-award-since-2004"
+                    :title "Lewiatan has awarded the annual Nagroda im. Andrzeja Wierzbickiego to entrepreneurs since 2004"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/100-lat-lewiatana/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "100 lat Lewiatana"
+                    :source-quote "Od 2004 r. Lewiatan przyznaje doroczną Nagrodę im. Andrzeja Wierzbickiego"
+                    :established-date "2004"
+                    :date-precision :year
+                    :retrieved-at "2026-09-06"
+                    :topic [:awards]}
+ #:association-rule{:id "lewiatan.businesseurope-member-since-2002"
+                    :title "Lewiatan has been Poland's only employers' organisation in BusinessEurope since 2002"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/businesseurope/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "BusinessEurope"
+                    :source-quote "Konfederacja Lewiatan jako jedyna polska organizacja pracodawców jest członkiem BusinessEurope od 2002 roku"
+                    :established-date "2002"
+                    :date-precision :year
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation]}
+ #:association-rule{:id "lewiatan.brussels-office-since-2001"
+                    :title "Lewiatan has maintained a permanent Brussels office since 2001, as the only representative Polish employers' organisation to do so"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/lewiatan-w-brukseli/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "Lewiatan w Brukseli"
+                    :source-quote "Jako jedyna reprezentatywna organizacja pracodawców z Polski posiadamy na stałe biuro w Brukseli, które działa od 2001 roku."
+                    :established-date "2001"
+                    :date-precision :year
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation]}
+ #:association-rule{:id "lewiatan.business-at-oecd-member-since-2023"
+                    :title "Lewiatan has been a member of Business at OECD (BIAC) since 2023"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/business-at-oecd-biac/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "Business at OECD (BIAC)"
+                    :source-quote "Od 2023 roku Konfederacja Lewiatan jest jej członkiem"
+                    :established-date "2023"
+                    :date-precision :year
+                    :retrieved-at "2026-09-06"
+                    :topic [:international-representation]}
+ #:association-rule{:id "lewiatan.social-dialogue-council-participant"
+                    :title "Lewiatan takes part in the Rada Dialogu Społecznego as a representative employers' organisation"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://lewiatan.org/rada-dialogu-spolecznego/"
+                    :url-provenance :official-lewiatan-org
+                    :source-article "Rada Dialogu Społecznego"
+                    :source-quote "Konfederacja Lewiatan uczestniczy w pracach RDS jako reprezentatywna organizacja pracodawców."
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:social-dialogue]}
+ #:association-rule{:id "lewiatan.businesseurope-direct-member-federation"
+                    :title "BusinessEurope's own member directory lists Polish Confederation Lewiatan among the national business federations that are its direct members"
+                    :association "lewiatan"
+                    :isic "9411"
+                    :country "POL"
+                    :kind :governance-program
+                    :url "https://www.businesseurope.eu/member/polish-confederation-lewiatan/"
+                    :url-provenance :official-businesseurope-eu
+                    :source-article "Member – Poland: Polish Confederation Lewiatan"
+                    :source-quote "We speak for enterprises of all sizes in 36 European countries whose national business federations are our direct members."
+                    :date-unknown-because :page-states-no-date
+                    :retrieved-at "2026-09-06"
+                    :topic [:european-representation]}]

@@ -1,0 +1,46 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (the sole production catalog authority).
+;; Same shape as sibling files.
+;;
+;; This file is DERIVED, and `association-facts-test/datascript-tx-matches-
+;; kotoba-authority` checks that it still matches the compiled catalog — it is
+;; not a second place to add an entry.
+
+[#:association-rule{:id "aba.1985-restructure"
+                     :title "1985 restructure -- formation of the modern ABA (The ABA)"
+                     :association "aba"
+                     :isic "6419"
+                     :country "AUS"
+                     :kind :governance-program
+                     :url "https://www.ausbanking.org.au/about-us/the-aba/"
+                     :url-provenance :official-ausbanking-org-au
+                     :established-date "1985"
+                     :retrieved-at "2026-07-16"
+                     :addressee :member-bank
+                     :parameter-disposition :no-parameter
+                     :topic [:governance]}
+ #:association-rule{:id "aba.1997-mission-refocus"
+                     :title "1997 mission refocus toward advocacy (The ABA)"
+                     :association "aba"
+                     :isic "6419"
+                     :country "AUS"
+                     :kind :policy-position
+                     :url "https://www.ausbanking.org.au/about-us/the-aba/"
+                     :url-provenance :official-ausbanking-org-au
+                     :established-date "1997"
+                     :retrieved-at "2026-07-16"
+                     :addressee :member-bank
+                     :parameter-disposition :no-parameter
+                     :topic [:governance]}
+ #:association-rule{:id "aba.scam-safe-accord"
+                     :title "Scam-Safe Accord (Keeping Australia Scam Safe)"
+                     :association "aba"
+                     :isic "6419"
+                     :country "AUS"
+                     :kind :self-regulatory-code
+                     :url "https://www.ausbanking.org.au/scam-safe-accord/"
+                     :url-provenance :official-ausbanking-org-au
+                     :retrieved-at "2026-07-29"
+                     :addressee :member-bank
+                     :parameter-disposition :mandates-control-not-number
+                     :topic [:financial-crime :transfer-limit]}]

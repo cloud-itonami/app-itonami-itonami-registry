@@ -1,0 +1,418 @@
+;; data/datascript-tx.edn — the ANDI catalog. THIS FILE IS WHERE THE FACTS ARE
+;; AUTHORED. Both readings under src/ are generated from it by
+;; scripts/gen-kotoba-port.cljk; `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches every :url and requires every :source-quote to still be in it.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote). Spans are quoted as the
+;; page or PDF text reads after tags are stripped, entities decoded,
+;; zero-width characters removed and whitespace collapsed -- which is what
+;; the checker compares against. When the document dates itself in a span
+;; that is not contiguous with the claim (a signature block, a closing line),
+;; :date-quote carries that second span from the same document and the date
+;; is checked against it.
+;;
+;; andi.com.co refuses non-browser clients: `/` answers 403 with a WAF page,
+;; every other path drops the connection (measured 2026-09-11; July's note
+;; recorded "socket hang up"). The first-party pages and documents are
+;; therefore cited at the Internet Archive's capture of them, and the checker
+;; verifies that each such URL wraps an andi.com.co original. The capture
+;; timestamp is in the URL; :retrieved-at is when THIS catalog read it.
+;;
+;; No personal name of any office-holder is persisted here. The site's
+;; presidency page, the statutes' signature block and Wikipedia's list of
+;; presidents all carry names; they are cited only for what they say about
+;; the institution.
+
+[;; ---- founding, first-party, and the city settled ----
+ #:association-rule{:id "andi.founding-1944-09-11"
+                    :title "ANDI (Asociación Nacional de Empresarios de Colombia, historically Asociación Nacional de Industriales) was founded on 11 September 1944 in Medellín, by its own account. July's catalog could only reach Wikipedia, which was then internally inconsistent about the city (Usaquén vs Antioquia); the first-party page names Medellín and the statutes (Art. 2) fix Medellín as the domicile."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :constitutive-instrument
+                    :url "https://web.archive.org/web/20260827155317/https://www.andi.com.co/Home/Pagina/1-quienes-somos"
+                    :url-provenance :official-andi-archived
+                    :source-article "Quiénes Somos (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "Fue fundada el 11 de septiembre de 1944 en Medellín y, desde entonces, es el gremio empresarial más importante de Colombia."
+                    :established-date "1944-09-11"
+                    :date-precision :day
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.founding-1944-09-11-wikipedia"
+                    :title "Founding date 11 September 1944 corroborated by es.wikipedia.org's article, which now also names Medellín (its July wording said Usaquén). Wikidata Q5641268's unreferenced '11 September 1994' inception was checked in July, found unsupported, and is still not used."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :constitutive-instrument
+                    :url "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Nacional_de_Industriales"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Asociación Nacional de Industriales (es.wikipedia.org)"
+                    :source-quote "Fue fundada el 11 de septiembre de 1944 en Medellín y, desde entonces, es el gremio empresarial más importante de Colombia."
+                    :established-date "1944-09-11"
+                    :date-precision :day
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.dinero-ranking-2017"
+                    :title "In 2017 ANDI and revista Dinero together produced the first edition of the business-innovation ranking ('escalafón de innovación empresarial') (es.wikipedia.org)."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://es.wikipedia.org/wiki/Asociaci%C3%B3n_Nacional_de_Industriales"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Asociación Nacional de Industriales (es.wikipedia.org)"
+                    :source-quote "En 2017, la ANDI y revista Dinero se unieron para hacer la primera versión del escalafón de innovación empresarial"
+                    :established-date "2017"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+
+ ;; ---- the 'Quiénes Somos' page: nature, seat, the Mega ----
+ #:association-rule{:id "andi.nonprofit-free-enterprise-purpose"
+                    :title "ANDI describes itself as a non-profit business association whose objective is to spread and foster the political, economic and social principles of a sound free-enterprise system."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :legal-status
+                    :url "https://web.archive.org/web/20260827155317/https://www.andi.com.co/Home/Pagina/1-quienes-somos"
+                    :url-provenance :official-andi-archived
+                    :source-article "Quiénes Somos (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "La Asociación Nacional de Empresarios de Colombia (ANDI), es una agremiación sin ánimo de lucro, que tiene como objetivo difundir y propiciar los principios políticos, económicos y sociales de un sano sistema de libre empresa."
+                    :date-unknown-because :page-states-standing-purpose-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :legal-status]}
+ #:association-rule{:id "andi.seat-medellin-and-regional-offices"
+                    :title "ANDI's principal seat is in Medellín, with offices in Barranquilla, Bogotá, Bucaramanga, Cali, Cartagena, Cúcuta, Ibagué, Manizales, Pereira, Santander de Quilichao and Villavicencio. (The English-language page says 'headquarters in Bogotá'; the statutes and the Spanish page say Medellín, and the statutory domicile is what this catalog asserts.)"
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20260827155317/https://www.andi.com.co/Home/Pagina/1-quienes-somos"
+                    :url-provenance :official-andi-archived
+                    :source-article "Quiénes Somos (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "La sede principal de la ANDI se encuentra en Medellín y cuenta con sedes en Barranquilla, Bogotá, Bucaramanga, Cali, Cartagena, Cúcuta, Ibagué, Manizales, Pereira, Santander de Quilichao y Villavicencio."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.mega-2025"
+                    :title "ANDI's 'Apuesta Mega 2025': to lead, from the business sector, the country's economic reactivation, and to contribute to Colombia being one of the three most competitive countries in Latin America by 2025. The page does not date when the Mega was adopted; 2025 is its target year, not its adoption."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :policy-program
+                    :url "https://web.archive.org/web/20260827155317/https://www.andi.com.co/Home/Pagina/1-quienes-somos"
+                    :url-provenance :official-andi-archived
+                    :source-article "Quiénes Somos (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "La ANDI liderará activamente, desde el sector empresarial, la reactivación económica del país, con propuestas que generen empleo de calidad y aceleren el crecimiento en el corto plazo, contribuirá con acciones a que en 2025 Colombia sea uno de los tres países más competitivos de América Latina"
+                    :date-unknown-because :page-does-not-date-the-strategy
+                    :retrieved-at "2026-09-11"
+                    :topic [:policy]}
+
+ ;; ---- the statutes (ANDI's own PDF; signed 'Cartagena, Agosto 10 y 11 de
+ ;;      2017', document control 'CD-GE-07 V:04 F.A: 14/08/2015') ----
+ #:association-rule{:id "andi.statutes-legal-nature-and-acronym"
+                    :title "Statutes, Article 1: ANDI is a civil-law juridical person of the corporation kind, non-profit, permanent, and identified by the acronym ANDI."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 1. La Asociación Nacional de Empresarios de Colombia es una persona jurídica de derecho civil perteneciente a la especie de las corporaciones, sin ánimo de lucro, con capacidad para adquirir, poseer, gravar y enajenar bienes. La Asociación tendrá carácter permanente. Se identificará con la sigla ANDI."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :legal-status]}
+ #:association-rule{:id "andi.statutes-domicile-medellin"
+                    :title "Statutes, Article 2: the association's domicile is the city of Medellín; it may open offices in the country or abroad."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 2. La Asociación tendrá como domicilio la ciudad de Medellín, pudiendo abrir oficinas en el país o en el exterior"
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-object-free-enterprise"
+                    :title "Statutes, Article 4(a): the first object is to defend, promote and spread the political, economic and social principles of the free-enterprise system, grounded in human dignity, liberty, political democracy, social justice and respect for private property."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "a) Defender, fomentar y difundir los principios políticos, económicos y sociales del sistema de libre empresa, basado en la dignidad humana, en la libertad, la democracia política, la justicia social y el respeto a la propiedad privada."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-governing-bodies"
+                    :title "Statutes, Article 9: national governance rests with the General Assembly of Members, the Junta de Dirección General and the Presidency; regional assemblies and boards govern at the sectional level."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 9. La dirección de la Asociación en el orden nacional corresponde a los siguientes órganos: Asamblea General de Afiliados, Junta de Dirección General y Presidencia de la Asociación."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-junta-composition"
+                    :title "Statutes, Article 20: the Junta de Dirección General comprises the presidents of the sectional boards, eleven members elected by the sectional boards, eight designated by the sectoral chambers and two designated by Fundación ANDI."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "b) Once (11) miembros elegidos por las Juntas Directivas Seccionales c) Ocho (8) designados por las Cámaras Sectoriales. d) Dos (2) miembros designados por la Fundación ANDI."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-president-legal-representative"
+                    :title "Statutes, Article 36: the President is the association's legal representative, holds its government and direct administration, is elected by the Junta de Dirección General for two-year terms and may be re-elected indefinitely."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 36. El Presidente es el representante legal de la Asociación. El gobierno y la administración directa de la misma estarán a su cargo. Será elegido por la Junta de Dirección General para períodos de dos (2) años pero podrá ser reelegido indefinidamente."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-sectoral-chambers"
+                    :title "Statutes, Article 54: on the President's initiative or at the request of a reasonable and representative number of members in a homogeneous economic activity, the Junta de Dirección General may create sectoral or sub-sectoral chambers."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 54. Por iniciativa del Presidente de la Asociación o por solicitud de un número razonable y representativo de afiliados dedicados a una actividad económica homogénea, la Junta de Dirección General podrá crear cámaras de carácter sectorial o subsectorial"
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "andi.statutes-reform-two-thirds"
+                    :title "Statutes, Article 61: amending the statutes requires a qualified vote of at least two thirds of the votes accredited at the General Assembly of Members."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 61. La reforma de estos Estatutos requerirá la votación calificada de por lo menos dos terceras partes de los votos acreditados en la respectiva Asamblea General de Afiliados."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "andi.statutes-dissolution-assets"
+                    :title "Statutes, Article 63: on dissolution the remaining assets go entirely to the non-profit corporations and foundations the entity has constituted; failing those, to institutions of the same nature devoted to social welfare, science or education. (Article 14(e) sets the dissolution vote at 70% of all members.)"
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :charter
+                    :url "https://web.archive.org/web/20240908134605/https://andi.com.co/Uploads/ESTATUTOS%20ANDI.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Estatutos Asociación Nacional de Empresarios de Colombia - ANDI (PDF, Internet Archive capture of 2024-09-08)"
+                    :source-quote "ARTÍCULO 63. En caso de disolución, el patrimonio relicto se destinará en su totalidad a las corporaciones y fundaciones sin ánimo de lucro que la entidad hubiere constituido y que existan en ese momento."
+                    :date-quote "Cartagena, Agosto 10 y 11 de 2017"
+                    :last-revised-date "2017-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :legal-status]}
+
+ ;; ---- declarations and resolutions (ANDI's own PDFs, linked from the
+ ;;      Asuntos Jurídicos page) ----
+ #:association-rule{:id "andi.ethical-principles-declaration"
+                    :title "Declaración de Principios Éticos del Empresario Colombiano: commitments toward the State (respect legitimate institutions, cooperate with authorities, pay taxes, refrain from dealing with those outside the law), society, community, consumers, employees, competitors, transparency and the environment. The PDF text carries no date; the 2003 decent-work resolution records that the LI General Assembly adopted it."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :code-of-conduct
+                    :url "https://web.archive.org/web/20210712201128/http://www.andi.com.co/Uploads/DECLARACI%C3%93N%20PRINCIPIOS%20ETICOS.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Declaración de Principios Éticos del Empresario Colombiano (PDF, Internet Archive capture of 2021-07-12)"
+                    :source-quote "DECLARACIÓN DE PRINCIPIOS ÉTICOS DEL EMPRESARIO COLOMBIANO FRENTE AL ESTADO Respetar y apoyar a las instituciones y autoridades legítimamente constituidas. Colaborar con las autoridades en la recta aplicación de las normas. Pagar los impuestos y demás gravámenes económicos establecidos por la ley."
+                    :date-unknown-because :document-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "andi.decent-work-resolution-2003-08"
+                    :title "Resolución sobre Trabajo Decente (Junta de Dirección General, August 2003): reiterates support for the ILO Declaration on Fundamental Principles and Rights at Work and reaffirms the employee commitments of the Declaración de Principios Éticos, which it records as adopted by the LI General Assembly of Members."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20210712201121/http://www.andi.com.co/Uploads/DECLARACION-TRABAJO%20DECENTE.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Resolución sobre Trabajo Decente (PDF, Internet Archive capture of 2021-07-12)"
+                    :source-quote "2. La Declaración de Principios Éticos del Empresario Colombiano, adoptada por la LI Asamblea General de Afiliados, dedica un acápite especial a los compromisos frente a los empleados."
+                    :date-quote "d. Solicitar al Presidente de la Asociación que vele por la difusión y el cumplimiento de esta Declaración. Agosto de 2003"
+                    :established-date "2003-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:ethics :policy]}
+ #:association-rule{:id "andi.social-responsibility-declaration-2003-08"
+                    :title "Declaración sobre la Responsabilidad Social del Empresario (LIX Ordinary General Assembly, August 2003): social responsibility is essentially voluntary, and the social balance sheet ('balance social') is the instrument for managing it rather than technical regulations."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20210712201459/http://www.andi.com.co/Uploads/DECLARACI%C3%93N%20SOBRE%20LA%20RESPONSABILIDAD%20SOCIAL%20DEL%20EMPRESARIO.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Declaración sobre la Responsabilidad Social del Empresario (PDF, Internet Archive capture of 2021-07-12)"
+                    :source-quote "3. Reiterar que la Responsabilidad Social del Empresario es esencialmente voluntaria y que puede ejercerse en diversos y numerosos órdenes, razón por la cual no resulta conveniente la adopción de normas o reglamentos técnicos en estas materias. 4. Fomentar y divulgar el balance social como el instrumento idóneo para la gestión de la responsabilidad social del empresario."
+                    :date-quote "5. Pedirle al Presidente de la Asociación que consolide la información del Balance Social producido por las empresas y lo difunda a la opinión pública. Agosto de 2003"
+                    :established-date "2003-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:ethics :policy]}
+ #:association-rule{:id "andi.global-compact-support-2003-08"
+                    :title "Apoyo al Pacto Global (LIX Ordinary General Assembly, August 2003): full support for the UN Global Compact, reaffirming human rights and dignity at work, harmony with the environment, rejection of the worst forms of child labour, and condemnation of violence and terrorism as means to any end."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :international-affiliation
+                    :url "https://web.archive.org/web/20210712201123/http://www.andi.com.co/Uploads/DECLARACION-APOYO-PACTOGLOBAL.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Apoyo al Pacto Global (Global Compact) (PDF, Internet Archive capture of 2021-07-12)"
+                    :source-quote "Brindar su apoyo pleno y decidido al Pacto Global (Global Compact) propuesto por el Secretario General de las Naciones Unidas en el Foro Económico Mundial"
+                    :date-quote "5. Invitar a los demás sectores económicos y a la sociedad en general a vincularse de manera activa a este propósito. Agosto de 2003"
+                    :established-date "2003-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:international :ethics]}
+ #:association-rule{:id "andi.oecd-accession-declaration-2012-08"
+                    :title "Declaration of ANDI's member companies on Colombia's accession to the OECD, adopted by the Annual Assembly of Members meeting in Cartagena de Indias on 9-10 August 2012: commits members to the OECD Guidelines for Multinational Enterprises and ANDI to follow the BIAC and National Contact Point discussions."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :international-affiliation
+                    :url "https://web.archive.org/web/20210712201609/http://www.andi.com.co/Uploads/Declaraci%C3%B3n%20ANDI%20sobre%20OCDE%20agosto%202012.pdf"
+                    :url-provenance :official-andi-archived
+                    :source-article "Declaración de los empresarios afiliados a la ANDI ante la adhesión de Colombia a la OCDE (PDF, Internet Archive capture of 2021-07-12)"
+                    :source-quote "La Asamblea Anual de Afiliados de la Asociación Nacional de Empresarios de Colombia – ANDI, reunida en la ciudad de Cartagena de Indias, los días 9 y 10 agosto de 2012"
+                    :established-date "2012-08"
+                    :date-precision :month
+                    :retrieved-at "2026-09-11"
+                    :topic [:international :policy]}
+
+ ;; ---- membership scope and international affiliations (English page) ----
+ #:association-rule{:id "andi.membership-scope-gdp-share"
+                    :title "ANDI states more than 1,500 member companies representing around 50% of Colombia's GDP (English-language page; the figures are not dated on the page)."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :membership-scope
+                    :url "https://web.archive.org/web/20260521041051/https://andi.com.co/Home/Pagina/27-english-version"
+                    :url-provenance :official-andi-archived
+                    :source-article "English version (andi.com.co, Internet Archive capture of 2026-05-21)"
+                    :source-quote "ANDI is, currently, the country’s most important non-profit organization with more than 1.500 members that represent around 50 % of the national GDP"
+                    :date-unknown-because :page-states-standing-figures-without-dating-them
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "andi.international-memberships"
+                    :title "ANDI states membership of the IOE (written 'IEO' on the page), the IWO, ECOSOC and the UN Global Compact, observer status at BIAC and ABAC, membership of the Pacific Alliance Business Council, and over 100 cooperation agreements with business associations worldwide."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :international-affiliation
+                    :url "https://web.archive.org/web/20260521041051/https://andi.com.co/Home/Pagina/27-english-version"
+                    :url-provenance :official-andi-archived
+                    :source-article "English version (andi.com.co, Internet Archive capture of 2026-05-21)"
+                    :source-quote "ANDI is part of the IEO, IWO, ECOSOC, UN Global Pact and observer in BIAC. Moreover, it is part of the Pacific Alliance Business Council, observer in ABAC and holds over 100 cooperation agreements with business associations around the world."
+                    :date-unknown-because :page-states-a-standing-membership
+                    :retrieved-at "2026-09-11"
+                    :topic [:international]}
+
+ ;; ---- transversal areas, in their own words ----
+ #:association-rule{:id "andi.legal-affairs-employer-delegate-ilo-ioe"
+                    :title "The Vice-Presidency for Legal Affairs is the employers' delegate at the meetings of the International Labour Organization (ILO) and the International Organisation of Employers (IOE)."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :international-affiliation
+                    :url "https://web.archive.org/web/20260827153442/https://www.andi.com.co/Home/Pagina/5-asuntos-juridicos"
+                    :url-provenance :official-andi-archived
+                    :source-article "Asuntos Jurídicos (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "Es delegada de los empleadores en las reuniones de la Organización Internacional del Trabajo, OIT y la Organización Internacional de Empleadores (OIE)."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:international :governance]}
+ #:association-rule{:id "andi.cesla-think-tank"
+                    :title "CESLA (Centro de Estudios Sociales y Laborales) is ANDI's think tank for research, training, consulting and advocacy on social relations, with emphasis on labour."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20260610024010/https://andi.com.co/Home/Pagina/20-cesla-centro-de-estudios-sociales-y-labora"
+                    :url-provenance :official-andi-archived
+                    :source-article "CESLA Centro de Estudios Sociales y Laborales (andi.com.co, Internet Archive capture of 2026-06-10)"
+                    :source-quote "El CESLA es un tanque de pensamiento ( think tank ) dedicado a la investigación, formación, consultoría e incidencia en el campo de las relaciones sociales con énfasis en el ámbito laboral."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:policy]}
+ #:association-rule{:id "andi.eoic-industrial-opinion-survey"
+                    :title "The Encuesta de Opinión Industrial Conjunta (EOIC), run by the Vice-Presidency for Economic Development and Competitiveness, records the behaviour, perceptions and main problems of manufacturing-sector companies; monthly reports are published on the page."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20260416235953/https://andi.com.co/Home/Pagina/3-desarrollo-economico-y-competitividad"
+                    :url-provenance :official-andi-archived
+                    :source-article "Desarrollo Económico y Competitividad (andi.com.co, Internet Archive capture of 2026-04-16)"
+                    :source-quote "La Encuesta de Opinión Industrial Conjunta, recoge el comportamiento, las percepciones y los principales problemas que afrontan las empresas del sector manufacturero."
+                    :date-unknown-because :page-states-standing-practice-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:policy]}
+ #:association-rule{:id "andi.industry-directorate-four-axes"
+                    :title "The Dirección de Industria works along four axes: competitiveness, foreign trade and customs, quality, and the fight against smuggling."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20260208233500/https://andi.com.co/Home/Pagina/12-direccion-de-industria"
+                    :url-provenance :official-andi-archived
+                    :source-article "Dirección de Industria (andi.com.co, Internet Archive capture of 2026-02-08)"
+                    :source-quote "en el marco de cuatro ejes principales: Competitividad, Comercio Exterior y Aduanas, Calidad y Lucha contra el Contrabando."
+                    :date-unknown-because :page-states-standing-scope-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:policy]}
+ #:association-rule{:id "andi.andi-del-futuro-entrepreneur-network"
+                    :title "ANDI del Futuro is ANDI's entrepreneur network, present in the Antioquia, Bogotá-Cundinamarca-Boyacá, Caldas, Norte de Santander, Santander, Valle del Cauca and Bolívar sections."
+                    :association "andi"
+                    :isic "9411"
+                    :country "COL"
+                    :kind :membership-rule
+                    :url "https://web.archive.org/web/20260827155317/https://www.andi.com.co/Home/Pagina/22-innovacion-y-emprendimiento"
+                    :url-provenance :official-andi-archived
+                    :source-article "Innovación y Emprendimiento (andi.com.co, Internet Archive capture of 2026-08-27)"
+                    :source-quote "La ANDI Del Futuro es la red de emprendedores de la ANDI donde convergen empresas sostenibles, diversas, dinámicas e innovadoras que generan valor para la sociedad."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}]

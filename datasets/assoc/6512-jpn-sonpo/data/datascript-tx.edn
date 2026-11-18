@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "sonpo.code-of-conduct"
+                     :title "日本損害保険協会 行動規範 (GIAJ Code of Conduct)"
+                     :association "sonpo"
+                     :isic "6512"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.sonpo.or.jp/about/guideline/ev7otb0000000cjp-att/action_kodokihan.pdf"
+                     :url-provenance :official-association-site
+                     :established-date "1991-10-17"
+                     :last-revised-date "2024-03-21"
+                     :retrieved-at "2026-07-14"
+                     :topic [:ethics :member-conduct :human-rights]}
+ #:association-rule{:id "sonpo.antitrust-compliance-guideline"
+                     :title "損害保険会社の独占禁止法遵守のための指針 (Guidelines for Antitrust Law Compliance by General Insurance Companies)"
+                     :association "sonpo"
+                     :isic "6512"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.sonpo.or.jp/about/guideline/ev7otb0000000cjp-att/action_dokkinho.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-01"
+                     :retrieved-at "2026-07-14"
+                     :topic [:antitrust :fair-competition]}]

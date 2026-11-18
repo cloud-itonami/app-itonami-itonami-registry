@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "ahla.5-star-promise"
+                     :title "5-Star Promise: Individual AHLA Member Commitments to Advance Safety and Security"
+                     :association "ahla"
+                     :isic "5510"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.ahla.com/sites/default/files/five_star_promise_commitments_10-7-19_0.pdf"
+                     :url-provenance :official-association-site
+                     :established-date "2018-09-06"
+                     :last-revised-date "2019-10-04"
+                     :retrieved-at "2026-07-15"
+                     :topic [:worker-safety :sexual-harassment-prevention]}
+ #:association-rule{:id "ahla.about-profile"
+                     :title "About AHLA (organization profile)"
+                     :association "ahla"
+                     :isic "5510"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.ahla.com/about"
+                     :url-provenance :official-association-site
+                     :established-date "1910"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

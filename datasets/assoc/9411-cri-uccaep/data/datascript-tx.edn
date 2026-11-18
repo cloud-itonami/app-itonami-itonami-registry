@@ -1,0 +1,298 @@
+;; data/datascript-tx.edn — the UCCAEP catalog. THIS FILE IS WHERE THE FACTS
+;; ARE AUTHORED. Both readings under src/ are generated from it by
+;; scripts/gen-kotoba-port.cljk; `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches every :url and requires every :source-quote to still be in it.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote). Spans are quoted as the
+;; page or PDF text reads after tags are stripped and whitespace collapsed --
+;; which is what the checker compares against. No personal name of any
+;; office-holder is persisted here: the staff page and the board page carry
+;; names and are cited only for what they say about the institution.
+;;
+;; Dates: :established-date / :last-revised-date are ISO; :date-precision says
+;; how precisely the SOURCE dates the fact; :date-unknown-because says why an
+;; entry has no date at all; :date-derivation names how a date the quote does
+;; not write was reached from what it does write (one entry, see the checker).
+
+[;; ---- founding: still only reachable by arithmetic, still only on vLex ----
+ #:association-rule{:id "uccaep.founding-1973"
+                    :title "UCCAEP founded in 1973 -- reached only by arithmetic: vLex's Costa Rican legal database quotes Executive Decree 27442-C as commemorating UCCAEP's creation on the ground that it celebrated its 25th anniversary in 1998. No page on uccaep.org, uccaep.or.cr or vlex.co.cr writes the year itself (measured 2026-09-11), so only the year is asserted and the derivation is recorded."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://vlex.co.cr/vid/declaracion-dia-nacional-empresa-940167862"
+                    :url-provenance :legal-database-corroborated
+                    :source-article "Declaración del Día Nacional de la Empresa Privada (vLex Costa Rica)"
+                    :source-quote "siendo elegido este día en conmemoración de la fecha de creación de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (Uccaep) -la cual en el año 1998 celebró su 25° aniversario-"
+                    :established-date "1973"
+                    :date-precision :year
+                    :date-derivation :anniversary-arithmetic
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.national-private-enterprise-day-decree-1998"
+                    :title "Executive Decree 27442-C of 12 November 1998 declared 23 February of each year 'Día Nacional de la Empresa Privada', the day chosen to commemorate UCCAEP's creation (vLex Costa Rica). 23 February is the commemorative date; this source does not confirm it as the literal founding day."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://vlex.co.cr/vid/declaracion-dia-nacional-empresa-940167862"
+                    :url-provenance :legal-database-corroborated
+                    :source-article "Declaración del Día Nacional de la Empresa Privada (vLex Costa Rica)"
+                    :source-quote "mediante el Decreto Ejecutivo 27442-C, de 12 de noviembre de 1998, se declaró el 23 de febrero de cada año como"
+                    :established-date "1998-11-12"
+                    :date-precision :day
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+
+ ;; ---- statutes (UCCAEP's own PDF; the site names it 'actualizados mayo 2016',
+ ;;      the text itself carries no date) ----
+ #:association-rule{:id "uccaep.statutes-name-and-governing-law"
+                    :title "Statutes, Article 1: the association is named Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado, may be abbreviated Unión de Cámaras or UCCAEP, and is governed by its statutes and, supplementarily, by the Ley de Asociaciones. The PDF the site links as 'estatutos actualizados mayo 2016' carries no date in its text."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :charter
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "ARTÍCULO PRIMERO: La Asociación se denominará Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado, pudiendo abreviarse a Unión de Cámaras o UCCAEP. Se regirá por lo dispuesto en estos Estatutos y supletoriamente por lo dispuesto en la Ley de Asociaciones y Leyes conexas."
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :corporate-form]}
+ #:association-rule{:id "uccaep.statutes-general-assembly-biennial-april"
+                    :title "Statutes, Article 18: the General Assembly is the highest authority and meets in ordinary session once every two years, in even years, in the second half of April"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "ARTÍCULO DECIMO OCTAVO: La Asamblea General es la máxima autoridad de la Asociación. Será convocada ordinariamente una vez cada dos años, coincidiendo en año par, en la segunda quincena de abril"
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.statutes-board-25-members-six-sectors"
+                    :title "Statutes, Article 30: the Consejo Directivo has twenty-five members -- the President and twenty-four Directors chosen by the six sectors that make up the association; a Director's seat belongs to the member entity, not the person, except the Presidency"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "El Consejo Directivo está integrado por veinticinco miembros, de los cuales uno será el Presidente y veinticuatro Directores los cuales serán seleccionados por los seis sectores que conforman la Asociación. El cargo de Director no es personal sino de la entidad miembro, con excepción del Presidente."
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.statutes-offices-ad-honorem"
+                    :title "Statutes, Article 28: seats on the Consejo Directivo, Comité Ejecutivo, Fiscalía, Foro Asesor, Consejo Consultivo and working commissions are voluntary and unpaid (ad honorem)"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "ARTÍCULO VIGESIMO OCTAVO: Los cargos en el Consejo Directivo, Comité Ejecutivo, la Fiscalía, Foro Asesor, Consejo Consultivo y Comisiones de Trabajo, son voluntarios y de carácter ad-honorem."
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.statutes-membership-registered-chambers"
+                    :title "Statutes, Article 10: membership is open to chambers or associations of private-sector employers or producers based in Costa Rica and duly constituted in the Registro Público (transnational organisations: constituted in their home country, with operations in Costa Rica)"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :membership-rule
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "ARTÍCULO DECIMO: Podrán afiliarse las Cámaras o Asociaciones de empresarios o productores del sector privado que radiquen en Costa Rica, debidamente constituidas en el Registro Público."
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "uccaep.statutes-reform-two-thirds-quinquennial-review"
+                    :title "Statutes, Article 68: amending the statutes needs two thirds of members present at an Extraordinary General Assembly convened for that purpose, and the statutes are to be reviewed every five years, with the Fiscalía overseeing compliance"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/images/pdfs/UCCAEP_estatutos_actualizados_mayo_2016_def.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Estatutos de la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (PDF)"
+                    :source-quote "Con el propósito de mantener actualizados los Estatutos de la Asociación, a partir de la entrada en vigencia de esta reforma se procederá a revisar los mismos con una periodicidad quinquenal."
+                    :date-unknown-because :statutes-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+
+ ;; ---- public-utility status (Executive Decree 35658-J) ----
+ #:association-rule{:id "uccaep.public-utility-declaration-2009"
+                    :title "UCCAEP declared of Public Utility for the interests of the State in 2009 by Decree Nº 35658-J (UCCAEP's own page)"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :legal-status
+                    :url "https://www.uccaep.org/about/declaratoria-de-interes-publico.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Declaratoria de interés público"
+                    :source-quote "reconocida una vez más en el año 2009, cuando la organización es declarada de Utilidad Pública para los intereses del Estado, mediante el decreto Nº 35658-J."
+                    :established-date "2009"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :legal-status]}
+ #:association-rule{:id "uccaep.decree-35658-j-issued-2009-11-11"
+                    :title "Executive Decree Nº 35658-J, given in San José on 11 November 2009, declares the Asociación Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (cédula de persona jurídica Nº 3-002-056381) of Public Utility and obliges it to report annually to the Ministerio de Justicia; text as printed in La Gaceta Nº 3 of 6 January 2010, hosted by UCCAEP"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :legal-status
+                    :url "https://www.uccaep.org/images/pdfs/declaratoria-de-interes-publico.pdf"
+                    :url-provenance :gazette-decree-hosted-by-uccaep
+                    :source-article "Decreto Nº 35658-J (La Gaceta Nº 3, 6 de enero del 2010), PDF hosted by UCCAEP"
+                    :source-quote "Dado en la Presidencia de la República.—San José, a las catorce horas del once de noviembre de dos mil nueve."
+                    :established-date "2009-11-11"
+                    :date-precision :day
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :legal-status]}
+ #:association-rule{:id "uccaep.registry-inscription-2004-04-14"
+                    :title "Per the recitals of Decree Nº 35658-J, the association (cédula de persona jurídica Nº 3-002-056381) has been inscribed in the Registro de Asociaciones of the Registro Público since 14 April 2004, tomo 1, asiento 44. This is the registry inscription the decree cites, not the founding; the decree does not state a founding date."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :legal-status
+                    :url "https://www.uccaep.org/images/pdfs/declaratoria-de-interes-publico.pdf"
+                    :url-provenance :gazette-decree-hosted-by-uccaep
+                    :source-article "Decreto Nº 35658-J (La Gaceta Nº 3, 6 de enero del 2010), PDF hosted by UCCAEP"
+                    :source-quote "se inscribió en el Registro de Asociaciones del Registro Público desde el día catorce de abril de dos mil cuatro, bajo el tomo Nº 1, asiento 44."
+                    :established-date "2004-04-14"
+                    :date-precision :day
+                    :retrieved-at "2026-09-11"
+                    :topic [:corporate-form :legal-status]}
+
+ ;; ---- international affiliation ----
+ #:association-rule{:id "uccaep.biac-observer-since-2015"
+                    :title "UCCAEP has been an observer member of Business at OECD (BIAC) since 2015; the same page states UCCAEP is part of the International Organisation of Employers (OIE/IOE)"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :international-affiliation
+                    :url "https://www.uccaep.org/about/uccaep-es-miembro-de.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "UCCAEP es parte del BIAC y la OIE"
+                    :source-quote "es parte del Comité Consultivo Empresarial e Industrial de la OCDE (BIAC, por sus siglas en inglés), en calidad de observador, desde el año 2015."
+                    :established-date "2015"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:international]}
+
+ ;; ---- scope, principles, objectives, conduct ----
+ #:association-rule{:id "uccaep.six-productive-sectors"
+                    :title "UCCAEP describes itself as the non-profit apex body grouping Costa Rica's private business organisations across six productive sectors: agriculture, commerce, industry, services, tourism and cross-sectoral"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :membership-scope
+                    :url "https://www.uccaep.org/about/mision-y-vision.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Misión y Visión"
+                    :source-quote "La entidad cúpula sin fines de lucro que agrupa y representa a las organizaciones empresariales privadas costarricenses pertenecientes a los sectores productivos de mayor dinamismo económico del país: Sector Agropecuario Sector Comercio Sector Industria Sector Servicios Sector Turismo Sector Transectoriales"
+                    :date-unknown-because :page-states-standing-scope-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "uccaep.organisational-principles"
+                    :title "UCCAEP's fourteen organisational principles (the same list as Statutes Article 4), opening with the dignity of every person, the State at the service of the common good, and the State's duty to guarantee legal certainty"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/about/principios-de-la-organizacion.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Principios de la organización"
+                    :source-quote "Toda persona es digna. El Estado está al servicio del bien común. El Estado tiene la obligación de garantizar la seguridad jurídica."
+                    :date-unknown-because :page-states-standing-principles-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.objectives"
+                    :title "UCCAEP's stated objectives: unite the Costa Rican productive sector and represent it before national and international bodies, and promote laws and measures that strengthen the country's systemic competitiveness and social welfare. (The page's opening sentence repeats Statutes Article 5 and is also on the site's home page, so the span pinned here is one the home page does not carry.)"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/objetivos.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Objetivos"
+                    :source-quote "Unir al sector productivo costarricense y representarlo ante diferentes instancias nacionales e internacionales en temas de interés general. Impulsar la promulgación de leyes, proyectos, disposiciones, y medidas que fortalezcan la competitividad sistemática del país y el bienestar social."
+                    :date-unknown-because :page-states-standing-objectives-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}
+ #:association-rule{:id "uccaep.code-of-good-business-practices"
+                    :title "Código de Buenas Prácticas Empresariales: UCCAEP's ethical commitments and rules of conduct apply to all members of the organisation and their affiliates"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :code-of-conduct
+                    :url "https://www.uccaep.org/images/pdfs/codigo-practicas-empresariales-UCCAEP.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Código de Buenas Prácticas Empresariales (PDF)"
+                    :source-quote "Los compromisos éticos y las normas de conducta aquí contenidos se aplican a todos los miembros de la organización y a sus afiliados."
+                    :date-unknown-because :document-text-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:ethics :membership]}
+
+ ;; ---- programmes, accountability, membership count, current board ----
+ #:association-rule{:id "uccaep.competitiveness-decalogue-first-2006"
+                    :title "UCCAEP presented its first competitiveness Decálogo -- ten long-term priorities proposed to the Government of Costa Rica -- in 2006; the business agenda is revised every two years from a survey of more than 500 entrepreneurs"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :policy-program
+                    :url "https://www.uccaep.org/about/sobre-uccaep/agendas-de-competitividad.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Agendas de competitividad"
+                    :source-quote "UCCAEP presentó su primer decálogo en el año 2006."
+                    :established-date "2006"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:policy]}
+ #:association-rule{:id "uccaep.annual-reports-to-assembly-article-21"
+                    :title "The annual Informes de Labores are the accountability of the President, Treasurer and Fiscal to the members at the General Assembly, as Article 21 of the statutes requires; the page lists reports from 2003-2004 through 2020-2021"
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :accountability
+                    :url "https://www.uccaep.org/about/sobre-uccaep/informe-de-labores.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Informe de labores"
+                    :source-quote "Los informes de labores son la rendición de cuentas del Presidente, Tesorero y Fiscal de UCCAEP al resto de asociados durante la Asamblea General de Socios, tal y como dicta el estatuto de la organización en el artículo 21."
+                    :date-unknown-because :page-states-standing-practice-undated
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance :transparency]}
+ #:association-rule{:id "uccaep.49-affiliated-chambers-2020-2021"
+                    :title "UCCAEP's 2020-2021 annual report counts 49 affiliated chambers. The count is dated only by the report period in the document's title, so no date field is asserted for it."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :membership-scope
+                    :url "https://www.uccaep.org/images/pdfs/INFORMEDELABORES20202021.pdf"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Informe Anual de Labores 2020-2021 (PDF)"
+                    :source-quote "la Unión Costarricense de Cámaras y Asociaciones del Sector Empresarial Privado (UCCAEP), y sus 49 cámaras afiliadas"
+                    :date-unknown-because :dated-only-by-report-period-in-document-title
+                    :retrieved-at "2026-09-11"
+                    :topic [:membership]}
+ #:association-rule{:id "uccaep.board-2024-2026"
+                    :title "The current Consejo Directivo serves the 2024-2026 term, consistent with the biennial April election in even years that Statutes Article 30 prescribes. Board members' names are on the page and are not persisted here."
+                    :association "uccaep"
+                    :isic "9411"
+                    :country "CRI"
+                    :kind :governance-program
+                    :url "https://www.uccaep.org/about/sobre-uccaep/consejo-directivo.html"
+                    :url-provenance :official-uccaep-org
+                    :source-article "Consejo directivo"
+                    :source-quote "Consejo Directivo 2024-2026"
+                    :established-date "2024"
+                    :date-precision :year
+                    :retrieved-at "2026-09-11"
+                    :topic [:governance]}]

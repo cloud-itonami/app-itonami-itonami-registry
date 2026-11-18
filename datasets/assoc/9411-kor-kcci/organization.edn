@@ -1,0 +1,15 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Korea Chamber of Commerce and Industry (KCCI, 대한상공회의소)"
+ :abbreviation "KCCI"
+ :official-url "https://www.korcham.net/"
+ :wikidata "Q12592604"
+ :isic "9411"
+ :country "KOR"
+ :established-date "1884"
+ :head-role-note "institutional office title only (Chairman); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :history-url "https://www.korcham.net/nCham/Service/Kcci/appl/History.asp"
+ :statute-url "https://www.law.go.kr/법령/상공회의소법"
+ :statute-enforcement-decree-url "https://www.law.go.kr/법령/상공회의소법시행령"
+ :wikidata-url "https://www.wikidata.org/wiki/Q12592604"
+ :sourced-from "Corrected 2026-09-10. An earlier tick reported that korcham.net could not be navigated to a founding-history page and that a guessed history URL 404'd, and seeded the catalog from Wikipedia instead. The page does exist and is linked from korcham.net's own home page (:history-url); following the site's own links rather than guessing a path reaches KCCI's published chronology, which confirms the 1884 Hanseong Chamber of Commerce and dates the Chambers of Commerce and Industry Act to 1952-12-20. Note that BOTH cited hosts answer HTTP 200 for paths that do not exist (korcham.net returns a Korean not-found page, law.go.kr an error page), so a status probe cannot verify a citation on either host -- check for a marker in the body. The two statutes were cross-checked against law.go.kr's open API, which returned the same Act/Decree numbers and effective dates. Wikidata Q12592604's inception statement (1884) independently corroborates the founding year."}

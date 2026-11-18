@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (ADR-2607141700). No :db/id per entity,
+;; same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+;;
+;; Both entries cite the SAME url: CCFA's 简介 page states both the
+;; association profile and the China Franchise Expo facts. Only that page
+;; was read; no separate expo-site URL is claimed here.
+
+[#:association-rule{:id "ccfa.about-organization"
+                    :title "中国连锁经营协会简介 (About CCFA, organization profile)"
+                    :association "ccfa"
+                    :isic "4719"
+                    :country "CHN"
+                    :kind :governance-program
+                    :url "http://www.ccfa.org.cn/portal/cn/xiangxic.jsp?type=11"
+                    :url-provenance :official-association-site
+                    :established-date "1997"
+                    :last-revised-date "2025-01-01"
+                    :retrieved-at "2026-07-27"
+                    :topic [:governance :standards]}
+ #:association-rule{:id "ccfa.china-franchise-expo"
+                    :title "中国特许加盟展 (China Franchise Expo), 经中国商务部批准、由中国连锁经营协会主办"
+                    :association "ccfa"
+                    :isic "4719"
+                    :country "CHN"
+                    :kind :sector-program
+                    :url "http://www.ccfa.org.cn/portal/cn/xiangxic.jsp?type=11"
+                    :url-provenance :official-association-site
+                    :established-date "1999"
+                    :last-revised-date "2025-01-01"
+                    :retrieved-at "2026-07-27"
+                    :topic [:franchising]}]

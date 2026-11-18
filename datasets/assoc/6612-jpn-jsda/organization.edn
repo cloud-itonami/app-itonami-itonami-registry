@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Japan Securities Dealers Association"
+ :name-local "日本証券業協会"
+ :abbreviation "JSDA"
+ :legal-form "認可金融商品取引業協会 (FIEA-authorized self-regulatory organization)"
+ :official-url "https://www.jsda.or.jp/"
+ :wikidata "Q11509109"
+ :isic "6612"
+ :country "JPN"
+ :established-date "1973-07-01"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-14"}

@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "CIP - Confederação Empresarial de Portugal"
+ :abbreviation "CIP"
+ :official-url "https://cip.org.pt/"
+ :isic "9411"
+ :country "PRT"
+ :established-date "1974-05"
+ :head-role-note "institutional office title only (President); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "Re-verified 2026-09-06 by fetching each source and checking the verbatim span (scripts/verify-catalog.cljs --live). cip.org.pt's own '/en/history/' page confirms 'Foundation of CIP.' under its 1974 heading and 'CIP is established as CIP - Confederation of Portuguese Business.' under 2010 -- both YEAR-ONLY, because that timeline's dates are headings, not sentences. The MONTH ('maio de 1974') is pt.wikipedia.org's added precision and is recorded against that source, not against cip.org.pt; the earlier revision of this file attributed 1974-05 to the official page, which does not carry it."}

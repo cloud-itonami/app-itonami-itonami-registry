@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "finra.rulebook"
+                     :title "FINRA Rules (FINRA Manual)"
+                     :association "finra"
+                     :isic "6612"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.finra.org/rules-guidance/rulebooks/finra-rules"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-14"
+                     :topic [:consumer-protection :fair-transaction :suitability]}
+ #:association-rule{:id "finra.by-laws-of-the-corporation"
+                     :title "By-Laws of the Corporation"
+                     :association "finra"
+                     :isic "6612"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.finra.org/rules-guidance/rulebooks/corporate-organization/laws-corporation"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-14"
+                     :topic [:governance]}]

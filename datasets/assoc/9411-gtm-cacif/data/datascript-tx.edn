@@ -1,0 +1,197 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Sourcing note: every `:official-cacif-org-gt` entry below was read directly
+;; from the page its `:url` names on 2026-09-10, when cacif.org.gt answered 200.
+;; The two `-corroborated` entries are the independent secondary sources this
+;; catalog was seeded from on 2026-07-18, back when cacif.org.gt answered 403 to
+;; every direct fetch; they are kept because an independent document agreeing
+;; with an association's own history is worth more than either alone.
+
+[#:association-rule{:id "cacif.founding-1957"
+                    :title "CACIF's first meeting was held on 16 January 1957 at the head office of the Camara de Industria de Guatemala, led by Enrique C. Novella, Enrique Matheu, Julio Briz, Virgilio Garcia Valle and Gabriel Fernandez"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :constitutive-instrument
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "1957-01-16"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cacif.founding-1957-scribd-corroboration"
+                    :title "Independent corroboration of the 1957 founding year: a 'Historia de CACIF' document states CACIF was established in 1957 (year-only precision)"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :constitutive-instrument
+                    :url "https://www.scribd.com/document/265490718/Historia-de-CACIF"
+                    :url-provenance :scribd-corroborated
+                    :established-date "1957"
+                    :retrieved-at "2026-07-18"
+                    :topic [:history]}
+ #:association-rule{:id "cacif.constituted-1959"
+                    :title "CACIF was definitively constituted from 1959, when it was installed in the Camara de Industria de Guatemala building at 3a Avenida 12-22, zona 1"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :constitutive-instrument
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "1959"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cacif.estatutos-approved-1961-04-24"
+                    :title "CACIF's statutes (estatutos) were approved by Acuerdo Gubernativo dated 24 April 1961"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :statute
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "1961-04-24"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "cacif.estatutos-1961-04-24-almanac-corroboration"
+                    :title "Independent corroboration of the 1961 statutes: a Guatemalan historical almanac records that the statutes were approved by Acuerdo Gubernativo on 24 April 1961"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :statute
+                    :url "http://biogt.blogspot.com/2014/04/efemerides-guatemala-abril.html"
+                    :url-provenance :independent-almanac-corroborated
+                    :established-date "1961-04-24"
+                    :retrieved-at "2026-07-18"
+                    :topic [:statute]}
+ #:association-rule{:id "cacif.president-habie-assassinated-1980-05-23"
+                    :title "Alberto Habie Mishaan, CACIF's sitting president, was assassinated on 23 May 1980; former presidents Roberto Castaneda and Jose Villaverde were also killed that decade"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "1980-05-23"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cacif.paro-nacional-2001-08-01"
+                    :title "CACIF coordinated the 1 August 2001 national strike known as 'El Dia de la Dignidad', which it reports closed more than 90% of productive activity and out of which Foro Guatemala was founded"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2001-08-01"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cacif.reforma-estatutaria-2009"
+                    :title "CACIF's own site dates its 2009 statutory reform two ways: the history page puts the directorio's approval in October 2009, the fundamental-principles page dates the reform that ratified the three principles to November 2009"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :statute
+                    :url "https://cacif.org.gt/quienes-somos/nuestra-historia/"
+                    :url-provenance :official-cacif-org-gt-conflicting
+                    :established-date "2009"
+                    :last-revised-date "2009-10"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "cacif.principios-fundamentales"
+                    :title "The three fundamental principles CACIF was founded on in 1957 -- the general interest prevails over the particular; free enterprise is the best means to national economic and social progress; harmony of interests rests on strict observance of legal and constitutional norms -- ratified in the November 2009 statutory reform"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/quienes-somos/principios-fundamentales/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "1957"
+                    :last-revised-date "2009-11"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :statute]}
+ #:association-rule{:id "cacif.mision-vision"
+                    :title "Mission and vision: CACIF represents the organised private sector and coordinates proposals for free enterprise, private property and the rule of law; its stated vision is that Guatemala reach the top 60 of the Global Competitiveness Index within ten years"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/quienes-somos/"
+                    :url-provenance :official-cacif-org-gt
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance]}
+ #:association-rule{:id "cacif.cle-mandated-2020-12"
+                    :title "The Centro de Liderazgo Empresarial (CLE) was mandated by the Plan Estrategico signed by CACIF's Directorio in December 2020, to train national trade-association leadership"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/cle/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2020-12"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance]}
+ #:association-rule{:id "cacif.gan-guatemala-2018"
+                    :title "CACIF leads GAN Guatemala, the national chapter of the Global Apprenticeship Network; the public-private initiative was formed in 2018"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :international-affiliation
+                    :url "https://cacif.org.gt/gan-guatemala/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2018"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "cacif.proe-since-2003"
+                    :title "The Programa de Observacion Electoral (PROE) is CACIF's electoral-observation programme; its first participation was the 2003 electoral process and the page reports experience across 5 general elections and one popular consultation"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/programa-de-observacion-electoral-proe-cacif/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2003"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance]}
+ #:association-rule{:id "cacif.joven-2017"
+                    :title "CACIF Joven is a technical commission created in 2017, made up of business people beginning their trade-association careers; its three projects are legal certainty, GAN Guatemala and Generando Futuro"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :membership
+                    :url "https://cacif.org.gt/quienes-somos/cacif-joven/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2017"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "cacif.mujer-2017"
+                    :title "CACIF Mujer is a commission of businesswomen from across the productive sectors, created in 2017 to drive entrepreneurship support, training, mentoring and business-leadership networks"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :membership
+                    :url "https://cacif.org.gt/quienes-somos/cacif-mujer/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2017"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "cacif.presidency-2026-2027"
+                    :title "Carlos Arias Bouscayrol was elected by CACIF's member chambers to the presidency for the 2026-2027 term, nominated by the Camara Guatemalteca de la Industria de la Construccion (announced 13 April 2026)"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/nueva-presidencia-en-cacif/"
+                    :url-provenance :official-cacif-org-gt
+                    :established-date "2026-04-13"
+                    :retrieved-at "2026-09-10"
+                    :topic [:governance :board]}
+ #:association-rule{:id "cacif.oficinas-ruta-6"
+                    :title "CACIF's offices are on level 9 of the Camara de Industria de Guatemala building, Ruta 6 9-21 zona 4, Guatemala City 01004; telephone (502) 2201-0000"
+                    :association "cacif"
+                    :isic "9411"
+                    :country "GTM"
+                    :kind :governance-program
+                    :url "https://cacif.org.gt/contacto/"
+                    :url-provenance :official-cacif-org-gt
+                    :retrieved-at "2026-09-10"
+                    :topic [:contact]}]

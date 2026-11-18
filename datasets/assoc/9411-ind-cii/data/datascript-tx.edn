@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "cii.founding-1895-eita"
+                     :title "Engineering and Iron Trades Association (EITA), CII's earliest predecessor, founded by 5 engineering firms in the Bengal Chamber of Commerce and Industry (cii.in official History page, corroborated by Wikidata Q842084 inception statement)"
+                     :association "cii"
+                     :isic "9411"
+                     :country "IND"
+                     :kind :governance-program
+                     :url "https://www.cii.in/about_us_History.aspx?gid=A"
+                     :url-provenance :official-cii-in
+                     :established-date "1895"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "cii.renaming-1992-cii"
+                     :title "Confederation of Engineering Industry renamed to Confederation of Indian Industry (CII), effective 1 January 1992, amid economic liberalisation (cii.in official History page)"
+                     :association "cii"
+                     :isic "9411"
+                     :country "IND"
+                     :kind :governance-program
+                     :url "https://www.cii.in/about_us_History.aspx?gid=A"
+                     :url-provenance :official-cii-in
+                     :established-date "1992-01-01"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

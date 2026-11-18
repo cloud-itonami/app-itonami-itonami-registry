@@ -1,0 +1,29 @@
+{:itonami.blueprint/id "cloud-itonami-assoc-6492-eu-emf"
+ :itonami.blueprint/name "Industry Source Catalog — European Mortgage Federation (EMF/EMF-ECBC)"
+ :itonami.blueprint/isic "6492"
+ ;; NOT an iso3. The EMF is supranational; this is the ISO 3166-1 exceptionally
+ ;; reserved code. First supranational member of the assoc-* family — see
+ ;; organization.edn :country-code-note.
+ :itonami.blueprint/iso3166 "EU"
+ :itonami.blueprint/domain :public-sector/industry-association-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:regulatory-transparency :compliance-cost-reduction]
+ :itonami.blueprint/governor :association-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:ontology :audit-ledger]
+ :itonami.blueprint/status :public-oss
+ :itonami.blueprint/wave 0
+ :itonami.blueprint/isic-8291-linked true
+ ;; Weaker than the Japanese siblings, deliberately and visibly: 7 located
+ ;; sources of which only 2 were fetched and quoted, and NO self-regulatory
+ ;; code. `association.facts/not-catalogued` enumerates the gaps as data.
+ :itonami.blueprint/coverage {:entries 7
+                              :fetched-and-quoted 2
+                              :self-regulatory-codes 0
+                              :located-not-complete true}
+ :itonami.blueprint/adr "com-junkawasaki/root 90-docs/adr/2608011200-mortgage-registry-procedure-support-organizations.edn"
+ :itonami.blueprint/prior-adr "com-junkawasaki/root 90-docs/adr/2607141700-cloud-itonami-compliance-fact-federation"
+ :itonami.blueprint/siblings ["mortgage-registry"
+                              "cloud-itonami-isic-6492"
+                              "cloud-itonami-assoc-6810-jpn-recaj"
+                              "cloud-itonami-assoc-6419-jpn-zenginkyo"]}

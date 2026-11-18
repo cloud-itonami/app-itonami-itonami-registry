@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba through its bounded typed ABI (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "ctia.consumer-code-for-wireless-service"
+                     :title "Consumer Code for Wireless Service"
+                     :association "ctia"
+                     :isic "6120"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://api.ctia.org/wp-content/uploads/2020/03/CTIA-Consumer-Code-2020.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2020-03"
+                     :retrieved-at "2026-07-15"
+                     :topic [:consumer-protection :fair-transaction]}
+ #:association-rule{:id "ctia.smartphone-anti-theft-voluntary-commitment"
+                     :title "Smartphone Anti-Theft Voluntary Commitment"
+                     :association "ctia"
+                     :isic "6120"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://api.ctia.org/docs/default-source/default-document-library/stolen-phone-commitment.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2016-07-26"
+                     :retrieved-at "2026-07-15"
+                     :topic [:consumer-protection :device-security]}]

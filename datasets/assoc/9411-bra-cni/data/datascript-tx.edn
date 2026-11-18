@@ -1,0 +1,433 @@
+;; data/datascript-tx.edn — the CNI catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote), in the Portuguese the
+;; page is written in. `kbb --backend sci scripts/verify-catalog.cljk --live`
+;; fetches each :url and requires that span to still be in it.
+;;
+;; Two speakers, declared per entry by :url-provenance:
+;;   :official-cni-portaldaindustria  CNI's own site -- its institutional
+;;                                    pages and its statute (a PDF served
+;;                                    from the same site).
+;;   :fgv-cpdoc-corroborated          the FGV CPDOC historical dictionary
+;;                                    entry on CNI, for the history CNI's
+;;                                    own pages do not narrate.
+;; Where both speak to the same fact (the 12 August 1938 founding), both
+;; are recorded, each under its own id.
+;;
+;; No personal names of office-holders are persisted here. The compliance
+;; page carries a message signed by the current President, the forums page
+;; names each thematic council's chair, and the FGV entry names past
+;; presidents and industrialists; the spans quoted below stop before every
+;; name, and no page is cited for its list of names.
+;;
+;; Figures CNI gives about itself (27 federations, more than 1,350 unions,
+;; more than 70 sectoral association presidents in the FNI) are recorded as
+;; what CNI states, not as independently measured facts.
+
+[ #:association-rule{:id "cni.self-description"
+                    :title "CNI describes itself as the principal representative of Brazil's industrial sector, pursuing its promotion and efficiency"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Institucional"
+                    :source-quote "Somos a Confederação Nacional da Indústria (CNI), principal representante do setor industrial do Brasil, em busca da sua promoção e eficiência."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance]}
+ #:association-rule{:id "cni.confederative-system-size"
+                    :title "CNI states it leads the Confederative System of Industrial Union Representation, formed by the 27 state and Federal District industry federations and more than 1,350 unions (figures as CNI states them)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Institucional (Representação)"
+                    :source-quote "O Sistema Confederativo da Representação Sindical da Indústria é liderado por nós, da CNI, e formado pelas 27 federações das indústrias dos estados e do Distrito Federal e pelos mais de 1.350 sindicatos de todas as unidades federativas do país."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "cni.representation-mandate"
+                    :title "CNI represents Brazilian industry in national and foreign bodies and defends the sector's interests before the Executive, Legislative and Judiciary and international organisations"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Institucional (Representação)"
+                    :source-quote "Representamos a indústria brasileira em diversas instâncias nacionais e do exterior, além de defendermos os interesses do setor junto aos poderes Executivo, Legislativo e Judiciário, bem como em organismos internacionais."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:policy :international]}
+ #:association-rule{:id "cni.federation-autonomy"
+                    :title "CNI and its industry federations each have their own legal personality and patrimonial, financial and administrative autonomy"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/sistema-confederativo"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Sistema Confederativo"
+                    :source-quote "A CNI e as nossas federações das indústria têm personalidade jurídica própria e autonomia patrimonial, financeira e administrativa."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "cni.union-contribution-optional-2017"
+                    :title "From 2017, Law 13.467/17's new wording of CLT articles 578 and 579 made the union contribution optional (as CNI states it)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/sistema-confederativo"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Sistema Confederativo (Contribuição sindical)"
+                    :source-quote "A partir de 2017, com a Lei 13.467/17 , a nova redação dos artigos 578 e 579 da CLT tornou a contribuição sindical facultativa"
+                    :established-date "2017"
+                    :date-precision :year
+                    :retrieved-at "2026-09-24"
+                    :topic [:labor :membership]}
+ #:association-rule{:id "cni.union-contribution-split"
+                    :title "CNI states the union contribution is split 60% to the category's union, 20% to the MTE Special Employment and Wage account, 15% to the state federation and 5% to CNI"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/sistema-confederativo"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Sistema Confederativo (Contribuição sindical)"
+                    :source-quote "60% sindicato que representa a categoria 20% conta Especial Emprego e Salário do MTE 15% federação das indústrias do estado ou DF 5% Confederação Nacional da Indústria (CNI)"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "cni.national-industry-forum"
+                    :title "The National Industry Forum (FNI) is a consultative body of CNI's board, formed by more than 70 presidents of national sectoral industry associations"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/foruns-e-conselhos"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Fóruns e Conselhos (Fórum Nacional da Indústria)"
+                    :source-quote "O Fórum Nacional da Indústria (FNI) é um órgão consultivo da nossa diretoria para alinhar, definir e indicar prioridades, além de orientar a ação de influência da indústria nacional. É formado por mais de 70 presidentes de associações setoriais nacionais da indústria"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "cni.thematic-councils"
+                    :title "Each CNI thematic council is formed by 30 representatives of industry federations and national sectoral associations"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/foruns-e-conselhos"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Fóruns e Conselhos (Conselhos temáticos)"
+                    :source-quote "Cada conselho é formados por 30 representantes de federações das indústrias e de associações nacionais setoriais."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "cni.compliance-program"
+                    :title "The Compliance and Integrity Programme of the national entities of the Sistema Indústria is a set of guidelines, norms and procedures for conformity with laws, regulations, ethical standards and internal policies"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://cni.portaldaindustria.com.br/pt/institucional/programa-de-compliance"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Programa de Compliance"
+                    :source-quote "O Programa de Compliance e Integridade das entidades e órgãos nacionais do Sistema Indústria consiste em um conjunto de diretrizes, normas e procedimentos que visam à conformidade das atividades com leis, regulamentos, padrões éticos e políticas internas."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :compliance]}
+ #:association-rule{:id "cni.statute-founding-1938"
+                    :title "CNI's statute (Art. 1) states CNI, a higher-grade union association, was founded on 12 August 1938"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :constitution
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 1º"
+                    :source-quote "Art. 1º - A Confederação Nacional da Indústria, associação sindical de grau superior, fundada em 12 de agosto de 1938"
+                    :established-date "1938-08-12"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :history]}
+ #:association-rule{:id "cni.ministerial-recognition-1938"
+                    :title "CNI's statute (Art. 1) states it was recognised by Ministerial Letter of 17 September 1938"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :constitution
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 1º"
+                    :source-quote "reconhecida por Carta Ministerial de 17 de setembro de 1938"
+                    :established-date "1938-09-17"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :history]}
+ #:association-rule{:id "cni.decree-ratification-1943"
+                    :title "CNI's statute (Art. 1) states its investiture was ratified by Federal Decree 12.321 of 30 April 1943"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :constitution
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 1º"
+                    :source-quote "com investidura ratificada pelo Decreto Federal n.º12.321, de 30 de abril de 1943"
+                    :established-date "1943-04-30"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:constitution :history]}
+ #:association-rule{:id "cni.statute-approved-2008"
+                    :title "The current CNI statute was approved by the Council of Representatives at meetings on 25 March and 29 April 2008 (the later meeting's date is recorded)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto (preâmbulo)"
+                    :source-quote "Aprovado pelo Conselho de Representantes em reuniões realizadas nos dias 25 de março e 29 de abril de 2008"
+                    :established-date "2008-04-29"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.statute-last-amended-2021"
+                    :title "The CNI statute was last amended by the Council of Representatives at meetings on 25 May and 29 June 2021 (the later meeting's date is recorded)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto (preâmbulo)"
+                    :source-quote "e nos dias 25 de maio de 2021 e 29 de junho de 2021"
+                    :last-revised-date "2021-06-29"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.no-party-politics"
+                    :title "CNI's statute (Art. 7) forbids CNI from party-political activity"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 7º"
+                    :source-quote "Art. 7º - É vedado à CNI o exercício de atividades político-partidárias"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.senai-sesi-direction"
+                    :title "CNI's statute (Art. 4) gives CNI the exclusive prerogative to organise, administer and direct SENAI and SESI"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 4º"
+                    :source-quote "organizar, orientar, administrar e dirigir, com exclusividade, o Serviço Nacional de Aprendizagem Industrial (SENAI) e o Serviço Social da Indústria (SESI)"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :labor]}
+ #:association-rule{:id "cni.international-affiliation"
+                    :title "CNI's statute (Art. 6) allows CNI to affiliate with international entities or organisations"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 6º"
+                    :source-quote "Art. 6º - A CNI poderá filiar-se a entidades ou organismos internacionais"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :international]}
+ #:association-rule{:id "cni.one-federation-per-state"
+                    :title "CNI's statute (Art. 10) admits only one industry federation per state or the Federal District"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 10"
+                    :source-quote "Somente será concedida filiação a uma única Federação das Indústrias por Estado ou no Distrito Federal."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :membership]}
+ #:association-rule{:id "cni.council-of-representatives"
+                    :title "CNI's statute (Art. 19) makes the Council of Representatives CNI's highest power, composed of two delegates from each affiliated federation"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 19"
+                    :source-quote "Art. 19 - O Conselho de Representantes, poder máximo da CNI, compõe-se de dois delegados representantes de cada Federação filiada, eleitos pelo respectivo conselho de representantes."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.council-meets-four-times"
+                    :title "CNI's statute (Art. 22) requires the Council of Representatives to meet at least four times a year"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 22"
+                    :source-quote "Art. 22 - O Conselho de Representantes se reunirá, no mínimo, 4 (quatro) vezes por ano"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.statute-reform-supermajority"
+                    :title "CNI's statute (Art. 24 §1) requires approval by three fifths of affiliated federations in two extraordinary meetings to reform the statute"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 24 § 1º"
+                    :source-quote "§ 1º - Para reforma do Estatuto da CNI será exigida a aprovação de 3/5 (três quintos) das Federações filiadas, em 2 (duas) reuniões extraordinárias"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.board-four-year-term"
+                    :title "CNI's statute (Art. 26 §1) elects the Board for a four-year term"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 26 § 1º"
+                    :source-quote "para um mandato de 4 (quatro) anos"
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.president-one-reelection"
+                    :title "CNI's statute (Art. 26 §4) allows the President to be re-elected for only one subsequent term"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 26 § 4º"
+                    :source-quote "§ 4º - O Presidente somente poderá ser reeleito para um único período subseqüente."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.regional-vice-presidents"
+                    :title "CNI's statute (Art. 26 §7) distributes the five Executive Vice-President posts across Brazil's five geographic regions"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 26 § 7º"
+                    :source-quote "§ 7º - Os cargos dos cinco Vice-Presidentes Executivos deverão ser distribuídos pelas cinco regiões geográficas do Brasil."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.secret-ballot"
+                    :title "CNI's statute (Art. 63) holds elections by secret ballot"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :statute
+                    :url "https://cni.portaldaindustria.com.br/documents/d/cni/estatuto_da_cni"
+                    :url-provenance :official-cni-portaldaindustria
+                    :source-article "Estatuto, Art. 63"
+                    :source-quote "Art. 63 - As eleições processar-se-ão mediante escrutínio secreto."
+                    :date-unknown-because :article-does-not-date-itself
+                    :retrieved-at "2026-09-24"
+                    :topic [:statute :governance]}
+ #:association-rule{:id "cni.predecessor-cib-1933"
+                    :title "Confederação Industrial do Brasil (CIB), CNI's direct predecessor, founded 25 January 1933 in Rio de Janeiro (FGV CPDOC historical dictionary)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/confederacao-nacional-da-industria-cni"
+                    :url-provenance :fgv-cpdoc-corroborated
+                    :source-article "Verbete temático: Confederação Nacional da Indústria (CNI) — Antecedentes"
+                    :source-quote "Em 25 de janeiro de 1933, por iniciativa de algumas federações estaduais, foi fundada no Rio de Janeiro, então Distrito Federal, a Confederação Industrial do Brasil (CIB)"
+                    :established-date "1933-01-25"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cni.founding-1938"
+                    :title "Confederação Nacional da Indústria (CNI) created 12 August 1938 and recognised by the Ministry of Labour, Industry and Commerce on 17 September of the same year (FGV CPDOC historical dictionary)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/confederacao-nacional-da-industria-cni"
+                    :url-provenance :fgv-cpdoc-corroborated
+                    :source-article "Verbete temático: Confederação Nacional da Indústria (CNI)"
+                    :source-quote "criada em 12 de agosto de 1938 e reconhecida por carta do Ministério do Trabalho, Indústria e Comércio em 17 de setembro do mesmo ano"
+                    :established-date "1938-08-12"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history]}
+ #:association-rule{:id "cni.corporatist-decree-1939"
+                    :title "CNI, like all union bodies of the Estado Novo, was brought under Decree-Law 1.402 of 5 July 1939, which set up the corporatist organisation of industry (FGV CPDOC)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/confederacao-nacional-da-industria-cni"
+                    :url-provenance :fgv-cpdoc-corroborated
+                    :source-article "Verbete temático: CNI — A CNI e o Decreto-Lei nº 1.402"
+                    :source-quote "Decreto-Lei nº 1.402, de 5 de julho de 1939, que estabelecia a organização corporativa da indústria"
+                    :established-date "1939-07-05"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:governance :history :labor]}
+ #:association-rule{:id "cni.senai-1942"
+                    :title "Decree-Law 4.048 of 22 January 1942 gave CNI the organisation and direction of SENAI (FGV CPDOC)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/confederacao-nacional-da-industria-cni"
+                    :url-provenance :fgv-cpdoc-corroborated
+                    :source-article "Verbete temático: CNI — A CNI e a Segunda Guerra Mundial"
+                    :source-quote "Decreto-Lei nº 4.048, de 22 de janeiro de 1942, que atribuiu à CNI a organização e a direção do Serviço Nacional de Aprendizagem Industrial (Senai)"
+                    :established-date "1942-01-22"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :labor]}
+ #:association-rule{:id "cni.sesi-1946"
+                    :title "SESI was created under CNI's charge by Decree-Law 9.043 of 1 July 1946 (FGV CPDOC)"
+                    :association "cni"
+                    :isic "9411"
+                    :country "BRA"
+                    :kind :governance-program
+                    :url "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-tematico/confederacao-nacional-da-industria-cni"
+                    :url-provenance :fgv-cpdoc-corroborated
+                    :source-article "Verbete temático: CNI — A CNI e a Segunda Guerra Mundial"
+                    :source-quote "Em 1º de julho de 1946, pelo Decreto-Lei nº 9.043, foi criado o Serviço Social da Indústria (Sesi), a cargo da CNI"
+                    :established-date "1946-07-01"
+                    :date-precision :day
+                    :retrieved-at "2026-09-24"
+                    :topic [:history :labor]}]

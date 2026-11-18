@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "ANDI (Asociación Nacional de Empresarios de Colombia, historically Asociación Nacional de Industriales)"
+ :abbreviation "ANDI"
+ :official-url "https://www.andi.com.co/"
+ :wikidata "Q5641268"
+ :isic "9411"
+ :country "COL"
+ :established-date "1944-09-11"
+ :head-role-note "institutional office title only (President); the founder's name (Cipriano Restrepo), incidentally encountered, is never persisted here"
+ :sourced-from "andi.com.co's own domain returned a 'socket hang up' connection failure on every page tried this tick (both the 'Quiénes Somos' page and a news article). Verified instead directly (WebFetch) against es.wikipedia.org's own article, which states verbatim: 'Fue fundada el 11 de septiembre de 1944 en Usaquén' -- the 11 September 1944 date is unanimous across every source checked (Wikipedia body text plus independent WebSearch results), though the article is internally inconsistent about the founding city (Usaquén vs Antioquia-region managers). Wikidata Q5641268's own inception statement lists '11 September 1994' (a 50-year discrepancy) with zero references -- checked, found unsupported, and rejected as an apparent data-entry error rather than used as corroboration."}

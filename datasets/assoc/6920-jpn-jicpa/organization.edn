@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Japanese Institute of Certified Public Accountants"
+ :name-local "日本公認会計士協会"
+ :abbreviation "JICPA"
+ :legal-form "特別の法律により設立される民間法人 (special private corporation under the Certified Public Accountants Act)"
+ :official-url "https://jicpa.or.jp/"
+ :wikidata "Q6158230"
+ :isic "6920"
+ :country "JPN"
+ :established-date "1949"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

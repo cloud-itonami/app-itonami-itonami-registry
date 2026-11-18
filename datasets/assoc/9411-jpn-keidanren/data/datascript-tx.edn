@@ -1,0 +1,284 @@
+;; data/datascript-tx.edn — DataScript tx-data for `association.facts/catalog`
+;; (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; This file is the INPUT to tools/gen_kotoba.cljs. The .cljc holds the same
+;; catalog as a hand-authored literal, and the parity test compares the two —
+;; which only means something because they are written separately.
+;;
+;; Every url below was fetched on 2026-09-06 and returned 200. Nothing here is
+;; cited that was not read.
+
+[#:association-rule{:id "keidanren.founding-1946-08-16"
+                    :title "Keidanren gives its own founding date as 16 August 1946, in the overview table of its official profile page"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.keidanren.or.jp/profile/pro001.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "1946-08-16"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.incorporation-permit-1961-06-29"
+                    :title "Permission to incorporate as a shadan hojin (incorporated association) was granted 29 June 1961 — the association existed for fifteen years before it held legal personality"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.keidanren.or.jp/profile/pro001.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "1961-06-29"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.general-incorporated-association-2012-03-30"
+                    :title "Keidanren converted from shadan hojin to ippan shadan hojin (general incorporated association) on 30 March 2012, following Japan's public-interest corporation reform — its chronology page gives this at day precision"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.keidanren.or.jp/profile/enkaku.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "2012-03-30"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.nikkeiren-merger-2002-official-year-only"
+                    :title "Keidanren's own chronology dates the Nikkeiren merger to 2002 with NO month — this entry exists so that the month on the entry below is visibly not Keidanren's claim"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.keidanren.or.jp/profile/enkaku.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "2002"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.nikkeiren-merger-2002-05"
+                    :title "Keidanren and Nikkeiren merged in May 2002 to form today's Japan Business Federation, Nikkeiren being absorbed into Keidanren — month precision comes from en.wikipedia.org, not from Keidanren"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Japan_Business_Federation"
+                    :url-provenance :official-plus-wikipedia-corroborated
+                    :established-date "2002-05"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.membership-composition-2026-04-01"
+                    :title "Membership as of 1 April 2026: 1,580 corporate members, 150 group members, 33 special members, 1,763 total — the three classes are the ones the Statutes arts. 6 and 7 define"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :membership-rule
+                    :url "https://www.keidanren.or.jp/profile/pro001.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership]}
+ #:association-rule{:id "keidanren.teikan-2024-05-31"
+                    :title "Teikan (Articles of Association) as revised 31 May 2024 — 14-page PDF, 12 chapters, 61 articles, published by Keidanren itself"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :constitutive-instrument
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2024-05-31"
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.teikan-art-3-purpose"
+                    :title "Statutes art. 3 states the purpose: as a comprehensive economic organisation, to draw out the vitality of firms and of the individuals and localities that support them, and to contribute to autonomous development of the economy and improvement of national life"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :constitutive-instrument
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance]}
+ #:association-rule{:id "keidanren.teikan-art-4-4-norms-for-members"
+                    :title "Statutes art. 4(4) lists, among the activities the association carries out, the drawing up of plans and norms that serve as guidelines for members — the standing power under which member-facing codes are issued"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :constitutive-instrument
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:governance :ethics]}
+ #:association-rule{:id "keidanren.teikan-art-8-admission"
+                    :title "Statutes art. 8: admission is by application under a procedure the Board sets, approved by the Chairman under Board rules; each member must register one representative with the Director-General on joining"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :membership-rule
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "keidanren.teikan-art-11-expulsion"
+                    :title "Statutes art. 11: a member may be expelled for breaching the Statutes or other rules, for damaging the association's honour or acting against its purpose, or for other just cause — by at least half of all members holding at least two thirds of the votes, after one week's notice and an opportunity to be heard at the General Meeting"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :sanction
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:enforcement :membership]}
+ #:association-rule{:id "keidanren.teikan-art-12-loss-of-membership"
+                    :title "Statutes art. 12: membership is lost, apart from expulsion and withdrawal, by failing the dues obligation for two years, by consent of all members, or on the member's bankruptcy or dissolution — dues already paid are not refunded"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :membership-rule
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:membership :enforcement]}
+ #:association-rule{:id "keidanren.teikan-art-58-electronic-public-notice"
+                    :title "Statutes art. 58: public notices are given by electronic notice, falling back to the Official Gazette only where accident or unavoidable cause prevents it"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :disclosure-rule
+                    :url "https://www.keidanren.or.jp/profile/teikan.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:disclosure :governance]}
+ #:association-rule{:id "keidanren.profile-urges-charter-compliance"
+                    :title "Keidanren's profile page describes pressing member firms to observe the Charter of Corporate Behavior as part of establishing trust in business — the association's own account of the Charter as an obligation it puts on members"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :governance-program
+                    :url "https://www.keidanren.or.jp/profile/pro001.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :membership]}
+ #:association-rule{:id "keidanren.charter-established-1991-09-14"
+                    :title "The Charter of Corporate Behavior was established 14 September 1991 — the date carried on the instrument itself"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "1991-09-14"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "keidanren.charter-6th-revision-2024-05-31"
+                    :title "Charter of Corporate Behavior, 6th revision of 31 May 2024 — ten principles binding member firms to comply with law, international rules and their spirit; same date as the Statutes revision"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2024-05-31"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "keidanren.charter-principle-2-fair-business-practices"
+                    :title "Charter principle 2 (fair business practices): fair and free competition, appropriate transactions and responsible procurement; co-existence and co-prosperity across the whole supply chain under the Partnership Building Declaration; and sound relations with politics and government"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :competition]}
+ #:association-rule{:id "keidanren.charter-principle-10-top-management"
+                    :title "Charter principle 10 puts implementation on top management personally: build effective governance, carry the Charter through the company and its group, press supply-chain behaviour in line with it, and on a breach that loses public trust take the lead in resolution, cause investigation and prevention"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :governance :enforcement]}
+ #:association-rule{:id "keidanren.charter-preamble-2022-12"
+                    :title "The preamble carried above the Charter is dated December 2022 and argues for sustainable capitalism — it is one revision behind the articles it introduces, which carry May 2024"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2022-12"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics]}
+ #:association-rule{:id "keidanren.charter-pdf-2022"
+                    :title "The Charter as a published document — 4-page PDF served by Keidanren. It carries NO extractable text layer, so every wording recorded here was read from the HTML page, not from this file"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/policy/cgcb/charter2022.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics]}
+ #:association-rule{:id "keidanren.charter-en-5th-revision-superseded"
+                    :title "Keidanren's own ENGLISH Charter page still states 5th Revision: Nov. 8, 2017, and its principle 2 reads only fair and free competition, appropriate transactions, and responsible procurement, also maintain a sound relationship with political bodies and government agencies — the supply-chain sentence added by the 6th revision is absent. Reading only the English page yields the superseded obligation"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :code-of-conduct
+                    :url "https://www.keidanren.or.jp/en/policy/csr/charter2022.html"
+                    :url-provenance :official-keidanren-or-jp-en-superseded
+                    :last-revised-date "2017-11-08"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :competition]}
+ #:association-rule{:id "keidanren.tebiki-9th-2022-12-13"
+                    :title "Implementation Guidance on the Charter of Corporate Behavior, 9th edition, 13 December 2022 — chapter-by-chapter guidance running to the tenth chapter on top management"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :implementation-guidance
+                    :url "https://www.keidanren.or.jp/policy/cgcb/tebiki9.html"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2022-12-13"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "keidanren.tebiki-10th-ch2-2024-05-31"
+                    :title "Implementation Guidance 10th edition, chapter 2 extract, revised 31 May 2024 — 20-page PDF. Only chapter 2 was reissued at the 6th revision; the other chapters stand at the 9th edition"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :implementation-guidance
+                    :url "https://www.keidanren.or.jp/policy/cgcb/tebiki10bassui.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2024-05-31"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :competition]}
+ #:association-rule{:id "keidanren.tebiki-2-1-competition-law"
+                    :title "Implementation Guidance 2-1 requires competition-law compliance to be driven through the whole corporate group at home and abroad, and turns the duty on trade associations themselves — they must maintain compliance in their own association activity and support their constituent firms in it"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :implementation-guidance
+                    :url "https://www.keidanren.or.jp/policy/cgcb/tebiki10bassui.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :retrieved-at "2026-09-06"
+                    :topic [:competition :ethics]}
+ #:association-rule{:id "keidanren.charter-art2-revision-paper-2024-05-07"
+                    :title "The policy paper announcing the principle-2 revision and the chapter-2 guidance revision is dated 7 May 2024, while both instruments carry 31 May 2024 — recorded as the two dates the documents give, with no claim about which is the adoption"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :implementation-guidance
+                    :url "https://www.keidanren.or.jp/policy/2024/038.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :last-revised-date "2024-05-07"
+                    :retrieved-at "2026-09-06"
+                    :topic [:ethics :competition]}
+ #:association-rule{:id "keidanren.human-rights-handbook-2021"
+                    :title "Handbook for Business Management that Respects Human Rights, issued December 2021 alongside the revision of Implementation Guidance chapter 4 — 75-page PDF, which reproduces the Charter at its 5th revision"
+                    :association "keidanren"
+                    :isic "9411"
+                    :country "JPN"
+                    :kind :implementation-guidance
+                    :url "https://www.keidanren.or.jp/policy/cgcb/2021handbook.pdf"
+                    :url-provenance :official-keidanren-or-jp
+                    :established-date "2021-12"
+                    :retrieved-at "2026-09-06"
+                    :topic [:human-rights :ethics]}]

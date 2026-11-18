@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Chemistry Council"
+ :name-local "American Chemistry Council"
+ :abbreviation "ACC"
+ :legal-form "national trade association; originally founded as the Manufacturing Chemists Association of the United States (1872), renamed Chemical Manufacturers Association (1978), renamed American Chemistry Council (2000)"
+ :official-url "https://www.americanchemistry.com/"
+ :wikidata "Q4743356"
+ :isic "2011"
+ :country "USA"
+ :established-date "1872"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- founding year directly confirmed on ACC's own 'Our 150 Years History' page ('The ACC was founded in 1872 (originally called the Manufacturing Chemist Association of the United States)') -- no specific month/day is stated anywhere found, so :established-date is deliberately year-only rather than an invented full date"}

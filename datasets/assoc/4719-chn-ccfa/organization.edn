@@ -1,0 +1,16 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "China Chain Store & Franchise Association"
+ :name-local "中国连锁经营协会"
+ :abbreviation "CCFA"
+ :official-url "http://www.ccfa.org.cn/"
+ :official-url-en "http://www.chinaretail.org.cn/"
+ :isic "4719"
+ :country "CHN"
+ :established-date "1997"
+ :member-count "会员企业1600余家 (as stated on the 简介 page, 发布 2025/01/01)"
+ :member-scope "会员涵盖零售、餐饮、服务、供应商及相关机构；连锁会员经营方式包括直营及特许经营"
+ :stated-purpose "参与政策制定与协调，维护行业和会员权益，为会员提供系列化专业培训和行业发展信息与数据，搭建业内交流与合作平台"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :scope-caveat "CCFA's own membership scope (retail + food service + services + suppliers) is WIDER than ISIC 4719. The code follows the assignment cloud-itonami-assoc-4719-usa-nrf already uses so the two are joinable; it is not a claim that CCFA is confined to 4719."
+ :sourced-from "verified directly by reading http://www.ccfa.org.cn/portal/cn/xiangxic.jsp?type=11 on 2026-07-27 (page 发布时间 2025/01/01). Every field above is stated on that page. The site is HTTP-only, so it was read over plain HTTP."}

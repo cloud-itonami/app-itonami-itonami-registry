@@ -1,0 +1,200 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+;;
+;; Every entry carries the verbatim span its claim rests on (:source-quote),
+;; the page that span was read from (:source-article), and how precisely that
+;; page dates the fact (:date-precision) or why it gives no date at all
+;; (:date-unknown-because). scripts/verify-catalog.cljs --live fetches each
+;; :url and requires the span to still be in it.
+;;
+;; EVERY :url HERE IS A WAYBACK SNAPSHOT, AND THAT IS A FACT ABOUT THE SOURCE,
+;; NOT A SHORTCUT. fsc.org.sa served this catalog's pages until at least
+;; 2026-02; it now answers a single "coming soon" placeholder and every deep
+;; path under it returns 404 -- including the one the first two entries used to
+;; cite. The claims are still FSC speaking about itself; the archive is only
+;; who serves that speech today.
+
+[#:association-rule{:id "fsc.founding-royal-decree-r6-1400h"
+                    :title "FSC was formed by Royal Decree R/6 of 30/04/1400 Hijri (March 1980), with its head office in Riyadh"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "The Council was formed as per the Royal Decree # R/6 dated 30/04/1400 Hijri (March 1980) with its head office in Riyadh."
+                    :established-date "1980-03"
+                    :date-precision :month
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "fsc.operational-commencement-1401h"
+                    :title "FSC began its actual tasks in 1401 H (1981), once it had formed the General Secretariat as its executive arm"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "When the Council formed its executive arm, the General Secretariat of the Council, it started its actual tasks as of 1401 H (1981)."
+                    :established-date "1981"
+                    :date-precision :year
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "fsc.federation-of-28-saudi-chambers"
+                    :title "FSC is the official federation for the 28 Saudi Chambers"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "The Federation for Saudi Chambers of Commerce and Industry is the official federation for the 28 Saudi Chambers."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "fsc.board-of-directors-56-members-three-year-tenure"
+                    :title "FSC's Board of Directors is drawn from member Chambers and totals 56 members with a tenure of three years"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "The Board of Directors is composed of the heads of member Chambers and elected members from the board of directors of each Chamber. This makes the total number of members to 56 with a tenure of three years."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:board :governance]}
+ #:association-rule{:id "fsc.chairman-not-elected-for-two-successive-terms"
+                    :title "The FSC board elects its Chairman and two Deputies at its first meeting, and the same Chairman may not be elected for two successive terms"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "In its first meeting the board elects its Chairman and two Deputies. The same Chairman shall not be elected for two successive terms."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:board :governance]}
+ #:association-rule{:id "fsc.executive-committee-composition-and-terms"
+                    :title "FSC's Executive Committee is the chairman, his two deputies and six chamber chairmen taken in alphabetical order, the six serving one year and the chairman and deputies the full three-year session"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "It consists of the chairman, his two deputies and six members of the chambers’ chairmen to be selected in the alphabetical order of the chambers. The Committee’s membership duration period is only one year for the six members, but as for the chairman and his deputies, it lasts throughout the council’s session of three years."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:board :governance]}
+ #:association-rule{:id "fsc.general-secretariat-is-the-executive-arm"
+                    :title "The General Secretariat is FSC's executive arm and is headed by the Secretary General"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "The General Secretariat of the Council is the executive arm that carries out the tasks and realizes the objectives of the Council. The General Secretariat is also the base of the institutional activities of the Council and is headed by the Secretary General."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "fsc.thirty-two-national-committees"
+                    :title "FSC hosts 32 national committees representing various sectors in the Kingdom"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "There are 32 national committees representing various sectors in the Kingdom."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:committees :governance]}
+ #:association-rule{:id "fsc.thirty-one-saudi-foreign-business-councils"
+                    :title "FSC enhances Saudi exports via 31 Saudi-foreign business councils"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230817034210/https://fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Establishment of FSC' (fsc.org.sa/about-fsc/introduction-about-csc/establ-of-csc/), Wayback Machine snapshot of 17 August 2023"
+                    :source-quote "In addition to fostering the Kingdom’s relations with its trade partners, worldwide, and enhancing Saudi exports via 31 Saudi-foreign business councils at FSC."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:international]}
+ #:association-rule{:id "fsc.chambers-formed-by-decision-of-the-minister"
+                    :title "Saudi Chambers of Commerce and Industry are formed by a decision from the Minister of Commerce and Investment and are non-profit organizations"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230924134251/https://fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'FSC and Saudi Chambers of Commerce Relationship' (fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/), Wayback Machine snapshot of 24 September 2023"
+                    :source-quote "Chambers of Commerce and Industry are formed by a decision from the Minister of Commerce and Investment. They are non-profit organizations that represent the interests of the business community within their jurisdiction, and covey their concerns to relevant bodies."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "fsc.chambers-have-legal-personality"
+                    :title "Saudi Chambers of Commerce have their own legal personality and are represented by their board of directors before the judiciary"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230924134251/https://fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'FSC and Saudi Chambers of Commerce Relationship' (fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/), Wayback Machine snapshot of 24 September 2023"
+                    :source-quote "Chambers of Commerce shall have their legal personality, and be represented by their board of directors before the judiciary and others."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance]}
+ #:association-rule{:id "fsc.umbrella-and-only-legitimate-representative"
+                    :title "FSC describes itself as the umbrella and only legitimate representative of the Saudi business community in all its groups, sectors and regions"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230924134251/https://fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'FSC and Saudi Chambers of Commerce Relationship' (fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/), Wayback Machine snapshot of 24 September 2023"
+                    :source-quote "The Federation of Saudi Chambers is the umbrella and only legitimate representative of the Saudi business community in all its various groups, sectors and regions"
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :membership]}
+ #:association-rule{:id "fsc.role-in-drafting-regulations-shura-and-bureau-of-experts"
+                    :title "FSC participates in drafting regulations and decisions governing the Saudi business community through its membership in various committees, the Shura Council, and the Bureau of Experts"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230924134251/https://fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'FSC and Saudi Chambers of Commerce Relationship' (fsc.org.sa/about-fsc/chambers-of-commerce/csc-chambers-relationship/), Wayback Machine snapshot of 24 September 2023"
+                    :source-quote "The Federation of Saudi Chambers has the primary role in participating in the drafting of regulations and decisions governing and serving the Saudi business community through its membership in various committees, the Shura Council, and the Bureau of Experts."
+                    :date-unknown-because :source-states-a-standing-fact-without-a-date
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :public-policy]}
+ #:association-rule{:id "fsc.vision-realization-office-board-decision-m90-3"
+                    :title "FSC's board of directors formed the Vision Realization Office (VRO) under the General Secretariat by decision No. M/90/3 dated 23/3/1438H"
+                    :association "fsc"
+                    :isic "9411"
+                    :country "SAU"
+                    :kind :governance-program
+                    :url "https://web.archive.org/web/20230924144234/https://fsc.org.sa/about-fsc/introduction-about-csc/vision-2030/?lang=en"
+                    :url-provenance :official-fsc-org-sa-archived
+                    :source-article "Federation of Saudi Chambers, 'Vision 2030 -- Vision Realization Office (VRO)' (fsc.org.sa/about-fsc/introduction-about-csc/vision-2030/), Wayback Machine snapshot of 24 September 2023"
+                    :source-quote "the Council of Saudi Chambers’ board of directors issued decision No. M/90/3 dated 23/3/1438H to form the Vision Realization Office (VRO) under its General Secretariat."
+                    :date-unknown-because :source-dates-the-decision-in-hijri-only
+                    :retrieved-at "2026-09-09"
+                    :topic [:governance :vision-2030]}]

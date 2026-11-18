@@ -1,0 +1,120 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700).
+;; No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+;;
+;; tools/gen_kotoba.cljs emits src/association_facts.kotoba from THIS file.
+;; The .cljc catalog is authored by hand, so the two faces the parity test
+;; compares are still produced independently.
+
+[#:association-rule{:id "aicpa.code-of-professional-conduct"
+                     :title "Code of Professional Conduct"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://pub.aicpa.org/codeofconduct/ethicsresources/et-cod.pdf"
+                     :url-provenance :official-association-site
+                     :established-date "2014-12-15"
+                     :last-revised-date "2025-12"
+                     :retrieved-at "2026-07-15"
+                     :topic [:ethics :member-conduct]}
+ #:association-rule{:id "aicpa.bylaws-and-council-resolutions"
+                     :title "AICPA Bylaws and Implementing Resolutions of Council"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.aicpa-cima.com/resources/download/aicpa-bylaws-and-implementing-resolutions-of-council"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}
+ #:association-rule{:id "aicpa.sas-au-c-currently-effective"
+                     :title "AICPA SASs – currently effective"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/aicpa-statements-on-auditing-standards-currently-effective"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-08"
+                     :retrieved-at "2026-09-06"
+                     :topic [:auditing :assurance]}
+ #:association-rule{:id "aicpa.ssars-ar-c-currently-effective"
+                     :title "AICPA SSARSs – currently effective"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/aicpa-ssarss-currently-effective"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-08"
+                     :retrieved-at "2026-09-06"
+                     :topic [:compilation-review :assurance]}
+ #:association-rule{:id "aicpa.ssae-at-c-currently-effective"
+                     :title "AICPA SSAEs – currently effective"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/aicpa-ssaes-currently-effective"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-08"
+                     :retrieved-at "2026-09-06"
+                     :topic [:attestation :assurance]}
+ #:association-rule{:id "aicpa.statements-on-standards-for-tax-services"
+                     :title "Statements on Standards for Tax Services No. 1–4 (1/1/2024)"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/revised-statements-on-standards-for-tax-services-no-1-4-1-1-2024"
+                     :url-provenance :official-association-site
+                     :established-date "2024-01-01"
+                     :retrieved-at "2026-09-06"
+                     :topic [:tax :member-conduct]}
+ #:association-rule{:id "aicpa.quality-management-standards-no-1"
+                     :title "AICPA Statement on Quality Management Standards No. 1"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/aicpa-statement-on-quality-management-standards-no-1"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-09-06"
+                     :topic [:quality-management]}
+ #:association-rule{:id "aicpa.peer-review-standards"
+                     :title "Clarified AICPA Standards For Performing and Reporting On Peer Reviews"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/clarified-aicpa-standards-for-performing-and-reporting-on-peer-reviews"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2026-02-28"
+                     :retrieved-at "2026-09-06"
+                     :topic [:peer-review :quality-management]}
+ #:association-rule{:id "aicpa.trust-services-criteria"
+                     :title "2017 Trust Services Criteria (With Revised Points of Focus — 2022)"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022"
+                     :url-provenance :official-association-site
+                     :established-date "2017"
+                     :last-revised-date "2022"
+                     :retrieved-at "2026-09-06"
+                     :topic [:soc :information-security]}
+ #:association-rule{:id "aicpa.soc-2-description-criteria"
+                     :title "2018 SOC 2® Description Criteria (With Revised Implementation Guidance – 2022)"
+                     :association "aicpa"
+                     :isic "6920"
+                     :country "USA"
+                     :kind :professional-standard
+                     :url "https://www.aicpa-cima.com/resources/download/get-description-criteria-for-your-organizations-soc-2-r-report"
+                     :url-provenance :official-association-site
+                     :established-date "2018"
+                     :last-revised-date "2022"
+                     :retrieved-at "2026-09-06"
+                     :topic [:soc :information-security]}]

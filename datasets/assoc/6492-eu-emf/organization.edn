@@ -1,0 +1,19 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "European Mortgage Federation"
+ :name-local "European Mortgage Federation (EMF)"
+ :abbreviation "EMF"
+ :also-known-as "EMF-ECBC (the EMF is co-located and jointly branded with the European Covered Bond Council)"
+ :legal-form "European industry federation (Brussels-based trade association)"
+ :official-url "https://hypo.org/"
+ :isic "6492"
+ ;; NOT an ISO 3166-1 alpha-3 country code. The EMF is supranational, so this
+ ;; catalog uses the exceptionally-reserved ISO 3166-1 code "EU". Every sibling
+ ;; cloud-itonami-assoc-* repo so far is country-level (iso3); this is the first
+ ;; supranational one, and the deviation is deliberate and recorded here rather
+ ;; than hidden by forcing a member state's code.
+ :country "EU"
+ :country-code-note "ISO 3166-1 exceptionally reserved code EU, not an iso3 country. Membership spans 11 EU Member States as of the retrieved source."
+ :established-date "1967"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch of https://hypo.org/about-emf and https://hypo.org/emf) 2026-08-01"}

@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Federation of Enterprises in Belgium (FEB/VBO)"
+ :abbreviation "FEB/VBO"
+ :official-url "https://www.vbo-feb.be/"
+ :wikidata "Q3091635"
+ :isic "9411"
+ :country "BEL"
+ :established-date "1973"
+ :head-role-note "institutional office title only (President/CEO); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- vbo-feb.be's own 'about-us' and 'who-we-are' pages render successfully but do not surface founding-history text on the pages checked. fr.wikipedia.org's own article, directly read, states verbatim: 'Le Comité Central du Travail Industriel, fondé en 1895' (earliest predecessor) and 'En 1973, la Fédération des entreprises de Belgique (FEB) est créée'. en.wikipedia.org corroborates the 1973 merger. The 1973 date is independently corroborated by Wikidata Q3091635's own inception statement."}

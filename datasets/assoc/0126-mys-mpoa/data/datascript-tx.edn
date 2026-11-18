@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — provider artifact derived from
+;; src/association_facts.kotoba (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "mpoa.founding-1999-rationalisation"
+                     :title "MPOA founding via rationalisation of plantation-industry bodies (Introduction)"
+                     :association "mpoa"
+                     :isic "0126"
+                     :country "MYS"
+                     :kind :governance-program
+                     :url "https://www.mpoa.org.my/introduction.php"
+                     :url-provenance :official-mpoa-org-my
+                     :established-date "1999"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "mpoa.predecessor-united-planting-association-1897"
+                     :title "United Planting Association of Malaysia, MPOA predecessor body active since 1897 (Introduction)"
+                     :association "mpoa"
+                     :isic "0126"
+                     :country "MYS"
+                     :kind :governance-program
+                     :url "https://www.mpoa.org.my/introduction.php"
+                     :url-provenance :official-mpoa-org-my
+                     :established-date "1897"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]

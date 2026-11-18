@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only (President) — no personal names.
+{:name-en "German Association of the Automotive Industry"
+ :name-local "Verband der Automobilindustrie"
+ :abbreviation "VDA"
+ :legal-form "eingetragener Verein (e.V., registered association)"
+ :official-url "https://www.vda.de/"
+ :isic "2910"
+ :country "DEU"
+ :established-date "1901"
+ :head-role-note "institutional office title only (President); personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15 -- founding year corroborated via WebSearch and the association's own '125 Jahre VDA' (125 Years VDA) reference on its Organization page, not a single primary-page date statement"}

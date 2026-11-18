@@ -1,0 +1,21 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "China Association of Automobile Manufacturers"
+ :name-local "中国汽车工业协会"
+ :abbreviation "CAAM"
+ :legal-form "社会团体法人 (social-organization legal person), 经中华人民共和国民政部批准"
+ :nature "自律性、非营利性的社会团体 (self-regulatory, non-profit social organization)"
+ :official-url "http://www.caam.org.cn/"
+ :isic "2910"
+ :country "CHN"
+ :established-date "1990-01-01"
+ :hq {:line-en "Beijing" :line-local "北京" :country "chn" :kind "association-headquarters"
+      :provenance "http://www.caam.org.cn/chn/2/cate_7/con_5223237.html"
+      :last-verified "2026-07-27" :sourcing "authoritative"}
+ :member-count "3300+ 会员单位 (as stated on the 协会简介 page, published 2023-06-12)"
+ :structure "会员代表大会 (highest authority) / 理事会制 / 秘书处 with 8 内部部门, 42 分支机构(含筹), 9 下属单位"
+ :international-membership "世界汽车组织 (OICA) 常任理事会员单位"
+ :business-scope ["政策研究" "信息服务" "标准制订" "贸易协调" "行业自律" "社会责任"
+                  "反映诉求" "品牌宣传" "会展服务" "咨询论证" "国际交流" "行业培训"]
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly by reading http://www.caam.org.cn/chn/2/cate_7/con_5223237.html on 2026-07-27 (page 发布时间 2023-06-12). Every field above is stated on that page. The site is HTTP-only, so it was read over plain HTTP; the china-cba.net peer candidate was unreachable from the same network and is deliberately NOT recorded anywhere in this repo."}

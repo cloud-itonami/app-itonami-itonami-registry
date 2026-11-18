@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "phrma.code-on-interactions-with-hcps"
+                     :title "Code on Interactions with Health Care Professionals"
+                     :association "phrma"
+                     :isic "2100"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://cdn.aglty.io/phrma/global/resources/PhRMA%20Code%20-%20Final.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2022-01-01"
+                     :retrieved-at "2026-07-15"
+                     :topic [:ethics :member-conduct]}
+ #:association-rule{:id "phrma.guiding-principles-dtc-advertising"
+                     :title "PhRMA Guiding Principles: Direct to Consumer Advertisements about Prescription Medicines"
+                     :association "phrma"
+                     :isic "2100"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://cdn.aglty.io/phrma/global/resources/PhRMA_Guiding_Principles_2018.pdf"
+                     :url-provenance :official-association-site
+                     :last-revised-date "2018"
+                     :retrieved-at "2026-07-15"
+                     :topic [:advertising :consumer-protection]}]

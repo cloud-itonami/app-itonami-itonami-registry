@@ -1,0 +1,28 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association/facts.cljc `association.facts/catalog` (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "awwa.policy-distribution-system-water-quality"
+                     :title "AWWA Policy Statement on Distribution System Water Quality"
+                     :association "awwa"
+                     :isic "3600"
+                     :country "USA"
+                     :kind :self-regulatory-code
+                     :url "https://www.awwa.org/policy-statement/distribution-system-water-quality/"
+                     :url-provenance :official-association-site
+                     :established-date "1975-01-26"
+                     :last-revised-date "2026-04-01"
+                     :retrieved-at "2026-07-15"
+                     :topic [:water-quality :best-practices]}
+ #:association-rule{:id "awwa.who-we-are-profile"
+                     :title "Who We Are (organization profile)"
+                     :association "awwa"
+                     :isic "3600"
+                     :country "USA"
+                     :kind :governance-program
+                     :url "https://www.awwa.org/who-we-are/"
+                     :url-provenance :official-association-site
+                     :established-date "1881-03-29"
+                     :retrieved-at "2026-07-15"
+                     :topic [:governance]}]

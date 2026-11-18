@@ -1,0 +1,12 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Keidanren (Japan Business Federation / 日本経済団体連合会)"
+ :abbreviation "Keidanren"
+ :official-url "https://www.keidanren.or.jp/"
+ :isic "9411"
+ :country "JPN"
+ :established-date "1946-08-16"
+ :legal-form "ippan shadan hojin (general incorporated association) since 2012-03-30; shadan hojin from 1961-06-29"
+ :corporate-number "1010005018440"
+ :head-role-note "institutional office titles only (Chairman, Director-General); the officers page names every director and none of them is persisted here"
+ :sourced-from "verified directly 2026-09-06 -- https://www.keidanren.or.jp/profile/pro001.html (Keidanren's own profile page) gives, in its overview table, day-level precision for the founding ('設立日 1946（昭和21）年8月16日'), the permission to incorporate as a shadan hojin ('社団法人としての設立許可 1961（昭和36）年6月29日'), the transition to ippan shadan hojin ('一般社団法人への移行日 2012（平成24）年3月30日') and the corporate number ('法人番号 1010005018440'). The rule/history chain drawn from Keidanren's Statutes and Charter of Corporate Behavior is in src/association/facts.cljc, with per-entry urls and provenance tiers; tools/verify_urls.cljs re-fetches every cited url."}

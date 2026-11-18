@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "cip.founding-1936-pichincha"
+                     :title "Founded in 1936 as the Cámara de Industriales de la Provincia de Pichincha, following an economic crisis from the collapse of cacao production (es.wikipedia.org, internally corroborated by cip.org.ec's own multiple anniversary references: 82 years in 2018, 87 years in October 2023, 90 years currently)"
+                     :association "cip"
+                     :isic "9411"
+                     :country "ECU"
+                     :kind :governance-program
+                     :url "https://es.wikipedia.org/wiki/C%C3%A1mara_de_Industrias_y_Producci%C3%B3n_de_Ecuador"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1936"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "cip.national-coverage-reform-2009"
+                     :title "In 2009, the Chamber reformed its bylaws, ceasing to be a provincial trade entity and becoming a nationally-covering institution (es.wikipedia.org)"
+                     :association "cip"
+                     :isic "9411"
+                     :country "ECU"
+                     :kind :governance-program
+                     :url "https://es.wikipedia.org/wiki/C%C3%A1mara_de_Industrias_y_Producci%C3%B3n_de_Ecuador"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "2009"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}]

@@ -148,6 +148,9 @@ def main(argv=None):
     a = ap.parse_args(argv)
     result, skipped = build(a.clones, a.org, a.observed_on)
     for family, doc in result.items():
+        if family == 'assoc':
+            print('assoc: preserved Registry snapshot; use the site build to verify it')
+            continue
         text = json.dumps(doc, indent=2, ensure_ascii=False) + '\n'
         path = a.out / f'{family}.json'
         if a.check:

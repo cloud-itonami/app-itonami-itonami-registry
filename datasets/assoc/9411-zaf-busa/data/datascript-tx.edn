@@ -1,0 +1,174 @@
+;; data/datascript-tx.edn — the BUSA catalog (ADR-2607141700 Wave 0).
+;;
+;; The facts are authored HERE and nowhere else. src/association/facts.kotoba
+;; (the Clojure reading) and src/association_facts.kotoba (the Kotoba port)
+;; are both generated from this file by scripts/gen-kotoba-port.cljk; run it
+;; after editing, and `--check` says if either reading has drifted.
+;;
+;; Every entry carries the page it came from (:source-article) and the
+;; verbatim span the claim rests on (:source-quote).
+;; `kbb --backend sci scripts/verify-catalog.cljk --live` fetches each :url
+;; and requires that span to still be in it.
+;;
+;; No personal names of office-holders are persisted here.
+
+[#:association-rule{:id "busa.founding-2003-merger"
+                    :title "Business Unity South Africa (BUSA) was founded in October 2003 through a merger of Business South Africa and the South African Chamber of Business"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :governance-program
+                    :url "https://en.wikipedia.org/wiki/Business_Unity_South_Africa"
+                    :url-provenance :wikipedia-corroborated
+                    :source-article "Business Unity South Africa (en.wikipedia.org), History section"
+                    :source-quote "BUSA was founded in October 2003, through a merger of Business South Africa and the South African Chamber of Business."
+                    :established-date "2003-10"
+                    :date-precision :month
+                    :retrieved-at "2026-09-23"
+                    :topic [:governance :history]}
+ #:association-rule{:id "busa.operations-began-2004"
+                    :title "BUSA began operating in January 2004, having been formed in October 2003 (busa.org.za official About BUSA page)"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :governance-program
+                    :url "https://www.busa.org.za/about-busa/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "About BUSA"
+                    :source-quote "BUSA was formed in October 2003 and began operating in January 2004."
+                    :established-date "2004-01"
+                    :date-precision :month
+                    :retrieved-at "2026-09-23"
+                    :topic [:governance :history]}
+ #:association-rule{:id "busa.nedlac-recognised-representative"
+                    :title "BUSA is the formally recognised representative of business at the National Economic Development and Labour Council (NEDLAC)"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :tripartite-agreement
+                    :url "https://www.busa.org.za/about-busa/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "About BUSA"
+                    :source-quote "We are the formally recognised representative of business at the National Economic Development and Labour Council (NEDLAC)."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:governance :labor]}
+ #:association-rule{:id "busa.corporate-members-capped-at-16"
+                    :title "BUSA's direct corporate membership is capped at 16 corporates"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :membership-rule
+                    :url "https://www.busa.org.za/about-busa/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "About BUSA, BUSA Overview"
+                    :source-quote "We also have a limited number of corporate members, capped at 16 corporates."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:membership]}
+ #:association-rule{:id "busa.three-policy-committees"
+                    :title "BUSA structures its policy work through three policy committees, through which all policy deliberation passes"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :organisational-structure
+                    :url "https://www.busa.org.za/about-busa/how-busa-works/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "How BUSA Works"
+                    :source-quote "BUSA structures its work through three policy committees. All deliberation on policy is considered through the policy committees."
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:governance :policy]}
+ #:association-rule{:id "busa.ten-strategic-objectives"
+                    :title "BUSA publishes ten strategic objectives, the first being an enabling environment for inclusive growth and employment in South Africa"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :policy-program
+                    :url "https://www.busa.org.za/about-busa/busa-strategic-objectives/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "BUSA Strategic Objectives"
+                    :source-quote "10 Strategic Objectives Enabling Environment for Inclusive Growth and Employment in South Africa"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-23"
+                    :topic [:policy]}
+ #:association-rule{:id "busa.organisational-ethos"
+                    :title "BUSA's organisational ethos: honesty, integrity, transparency, accountability, respect, diversity and meritocracy"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :code-of-ethics
+                    :url "https://www.busa.org.za/about-busa/vision-mission-ethos/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "Vision, Mission and Ethos"
+                    :source-quote "BUSA subscribes to the following oganisational ethos: Honesty Integrity Transparency Accountability Respect Diversity Meritocracy"
+                    :date-unknown-because :page-states-no-adoption-date
+                    :retrieved-at "2026-09-23"
+                    :topic [:ethics :governance]}
+ #:association-rule{:id "busa.membership-fee-2026"
+                    :title "BUSA membership fees for organisations of business are up to 5% of the member's annual membership revenue, with a 2026 minimum of R104,682.25 excluding VAT"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :membership-rule
+                    :url "https://www.busa.org.za/membership-information/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "Membership Information, Membership Fees"
+                    :source-quote "Membership fees for Organisations of Business are calculated on the basis of up to a maximum of 5% of each Member’s annual membership revenue, provided that each Member shall pay a minimum Membership Fee of no less than R104,682.25 , excluding VAT in 2026."
+                    :last-revised-date "2026"
+                    :date-precision :year
+                    :retrieved-at "2026-09-23"
+                    :topic [:membership :finance]}
+ #:association-rule{:id "busa.six-membership-categories"
+                    :title "BUSA has six membership categories and, beyond its existing Board of Trustees members, does not accept direct company membership under its founding documents"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :membership-rule
+                    :url "https://www.busa.org.za/membership-information/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "Membership Information, Membership Categories and Eligibility"
+                    :source-quote "BUSA has 6 categories of Members: Category A – Unisectorals Category B – Corporate Organisations (Note, other than existing Board of Trustees Members, BUSA does not accept direct company membership in terms of its founding documents)"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:membership :constitution]}
+ #:association-rule{:id "busa.associate-members-no-vote"
+                    :title "BUSA associate members (Category F) have the same rights and obligations as other members except the right to vote at a members' meeting"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :membership-rule
+                    :url "https://www.busa.org.za/membership-information/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "Membership Information, Membership Categories and Eligibility"
+                    :source-quote "Category F – Associate Members (Associate Members shall have the same rights and obligations as any other Member, with the exception of the right to vote at a Member’s Meeting)"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:membership :governance]}
+ #:association-rule{:id "busa.international-affiliations"
+                    :title "BUSA is a member of the International Organisation of Employers (IOE), the SADC Employers' Group, the SADC Business Council and Business at OECD (BIAC)"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :international-affiliation
+                    :url "https://www.busa.org.za/membership-information/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "Membership Information, Fast facts about BUSA"
+                    :source-quote "Internationally, a member of the International Organisation of Employers (IOE), and the Southern African Development Community (SADC) Employers’ Group, the SADC Business Council, Business at OECD (BIAC)"
+                    :date-unknown-because :page-states-a-standing-arrangement
+                    :retrieved-at "2026-09-23"
+                    :topic [:international]}
+ #:association-rule{:id "busa.uif-structures-withdrawal-2026"
+                    :title "On 1 July 2026 BUSA withdrew from the Unemployment Insurance Fund (UIF) structures at NEDLAC and removed its representatives from the UIF Board"
+                    :association "busa"
+                    :isic "9411"
+                    :country "ZAF"
+                    :kind :governance-program
+                    :url "https://www.busa.org.za/press/busa-withdraws-from-uif-structures-at-nedlac/"
+                    :url-provenance :official-busa-org-za
+                    :source-article "BUSA Withdraws From UIF Structures At Nedlac (media statement)"
+                    :source-quote "Johannesburg, Wednesday, 1 July 2026 ― BUSA has today taken the difficult but necessary decision to withdraw from the Unemployment Insurance Fund (UIF) structures at Nedlac and to remove its representatives from the UIF Board."
+                    :established-date "2026-07-01"
+                    :date-precision :day
+                    :retrieved-at "2026-09-23"
+                    :topic [:governance :labor]}]

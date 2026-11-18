@@ -1,0 +1,14 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Japan Federation of Bar Associations"
+ :name-local "日本弁護士連合会"
+ :abbreviation "JFBA / 日弁連"
+ :legal-form "強制加入団体 (mandatory-membership association under the Attorney Act, Arts. 45-50)"
+ :official-url "https://www.nichibenren.or.jp/"
+ :official-url-en "https://www.nichibenren.or.jp/en/"
+ :wikidata "Q11508095"
+ :isic "6910"
+ :country "JPN"
+ :established-date "1949-09-01"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch, including source PDF text extraction) 2026-07-15"}

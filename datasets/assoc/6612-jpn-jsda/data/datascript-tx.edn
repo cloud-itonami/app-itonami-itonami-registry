@@ -1,0 +1,27 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from
+;; src/association_facts.kotoba (ADR-2607141700
+;; Wave 0). No :db/id per entity, same shape as sibling tx-data files.
+;; `:association-rule/topic` serialized as a vector.
+
+[#:association-rule{:id "jsda.articles-of-incorporation"
+                     :title "定款 (Articles of Incorporation)"
+                     :association "jsda"
+                     :isic "6612"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.jsda.or.jp/about/kisoku/files/260401_teikann.pdf"
+                     :url-provenance :official-association-site
+                     :retrieved-at "2026-07-14"
+                     :topic [:governance]}
+ #:association-rule{:id "jsda.investment-solicitation-customer-management"
+                     :title "協会員の投資勧誘、顧客管理等に関する規則 (Rules on Investment Solicitation and Customer Management for Member Firms)"
+                     :association "jsda"
+                     :isic "6612"
+                     :country "JPN"
+                     :kind :self-regulatory-code
+                     :url "https://www.jsda.or.jp/shijyo/seido/jishukisei/web-handbook/101_kanri/files/260616_toushikanyuu.pdf"
+                     :url-provenance :official-association-site
+                     :established-date "1975-02-19"
+                     :last-revised-date "2026-06-16"
+                     :retrieved-at "2026-07-14"
+                     :topic [:consumer-protection :fair-transaction :suitability]}]

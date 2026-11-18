@@ -1,0 +1,13 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "American Farm Bureau Federation"
+ :name-local "American Farm Bureau Federation"
+ :abbreviation "AFBF"
+ :legal-form "501(c)(5) tax-exempt agricultural organization and lobbying group; federation with affiliates in all 50 states and Puerto Rico"
+ :official-url "https://www.fb.org/"
+ :wikidata "Q4743741"
+ :isic "0150"
+ :country "USA"
+ :established-date "1919-11-12"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch/WebSearch) 2026-07-16 -- founding directly confirmed on AFBF's own 'Who We Are' page ('AFBF was organized on November 12, 1919, in Chicago by Farm Bureau leaders from 34 states')"}

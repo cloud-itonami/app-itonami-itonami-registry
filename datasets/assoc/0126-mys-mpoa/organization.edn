@@ -1,0 +1,10 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Malaysian Palm Oil Association"
+ :abbreviation "MPOA"
+ :official-url "https://www.mpoa.org.my/"
+ :isic "0126"
+ :country "MYS"
+ :established-date "1999"
+ :head-role-note "institutional office title only; personal names of current/former office-holders were not encountered on the pages read for this catalog"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- mpoa.org.my's own 'Introduction' page states verbatim: 'In 1999, a rationalisation exercise of the various associations, advisory bodies, and councils of the plantation industry saw the birth of a single umbrella entity - the government supported Malaysian Palm Oil Association (MPOA).' The same page identifies one of MPOA's predecessor bodies, the United Planting Association of Malaysia, as active since 1897. No Wikidata Q-id was found for MPOA specifically (distinct from the government agency MPOB, which does have one) -- :wikidata deliberately omitted rather than guessed."}

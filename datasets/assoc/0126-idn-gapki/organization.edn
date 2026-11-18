@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only — no personal names.
+{:name-en "Indonesian Palm Oil Association (GAPKI)"
+ :name-local "Gabungan Pengusaha Kelapa Sawit Indonesia"
+ :abbreviation "GAPKI"
+ :official-url "https://gapki.id/en/"
+ :isic "0126"
+ :country "IDN"
+ :established-date "1981-02-27"
+ :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+ :sourced-from "verified directly (WebFetch) 2026-07-16 -- gapki.id's own History page states plainly: 'The Indonesian Palm Oil Association (GAPKI) was established on 27 February 1981.' No Wikidata Q-id was found for GAPKI specifically -- :wikidata deliberately omitted rather than guessed"}

@@ -1,0 +1,11 @@
+;; Real-world organization identity/contact.
+;; :head-role is institutional title only -- no personal names.
+{:name-en "Confederation of Indian Industry (CII)"
+ :abbreviation "CII"
+ :official-url "https://www.cii.in/"
+ :wikidata "Q842084"
+ :isic "9411"
+ :country "IND"
+ :established-date "1895"
+ :head-role-note "institutional office title only (President/Director General); personal names of current/former office-holders incidentally encountered but never persisted here"
+ :sourced-from "verified directly (WebFetch) 2026-07-17 -- cii.in's own 'History' page (https://www.cii.in/about_us_History.aspx?gid=A), directly read, states verbatim: 'The journey began in 1895 when 5 engineering firms, all members of the Bengal Chamber of Commerce and Industry, joined hands to form the Engineering and Iron Trades Association (EITA)' and 'With effect from 1st January 1992 ... the name of CEI was changed to Confederation of Indian Industry (CII)'. The 1895 date is independently corroborated by Wikidata Q842084's own 'inception' statement, read directly."}

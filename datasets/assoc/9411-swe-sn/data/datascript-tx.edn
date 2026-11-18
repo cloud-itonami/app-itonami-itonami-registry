@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "sn.predecessor-saf-1902"
+                     :title "Svenska Arbetsgivareföreningen (SAF), one of Svenskt Näringsliv's two direct predecessors, founded 1902 (sv.wikipedia.org)"
+                     :association "sn"
+                     :isic "9411"
+                     :country "SWE"
+                     :kind :governance-program
+                     :url "https://sv.wikipedia.org/wiki/Svenskt_N%C3%A4ringsliv"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1902"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}
+ #:association-rule{:id "sn.founding-2001-03-merger"
+                     :title "Svenskt Näringsliv formed in March 2001 via merger of Svenska Arbetsgivareföreningen (SAF) and Sveriges Industriförbund (founded 1910) (sv.wikipedia.org, corroborated by en.wikipedia.org and Wikidata Q1474680 inception statement)"
+                     :association "sn"
+                     :isic "9411"
+                     :country "SWE"
+                     :kind :governance-program
+                     :url "https://sv.wikipedia.org/wiki/Svenskt_N%C3%A4ringsliv"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "2001-03"
+                     :retrieved-at "2026-07-17"
+                     :topic [:governance]}]
