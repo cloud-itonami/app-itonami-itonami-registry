@@ -26,8 +26,9 @@ They are knowledge, not a persona (a profile or bot per company would be 185 bot
 
 ## Not decided here
 
-- Archiving or deleting the 185 repositories (a separate step, after the substance is confirmed and with its own
-  confirmation); 53 of them have non-default branches that need a check first.
+- Archiving or deleting the 185 repositories: done on 2026-11-17 after owner confirmation. The unmerged citation
+  corrections of one repository were carried first (`CORRECTIONS.md` in its folder); the other 51 unmerged branches were
+  dependency retargets. A `git clone --mirror` of every repository is kept outside GitHub.
 - Refreshing the snapshots (the files are 2026 snapshots; the skill says so).
 - Terms-of-Use text is the companies' copyright; the skill limits use to answering and citing.
 
