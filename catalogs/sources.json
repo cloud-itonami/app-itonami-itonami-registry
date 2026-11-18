@@ -58069,14 +58069,14 @@
       ]
     },
     {
-      "id": "awai-os-police-guide-d4ed7af7",
+      "id": "awai-os-police-guide-96964c7d",
       "repository": "network-awai/awai-os",
-      "commit": "d4ed7af728c81074c5fc77f4813dae208737e9d0",
+      "commit": "96964c7da6f84dfae24cd15dea7a3ce13f88a0c2",
       "files": [
         {
           "path": "apps/soudan/src/police-guide.json",
-          "sha256": "32cc917fa902a4d299983c435b9561f2f7c820b0d547bcc08af485b3039a1711",
-          "url": "https://github.com/network-awai/awai-os/blob/d4ed7af728c81074c5fc77f4813dae208737e9d0/apps/soudan/src/police-guide.json"
+          "sha256": "ade181e2920403c4093e5d8e0e1fa92c7fa98ce4ece98514798d4448f464c4c8",
+          "url": "https://github.com/network-awai/awai-os/blob/96964c7da6f84dfae24cd15dea7a3ce13f88a0c2/apps/soudan/src/police-guide.json"
         }
       ]
     }
