@@ -4,9 +4,9 @@
   "id": "physai-unspsc-43",
   "name": "physai-unspsc-43",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-43: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-43: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/tree/a5a7680f82513081166689a0a5f6f4af27e67bd8",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/tree/6a407ad54a649ae91022888d8fad9a8df721aa1f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,9 +14,9 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-43",
-    "commit": "a5a7680f82513081166689a0a5f6f4af27e67bd8",
+    "commit": "6a407ad54a649ae91022888d8fad9a8df721aa1f",
     "path": "hermes/profiles/physai-unspsc-43",
-    "checksum": "sha256-tree:d19e1c781b6b779f22b1ae3b68b9cfdb06b60fbd7821868481c045e5488c0449",
+    "checksum": "sha256-tree:4d34e82ebca0f0f63ce072c27fb8220a939c3ee9504ba592f5d500dd33cd1b75",
     "files": [
       {
         "path": "SOUL.md",
@@ -25,13 +25,18 @@
       },
       {
         "path": "config.yaml",
-        "sha256": "9989657a505622e4ff098ed87aeebdff3389e04b3ec9f7094a8b351b3024e6f0",
-        "bytes": 1183
+        "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+        "bytes": 1980
       },
       {
         "path": "cron/jobs.json",
-        "sha256": "79865697875ffef9e28f1358c70bcf885ab8f306941becf2702e088151789d98",
-        "bytes": 2658
+        "sha256": "1d277ebabcf5c6a95013753df7f7b970b7caa2542cfb55cfe8c293ace8477ff7",
+        "bytes": 2703
+      },
+      {
+        "path": "itonami.edn",
+        "sha256": "16da133dad32c157390c18c4b8ca636a775de1ad6bcc623de133d8df056b1c19",
+        "bytes": 923
       },
       {
         "path": "profile.yaml",
@@ -39,14 +44,19 @@
         "bytes": 226
       },
       {
-        "path": "scripts/physai_evidence.py",
-        "sha256": "8054149477b8962434d322775dad13443ebeffc40dc3d869e70d3771b99fb6b4",
-        "bytes": 1091
+        "path": "scripts/necessity_impact.hy",
+        "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+        "bytes": 468
       },
       {
-        "path": "scripts/physai_measure.py",
-        "sha256": "abf4b59ccfc889da6a99cc8adb32da7bf6df6add6ecbc0766311a4bfbf83c823",
-        "bytes": 915
+        "path": "scripts/physai_evidence.hy",
+        "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+        "bytes": 952
+      },
+      {
+        "path": "scripts/physai_measure.hy",
+        "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+        "bytes": 690
       }
     ]
   }
