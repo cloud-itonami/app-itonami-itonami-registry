@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-06.3: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/tree/39705c6efffeb914e459d6b1da84e29fb4d000c4",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/tree/a3bc07c3056dbbbb0d669b7cbec82073282149aa",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,9 +14,9 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-06.3",
-    "commit": "39705c6efffeb914e459d6b1da84e29fb4d000c4",
+    "commit": "a3bc07c3056dbbbb0d669b7cbec82073282149aa",
     "path": "hermes/profiles/physai-cofog-06-3",
-    "checksum": "sha256-tree:9527823de3364a226398170d52ee71b987c17bf72bb9eda239b109e92cfc6d65",
+    "checksum": "sha256-tree:201238a97bb40f4b91540237d1dc5d774802e58401c80e49126d1643a735457f",
     "files": [
       {
         "path": "SOUL.md",
@@ -30,12 +30,12 @@
       },
       {
         "path": "cron/jobs.json",
-        "sha256": "4f8b43c22e6e883bdcc8944c18b977b400c103b09678e3f87fe91db8adfb8a8a",
+        "sha256": "b8f9e99c5cf89cdba6e6ed788a71908d7e67ed29f240fa187e07e9ba257c863a",
         "bytes": 2706
       },
       {
         "path": "itonami.edn",
-        "sha256": "0be18a7a26b2f8dc13b6453474c3a1836749554778c300321909e469818fbd28",
+        "sha256": "78f7fe684c8666a18faf3ff6b9420a5ab6507270632dea069dcfbe3a21e64f8f",
         "bytes": 925
       },
       {
