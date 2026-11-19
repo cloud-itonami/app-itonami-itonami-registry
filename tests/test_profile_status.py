@@ -201,7 +201,9 @@ class StatusTests(unittest.TestCase):
 
     def test_the_real_manifests_load(self):
         entries = profile_status.load_entries(ROOT)
-        self.assertGreater(len(entries), 800)
+        # A floor that only catches an empty or broken load. It was 800 until the
+        # 664 archived physical-AI bot profiles were retired (AWAI-3561, 2026-11-19).
+        self.assertGreater(len(entries), 200)
         self.assertEqual({'id', 'repository', 'commit', 'path', 'checksum'}, set(entries[0]))
 
 
