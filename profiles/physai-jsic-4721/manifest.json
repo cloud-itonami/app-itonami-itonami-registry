@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-4721: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/tree/40eb0317992ebeda5252cf9b55fa8af28a221138",
+  "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/tree/f42114183522de75120d8f624e24c1badf0ac1b3",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
@@ -14,9 +14,9 @@
   "profile": {
     "layout": "hermes-profile",
     "repository": "cloud-itonami/app-itonami-cloud-itonami-jsic-4721",
-    "commit": "40eb0317992ebeda5252cf9b55fa8af28a221138",
+    "commit": "f42114183522de75120d8f624e24c1badf0ac1b3",
     "path": "hermes/profiles/physai-jsic-4721",
-    "checksum": "sha256-tree:4fabedca4142263925772329c43684305c07233eeaf505ee38f24f272e559a72",
+    "checksum": "sha256-tree:71134c751812df5cfa94735f203cbc3813a7dad8e3ae418cb8e4022f91a502ee",
     "files": [
       {
         "path": "SOUL.md",
@@ -30,12 +30,12 @@
       },
       {
         "path": "cron/jobs.json",
-        "sha256": "207c4fa86ca89751e227d94f2a60771f11d21cb13a5df186a2814e7ade5febfb",
+        "sha256": "be3929dce1696f6b2f2d71b73ab684ad5ceca2379a10538568f2ac67ac45ea93",
         "bytes": 2701
       },
       {
         "path": "itonami.edn",
-        "sha256": "e3fa88786eb757495f35d8c2adf31ae8ed9b495b598308f8d99d5d38599bfc8e",
+        "sha256": "fd2801791f4da3a4885df456ad499dc6ddd2ecf533b35f426549fa9ba4fcb093",
         "bytes": 923
       },
       {
