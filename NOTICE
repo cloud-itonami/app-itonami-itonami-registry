@@ -15,4 +15,6 @@ The kaikei tool descriptions and input schemas in catalogs/tools.json are unchan
 
 The kumitate tool descriptions and input schemas in catalogs/tools.json are unchanged excerpts of the tools/list output of cloud-itonami/app-itonami-kumitate (kotoba/kumitate/70-mcp.kotoba, as served by its native MCP server) at the catalogs/sources.json pinned revision, under AGPL-3.0-or-later (LICENSES/itonami-dapps-AGPL-3.0.txt). Registry provider/effect/validation metadata, the mcp/kumitate connection definition and the itonami-circleci-pipeline-planning skill are newly authored. Runtime source is not vendored.
 
+The police-intake-guide workflow bundles the unchanged Soudan guidance data from network-awai/awai-os at the commit pinned in catalogs/sources.json. The Apache-2.0 terms for this data are provided in workflows/police-intake-guide/LICENSE.awai-os.txt. The workflow recipe and Registry metadata are separately authored.
+
 The association source snapshots in datasets/assoc/ retain their original AGPL-3.0 license (datasets/assoc/LICENSE.txt). The catalog at catalogs/datasets/assoc.json records their repositories, pinned commits and per-file digests.

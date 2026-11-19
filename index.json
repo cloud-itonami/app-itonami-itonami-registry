@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-19T01:52:52.849082Z",
-  "count": 2028,
+  "generated": "2026-11-19T02:20:24.161331Z",
+  "count": 2029,
   "entries": [
     {
       "id": "abaki",
@@ -38629,6 +38629,22 @@
       "license": "AGPL-3.0-or-later",
       "path": "workflows/municipal-procedure-guide",
       "checksum": "sha256:40c3250a963ad7ef21b028e9252a853be65157de07811eec5e00212eee908a79"
+    },
+    {
+      "id": "police-intake-guide",
+      "type": "workflow",
+      "name": "police-intake-guide",
+      "version": "0.15.0",
+      "description": "Find official cybercrime and fraud reporting routes, evidence checklists, documented case stages, and follow-up by country or area.",
+      "author": "cloud-itonami",
+      "source": "https://github.com/network-awai/awai-os/tree/c15a92c117b9a7521ee73241bb4c38f08ce2e9ca",
+      "compatibility": {
+        "hermes": "*",
+        "desktop": "*"
+      },
+      "license": "MIT",
+      "path": "workflows/police-intake-guide",
+      "checksum": "sha256:a85a6b30052afc9b6112068054c3dd2721e2a44bc3253305ffc8030af8226737"
     }
   ]
 }

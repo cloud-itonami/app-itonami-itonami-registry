@@ -177,11 +177,15 @@
       "commit": "56152bd15bd2d82f089333d6c610d7ee475aee2d",
       "visibility": "public",
       "reviewedOn": "2026-11-18",
-      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey.",
+      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility; the profile folder was inspected for registration material. Targeted review, not an organization-wide survey. The Soudan police reporting snapshot was inspected and pinned separately.",
       "registrations": [
         {
           "entry": "profile/awai-support",
           "sourceCommit": "56152bd15bd2d82f089333d6c610d7ee475aee2d"
+        },
+        {
+          "entry": "workflow/police-intake-guide",
+          "sourceCommit": "c15a92c117b9a7521ee73241bb4c38f08ce2e9ca"
         }
       ]
     }

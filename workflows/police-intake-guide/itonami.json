@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "itonami.entry.v1",
+  "sourceRefs": [
+    "awai-os-police-guide-c15a92c1"
+  ],
+  "useWhen": "A person wants publicly documented cybercrime or fraud reporting information for a country or area.",
+  "avoidWhen": "The request requires personal records, incident-specific legal advice, emergency dispatch, or filing on someone’s behalf.",
+  "inputs": {
+    "parameters": [
+      "jurisdictionCode"
+    ]
+  },
+  "outputs": {
+    "result": "A source-linked checklist, verified case stages and documented follow-up paths, with explicit coverage gaps.",
+    "data": "police-guide.json",
+    "dataSource": "https://github.com/network-awai/awai-os/blob/c15a92c117b9a7521ee73241bb4c38f08ce2e9ca/apps/soudan/src/police-guide.json",
+    "sha256": "120cd183394e584434959fef2dcd0a2085c33af730fbae19906375da9c726379"
+  },
+  "effects": [
+    "filesystem-read"
+  ],
+  "authority": {
+    "grants": false,
+    "default": "blocked",
+    "binding": "Read the bundled public snapshot only. This recipe does not contact an authority or submit a report."
+  },
+  "validation": {
+    "catalog": "schema-checked",
+    "runtime": "not-tested",
+    "live": false
+  },
+  "compatibilityNote": "Registry workflow storage format. No executor or profile installation has been qualified."
+}

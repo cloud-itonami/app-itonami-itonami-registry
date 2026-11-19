@@ -58965,6 +58965,18 @@
           "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/scripts/physai_measure.hy"
         }
       ]
+    },
+    {
+      "id": "awai-os-police-guide-c15a92c1",
+      "repository": "network-awai/awai-os",
+      "commit": "c15a92c117b9a7521ee73241bb4c38f08ce2e9ca",
+      "files": [
+        {
+          "path": "apps/soudan/src/police-guide.json",
+          "sha256": "120cd183394e584434959fef2dcd0a2085c33af730fbae19906375da9c726379",
+          "url": "https://github.com/network-awai/awai-os/blob/c15a92c117b9a7521ee73241bb4c38f08ce2e9ca/apps/soudan/src/police-guide.json"
+        }
+      ]
     }
   ]
 }
