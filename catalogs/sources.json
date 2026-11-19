@@ -58166,6 +58166,805 @@
           "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7810/blob/db6f9cd89fa78b07fe1b47aa42db6f59c1b398d3/hermes/profiles/physai-isic-7810/scripts/physai_measure.hy"
         }
       ]
+    },
+    {
+      "id": "cloud-itonami-cofog-03.2-1ba84914",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-03.2",
+      "commit": "1ba849142c351808f82abe67a2e85b5fc4f5af3c",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/SOUL.md",
+          "sha256": "1ac998204ef99ae7ad77e01d4a9121502f7e06ccbb6a54887cf506ad2ea50b58",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/cron/jobs.json",
+          "sha256": "0be3b97ad86609c639c9378a68b17d125fd5835881ccb0b4714c8022d84ebcb2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/itonami.edn",
+          "sha256": "458d3ccf1f14ad17f6ff2ab518908f0a73ecacd4338bd7d588a7292469b94c24",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/profile.yaml",
+          "sha256": "3014dbcd85eda759aaf40398e8b3a0d4e0e72b186a0e3067e41cafb86d311192",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-03-2/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/blob/1ba849142c351808f82abe67a2e85b5fc4f5af3c/hermes/profiles/physai-cofog-03-2/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-cofog-04.5-94e46775",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-04.5",
+      "commit": "94e4677570b07de634029819ea5b77c6f54c66d2",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/SOUL.md",
+          "sha256": "8d3ef6c2faf7037bc3265b41c15ae267047c41388bf316d95e2368c861386583",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/cron/jobs.json",
+          "sha256": "48e50aafe6ebebc3eaaf61944ccfd6cad5d44b293391c0501c0ef95f0d90eb1f",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/itonami.edn",
+          "sha256": "e41d76848ba06286bf5ab427dfacf2665516ab1a54d473f527d8a9bf0cea70a2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/profile.yaml",
+          "sha256": "d6bfdf95dad1014b4466101b461e57a1174f541ac74447f9bc0f11d7629144b4",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-04-5/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/blob/94e4677570b07de634029819ea5b77c6f54c66d2/hermes/profiles/physai-cofog-04-5/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-cofog-05.1-7d21706b",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-05.1",
+      "commit": "7d21706b5ed114e009118916d9d44d6e13910d75",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/SOUL.md",
+          "sha256": "ed10e7104abea7b2f7da1c8dcd445b13baa9f81fa3625b592d84ace688cb757c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/cron/jobs.json",
+          "sha256": "ef32e29e53308c39017aba62b54a016e11f820ab688cba10ae891424e5261fd6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/itonami.edn",
+          "sha256": "638ff3c87b13960ee08d000026eba2c61a2c48b1e2d8a4c41241bf2ff05903c6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/profile.yaml",
+          "sha256": "8fb972d05e21bb5d41a837b8168a4ad130f865ca9130de5da2ac2ca33f9d50dd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-05-1/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/blob/7d21706b5ed114e009118916d9d44d6e13910d75/hermes/profiles/physai-cofog-05-1/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-cofog-06.3-39705c6e",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-06.3",
+      "commit": "39705c6efffeb914e459d6b1da84e29fb4d000c4",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/SOUL.md",
+          "sha256": "9066f8f75b42c1fe2469dfb3853c86313e778c75433da883fb7069a8757689b2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/cron/jobs.json",
+          "sha256": "4f8b43c22e6e883bdcc8944c18b977b400c103b09678e3f87fe91db8adfb8a8a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/itonami.edn",
+          "sha256": "0be18a7a26b2f8dc13b6453474c3a1836749554778c300321909e469818fbd28",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/profile.yaml",
+          "sha256": "fb3b9c91f022072a9ab2c46e1dfe83131a50f4fa49b5f5f02ab11a83f70a4090",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-06-3/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/blob/39705c6efffeb914e459d6b1da84e29fb4d000c4/hermes/profiles/physai-cofog-06-3/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-cofog-07.4-e66588b0",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-cofog-07.4",
+      "commit": "e66588b0efff0a20da95fbd8062d4de362edf93e",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/SOUL.md",
+          "sha256": "982104c2e3c77c7ca0beffb9ffabb076fe1c6550ea9c88ab2d6c375dd5a313de",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/cron/jobs.json",
+          "sha256": "f41aabeeb409733a3282923ade13459f7ee8b7520d2244a2be4d85e62aa30ece",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/itonami.edn",
+          "sha256": "b70840bc714ef11a58988a74a382a297be84ea8b552ba1cbc6f78876de66f3fe",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/profile.yaml",
+          "sha256": "237b125a972f797e1f1204062dede42c2de8ce36cf747e8343f1d512e6711b92",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-cofog-07-4/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/blob/e66588b0efff0a20da95fbd8062d4de362edf93e/hermes/profiles/physai-cofog-07-4/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-isco-2423-66bb6a98",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isco-2423",
+      "commit": "66bb6a980123ebed0f5b35e67489d6ec5ccf4c36",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-isco-2423/SOUL.md",
+          "sha256": "9bc0b66d2710ef04ac6e88e923a284bf967c4e13dc2476e065be6c55dc9b52f0",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/cron/jobs.json",
+          "sha256": "37efc94ca1d37a954697c6467a397ea0368e144ea84b254460f4d6c9163b1ee8",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/itonami.edn",
+          "sha256": "e06d5e38deaaaf60c54e4de9fbc96555647d75f53a7ca546bedb204398fe6094",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/profile.yaml",
+          "sha256": "f4a1ce57a92c7bfc8f8d38a0d2a3c3e3c77ea5d33fbe4d04c8befcad9036142b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-2423/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/blob/66bb6a980123ebed0f5b35e67489d6ec5ccf4c36/hermes/profiles/physai-isco-2423/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-isco-3333-13cdc2af",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isco-3333",
+      "commit": "13cdc2af5b0f9d39be578e1dc2279dcf54812ee5",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-isco-3333/SOUL.md",
+          "sha256": "78536ef55ad11de5e91b706c0ade7fc5e1369f1fbf4d6678939afffa43e3fdc8",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/cron/jobs.json",
+          "sha256": "086a8c049d3d112823ca73212363e290ef18d1df034c2077e0f42e07ce238f99",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/itonami.edn",
+          "sha256": "e3f5c68e15dec872e67014cbe437c96c21aec46ede17ee996037fe08fdc6d91e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/profile.yaml",
+          "sha256": "6d9166c1eb323a5d5eef02b91b8e67a0a72424243e42ac6c8df8e5d305dde3b0",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-isco-3333/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/blob/13cdc2af5b0f9d39be578e1dc2279dcf54812ee5/hermes/profiles/physai-isco-3333/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-jsic-3914-e6a636b3",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-jsic-3914",
+      "commit": "e6a636b3cf8f4605619087f79412231422f87692",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-jsic-3914/SOUL.md",
+          "sha256": "dda38bffae3ab7da7a9613d301a89e4ba8f835dd0b7977bb70f64ad16d878806",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/cron/jobs.json",
+          "sha256": "29860b28f994b9c84af66278381ab9d4281c16b5baceeedf34582407a4da2894",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/itonami.edn",
+          "sha256": "45d90ad8109575bb21276efb1bfd955f70438f3601bf92a5146a9f6a5852fdf6",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/profile.yaml",
+          "sha256": "ca14531e3d92e011f18a87de4f040111e1223ec9018559a3114c1411ff8a52a7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-3914/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/blob/e6a636b3cf8f4605619087f79412231422f87692/hermes/profiles/physai-jsic-3914/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-jsic-4113-249a6bca",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-jsic-4113",
+      "commit": "249a6bca3fe4d6d7a463a6692e9f4f6390596c19",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-jsic-4113/SOUL.md",
+          "sha256": "e55ab36b109601fc69d0743a82a29b035d9e9bf2cadae1109611f9e18df2be1c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/cron/jobs.json",
+          "sha256": "ab8131eb83b5d883aaf57e13b91062e82c20b4a81ee9c3f14bb5a39155533c4b",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/itonami.edn",
+          "sha256": "59218f9da6e487acec836a9c9b1d7541b7dd72f6753cc415047dc40bcb2e59ff",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/profile.yaml",
+          "sha256": "2e4023594482374a965798c2836d0d1d2fcc2a74771814e7b4ca1f720f27c92c",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4113/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/blob/249a6bca3fe4d6d7a463a6692e9f4f6390596c19/hermes/profiles/physai-jsic-4113/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-jsic-4721-40eb0317",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-jsic-4721",
+      "commit": "40eb0317992ebeda5252cf9b55fa8af28a221138",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-jsic-4721/SOUL.md",
+          "sha256": "f6b2dea1ac5ff390c5490d0cce9988a7b66a3412ef0e002d03a7b6a19e684382",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/cron/jobs.json",
+          "sha256": "207c4fa86ca89751e227d94f2a60771f11d21cb13a5df186a2814e7ade5febfb",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/itonami.edn",
+          "sha256": "e3fa88786eb757495f35d8c2adf31ae8ed9b495b598308f8d99d5d38599bfc8e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/profile.yaml",
+          "sha256": "b9be29b08649de948d0bd989aee9452b228d29940379bbdab9460ce65335b382",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-jsic-4721/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/blob/40eb0317992ebeda5252cf9b55fa8af28a221138/hermes/profiles/physai-jsic-4721/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-marketplace-fulfillment-b6896043",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment",
+      "commit": "b6896043f1e717efe676b761b1634f676aec0cd9",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/SOUL.md",
+          "sha256": "4409a7bbc415e51a5907c1858145a8e3f5eea92cddb4501d2cd025cf3630280a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/cron/jobs.json",
+          "sha256": "76dea039df66e44548924f073cbdc22dd362ac069bba2a0829352aec65d99b50",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/itonami.edn",
+          "sha256": "192ae45481d7a114b470ab6319883b2d1ce349d24cd2c77353de0f809bec57ff",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/profile.yaml",
+          "sha256": "cf10d1c8576813f8744cb3ce3516993f6fc7c39f40afe60e9e1b9a990aa35f19",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-marketplace-fulfillment/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/blob/b6896043f1e717efe676b761b1634f676aec0cd9/hermes/profiles/physai-marketplace-fulfillment/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-souji-ebf966f4",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-souji",
+      "commit": "ebf966f4b51ba036e68a43047ed8c52cae77d7a2",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-souji/SOUL.md",
+          "sha256": "a69800dd5ae1ac98b591930c0b5b50185bcff8234bf1efe810b3e40d4c6a4f3d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/cron/jobs.json",
+          "sha256": "5ffd195c59c69357f9009bf31258297e0a522748aa41a96f25309fc1f9d90535",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/itonami.edn",
+          "sha256": "43407f7c4edf8e67b3bb802037d3b7550616aad0a0189ff2fb7caeb03d03f4d9",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/profile.yaml",
+          "sha256": "ace9424bc7ebd8ff4993a5abfff819be882a78d56fdebf13ee094b1f0e32943e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-souji/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/blob/ebf966f4b51ba036e68a43047ed8c52cae77d7a2/hermes/profiles/physai-souji/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-unspsc-10-224f74cc",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-10",
+      "commit": "224f74ccfd7043642438f0ea796305b9fb3f9e55",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-unspsc-10/SOUL.md",
+          "sha256": "6926a88f07f26c155d042a8fa3fad2abc53ac06d3e9d3c582466ab54405ce5a5",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/cron/jobs.json",
+          "sha256": "c5f0aeb97119476823e454274932637dc8f8366bea64a159d0312d769f4e2a4d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/itonami.edn",
+          "sha256": "8923babb63a9312e2c54cf26d0d8ca7c8fc0979ed28c67b769f1af708cb1349a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/profile.yaml",
+          "sha256": "a7b9a4023c464a6d26a14b73b494b57c074cef11ea15dfcedf09b6e4d3b2e693",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-10/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/blob/224f74ccfd7043642438f0ea796305b9fb3f9e55/hermes/profiles/physai-unspsc-10/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-unspsc-27-e1844fb4",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-27",
+      "commit": "e1844fb4a1782167ed362e4b069e64f8e225dd05",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-unspsc-27/SOUL.md",
+          "sha256": "7fa82a0276f0aab665967c046bd4fe20a089a1ba2f090370c83256bf82db6870",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/cron/jobs.json",
+          "sha256": "a1dc16d6c401f82030cf692e336b58024b9ee22ad2ea7ef43e14e9b21e7c5f87",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/itonami.edn",
+          "sha256": "de96a2f44f285291d4ad5caac2b9525673aec5f9306e429137f06cfc3aa35995",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/profile.yaml",
+          "sha256": "f24a96b01185f7688f413d7c89c5c289045d7e20e2ccd3361cd47bcf1ed6396e",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-27/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/blob/e1844fb4a1782167ed362e4b069e64f8e225dd05/hermes/profiles/physai-unspsc-27/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-unspsc-39-88987545",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-39",
+      "commit": "889875458b57951142d03f74509d3ceae5d8c7c7",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-unspsc-39/SOUL.md",
+          "sha256": "a7ebc2bb3c491a2760e7838c3751a0b6445ca09baf31f1ce693a1f1d8889f807",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/cron/jobs.json",
+          "sha256": "464a0d3d6c81e20af86a9baebc38a49531f9dc67eb64e174627b80d9b56d44f2",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/itonami.edn",
+          "sha256": "f3997deb96c347a37b78f4a4ad96e84baa110c60966589ffdd9be302ae92228a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/profile.yaml",
+          "sha256": "8a9b5997f2136ef3c08541790771d7abf658833713bdc083dce5a9e671584921",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-39/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/blob/889875458b57951142d03f74509d3ceae5d8c7c7/hermes/profiles/physai-unspsc-39/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-unspsc-43-6a407ad5",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-43",
+      "commit": "6a407ad54a649ae91022888d8fad9a8df721aa1f",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-unspsc-43/SOUL.md",
+          "sha256": "e089421058adf1b138b7525446ba67a97754446971b1df75e30b870329448152",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/cron/jobs.json",
+          "sha256": "1d277ebabcf5c6a95013753df7f7b970b7caa2542cfb55cfe8c293ace8477ff7",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/itonami.edn",
+          "sha256": "16da133dad32c157390c18c4b8ca636a775de1ad6bcc623de133d8df056b1c19",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/profile.yaml",
+          "sha256": "e453a62e16d8946bcee9fdec3ac784bdc0f7d089f832136103ab93ee0f29218d",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-43/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/blob/6a407ad54a649ae91022888d8fad9a8df721aa1f/hermes/profiles/physai-unspsc-43/scripts/physai_measure.hy"
+        }
+      ]
+    },
+    {
+      "id": "cloud-itonami-unspsc-73-60a949e2",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-unspsc-73",
+      "commit": "60a949e2d4be85dc0f3ab9430642009fe39ddcee",
+      "files": [
+        {
+          "path": "hermes/profiles/physai-unspsc-73/SOUL.md",
+          "sha256": "801bf717ec8190a06f7a5964d4aac2245ccf2c7bfa6541b61548eb474a2ba8fc",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/SOUL.md"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/config.yaml",
+          "sha256": "f4230bf3bbf6bad8ce4499ec765b3d1dc232fe0a6739c1b76bed9515b0df6dcd",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/config.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/cron/jobs.json",
+          "sha256": "2f86784b49389420b8422c5b72fb9b71e3a3f3557dad44c6f94dff0efaee77ee",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/cron/jobs.json"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/itonami.edn",
+          "sha256": "d0b8f70b608d193417c111e93065c17fa21e1cba7edab435e874cfa5cf3a4955",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/itonami.edn"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/profile.yaml",
+          "sha256": "1ee16188d5f6151686a2894b612e23041d713a4229d030f4080c50ec795277cf",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/profile.yaml"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/scripts/necessity_impact.hy",
+          "sha256": "bc88a72e920d701dedf78ce32bcf57d5af222c03a65bfcff38528e785de9a396",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/scripts/necessity_impact.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/scripts/physai_evidence.hy",
+          "sha256": "10ce9d6060313e56b53207207f76a5d387f26a8bd7057beeb74de72badb7952a",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/scripts/physai_evidence.hy"
+        },
+        {
+          "path": "hermes/profiles/physai-unspsc-73/scripts/physai_measure.hy",
+          "sha256": "76bc176304f447e8a4adb7af2124a31ec0ae83ff88616229a6127540529d1aae",
+          "url": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/blob/60a949e2d4be85dc0f3ab9430642009fe39ddcee/hermes/profiles/physai-unspsc-73/scripts/physai_measure.hy"
+        }
+      ]
     }
   ]
 }
