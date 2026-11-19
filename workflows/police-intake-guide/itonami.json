@@ -1,7 +1,7 @@
 {
   "schemaVersion": "itonami.entry.v1",
   "sourceRefs": [
-    "awai-os-police-guide-c7d98468"
+    "awai-os-police-guide-c7796780"
   ],
   "useWhen": "A person wants publicly documented cybercrime or fraud reporting information for a country or area.",
   "avoidWhen": "The request requires personal records, incident-specific legal advice, emergency dispatch, or filing on someone’s behalf.",
@@ -13,8 +13,8 @@
   "outputs": {
     "result": "A source-linked checklist, verified case stages and documented follow-up paths, with explicit coverage gaps.",
     "data": "police-guide.json",
-    "dataSource": "https://github.com/network-awai/awai-os/blob/c7d984686e83c8f6e086d38a46d69318b2100ea2/apps/soudan/src/police-guide.json",
-    "sha256": "d091ddb3c027261b8b87ac2ff3e7c4a6ab1dc3c9e24e01870cad204ecbbcb906"
+    "dataSource": "https://github.com/network-awai/awai-os/blob/c77967803f2c4cb79b03af30f205e755620e942c/apps/soudan/src/police-guide.json",
+    "sha256": "923325ebc6c82e615650c09e17dc8e299136af3a46fbc370344cbb17478f93eb"
   },
   "effects": [
     "filesystem-read"
