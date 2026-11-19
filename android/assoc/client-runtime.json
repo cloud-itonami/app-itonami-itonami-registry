@@ -1,0 +1,13 @@
+{
+  "schema": "kotoba.app.client-runtime.v1",
+  "target": "browser",
+  "profile": "trusted-page-v1",
+  "entry": "assoc/index.html",
+  "local-state": {
+    "adapter": "memory",
+    "schema": "itonami.registry.assoc.filters",
+    "version": 1
+  },
+  "workers": [],
+  "operations": []
+}

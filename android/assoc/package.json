@@ -1,0 +1,12 @@
+{
+  "name": "itonami-registry-assoc",
+  "private": true,
+  "scripts": {
+    "android:init": "tauri android init --ci && python3 configure-android.py",
+    "android:apk": "tauri android build --apk --debug --ci",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.5"
+  }
+}
