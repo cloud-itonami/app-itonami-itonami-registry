@@ -26317,7 +26317,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "437080d1617d7eddc4e2686cf99e617bbaace502",
+          "sourceCommit": "44eb469f9bfb252a585cbc293b40c7e1e9309b7b",
           "entry": "profile/physai-isic-6810"
         }
       ]
@@ -27010,7 +27010,7 @@
       "reason": "Existing profile identity and domain measurements remain in their owning repository; use parameterized templates instead of per-instance copies.",
       "registrations": [
         {
-          "sourceCommit": "31dba3fd04c9bc5a07ab1d0cdfe98f3cad69ca97",
+          "sourceCommit": "db6f9cd89fa78b07fe1b47aa42db6f59c1b398d3",
           "entry": "profile/physai-isic-7810"
         }
       ]

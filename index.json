@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-18T07:09:02.562108Z",
+  "generated": "2026-11-19T01:17:34.746339Z",
   "count": 2028,
   "entries": [
     {
@@ -35019,16 +35019,16 @@
       "type": "profile",
       "name": "physai-isic-6810",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-6810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-6810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-6810/tree/437080d1617d7eddc4e2686cf99e617bbaace502",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-6810/tree/44eb469f9bfb252a585cbc293b40c7e1e9309b7b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isic-6810",
-      "checksum": "sha256:550fc956f8cc6d5370653bc68aacc2b678502f21e2686102a14ec85cd92f1eaf",
-      "profileChecksum": "sha256-tree:84dfe7ad812787097d3e305c0695c1e3cbd95dfd2ffcc1f068902cf95556ce3a"
+      "checksum": "sha256:68445cfec19ec4fe68433a122cc139307e4d1bdec9ef82c2546d8f7e8b5a894f",
+      "profileChecksum": "sha256-tree:806d258b0391e4809d872d629a1e81d69cd7156d2fd6de6a3642dd1d3c412dfb"
     },
     {
       "id": "physai-isic-6820",
@@ -35291,16 +35291,16 @@
       "type": "profile",
       "name": "physai-isic-7810",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-7810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-7810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7810/tree/31dba3fd04c9bc5a07ab1d0cdfe98f3cad69ca97",
+      "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7810/tree/db6f9cd89fa78b07fe1b47aa42db6f59c1b398d3",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/physai-isic-7810",
-      "checksum": "sha256:f6decea13f7335e92c406fd3245c337d738bf18c0090ff90fce50662dcf1c904",
-      "profileChecksum": "sha256-tree:a04f26214bb5c1332e98e677856774d80457ca8ee52c5be02d4b606b15607647"
+      "checksum": "sha256:71be1e3c709e419b1af86ed1470bc288e6c887ec99c476ead1bcabf99a5c30b3",
+      "profileChecksum": "sha256-tree:78815532df961647998511e85e8ec1f6e6ef7d30052045d4cff612c8976a997b"
     },
     {
       "id": "physai-isic-7911",
