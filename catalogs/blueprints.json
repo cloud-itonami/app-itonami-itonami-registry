@@ -6017,18 +6017,20 @@
     {
       "id": "blueprint/cloud-itonami-isic-7820",
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-7820",
-      "commit": "c222a101e47abb111b40b2ee7a0266724ad37014",
+      "commit": "f92b957399a8d1f89eb3124d92739fbc8f219219",
       "visibility": "public",
       "archived": false,
       "license": "AGPL-3.0",
       "keys": {
         "blueprint": "cloud-itonami-isic-7820",
-        "domain": "labor/temporary-staffing"
+        "domain": "labor/temporary-staffing",
+        "isic": "7820",
+        "classification": "isic-rev5"
       },
       "payload": [
         {
           "path": "blueprint.edn",
-          "sha256": "14f6b7a1c614d070c5e9064406efdcb72774697de6cbf5d4207c83d42b23839f"
+          "sha256": "b39b5d116d1038d08c4c1fa9d0d15b560caa7f0055fb46829d7228cd381c44c9"
         },
         {
           "path": "README.md",
