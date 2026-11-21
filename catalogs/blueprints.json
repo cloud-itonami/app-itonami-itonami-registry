@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.blueprint-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 411,
+  "count": 417,
   "entries": [
     {
       "id": "blueprint/cloud-itonami-card-issuing",
@@ -3432,6 +3432,43 @@
       }
     },
     {
+      "id": "blueprint/cloud-itonami-isic-5820",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-5820",
+      "commit": "1ba944e0c779b54eaf58b6d765d3c6fc9fa0c9bc",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-5820",
+        "domain": "software/crm-subscription-commerce",
+        "isic": "5820"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "07ceb233629ec6572ece72b69526fbcc1ff1595a7a5f7e454fa75a21e2bc38ad"
+        },
+        {
+          "path": "README.md",
+          "sha256": "2b09db223fc742762d5780fc8eb920fa7589ed35c0dcc34bdc8d0cc3edbb9ae9"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "ca3f070b4e44ed8aac07f99a6214cc6300dcabacb9bf44477a76dda41035454a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
       "id": "blueprint/cloud-itonami-isic-5911",
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-5911",
       "commit": "7b9068a72b938885096a7b79b5cda6ac98ea09fa",
@@ -3685,6 +3722,43 @@
       }
     },
     {
+      "id": "blueprint/cloud-itonami-isic-6202",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-6202",
+      "commit": "40dc937de94b2eeabf6bf273dbea18a1dddeb4dd",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-6202",
+        "domain": "software/customer-service-hub",
+        "isic": "6202"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "9eb1b672b64a42a5df4ba90650b6a5b30a36f735caa4ec61db04ee0a5e504637"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d3a162739531a35ad6f0b2846342868e5d081c2f50972345b3284767e52eb027"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "c76c59d7eb9b87d92699f0d6fdc3d77a924bc3e9498e496e59965e0c7c50c462"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
       "id": "blueprint/cloud-itonami-isic-6209",
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-6209",
       "commit": "60990dcc7d0fd12b996c2a1e7e04cf14498beb50",
@@ -3712,6 +3786,43 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "71279ef9277525725c907f73b347ef57551c97e26991f1787a637d5d867e639e"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "blueprint/cloud-itonami-isic-6310",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-6310",
+      "commit": "4a7c6763e5f9bbf5b996d72b030f5c88d14bd321",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-6310",
+        "domain": "hr/talent-management",
+        "isic": "6310"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "727dbd33691df234c2bafb3f63a71b0cfa7440c76544f641b577e6763cd44aaa"
+        },
+        {
+          "path": "README.md",
+          "sha256": "73deb6a696fe15f1eb6fcb95bc4a3649616d42909b0d4a8b393d48f6407232a4"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "364849743a4fb807aa08c7456d59c853b275a2a8c7426fe6581f4b6ca567d145"
         }
       ],
       "digestStatus": "verified",
@@ -3926,6 +4037,39 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "125f5ed2f4925351c7e872fecdefb1caa042d25e06c2cbdaf4a3431cdb3e1111"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "blueprint/cloud-itonami-isic-649",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-649",
+      "commit": "fd66ff9da4b20925e37ebda5c02a664f09d783c4",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-649",
+        "domain": "finance/identity-verification",
+        "isic": "649"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "5dff1eee31a5b9eda437c30a07b3af54537b72c69ccaf3d2e2e27d9b44a92a06"
+        },
+        {
+          "path": "README.md",
+          "sha256": "31ce7c8417dbadf1c32b274b1ce14ea7e3e5004345cc76bf213081e6e845a6f6"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
         }
       ],
       "digestStatus": "verified",
@@ -4255,6 +4399,43 @@
       }
     },
     {
+      "id": "blueprint/cloud-itonami-isic-7830",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-7830",
+      "commit": "6e66036d582419adae03f2590c119956d5cde5e7",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-7830",
+        "domain": "labor/payroll-administration",
+        "isic": "7830"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a85fbb26cf910bb0e25e8115b1bb0a0cdaaacb04be384f8bede31d9837f82214"
+        },
+        {
+          "path": "README.md",
+          "sha256": "aeb4e7f584f10b63a343abf73d9ce3da63787f3650a388cacdc49306ca7b9a8d"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "d62355fd2608dce733b1f01afb28b038bdcf848ff842a6a480dd81df7e81ed45"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
       "id": "blueprint/cloud-itonami-isic-791",
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-791",
       "commit": "1a51a68528d14ad74900f6c7a064eedde0c7f8d1",
@@ -4392,6 +4573,43 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "46bad22f3ad1d161761c240fcb6bff0dc9e4551411fb4e1affa2a005b3033c98"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      }
+    },
+    {
+      "id": "blueprint/cloud-itonami-isic-8299",
+      "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-8299",
+      "commit": "672024f467eb2f87d41be35e45119079684a4d92",
+      "visibility": "public",
+      "archived": false,
+      "license": "AGPL-3.0",
+      "keys": {
+        "blueprint": "cloud-itonami-isic-8299",
+        "domain": "services/virtual-assistant-task-matching",
+        "isic": "8299"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0a5e13b384b1ff62cd0d983fa4124edd1d9fe1dbd2d74eceb97ddfd4e8f9f0c6"
+        },
+        {
+          "path": "README.md",
+          "sha256": "657c61ae3b7b27bcf2480c6c087c1562458fa9072b74678b98dbd05fb8269e3d"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "56fe713feeeeeb00869ba94ccb27549a86faa61b38954ec7033623a3281337be"
         }
       ],
       "digestStatus": "verified",
