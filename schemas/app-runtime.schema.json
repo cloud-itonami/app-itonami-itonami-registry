@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Itonami registry app client runtime (KOTOBA-159)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "observedOn", "note", "basis", "trustedPageV1Baseline", "repositories"],
+  "$defs": {
+    "runtime": {"enum": ["trusted-page-v1", "restricted-wasm-v1", "none", "unknown"]},
+    "handles": {"enum": [true, false, "unknown"]}
+  },
+  "properties": {
+    "schemaVersion": {"const": "itonami.app-runtime.v1"},
+    "observedOn": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "note": {"type": "string", "minLength": 1},
+    "basis": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}},
+    "trustedPageV1Baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["since", "repositories"],
+      "properties": {
+        "since": {"const": "2026-11-22"},
+        "repositories": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "repositories": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["runtime", "handlesUserDataOrExternalComms", "basis"],
+        "properties": {
+          "runtime": {"$ref": "#/$defs/runtime"},
+          "handlesUserDataOrExternalComms": {"$ref": "#/$defs/handles"},
+          "basis": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

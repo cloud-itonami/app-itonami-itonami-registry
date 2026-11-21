@@ -40,7 +40,9 @@
           "payload",
           "digestStatus",
           "status",
-          "authority"
+          "authority",
+          "runtime",
+          "handlesUserDataOrExternalComms"
         ],
         "additionalProperties": false,
         "properties": {
@@ -152,6 +154,21 @@
                 "const": "blocked"
               }
             }
+          },
+          "runtime": {
+            "enum": [
+              "trusted-page-v1",
+              "restricted-wasm-v1",
+              "none",
+              "unknown"
+            ]
+          },
+          "handlesUserDataOrExternalComms": {
+            "enum": [
+              true,
+              false,
+              "unknown"
+            ]
           }
         }
       }
