@@ -3,7 +3,7 @@
   "sourceRefs": [
     "cloud-itonami-unspsc-27-62a077ee"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: physical-AI bot for cloud-itonami/cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

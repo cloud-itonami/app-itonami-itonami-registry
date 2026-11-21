@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kagi native-kexe CLI migration scribe (S2-S5, propose-only)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kagi/tree/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
+  "source": "https://github.com/cloud-itonami/app-itonami-kagi/tree/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/kagi",
+    "repository": "cloud-itonami/app-itonami-kagi",
     "commit": "b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
     "path": "hermes/profiles/kagi-native-scribe",
     "checksum": "sha256-tree:1f7c775cae18ae2d7ff3a08516533f57f90b4e4868879b8f84d18de7e8cfc927",

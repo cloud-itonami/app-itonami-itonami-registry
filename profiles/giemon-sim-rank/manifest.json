@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "giemon シミュレーション学習成熟ループ: rank (15-30min cron cowork)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+  "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/giemon",
+    "repository": "cloud-itonami/app-itonami-giemon",
     "commit": "f2a191048e3089925735b0a3a3d10325166872b1",
     "path": "hermes/profiles/giemon-sim-rank",
     "checksum": "sha256-tree:0e16bf78dfa427914c961ccc5b5589ac2f87ad5f812f980803df29ee37464922",

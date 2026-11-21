@@ -35,4 +35,4 @@ metadata:
    - Nothing was sent or stored, no invoice was delivered, and the NTA publication site was not queried.
    - This is not a tax filing and not a qualified-invoice certification.
 
-The tool contracts are pinned in itonami.json and catalogs/sources.json. The server lives in cloud-itonami/kaikei and is enabled only by a profile owner's mcp_servers entry.
+The tool contracts are pinned in itonami.json and catalogs/sources.json. The server lives in cloud-itonami/app-itonami-kaikei and is enabled only by a profile owner's mcp_servers entry.

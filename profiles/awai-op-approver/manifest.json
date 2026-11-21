@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Judge one bot operation request as an Agent separate from the requester",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
+  "source": "https://github.com/cloud-itonami/itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-itonami-itonami-agent",
+    "repository": "cloud-itonami/itonami-agent",
     "commit": "6f7df914606f84e317786f302511f2545f721574",
     "path": "hermes/profiles/awai-op-approver",
     "checksum": "sha256-tree:9637f16d1c715017a6d6580cec81ac10b52f569cdcd13a694a02f6d108be04c0",

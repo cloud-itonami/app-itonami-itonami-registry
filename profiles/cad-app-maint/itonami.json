@@ -3,7 +3,7 @@
   "sourceRefs": [
     "kami-app-cad-db874d87"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cad-app-maint: maintainer bot for kotoba-lang/kami-app-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cad-app-maint: maintainer bot for cloud-itonami/app-itonami-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

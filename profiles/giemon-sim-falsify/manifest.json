@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "giemon シミュレーション学習成熟ループ: falsify (15-30min cron cowork)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+  "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/giemon",
+    "repository": "cloud-itonami/app-itonami-giemon",
     "commit": "f2a191048e3089925735b0a3a3d10325166872b1",
     "path": "hermes/profiles/giemon-sim-falsify",
     "checksum": "sha256-tree:b49080578e338351346bcf7d6b99656630e5c2204e7cb98e433d4e6c02684b30",

@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Kekkai and Murakumo integration engineer",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kekkai-node/tree/ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
+  "source": "https://github.com/cloud-itonami/app-itonami-kekkai-node/tree/ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/kekkai-node",
+    "repository": "cloud-itonami/app-itonami-kekkai-node",
     "commit": "ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
     "path": "hermes/profiles/kekkai-murakumo",
     "checksum": "sha256-tree:b44556590d57dfd2873575e852e056578c4b739c2b28f2faa8a6ad9c9b03c4a6",

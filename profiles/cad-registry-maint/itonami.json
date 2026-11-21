@@ -3,7 +3,7 @@
   "sourceRefs": [
     "cad-f674eff"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cad-registry-maint: maintainer bot for cloud-itonami/cad (cad): health scan, CI red detection, propose-only PRs, 30min cron",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cad-registry-maint: maintainer bot for cloud-itonami/app-itonami-cad-registry (cad): health scan, CI red detection, propose-only PRs, 30min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

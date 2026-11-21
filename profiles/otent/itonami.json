@@ -3,7 +3,7 @@
   "sourceRefs": [
     "otent-7120cc59"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: otent: geospatial ingest/vision bot. Runs cloud-itonami/otent feeds (satellites, quakes, aircraft, fires, vessels) into R2 Iceberg and feeds app-otent globe + hyakka claims.",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: otent: geospatial ingest/vision bot. Runs cloud-itonami/app-itonami-otent-r2 feeds (satellites, quakes, aircraft, fires, vessels) into R2 Iceberg and feeds app-otent globe + hyakka claims.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

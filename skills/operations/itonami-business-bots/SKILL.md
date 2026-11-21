@@ -290,7 +290,7 @@ generated and stored targeted in kagi → signed from a repo-placed helper (nobl
 ### kagi CLI is not on PATH — run it from its repo (measured 2026-09-03)
 
 `kagi` as a bare command does not resolve in a fresh agent shell. The working
-invocation is `cd ~/github/com-junkawasaki/orgs/kotoba-lang/kagi
+invocation is `cd ~/github/com-junkawasaki/orgs/cloud-itonami/app-itonami-kagi
 && ./bin/kagi <subcommand>` (a bash wrapper that execs `clojure -M:dev:cli`).
 Session-long `kagi get …` failures that look like "wrong secret" are often just
 this — the command never ran. Verify with `./bin/kagi ls` (92 items measured)

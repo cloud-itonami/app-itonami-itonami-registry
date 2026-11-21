@@ -3,7 +3,7 @@
   "sourceRefs": [
     "app-mail-relay-e92b9b6"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-mail-relay`（relay.itonami.cloud、エージェント向けの",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: mail-relay bot — relay.itonami.cloud の開発者兼運用者 — あなたは `cloud-itonami/app-itonami-mail-relay`（relay.itonami.cloud、エージェント向けの",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"
