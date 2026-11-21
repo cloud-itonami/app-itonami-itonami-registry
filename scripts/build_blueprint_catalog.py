@@ -22,6 +22,8 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+import app_runtime
+
 ROOT = Path(__file__).resolve().parents[1]
 ORG = 'cloud-itonami'
 SCHEMA_VERSION = 'itonami.blueprint-sources.v1'
@@ -43,6 +45,7 @@ CLASSIFICATION_KEYS = {
 }
 BP_CODE = re.compile(r':itonami\.blueprint/(' + '|'.join(map(re.escape, CLASSIFICATION_KEYS)) + r')\s+"([^"]+)"')
 STEM_PREFIX = re.compile(r'^(app-itonami-)')
+RUNTIME = app_runtime.load(ROOT)
 
 
 def gh_repo(name):
@@ -114,6 +117,7 @@ def entry(name):
         'digestStatus': 'verified',
         'status': 'repository-owned',
         'authority': {'grants': False, 'default': 'blocked'},
+        **app_runtime.fields(RUNTIME, f'{ORG}/{name}'),
     }
 
 

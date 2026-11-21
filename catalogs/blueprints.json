@@ -36,7 +36,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/abuse",
@@ -66,7 +68,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/action-gtin-registry",
@@ -100,7 +104,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/aidesk",
@@ -130,7 +136,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-book",
@@ -164,7 +172,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-cargo",
@@ -198,7 +208,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-crew",
@@ -232,7 +244,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-dcs",
@@ -266,7 +280,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-ffp",
@@ -300,7 +316,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-mro",
@@ -334,7 +352,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-ops",
@@ -368,7 +388,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-sched",
@@ -402,7 +424,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-sms",
@@ -436,7 +460,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/air-yield",
@@ -470,7 +496,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/airshed",
@@ -500,7 +528,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/akashi",
@@ -534,7 +564,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/ake",
@@ -564,7 +596,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/amenominaka",
@@ -598,7 +632,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/amime",
@@ -632,7 +668,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/analytics",
@@ -662,7 +700,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "blueprint/cloud-itonami-card-issuing",
@@ -698,7 +738,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-cofog-03.2",
@@ -735,7 +777,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-cofog-04.5",
@@ -772,7 +816,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-cofog-05.1",
@@ -809,7 +855,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-cofog-06.3",
@@ -846,7 +894,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-cofog-07.4",
@@ -887,7 +937,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-commitment-ledger",
@@ -919,7 +971,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-crowdfunding-campaign",
@@ -951,7 +1005,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-crowdfunding-collection",
@@ -983,7 +1039,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-crowdfunding-fulfillment",
@@ -1015,7 +1073,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-crowdfunding-payout",
@@ -1047,7 +1107,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-crowdfunding-pledge",
@@ -1079,7 +1141,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-emi",
@@ -1115,7 +1179,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-esim",
@@ -1147,7 +1213,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-gtin-catalog",
@@ -1179,7 +1247,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-gtin-issuance",
@@ -1211,7 +1281,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-gtin-verification",
@@ -1243,7 +1315,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-hygiene-access",
@@ -1279,7 +1353,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-isco-1111",
@@ -1312,7 +1388,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1112",
@@ -1345,7 +1423,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1114",
@@ -1378,7 +1458,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1323",
@@ -1411,7 +1493,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1324",
@@ -1444,7 +1528,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1342",
@@ -1477,7 +1563,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-1345",
@@ -1510,7 +1598,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-2120",
@@ -1543,7 +1633,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-2132",
@@ -1572,7 +1664,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-2145",
@@ -1605,7 +1699,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-2149",
@@ -1634,7 +1730,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-3142",
@@ -1667,7 +1765,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-3143",
@@ -1700,7 +1800,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-3153",
@@ -1733,7 +1835,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-3154",
@@ -1766,7 +1870,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isco-3155",
@@ -1799,7 +1905,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0128",
@@ -1832,7 +1940,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0129",
@@ -1869,7 +1979,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0130",
@@ -1906,7 +2018,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0161",
@@ -1943,7 +2057,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0163",
@@ -1980,7 +2096,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0170",
@@ -2017,7 +2135,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0210",
@@ -2054,7 +2174,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0230",
@@ -2091,7 +2213,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0240",
@@ -2128,7 +2252,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0311",
@@ -2165,7 +2291,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0312",
@@ -2202,7 +2330,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0321",
@@ -2239,7 +2369,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0322",
@@ -2276,7 +2408,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0510",
@@ -2312,7 +2446,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0520",
@@ -2348,7 +2484,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0721",
@@ -2384,7 +2522,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0892",
@@ -2420,7 +2560,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0893",
@@ -2456,7 +2598,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-0899",
@@ -2492,7 +2636,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-1101",
@@ -2529,7 +2675,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3311",
@@ -2566,7 +2714,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3314",
@@ -2603,7 +2753,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3315",
@@ -2640,7 +2792,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3319",
@@ -2677,7 +2831,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3320",
@@ -2714,7 +2870,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3511",
@@ -2747,7 +2905,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3515",
@@ -2780,7 +2940,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3700",
@@ -2816,7 +2978,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3811",
@@ -2853,7 +3017,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3821",
@@ -2889,7 +3055,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3822",
@@ -2926,7 +3094,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-3900",
@@ -2962,7 +3132,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4210",
@@ -2999,7 +3171,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4220",
@@ -3036,7 +3210,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4290",
@@ -3073,7 +3249,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4311",
@@ -3110,7 +3288,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4312",
@@ -3147,7 +3327,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4329",
@@ -3184,7 +3366,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4330",
@@ -3221,7 +3405,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4390",
@@ -3258,7 +3444,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4510",
@@ -3295,7 +3483,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4520",
@@ -3332,7 +3522,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4520-carwash",
@@ -3365,7 +3557,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4610",
@@ -3402,7 +3596,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4653",
@@ -3439,7 +3635,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4659",
@@ -3476,7 +3674,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4690",
@@ -3513,7 +3713,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4772",
@@ -3550,7 +3752,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4774",
@@ -3587,7 +3791,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-4930",
@@ -3620,7 +3826,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5320",
@@ -3657,7 +3865,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5520",
@@ -3693,7 +3903,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5590",
@@ -3729,7 +3941,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-561",
@@ -3765,7 +3979,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-562",
@@ -3801,7 +4017,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5621",
@@ -3837,7 +4055,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5629",
@@ -3873,7 +4093,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-563",
@@ -3909,7 +4131,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5630",
@@ -3945,7 +4169,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5811",
@@ -3981,7 +4207,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5812",
@@ -4017,7 +4245,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5813",
@@ -4053,7 +4283,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5819",
@@ -4089,7 +4321,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5820",
@@ -4127,7 +4361,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5911",
@@ -4163,7 +4399,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5912",
@@ -4199,7 +4437,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5913",
@@ -4235,7 +4475,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5914",
@@ -4271,7 +4513,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-5920",
@@ -4307,7 +4551,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6110",
@@ -4344,7 +4590,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6201",
@@ -4380,7 +4628,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6202",
@@ -4417,7 +4667,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6209",
@@ -4454,7 +4706,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6310",
@@ -4491,7 +4745,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6311",
@@ -4527,7 +4783,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6311-chainexplorer",
@@ -4563,7 +4821,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6311-identity",
@@ -4595,7 +4855,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6312",
@@ -4631,7 +4893,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6391",
@@ -4668,7 +4932,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6399",
@@ -4705,7 +4971,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-649",
@@ -4738,7 +5006,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6611-cryptoexchange",
@@ -4775,7 +5045,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6910",
@@ -4812,7 +5084,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-6910-legalsupport",
@@ -4844,7 +5118,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7120-cyberassurance",
@@ -4877,7 +5153,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7500",
@@ -4913,7 +5191,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7722",
@@ -4949,7 +5229,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7730",
@@ -4985,7 +5267,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7740",
@@ -5021,7 +5305,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7820",
@@ -5057,7 +5343,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7830",
@@ -5094,7 +5382,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-791",
@@ -5131,7 +5421,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-7990",
@@ -5167,7 +5459,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-8010",
@@ -5204,7 +5498,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-8291",
@@ -5241,7 +5537,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-8299",
@@ -5278,7 +5576,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-851",
@@ -5314,7 +5614,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-852",
@@ -5350,7 +5652,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-853",
@@ -5386,7 +5690,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-854",
@@ -5422,7 +5728,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-855",
@@ -5454,7 +5762,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-861",
@@ -5490,7 +5800,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-862",
@@ -5526,7 +5838,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-869",
@@ -5562,7 +5876,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-871",
@@ -5598,7 +5914,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-872",
@@ -5634,7 +5952,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-873",
@@ -5670,7 +5990,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-879",
@@ -5706,7 +6028,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-889",
@@ -5742,7 +6066,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-900",
@@ -5778,7 +6104,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-920",
@@ -5814,7 +6142,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-931",
@@ -5850,7 +6180,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-932",
@@ -5886,7 +6218,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-941",
@@ -5922,7 +6256,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-942",
@@ -5958,7 +6294,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-949",
@@ -5994,7 +6332,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-952",
@@ -6026,7 +6366,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-960",
@@ -6062,7 +6404,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-9601-carpet",
@@ -6095,7 +6439,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-9601-coinlaundry",
@@ -6128,7 +6474,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-9609-petcare",
@@ -6161,7 +6509,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-9810",
@@ -6197,7 +6547,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-isic-9820",
@@ -6233,7 +6585,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ago",
@@ -6269,7 +6623,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-alb",
@@ -6305,7 +6661,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-and",
@@ -6341,7 +6699,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-are",
@@ -6377,7 +6737,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-arg",
@@ -6413,7 +6775,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-arm",
@@ -6449,7 +6813,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-atg",
@@ -6485,7 +6851,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-aus",
@@ -6521,7 +6889,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-aut",
@@ -6557,7 +6927,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-aze",
@@ -6593,7 +6965,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bdi",
@@ -6629,7 +7003,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bel",
@@ -6665,7 +7041,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ben",
@@ -6701,7 +7079,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bfa",
@@ -6737,7 +7117,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bgd",
@@ -6773,7 +7155,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bgr",
@@ -6809,7 +7193,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bhr",
@@ -6845,7 +7231,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bhs",
@@ -6881,7 +7269,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bih",
@@ -6917,7 +7307,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-blr",
@@ -6953,7 +7345,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-blz",
@@ -6989,7 +7383,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bol",
@@ -7025,7 +7421,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bra",
@@ -7061,7 +7459,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-brb",
@@ -7097,7 +7497,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-brn",
@@ -7133,7 +7535,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-btn",
@@ -7169,7 +7573,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-bwa",
@@ -7205,7 +7611,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-caf",
@@ -7241,7 +7649,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-can",
@@ -7277,7 +7687,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-che",
@@ -7313,7 +7725,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-chl",
@@ -7349,7 +7763,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-chn",
@@ -7385,7 +7801,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-chn-advertising",
@@ -7422,7 +7840,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-chn-market-research",
@@ -7459,7 +7879,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-civ",
@@ -7495,7 +7917,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cmr",
@@ -7531,7 +7955,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cod",
@@ -7567,7 +7993,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cog",
@@ -7603,7 +8031,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-col",
@@ -7639,7 +8069,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-com",
@@ -7675,7 +8107,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cpv",
@@ -7711,7 +8145,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cri",
@@ -7747,7 +8183,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cub",
@@ -7783,7 +8221,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cyp",
@@ -7819,7 +8259,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-cze",
@@ -7855,7 +8297,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-deu",
@@ -7891,7 +8335,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-dji",
@@ -7927,7 +8373,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-dma",
@@ -7963,7 +8411,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-dnk",
@@ -7999,7 +8449,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-dom",
@@ -8035,7 +8487,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-dza",
@@ -8071,7 +8525,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ecu",
@@ -8107,7 +8563,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-egy",
@@ -8143,7 +8601,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-eri",
@@ -8179,7 +8639,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-esp",
@@ -8215,7 +8677,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-est",
@@ -8251,7 +8715,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-eth",
@@ -8287,7 +8753,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-fin",
@@ -8323,7 +8791,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-fji",
@@ -8359,7 +8829,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-fra",
@@ -8395,7 +8867,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-fsm",
@@ -8431,7 +8905,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gab",
@@ -8467,7 +8943,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gbr",
@@ -8503,7 +8981,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-geo",
@@ -8539,7 +9019,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gha",
@@ -8575,7 +9057,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gin",
@@ -8611,7 +9095,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gmb",
@@ -8647,7 +9133,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gnb",
@@ -8683,7 +9171,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gnq",
@@ -8719,7 +9209,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-grc",
@@ -8755,7 +9247,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-grd",
@@ -8791,7 +9285,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-gtm",
@@ -8827,7 +9323,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-guy",
@@ -8863,7 +9361,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-hnd",
@@ -8899,7 +9399,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-hrv",
@@ -8935,7 +9437,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-hti",
@@ -8971,7 +9475,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-hun",
@@ -9007,7 +9513,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-idn",
@@ -9043,7 +9551,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ind",
@@ -9079,7 +9589,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ind-clean-air",
@@ -9111,7 +9623,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-irl",
@@ -9147,7 +9661,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-irq",
@@ -9183,7 +9699,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-isl",
@@ -9219,7 +9737,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-isr",
@@ -9255,7 +9775,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ita",
@@ -9291,7 +9813,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jam",
@@ -9327,7 +9851,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jor",
@@ -9363,7 +9889,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn",
@@ -9399,7 +9927,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-audit",
@@ -9439,7 +9969,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-cao",
@@ -9479,7 +10011,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-digital",
@@ -9519,7 +10053,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-fsa",
@@ -9559,7 +10095,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-jftc",
@@ -9599,7 +10137,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-maff",
@@ -9639,7 +10179,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-meti",
@@ -9679,7 +10221,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mext",
@@ -9719,7 +10263,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mhlw",
@@ -9759,7 +10305,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mic",
@@ -9799,7 +10347,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mlit",
@@ -9839,7 +10389,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mod",
@@ -9879,7 +10431,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-moe",
@@ -9919,7 +10473,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mof",
@@ -9959,7 +10515,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-mofa",
@@ -9999,7 +10557,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-moj",
@@ -10039,7 +10599,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-ppc",
@@ -10079,7 +10641,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-reconstruction",
@@ -10119,7 +10683,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-jpn-statistics",
@@ -10159,7 +10725,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kaz",
@@ -10195,7 +10763,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ken",
@@ -10231,7 +10801,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kgz",
@@ -10267,7 +10839,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-khm",
@@ -10303,7 +10877,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kir",
@@ -10339,7 +10915,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kna",
@@ -10375,7 +10953,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kor",
@@ -10411,7 +10991,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-kwt",
@@ -10447,7 +11029,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lao",
@@ -10483,7 +11067,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lbn",
@@ -10519,7 +11105,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lbr",
@@ -10555,7 +11143,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lby",
@@ -10591,7 +11181,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lca",
@@ -10627,7 +11219,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lie",
@@ -10663,7 +11257,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lka",
@@ -10699,7 +11295,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lso",
@@ -10735,7 +11333,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ltu",
@@ -10771,7 +11371,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lux",
@@ -10807,7 +11409,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-lva",
@@ -10843,7 +11447,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mar",
@@ -10879,7 +11485,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mco",
@@ -10915,7 +11523,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mda",
@@ -10951,7 +11561,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mdg",
@@ -10987,7 +11599,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mdv",
@@ -11023,7 +11637,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mex",
@@ -11059,7 +11675,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mhl",
@@ -11095,7 +11713,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mkd",
@@ -11131,7 +11751,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mli",
@@ -11167,7 +11789,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mlt",
@@ -11203,7 +11827,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mmr",
@@ -11239,7 +11865,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mne",
@@ -11275,7 +11903,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mng",
@@ -11311,7 +11941,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-moz",
@@ -11347,7 +11979,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mrt",
@@ -11383,7 +12017,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mus",
@@ -11419,7 +12055,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mwi",
@@ -11455,7 +12093,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-mys",
@@ -11491,7 +12131,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nam",
@@ -11527,7 +12169,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ner",
@@ -11563,7 +12207,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nga",
@@ -11599,7 +12245,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nic",
@@ -11635,7 +12283,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nld",
@@ -11671,7 +12321,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nor",
@@ -11707,7 +12359,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-npl",
@@ -11743,7 +12397,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nru",
@@ -11779,7 +12435,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-nzl",
@@ -11815,7 +12473,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-omn",
@@ -11851,7 +12511,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-pak",
@@ -11887,7 +12549,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-pan",
@@ -11923,7 +12587,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-per",
@@ -11959,7 +12625,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-phl",
@@ -11995,7 +12663,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-plw",
@@ -12031,7 +12701,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-png",
@@ -12067,7 +12739,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-pol",
@@ -12103,7 +12777,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-prt",
@@ -12139,7 +12815,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-pry",
@@ -12175,7 +12853,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-qat",
@@ -12211,7 +12891,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-rou",
@@ -12247,7 +12929,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-rus",
@@ -12283,7 +12967,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-rwa",
@@ -12319,7 +13005,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sau",
@@ -12355,7 +13043,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sdn",
@@ -12391,7 +13081,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sen",
@@ -12427,7 +13119,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sgp",
@@ -12463,7 +13157,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-slb",
@@ -12499,7 +13195,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sle",
@@ -12535,7 +13233,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-slv",
@@ -12571,7 +13271,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-smr",
@@ -12607,7 +13309,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-som",
@@ -12643,7 +13347,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-srb",
@@ -12679,7 +13385,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ssd",
@@ -12715,7 +13423,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-stp",
@@ -12751,7 +13461,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-sur",
@@ -12787,7 +13499,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-svk",
@@ -12823,7 +13537,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-svn",
@@ -12859,7 +13575,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-swe",
@@ -12895,7 +13613,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-swz",
@@ -12931,7 +13651,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-syc",
@@ -12967,7 +13689,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tcd",
@@ -13003,7 +13727,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tgo",
@@ -13039,7 +13765,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tha",
@@ -13075,7 +13803,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tjk",
@@ -13111,7 +13841,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tkm",
@@ -13147,7 +13879,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tls",
@@ -13183,7 +13917,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ton",
@@ -13219,7 +13955,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tto",
@@ -13255,7 +13993,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tun",
@@ -13291,7 +14031,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tur",
@@ -13327,7 +14069,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tuv",
@@ -13363,7 +14107,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-tza",
@@ -13399,7 +14145,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-uga",
@@ -13435,7 +14183,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ukr",
@@ -13471,7 +14221,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-ury",
@@ -13507,7 +14259,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa",
@@ -13543,7 +14297,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-dhs",
@@ -13579,7 +14335,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-doc",
@@ -13615,7 +14373,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-dod",
@@ -13651,7 +14411,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-doe",
@@ -13687,7 +14449,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-dol",
@@ -13723,7 +14487,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-dot",
@@ -13759,7 +14525,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-epa",
@@ -13795,7 +14563,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-fcc",
@@ -13831,7 +14601,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-ftc",
@@ -13867,7 +14639,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-gsa",
@@ -13903,7 +14677,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-hhs",
@@ -13939,7 +14715,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-sba",
@@ -13975,7 +14753,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-sec",
@@ -14011,7 +14791,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-treasury",
@@ -14047,7 +14829,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-usa-va",
@@ -14083,7 +14867,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-uzb",
@@ -14119,7 +14905,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-vct",
@@ -14155,7 +14943,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-vnm",
@@ -14191,7 +14981,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-vut",
@@ -14227,7 +15019,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-wsm",
@@ -14263,7 +15057,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-yem",
@@ -14299,7 +15095,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-zaf",
@@ -14335,7 +15133,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-zmb",
@@ -14371,7 +15171,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-iso3166-zwe",
@@ -14407,7 +15209,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-jsic-3914",
@@ -14443,7 +15247,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-jsic-4113",
@@ -14479,7 +15285,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-jsic-4721",
@@ -14515,7 +15323,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-licensed-operator",
@@ -14547,7 +15357,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-machi-hub",
@@ -14580,7 +15392,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-crossborder",
@@ -14616,7 +15430,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-fulfillment",
@@ -14652,7 +15468,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-listing",
@@ -14684,7 +15502,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-onboarding",
@@ -14720,7 +15540,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-order",
@@ -14756,7 +15578,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-returns",
@@ -14792,7 +15616,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-marketplace-settlement",
@@ -14824,7 +15650,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-partners",
@@ -14856,7 +15684,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-pi",
@@ -14892,7 +15722,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-souji",
@@ -14924,7 +15756,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-translation",
@@ -14956,7 +15790,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/cloud-itonami-unspsc-10",
@@ -14992,7 +15828,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-unspsc-27",
@@ -15032,7 +15870,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-unspsc-39",
@@ -15068,7 +15908,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-unspsc-43",
@@ -15108,7 +15950,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/cloud-itonami-unspsc-73",
@@ -15148,7 +15992,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": false
     },
     {
       "id": "blueprint/dandori",
@@ -15180,7 +16026,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/dougaka",
@@ -15212,7 +16060,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kadou",
@@ -15244,7 +16094,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kagi-vault",
@@ -15280,7 +16132,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kaikei",
@@ -15308,7 +16162,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/keihi",
@@ -15340,7 +16196,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kekkai",
@@ -15372,7 +16230,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kintai",
@@ -15404,7 +16264,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/kumitate",
@@ -15436,7 +16298,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/mihari",
@@ -15468,7 +16332,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/mortgage-registry",
@@ -15500,7 +16366,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/rirekisho",
@@ -15532,7 +16400,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/tehai",
@@ -15564,7 +16434,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     },
     {
       "id": "blueprint/yotei",
@@ -15588,7 +16460,9 @@
       "authority": {
         "grants": false,
         "default": "blocked"
-      }
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
     }
   ]
 }

@@ -246,6 +246,7 @@ def validate(root=ROOT):
     validate_actors(root)
     validate_blueprints(root)
     validate_skip_sources(root)
+    validate_app_runtime(root)
     validate_libraries(root)
     validate_apps(root)
     validate_absorbed(root)
@@ -411,6 +412,35 @@ def validate_actors(root):
             raise ValueError(f"Actor digest status disagrees with payload: {e['id']}")
         if len({p['path'] for p in e['payload']}) != len(e['payload']):
             raise ValueError(f"Duplicate actor payload path: {e['id']}")
+
+
+def validate_app_runtime(root):
+    """App client runtime (KOTOBA-159): every app entry carries `runtime` and
+    `handlesUserDataOrExternalComms` as catalogs/app-runtime.json records them, and
+    trusted-page-v1 is accepted only for repositories in the 2026-11-22 baseline."""
+    import app_runtime
+    path = root / app_runtime.RUNTIME_FILE
+    if not path.exists():
+        return
+    schema = read(root / 'schemas/app-runtime.schema.json')
+    Draft202012Validator.check_schema(schema)
+    doc = read(path)
+    Draft202012Validator(schema).validate(doc)
+    baseline = set(doc['trustedPageV1Baseline']['repositories'])
+    for repository, rec in doc['repositories'].items():
+        if rec['runtime'] == 'trusted-page-v1' and repository not in baseline:
+            raise ValueError(f'New trusted-page-v1 registration refused (KOTOBA-159): {repository}')
+        if rec['basis'] not in doc['basis']:
+            raise ValueError(f'Unknown app runtime basis: {repository}')
+    entries = [('blueprint', e) for e in read(root / 'catalogs/blueprints.json')['entries']]
+    pointers = root / 'catalogs/profile-pointers.json'
+    if pointers.exists():
+        entries += [('pointer', e) for e in read(pointers)['profiles']]
+    for kind, e in entries:
+        want = app_runtime.fields(doc, e.get('repository'))
+        got = {k: e.get(k) for k in want}
+        if got != want:
+            raise ValueError(f"App runtime fields differ from catalogs/app-runtime.json: {kind} {e['id']}: {got} != {want}")
 
 
 def validate_skip_sources(root):
