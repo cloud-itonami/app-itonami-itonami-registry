@@ -3434,19 +3434,20 @@
     {
       "id": "blueprint/cloud-itonami-isic-5820",
       "repository": "cloud-itonami/app-itonami-cloud-itonami-isic-5820",
-      "commit": "1ba944e0c779b54eaf58b6d765d3c6fc9fa0c9bc",
+      "commit": "c8bd7ac30784bf97e27ad28acce5ef6c74b04f83",
       "visibility": "public",
       "archived": false,
       "license": "AGPL-3.0",
       "keys": {
         "blueprint": "cloud-itonami-isic-5820",
         "domain": "software/crm-subscription-commerce",
-        "isic": "5820"
+        "isic": "5820",
+        "classification": "isic-rev4"
       },
       "payload": [
         {
           "path": "blueprint.edn",
-          "sha256": "07ceb233629ec6572ece72b69526fbcc1ff1595a7a5f7e454fa75a21e2bc38ad"
+          "sha256": "e0492361b548c7633254925869a4e1caa3925e71befd74ba4910a356217c2357"
         },
         {
           "path": "README.md",

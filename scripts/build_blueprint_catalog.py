@@ -31,7 +31,17 @@ PAYLOAD = ['blueprint.edn', 'README.md', 'LICENSE', 'organization.edn', 'kotoba.
            'facts.edn']
 BP_ID = re.compile(r':itonami\.blueprint/id\s+"([^"]+)"')
 BP_DOMAIN = re.compile(r':itonami\.blueprint/domain\s+:([A-Za-z0-9_./+-]+)')
-BP_CODE = re.compile(r':itonami\.blueprint/(isic-rev5|isco-08|cofog)\s+"([^"]+)"')
+# Classification keys, one per repository, with the scheme version in the key (itonami-lib
+# blueprint.edn schema, App Build plan 2026-11-22). The hierarchy level (section, division, group,
+# class) follows from the code's shape, so there is no separate level key. Each key maps to the
+# catalog field that carries its code; `classification` records which versioned key it came from.
+CLASSIFICATION_KEYS = {
+    'isic-rev4': 'isic',
+    'isic-rev5': 'isic',
+    'isco-08': 'isco',
+    'cofog': 'cofog',
+}
+BP_CODE = re.compile(r':itonami\.blueprint/(' + '|'.join(map(re.escape, CLASSIFICATION_KEYS)) + r')\s+"([^"]+)"')
 STEM_PREFIX = re.compile(r'^(app-itonami-)')
 
 
@@ -81,9 +91,14 @@ def entry(name):
             m = BP_DOMAIN.search(text)
             if m:
                 keys['domain'] = m.group(1)
-            m = BP_CODE.search(text)
-            if m:
-                keys[{'isic-rev5': 'isic', 'isco-08': 'isco', 'cofog': 'cofog'}[m.group(1)]] = m.group(2)
+            codes = BP_CODE.findall(text)
+            if len(codes) == 1:
+                scheme, code = codes[0]
+                keys[CLASSIFICATION_KEYS[scheme]] = code
+                keys['classification'] = scheme
+            elif len(codes) > 1:
+                print(f'classification omitted (blueprint.edn has {len(codes)} classification keys, '
+                      f'expected one): {name}', file=sys.stderr)
     if 'blueprint' not in keys:
         print(f'skipped (blueprint.edn has no :itonami.blueprint/id): {name}', file=sys.stderr)
         return None
