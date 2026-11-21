@@ -15,6 +15,8 @@ has? The answer is one of four states.
   withdrawn    the repository is reachable but no profile is at the pinned path or at
                hermes/profiles/<id> any more
   unreachable  the repository cannot be fetched, or the pinned commit is not in it
+  skipped      the repository is on catalogs/skip-sources.json (temporarily unreadable);
+               it is not fetched and the registry entry is left unchanged
 
 The states are derived. Nothing here edits a manifest, and a pin is immutable: an
 archived repository still serves its pinned commit, so `current`, `behind` and
@@ -48,8 +50,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from profile_tree import allowed, tree_checksum  # noqa: E402
 
+import skip_sources
+
 ROOT = Path(__file__).resolve().parents[1]
-STATES = ('current', 'behind', 'withdrawn', 'unreachable')
+STATES = ('current', 'behind', 'withdrawn', 'unreachable', 'skipped')
 SHARED_FILE = 'catalogs/shared-profile-repositories.json'
 SHARED_SCHEMA = 'itonami.shared-repositories.v1'
 SHARED_KINDS = ('fleet', 'maintainer')
@@ -188,12 +192,18 @@ def findings_summary(findings):
     return '\n'.join(lines)
 
 
-def run(entries, cache, template, jobs, homes=None):
+def run(entries, cache, template, jobs, homes=None, skipped=None):
+    skipped = skip_sources.load() if skipped is None else skipped
+    held = [e for e in entries if e['repository'] in skipped]
+    entries = [e for e in entries if e['repository'] not in skipped]
     repos = sorted({e['repository'] for e in entries})
     with ThreadPoolExecutor(jobs) as ex:
         loaded = dict(zip(repos, ex.map(lambda r: ensure_cache(r, cache, template), repos)))
     with ThreadPoolExecutor(jobs) as ex:
         recs = list(ex.map(lambda e: classify(e, *loaded[e['repository']]), entries))
+    recs += [{'id': e['id'], 'repository': e['repository'], 'path': e['path'], 'pinnedCommit': e['commit'],
+              'state': 'skipped', 'reason': 'temporarily unreadable: ' + skipped[e['repository']]} for e in held]
+    recs.sort(key=lambda r: r['id'])
     if homes is not None:
         for r in recs:
             h = homes.get(r['id'])

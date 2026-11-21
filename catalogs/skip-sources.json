@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "itonami.skip-sources.v1",
+  "note": "Repositories that are temporarily unreadable. Build, readback and re-pack scripts skip them and keep their existing entries unchanged; nothing is deleted. Remove an entry to read the repository again.",
+  "entries": [
+    {
+      "repository": "cloud-itonami/app-itonami-isco",
+      "reason": "ISCO-08 の ILO 許諾待ち（Legal、AWAI-3629）",
+      "since": "2026-11-22",
+      "issue": "AWAI-3629"
+    }
+  ]
+}

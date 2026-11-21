@@ -23,6 +23,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import skip_sources  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 LEAF_SIZE = 64 * 1024
 MAX_LEAVES = 64
@@ -377,6 +380,19 @@ def git_files(checkout, commit, subpath):
     return files
 
 
+def pinned_repository(pid):
+    """Repository the registry pins for a profile id (profile manifest, else profile-pointers)."""
+    mpath = ROOT / 'profiles' / pid / 'manifest.json'
+    if mpath.exists():
+        return json.loads(mpath.read_text())['profile']['repository']
+    ppath = ROOT / 'catalogs/profile-pointers.json'
+    if ppath.exists():
+        for p in json.loads(ppath.read_text())['profiles']:
+            if p['id'] == pid:
+                return p.get('repository')
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--checkout')
@@ -403,6 +419,11 @@ def main():
     for flag in ('checkout', 'commit', 'path', 'id', 'out_dir'):
         if getattr(args, flag) is None:
             raise SystemExit(f'packing needs --{flag.replace("_", "-")}')
+    repository = pinned_repository(args.id)
+    skipped = skip_sources.load(ROOT)
+    if repository in skipped:
+        print(skip_sources.note(repository, skipped[repository], f're-pack of {args.id}; pointer kept unchanged'))
+        return
     files = git_files(args.checkout, args.commit, args.path)
     mpath = ROOT / 'profiles' / args.id / 'manifest.json'
     if mpath.exists():
