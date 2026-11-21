@@ -6911,10 +6911,65 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-isin": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-itonami-actor": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-jinushi": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-joucho": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-jp-ashiba": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-jp-fiscal": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-jukyu": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-junkan": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kabi": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kabuto-actor": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kadou": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-kafun": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kagi": {
       "runtime": "unknown",
@@ -6926,15 +6981,80 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-kago": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kaigo": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kaikei": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-kaisha": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kaisya": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-kaiyaku": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kanae": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kaname": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kanayama": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kanjo": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-karute": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kasa": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kataribe": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kawaraban": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kazaori": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-keiei": {
       "runtime": "unknown",
@@ -6946,6 +7066,11 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-keizu": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kekkai": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
@@ -6956,20 +7081,150 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-kenbun": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kenchi": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-keyboard": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-ki": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kinoko": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kintai": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-kiyome": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kizashi": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kizuna": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kobo": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-koke": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kosatsu": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kotoba-erp": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kouza": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kumi": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-kumitate": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-kura-conformance": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kura-coordinator": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kura-r2-node": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kura-site": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kurashimori": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-kyber-qzzg06nh": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-lawfirm-admin": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-lawyer": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-legal-corpus": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-legal-entity": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-legal-entity-collector": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-live": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-local-itonami": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-loop-data-source": {
       "runtime": "unknown",
