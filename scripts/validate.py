@@ -416,8 +416,9 @@ def validate_actors(root):
 
 def validate_app_runtime(root):
     """App client runtime (KOTOBA-159): every app entry carries `runtime` and
-    `handlesUserDataOrExternalComms` as catalogs/app-runtime.json records them, and
-    trusted-page-v1 is accepted only for repositories in the 2026-11-22 baseline."""
+    `handlesUserDataOrExternalComms` as catalogs/app-runtime.json records them. An entry for a
+    trusted-page-v1 app is accepted only for repositories in the 2026-11-22 baseline; other
+    trusted-page-v1 apps may be recorded for counting but not listed."""
     import app_runtime
     path = root / app_runtime.RUNTIME_FILE
     if not path.exists():
@@ -428,8 +429,6 @@ def validate_app_runtime(root):
     Draft202012Validator(schema).validate(doc)
     baseline = set(doc['trustedPageV1Baseline']['repositories'])
     for repository, rec in doc['repositories'].items():
-        if rec['runtime'] == 'trusted-page-v1' and repository not in baseline:
-            raise ValueError(f'New trusted-page-v1 registration refused (KOTOBA-159): {repository}')
         if rec['basis'] not in doc['basis']:
             raise ValueError(f'Unknown app runtime basis: {repository}')
     entries = [('blueprint', e) for e in read(root / 'catalogs/blueprints.json')['entries']]
@@ -437,6 +436,9 @@ def validate_app_runtime(root):
     if pointers.exists():
         entries += [('pointer', e) for e in read(pointers)['profiles']]
     for kind, e in entries:
+        # A trusted-page-v1 app outside the 2026-11-22 baseline may be recorded (counted) but not listed.
+        if app_runtime.fields(doc, e.get('repository'))['runtime'] == 'trusted-page-v1' and e.get('repository') not in baseline:
+            raise ValueError(f"New trusted-page-v1 registration refused (KOTOBA-159): {kind} {e['id']} {e.get('repository')}")
         want = app_runtime.fields(doc, e.get('repository'))
         got = {k: e.get(k) for k in want}
         if got != want:

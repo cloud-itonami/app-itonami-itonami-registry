@@ -30,12 +30,24 @@ class AppRuntimeTests(unittest.TestCase):
     def test_published_catalog(self):
         validate_app_runtime(self.root)
 
-    def test_new_trusted_page_refused(self):
-        self.edit('catalogs/app-runtime.json', lambda d: d['repositories'].update(
-            {'cloud-itonami/app-itonami-new': {'runtime': 'trusted-page-v1', 'handlesUserDataOrExternalComms': 'unknown',
-                                               'basis': 'not-determined'}}))
+    def test_new_trusted_page_entry_refused(self):
+        repo = 'network-awai/app-yotei'  # recorded trusted-page-v1, not in the baseline
+        self.edit('catalogs/app-runtime.json', lambda d: self.assertNotIn(repo, d['trustedPageV1Baseline']['repositories']))
+        def add(d):
+            e = dict(d['entries'][0], id='blueprint/network-awai/app-yotei', repository=repo,
+                     runtime='trusted-page-v1', handlesUserDataOrExternalComms='unknown')
+            d['entries'].append(e)
+            d['count'] += 1
+        self.edit('catalogs/blueprints.json', add)
         with self.assertRaises(ValueError):
             validate_app_runtime(self.root)
+
+    def test_trusted_page_may_be_counted(self):
+        doc = json.loads((self.root / 'catalogs/app-runtime.json').read_text())
+        counted = [r for r, v in doc['repositories'].items()
+                   if v['runtime'] == 'trusted-page-v1' and r not in doc['trustedPageV1Baseline']['repositories']]
+        self.assertTrue(counted)
+        validate_app_runtime(self.root)
 
     def test_entry_must_carry_fields(self):
         def drop(d):
