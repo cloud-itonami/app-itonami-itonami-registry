@@ -245,6 +245,7 @@ def validate(root=ROOT):
     validate_datasets(root)
     validate_actors(root)
     validate_blueprints(root)
+    validate_skip_sources(root)
     validate_libraries(root)
     validate_apps(root)
     validate_absorbed(root)
@@ -410,6 +411,29 @@ def validate_actors(root):
             raise ValueError(f"Actor digest status disagrees with payload: {e['id']}")
         if len({p['path'] for p in e['payload']}) != len(e['payload']):
             raise ValueError(f"Duplicate actor payload path: {e['id']}")
+
+
+def validate_skip_sources(root):
+    """Temporary skip list: well formed, and every listed repository is still referenced.
+
+    Skipping keeps entries; it never removes them. A listed repository that no catalog or
+    profile references any more means entries were deleted instead of skipped."""
+    path = root / 'catalogs/skip-sources.json'
+    if not path.exists():
+        return
+    schema = read(root / 'schemas/skip-sources.schema.json')
+    Draft202012Validator.check_schema(schema)
+    doc = read(path)
+    Draft202012Validator(schema).validate(doc)
+    listed = [e['repository'] for e in doc['entries']]
+    if len(set(listed)) != len(listed):
+        raise ValueError('Duplicate skip-sources entry')
+    texts = [p.read_text() for p in sorted((root / 'catalogs').glob('*.json')) if p.name != 'skip-sources.json']
+    texts += [p.read_text() for p in sorted((root / 'profiles').glob('*/manifest.json'))]
+    for repository in listed:
+        needle = f'"{repository}"'
+        if not any(needle in t for t in texts):
+            raise ValueError(f'Skipped repository is no longer referenced (entries must be kept): {repository}')
 
 
 def validate_blueprints(root):

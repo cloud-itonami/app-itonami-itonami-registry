@@ -8,6 +8,8 @@ import json
 import subprocess
 from pathlib import Path
 
+import skip_sources
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -33,6 +35,11 @@ if __name__ == '__main__':
             if key in requests and requests[key] != file['sha256']:
                 raise ValueError('Candidate/source provenance digest mismatch')
             requests[key] = file['sha256']
+    skipped = skip_sources.load(ROOT)
+    held = sorted({k[0] for k in requests if k[0] in skipped})
+    for repository in held:
+        print(skip_sources.note(repository, skipped[repository], 'readback'))
+    requests = {k: v for k, v in requests.items() if k[0] not in skipped}
     def checked_fetch(item):
         key, digest = item
         data = fetch(*key)
@@ -41,7 +48,7 @@ if __name__ == '__main__':
         return key, data
     with ThreadPoolExecutor(max_workers=4) as pool:
         fetched = dict(pool.map(checked_fetch, requests.items()))
-    checked = sum(len(source['files']) for source in sources)
+    checked = sum(len(source['files']) for source in sources if source['repository'] not in skipped)
     # Literal AST inspection only: never imports plugin handlers or executes scans.
     zap = next(source for source in sources if source['id'] == 'zap-plugin')
     schema_bytes = fetched[(zap['repository'], zap['commit'], 'plugin/schemas.py')]

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Itonami registry temporary source skip list",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "note", "entries"],
+  "properties": {
+    "schemaVersion": {"const": "itonami.skip-sources.v1"},
+    "note": {"type": "string", "minLength": 1},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["repository", "reason", "since"],
+        "properties": {
+          "repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
+          "reason": {"type": "string", "minLength": 1},
+          "since": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+          "issue": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
