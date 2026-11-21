@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.blueprint-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 675,
+  "count": 707,
   "entries": [
     {
       "id": "blueprint/aburi",
@@ -1077,6 +1077,42 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "ad403f14f38d9f5e7d4a493051cb3e9e86cf6de6dcea29e9b5f808c388783636"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/car-sim",
+      "repository": "cloud-itonami/app-itonami-car-sim",
+      "commit": "19ff0c4aa94b50e341d3db6a482bd43071e45c81",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "car-sim",
+        "domain": "software/vehicle-simulation",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7ffe6291173d51bbfacf53b51b22bfe7d7e97883f3eddc8965621209f8282dfa"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a1bba3cffd1964ff5e1c8082a1f6cff85a87eb42184e5a594ae60f006442775c"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
         }
       ],
       "digestStatus": "verified",
@@ -17656,6 +17692,42 @@
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
+      "id": "blueprint/fixtures",
+      "repository": "cloud-itonami/app-itonami-fixtures",
+      "commit": "43606b43d7f07f91e680bebe08381472ff6219e7",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "fixtures",
+        "domain": "software/app-fixtures",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "583b6064174621670475673b58970206d1a023e77645f1f001269babed056d4b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "78e68ecf4cbd5e5793a3afab9164cfb295d34786375472ea54c32b9fd8997131"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
       "id": "blueprint/fleamarket",
       "repository": "cloud-itonami/app-itonami-fleamarket",
       "commit": "cbd0615b69162706f27f53d5608f5ff129a2ad95",
@@ -17940,6 +18012,42 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "74290d3426046548e8ca24fb8f5a9a3c861009e38a0ee07d28a5dbc52d6ce56a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/giemon-factory",
+      "repository": "cloud-itonami/app-itonami-giemon-factory",
+      "commit": "b7f035b25992895d580593d9ac5f70c5c182eee9",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "giemon-factory",
+        "domain": "engineering/construction-safety",
+        "isic": "7110",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "877df63cc4e103dfa0f7a15315974af4b38a17c9f423e29e6380dd03b5f8970a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b3c6269f02d05980320cf8c5cf6d6d06065c5b44ef02c9e9bbe64bef69fb6b03"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
         }
       ],
       "digestStatus": "verified",
@@ -19116,6 +19224,42 @@
         {
           "path": "README.md",
           "sha256": "dd516ba3d2e7bcaae720a5a3221a3ab84d9e9fbfe42ff3d78201f6d9dde492e8"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/isekai",
+      "repository": "cloud-itonami/app-itonami-isekai",
+      "commit": "c2a2f6ae95d2cf6eea592407cb69d4dbb522b018",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "isekai",
+        "domain": "software/isekai-scene",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c8e29a78a3f599ea81321639999ed6817465483bb746f229ad919aa24f4a48d1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "268c239ff1de9bfeefddd89c94fded4b741d6eef8465cb83c3075749b3d25a90"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
         }
       ],
       "digestStatus": "verified",
@@ -22590,6 +22734,42 @@
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
+      "id": "blueprint/quarry-walk",
+      "repository": "cloud-itonami/app-itonami-quarry-walk",
+      "commit": "ae3f73bbd4143805348484cbaa092a78df52e07e",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "quarry-walk",
+        "domain": "software/quarry-walk",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c2d3ef811f2636438df0f7ec47169be3e413a5737a4cdc18a07a9663284d14f5"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c1d54f6fa4d47b5ddf7fc0e8e8287c7dc82820971da9dc9fe75e4739ad1e690a"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
       "id": "blueprint/real-estate",
       "repository": "cloud-itonami/app-itonami-real-estate",
       "commit": "12c7aec845664a441b1f2259f23196dd8143efc8",
@@ -22820,6 +23000,42 @@
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
+      "id": "blueprint/sarutahiko-factory",
+      "repository": "cloud-itonami/app-itonami-sarutahiko-factory",
+      "commit": "ac6749fee02bbfab2ea3a47ab52762b45d02e959",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "sarutahiko-factory",
+        "domain": "manufacturing/truck-assembly",
+        "isic": "2910",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a5695c22621e942c2dfb281a3920de886d0a2c6bd46063ad02f5ee0a8f7c736b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "45f3f1c4f56cd170089f60faf844931fe30c7d5fdacbaa766cebd393dbed0bd5"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
       "id": "blueprint/screener",
       "repository": "cloud-itonami/app-itonami-screener",
       "commit": "f7c7bb0f1533f70061552772f857f8b996f726a8",
@@ -23008,6 +23224,42 @@
         {
           "path": "README.md",
           "sha256": "49b5582a4d3a9c626f4664346cde99a8f7bb8da88bc9eab283abb4ae5d8d6e72"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/shibuya",
+      "repository": "cloud-itonami/app-itonami-shibuya",
+      "commit": "17d79b2bdd3fa3b9c10122f24b982bf9c9c436ff",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "shibuya",
+        "domain": "software/digital-twin",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d9f07b61067476d82caa10b62ad4b426a45821d5ee256fec942601c7001a8530"
+        },
+        {
+          "path": "README.md",
+          "sha256": "5572cddfae22f774e45796940ecb54f82a9c415ac141064587facd8902c88ed1"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
         }
       ],
       "digestStatus": "verified",
@@ -23644,6 +23896,42 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "767d178db53417a644e32a544281735622159390625a061b7b300a2cb42299bc"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/tatekata",
+      "repository": "cloud-itonami/app-itonami-tatekata",
+      "commit": "789c4b2126cd9e46e11b11e59d786180fcc3234d",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "tatekata",
+        "domain": "construction/robotic-construction",
+        "isic": "7110",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "54bcb86d793dbf3f97525c492d55451765ba96b27310940ae1317b17f72efb3e"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e4e6aa51b8eb64deaa51643d61df3b528c6eefd41800c9560fcc18ba81947ba7"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
         }
       ],
       "digestStatus": "verified",
@@ -24452,6 +24740,838 @@
         {
           "path": "README.md",
           "sha256": "72bae4547e66b84e7a90957c8c282c4abb51d67336ffdbf37b74090747344a27"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-agentgateway",
+      "repository": "network-awai/app-agentgateway",
+      "commit": "00cd35f84c4f7dd7c8e88763b0c635c7b7240d68",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-agentgateway",
+        "domain": "software/mcp-router",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "ae4518c6039d40c529fa5ebe36104d961cca657c3b428011296e0bf2f0263e62"
+        },
+        {
+          "path": "README.md",
+          "sha256": "99355e4142b8444c35c17f7ee52362fd8dab74b6a475b3b5f83e15fae23cafa2"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-console",
+      "repository": "network-awai/app-console",
+      "commit": "9b914460a72189ba1d9cc2565623bf91a85e7f10",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-console",
+        "domain": "software/console",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3b74f8f376f9a23cca1cf2be214004a1404046b162b3254ca74c1b9cb1f8e4d8"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d2d65c3bcafc0450cdc0e92c1b0cc5911961cb6ceef2de1568a5fe576d5900fa"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-diskutil",
+      "repository": "network-awai/app-diskutil",
+      "commit": "c96d39bc9e354a0b5459ac429dd669429118f8b2",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-diskutil",
+        "domain": "software/disk-utility",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "94ed86773254987426ebba595b3bed20a6ba7014911ced86ef3a5ecaf10b54c2"
+        },
+        {
+          "path": "README.md",
+          "sha256": "ad641e3094f27fe1b05ccf5d0cdeea63a1e651ef9c0ca783bf545bd9b2703e93"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-files",
+      "repository": "network-awai/app-files",
+      "commit": "0c004ef12fd13f0b5c2c590d52733e390a7832a0",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-files",
+        "domain": "software/file-browser",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3fc33b857385ee43ca86db1a04b22bdf160f0b30d0e5d8fe358b1ad59bdf12fc"
+        },
+        {
+          "path": "README.md",
+          "sha256": "923621e879f20dbeb9fbf2d092a57fe526e7e8bf1adad2778a987cd872be86ad"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-fontbook",
+      "repository": "network-awai/app-fontbook",
+      "commit": "42fe1a0d4e46242dce30daea2fd18760e16964e1",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-fontbook",
+        "domain": "software/font-book",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "11046651b862aa9e6dffc851365c211daf4e8511c89a079de7586cf96fbfae29"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e59009757cee85728058a7343aaabfa136cbb20485b0d4a261962bc8b543b122"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/kotobase-storage-d1",
+      "repository": "network-awai/app-itonami-kotobase-storage-d1",
+      "commit": "172f6bd622a40a46abd16d09cf327b11491d5ec9",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "kotobase-storage-d1",
+        "domain": "storage/d1-adapter",
+        "isic": "6310",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "cac4d4094aada2c392cadc08f9bd884a40fc9e4214ff1b909b5ad3c3ebad5076"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c045e1ce74666bba0b89851299e6214eb8e58ee25e5404c738554981dbacc395"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-kami",
+      "repository": "network-awai/app-kami",
+      "commit": "05d4c150bdd69f4cb10e49be24e34aac5210d31e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-kami",
+        "domain": "software/kami-shell",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "87da310319ec605ec0ba0672e929986eb94d98c96fd228a3d930021cbed61ff8"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7786e812436f304141be5514c59783634a16181e165a1999c40a0d7b9193e87a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-kernel-author",
+      "repository": "network-awai/app-kernel-author",
+      "commit": "50070b2e9ec901950a96b30ff22af72663c6472b",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-kernel-author",
+        "domain": "software/kernel-charter",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3e0b62f2344358fb8808296815bb60143e183edb976d7648829f547503130b2e"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7d22b762ba797cbb2d25d99a04066af9a2f8d052e42129597528ef61def8bee0"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-kms",
+      "repository": "network-awai/app-kms",
+      "commit": "f499514edb66c39fc72d90a58f6967fd8cb76166",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-kms",
+        "domain": "security/kms",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "093952e5aaf906e7c1ffe835c27e644798da087724f4a69b7efee76856ccd0b6"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b3312f8d7d98d69ff0f19f767ce8f54c2066ddacbaedbb3a52e3f6cc9fe20d07"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "27747c7f7cf0f350ce911d16a046a41e05cd2a7fb1d0f340ac29c0ce280fbcd7"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-mikurabe",
+      "repository": "network-awai/app-mikurabe",
+      "commit": "9314dc3f29326347050d4b2a02347b9b52ccf4ba",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-mikurabe",
+        "domain": "media/narrative-framing",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "e26c5b6eaf19fc8e652939c7c402cd0e38ff252717bdf8a72e6c156206dacca1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "6f4f1d47665c8cbf2fd521b0880587819a3eed08e01d807f91faa79c4b07e83b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-mimamori",
+      "repository": "network-awai/app-mimamori",
+      "commit": "aa16e80a14ce9e3b1b3cf6a352e0e7a8db8471a7",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-mimamori",
+        "domain": "social/covenant-keeping",
+        "isic": "9499",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "39d80d65f52e9be69e6d0d4606e1ee99d821eaf2f47eac0ff171461fbc88dc17"
+        },
+        {
+          "path": "README.md",
+          "sha256": "95d286114f368eee15a2ad1f8efc45719a4013ab4e0f51a5cbc72a236cdfada0"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-minidrama",
+      "repository": "network-awai/app-minidrama",
+      "commit": "0552b518d31fe4b6b3377dbca40768bfd0bf4a4e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-minidrama",
+        "domain": "media/mini-drama",
+        "isic": "5911",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6d6a64b2d23b5f61a620b23fd19891588f4051a938d33344fc7698ecd2ec7e61"
+        },
+        {
+          "path": "README.md",
+          "sha256": "4bf81097c2367bc321f5cd61bf2b2fb020add75a6e7acb3a0dd9c87928b282b4"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-monitor",
+      "repository": "network-awai/app-monitor",
+      "commit": "b1d324004b0609de7cfc2fc63c21a9faeb3c3896",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-monitor",
+        "domain": "software/activity-monitor",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "973fc2885e13b5c4fe40199a32ae557aac536b16a84422d4726bc9d4ca21c74e"
+        },
+        {
+          "path": "README.md",
+          "sha256": "273a39976ff915248c202b0433a8bce0bf4a55fdfef0bea825358ccfd293066c"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-moyoshi",
+      "repository": "network-awai/app-moyoshi",
+      "commit": "05580f1759aa0ddc49f2167f4145a60022efc913",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-moyoshi",
+        "domain": "social/convening",
+        "isic": "9499",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f2f01755b7acc98dd7747199831f16bf2e6e42cc0d382f49e772d4237b404b27"
+        },
+        {
+          "path": "README.md",
+          "sha256": "810b28fda88f4954bf8dbeffeb77c4d5ec76422deee392452d71df57c9f087a0"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "d53638835e76689509dc814776182fee26bb5ec83dae2a727ccf16acedb6a929"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-murakumo",
+      "repository": "network-awai/app-murakumo",
+      "commit": "0235a68d72d627e02fd8832459ca044cb66f9524",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-murakumo",
+        "domain": "infrastructure/cluster",
+        "isic": "6310",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d4aadd9c74a6ad404b663c625157db4d7a761136e7080890861b43d24c00a123"
+        },
+        {
+          "path": "README.md",
+          "sha256": "da126fa51f529ac658dcdaf2c7c4025a4cbc8c3653cd79421ba1fc318024518e"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-music",
+      "repository": "network-awai/app-music",
+      "commit": "812dc6511d3cdfafa0ee97cd674be5f3bd4eee51",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-music",
+        "domain": "software/music-library",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "cb7ccfbe73e763e9487d85e20669ebbbc21a45ee156051e2327da5549490d073"
+        },
+        {
+          "path": "README.md",
+          "sha256": "aef11cdf828747c424ac883159f311918863332978cc0f7fdfde3e0a7d893990"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-notes",
+      "repository": "network-awai/app-notes",
+      "commit": "0d2f8d417d41c736fe8304166883dc237e18a3bb",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-notes",
+        "domain": "software/notes",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c14ab325071384a3bbf612e97022e427beafed3c693ccb22a083b523a99233f0"
+        },
+        {
+          "path": "README.md",
+          "sha256": "97cb717ddaadcdcb9bdc0645da5ffd7456ede77e189b2d51fc0062e5d327387f"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-photos",
+      "repository": "network-awai/app-photos",
+      "commit": "d20310c5f8ba431fc0c6060ac503512e8cd3d375",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-photos",
+        "domain": "software/photos",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7f89d6c54cd08bd634461e49a3b4836ecfb9ac2bb944789312c5204870268b47"
+        },
+        {
+          "path": "README.md",
+          "sha256": "08e61ee402c9c0d5c997293975234aefc57f0936dd6306169b89530ddfe1fc1f"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-preview",
+      "repository": "network-awai/app-preview",
+      "commit": "f438d3a73eb5a2f21558d5caa090e1608107ae3a",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-preview",
+        "domain": "software/preview",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "849cba3d8961f54c67e4de3133122c583ef319ace95ae9ffbab57078d20cdf40"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e56985695f6ebb668bb2be6b3625642631a60b0ba5b7d1f622f047dc0b04e385"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-reviewer",
+      "repository": "network-awai/app-reviewer",
+      "commit": "b4a8c687f8b6d4d84768792ebe60de2c5881af61",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "app-reviewer",
+        "domain": "software/app-review",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0b70a468bf77a80b109401198252e4e8d8b6aada4b09fdfdd5a260bb06fc6c7d"
+        },
+        {
+          "path": "README.md",
+          "sha256": "749ebbe21941771b634622d338c8e4aaa71b60418670eb8a220cd1a28fc68fcc"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-scap",
+      "repository": "network-awai/app-scap",
+      "commit": "c9099038532a2458476472716a09941cea62b1be",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-scap",
+        "domain": "security/scap",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0422cf8bdd95e86be4491f33a9c150baa819f70d1c24f1f6f7f831b4a5a5ef52"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e3289c80693d757d4e8ac3fd25f169ac7fab25f23adc89df5dd7965dd3845f9b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-tatara",
+      "repository": "network-awai/app-tatara",
+      "commit": "6d2de483b351cc2257d15c9bf5192962c670f8db",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-tatara",
+        "domain": "software/distributed-ci",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6afc52f5fe28fcc4f8561e1887785ea7fc3550902c692737404827516074a9a2"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d2b93a4792b9da42eb3a7607f62db703966366507f59ebdd149a6f92d6c0fc33"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-utsushie",
+      "repository": "network-awai/app-utsushie",
+      "commit": "b295b906bb53c914a6a0f7652945db10d997af33",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-utsushie",
+        "domain": "media/news-video",
+        "isic": "5911",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "adfdd34e71ef8d8e3b3b1a3c8b054dcb5c85561ee3054b15d5a005dcc013aad0"
+        },
+        {
+          "path": "README.md",
+          "sha256": "3b96d6353342ba05d6f9cf0a08fbb1dc1055d41ee53258edc6c81a099d6f83ae"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/network-awai/app-yakuwari",
+      "repository": "network-awai/app-yakuwari",
+      "commit": "300bc4a88befcffe3c74d179309d3bf2a3b98521",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "app-yakuwari",
+        "domain": "business/operating-roles",
+        "isic": "7020",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6f9b5d7cfdf16d3d349404b5af0d6b46b1e8d6da14d55cec5b88cfc2d8b83055"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7b1bc9d2f19c3017faa772a607b83f0e6c77ea7eccd0dd6e5ae6d43ce0896505"
         }
       ],
       "digestStatus": "verified",
