@@ -60,3 +60,22 @@ class BlueprintCatalogTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class ClassificationKeyTests(unittest.TestCase):
+    def test_versioned_keys_are_read(self):
+        from build_blueprint_catalog import BP_CODE, CLASSIFICATION_KEYS
+        for scheme, field in [('isic-rev4', 'isic'), ('isic-rev5', 'isic'), ('isco-08', 'isco'), ('cofog', 'cofog')]:
+            found = BP_CODE.findall(f':itonami.blueprint/{scheme} "5820"')
+            self.assertEqual(found, [(scheme, '5820')])
+            self.assertEqual(CLASSIFICATION_KEYS[scheme], field)
+
+    def test_unversioned_or_unknown_key_ignored(self):
+        from build_blueprint_catalog import BP_CODE
+        self.assertEqual(BP_CODE.findall(':itonami.blueprint/isic "5820" :itonami.blueprint/jsic-rev14 "391"'), [])
+
+    def test_schema_lists_the_builder_keys(self):
+        from build_blueprint_catalog import CLASSIFICATION_KEYS
+        schema = json.loads((ROOT / 'schemas/blueprint-sources.schema.json').read_text())
+        enum = schema['properties']['entries']['items']['properties']['keys']['properties']['classification']['enum']
+        self.assertEqual(sorted(enum), sorted(CLASSIFICATION_KEYS))
