@@ -1062,6 +1062,11 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "cloud-itonami/app-itonami-car-sim": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-car-sim-delivery": {
       "runtime": "none",
       "handlesUserDataOrExternalComms": "unknown",
@@ -6637,6 +6642,11 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "jun-1439-batch-review"
     },
+    "cloud-itonami/app-itonami-fixtures": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-fleamarket": {
       "runtime": "none",
       "handlesUserDataOrExternalComms": "unknown",
@@ -6691,6 +6701,11 @@
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-giemon-factory": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-global-resource-flow": {
       "runtime": "none",
@@ -6906,6 +6921,11 @@
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-isekai": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-isic": {
       "runtime": "unknown",
@@ -7582,6 +7602,11 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "jun-1439-batch-review"
     },
+    "cloud-itonami/app-itonami-quarry-walk": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-rasen": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
@@ -7647,6 +7672,11 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "jun-1439-batch-review"
     },
+    "cloud-itonami/app-itonami-sarutahiko-factory": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "cloud-itonami/app-itonami-scheduler": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
@@ -7696,6 +7726,11 @@
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "cloud-itonami/app-itonami-shibuya": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-shidemori": {
       "runtime": "none",
@@ -7808,6 +7843,11 @@
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-tatara": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "cloud-itonami/app-itonami-tatekata": {
       "runtime": "none",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "jun-1439-batch-review"
@@ -8122,6 +8162,36 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
+    "network-awai/app-agentgateway": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-console": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-diskutil": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-drive": {
+      "runtime": "trusted-page-v1",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-files": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-fontbook": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "network-awai/app-itonami-abaki": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
@@ -8221,6 +8291,11 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "kotoba-159-evidence"
+    },
+    "network-awai/app-itonami-kotobase-storage-d1": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "network-awai/app-itonami-kumade": {
       "runtime": "trusted-page-v1",
@@ -8345,7 +8420,7 @@
     "network-awai/app-itonami-yataverse": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
-      "basis": "kotoba-159-evidence"
+      "basis": "jun-1439-batch-review"
     },
     "network-awai/app-itonami-yudane": {
       "runtime": "trusted-page-v1",
@@ -8362,20 +8437,110 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "kotoba-159-evidence"
     },
+    "network-awai/app-kami": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "network-awai/app-kekkai": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "kotoba-159-evidence"
+    },
+    "network-awai/app-kernel-author": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-kms": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-mikurabe": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-mimamori": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-minidrama": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-monitor": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-moyoshi": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-murakumo": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-music": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-notes": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-photos": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-preview": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-reviewer": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-scap": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "network-awai/app-soshiki": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "kotoba-159-evidence"
     },
+    "network-awai/app-tatara": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
+    "network-awai/app-utsushie": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
+    },
     "network-awai/app-wallet": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
+    },
+    "network-awai/app-yakuwari": {
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown",
+      "basis": "jun-1439-batch-review"
     },
     "network-awai/app-yotei": {
       "runtime": "trusted-page-v1",
