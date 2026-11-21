@@ -4,7 +4,7 @@
   "id": "physai-souji",
   "name": "physai-souji",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
   "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/tree/66482a8ab5457430d1962ecab4d7cdfa3a2707a0",
   "compatibility": {

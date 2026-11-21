@@ -3,7 +3,7 @@
   "sourceRefs": [
     "cloud-itonami-app-86870dd"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami-maint — cloud-itonami-app 成熟度整備 bot — あなたは cloud-itonami-app (orgs/cloud-itonami/cloud-itonami-app) の成熟度を",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: itonami-maint — cloud-itonami-app 成熟度整備 bot — あなたは cloud-itonami-app (orgs/cloud-itonami/app-itonami-cloud-itonami-app) の成熟度を",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

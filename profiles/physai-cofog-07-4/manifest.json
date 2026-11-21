@@ -4,7 +4,7 @@
   "id": "physai-cofog-07-4",
   "name": "physai-cofog-07-4",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-07.4: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-07.4: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
   "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/tree/5bcbc0ec45db8c35ba2c5aefd6106f6469191103",
   "compatibility": {

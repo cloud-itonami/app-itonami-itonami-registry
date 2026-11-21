@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "ao review-path verify: measures the ao/usagi and ao/kame review branches live (2h cron)",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/ao/tree/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
+  "source": "https://github.com/cloud-itonami/app-itonami-ao/tree/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/ao",
+    "repository": "cloud-itonami/app-itonami-ao",
     "commit": "e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
     "path": "hermes/profiles/usagi-verify",
     "checksum": "sha256-tree:d2665e0106e148440d8a67b8d12d2a17692baa5c5294fc925cd9382acfdc819d",

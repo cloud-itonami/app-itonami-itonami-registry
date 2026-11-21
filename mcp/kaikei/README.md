@@ -245,7 +245,7 @@ currency and overlapping card, wallet, bank and billing records. Do not send
 real financial data to a remote inference service without separate approval.
 For ongoing work and qualification criteria see [JUN-765](https://linear.app/kotobalabs/issue/JUN-765).
 
-This is the stdio MCP server for [kaikei](https://github.com/cloud-itonami/kaikei), an itonami dapp for accounting ledgers, invoices and bank statements. The dapp is also published at https://itonami.cloud/sites/app/kaikei/.
+This is the stdio MCP server for [kaikei](https://github.com/cloud-itonami/app-itonami-kaikei), an itonami dapp for accounting ledgers, invoices and bank statements. The dapp is also published at https://itonami.cloud/sites/app/kaikei/.
 
 kaikei reads journal exports from MoneyForward クラウド会計, freee 会計, 弥生会計, QuickBooks Online and Xero, and builds a trial balance, P&L and balance sheet. It also handles invoices: it reads and writes Xero, QuickBooks Online, freee請求書 and MoneyForward クラウド請求書 invoices (JSON and import CSV), reads Zoho Invoice and FreshBooks invoices, checks the contents a Japanese qualified invoice must state, and posts invoices as receivable or payable entries. It reads bank and card statements the user downloaded and Ramp, Brex, Expensify and BILL exports, reconciles them against the ledger, and suggests invoice settlements, matches and journals for each line. It posts only the lines the user approved. Every tool is a pure function over the text or ledger the caller passes:
 

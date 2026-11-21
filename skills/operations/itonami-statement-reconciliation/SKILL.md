@@ -41,4 +41,4 @@ metadata:
    - Suggestions and learned rules are kaikei's counting rules over the operator's own data, not a vendor's matching and not a model's inference.
    - This is not 電子帳簿保存法 compliance and not a tax filing.
 
-The tool contracts are pinned in itonami.json and catalogs/sources.json. The server lives in cloud-itonami/kaikei and is enabled only by a profile owner's mcp_servers entry.
+The tool contracts are pinned in itonami.json and catalogs/sources.json. The server lives in cloud-itonami/app-itonami-kaikei and is enabled only by a profile owner's mcp_servers entry.

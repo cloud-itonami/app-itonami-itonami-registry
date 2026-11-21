@@ -4,7 +4,7 @@
   "id": "physai-jsic-4721",
   "name": "physai-jsic-4721",
   "version": "0.1.0",
-  "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-4721: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+  "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-jsic-4721: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
   "author": "cloud-itonami",
   "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/tree/f42114183522de75120d8f624e24c1badf0ac1b3",
   "compatibility": {

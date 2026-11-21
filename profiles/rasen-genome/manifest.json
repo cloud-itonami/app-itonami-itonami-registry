@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "rasen 螺旋 genome corpus bot: 公開参照遺伝学 (ClinVar / gnomAD) を G1 を守ったまま 台帳へ入れ、kotobase.net へ投影する担当。証拠の床を下げない",
   "author": "etzhayyim",
-  "source": "https://github.com/etzhayyim/actor-rasen/tree/857b3b917d91d3e74fb81744ac3f87a4cb457a82",
+  "source": "https://github.com/cloud-itonami/app-itonami-rasen/tree/857b3b917d91d3e74fb81744ac3f87a4cb457a82",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "etzhayyim/actor-rasen",
+    "repository": "cloud-itonami/app-itonami-rasen",
     "commit": "857b3b917d91d3e74fb81744ac3f87a4cb457a82",
     "path": "hermes/profiles/rasen-genome",
     "checksum": "sha256-tree:27f14541344ca3e00ee3aea6cc24f6ba964a3b40bcf8901137d8d178c4054bde",

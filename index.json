@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-19T03:11:01.652506Z",
+  "generated": "2026-11-21T19:08:08.349903Z",
   "count": 1364,
   "entries": [
     {
@@ -22932,7 +22932,7 @@
       },
       "license": "MIT",
       "path": "mcp/kaikei",
-      "checksum": "sha256:8141744ff55b0b2de7751af08dd9d5eb31be3d53e6c2332899d05d5e71da6618"
+      "checksum": "sha256:1d2aa17a1a8b971872c8628cc81bb027fe4c5dfdcb1fa769e9db57cdf8b30468"
     },
     {
       "id": "kumitate",
@@ -23309,13 +23309,13 @@
       "version": "0.1.0",
       "description": "Judge one bot operation request as an Agent separate from the requester",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
+      "source": "https://github.com/cloud-itonami/itonami-agent/tree/6f7df914606f84e317786f302511f2545f721574",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/awai-op-approver",
-      "checksum": "sha256:a889dbd3b6ad7876c456daf2f2c5e094491d7a6e67bde14f0b969a9d8dd019cb",
+      "checksum": "sha256:4a0c28f72afe03e03723314b0da9ea27c6ad71e4d7721c15f1389e078f26d513",
       "profileChecksum": "sha256-tree:9637f16d1c715017a6d6580cec81ac10b52f569cdcd13a694a02f6d108be04c0"
     },
     {
@@ -23363,7 +23363,7 @@
         "itonami": "*"
       },
       "path": "profiles/bim-app-maint",
-      "checksum": "sha256:b798b89594107d4139f9f4f3915964edc7e7b4fab2b846c3f608172a78d083eb",
+      "checksum": "sha256:e5fb6d580dddca7a4e10086d8c26c564f23b877507506c44a25dc670ff7452f4",
       "profileChecksum": "sha256-tree:ec4c7fa189355e4e46743f59debe2dd26b638b88d6fde09782b01d5e3ee9ae44"
     },
     {
@@ -23435,15 +23435,15 @@
       "type": "profile",
       "name": "cad-app-maint",
       "version": "0.1.0",
-      "description": "cad-app-maint: maintainer bot for kotoba-lang/kami-app-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
+      "description": "cad-app-maint: maintainer bot for cloud-itonami/app-itonami-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kami-app-cad/tree/db874d87924d14b2eb9f433436fd2b720e2dc6a8",
+      "source": "https://github.com/cloud-itonami/app-itonami-cad/tree/db874d87924d14b2eb9f433436fd2b720e2dc6a8",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cad-app-maint",
-      "checksum": "sha256:0999eb177103357f59d2424587b0d3892e3cd2b92957b616a281d9b1bc8cef3b",
+      "checksum": "sha256:59a92f88c869ed2c65aaabbeb64ba3d4b30658e561596bfc5ddafae0efc24871",
       "profileChecksum": "sha256-tree:ab3d370a7494d1fb742cb479433457321aa9e6efc5b06afd502f18561a9bec69"
     },
     {
@@ -23453,13 +23453,13 @@
       "version": "0.1.0",
       "description": "cad-registry-maint: maintainer bot for cloud-itonami/app-itonami-cad (cad): health scan, CI red detection, propose-only PRs, 30min cron",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-cad/tree/f674eff116876a91332d95e68faf8a17625f335f",
+      "source": "https://github.com/cloud-itonami/app-itonami-cad-registry/tree/f674eff116876a91332d95e68faf8a17625f335f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/cad-registry-maint",
-      "checksum": "sha256:eeb950a07299678d945c7d570133b57b7d66ded233e0fe4e773ba3d5c12b038f",
+      "checksum": "sha256:06223f589d4be16dab55a843d77ad18bdf05cd1581b5d6c2f9c6a89458fcb4c7",
       "profileChecksum": "sha256-tree:0b62c9372f033b5014140d7a919749b27df917a987b1337fa4f6cc1a8de9d52a"
     },
     {
@@ -23869,13 +23869,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: giemon-sim (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim",
-      "checksum": "sha256:2e6def986e228dbc9d40edd45b03ab5828c5816ef92a047c73f834d71aa79bcc",
+      "checksum": "sha256:630a3c3f85e823ac3be103b2d4bd884b42320a9cbf4835fa8ffa7e2d3f0ae393",
       "profileChecksum": "sha256-tree:5b7fa9681b7c5c4030c766de242f960dc04f9d827335db5046c2257b7d62d04c"
     },
     {
@@ -23885,13 +23885,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: bench (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-bench",
-      "checksum": "sha256:22d154c83c5963315e1c064de1aea1fd509c27e9d87241c8d8ec40b914545829",
+      "checksum": "sha256:6ff55cb67bd0b09e42e0d2741776f79d18fe7a184334ec3b5e7f6f48d6d5b9ab",
       "profileChecksum": "sha256-tree:31bc0ac021801e46bbb5972098dc4778c42d481217f06dd643a610e96c241fb7"
     },
     {
@@ -23901,13 +23901,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: falsify (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-falsify",
-      "checksum": "sha256:577e049a09e17edb232f91f705665082c7b0509adc7ccee854d7fda06f334ff2",
+      "checksum": "sha256:f01afe0381ebf53fa591e7daeee4e35927a0fe4a6607cdffc784afc87f125788",
       "profileChecksum": "sha256-tree:b49080578e338351346bcf7d6b99656630e5c2204e7cb98e433d4e6c02684b30"
     },
     {
@@ -23917,13 +23917,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: maint (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-maint",
-      "checksum": "sha256:74314a01c1cc8881ab898b255a930f8a340651ee70194fc397d0e7cf5cfe6bff",
+      "checksum": "sha256:45f34bd3cbfe99ac49dabaee6698f9d7fff947242dd74213397839cacc67baa2",
       "profileChecksum": "sha256-tree:66b7f2b82486470f988730fe9739832b3e719bcaca42d3ef9a767077b5ee8aba"
     },
     {
@@ -23933,13 +23933,13 @@
       "version": "0.1.0",
       "description": "giemon シミュレーション学習成熟ループ: rank (15-30min cron cowork)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/f2a191048e3089925735b0a3a3d10325166872b1",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/giemon-sim-rank",
-      "checksum": "sha256:682f460d4b0e3e6d46f45ab426a533848c786ef89adc69eeb091c3a46285f628",
+      "checksum": "sha256:c87557ff50f1ed87596918cb28f74be069d45beadae19d3b8ee6953271cc0cf6",
       "profileChecksum": "sha256-tree:0e16bf78dfa427914c961ccc5b5589ac2f87ad5f812f980803df29ee37464922"
     },
     {
@@ -24723,7 +24723,7 @@
         "itonami": "*"
       },
       "path": "profiles/itonami-maint",
-      "checksum": "sha256:6657aab2bde1bc7040ac2972b7fbec08d3ab2f836e96a967f6d0b517c4613445",
+      "checksum": "sha256:e51f04d7b5f54bab48e601047ee731c03fba8ef4956d4893634551aec7ec2a31",
       "profileChecksum": "sha256-tree:ce2c1ff9adec51eec31ef700e6c3e7e014683760963be1741c99647337fcfb9b"
     },
     {
@@ -24941,13 +24941,13 @@
       "version": "0.1.0",
       "description": "kagi native-kexe CLI migration scribe (S2-S5, propose-only)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kagi/tree/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
+      "source": "https://github.com/cloud-itonami/app-itonami-kagi/tree/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kagi-native-scribe",
-      "checksum": "sha256:6d106cadbf746d63b90f02759104e00ef80467938d3d3b1798507d32f2ddccfe",
+      "checksum": "sha256:3b1f1df534e6c790050d3e70a322ee923d449fb796fe0a5ac96e93f8ed556595",
       "profileChecksum": "sha256-tree:1f7c775cae18ae2d7ff3a08516533f57f90b4e4868879b8f84d18de7e8cfc927"
     },
     {
@@ -25021,13 +25021,13 @@
       "version": "0.1.0",
       "description": "Kekkai and Murakumo integration engineer",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kekkai-node/tree/ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
+      "source": "https://github.com/cloud-itonami/app-itonami-kekkai-node/tree/ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kekkai-murakumo",
-      "checksum": "sha256:78e82cd4e7967758fb591fb5f961d5598d7a778aeaba8dcb1d8ac08c20991aa9",
+      "checksum": "sha256:cee6582bac3aec8e97f26a4f034d1f431f1f88459dee4a0b197af07d8a71f0c4",
       "profileChecksum": "sha256-tree:b44556590d57dfd2873575e852e056578c4b739c2b28f2faa8a6ad9c9b03c4a6"
     },
     {
@@ -25195,15 +25195,15 @@
       "type": "profile",
       "name": "kotoba-shell-maint",
       "version": "0.1.0",
-      "description": "kotoba-lang/shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
+      "description": "cloud-itonami/app-itonami-shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/shell/tree/541d4e992c22e226df1f55c3ad3278df92ee761c",
+      "source": "https://github.com/cloud-itonami/app-itonami-shell/tree/541d4e992c22e226df1f55c3ad3278df92ee761c",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kotoba-shell-maint",
-      "checksum": "sha256:53621a8c561f78ab75207c63884983baa5f012e57b43e997ae96cf98ff91eefa",
+      "checksum": "sha256:38a9426b3e5422d5adbdfb30370e998373ba0c4d569748f201842e6543917567",
       "profileChecksum": "sha256-tree:73c87aafc5f054b68baf59ccffb7472794d3848d60f461c73d5a5cf953a358a9"
     },
     {
@@ -25475,7 +25475,7 @@
         "itonami": "*"
       },
       "path": "profiles/mail-relay",
-      "checksum": "sha256:334c42f81f170b303fbba4474f9c39abfc00938be426eea4861754b2dbe1d7fc",
+      "checksum": "sha256:8c2eb1bd39f0e237b79de32afe21f34da3d6f2a06ad58faa050610d64d5796c2",
       "profileChecksum": "sha256-tree:d5f2f9bfc511afb98f839a4559f413b6264648da7ed3f74949183db1263ed220"
     },
     {
@@ -25651,7 +25651,7 @@
         "itonami": "*"
       },
       "path": "profiles/otent",
-      "checksum": "sha256:15d1336e4f774b16bfe1ba3c28eb642710328e3716b7ad8457894f9e2df3548a",
+      "checksum": "sha256:20fe5b4c2a8ed9cf8a598fc614d110a59568ebd2d68dfd3f5f1549f81eccf432",
       "profileChecksum": "sha256-tree:bdc251e8eed6acbeb511fcab2c22deb32ebb6cd98b30e99d3e7fa315c024dcb6"
     },
     {
@@ -25659,7 +25659,7 @@
       "type": "profile",
       "name": "physai-cofog-03-2",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-03.2: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-03.2: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-03.2/tree/55ba729c5ada1143f65404e3f567053ab54fe7b5",
       "compatibility": {
@@ -25667,7 +25667,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-03-2",
-      "checksum": "sha256:054c9ef8258c1b77bc395a447dd0d91e5e71553e6f2fc9ac465d6ec37a5b8d5b",
+      "checksum": "sha256:3fa7cc34e27e082bc2103ab81490be8b1f167d58bb3c84cde259e88ae6a2b9aa",
       "profileChecksum": "sha256-tree:db090b7cfa88ce474d9f20335f0a2c936ab21c887cc895781a82d4517571b562"
     },
     {
@@ -25675,7 +25675,7 @@
       "type": "profile",
       "name": "physai-cofog-04-5",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-04.5: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-04.5: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-04.5/tree/057fab352c7d732999a48f7896e131491ddc30d3",
       "compatibility": {
@@ -25683,7 +25683,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-04-5",
-      "checksum": "sha256:bbf7329e3af4b9c1e9bb11f1c665ece193379449987ea77f0f106bcce692d5ac",
+      "checksum": "sha256:e23ed219d0af6744633b6792a3076ba560ec9bc21cbac836c1e22fde7479ecdd",
       "profileChecksum": "sha256-tree:00fcf7ee01456f147f9b9f7ee7a3128297b3eb650621394e7fb6aef3a5284892"
     },
     {
@@ -25691,7 +25691,7 @@
       "type": "profile",
       "name": "physai-cofog-05-1",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-05.1: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-05.1: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-05.1/tree/8b03d8354bfdf0c8004d7d17bb96f9190359a28d",
       "compatibility": {
@@ -25699,7 +25699,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-05-1",
-      "checksum": "sha256:5781e42da7fe6f31c0968b0ee8a0ede4cbdf592d5d8551449fd0f73297281819",
+      "checksum": "sha256:a724983973001690f5f637f52cad5ca9d9e262bd2ba82da471b6b24ced9c70ec",
       "profileChecksum": "sha256-tree:1caab434601274af7128fc5aa7115eb53e7f0187e5e1ac96a7df8002c28ffce7"
     },
     {
@@ -25707,7 +25707,7 @@
       "type": "profile",
       "name": "physai-cofog-06-3",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-06.3: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-06.3: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-06.3/tree/a3bc07c3056dbbbb0d669b7cbec82073282149aa",
       "compatibility": {
@@ -25715,7 +25715,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-06-3",
-      "checksum": "sha256:5d2ea85335952338f60db928d520ef5975b52c9ecde762d53e532a5bfe5e988a",
+      "checksum": "sha256:e21cc95108cb96ff4d181f39c7131902a9d447e64dcd4c459836e2a97958e46f",
       "profileChecksum": "sha256-tree:201238a97bb40f4b91540237d1dc5d774802e58401c80e49126d1643a735457f"
     },
     {
@@ -25723,7 +25723,7 @@
       "type": "profile",
       "name": "physai-cofog-07-4",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-cofog-07.4: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-cofog-07.4: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-cofog-07.4/tree/5bcbc0ec45db8c35ba2c5aefd6106f6469191103",
       "compatibility": {
@@ -25731,7 +25731,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-cofog-07-4",
-      "checksum": "sha256:e4a582b0b7ea728e2902621568c322df6e8fa3c26cd3e78e0210bfc8ca40cce8",
+      "checksum": "sha256:f3d03279f7b136b2c64b40f6d369114be769464ddd6d2b3677a65ba91d7cc7af",
       "profileChecksum": "sha256-tree:2270bcec6f20aaf9d41ad9d78f26d6cc47009c82482d9865bbd690749a4c0d5c"
     },
     {
@@ -25739,7 +25739,7 @@
       "type": "profile",
       "name": "physai-isco-2423",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-2423: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isco-2423: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-2423/tree/4d48bb9d097d47e0b8ebfeaf5417f2657468c521",
       "compatibility": {
@@ -25747,7 +25747,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-isco-2423",
-      "checksum": "sha256:9b631f0c36eb03ee0e7424d56af2d92a90f21dbc1943ca87b58d71f4231dc4a2",
+      "checksum": "sha256:7d4c9d6f6183eb0a566037491eeb298f9125130488aa7c2b7952e3a8ed93b1a3",
       "profileChecksum": "sha256-tree:b3bd4fc85a77719f41834a7d2b36144764656a97a536ebb2d0deb0c661ee6f17"
     },
     {
@@ -25755,7 +25755,7 @@
       "type": "profile",
       "name": "physai-isco-3333",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isco-3333: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isco-3333: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isco-3333/tree/70251267c584972ea00064f526edc441eebb852c",
       "compatibility": {
@@ -25763,7 +25763,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-isco-3333",
-      "checksum": "sha256:8325a48a6508c885fcd27a403b0fea25873222c17678e1ecf249e9188a62c08f",
+      "checksum": "sha256:9e71426dbb28ac25557c0304d3c1f72f81fe843aa2661550f8e69f66075990b3",
       "profileChecksum": "sha256-tree:acadfd7c0c8aa04b1325b1eddb604d7d6b4ebfe1579746b11453100e4c43ad00"
     },
     {
@@ -25771,7 +25771,7 @@
       "type": "profile",
       "name": "physai-isic-6810",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-6810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-6810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-6810/tree/ca5a29be42674bcd97594eaf7528b932b6622c3f",
       "compatibility": {
@@ -25779,7 +25779,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-isic-6810",
-      "checksum": "sha256:bc391503a26798e56d14bd6b2611090bb6a67e108ad9450c2362fbccd9713489",
+      "checksum": "sha256:6688611a89313e7a87f533d90ceca9c32b12276254bcc3e8289b089a0c6b5c21",
       "profileChecksum": "sha256-tree:09fe08c521ea61bf359549a5cb242e3460af6521928757265fee5fe501d6b3e7"
     },
     {
@@ -25787,7 +25787,7 @@
       "type": "profile",
       "name": "physai-isic-7810",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-isic-7810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-isic-7810: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-isic-7810/tree/21a91f985cba8656ef19d2c9fca9984a41c8f806",
       "compatibility": {
@@ -25795,7 +25795,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-isic-7810",
-      "checksum": "sha256:a86b5639b02b414a89a6e902dcb0f873d99c0fc558d4d456019c61a03f633920",
+      "checksum": "sha256:014e1bb1659d07ae5381bc03e7efba9d68f63d21756c2d56d2c436011de4aa0c",
       "profileChecksum": "sha256-tree:e424effd68938383c8e3e9dd18899076d4112c32e8fef33ea0f51b02a5b9765b"
     },
     {
@@ -25803,7 +25803,7 @@
       "type": "profile",
       "name": "physai-jsic-3914",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-3914: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-jsic-3914: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-3914/tree/1853b0a830af6549ba17b2b453b31afe029d0636",
       "compatibility": {
@@ -25811,7 +25811,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-jsic-3914",
-      "checksum": "sha256:b466c1fc349f9cb2343ea54609602a196ec85c488b8d67bd4a897452b4a98dba",
+      "checksum": "sha256:35d0899ed9e0e6a3fe4324d14183bf9384dbdc7543e44c2d0b74b7959a266228",
       "profileChecksum": "sha256-tree:8be1416f9616d2c80cb2451bf1f44f720a8f8f4c6e2bc50d4335e1b9728e7e65"
     },
     {
@@ -25819,7 +25819,7 @@
       "type": "profile",
       "name": "physai-jsic-4113",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-4113: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-jsic-4113: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4113/tree/21aee918801b582f2e0591dd120f5be3a5a806e6",
       "compatibility": {
@@ -25827,7 +25827,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-jsic-4113",
-      "checksum": "sha256:010d97df93dcab3bbcd2dad1c0f2a90e2ef932a936bb6ff1793247d16bdcb07a",
+      "checksum": "sha256:3cb976a7cb142a5b1547bf7c182f0f173d5142c885e24939f47eff6742eb1cff",
       "profileChecksum": "sha256-tree:3956021c5f5dcb197f9763ac7642bf2eaa7d4933ea46379fcead6b47e0a22582"
     },
     {
@@ -25835,7 +25835,7 @@
       "type": "profile",
       "name": "physai-jsic-4721",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-jsic-4721: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-jsic-4721: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-jsic-4721/tree/f42114183522de75120d8f624e24c1badf0ac1b3",
       "compatibility": {
@@ -25843,7 +25843,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-jsic-4721",
-      "checksum": "sha256:37be30540e3ed8d701ed795ad9cac0ddf2e98319f558c6366ecfc4aa5582c4e6",
+      "checksum": "sha256:f176bd827b6e917f1092dab747c3c8d74fa6d218a7421b5fe24b0f14259b3fae",
       "profileChecksum": "sha256-tree:71134c751812df5cfa94735f203cbc3813a7dad8e3ae418cb8e4022f91a502ee"
     },
     {
@@ -25851,7 +25851,7 @@
       "type": "profile",
       "name": "physai-marketplace-fulfillment",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-marketplace-fulfillment: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-marketplace-fulfillment/tree/667d0b11b6b4965063efbba1dae0d606c66ff50b",
       "compatibility": {
@@ -25859,7 +25859,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-marketplace-fulfillment",
-      "checksum": "sha256:460a7ec693b31f822e8237db4254d876a4164eb74f4b1a15e5dcd87601be4586",
+      "checksum": "sha256:9d68e8d022ec528e3d3ec52fc83f1b42db8783986ffb35263a1f12ad6b698328",
       "profileChecksum": "sha256-tree:52731c3acdd59326cef1bbf5d9fdba0f1c146a49d816dc80c7e2ef383396c2c7"
     },
     {
@@ -25867,7 +25867,7 @@
       "type": "profile",
       "name": "physai-souji",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-souji: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-souji/tree/66482a8ab5457430d1962ecab4d7cdfa3a2707a0",
       "compatibility": {
@@ -25875,7 +25875,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-souji",
-      "checksum": "sha256:5bedafa4b54dbd670f07cc7b18c97ef5c4558179fd4b9e056ac65f7a7b3ddb4c",
+      "checksum": "sha256:4f831aad03f86012f7afdc3e70f217b7300c75b7bb4cae3247f11fd723db6162",
       "profileChecksum": "sha256-tree:e5058baa11d61dbc8b2e54e70222d9b2f6ae8378a52424e15c7dc40bb5a1f75d"
     },
     {
@@ -25883,7 +25883,7 @@
       "type": "profile",
       "name": "physai-unspsc-10",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-10: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-10: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-10/tree/fac571c0214d26d80389b5b0d5a4a00351f0852a",
       "compatibility": {
@@ -25891,7 +25891,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-unspsc-10",
-      "checksum": "sha256:6684272d0677d5c3ffddefd391be16e1cc574214312acfa9218cbfd0818100ba",
+      "checksum": "sha256:98ba502740e71894b2f3dcf1442e4ea84ddc1c2b872a01c738ad253ba63e7421",
       "profileChecksum": "sha256-tree:54741a991f3068521a2b61828fafcf515b8ae6241d3d222ec9263aa9d2a3ca0c"
     },
     {
@@ -25899,7 +25899,7 @@
       "type": "profile",
       "name": "physai-unspsc-27",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-27: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-27/tree/62a077eec68bdfee21cf80722f0a9fcd835eb943",
       "compatibility": {
@@ -25907,7 +25907,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-unspsc-27",
-      "checksum": "sha256:b406186e230c079fb120ff306d4a3eb5d27ccd529f7f1fcda111fa93d856605c",
+      "checksum": "sha256:f75d5190bca0bf6c8e15539ff04f32876a61f1c5ff15cae0c645276871093eeb",
       "profileChecksum": "sha256-tree:0c05f942851000104f2e8e9566e29c457799f3b8fbfdee969ac463622623aaac"
     },
     {
@@ -25915,7 +25915,7 @@
       "type": "profile",
       "name": "physai-unspsc-39",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-39: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-39: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-39/tree/3f339ca88919cbfd29e361f54cc76562820ed64b",
       "compatibility": {
@@ -25923,7 +25923,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-unspsc-39",
-      "checksum": "sha256:8c6e80f13fd728200e0ba601e6028b6f1bf4446e9612992ea125a95e184fd032",
+      "checksum": "sha256:e8e559da414aca2aaf4ff9c099b0bedb747bc4534058d0c8ffa9dbb0ff7b585d",
       "profileChecksum": "sha256-tree:88a443efe48fed7ec7ad237787ce5aaf2075dadac6de8e6b49325c465909df39"
     },
     {
@@ -25931,7 +25931,7 @@
       "type": "profile",
       "name": "physai-unspsc-43",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-43: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-43: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-43/tree/7f118d2b92588e219b1db72e5e4e44813225d719",
       "compatibility": {
@@ -25939,7 +25939,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-unspsc-43",
-      "checksum": "sha256:74aeb0e8c6b225e85643095829f6782742a8c0141bf0a3242f76649faef05ed1",
+      "checksum": "sha256:8f80673af0815e20edc55520cb470b51b764abea4be2bf5a046b46c44666e79d",
       "profileChecksum": "sha256-tree:9aa3586c650b5594b7f5de0f4fc99d3ab0da431018304387ade346f8bb00f218"
     },
     {
@@ -25947,7 +25947,7 @@
       "type": "profile",
       "name": "physai-unspsc-73",
       "version": "0.1.0",
-      "description": "physical-AI bot for cloud-itonami/cloud-itonami-unspsc-73: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
+      "description": "physical-AI bot for cloud-itonami/app-itonami-cloud-itonami-unspsc-73: runs the repo's physics simulation every 6 h (tests + probe, ledger), grows the repo by one gated increment a day via murakumo",
       "author": "cloud-itonami",
       "source": "https://github.com/cloud-itonami/app-itonami-cloud-itonami-unspsc-73/tree/b1b0cbedf6be8cbdf7412dbdf3b4462d5d36eb56",
       "compatibility": {
@@ -25955,7 +25955,7 @@
         "itonami": "*"
       },
       "path": "profiles/physai-unspsc-73",
-      "checksum": "sha256:f07f21ab69e4b97cf564974e8ec69793ea8a5c0c91a13fa7754c1e75b41eac77",
+      "checksum": "sha256:b7f09d1a9e04d1fe16883285abdf4e9eb411de26df6a88f56299dfa9622c8384",
       "profileChecksum": "sha256-tree:df345fc7aed1e84fb6a24e2d7025d8fc1905e0cc44f816e9760ea7d52c42bbd5"
     },
     {
@@ -26029,13 +26029,13 @@
       "version": "0.1.0",
       "description": "rasen 螺旋 genome corpus bot: 公開参照遺伝学 (ClinVar / gnomAD) を G1 を守ったまま 台帳へ入れ、kotobase.net へ投影する担当。証拠の床を下げない",
       "author": "etzhayyim",
-      "source": "https://github.com/etzhayyim/actor-rasen/tree/857b3b917d91d3e74fb81744ac3f87a4cb457a82",
+      "source": "https://github.com/cloud-itonami/app-itonami-rasen/tree/857b3b917d91d3e74fb81744ac3f87a4cb457a82",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/rasen-genome",
-      "checksum": "sha256:6ea924b0a0c97590a6dbb07fde39f96ac584d5f647a021ef158ee993d305a74d",
+      "checksum": "sha256:a045b27e594b138e4d2d766d074c5b5521668b2558fce39ceb017b30caea6329",
       "profileChecksum": "sha256-tree:27f14541344ca3e00ee3aea6cc24f6ba964a3b40bcf8901137d8d178c4054bde"
     },
     {
@@ -26275,7 +26275,7 @@
         "itonami": "*"
       },
       "path": "profiles/suji-anatomy",
-      "checksum": "sha256:e0bab1d630bfcf73c79f2d336825bd954277d625b08f8ab655d3dac038cb0fd8",
+      "checksum": "sha256:82f5a254e68b369f28c11f0329d935a1149dd5ec75f61648ffee4e22f8688f94",
       "profileChecksum": "sha256-tree:cdcaef26a7d67a587844e9778ebed8e6da8969ad243c31b3fde4d971ea403bea"
     },
     {
@@ -26525,13 +26525,13 @@
       "version": "0.1.0",
       "description": "ao review-path verify: measures the ao/usagi and ao/kame review branches live (2h cron)",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/ao/tree/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
+      "source": "https://github.com/cloud-itonami/app-itonami-ao/tree/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/usagi-verify",
-      "checksum": "sha256:493045d619a6e5144ab442c3af3c2d3a3f3f9272ca057573ce082d3cbbff56f0",
+      "checksum": "sha256:18fa6816f8dbcc805de8a5d636d09280a4a4bb897087c3da4b001e879fa3e4d4",
       "profileChecksum": "sha256-tree:d2665e0106e148440d8a67b8d12d2a17692baa5c5294fc925cd9382acfdc819d"
     },
     {
@@ -27124,7 +27124,7 @@
       "description": "Use when driving the itonami CLI, cloud-itonami-app, or the itonami bots/economy plane (grok-bots worker, bot-economy DO, treasury adapters).",
       "category": "devops",
       "path": "skills/devops/itonami-app-operations",
-      "checksum": "sha256:0bd965cf745badb969539dfaf9b8b47203fded541a852c4e601a5e2a375053f6"
+      "checksum": "sha256:314f810026234a13547e49b5cd9e82f77d22cf956e8696c47416aa7ee85d1b6f"
     },
     {
       "version": "0.1.0",
@@ -27156,7 +27156,7 @@
       "description": "Use when launching or managing cloud-itonami Business Bots, and when operating the x402 payment-rail surfaces they own.",
       "category": "operations",
       "path": "skills/operations/itonami-business-bots",
-      "checksum": "sha256:b30f3e60bc540dfdcb8e305fa513b12e1da0515a4098630b2f0d9ad7d1a5d01f"
+      "checksum": "sha256:0b997f02e250857e32ccb69c94442cd7208fd58b7b48cc86ff9b00d4723801bd"
     },
     {
       "version": "0.1.0",
@@ -27332,7 +27332,7 @@
       "description": "Draft, import, check and post invoices with the kaikei MCP tools — per-rate consumption tax rounded once per invoice per rate, the contents a Japanese qualified invoice must state, and receivable or payable journal entries — without connecting to any invoicing service or the NTA.",
       "category": "operations",
       "path": "skills/operations/itonami-invoices",
-      "checksum": "sha256:7023166824b0e2f3185133d06eacf89e8744cf7e1e52f2146bc5e75d8eb32320"
+      "checksum": "sha256:5a33e11eaf24b2c41ab6f573ccdd13e2fc686d1f1faad8140aa4d287bdb6ec7e"
     },
     {
       "version": "0.1.0",
@@ -27396,7 +27396,7 @@
       "description": "Build a trial balance, P&L and balance sheet from accounting exports an operator already holds (MoneyForward, freee, Yayoi, QuickBooks Online, Xero) with the kaikei MCP tools, without connecting to any accounting service.",
       "category": "operations",
       "path": "skills/operations/itonami-ledger-statements",
-      "checksum": "sha256:8e61be493841de65f55649b1bf6d9896ae85ec4c8bb3efd644c9ecb7cddc21bd"
+      "checksum": "sha256:a1573b095f878cdf56b2161b72ed62e36b879e6be88e8387fa52fb39eafa01c3"
     },
     {
       "version": "0.1.0",
@@ -27417,7 +27417,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
+      "source": "https://github.com/cloud-itonami/app-itonami-giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27428,7 +27428,7 @@
       "description": "Run the itonami-maint maturity iteration in wt-msloop.",
       "category": "devops",
       "path": "skills/devops/itonami-maint-runbook",
-      "checksum": "sha256:2ca2c1d4146802c5614a044cb021f0a5a5ccd59cac656209420266c9d939e264"
+      "checksum": "sha256:f5e63fa42597aca3c53a61540bbc631461befd309ecd4398142f41e99b8c4145"
     },
     {
       "version": "0.1.0",
@@ -27620,7 +27620,7 @@
       "description": "Reconcile bank, card and expense statements an operator downloaded against a kaikei ledger with the kaikei MCP tools — invoice settlements, matches, transfers and rule-based journal suggestions, posted only after the operator approves each line — without connecting to any bank, card issuer or expense service.",
       "category": "operations",
       "path": "skills/operations/itonami-statement-reconciliation",
-      "checksum": "sha256:c9dd7d1361a1c5ea8ae29f50a8b467c72b12b34817ab2dfb93a71eba5eedbf9d"
+      "checksum": "sha256:3005fe7682a137e8d72765ff5e16d3c88631ef8b6a51da911e739cf4fbf15045"
     },
     {
       "version": "0.1.0",

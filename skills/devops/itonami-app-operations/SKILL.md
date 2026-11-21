@@ -18,7 +18,7 @@ metadata:
 ## What the CLI is
 
 `~/.local/bin/itonami` is an nbb launcher
-(`orgs/cloud-itonami/cloud-itonami-app/bin/itonami`) that spawns `clojure -M:cli`
+(`orgs/cloud-itonami/app-itonami-cloud-itonami-app/bin/itonami`) that spawns `clojure -M:cli`
 in the app directory. It is an **HTTP client** of a JVM resident on 127.0.0.1; any
 command that needs the server starts a headless one automatically (ADR-0018). The
 launcher binds the resident data dir `~/.cloud-itonami/{app,data}` so the CLI and

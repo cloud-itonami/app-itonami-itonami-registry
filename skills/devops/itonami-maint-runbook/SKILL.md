@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/kotoba-lang/giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656
+    source: https://github.com/cloud-itonami/app-itonami-giemon/tree/0eb965a7e36385b4a4d967e027a89367e490c656
     compatibility:
       hermes: '*'
       desktop: '*'

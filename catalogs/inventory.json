@@ -8,34 +8,34 @@
   "method": "GitHub paginated repository inventory + default head/root/profile directories. Public recursive trees use matching committed local trees or pinned GitHub recursive tree API. Filename markers are candidates, not semantic or runtime qualification. Private names and contents are omitted.",
   "summary": {
     "kotoba-lang": {
-      "totalRepositories": 2786,
-      "publicRepositories": 2752,
+      "totalRepositories": 2780,
+      "publicRepositories": 2746,
       "privateRepositoriesOmitted": 34,
       "scanStatus": {
-        "recursive-tree-scanned": 2751,
+        "recursive-tree-scanned": 2745,
         "empty-default-branch": 1
       },
       "dispositions": {
-        "no-selected-registry-marker": 2668,
+        "no-selected-registry-marker": 2666,
         "upstream-or-archived-reference": 31,
-        "profile-or-domain-instance-retained": 26,
+        "profile-or-domain-instance-retained": 22,
         "deferred-source-contract": 16,
         "curated-reference-added": 10,
         "external-registry-owner": 1
       }
     },
     "cloud-itonami": {
-      "totalRepositories": 1924,
-      "publicRepositories": 1862,
+      "totalRepositories": 1930,
+      "publicRepositories": 1868,
       "privateRepositoriesOmitted": 62,
       "scanStatus": {
-        "recursive-tree-scanned": 1862
+        "recursive-tree-scanned": 1868
       },
       "dispositions": {
-        "no-selected-registry-marker": 1120,
+        "no-selected-registry-marker": 1122,
         "upstream-or-archived-reference": 17,
         "deferred-source-contract": 9,
-        "profile-or-domain-instance-retained": 701,
+        "profile-or-domain-instance-retained": 705,
         "curated-reference-added": 14,
         "registry-owner": 1
       }
@@ -3819,7 +3819,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-itonami-cad",
+      "repository": "cloud-itonami/app-itonami-cad-registry",
       "defaultBranch": "main",
       "commit": "00213af940b01275f7714637b26e9a2a75206c28",
       "archived": false,
@@ -42424,7 +42424,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-itonami-kagi",
+      "repository": "cloud-itonami/app-itonami-kagi-vault",
       "defaultBranch": "main",
       "commit": "b516e4aac223ebd0808cb2a521e4e33c51ce4159",
       "archived": false,
@@ -48308,7 +48308,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/ao",
+      "repository": "cloud-itonami/app-itonami-ao",
       "defaultBranch": "main",
       "commit": "ffe69f63a4f067322ce325f9e15470b07eeae86d",
       "archived": false,
@@ -83735,7 +83735,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "defaultBranch": "main",
       "commit": "3aa133e0d70ff95d0e38d88ebacd8949b1bbac81",
       "archived": false,
@@ -86409,7 +86409,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/kagi",
+      "repository": "cloud-itonami/app-itonami-kagi",
       "defaultBranch": "main",
       "commit": "1f2d5060d9c948144c522a0562aa1e1d457af2f8",
       "archived": false,
@@ -86646,7 +86646,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/kami-app-cad",
+      "repository": "cloud-itonami/app-itonami-cad",
       "defaultBranch": "main",
       "commit": "69f6cb67e18b47970ed2f07904b22c2b8b1f3ec8",
       "archived": false,
@@ -88990,7 +88990,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/kekkai-node",
+      "repository": "cloud-itonami/app-itonami-kekkai-node",
       "defaultBranch": "main",
       "commit": "2e8ff794720d51634bd7a4e2692e40a96baad159",
       "archived": false,
@@ -104191,7 +104191,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/shell",
+      "repository": "cloud-itonami/app-itonami-shell",
       "defaultBranch": "main",
       "commit": "8c01e97ca3dc1965d0902c253468f7846c521840",
       "archived": false,

@@ -750,38 +750,38 @@
     },
     {
       "id": "kekkai-node",
-      "repository": "kotoba-lang/kekkai-node",
+      "repository": "cloud-itonami/app-itonami-kekkai-node",
       "commit": "ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
       "files": [
         {
           "path": "hermes/profiles/kekkai-murakumo/SOUL.md",
           "sha256": "c3e2d33608bb52f999047f7317f072d58c8ccaf5914a451c7062b009a6076dce",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/SOUL.md"
         },
         {
           "path": "hermes/profiles/kekkai-murakumo/config.yaml",
           "sha256": "0708b652e3ffd56fbf22a618026b2b574a346d7fea9e0edead5710c106ba7b95",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/config.yaml"
         },
         {
           "path": "hermes/profiles/kekkai-murakumo/cron/jobs.json",
           "sha256": "2f527e61389013edcdf5461496d3d656066a912a9749aacf3dd51b3e1e906d10",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/kekkai-murakumo/itonami.edn",
           "sha256": "4cfb3edaf3a3be35e8ff79cc5af04293dda4d6cc7007af1610abf79c901405f9",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/itonami.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/itonami.edn"
         },
         {
           "path": "hermes/profiles/kekkai-murakumo/profile.yaml",
           "sha256": "68a564622411425e4e6e30d52a76fb31a44c60fdfbb5edcb819f1c18bdb14fd7",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/profile.yaml"
         },
         {
           "path": "hermes/profiles/kekkai-murakumo/yakuwari.edn",
           "sha256": "6c0fbbd3a5510814af7bca0630740844e2b2acaeafae2142620cf1189db585b6",
-          "url": "https://github.com/kotoba-lang/kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/yakuwari.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-kekkai-node/blob/ec5746661d5bb9b5ab647084b40ebabbc10d05a4/hermes/profiles/kekkai-murakumo/yakuwari.edn"
         }
       ]
     },
@@ -4623,23 +4623,23 @@
     },
     {
       "id": "cad-00213af9",
-      "repository": "cloud-itonami/app-itonami-cad",
+      "repository": "cloud-itonami/app-itonami-cad-registry",
       "commit": "00213af940b01275f7714637b26e9a2a75206c28",
       "files": [
         {
           "path": "hermes/profiles/cad-registry-maint/SOUL.md",
           "sha256": "35f1c981bfe00e440f5fc0bbaf4e8523f8e6de70b833ed9416b53960bc59a118",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/cad-registry-maint/config.yaml",
           "sha256": "f7bf167f9429b9a8d40125a92fadf9735404a85be8179521f5c6beab4a649db9",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/cad-registry-maint/profile.yaml",
           "sha256": "934368ab5b6cb1197c7e4d7fd39b5c17ce497882cb1e4fde9e0da21710f3b4b2",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/00213af940b01275f7714637b26e9a2a75206c28/hermes/profiles/cad-registry-maint/profile.yaml"
         }
       ]
     },
@@ -15354,33 +15354,33 @@
     },
     {
       "id": "ao-e3f2cf6a",
-      "repository": "kotoba-lang/ao",
+      "repository": "cloud-itonami/app-itonami-ao",
       "commit": "e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
       "files": [
         {
           "path": "hermes/profiles/usagi-verify/SOUL.md",
           "sha256": "5b1c180a26a7c436b2ed5361d590ad3877642fbd15c3f67d57c85d7db6ffcde4",
-          "url": "https://github.com/kotoba-lang/ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/SOUL.md"
         },
         {
           "path": "hermes/profiles/usagi-verify/config.yaml",
           "sha256": "3befa906bd9024dba561382f26129e7ee65c0c30e2e89ff1c5ff745a708838b1",
-          "url": "https://github.com/kotoba-lang/ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/config.yaml"
         },
         {
           "path": "hermes/profiles/usagi-verify/cron/jobs.json",
           "sha256": "e948d87f8c21e2ab91a4e91c09d2f522bb420dcee58f610d677376230d86acee",
-          "url": "https://github.com/kotoba-lang/ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/usagi-verify/profile.yaml",
           "sha256": "c5acf783e1d973d5c742348ebe8bcdf2223c176c8ae85815dcf5840862fed5b0",
-          "url": "https://github.com/kotoba-lang/ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/profile.yaml"
         },
         {
           "path": "hermes/profiles/usagi-verify/scripts/ao_review_probe.hy",
           "sha256": "04ef0a8246e7d794752604c98ef39377b1f3f71e31d09b73f403b249a4c0ab07",
-          "url": "https://github.com/kotoba-lang/ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/scripts/ao_review_probe.hy"
+          "url": "https://github.com/cloud-itonami/app-itonami-ao/blob/e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8/hermes/profiles/usagi-verify/scripts/ao_review_probe.hy"
         }
       ]
     },
@@ -15504,103 +15504,103 @@
     },
     {
       "id": "giemon-0eb965a7",
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "commit": "0eb965a7e36385b4a4d967e027a89367e490c656",
       "files": [
         {
           "path": "hermes/profiles/giemon-sim-bench/SOUL.md",
           "sha256": "4898e605891d870b908493a85bf65fafa2a2f543c3c55d55ce12968cca870fd5",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/config.yaml",
           "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/cron/jobs.json",
           "sha256": "4d04183006a35c03d7174f47bb9f2b50a06a1751b82812678859e6140443532d",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/profile.yaml",
           "sha256": "75c807d6e1dfda09588cafb5e153a9aa80b1eb216fa94eedc1c23ee6901af8e2",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-bench/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/SOUL.md",
           "sha256": "71890ebea507d2fdeb1dd4630e690f13ac50c90a2d156b9d45b083d99ab76c19",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/config.yaml",
           "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/cron/jobs.json",
           "sha256": "6b9c2e1e3c38c5f60c7233deeba47a753a433195a7f6b00eef6feab876c4f6c6",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/profile.yaml",
           "sha256": "621946336d7ebf5332f24125210b31733fd1a9474122518ac8d944b3352c8a57",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-falsify/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/SOUL.md",
           "sha256": "f97102387d7d7e4126f59eaa10ba121ae9662ca5fb2e756dcba21bd847cb83dc",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/config.yaml",
           "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/cron/jobs.json",
           "sha256": "b836e2fb969d9971fb8beed8e9a910d154dfe87efb9de3d82a93ee262680cfd8",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/profile.yaml",
           "sha256": "662f64a75a64114780cf65154afb8f4f25bab3b4fc9f337bb4896e6122b37a4e",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-maint/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/SOUL.md",
           "sha256": "f3bf0a7f558b84f4ead6b4c2ac4c191e0deb5b46c0ba793283196fa2adbb2a23",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/config.yaml",
           "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/cron/jobs.json",
           "sha256": "f95bc70eb086f07fb627c3e70b1dfc4575c8af6164c6383e8608491332c95c47",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/profile.yaml",
           "sha256": "b4d6da1bebf69e38492cca4c873406bcfd7ebb5785dc7abc4cab0d4099a8f952",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim-rank/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim/SOUL.md",
           "sha256": "ea65b52e6d46e9f74097dbf8fbcccb75112fa810778cee381a62fa88d682e8fd",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim/config.yaml",
           "sha256": "3724148ffcadda52ce99b492fc4adaa9f9586811320b12c2cc015dc3fc833419",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim/profile.yaml",
           "sha256": "a8306f09b3fba09c0174ee4dc645520cfd521a03051e5e48fc6caa16b9b466e1",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/hermes/profiles/giemon-sim/profile.yaml"
         }
       ]
     },
@@ -15655,55 +15655,55 @@
     },
     {
       "id": "kagi-b9ee9f93",
-      "repository": "kotoba-lang/kagi",
+      "repository": "cloud-itonami/app-itonami-kagi",
       "commit": "b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
       "files": [
         {
           "path": "hermes/profiles/kagi-native-scribe/SOUL.md",
           "sha256": "86ef94ecf3f79b36a93628138a77627c6cf6ad180a84a698510f7f1bd8a4e325",
-          "url": "https://github.com/kotoba-lang/kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/SOUL.md"
         },
         {
           "path": "hermes/profiles/kagi-native-scribe/config.yaml",
           "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
-          "url": "https://github.com/kotoba-lang/kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/config.yaml"
         },
         {
           "path": "hermes/profiles/kagi-native-scribe/cron/jobs.json",
           "sha256": "9a997e491dc2a0a461b92547fbd6194b2007d50df100269151a45134630e30ee",
-          "url": "https://github.com/kotoba-lang/kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/kagi-native-scribe/profile.yaml",
           "sha256": "4f8ef406863fa82dc5d499bfd3fd1d6d8010c78483380a3752654bb6ce5ca55e",
-          "url": "https://github.com/kotoba-lang/kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/profile.yaml"
         },
         {
           "path": "hermes/profiles/kagi-native-scribe/scripts/kagi_native_evidence.py",
           "sha256": "3200ec708abe9d64fbed1068ffd265def9712721073ee072a6b087f0f921cd97",
-          "url": "https://github.com/kotoba-lang/kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/scripts/kagi_native_evidence.py"
+          "url": "https://github.com/cloud-itonami/app-itonami-kagi/blob/b9ee9f9343b325e9895352dd6d9cfb31bf4928d2/hermes/profiles/kagi-native-scribe/scripts/kagi_native_evidence.py"
         }
       ]
     },
     {
       "id": "kami-app-cad-db874d87",
-      "repository": "kotoba-lang/kami-app-cad",
+      "repository": "cloud-itonami/app-itonami-cad",
       "commit": "db874d87924d14b2eb9f433436fd2b720e2dc6a8",
       "files": [
         {
           "path": "hermes/profiles/cad-app-maint/SOUL.md",
           "sha256": "35f1c981bfe00e440f5fc0bbaf4e8523f8e6de70b833ed9416b53960bc59a118",
-          "url": "https://github.com/kotoba-lang/kami-app-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/cad-app-maint/config.yaml",
           "sha256": "f7bf167f9429b9a8d40125a92fadf9735404a85be8179521f5c6beab4a649db9",
-          "url": "https://github.com/kotoba-lang/kami-app-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/cad-app-maint/profile.yaml",
           "sha256": "361bc33bd666de37aca634dac8d2bef0d1d938c8bcf52ec9d127b033fa980a36",
-          "url": "https://github.com/kotoba-lang/kami-app-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/db874d87924d14b2eb9f433436fd2b720e2dc6a8/hermes/profiles/cad-app-maint/profile.yaml"
         }
       ]
     },
@@ -16507,23 +16507,23 @@
     },
     {
       "id": "shell-541d4e99",
-      "repository": "kotoba-lang/shell",
+      "repository": "cloud-itonami/app-itonami-shell",
       "commit": "541d4e992c22e226df1f55c3ad3278df92ee761c",
       "files": [
         {
           "path": "hermes/profiles/kotoba-shell-maint/SOUL.md",
           "sha256": "20d59a10800d779f929bcec911342a23453c2964c4f227a49d8a1e2eace4b477",
-          "url": "https://github.com/kotoba-lang/shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/kotoba-shell-maint/config.yaml",
           "sha256": "9579de11c6a9269b5e9b22cfea0edd0a7b0b01b25b1b1c8aba875986d083bf3b",
-          "url": "https://github.com/kotoba-lang/shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/kotoba-shell-maint/profile.yaml",
           "sha256": "6d4f6b03be837fcf14c9d1656f010ba82fade82c081a9d3ae5b8bb5122be956b",
-          "url": "https://github.com/kotoba-lang/shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-shell/blob/541d4e992c22e226df1f55c3ad3278df92ee761c/hermes/profiles/kotoba-shell-maint/profile.yaml"
         }
       ]
     },
@@ -17155,28 +17155,28 @@
     },
     {
       "id": "actor-rasen",
-      "repository": "etzhayyim/actor-rasen",
+      "repository": "cloud-itonami/app-itonami-rasen",
       "commit": "857b3b917d91d3e74fb81744ac3f87a4cb457a82",
       "files": [
         {
           "path": "hermes/profiles/rasen-genome/SOUL.md",
           "sha256": "6d4b8e5bcf65d07b0ee328e5c029a16e33707406de3874ff03852c98d2e31aa6",
-          "url": "https://github.com/etzhayyim/actor-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/SOUL.md"
         },
         {
           "path": "hermes/profiles/rasen-genome/config.yaml",
           "sha256": "59a0751028b9d656feed3fb437a39bff2d93c9ff298f343a7663fc0d9e11ea9b",
-          "url": "https://github.com/etzhayyim/actor-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/config.yaml"
         },
         {
           "path": "hermes/profiles/rasen-genome/cron/jobs.json",
           "sha256": "5f6c0f0a0ec0e3d1c8e77ee3f5760f2e8b32b9a59060598fde092ac7bbde3120",
-          "url": "https://github.com/etzhayyim/actor-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/rasen-genome/profile.yaml",
           "sha256": "a22a61d85d614a7a23c93e3ce66441448212de107360543b88d47c28ffcaa7b2",
-          "url": "https://github.com/etzhayyim/actor-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-rasen/blob/857b3b917d91d3e74fb81744ac3f87a4cb457a82/hermes/profiles/rasen-genome/profile.yaml"
         }
       ]
     },
@@ -18150,13 +18150,13 @@
     },
     {
       "id": "giemon-sim-loop",
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "commit": "0eb965a7e36385b4a4d967e027a89367e490c656",
       "files": [
         {
           "path": "sim-loop/status/maturity.md",
           "sha256": "110bf4de24dae70fcadb11d8f9971b27f268db95bc797beeeb2fe2c9f9497fe5",
-          "url": "https://github.com/kotoba-lang/giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/sim-loop/status/maturity.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/0eb965a7e36385b4a4d967e027a89367e490c656/sim-loop/status/maturity.md"
         }
       ]
     },
@@ -18194,43 +18194,43 @@
     },
     {
       "id": "itonami-agent-approver",
-      "repository": "cloud-itonami/app-itonami-itonami-agent",
+      "repository": "cloud-itonami/itonami-agent",
       "commit": "6f7df914606f84e317786f302511f2545f721574",
       "files": [
         {
           "path": "hermes/profiles/awai-op-approver/SOUL.md",
           "sha256": "637ef010809c9945f4c38ff0b1ba75e0c3b06bedda3c81ee58c7e1a3dcfc290c",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/SOUL.md"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/SOUL.md"
         },
         {
           "path": "hermes/profiles/awai-op-approver/config.yaml",
           "sha256": "951871237bff9a8349c31bd5de0450a586dbaee964ef3099bf495ef84f6d5422",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/config.yaml"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/config.yaml"
         },
         {
           "path": "hermes/profiles/awai-op-approver/cron/jobs.json",
           "sha256": "427aaf47c450fe0224aabbe083080787c2f8494521756da2d017c7ad03c563f9",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/awai-op-approver/itonami.edn",
           "sha256": "175bee9c7bbc0f84a91264f401a110f93f7f51c688127b2f007e95bc91269cf3",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/itonami.edn"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/itonami.edn"
         },
         {
           "path": "hermes/profiles/awai-op-approver/policy/yakuwari.edn",
           "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/policy/yakuwari.edn"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/policy/yakuwari.edn"
         },
         {
           "path": "hermes/profiles/awai-op-approver/profile.yaml",
           "sha256": "62d7da6dd5cc8f470be19619d5d84a0ff3907db555995993c69c64dc64a7a8ff",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/profile.yaml"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/profile.yaml"
         },
         {
           "path": "hermes/profiles/awai-op-approver/yakuwari.edn",
           "sha256": "ba2b5bd9404a50fcdab07d075fbd99781ccc10e6c4c133443a65b053d46819e8",
-          "url": "https://github.com/cloud-itonami/app-itonami-itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/yakuwari.edn"
+          "url": "https://github.com/cloud-itonami/itonami-agent/blob/6f7df914606f84e317786f302511f2545f721574/hermes/profiles/awai-op-approver/yakuwari.edn"
         }
       ]
     },
@@ -22306,103 +22306,103 @@
     },
     {
       "id": "giemon-f2a1910",
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "commit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": [
         {
           "path": "hermes/profiles/giemon-sim-bench/SOUL.md",
           "sha256": "4898e605891d870b908493a85bf65fafa2a2f543c3c55d55ce12968cca870fd5",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/config.yaml",
           "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/cron/jobs.json",
           "sha256": "4d04183006a35c03d7174f47bb9f2b50a06a1751b82812678859e6140443532d",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-bench/profile.yaml",
           "sha256": "75c807d6e1dfda09588cafb5e153a9aa80b1eb216fa94eedc1c23ee6901af8e2",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-bench/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/SOUL.md",
           "sha256": "71890ebea507d2fdeb1dd4630e690f13ac50c90a2d156b9d45b083d99ab76c19",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/config.yaml",
           "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/cron/jobs.json",
           "sha256": "6b9c2e1e3c38c5f60c7233deeba47a753a433195a7f6b00eef6feab876c4f6c6",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-falsify/profile.yaml",
           "sha256": "621946336d7ebf5332f24125210b31733fd1a9474122518ac8d944b3352c8a57",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-falsify/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/SOUL.md",
           "sha256": "f97102387d7d7e4126f59eaa10ba121ae9662ca5fb2e756dcba21bd847cb83dc",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/config.yaml",
           "sha256": "2764e34460e1a5addba82a9911f8d2c2d3996a3b44cbb6bd10af595b375e5f38",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/cron/jobs.json",
           "sha256": "b836e2fb969d9971fb8beed8e9a910d154dfe87efb9de3d82a93ee262680cfd8",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-maint/profile.yaml",
           "sha256": "662f64a75a64114780cf65154afb8f4f25bab3b4fc9f337bb4896e6122b37a4e",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-maint/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/SOUL.md",
           "sha256": "f3bf0a7f558b84f4ead6b4c2ac4c191e0deb5b46c0ba793283196fa2adbb2a23",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/config.yaml",
           "sha256": "c7f33ea3f72eb70ea5ee2584cbfc678d09f5fe5b46b18126f5c623b1ce05d979",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/cron/jobs.json",
           "sha256": "f95bc70eb086f07fb627c3e70b1dfc4575c8af6164c6383e8608491332c95c47",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/cron/jobs.json"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/cron/jobs.json"
         },
         {
           "path": "hermes/profiles/giemon-sim-rank/profile.yaml",
           "sha256": "b4d6da1bebf69e38492cca4c873406bcfd7ebb5785dc7abc4cab0d4099a8f952",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim-rank/profile.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim/SOUL.md",
           "sha256": "ea65b52e6d46e9f74097dbf8fbcccb75112fa810778cee381a62fa88d682e8fd",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/SOUL.md"
         },
         {
           "path": "hermes/profiles/giemon-sim/config.yaml",
           "sha256": "3724148ffcadda52ce99b492fc4adaa9f9586811320b12c2cc015dc3fc833419",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/config.yaml"
         },
         {
           "path": "hermes/profiles/giemon-sim/profile.yaml",
           "sha256": "a8306f09b3fba09c0174ee4dc645520cfd521a03051e5e48fc6caa16b9b466e1",
-          "url": "https://github.com/kotoba-lang/giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-giemon/blob/f2a191048e3089925735b0a3a3d10325166872b1/hermes/profiles/giemon-sim/profile.yaml"
         }
       ]
     },
@@ -24367,23 +24367,23 @@
     },
     {
       "id": "cad-f674eff",
-      "repository": "cloud-itonami/app-itonami-cad",
+      "repository": "cloud-itonami/app-itonami-cad-registry",
       "commit": "f674eff116876a91332d95e68faf8a17625f335f",
       "files": [
         {
           "path": "hermes/profiles/cad-registry-maint/SOUL.md",
           "sha256": "35f1c981bfe00e440f5fc0bbaf4e8523f8e6de70b833ed9416b53960bc59a118",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/SOUL.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/SOUL.md"
         },
         {
           "path": "hermes/profiles/cad-registry-maint/config.yaml",
           "sha256": "f7bf167f9429b9a8d40125a92fadf9735404a85be8179521f5c6beab4a649db9",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/config.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/config.yaml"
         },
         {
           "path": "hermes/profiles/cad-registry-maint/profile.yaml",
           "sha256": "934368ab5b6cb1197c7e4d7fd39b5c17ce497882cb1e4fde9e0da21710f3b4b2",
-          "url": "https://github.com/cloud-itonami/app-itonami-cad/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/profile.yaml"
+          "url": "https://github.com/cloud-itonami/app-itonami-cad-registry/blob/f674eff116876a91332d95e68faf8a17625f335f/hermes/profiles/cad-registry-maint/profile.yaml"
         }
       ]
     },

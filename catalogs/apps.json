@@ -4464,7 +4464,7 @@
     },
     {
       "id": "app/itonami-agent",
-      "repository": "cloud-itonami/app-itonami-itonami-agent",
+      "repository": "cloud-itonami/itonami-agent",
       "commit": "06539adabb9402d321c20a3ff84854a3264dcd27",
       "visibility": "public",
       "archived": false,

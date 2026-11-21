@@ -258,7 +258,7 @@
       "payloadSha256": "938a1b073181753e281ba964270a10be32c9e2afaa6d7abccd9014a163898e03",
       "payloadBytes": 7716,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-itonami-agent",
+      "repository": "cloud-itonami/itonami-agent",
       "sourceCommit": "6f7df914606f84e317786f302511f2545f721574",
       "files": 7,
       "excluded": []
@@ -349,7 +349,7 @@
       "payloadSha256": "e5158c618079dbb6041569a1af0c9c6eeb4d74f47fa8359f888dc37f68098f65",
       "payloadBytes": 5881,
       "leaves": 1,
-      "repository": "kotoba-lang/kami-app-cad",
+      "repository": "cloud-itonami/app-itonami-cad",
       "sourceCommit": "db874d87924d14b2eb9f433436fd2b720e2dc6a8",
       "files": 3,
       "excluded": []
@@ -362,7 +362,7 @@
       "payloadSha256": "0316053897f181ddb74fd84b8c26dea22c76b0f0b710380ca7a0d6364bded28d",
       "payloadBytes": 5870,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-cad",
+      "repository": "cloud-itonami/app-itonami-cad-registry",
       "sourceCommit": "f674eff116876a91332d95e68faf8a17625f335f",
       "files": 3,
       "excluded": []
@@ -661,7 +661,7 @@
       "payloadSha256": "413e78d488958fef99d504282ffc463b9ca258d543c49095afe8651b457334e7",
       "payloadBytes": 9854,
       "leaves": 1,
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "sourceCommit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": 3,
       "excluded": []
@@ -674,7 +674,7 @@
       "payloadSha256": "69d94c21d423394166e8ffcd7f27498f8406891808c48f1afee9449fafc84844",
       "payloadBytes": 9273,
       "leaves": 1,
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "sourceCommit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": 4,
       "excluded": []
@@ -687,7 +687,7 @@
       "payloadSha256": "8df24e7459073b133c3758d72a01a759c06e86f3db084ba0839cc65a6096749d",
       "payloadBytes": 7534,
       "leaves": 1,
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "sourceCommit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": 4,
       "excluded": []
@@ -700,7 +700,7 @@
       "payloadSha256": "07585db0ac2a95a867d01f2e96a7a858cc89e5de229cfe5a6c2f46efb5e6289b",
       "payloadBytes": 6939,
       "leaves": 1,
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "sourceCommit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": 4,
       "excluded": []
@@ -713,7 +713,7 @@
       "payloadSha256": "5fe564a8bb5042329bde32f249cf81a2ff57359ffef2d2dd7de6769e786a08d7",
       "payloadBytes": 9459,
       "leaves": 1,
-      "repository": "kotoba-lang/giemon",
+      "repository": "cloud-itonami/app-itonami-giemon",
       "sourceCommit": "f2a191048e3089925735b0a3a3d10325166872b1",
       "files": 4,
       "excluded": []
@@ -1536,7 +1536,7 @@
       "payloadSha256": "d2a1e00c12d6c9af064bd3f62da856655135c2d7cc88074079ff485ffe0aeffd",
       "payloadBytes": 12410,
       "leaves": 1,
-      "repository": "kotoba-lang/kagi",
+      "repository": "cloud-itonami/app-itonami-kagi",
       "sourceCommit": "b9ee9f9343b325e9895352dd6d9cfb31bf4928d2",
       "files": 5,
       "excluded": []
@@ -1601,7 +1601,7 @@
       "payloadSha256": "feb547d6d2761bd2dc5f90990787440fea33063f48c5693a534be97da9497b65",
       "payloadBytes": 6826,
       "leaves": 1,
-      "repository": "kotoba-lang/kekkai-node",
+      "repository": "cloud-itonami/app-itonami-kekkai-node",
       "sourceCommit": "ec5746661d5bb9b5ab647084b40ebabbc10d05a4",
       "files": 6,
       "excluded": []
@@ -1744,7 +1744,7 @@
       "payloadSha256": "6d13dc640156049e7a1e107372241663868d88e0b0ae6ca183132956bfa799a0",
       "payloadBytes": 9040,
       "leaves": 1,
-      "repository": "kotoba-lang/shell",
+      "repository": "cloud-itonami/app-itonami-shell",
       "sourceCommit": "541d4e992c22e226df1f55c3ad3278df92ee761c",
       "files": 3,
       "excluded": []
@@ -12418,7 +12418,7 @@
       "payloadSha256": "b01b1c7fd4d036ebdbf321feda135b473db338c17eb9c71b7215906dbe1a1ab6",
       "payloadBytes": 10869,
       "leaves": 1,
-      "repository": "etzhayyim/actor-rasen",
+      "repository": "cloud-itonami/app-itonami-rasen",
       "sourceCommit": "857b3b917d91d3e74fb81744ac3f87a4cb457a82",
       "files": 4,
       "excluded": []
@@ -12821,7 +12821,7 @@
       "payloadSha256": "79283f3cff55c4a06a5a588e77e37f18744a93eb463d3f84f28ab4c2f35a1419",
       "payloadBytes": 11555,
       "leaves": 1,
-      "repository": "kotoba-lang/ao",
+      "repository": "cloud-itonami/app-itonami-ao",
       "sourceCommit": "e3f2cf6af6f7cd369f61c12c99e87b20cd28cad8",
       "files": 5,
       "excluded": []

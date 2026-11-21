@@ -3,7 +3,7 @@
   "sourceRefs": [
     "bim-328e7d13"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: bim-app-maint: maintainer bot for cloud-itonami/bim (bim): health scan, CI red detection, propose-only PRs, 30min cron",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: bim-app-maint: maintainer bot for cloud-itonami/app-itonami-bim (bim): health scan, CI red detection, propose-only PRs, 30min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

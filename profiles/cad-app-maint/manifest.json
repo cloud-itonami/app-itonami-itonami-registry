@@ -4,16 +4,16 @@
   "id": "cad-app-maint",
   "name": "cad-app-maint",
   "version": "0.1.0",
-  "description": "cad-app-maint: maintainer bot for kotoba-lang/kami-app-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
+  "description": "cad-app-maint: maintainer bot for cloud-itonami/app-itonami-cad (kami-app-cad): health scan, CI red detection, propose-only PRs, 30min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kami-app-cad/tree/db874d87924d14b2eb9f433436fd2b720e2dc6a8",
+  "source": "https://github.com/cloud-itonami/app-itonami-cad/tree/db874d87924d14b2eb9f433436fd2b720e2dc6a8",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/kami-app-cad",
+    "repository": "cloud-itonami/app-itonami-cad",
     "commit": "db874d87924d14b2eb9f433436fd2b720e2dc6a8",
     "path": "hermes/profiles/cad-app-maint",
     "checksum": "sha256-tree:ab3d370a7494d1fb742cb479433457321aa9e6efc5b06afd502f18561a9bec69",

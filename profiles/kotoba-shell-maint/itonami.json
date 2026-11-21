@@ -3,7 +3,7 @@
   "sourceRefs": [
     "shell-541d4e99"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: kotoba-lang/shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: cloud-itonami/app-itonami-shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

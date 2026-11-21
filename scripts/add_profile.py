@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Register an Itonami profile owned by another repository (ADR 0002).
 
-    python scripts/add_profile.py --checkout ~/github/cloud-itonami/cloud-itonami-app \
-        --repository cloud-itonami/cloud-itonami-app --commit <sha> \
+    python scripts/add_profile.py --checkout ~/github/cloud-itonami/app-itonami-cloud-itonami-app \
+        --repository cloud-itonami/app-itonami-cloud-itonami-app --commit <sha> \
         --path hermes/profiles/itonami-eng [--id itonami-eng] [--source-ref itonami-app]
 
 Reads the profile folder from git objects at the commit (never the working

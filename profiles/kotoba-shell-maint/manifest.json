@@ -4,16 +4,16 @@
   "id": "kotoba-shell-maint",
   "name": "kotoba-shell-maint",
   "version": "0.1.0",
-  "description": "kotoba-lang/shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
+  "description": "cloud-itonami/app-itonami-shell maintainer: CI red detection, README Status claims vs measured app scaffold/build, bridge parity (Apple/Android), issue/PR triage, propose-only PRs from bot/* branches, 3h cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/shell/tree/541d4e992c22e226df1f55c3ad3278df92ee761c",
+  "source": "https://github.com/cloud-itonami/app-itonami-shell/tree/541d4e992c22e226df1f55c3ad3278df92ee761c",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/shell",
+    "repository": "cloud-itonami/app-itonami-shell",
     "commit": "541d4e992c22e226df1f55c3ad3278df92ee761c",
     "path": "hermes/profiles/kotoba-shell-maint",
     "checksum": "sha256-tree:73c87aafc5f054b68baf59ccffb7472794d3848d60f461c73d5a5cf953a358a9",
