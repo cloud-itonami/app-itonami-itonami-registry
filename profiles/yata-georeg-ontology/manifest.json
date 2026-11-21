@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "yata-georeg-ontology: real-estate registry ontology bot (kenchi + maps registry + otent observations). Fuses cadastre/construction/materials/rent/land-price/tenant into one ontology EDN, propose-only.",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
+  "source": "https://github.com/cloud-itonami/app-itonami-kenchi-identity/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/app-itonami-kenchi",
+    "repository": "cloud-itonami/app-itonami-kenchi-identity",
     "commit": "02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
     "path": "hermes/profiles/yata-georeg-ontology",
     "checksum": "sha256-tree:3a9956ed102f5b848f1cac34a5b47c648c480139bd241d77fac0854cde68bfc1",

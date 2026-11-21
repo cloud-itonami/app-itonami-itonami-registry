@@ -5,7 +5,7 @@ Status: proposed, 2026-11-18. Builds on ADR 0016 and ADR 0018. Tracked in AWAI-3
 ## Context
 
 The municipality archive (ADR 0018) is an index of local rules, not procedures. The procedures an assistant can state with
-a primary source live in the institution packs (`seido/*.edn`) of `network-awai/app-itonami-egov`, which the Shakai,
+a primary source live in the institution packs (`seido/*.edn`) of `cloud-itonami/app-itonami-egov`, which the Shakai,
 Kaisha and Matsuri profiles (registered here since AWAI-3147) and the Gyosei screen of the Itonami app evaluate. Owner
 direction (2026-11-18): government procedures go into the Shakai screen for the user, and the capability itself is also
 placed in the registry.

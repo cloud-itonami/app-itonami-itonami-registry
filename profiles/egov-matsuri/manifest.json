@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Matsuri: 政府・自治体の担当者を補助し、受け渡し票を受付準備まで整えて人の審査者へ引き継ぐ（政府側）",
   "author": "network-awai",
-  "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+  "source": "https://github.com/cloud-itonami/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "network-awai/app-itonami-egov",
+    "repository": "cloud-itonami/app-itonami-egov",
     "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
     "path": "hermes/profiles/matsuri",
     "checksum": "sha256-tree:4a283c59ed6cfa3fb07b2532bfe370a5d62fd803b93c2cd5349b12f29465796d",

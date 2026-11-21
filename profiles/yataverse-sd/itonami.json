@@ -3,7 +3,7 @@
   "sourceRefs": [
     "loop-system-dynamics-8efccd3b"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one kotoba-lang/loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile l",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one cloud-itonami/app-itonami-loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile l",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

@@ -4,16 +4,16 @@
   "id": "yataverse-sd",
   "name": "yataverse-sd",
   "version": "0.1.0",
-  "description": "yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one kotoba-lang/loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile ledger, proposes 1 finding. Propose-only.",
+  "description": "yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one cloud-itonami/app-itonami-loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile ledger, proposes 1 finding. Propose-only.",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/loop-system-dynamics/tree/8efccd3b0880251f07b394f7ce0e66708399f6fe",
+  "source": "https://github.com/cloud-itonami/app-itonami-loop-system-dynamics/tree/8efccd3b0880251f07b394f7ce0e66708399f6fe",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/loop-system-dynamics",
+    "repository": "cloud-itonami/app-itonami-loop-system-dynamics",
     "commit": "8efccd3b0880251f07b394f7ce0e66708399f6fe",
     "path": "hermes/profiles/yataverse-sd",
     "checksum": "sha256-tree:9860281a54007d8f971d0feae32758930f1c2276a063c7c426a7175be7d97f86",

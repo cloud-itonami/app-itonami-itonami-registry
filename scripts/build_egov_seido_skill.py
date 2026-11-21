@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Build skills/knowledge/egov-seido-packs from network-awai/app-itonami-egov (ADR 0019, AWAI-3421).
+"""Build skills/knowledge/egov-seido-packs from cloud-itonami/app-itonami-egov (ADR 0019, AWAI-3421).
 
-    python scripts/build_egov_seido_skill.py --checkout ~/github/network-awai/app-itonami-egov --commit <sha>
+    python scripts/build_egov_seido_skill.py --checkout ~/github/cloud-itonami/app-itonami-egov --commit <sha>
 
 Reads seido/*.edn from git objects at the commit (never the working tree), copies them verbatim to
 references/seido/, writes references/index.json, SKILL.md and itonami.json, records the file hashes as one
@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SK = ROOT / 'skills/knowledge/egov-seido-packs'
-REPO = 'network-awai/app-itonami-egov'
+REPO = 'cloud-itonami/app-itonami-egov'
 ENTRY = 'skill/egov-seido-packs'
 
 

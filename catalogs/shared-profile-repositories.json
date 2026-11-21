@@ -102,7 +102,7 @@
    "reason": "souji and its physai variant, one product"
   },
   {
-   "repository": "network-awai/app-itonami-egov",
+   "repository": "cloud-itonami/app-itonami-egov",
    "kind": "fleet",
    "reason": "e-government profiles (Shakai, Kaisha, Matsuri) that share one engine and the per-jurisdiction institution packs, released together (AWAI-3147)"
   }

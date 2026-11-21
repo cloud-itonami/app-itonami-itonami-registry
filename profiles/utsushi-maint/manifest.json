@@ -4,16 +4,16 @@
   "id": "utsushi-maint",
   "name": "utsushi-maint",
   "version": "0.1.0",
-  "description": "utsushi-maint: maintainer bot for kotoba-lang/utsushi (utsushi): health scan, CI red detection, propose-only PRs, 30min cron",
+  "description": "utsushi-maint: maintainer bot for cloud-itonami/app-itonami-utsushi (utsushi): health scan, CI red detection, propose-only PRs, 30min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/utsushi/tree/64b12ba8c23a12379e0c78f8871a17caaf8bc50f",
+  "source": "https://github.com/cloud-itonami/app-itonami-utsushi/tree/64b12ba8c23a12379e0c78f8871a17caaf8bc50f",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/utsushi",
+    "repository": "cloud-itonami/app-itonami-utsushi",
     "commit": "64b12ba8c23a12379e0c78f8871a17caaf8bc50f",
     "path": "hermes/profiles/utsushi-maint",
     "checksum": "sha256-tree:db2c0b9cd2cc2ae839523b39d17dc486020e621623b3c21b45233506d9a8160a",

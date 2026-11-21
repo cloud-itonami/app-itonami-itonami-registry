@@ -3,7 +3,7 @@
   "sourceRefs": [
     "render-771a1034"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: archviz-maint: maintainer bot for kotoba-lang/render (render): health scan, CI red detection, propose-only PRs, 30min cron",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: archviz-maint: maintainer bot for cloud-itonami/app-itonami-render (render): health scan, CI red detection, propose-only PRs, 30min cron",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

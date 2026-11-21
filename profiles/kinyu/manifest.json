@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kinyu — 金融業務代替 bot（propose-only） — cloud-itonami の銀行・決済・金融業務の代替システムを、ギャップ台帳に沿って進める bot。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/banking/tree/940f4dbfb713466c0377e1ac51f368ea3648d58d",
+  "source": "https://github.com/cloud-itonami/app-itonami-banking/tree/940f4dbfb713466c0377e1ac51f368ea3648d58d",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/banking",
+    "repository": "cloud-itonami/app-itonami-banking",
     "commit": "940f4dbfb713466c0377e1ac51f368ea3648d58d",
     "path": "hermes/profiles/kinyu",
     "checksum": "sha256-tree:3a6fd56aeb39ce60cb92a87164ec8b9a181ab4958772597330457944c1fd0be8",

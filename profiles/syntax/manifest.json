@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Kotoba syntax highlighting 責任 bot — grammar 正本と全表面 (GitHub / kotoba.cloud / wiki / VS Code) で highlight が効く状態を監視・整え・修正する",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/grammar/tree/dd46f69c8127f0d9cc21c328aad64cb727f9e960",
+  "source": "https://github.com/cloud-itonami/app-itonami-grammar/tree/dd46f69c8127f0d9cc21c328aad64cb727f9e960",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/grammar",
+    "repository": "cloud-itonami/app-itonami-grammar",
     "commit": "dd46f69c8127f0d9cc21c328aad64cb727f9e960",
     "path": "hermes/profiles/syntax",
     "checksum": "sha256-tree:9c72d8467e2931ede95f143cfa471caaeafa48202093cf0c2818857cf0b95062",

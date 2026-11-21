@@ -7,7 +7,7 @@ findings. Preserve observation periods, share denominators, control groups,
 source locators, appeals and uncertainty. Never treat an unresearched region as
 competitive or one case as whole-industry coverage.
 
-The canonical implementation is [etzhayyim/com-etzhayyim-abaki](https://github.com/etzhayyim/com-etzhayyim-abaki/tree/9fb337a26cfd8a86d7567ca5795b6ef367bd426e).
+The canonical implementation is [cloud-itonami/app-itonami-abaki](https://github.com/cloud-itonami/app-itonami-abaki/tree/9fb337a26cfd8a86d7567ca5795b6ef367bd426e).
 Read its hermes/profiles/abaki/SOUL.md and docs/methodology.md. Its Python CLI
 provides queue, validate and build; reports link claims to evidence and expose
 coverage gaps across 251 geographic scopes × 21 ISIC sections. The initial three

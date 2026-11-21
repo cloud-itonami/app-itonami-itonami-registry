@@ -4,16 +4,16 @@
   "id": "tee-guest-maint",
   "name": "tee-guest-maint",
   "version": "0.1.0",
-  "description": "TEE guest maintenance bot: kotoba-lang/vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
+  "description": "TEE guest maintenance bot: cloud-itonami/app-itonami-vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/vmm/tree/fdbd0c640a94b99ccb8e7d951f8215bf2f0c98cd",
+  "source": "https://github.com/cloud-itonami/app-itonami-vmm/tree/fdbd0c640a94b99ccb8e7d951f8215bf2f0c98cd",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/vmm",
+    "repository": "cloud-itonami/app-itonami-vmm",
     "commit": "fdbd0c640a94b99ccb8e7d951f8215bf2f0c98cd",
     "path": "hermes/profiles/tee-guest-maint",
     "checksum": "sha256-tree:d8da7ef1d2c7e2f066acd73060b23300777630077184a2409a9c23561b707167",

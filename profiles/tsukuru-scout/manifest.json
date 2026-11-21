@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
   "author": "cloud-itonami",
-  "source": "https://github.com/cloud-itonami/tsukuru-actor/tree/6388036d0758452eea26b29f772d03021582e45c",
+  "source": "https://github.com/cloud-itonami/app-itonami-tsukuru-aozora/tree/6388036d0758452eea26b29f772d03021582e45c",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "cloud-itonami/tsukuru-actor",
+    "repository": "cloud-itonami/app-itonami-tsukuru-aozora",
     "commit": "6388036d0758452eea26b29f772d03021582e45c",
     "path": "hermes/profiles/tsukuru-scout",
     "checksum": "sha256-tree:815083322a70aa7eee14ac0b15938ae465c06fe8a3d97843be879c2a2b6e8c12",

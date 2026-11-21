@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kotoba-lang security-toolkit (nmap/wireshark/burpsuite 相当 pure cljc) 成熟度 bot: conformance ギャップ潰し + テスト緑維持, 50min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/security-toolkit/tree/e0408c802e1ba102597522c1f36965d7ce5c7fe5",
+  "source": "https://github.com/cloud-itonami/app-itonami-security-toolkit/tree/e0408c802e1ba102597522c1f36965d7ce5c7fe5",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/security-toolkit",
+    "repository": "cloud-itonami/app-itonami-security-toolkit",
     "commit": "e0408c802e1ba102597522c1f36965d7ce5c7fe5",
     "path": "hermes/profiles/sec-toolkit-maturity",
     "checksum": "sha256-tree:601bda980cd19459b0c3281280ac9d66ce409fdd808f596d27544dbf12ccda6f",
