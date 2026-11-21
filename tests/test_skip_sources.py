@@ -30,6 +30,12 @@ class SkipSourcesTests(unittest.TestCase):
         apps = json.loads((ROOT / 'catalogs/apps.json').read_text())['entries']
         self.assertTrue(any(e['repository'] == repo for e in apps))
 
+    def test_un_classifications_listed_and_kept(self):
+        apps = {e['repository'] for e in json.loads((ROOT / 'catalogs/apps.json').read_text())['entries']}
+        for repo in ['cloud-itonami/app-itonami-org-un-isic', 'cloud-itonami/app-itonami-org-un-cofog']:
+            self.assertIn('国連の許諾待ち', skip_sources.load(ROOT)[repo])
+            self.assertIn(repo, apps)
+
     def test_profile_status_does_not_fetch_skipped(self):
         entries = [{'id': 'x', 'repository': ISCO, 'commit': '0' * 40, 'path': 'hermes/profiles/x',
                     'checksum': 'sha256-tree:' + '0' * 64}]
