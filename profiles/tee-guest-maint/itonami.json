@@ -3,7 +3,7 @@
   "sourceRefs": [
     "vmm-fdbd0c64"
   ],
-  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: TEE guest maintenance bot: kotoba-lang/vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
+  "useWhen": "Install as a Bot (Itonami profile) or as a Hermes profile: TEE guest maintenance bot: cloud-itonami/app-itonami-vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
   "avoidWhen": "Expecting credentials, accounts, memories or an enabled schedule to come with it.",
   "inputs": {
     "owner": "the installing organization binds accounts and grants"

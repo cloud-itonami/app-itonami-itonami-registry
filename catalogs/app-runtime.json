@@ -6575,7 +6575,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "cloud-itonami/tsukuru-actor": {
+    "cloud-itonami/app-itonami-tsukuru-aozora": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6590,7 +6590,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/banking": {
+    "cloud-itonami/app-itonami-banking": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6605,12 +6605,12 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/dynamics": {
+    "cloud-itonami/app-itonami-dynamics": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/grammar": {
+    "cloud-itonami/app-itonami-grammar": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6630,7 +6630,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/kenchi": {
+    "cloud-itonami/app-itonami-kenchi": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6665,7 +6665,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/loop-system-dynamics": {
+    "cloud-itonami/app-itonami-loop-system-dynamics": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6675,7 +6675,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/render": {
+    "cloud-itonami/app-itonami-render": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6685,7 +6685,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/security-toolkit": {
+    "cloud-itonami/app-itonami-security-toolkit": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6705,12 +6705,12 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/utsushi": {
+    "cloud-itonami/app-itonami-utsushi": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/vmm": {
+    "cloud-itonami/app-itonami-vmm": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6720,7 +6720,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "kotoba-lang/ws-valueflo-algorithms": {
+    "cloud-itonami/app-itonami-ws-valueflo-algorithms": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
@@ -6735,7 +6735,7 @@
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"
     },
-    "network-awai/app-itonami-egov": {
+    "cloud-itonami/app-itonami-egov": {
       "runtime": "unknown",
       "handlesUserDataOrExternalComms": "unknown",
       "basis": "not-determined"

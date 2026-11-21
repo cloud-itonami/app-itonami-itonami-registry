@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-21T19:08:08.349903Z",
+  "generated": "2026-11-21T20:29:21.668099Z",
   "count": 1364,
   "entries": [
     {
@@ -10,7 +10,7 @@
       "version": "0.1.0",
       "description": "Identify and analyze real organizations' monopoly, oligopoly and market concentration by region and relevant market; publish attributed primary evidence and coverage gaps.",
       "author": "etzhayyim",
-      "source": "https://github.com/etzhayyim/com-etzhayyim-abaki/tree/9fb337a26cfd8a86d7567ca5795b6ef367bd426e",
+      "source": "https://github.com/cloud-itonami/app-itonami-abaki/tree/9fb337a26cfd8a86d7567ca5795b6ef367bd426e",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -22,7 +22,7 @@
         "public-evidence"
       ],
       "path": "agents/abaki",
-      "checksum": "sha256:11fe9653ac959e261d7ca5c9ed9478b7b125149153a0a131f69bd15331d064cb"
+      "checksum": "sha256:0257dd384cf179972e47dc9b9b892390909b1050e1cd2fdbc40c4c2b513195bb"
     },
     {
       "id": "compute-allocation-observer",
@@ -23275,15 +23275,15 @@
       "type": "profile",
       "name": "archviz-maint",
       "version": "0.1.0",
-      "description": "archviz-maint: maintainer bot for kotoba-lang/render (render): health scan, CI red detection, propose-only PRs, 30min cron",
+      "description": "archviz-maint: maintainer bot for cloud-itonami/app-itonami-render (render): health scan, CI red detection, propose-only PRs, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/render/tree/771a1034e6be15dd6fe7fd07e5d8f953ec59d625",
+      "source": "https://github.com/cloud-itonami/app-itonami-render/tree/771a1034e6be15dd6fe7fd07e5d8f953ec59d625",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/archviz-maint",
-      "checksum": "sha256:b2beafaa305366b1bd0370e154c4596a6ca7f8b5f51ddf7d51fbfcfa68966f04",
+      "checksum": "sha256:587dc651f84ae23405d1182ccf7871dde0ef662f08c95f4df819f8f94b789457",
       "profileChecksum": "sha256-tree:4b35251009f6dc0963e320c3873464793711bce4019fdcea9794cd7b9ab9b00f"
     },
     {
@@ -23709,13 +23709,13 @@
       "version": "0.1.0",
       "description": "Kaisha: 法人・団体の登記変更などの手続きを、代表権を確認したうえで出典つき候補として整理する（国民側・組織）",
       "author": "network-awai",
-      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "source": "https://github.com/cloud-itonami/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/egov-kaisha",
-      "checksum": "sha256:219ca6173c2dd79f33aa6b6385d4e3424d16d282c48362ef38e13f359aac8a73",
+      "checksum": "sha256:ce79b1a14bff51138865c333984c978fcb9c2ef5a557fafd6e239911922260d3",
       "profileChecksum": "sha256-tree:6b2edce5d6ed18f169297f71a48d2a9e85a6d8ee0115fe2b806c52ca0e6644fd"
     },
     {
@@ -23725,13 +23725,13 @@
       "version": "0.1.0",
       "description": "Matsuri: 政府・自治体の担当者を補助し、受け渡し票を受付準備まで整えて人の審査者へ引き継ぐ（政府側）",
       "author": "network-awai",
-      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "source": "https://github.com/cloud-itonami/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/egov-matsuri",
-      "checksum": "sha256:8d6597761997bca3f8becab9a5ace862710c756c29da27937650c419941e8115",
+      "checksum": "sha256:a2237dcdc93131e8ecee643ac0d688fb0db8625c75905b864e0930793ada5938",
       "profileChecksum": "sha256-tree:4a283c59ed6cfa3fb07b2532bfe370a5d62fd803b93c2cd5349b12f29465796d"
     },
     {
@@ -23741,13 +23741,13 @@
       "version": "0.1.0",
       "description": "Shakai: 個人・家族の行政手続きを、制度パックの出典つき候補・期限・不明点として整理する（国民側）",
       "author": "network-awai",
-      "source": "https://github.com/network-awai/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
+      "source": "https://github.com/cloud-itonami/app-itonami-egov/tree/10259965581c108e0924acfd32a0714ad478aaf8",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/egov-shakai",
-      "checksum": "sha256:16b346bd4cbd0122338af9404ea86beee7fa6f9e6efc14a8e2f2bcc4c457b865",
+      "checksum": "sha256:20f26dd1e8246e9e93f557d5e54b53d3235aa770dc1b8c0bba4682c2e1d5a53b",
       "profileChecksum": "sha256-tree:99fdb80e40446cd1d37a7a90114c9650742ee0c062bd1bbffbd40f2491beb329"
     },
     {
@@ -23757,13 +23757,13 @@
       "version": "0.1.0",
       "description": "fleet-alloc — murakumo fleet 資源最適分配 bot — murakumo fleet（mac-mini 群）の計算資源を、実測データに基づいて最適分配するための bot。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/dynamics/tree/94d25778405ef190bc1ff76bd2bc876697153185",
+      "source": "https://github.com/cloud-itonami/app-itonami-dynamics/tree/94d25778405ef190bc1ff76bd2bc876697153185",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/fleet-alloc",
-      "checksum": "sha256:e5f7e255d722b5c8dc2de45ba5169c37c1d585ca37faa1de803717ef590a7dd1",
+      "checksum": "sha256:723d0d7c4f13a83d7dc5c788b27b293458aa947c7b686a5b8fa62aeef5fa6dc7",
       "profileChecksum": "sha256-tree:0cc0d9b303b4c27f3b51bff6af3585b73a67a6ed0fc4ed3d4edd64535a288b05"
     },
     {
@@ -25037,13 +25037,13 @@
       "version": "0.1.0",
       "description": "kenchi-obs-contrib: member-submitted Observation ingest bot for kenchi (provenance-gated real-estate valuation). Polls ATProto observations, governor pre-checks, proposes worktree slices.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/kenchi/tree/2fbf4661a97aa50eb437c5f30cfcb9aeb69d6519",
+      "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/2fbf4661a97aa50eb437c5f30cfcb9aeb69d6519",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kenchi-obs-contrib",
-      "checksum": "sha256:1bc20a1aa6639e2b39b959b6b37bb97b5fd9ba5622fb59f47df9126e627bf9b9",
+      "checksum": "sha256:eb8d8f2973c6db8b9fb15e77a8887e9a925474abdf87e25da9481a21147995ec",
       "profileChecksum": "sha256-tree:9da61d355ff824c1c7df03b25f057acbbea368e50b65cbf8fe67831b35c3e05b"
     },
     {
@@ -25053,13 +25053,13 @@
       "version": "0.1.0",
       "description": "kinyu — 金融業務代替 bot（propose-only） — cloud-itonami の銀行・決済・金融業務の代替システムを、ギャップ台帳に沿って進める bot。",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/banking/tree/940f4dbfb713466c0377e1ac51f368ea3648d58d",
+      "source": "https://github.com/cloud-itonami/app-itonami-banking/tree/940f4dbfb713466c0377e1ac51f368ea3648d58d",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/kinyu",
-      "checksum": "sha256:ad422036acb2554733105816183f1c4140b6e68027d4e85edeed924152ea4fca",
+      "checksum": "sha256:39dc0991e373f69b865eb0010058dc51692cdd68ea81cc5644b8b691a9862a91",
       "profileChecksum": "sha256-tree:3a6fd56aeb39ce60cb92a87164ec8b9a181ab4958772597330457944c1fd0be8"
     },
     {
@@ -26189,13 +26189,13 @@
       "version": "0.1.0",
       "description": "kotoba-lang security-toolkit (nmap/wireshark/burpsuite 相当 pure cljc) 成熟度 bot: conformance ギャップ潰し + テスト緑維持, 50min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/security-toolkit/tree/e0408c802e1ba102597522c1f36965d7ce5c7fe5",
+      "source": "https://github.com/cloud-itonami/app-itonami-security-toolkit/tree/e0408c802e1ba102597522c1f36965d7ce5c7fe5",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/sec-toolkit-maturity",
-      "checksum": "sha256:c99aed65a5ed85e7f6934c5102de58a49c688eee7fcef5ba0d32b9a9b4343c04",
+      "checksum": "sha256:b7b873aa40eba02703b90c4303c841b9158fd2de3a51fa09139c592d9bc7700c",
       "profileChecksum": "sha256-tree:601bda980cd19459b0c3281280ac9d66ce409fdd808f596d27544dbf12ccda6f"
     },
     {
@@ -26301,13 +26301,13 @@
       "version": "0.1.0",
       "description": "Kotoba syntax highlighting 責任 bot — grammar 正本と全表面 (GitHub / kotoba.cloud / wiki / VS Code) で highlight が効く状態を監視・整え・修正する",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/grammar/tree/dd46f69c8127f0d9cc21c328aad64cb727f9e960",
+      "source": "https://github.com/cloud-itonami/app-itonami-grammar/tree/dd46f69c8127f0d9cc21c328aad64cb727f9e960",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/syntax",
-      "checksum": "sha256:2d510e41b0d63fb86bdd69a1b502ad6d44546d8ead359f7c249abf914069f7d1",
+      "checksum": "sha256:1882699f7f2df270ccbf4394a6b53e2fffaa208d768a1a67b4c50c66787e395e",
       "profileChecksum": "sha256-tree:9c72d8467e2931ede95f143cfa471caaeafa48202093cf0c2818857cf0b95062"
     },
     {
@@ -26315,15 +26315,15 @@
       "type": "profile",
       "name": "tee-guest-maint",
       "version": "0.1.0",
-      "description": "TEE guest maintenance bot: kotoba-lang/vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
+      "description": "TEE guest maintenance bot: cloud-itonami/app-itonami-vmm TEE decision plane (TDX/SEV-SNP) + kotoba-lang/aiueos tee-guest-detect maturity and stability. Propose-only.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/vmm/tree/fdbd0c640a94b99ccb8e7d951f8215bf2f0c98cd",
+      "source": "https://github.com/cloud-itonami/app-itonami-vmm/tree/fdbd0c640a94b99ccb8e7d951f8215bf2f0c98cd",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/tee-guest-maint",
-      "checksum": "sha256:0d6e30db88a05a9614531e08e48140909e5faf3c3fc177468700344b736590f7",
+      "checksum": "sha256:04f95856e4750292e6f716b39671ecb74855d431ee366a97309a4e2921ba8571",
       "profileChecksum": "sha256-tree:d8da7ef1d2c7e2f066acd73060b23300777630077184a2409a9c23561b707167"
     },
     {
@@ -26477,13 +26477,13 @@
       "version": "0.1.0",
       "description": "Agent workspace locations — <!-- managed-agent-workspace-locations -->",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/tsukuru-actor/tree/6388036d0758452eea26b29f772d03021582e45c",
+      "source": "https://github.com/cloud-itonami/app-itonami-tsukuru-aozora/tree/6388036d0758452eea26b29f772d03021582e45c",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/tsukuru-scout",
-      "checksum": "sha256:de2fce65f1a1c1e8cb3c45f4af50036a12a5563be765ac41c77f2dec97b8484d",
+      "checksum": "sha256:b3730c5571f05882914986db4c39c5cfd827348cb55db0a4fd45f158def88f48",
       "profileChecksum": "sha256-tree:815083322a70aa7eee14ac0b15938ae465c06fe8a3d97843be879c2a2b6e8c12"
     },
     {
@@ -26539,15 +26539,15 @@
       "type": "profile",
       "name": "utsushi-maint",
       "version": "0.1.0",
-      "description": "utsushi-maint: maintainer bot for kotoba-lang/utsushi (utsushi): health scan, CI red detection, propose-only PRs, 30min cron",
+      "description": "utsushi-maint: maintainer bot for cloud-itonami/app-itonami-utsushi (utsushi): health scan, CI red detection, propose-only PRs, 30min cron",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/utsushi/tree/64b12ba8c23a12379e0c78f8871a17caaf8bc50f",
+      "source": "https://github.com/cloud-itonami/app-itonami-utsushi/tree/64b12ba8c23a12379e0c78f8871a17caaf8bc50f",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/utsushi-maint",
-      "checksum": "sha256:8b67480aa1b8f0d37a613e599c7815b613f92679ce4bd687370d72a1f136d1d0",
+      "checksum": "sha256:aa490282e39323b9a48fff52728ce1981e079c82f5b712d88c641c0796137eed",
       "profileChecksum": "sha256-tree:db2c0b9cd2cc2ae839523b39d17dc486020e621623b3c21b45233506d9a8160a"
     },
     {
@@ -26637,13 +26637,13 @@
       "version": "0.1.0",
       "description": "Valueflow / XMILE economic analysis bot for wiki.yataverse.com — BLS QCEW NAICS industry wage -> valueflow recipe analysis -> propose",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/ws-valueflo-algorithms/tree/94e7a01578469d5e192882c3aca503f05d00585b",
+      "source": "https://github.com/cloud-itonami/app-itonami-ws-valueflo-algorithms/tree/94e7a01578469d5e192882c3aca503f05d00585b",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/wiki-valueflow-crawl",
-      "checksum": "sha256:ada69cb27165bfac059e3c7be8252633c69853409e8f2b081a68394c3bd17304",
+      "checksum": "sha256:0797cde4bf5d4f9bd6db824398d66927dadbaf71d8d42ea07cdf9c968f1bf2ff",
       "profileChecksum": "sha256-tree:f78ca619f8740cef4eaaf9be6ff29bc3ae6ea268d80078caa19eb62279149d40"
     },
     {
@@ -26733,13 +26733,13 @@
       "version": "0.1.0",
       "description": "yata-contrib-gate: measures the member-contribution path (submit - sign - governor - commit) for the yataverse/kenchi membrane; reports one gap per tick.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
+      "source": "https://github.com/cloud-itonami/app-itonami-kenchi-identity/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yata-contrib-gate",
-      "checksum": "sha256:607dd991884fe22f397aead120998c0c140515e1ad6abf68a138d10b4cb47235",
+      "checksum": "sha256:980a18ac049081a87cdb974430bf9488c1d618b22b8d644da69a3bf570f76f19",
       "profileChecksum": "sha256-tree:578a2ee55db593a42f0a6defcbbac5eaa04cdc91d71913908f24fcd904f606d4"
     },
     {
@@ -26749,13 +26749,13 @@
       "version": "0.1.0",
       "description": "yata-georeg-ontology: real-estate registry ontology bot (kenchi + maps registry + otent observations). Fuses cadastre/construction/materials/rent/land-price/tenant into one ontology EDN, propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
+      "source": "https://github.com/cloud-itonami/app-itonami-kenchi-identity/tree/02e2eee9e341f773ca9e2e38acfa17b9abe899c9",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yata-georeg-ontology",
-      "checksum": "sha256:2285c93305434f28fabb05646d9461bd7e5030ac3176bef37ea88c665a261e92",
+      "checksum": "sha256:e995598fc20900d03a330007c2ecfe40a6b7f0236bc7232614c8e75a49a337e6",
       "profileChecksum": "sha256-tree:3a9956ed102f5b848f1cac34a5b47c648c480139bd241d77fac0854cde68bfc1"
     },
     {
@@ -26763,15 +26763,15 @@
       "type": "profile",
       "name": "yataverse-sd",
       "version": "0.1.0",
-      "description": "yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one kotoba-lang/loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile ledger, proposes 1 finding. Propose-only.",
+      "description": "yataverse-sd: system-dynamics observation loop bot for wiki.yataverse.com. Runs one cloud-itonami/app-itonami-loop-system-dynamics cycle per tick (leverage ranking + XMILE stock-flow), appends evidence to profile ledger, proposes 1 finding. Propose-only.",
       "author": "kotoba-lang",
-      "source": "https://github.com/kotoba-lang/loop-system-dynamics/tree/8efccd3b0880251f07b394f7ce0e66708399f6fe",
+      "source": "https://github.com/cloud-itonami/app-itonami-loop-system-dynamics/tree/8efccd3b0880251f07b394f7ce0e66708399f6fe",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/yataverse-sd",
-      "checksum": "sha256:06a0092a7bf28603a8b7037404d7b0dfc88ca50699d90878e919ff922367027c",
+      "checksum": "sha256:8262acf0091f517cadd9d2436d1f2e57e07bc5669f0fd227b7771e2b4e63bf31",
       "profileChecksum": "sha256-tree:9860281a54007d8f971d0feae32758930f1c2276a063c7c426a7175be7d97f86"
     },
     {
@@ -26905,7 +26905,7 @@
     {
       "version": "0.1.0",
       "author": "network-awai",
-      "source": "https://github.com/network-awai/app-itonami-egov/tree/2db4b704e22fd84fea3e898acd5730725e2b67dd",
+      "source": "https://github.com/cloud-itonami/app-itonami-egov/tree/2db4b704e22fd84fea3e898acd5730725e2b67dd",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -26916,7 +26916,7 @@
       "description": "Read the Itonami institution packs (seido) that say which government procedures may apply to an address change, with their primary legal sources, deadlines and review state. Use with the Shakai, Kaisha and Matsuri e-government profiles, or when a user in a covered country asks what to file after moving.",
       "category": "knowledge",
       "path": "skills/knowledge/egov-seido-packs",
-      "checksum": "sha256:c6fcd824388c9f52c5c8993ebc62b6a126197987f8633516d14d34a360180c84"
+      "checksum": "sha256:814a0af98a1385631d7d8c23f6e55d6fd2520b6ffe519be54bf7ee232b90910f"
     },
     {
       "version": "0.1.0",

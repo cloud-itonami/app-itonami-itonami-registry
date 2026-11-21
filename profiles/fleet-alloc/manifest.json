@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "fleet-alloc — murakumo fleet 資源最適分配 bot — murakumo fleet（mac-mini 群）の計算資源を、実測データに基づいて最適分配するための bot。",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/dynamics/tree/94d25778405ef190bc1ff76bd2bc876697153185",
+  "source": "https://github.com/cloud-itonami/app-itonami-dynamics/tree/94d25778405ef190bc1ff76bd2bc876697153185",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/dynamics",
+    "repository": "cloud-itonami/app-itonami-dynamics",
     "commit": "94d25778405ef190bc1ff76bd2bc876697153185",
     "path": "hermes/profiles/fleet-alloc",
     "checksum": "sha256-tree:0cc0d9b303b4c27f3b51bff6af3585b73a67a6ed0fc4ed3d4edd64535a288b05",

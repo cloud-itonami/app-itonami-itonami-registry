@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "kenchi-obs-contrib: member-submitted Observation ingest bot for kenchi (provenance-gated real-estate valuation). Polls ATProto observations, governor pre-checks, proposes worktree slices.",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/kenchi/tree/2fbf4661a97aa50eb437c5f30cfcb9aeb69d6519",
+  "source": "https://github.com/cloud-itonami/app-itonami-kenchi/tree/2fbf4661a97aa50eb437c5f30cfcb9aeb69d6519",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/kenchi",
+    "repository": "cloud-itonami/app-itonami-kenchi",
     "commit": "2fbf4661a97aa50eb437c5f30cfcb9aeb69d6519",
     "path": "hermes/profiles/kenchi-obs-contrib",
     "checksum": "sha256-tree:9da61d355ff824c1c7df03b25f057acbbea368e50b65cbf8fe67831b35c3e05b",

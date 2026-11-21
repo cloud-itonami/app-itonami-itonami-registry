@@ -6,7 +6,7 @@
   "useWhen": "Identify and analyze real organizations' monopoly, oligopoly and market concentration by region and relevant market; publish attributed primary evidence and coverage gaps.",
   "avoidWhen": "Legal verdicts from share thresholds, source-free allegations, fictitious entities, punitive blocklists or automatic activation.",
   "inputs": {
-    "repository": "etzhayyim/com-etzhayyim-abaki",
+    "repository": "cloud-itonami/app-itonami-abaki",
     "region": "ISO country/territory, EEA, WORLD or explicitly defined subnational scope",
     "market": "substitution-based relevant product/service market",
     "period": "observation window and compatible denominator",

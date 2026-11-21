@@ -8,34 +8,34 @@
   "method": "GitHub paginated repository inventory + default head/root/profile directories. Public recursive trees use matching committed local trees or pinned GitHub recursive tree API. Filename markers are candidates, not semantic or runtime qualification. Private names and contents are omitted.",
   "summary": {
     "kotoba-lang": {
-      "totalRepositories": 2780,
-      "publicRepositories": 2746,
+      "totalRepositories": 2770,
+      "publicRepositories": 2736,
       "privateRepositoriesOmitted": 34,
       "scanStatus": {
-        "recursive-tree-scanned": 2745,
+        "recursive-tree-scanned": 2735,
         "empty-default-branch": 1
       },
       "dispositions": {
         "no-selected-registry-marker": 2666,
         "upstream-or-archived-reference": 31,
-        "profile-or-domain-instance-retained": 22,
-        "deferred-source-contract": 16,
+        "profile-or-domain-instance-retained": 13,
+        "deferred-source-contract": 15,
         "curated-reference-added": 10,
         "external-registry-owner": 1
       }
     },
     "cloud-itonami": {
-      "totalRepositories": 1930,
-      "publicRepositories": 1868,
+      "totalRepositories": 1940,
+      "publicRepositories": 1878,
       "privateRepositoriesOmitted": 62,
       "scanStatus": {
-        "recursive-tree-scanned": 1868
+        "recursive-tree-scanned": 1878
       },
       "dispositions": {
         "no-selected-registry-marker": 1122,
         "upstream-or-archived-reference": 17,
-        "deferred-source-contract": 9,
-        "profile-or-domain-instance-retained": 705,
+        "deferred-source-contract": 10,
+        "profile-or-domain-instance-retained": 714,
         "curated-reference-added": 14,
         "registry-owner": 1
       }
@@ -42875,7 +42875,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/app-itonami-kenchi",
+      "repository": "cloud-itonami/app-itonami-kenchi-identity",
       "defaultBranch": "main",
       "commit": "f657167bc545bdd20e484483310c44a208e86b0c",
       "archived": false,
@@ -46758,7 +46758,7 @@
       "registrations": []
     },
     {
-      "repository": "cloud-itonami/tsukuru-actor",
+      "repository": "cloud-itonami/app-itonami-tsukuru-aozora",
       "defaultBranch": "main",
       "commit": "e34a68fc123a726b27e91c800781940b23ec741e",
       "archived": false,
@@ -50668,7 +50668,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/banking",
+      "repository": "cloud-itonami/app-itonami-banking",
       "defaultBranch": "main",
       "commit": "940f4dbfb713466c0377e1ac51f368ea3648d58d",
       "archived": false,
@@ -80941,7 +80941,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/dynamics",
+      "repository": "cloud-itonami/app-itonami-dynamics",
       "defaultBranch": "main",
       "commit": "4c15067e3975983730e1ca024fa8a96164629b4e",
       "archived": false,
@@ -84111,7 +84111,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/grammar",
+      "repository": "cloud-itonami/app-itonami-grammar",
       "defaultBranch": "main",
       "commit": "a19cec961f7de404aafd39b15898a03705a60ff1",
       "archived": false,
@@ -89018,7 +89018,7 @@
       ]
     },
     {
-      "repository": "kotoba-lang/kenchi",
+      "repository": "cloud-itonami/app-itonami-kenchi",
       "defaultBranch": "main",
       "commit": "8c8c181243447d9e3095c6efa19f44a919e81223",
       "archived": false,
@@ -93584,7 +93584,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/loop-system-dynamics",
+      "repository": "cloud-itonami/app-itonami-loop-system-dynamics",
       "defaultBranch": "main",
       "commit": "8efccd3b0880251f07b394f7ce0e66708399f6fe",
       "archived": false,
@@ -102721,7 +102721,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/render",
+      "repository": "cloud-itonami/app-itonami-render",
       "defaultBranch": "main",
       "commit": "08156f345f60d565c81474a579bb1e32877af690",
       "archived": false,
@@ -103632,7 +103632,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/security-toolkit",
+      "repository": "cloud-itonami/app-itonami-security-toolkit",
       "defaultBranch": "main",
       "commit": "c77b82c3963081a1679a6e2d99dedd02edeef33c",
       "archived": false,
@@ -109844,7 +109844,7 @@
       ]
     },
     {
-      "repository": "kotoba-lang/utsushi",
+      "repository": "cloud-itonami/app-itonami-utsushi",
       "defaultBranch": "main",
       "commit": "9f6ce1ed0075cb98653b6eef28010e06ac258f1a",
       "archived": false,
@@ -110018,7 +110018,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/vmm",
+      "repository": "cloud-itonami/app-itonami-vmm",
       "defaultBranch": "main",
       "commit": "1589cb30ef87218fe9d95690db3bdafb934d4f48",
       "archived": false,
@@ -111067,7 +111067,7 @@
       "registrations": []
     },
     {
-      "repository": "kotoba-lang/ws-valueflo-algorithms",
+      "repository": "cloud-itonami/app-itonami-ws-valueflo-algorithms",
       "defaultBranch": "main",
       "commit": "94e7a01578469d5e192882c3aca503f05d00585b",
       "archived": false,

@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.targeted-public-sources.v1",
   "sources": [
     {
-      "repository": "etzhayyim/com-etzhayyim-abaki",
+      "repository": "cloud-itonami/app-itonami-abaki",
       "commit": "9fb337a26cfd8a86d7567ca5795b6ef367bd426e",
       "visibility": "public",
       "reviewedOn": "2026-10-13",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "repository": "network-awai/app-itonami-egov",
+      "repository": "cloud-itonami/app-itonami-egov",
       "commit": "10259965581c108e0924acfd32a0714ad478aaf8",
       "visibility": "public",
       "reviewedOn": "2026-11-18",

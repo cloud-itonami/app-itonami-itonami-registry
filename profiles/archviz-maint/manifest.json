@@ -4,16 +4,16 @@
   "id": "archviz-maint",
   "name": "archviz-maint",
   "version": "0.1.0",
-  "description": "archviz-maint: maintainer bot for kotoba-lang/render (render): health scan, CI red detection, propose-only PRs, 30min cron",
+  "description": "archviz-maint: maintainer bot for cloud-itonami/app-itonami-render (render): health scan, CI red detection, propose-only PRs, 30min cron",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/render/tree/771a1034e6be15dd6fe7fd07e5d8f953ec59d625",
+  "source": "https://github.com/cloud-itonami/app-itonami-render/tree/771a1034e6be15dd6fe7fd07e5d8f953ec59d625",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/render",
+    "repository": "cloud-itonami/app-itonami-render",
     "commit": "771a1034e6be15dd6fe7fd07e5d8f953ec59d625",
     "path": "hermes/profiles/archviz-maint",
     "checksum": "sha256-tree:4b35251009f6dc0963e320c3873464793711bce4019fdcea9794cd7b9ab9b00f",

@@ -6,14 +6,14 @@
   "version": "0.1.0",
   "description": "Valueflow / XMILE economic analysis bot for wiki.yataverse.com — BLS QCEW NAICS industry wage -> valueflow recipe analysis -> propose",
   "author": "kotoba-lang",
-  "source": "https://github.com/kotoba-lang/ws-valueflo-algorithms/tree/94e7a01578469d5e192882c3aca503f05d00585b",
+  "source": "https://github.com/cloud-itonami/app-itonami-ws-valueflo-algorithms/tree/94e7a01578469d5e192882c3aca503f05d00585b",
   "compatibility": {
     "hermes": "*",
     "itonami": "*"
   },
   "profile": {
     "layout": "hermes-profile",
-    "repository": "kotoba-lang/ws-valueflo-algorithms",
+    "repository": "cloud-itonami/app-itonami-ws-valueflo-algorithms",
     "commit": "94e7a01578469d5e192882c3aca503f05d00585b",
     "path": "hermes/profiles/wiki-valueflow-crawl",
     "checksum": "sha256-tree:f78ca619f8740cef4eaaf9be6ff29bc3ae6ea268d80078caa19eb62279149d40",

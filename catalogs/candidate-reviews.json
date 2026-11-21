@@ -1349,7 +1349,7 @@
       "profilesModified": false
     },
     {
-      "repository": "kotoba-lang/utsushi",
+      "repository": "cloud-itonami/app-itonami-utsushi",
       "commit": "9f6ce1ed0075cb98653b6eef28010e06ac258f1a",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -1359,17 +1359,17 @@
         {
           "path": "LICENSE",
           "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
-          "url": "https://github.com/kotoba-lang/utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/LICENSE"
+          "url": "https://github.com/cloud-itonami/app-itonami-utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "25b6d227956ddf543e08dd0db7c9047603f726c993c4769abba572a7edacddf9",
-          "url": "https://github.com/kotoba-lang/utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/README.md"
+          "url": "https://github.com/cloud-itonami/app-itonami-utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/README.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "1d8dc9619ad6e0c42b68a150996787a70ad96f2a61968a7f0d47b9402f7d79ff",
-          "url": "https://github.com/kotoba-lang/utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/nbb.edn"
+          "url": "https://github.com/cloud-itonami/app-itonami-utsushi/blob/9f6ce1ed0075cb98653b6eef28010e06ac258f1a/nbb.edn"
         }
       ],
       "liveOperations": false,
