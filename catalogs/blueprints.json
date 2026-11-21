@@ -2,7 +2,7 @@
   "schemaVersion": "itonami.blueprint-sources.v1",
   "observedOn": "2026-11-17",
   "method": "GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.",
-  "count": 484,
+  "count": 528,
   "entries": [
     {
       "id": "blueprint/aburi",
@@ -17639,6 +17639,1478 @@
         {
           "path": "kotoba.app.edn",
           "sha256": "6f171c32a0f25f9ce9e6b963ca45a98a911e8670c57b98647aea050ab7373c5a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/fleamarket",
+      "repository": "cloud-itonami/app-itonami-fleamarket",
+      "commit": "cbd0615b69162706f27f53d5608f5ff129a2ad95",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "fleamarket",
+        "domain": "commerce/c2c-marketplace",
+        "isic": "4790",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3802408ad0a482af1293edb54d9e677999aa4cdceddb2cc6312f75b634667a34"
+        },
+        {
+          "path": "README.md",
+          "sha256": "994015d522442f5a4619bccd64cc9814943c9c960dcb9e82d795f4db1dd96785"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/flight-offer",
+      "repository": "cloud-itonami/app-itonami-flight-offer",
+      "commit": "f6367a00df4da076dc16c513b8fcb947c8ef371a",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "flight-offer",
+        "domain": "aviation/fare-aggregation",
+        "isic": "5232",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "45f8ad628350a7bdee888442bedd2c34d2c16cbb41daf46e9932f36eb1a02ed5"
+        },
+        {
+          "path": "README.md",
+          "sha256": "fdabcff76517c777a00381fa187ae470ec474150aa7635ad55ca1bbd96530272"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/fm",
+      "repository": "cloud-itonami/app-itonami-fm",
+      "commit": "770029c238e65d4b87873689459c74ac6bcaab47",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "fm",
+        "domain": "finance/fund-baseline",
+        "isic": "6630",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8019ad9b4ca1ba73c61778d98601e8db8d690ba70de63ecbda967fdaddc8a950"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b1dd12d32e404f13c5f6c9f8f4b94318be501acb4774139260788f5f4af886a3"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/fuchi",
+      "repository": "cloud-itonami/app-itonami-fuchi",
+      "commit": "1d3184a246f3fb374737159ca443e3d9159f45b0",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "fuchi",
+        "domain": "finance/maintainer-allocation",
+        "isic": "6499",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "e06481e8bc9e6aad999905dbac3fc9011fd67bb71e9cf487c3d7dc1ee3c3319c"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d21d0f3958e4c157d9b4d3030cf873057aed5c4aa97bce6ec44e2d878123ed5f"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/game-play-uploader",
+      "repository": "cloud-itonami/app-itonami-game-play-uploader",
+      "commit": "98192e6a24c5da45ad7739237f600952175b7833",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "game-play-uploader",
+        "domain": "games/gameplay-recording-campaign",
+        "isic": "7499",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6e8d7e5e31607087a57955c4e32159d75604cd2d744e72bce165bc1581dcec33"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7cb6b0aef9f48be4aa9787f8cf94ae8c48138285fd783145c8787bbfd0d3a676"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gameka-business",
+      "repository": "cloud-itonami/app-itonami-gameka-business",
+      "commit": "8a785d9e9ebb89e5787488f351e8737a92cbcd6b",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gameka-business",
+        "domain": "games/game-making",
+        "isic": "6211",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8214b48a067230cc5976c61300c33e612ae6d95953e25be82a6a0f2b8dbd4bb1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "ea984e596fa56f96b8fa6bd85eb26e536de1aac7b3f81de57c88d0ca46c2690f"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/games",
+      "repository": "cloud-itonami/app-itonami-games",
+      "commit": "eeac60064a6bea588fe8a1c999bdfd52282b8254",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "games",
+        "domain": "games/game-platform",
+        "isic": "6211",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "387094ca753e1444af4b5557b671aef360243248a4bcf8ecb9103bfde7810b63"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b919b9d7042afbbd5b63b562ccb868fb41fa7c5129d8389e3f5d6ed32eaa65cc"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gameya",
+      "repository": "cloud-itonami/app-itonami-gameya",
+      "commit": "ee7c73bd7c59b62004230e3ac9aaff8a26374529",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gameya",
+        "domain": "games/arcade",
+        "isic": "5821",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "618f1d801147191d651c56103cee3f7794574831553f22ca14b74a1af5e80554"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e9248f467890de244a221c06b1a3504f37c69d0001158b7c25030828be6de5bf"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/genko",
+      "repository": "cloud-itonami/app-itonami-genko",
+      "commit": "1b2df992b2e156de7e037640c450e780b3a315be",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "genko",
+        "domain": "software/manga-editor",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a57df0efb87b3ad10718434fdac84459e8bf85cb0279eafaed2c7e39a889ee35"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7d08c933edd437813a80796e9d87c1256f9b213d8540ea3d8334b53dfe93522a"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "74290d3426046548e8ca24fb8f5a9a3c861009e38a0ee07d28a5dbc52d6ce56a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/global-resource-flow",
+      "repository": "cloud-itonami/app-itonami-global-resource-flow",
+      "commit": "e172147f21abc7f5351fe08a9e7236bb8c26f9a3",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "global-resource-flow",
+        "domain": "software/resource-flow",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "84a53abee13d400a07170f3b6ae172c1237f4de98580045e2c6e6b682906d11a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7377c021632c0a59ad9185850d618bd82db0efa48d335d45d674c1f9e404d8c3"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gol-d-roger",
+      "repository": "cloud-itonami/app-itonami-gol-d-roger",
+      "commit": "a58528c200a837ef72f8d849a0c91a62dc38bd38",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gol-d-roger",
+        "domain": "finance/gold-asset-management",
+        "isic": "6630",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "04403af75241e1a92c78c8d96c84e5c7ed76c18e53ea97e9f3268c9fdd2e1061"
+        },
+        {
+          "path": "README.md",
+          "sha256": "5e03df1e6ea35ced8dcb43358b733010fff277802ecab9e7584c8fb2275543b3"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/google-workspace-ingest",
+      "repository": "cloud-itonami/app-itonami-google-workspace-ingest",
+      "commit": "e1049bd657f5ad534b290859d2990d452be66374",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "google-workspace-ingest",
+        "domain": "it/workspace-ingest",
+        "isic": "6310",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "680cf0b905764e80ffc0b37df6440258411ae3bbd3e2eb1b8e75c3e9509bbc5c"
+        },
+        {
+          "path": "README.md",
+          "sha256": "2c1910a19b53a2ab5be99fed33ab4a872b24f9e02325665cac1089bb0bcaa68a"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gov",
+      "repository": "cloud-itonami/app-itonami-gov",
+      "commit": "8249bf5546f5c9ef3c8b7197fe81e769315a6d52",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gov",
+        "domain": "government/public-registry",
+        "isic": "8411",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d7967f59e8d9925c713a666b82624c30c9cc8d2edeb7d06b56947fa229b9c247"
+        },
+        {
+          "path": "README.md",
+          "sha256": "f426119fc9d0bf4c1c6ffd0b857cf0681c7c9820281ff334ef5b80201b5ba31b"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gov-municipality",
+      "repository": "cloud-itonami/app-itonami-gov-municipality",
+      "commit": "badc20eff6f33e1fc35d939ce9b5b1d7dc64ad17",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gov-municipality",
+        "domain": "government/regulatory-permitting",
+        "isic": "8411",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7a09ec39d9f0d238a73e7468af2aa47bfb2449b5abce7963c80bb3baf74ee26b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "0ddb883ac03263469b8bd85d210682a8be94f00e40b30f3bb8a8effa7eccb35a"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "01c3a2e0364e87ab5886a2d743783649ef3211852012b7fa1cb708f21e1602f6"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gtin",
+      "repository": "cloud-itonami/app-itonami-gtin",
+      "commit": "0ac552bf1559ce921852650133b41f93413f5660",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gtin",
+        "domain": "commerce/product-barcodes",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "4e5edec979bb3ac4e78a78511b9935cd1d60dcef86c8c031299a529d7936d67e"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d3266df46805cb07dcb35a6baabdb7dadf052a482fa2bf4641c9f69adf894c22"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/gyotaku",
+      "repository": "cloud-itonami/app-itonami-gyotaku",
+      "commit": "52a7e140b971963230615306f2ae3b3108ee7de0",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "gyotaku",
+        "domain": "archive/web-archive",
+        "isic": "9112",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "886711ddf7a6fdb7d43ba95ea67677bb039c6209675a1bb5d801579e4fb26fd3"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c3f0418b23e9163c293b8ec3f8b7947851b82eb08999c843915203bf973c4abb"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hakken",
+      "repository": "cloud-itonami/app-itonami-hakken",
+      "commit": "9f7e4749ae2b2036e67c7e544e156fe41a4bcc05",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hakken",
+        "domain": "commerce/oem-price-comparison",
+        "isic": "7320",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "c7c521be48dbb1c79a78529919893bbde5c232d99761c25b230d299e35e64c37"
+        },
+        {
+          "path": "README.md",
+          "sha256": "bbe23b3a16a8e352a2dd8b7475b46b01ea12c92d5d52fba3805db1108a910209"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hakken-runtime",
+      "repository": "cloud-itonami/app-itonami-hakken-runtime",
+      "commit": "181517733ffbb0cf9ea5190f46530b4bc3d3b4c0",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hakken-runtime",
+        "domain": "commerce/oem-sales-phase",
+        "isic": "7320",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "f10df61ef5f7cf91e613040fb004cb1ca77badc71fc78026e9f62df9aec14323"
+        },
+        {
+          "path": "README.md",
+          "sha256": "bf9a627b8496d4427a10b0d4771ba33ad5facb084a80a8f4b88f74debb8efcae"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hakoniwa",
+      "repository": "cloud-itonami/app-itonami-hakoniwa",
+      "commit": "c492f546bc2a4b74d53e1462a31c3eaad9ff7f18",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hakoniwa",
+        "domain": "research/forward-simulation",
+        "isic": "7220",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "5766e15635a57579238293cb8e4fd7914970ffda0e7e3d773f15c39561053dc1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e5579dc216f585b832dd0b49f93193b24e274287c13db87bce268bfbe7b241f5"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "ac7733f3efaaa1e25e7142ca7ab34f480b9964bbad1c1f18e1be72bccbc89d77"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/handotai",
+      "repository": "cloud-itonami/app-itonami-handotai",
+      "commit": "2d02b42e60103d6f68a1dbc1019cdbdf6fbee508",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "handotai",
+        "domain": "industry/semiconductor-supply-chain",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3b41beb0931d29a76bc3f9295b35be0d43a6748c626509bce66f454ff5f76764"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e2982ea1566e0902bd5d24ee6de75f53d2efe7387fd6285d00ae0c67643f4d0d"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/handotai-actor",
+      "repository": "cloud-itonami/app-itonami-handotai-actor",
+      "commit": "7c03724f8ed9dafdcd6bdbcd8e6620fa66114d28",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "handotai-actor",
+        "domain": "industry/semiconductor-supply-chain",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "207022bfbf5e142715d9ab321ad64de326ecd56ac9670fc2957c1cad5a9c4168"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c2b32868fe99811bef44147da83f4f4f0bc02e921e00ab0751adc464df7e4f43"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "aef97c93b88d3c81f70b40586f3049f8a744ffcf6e6bcd2ca8188524d4bea70c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hanmoto",
+      "repository": "cloud-itonami/app-itonami-hanmoto",
+      "commit": "d210b8769bbfaad843fe3e1cec133d1644374813",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hanmoto",
+        "domain": "publishing/publisher-register",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "66b563a7c51974f7fd7702f4bb7039d696240d589f245a1d7bf930e94f043361"
+        },
+        {
+          "path": "README.md",
+          "sha256": "dd9e2a3c78fefa21b12eaec36629b65de9a4da5ca39abb79c9cdb31c55bc1dfc"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "a28bb6c73256c5315f1e6ef7be321f0e06fda762630e68f3647cbbac003be147"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hanrei",
+      "repository": "cloud-itonami/app-itonami-hanrei",
+      "commit": "9ad88e06efe2167d91581f44fcbf045f095112b7",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hanrei",
+        "domain": "legal/case-law-intelligence",
+        "isic": "6910",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "d630e5f309f997bf529d922f9f0565599dd3125c3847382982b0fb96225b9936"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7748855510489c7be26a32df0dd878965267127e91b3e1c870a799375ef83aff"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/harai",
+      "repository": "cloud-itonami/app-itonami-harai",
+      "commit": "780a6578309fbf6c26db09782943c7d83bbbcee4",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "harai",
+        "domain": "finance/payment-settlement",
+        "isic": "6619",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "7c9fb671cb11a7be5f8683329b8baf9212d6e68071c27dc1dbddd79597c4648d"
+        },
+        {
+          "path": "README.md",
+          "sha256": "de6c7a3e9db43c36bab13d1c3936f8409937bc50f7da9f5a5c1a906519ee176c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hayari",
+      "repository": "cloud-itonami/app-itonami-hayari",
+      "commit": "31fe8291135b173ada4557240cc8af095b32429b",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hayari",
+        "domain": "media/trend-observatory",
+        "isic": "7320",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "b9712dc7394abf67dfe96e994413ed33da0da7e4f522eb808a2e6716383a8929"
+        },
+        {
+          "path": "README.md",
+          "sha256": "58ee57c35cbbc8ebcc47ac723b11b20a95cb0f2b07e933543dcce387035a21e0"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hc",
+      "repository": "cloud-itonami/app-itonami-hc",
+      "commit": "5062ae76b451e72be2b509f2f969699fecb05780",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hc",
+        "domain": "labor/gig-marketplace",
+        "isic": "7820",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "712fd55f016bc8f57e0f13657b1d84ca7a223818dfec2f3dea1ff5cd4127b4af"
+        },
+        {
+          "path": "README.md",
+          "sha256": "395d23d30860413f7e066fe3246570873f3d45f4e846c826198a126361146dc8"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/himotoki",
+      "repository": "cloud-itonami/app-itonami-himotoki",
+      "commit": "656e59f419459555372e9caa2756839bb8de9ac5",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "himotoki",
+        "domain": "legal/disclosure-requests",
+        "isic": "6910",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "ae642a40cdfb589727a0a1da6aceffba64841792bfd21934c1839ef83b8ef283"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7445fa37000a436ebbd33da0ea2827791b84bcde4150bb0b993ea07782c04421"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "ea5e78fcc2ab97dcd9475ac4e16ae0f4cb0a11e9d7901b5c00cbbb5e465e8c27"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hirameki",
+      "repository": "cloud-itonami/app-itonami-hirameki",
+      "commit": "ddd51694d2a020ea56b8f62619b5b3ed7d8ab0fe",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "hirameki",
+        "domain": "research/patent-commons",
+        "isic": "7220",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "cc0077c1f3e83983587b166705b76bb0de10fded2657767ab82b8d6fb90f8df8"
+        },
+        {
+          "path": "README.md",
+          "sha256": "6f1f69a1fadc6cda261e7f2e431c759b8d57b44248b1d2b8456960e032e909d3"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "658404d9c7c630455927967e633a32d893f4ff621f9648d8e0eb771746d69d67"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "unknown",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hokorobi",
+      "repository": "cloud-itonami/app-itonami-hokorobi",
+      "commit": "0c416e5151d1b11567175c1fc1c90dbaf50f128f",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hokorobi",
+        "domain": "research/systemic-resilience",
+        "isic": "7220",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "0eedd178a9df8f147759660901c0ed5dad7c6b3dae0e0825edc42492a831c815"
+        },
+        {
+          "path": "README.md",
+          "sha256": "4711a5b76a6055f0c088018f77485fb043419ee84aa63df4978b51f5f20338be"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "39acda3ba3d32b86b2130a0a2b95540b94798d184b72eca772fe6ad050da3049"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hoshimori",
+      "repository": "cloud-itonami/app-itonami-hoshimori",
+      "commit": "99872dedea4970a60ccff7e6748bcac8b089e454",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hoshimori",
+        "domain": "research/orbital-stewardship",
+        "isic": "7210",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "5e7c41e26c031b24efd30c049eb9a49560cd36952f1844f7621a6294cf3112dc"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1aefc509eb5484c17bc44f8b924d33acd5dfa16d4f3152942eb4e61e457074ad"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "92f1a1bc0b90bff191fa7901cf013bca5c0a1b8f9d0ec093a8208b82a24855a7"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hospitality",
+      "repository": "cloud-itonami/app-itonami-hospitality",
+      "commit": "3bf8c08239534410d6c6b0c132afff0da8d6d476",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "hospitality",
+        "domain": "hospitality/hotel-roster",
+        "isic": "5510",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8586ba60ffad5d345c4d9c49c7a51631906b22ad2f0a386e1ca42192d99bb904"
+        },
+        {
+          "path": "README.md",
+          "sha256": "00e69a27269dca22782cf90c2341c6813f92430052b70bd9c7f8f9151414a7f7"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/houbun",
+      "repository": "cloud-itonami/app-itonami-houbun",
+      "commit": "e5e1a67e962aebe63d0306082dd8404fba6b5894",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "houbun",
+        "domain": "legal/statute-corpus",
+        "isic": "6910",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "b7eca92e7777da51c45d19287682a5c54f20f66e8c268e1f16281cc9c0afc931"
+        },
+        {
+          "path": "README.md",
+          "sha256": "35e73578c7d18f589b24bd29f707c86d27a958f4c16290505f9303674e8f7341"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/houki",
+      "repository": "cloud-itonami/app-itonami-houki",
+      "commit": "742cf0fa588f29f22ea1b1a2b86a56413f72c99b",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "houki",
+        "domain": "legal/corporate-legal-documents",
+        "isic": "6910",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "fc666484a03c47893dfd2a2af5dd147b06a8ea56342987adb55f82e36c292a9d"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1d568248eea600e23466fa4400ff97af1d9503a149bb5bbcee49c03368f38c97"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/hygaccess-plant",
+      "repository": "cloud-itonami/app-itonami-hygaccess-plant",
+      "commit": "9e40738abd8b201914f80e381ed8383725a1db40",
+      "visibility": "public",
+      "archived": false,
+      "license": "Apache-2.0",
+      "keys": {
+        "blueprint": "hygaccess-plant",
+        "domain": "design/product-visualization",
+        "isic": "7410",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "e32d1a5c2ca4d637eee9981b118ddc555f78dc8cbb61ca7378375a19c4afbe0a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b100eb03947c67f4d65cd72cf3e2bd2efa05128fb1d5d4e8b4c96f870a7487db"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "ec74813c37d17cd942b5e630ae0388fe5d3f0be043cec80d5fa9e76860a4e89c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/ibuki",
+      "repository": "cloud-itonami/app-itonami-ibuki",
+      "commit": "822a70b0eb4060d115514b609d6ae9b355bcda8f",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "ibuki",
+        "domain": "software/organism-autonomy",
+        "isic": "6290",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8f241743536c30c68600297962a7c786364ed3294aab8811d9eaeb7dfe146bda"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d3fa3c273f9a2c6006eac4b6a6ddeadfe208ae3977a11fcd05fb26e71ce86896"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/image2metahuman",
+      "repository": "cloud-itonami/app-itonami-image2metahuman",
+      "commit": "3bbdc3b37f7dc41bf9d580f643087c464b4527e6",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "image2metahuman",
+        "domain": "software/avatar-generation",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "3324c4485c0a6a58e0dbc04e11d57d646cddea504aa1b1d9085c4256ff184a49"
+        },
+        {
+          "path": "README.md",
+          "sha256": "135e20a268d5fa8b28f6ab0cfbd002198a87b3a436e103535aaaf4888cabb064"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/image2vrm",
+      "repository": "cloud-itonami/app-itonami-image2vrm",
+      "commit": "e22ec44a4f022c72a074387d489d4921d7b60e10",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "image2vrm",
+        "domain": "software/avatar-generation",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "a9bc12d1801826b2393969ed47c89a91977bb5e10198579b478e9ac5c1db9256"
+        },
+        {
+          "path": "README.md",
+          "sha256": "f1e325bcfa7dfbbd923a7fb280fced343407cdd21c221f234276619cbedd5599"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/inga-node",
+      "repository": "cloud-itonami/app-itonami-inga-node",
+      "commit": "621693f523f4ece143853d06f66052ebbd2596cc",
+      "visibility": "public",
+      "archived": false,
+      "license": "MIT",
+      "keys": {
+        "blueprint": "inga-node",
+        "domain": "network/peer-node",
+        "isic": "6310",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "82c61bfa6e815f81b2c05368bacd12b2099561e78e753267cae206bd43272ddb"
+        },
+        {
+          "path": "README.md",
+          "sha256": "580473db51061b0413a44b98ef23817cbc3a9c6ea224afd41b4d2eb89edb1b41"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "7bf0f746f87819f6c674b12df06ee2e09cac0bac3968213880d9856717d6bcb4"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/inkan",
+      "repository": "cloud-itonami/app-itonami-inkan",
+      "commit": "f3e5deeebc660c4627783b300a501baf7c59234f",
+      "visibility": "public",
+      "archived": false,
+      "license": "MIT",
+      "keys": {
+        "blueprint": "inkan",
+        "domain": "software/seal-typesetting",
+        "isic": "5829",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "fe4dffacba69f93036cc71314d6d59f7dd838a72654f9bead195e607bca4b283"
+        },
+        {
+          "path": "README.md",
+          "sha256": "9cd72cb66cd5679278e89653d09ff2f3f50a78e772bb1f1bd744826cfe9978db"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "3b43f34b12cd62a2ffd97c222f82143305e96de08659fcf050b9c61eeb8b8387"
+        },
+        {
+          "path": "facts.edn",
+          "sha256": "e57429753eb601f5b62909c3865c12681ec74826a03ae656de9005268ca6de15"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/inochi",
+      "repository": "cloud-itonami/app-itonami-inochi",
+      "commit": "0d7ef1091b57fd0b87349f358833ed665a6f4f6e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "inochi",
+        "domain": "research/living-world",
+        "isic": "7210",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "fde3618cf426647dc0a09686e6af20a36617ab45bf923eb4c9d6615d90e750ce"
+        },
+        {
+          "path": "README.md",
+          "sha256": "d4c84b0f02054fc0f0889eca78236e27288cf999e143cdadb52d19cbd146e790"
+        },
+        {
+          "path": "kotoba.app.edn",
+          "sha256": "fead6a4c808265c048735828716de5902c748e84fa3c9a3b8efcdb1a98fd636f"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/insatsu",
+      "repository": "cloud-itonami/app-itonami-insatsu",
+      "commit": "2af32f64b699250e0c3e09069092ea7728c71a4e",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "insatsu",
+        "domain": "printing/cloud-print",
+        "isic": "1811",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "6485b29bafc48675142b8dd6c27a4eb3f2044d47b22f8951a99f0ad858c9ab29"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b96a4bee522524e62a9adc59a86ac13237969fc2494ef3178bf0ccd58e54caf0"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/intel",
+      "repository": "cloud-itonami/app-itonami-intel",
+      "commit": "d041065db3aa7ebdc732e6b906574c86d465497c",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "intel",
+        "domain": "security/intelligence-fusion",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "8ec649a406e1fedc62e012d1de28c4f83e45a033f9d7f2c586830fd836e49ee4"
+        },
+        {
+          "path": "README.md",
+          "sha256": "2d1835dfc575383cc8e5e7c6b12a75106c4e4c7cc09c2d666f6d5a849db93eed"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/ipaddress",
+      "repository": "cloud-itonami/app-itonami-ipaddress",
+      "commit": "9aee71e85b6a0ae74cea233b2a4c8b2c631f9469",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "ipaddress",
+        "domain": "network/ip-registry",
+        "isic": "6390",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "206a84412257629b6e2a0daa091f68430036fc9ea20644cebb1bb78d70b112a3"
+        },
+        {
+          "path": "README.md",
+          "sha256": "fba7698f95be81f61ff3a032920bab9bafb11ef2de78bee9126784e96cb4610c"
+        }
+      ],
+      "digestStatus": "verified",
+      "status": "repository-owned",
+      "authority": {
+        "grants": false,
+        "default": "blocked"
+      },
+      "runtime": "none",
+      "handlesUserDataOrExternalComms": "unknown"
+    },
+    {
+      "id": "blueprint/iriai",
+      "repository": "cloud-itonami/app-itonami-iriai",
+      "commit": "b461e79f57c6dc42a37b567f66fbdf03144904ab",
+      "visibility": "public",
+      "archived": false,
+      "license": "NOASSERTION",
+      "keys": {
+        "blueprint": "iriai",
+        "domain": "research/lifeline-commons",
+        "isic": "7220",
+        "classification": "isic-rev5"
+      },
+      "payload": [
+        {
+          "path": "blueprint.edn",
+          "sha256": "185ed77e39c9e48d5e478a75c79dfc1ed326cb76ca6169fe2209bfabfcb8582a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "dd516ba3d2e7bcaae720a5a3221a3ab84d9e9fbfe42ff3d78201f6d9dde492e8"
         }
       ],
       "digestStatus": "verified",
