@@ -24,6 +24,12 @@ class SkipSourcesTests(unittest.TestCase):
         pointers = json.loads((ROOT / 'catalogs/profile-pointers.json').read_text())['profiles']
         self.assertEqual(sum(p.get('repository') == ISCO for p in pointers), 8)
 
+    def test_org_unspsc_listed_and_kept(self):
+        repo = 'cloud-itonami/app-itonami-org-unspsc'
+        self.assertIn('UNDP', skip_sources.load(ROOT)[repo])
+        apps = json.loads((ROOT / 'catalogs/apps.json').read_text())['entries']
+        self.assertTrue(any(e['repository'] == repo for e in apps))
+
     def test_profile_status_does_not_fetch_skipped(self):
         entries = [{'id': 'x', 'repository': ISCO, 'commit': '0' * 40, 'path': 'hermes/profiles/x',
                     'checksum': 'sha256-tree:' + '0' * 64}]

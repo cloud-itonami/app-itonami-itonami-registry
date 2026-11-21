@@ -22,6 +22,8 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+import skip_sources
+
 ROOT = Path(__file__).resolve().parents[1]
 ORG = 'cloud-itonami'
 SCHEMA_VERSION = 'itonami.app-sources.v1'
@@ -105,10 +107,16 @@ def main():
     ap.add_argument('--out', default=str(ROOT / 'catalogs/apps.json'))
     args = ap.parse_args()
     out = Path(args.out)
-    names = [e['repository'].split('/', 1)[1] for e in json.loads(out.read_text())['entries']] if out.exists() else []
-    names = sorted(set(names) | set(args.add))
+    prior = json.loads(out.read_text())['entries'] if out.exists() else []
+    names = sorted({e['repository'].split('/', 1)[1] for e in prior} | set(args.add))
+    skipped = skip_sources.load(ROOT)
+    kept = {e['repository']: e for e in prior if e['repository'] in skipped}
+    for repository in sorted(kept):
+        print(skip_sources.note(repository, skipped[repository], 'refresh; entry kept unchanged'), file=sys.stderr)
+    fetch = [n for n in names if f'{ORG}/{n}' not in skipped]
     with cf.ThreadPoolExecutor(6) as ex:
-        entries = [e for e in ex.map(entry, names) if e]
+        built = dict(zip(fetch, ex.map(entry, fetch)))
+    entries = [e for e in (kept.get(f'{ORG}/{n}') or built.get(n) for n in names) if e]
     doc = {'schemaVersion': SCHEMA_VERSION, 'observedOn': args.observed_on, 'method': METHOD,
            'count': len(entries), 'entries': entries}
     out.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + '\n')

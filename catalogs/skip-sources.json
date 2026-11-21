@@ -7,6 +7,11 @@
       "reason": "ISCO-08 の ILO 許諾待ち（Legal、AWAI-3629）",
       "since": "2026-11-22",
       "issue": "AWAI-3629"
+    },
+    {
+      "repository": "cloud-itonami/app-itonami-org-unspsc",
+      "reason": "UNSPSC の UNDP 許諾待ち（Legal、Owner bot）",
+      "since": "2026-11-22"
     }
   ]
 }
