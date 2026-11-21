@@ -79,3 +79,46 @@ class ClassificationKeyTests(unittest.TestCase):
         schema = json.loads((ROOT / 'schemas/blueprint-sources.schema.json').read_text())
         enum = schema['properties']['entries']['items']['properties']['keys']['properties']['classification']['enum']
         self.assertEqual(sorted(enum), sorted(CLASSIFICATION_KEYS))
+
+
+class OwnerAllowListTests(unittest.TestCase):
+    def test_cloud_itonami_ids_unchanged(self):
+        # every published cloud-itonami entry keeps the id the old builder derived
+        import build_blueprint_catalog as b
+        doc = json.loads((ROOT / 'catalogs/blueprints.json').read_text())
+        for e in doc['entries']:
+            owner, name = b.split_repository(e['repository'])
+            if owner == 'cloud-itonami':
+                self.assertEqual(b.entry_id(owner, name), e['id'])
+
+    def test_network_awai_namespaced(self):
+        import build_blueprint_catalog as b
+        self.assertEqual(b.entry_id('network-awai', 'app-yotei'), 'blueprint/network-awai/app-yotei')
+        self.assertEqual(b.split_repository('app-itonami-kaikei'), ('cloud-itonami', 'app-itonami-kaikei'))
+
+    def test_other_owner_refused(self):
+        import build_blueprint_catalog as b
+        with self.assertRaises(SystemExit):
+            b.split_repository('kotoba-lang/kotoba')
+
+    def test_trusted_page_outside_baseline_not_built(self):
+        import build_blueprint_catalog as b
+        self.assertIsNone(b.entry('network-awai/app-yotei'))
+
+    def test_entry_shape_unchanged_for_cloud_itonami(self):
+        # stubbed GitHub: a cloud-itonami entry has the same fields, in the same order, as the published ones
+        import build_blueprint_catalog as b
+        published = json.loads((ROOT / 'catalogs/blueprints.json').read_text())['entries'][0]
+        meta = {'visibility': 'PUBLIC', 'isFork': False, 'isArchived': False, 'licenseInfo': {'spdxId': 'MIT'},
+                'defaultBranchRef': {'target': {'oid': '0' * 40}}}
+        bodies = {'blueprint.edn': b'{:itonami.blueprint/id "x" :itonami.blueprint/isic-rev5 "6290"}'}
+        gh, raw = b.gh_repo, b.raw
+        b.gh_repo = lambda owner, name: meta
+        b.raw = lambda owner, name, commit, path: bodies.get(path)
+        try:
+            e = b.entry('app-itonami-x')
+        finally:
+            b.gh_repo, b.raw = gh, raw
+        self.assertEqual(e['id'], 'blueprint/x')
+        self.assertEqual(e['repository'], 'cloud-itonami/app-itonami-x')
+        self.assertEqual(list(e), list(published))

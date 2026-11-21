@@ -7,7 +7,7 @@ raw.githubusercontent.com. Copies no repository content and executes nothing fro
 repositories. Membership is a reviewed declaration kept in the catalog itself: a refresh keeps
 the repositories already listed; `--add NAME` lists a new one.
 
-    build_blueprint_catalog.py [--add NAME ...] [--observed-on YYYY-MM-DD] [--out catalogs/blueprints.json]
+    build_blueprint_catalog.py [--add [OWNER/]NAME ...] [--observed-on YYYY-MM-DD] [--out catalogs/blueprints.json]
 """
 import argparse
 import concurrent.futures as cf
@@ -27,7 +27,11 @@ import skip_sources
 import app_runtime
 
 ROOT = Path(__file__).resolve().parents[1]
-ORG = 'cloud-itonami'
+ORG = 'cloud-itonami'  # default owner for a bare --add NAME
+# Owners the catalog may list (fixed allow-list). cloud-itonami entries keep their historical id
+# (blueprint/<stem>); entries of any other allowed owner are namespaced (blueprint/<owner>/<stem>) so
+# that two owners' repositories with the same name cannot collide.
+ALLOWED_ORGS = ('cloud-itonami', 'network-awai')
 SCHEMA_VERSION = 'itonami.blueprint-sources.v1'
 METHOD = ('GitHub GraphQL default-branch commit, visibility and license; payload sha256 read from the pinned '
           'commit over raw.githubusercontent.com. Repository content is not copied and nothing is executed.')
@@ -48,22 +52,23 @@ CLASSIFICATION_KEYS = {
 BP_CODE = re.compile(r':itonami\.blueprint/(' + '|'.join(map(re.escape, CLASSIFICATION_KEYS)) + r')\s+"([^"]+)"')
 STEM_PREFIX = re.compile(r'^(app-itonami-)')
 RUNTIME = app_runtime.load(ROOT)
+TRUSTED_BASELINE = set(RUNTIME['trustedPageV1Baseline']['repositories'])
 
 
-def gh_repo(name):
+def gh_repo(owner, name):
     q = ('query($o:String!,$n:String!){repository(owner:$o,name:$n){visibility isArchived isFork '
          'licenseInfo{spdxId} defaultBranchRef{target{... on Commit{oid}}}}}')
     for attempt in range(5):
-        p = subprocess.run(['gh', 'api', 'graphql', '-f', f'query={q}', '-f', f'o={ORG}', '-f', f'n={name}'],
+        p = subprocess.run(['gh', 'api', 'graphql', '-f', f'query={q}', '-f', f'o={owner}', '-f', f'n={name}'],
                            capture_output=True, text=True)
         if p.returncode == 0:
             return json.loads(p.stdout)['data']['repository']
         time.sleep(2 + attempt * 2)
-    raise SystemExit(f'GitHub lookup failed: {name}\n{p.stderr[:200]}')
+    raise SystemExit(f'GitHub lookup failed: {owner}/{name}\n{p.stderr[:200]}')
 
 
-def raw(name, commit, path):
-    url = f'https://raw.githubusercontent.com/{ORG}/{name}/{commit}/{path}'
+def raw(owner, name, commit, path):
+    url = f'https://raw.githubusercontent.com/{owner}/{name}/{commit}/{path}'
     for attempt in range(4):
         try:
             return urllib.request.urlopen(url, timeout=30).read()
@@ -76,15 +81,35 @@ def raw(name, commit, path):
     raise SystemExit(f'fetch failed: {url}')
 
 
-def entry(name):
-    meta = gh_repo(name)
+def split_repository(value):
+    """'owner/name' or a bare 'name' (cloud-itonami) -> (owner, name); refuses owners off the allow-list."""
+    owner, _, name = value.rpartition('/')
+    owner = owner or ORG
+    if owner not in ALLOWED_ORGS or not name or '/' in owner:
+        raise SystemExit(f'owner not on the allow-list {ALLOWED_ORGS}: {value}')
+    return owner, name
+
+
+def entry_id(owner, name):
+    stem = STEM_PREFIX.sub('', name)
+    return f'blueprint/{stem}' if owner == ORG else f'blueprint/{owner}/{stem}'
+
+
+def entry(repository):
+    owner, name = split_repository(repository)
+    rt = app_runtime.fields(RUNTIME, f'{owner}/{name}')
+    if rt['runtime'] == 'trusted-page-v1' and f'{owner}/{name}' not in TRUSTED_BASELINE:
+        print(f'skipped (trusted-page-v1, counted in catalogs/app-runtime.json only; register after it moves '
+              f'to restricted-wasm-v1): {owner}/{name}', file=sys.stderr)
+        return None
+    meta = gh_repo(owner, name)
     if meta['visibility'] != 'PUBLIC' or meta['isFork']:
         print(f'skipped (not a public non-fork repository): {name}', file=sys.stderr)
         return None
     commit = meta['defaultBranchRef']['target']['oid']
     payload, keys = [], {}
     for path in PAYLOAD:
-        body = raw(name, commit, path)
+        body = raw(owner, name, commit, path)
         if body is None:
             continue
         payload.append({'path': path, 'sha256': hashlib.sha256(body).hexdigest()})
@@ -108,8 +133,8 @@ def entry(name):
         print(f'skipped (blueprint.edn has no :itonami.blueprint/id): {name}', file=sys.stderr)
         return None
     return {
-        'id': 'blueprint/' + STEM_PREFIX.sub('', name),
-        'repository': f'{ORG}/{name}',
+        'id': entry_id(owner, name),
+        'repository': f'{owner}/{name}',
         'commit': commit,
         'visibility': 'public',
         'archived': bool(meta['isArchived']),
@@ -119,7 +144,7 @@ def entry(name):
         'digestStatus': 'verified',
         'status': 'repository-owned',
         'authority': {'grants': False, 'default': 'blocked'},
-        **app_runtime.fields(RUNTIME, f'{ORG}/{name}'),
+        **rt,
     }
 
 
@@ -131,15 +156,16 @@ def main():
     args = ap.parse_args()
     out = Path(args.out)
     prior = json.loads(out.read_text())['entries'] if out.exists() else []
-    names = sorted({e['repository'].split('/', 1)[1] for e in prior} | set(args.add))
+    names = sorted({e['repository'] for e in prior} | {'/'.join(split_repository(a)) for a in args.add},
+                   key=lambda r: (r.split('/', 1)[0] != ORG, r.split('/', 1)[1], r))
     skipped = skip_sources.load(ROOT)
     kept = {e['repository']: e for e in prior if e['repository'] in skipped}
     for repository in sorted(kept):
         print(skip_sources.note(repository, skipped[repository], 'refresh; entry kept unchanged'), file=sys.stderr)
-    fetch = [n for n in names if f'{ORG}/{n}' not in skipped]
+    fetch = [n for n in names if n not in skipped]
     with cf.ThreadPoolExecutor(6) as ex:
         built = dict(zip(fetch, ex.map(entry, fetch)))
-    entries = [e for e in (kept.get(f'{ORG}/{n}') or built.get(n) for n in names) if e]
+    entries = [e for e in (kept.get(n) or built.get(n) for n in names) if e]
     doc = {'schemaVersion': SCHEMA_VERSION, 'observedOn': args.observed_on, 'method': METHOD,
            'count': len(entries), 'entries': entries}
     out.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + '\n')

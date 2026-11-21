@@ -48,11 +48,11 @@
         "properties": {
           "id": {
             "type": "string",
-            "pattern": "^blueprint/[A-Za-z0-9_.-]+$"
+            "pattern": "^blueprint/(network-awai/)?[A-Za-z0-9_.-]+$"
           },
           "repository": {
             "type": "string",
-            "pattern": "^cloud-itonami/[A-Za-z0-9_.-]+$"
+            "pattern": "^(cloud-itonami|network-awai)/[A-Za-z0-9_.-]+$"
           },
           "commit": {
             "type": "string",
