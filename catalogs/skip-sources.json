@@ -12,6 +12,16 @@
       "repository": "cloud-itonami/app-itonami-org-unspsc",
       "reason": "UNSPSC の UNDP 許諾待ち（Legal、Owner bot）",
       "since": "2026-11-22"
+    },
+    {
+      "repository": "cloud-itonami/app-itonami-org-un-isic",
+      "reason": "国連の許諾待ち（ISIC・COFOG、Legal、Owner bot）",
+      "since": "2026-11-22"
+    },
+    {
+      "repository": "cloud-itonami/app-itonami-org-un-cofog",
+      "reason": "国連の許諾待ち（ISIC・COFOG、Legal、Owner bot）",
+      "since": "2026-11-22"
     }
   ]
 }
