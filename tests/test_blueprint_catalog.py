@@ -105,6 +105,32 @@ class OwnerAllowListTests(unittest.TestCase):
         import build_blueprint_catalog as b
         self.assertIsNone(b.entry('network-awai/app-yotei'))
 
+    def test_resolve_add_normalizes_retired_name(self):
+        # KOTOBA-159: --add with a retired transfer alias records the canonical name.
+        import build_blueprint_catalog as b
+        run = b.subprocess.run
+        b.subprocess.run = lambda *a, **k: type('P', (), {
+            'returncode': 0, 'stdout': 'cloud-itonami/app-itonami-market\n', 'stderr': ''})()
+        try:
+            self.assertEqual(b.resolve_repository('network-awai/app-itonami-market'),
+                             'cloud-itonami/app-itonami-market')
+        finally:
+            b.subprocess.run = run
+
+    def test_resolve_add_offline_table(self):
+        # without GitHub the checked-in retired-name table decides
+        import build_blueprint_catalog as b
+        run, sleep = b.subprocess.run, b.time.sleep
+        b.subprocess.run = lambda *a, **k: type('P', (), {'returncode': 1, 'stdout': '', 'stderr': 'offline'})()
+        b.time.sleep = lambda *a: None
+        try:
+            self.assertEqual(b.resolve_repository('network-awai/app-itonami-market'),
+                             'cloud-itonami/app-itonami-market')
+            self.assertEqual(b.resolve_repository('cloud-itonami/app-itonami-kaikei'),
+                             'cloud-itonami/app-itonami-kaikei')
+        finally:
+            b.subprocess.run, b.time.sleep = run, sleep
+
     def test_entry_shape_unchanged_for_cloud_itonami(self):
         # stubbed GitHub: a cloud-itonami entry has the same fields, in the same order, as the published ones
         import build_blueprint_catalog as b

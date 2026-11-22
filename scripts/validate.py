@@ -9,6 +9,7 @@ from referencing import Registry, Resource
 from build_index import ROOT, entries, frontmatter
 from profile_tree import allowed, tree_checksum
 from profile_status import load_declared
+import repo_redirects
 
 
 def read(path):
@@ -431,11 +432,16 @@ def validate_app_runtime(root):
     for repository, rec in doc['repositories'].items():
         if rec['basis'] not in doc['basis']:
             raise ValueError(f'Unknown app runtime basis: {repository}')
+    for repository in list(doc['repositories']) + sorted(baseline):
+        if repository in repo_redirects.RETIRED:
+            raise ValueError(f'Retired repository alias, use {repo_redirects.RETIRED[repository]} (KOTOBA-159): {repository}')
     entries = [('blueprint', e) for e in read(root / 'catalogs/blueprints.json')['entries']]
     pointers = root / 'catalogs/profile-pointers.json'
     if pointers.exists():
         entries += [('pointer', e) for e in read(pointers)['profiles']]
     for kind, e in entries:
+        if e.get('repository') in repo_redirects.RETIRED:
+            raise ValueError(f"Retired repository alias, use {repo_redirects.RETIRED[e['repository']]} (KOTOBA-159): {kind} {e['id']}")
         # A trusted-page-v1 app outside the 2026-11-22 baseline may be recorded (counted) but not listed.
         if app_runtime.fields(doc, e.get('repository'))['runtime'] == 'trusted-page-v1' and e.get('repository') not in baseline:
             raise ValueError(f"New trusted-page-v1 registration refused (KOTOBA-159): {kind} {e['id']} {e.get('repository')}")

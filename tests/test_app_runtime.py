@@ -73,6 +73,51 @@ class AppRuntimeTests(unittest.TestCase):
         self.assertEqual(len(trial), 20)
         self.assertTrue(all(doc['repositories'][r]['runtime'] == 'none' for r in trial))
 
+    def test_no_retired_repository_alias(self):
+        # KOTOBA-159: every catalog repository is the redirect-resolved name (gh api
+        # full_name + repo id, 2026-11-22). No retired transfer alias may come back.
+        import repo_redirects  # noqa: E402
+        doc = app_runtime.load(ROOT)
+        for repository in list(doc['repositories']) + doc['trustedPageV1Baseline']['repositories']:
+            self.assertNotIn(repository, repo_redirects.RETIRED, repository)
+        bp = json.loads((ROOT / 'catalogs/blueprints.json').read_text())['entries']
+        pp = json.loads((ROOT / 'catalogs/profile-pointers.json').read_text())['profiles']
+        for e in bp + pp:
+            self.assertNotIn(e['repository'], repo_redirects.RETIRED, e['id'])
+
+    def test_retired_alias_refused(self):
+        def add(d):
+            d['repositories']['network-awai/app-itonami-market'] = {
+                'runtime': 'trusted-page-v1', 'handlesUserDataOrExternalComms': 'unknown',
+                'basis': 'kotoba-159-evidence'}
+        self.edit('catalogs/app-runtime.json', add)
+        with self.assertRaises(ValueError):
+            validate_app_runtime(self.root)
+
+    def test_adserver_listed_under_canonical_name(self):
+        # cloud-itonami/app-itonami-adserver is a retired alias of the same repo id
+        # 1295986713; its profiles stay listed under network-awai/app-itonami-adserver.
+        doc = app_runtime.load(ROOT)
+        self.assertIn('network-awai/app-itonami-adserver', doc['trustedPageV1Baseline']['repositories'])
+        self.assertNotIn('cloud-itonami/app-itonami-adserver', doc['repositories'])
+        pp = json.loads((ROOT / 'catalogs/profile-pointers.json').read_text())['profiles']
+        adserver = [e for e in pp if e['repository'].endswith('app-itonami-adserver')]
+        self.assertEqual(len(adserver), 4)
+        self.assertTrue(all(e['repository'] == 'network-awai/app-itonami-adserver' for e in adserver))
+
+    def test_market_android_merged_not_deployed(self):
+        # KOTOBA-159 runtime-updates.tsv (2026-11-22): market-android is merged, not deployed.
+        doc = app_runtime.load(ROOT)
+        rec = doc['repositories']['cloud-itonami/app-itonami-market-android']
+        self.assertEqual(rec['status'], 'merged-not-deployed')
+
+    def test_unknown_status_refused(self):
+        def spoil(d):
+            d['repositories']['cloud-itonami/app-itonami-market-android']['status'] = 'live'
+        self.edit('catalogs/app-runtime.json', spoil)
+        with self.assertRaises(Exception):
+            validate_app_runtime(self.root)
+
 
 if __name__ == '__main__':
     unittest.main()
