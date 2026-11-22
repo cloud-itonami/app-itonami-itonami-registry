@@ -108,7 +108,7 @@
    "name-local": "北京市",
    "official-url": "https://www.beijing.gov.cn/",
    "wikidata": null,
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/chn-beijing"
   },
   {
@@ -118,7 +118,7 @@
    "name-local": "上海市",
    "official-url": "https://www.shanghai.gov.cn/",
    "wikidata": null,
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/chn-shanghai"
   },
   {
@@ -128,7 +128,7 @@
    "name-local": "深圳市",
    "official-url": "https://www.sz.gov.cn/",
    "wikidata": null,
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/chn-shenzhen"
   },
   {
@@ -158,7 +158,7 @@
    "name-local": null,
    "official-url": "https://praha.eu/",
    "wikidata": "Q1085",
-   "ordinances": 0,
+   "ordinances": 10,
    "dir": "references/municipality/cze-prague"
   },
   {
@@ -178,7 +178,7 @@
    "name-local": "Landeshauptstadt München",
    "official-url": "https://stadt.muenchen.de/",
    "wikidata": "Q1726",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/deu-munich"
   },
   {
@@ -218,7 +218,7 @@
    "name-local": "Ajuntament de Barcelona",
    "official-url": "https://www.barcelona.cat/",
    "wikidata": "Q1492",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/esp-barcelona"
   },
   {
@@ -258,7 +258,7 @@
    "name-local": "Ville de Marseille",
    "official-url": "https://www.marseille.fr/",
    "wikidata": "Q23482",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/fra-marseille"
   },
   {
@@ -338,7 +338,7 @@
    "name-local": "Comune di Firenze",
    "official-url": "https://www.comune.firenze.it/",
    "wikidata": "Q2044",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/ita-firenze"
   },
   {
@@ -348,7 +348,7 @@
    "name-local": "Comune di Milano",
    "official-url": "https://www.comune.milano.it/",
    "wikidata": "Q490",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/ita-milano"
   },
   {
@@ -358,7 +358,7 @@
    "name-local": "Comune di Napoli",
    "official-url": "https://www.comune.napoli.it/",
    "wikidata": "Q2634",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/ita-napoli"
   },
   {
@@ -378,7 +378,7 @@
    "name-local": "Comune di Venezia",
    "official-url": "https://www.comune.venezia.it/",
    "wikidata": "Q641",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/ita-venezia"
   },
   {
@@ -388,7 +388,7 @@
    "name-local": "京都市",
    "official-url": "https://www.city.kyoto.lg.jp/",
    "wikidata": "Q34600",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/jpn-kyoto"
   },
   {
@@ -398,7 +398,7 @@
    "name-local": "大阪市",
    "official-url": "https://www.city.osaka.lg.jp/",
    "wikidata": "Q35765",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/jpn-osaka"
   },
   {
@@ -498,7 +498,7 @@
    "name-local": null,
    "official-url": "https://mupa.gob.pa/",
    "wikidata": "Q3306",
-   "ordinances": 0,
+   "ordinances": 13,
    "dir": "references/municipality/pan-panama-city"
   },
   {
@@ -528,7 +528,7 @@
    "name-local": null,
    "official-url": "https://www.lisboa.pt/",
    "wikidata": "Q597",
-   "ordinances": 0,
+   "ordinances": 11,
    "dir": "references/municipality/prt-lisbon"
   },
   {
@@ -598,7 +598,7 @@
    "name-local": "City of New Orleans",
    "official-url": "https://nola.gov/",
    "wikidata": "Q34404",
-   "ordinances": 0,
+   "ordinances": 2,
    "dir": "references/municipality/usa-new-orleans"
   },
   {
