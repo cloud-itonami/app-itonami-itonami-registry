@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-21T20:29:21.668099Z",
+  "generated": "2026-11-22T01:50:22.157034Z",
   "count": 1364,
   "entries": [
     {
@@ -27604,7 +27604,7 @@
       "description": "Use when Itonami coordinates business, marketing, sales, brand, engineering, operations, or game work for aozora.app, x402.nexus, shinshi.club, oppai.fans, babiniku.net, yataverse.com, or murakumo.cloud.",
       "category": "operations",
       "path": "skills/operations/itonami-site-teams",
-      "checksum": "sha256:4eb5167dc08f51e1790b75e796f0c3ccf9588de8a26dfce226657a7a17f7a9a8"
+      "checksum": "sha256:c6b3d94360290bfa29729d194dde19261a833f784c6fb61943243d4be00276e7"
     },
     {
       "version": "0.1.1",
@@ -27748,7 +27748,7 @@
       "description": "Use when deploying or verifying the ipfs Worker planes, adding a mirror zone, building lake index pages / machine APIs on yataverse.com, or enumerating/probing public *.kotobase.net surfaces.",
       "category": "devops",
       "path": "skills/devops/kotobase-bytes-plane",
-      "checksum": "sha256:fc8c45246d391e8585966d4c3711b5b75f736e70a4ab708f2866e3112c90ccba"
+      "checksum": "sha256:295b040bb6136e10c96e6de6b223ea328aa1c2176ba87330262f66544ee609cc"
     },
     {
       "version": "0.1.0",
