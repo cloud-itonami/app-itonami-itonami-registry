@@ -184,6 +184,99 @@
           "sourceCommit": "56152bd15bd2d82f089333d6c610d7ee475aee2d"
         }
       ]
+    },
+    {
+      "repository": "network-awai/app-itonami-adserver",
+      "commit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+      "visibility": "public",
+      "reviewedOn": "2026-11-22",
+      "reviewBasis": "Targeted review: GitHub repository metadata confirms public visibility and the transfer rename resolves to this name with the same repository id 1295986713; the profile and skill folders were inspected for registration material. Targeted review, not an organization-wide survey.",
+      "registrations": [
+        {
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+          "entry": "profile/adnetwork-scout"
+        },
+        {
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+          "entry": "profile/adsk"
+        },
+        {
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+          "entry": "profile/adska"
+        },
+        {
+          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
+          "entry": "profile/murakumo-adnetwork"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-source-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-ontology-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-wikidata-class-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hyakka-sitelink-scout"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/awai-state-store-policy"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotobase-ldbc-qualification"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/hermes-fleet-cron-health"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/mail-relay-inbox-observation"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/murakumo-confidential-inference"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/murakumo-edge-ring"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotobase-bytes-plane"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/utsushi-jvmfree-bot"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kotoba-capability-extension"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/git-cleanup-conflict"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/kbb-config-and-classpath"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/tenken-declarative-config"
+        },
+        {
+          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+          "entry": "skill/oppai-producer-hourly"
+        }
+      ]
     }
   ]
 }

@@ -231,7 +231,7 @@ def validate(root=ROOT):
     if len(set(review_repos)) != len(review_repos):
         raise ValueError('Duplicate candidate review owner')
     for review in reviews['reviews']:
-        if review['repository'] not in repo_names:
+        if review['repository'] not in repo_names + targeted_names:
             raise ValueError('Non-public candidate review refused')
         if review['reviewedOn'] != reviews['reviewedOn']:
             raise ValueError('Candidate review date mismatch')

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generated": "2026-11-22T01:50:22.157034Z",
+  "generated": "2026-11-22T02:42:09.868255Z",
   "count": 1364,
   "entries": [
     {
@@ -23037,13 +23037,13 @@
       "version": "0.1.0",
       "description": "adnetwork 広告主情報を収集して Cloudflare R2 data catalog (Iceberg) に保存する bot",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adnetwork-scout",
-      "checksum": "sha256:f5d9cb1bb18bed352cf7e61d20f7b6309d46316f4e795d9cd207eddcfd9e6dc5",
+      "checksum": "sha256:84c499b7092b7b00f49203c26aa01d3a6c385ed0538a47d5f78b9f63a4a076fc",
       "profileChecksum": "sha256-tree:ec963f6ed2cc3f2b6a16b19e1256d39ae9c1db85c667127d99f13b3f0c72b7b0"
     },
     {
@@ -23053,13 +23053,13 @@
       "version": "0.1.0",
       "description": "adsk: adult ad-creative generation bot using murakumo.cloud image/video gen. Sizes, formats, compliance first; publishes artifact paths/URLs.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adsk",
-      "checksum": "sha256:9ead592e41b5ce6ef6c1a9987083bf42aa117f1cd2c612dce824f4eee333d091",
+      "checksum": "sha256:cbe78492ed4de3172989e82b94fbe08a6308325080d167b6fcc9a3af9a194cc0",
       "profileChecksum": "sha256-tree:15a191888723b8649980865c648fb15efe80d7b0cd0d4621218fb66b775826f2"
     },
     {
@@ -23069,13 +23069,13 @@
       "version": "0.1.0",
       "description": "adska: adult ad-operations bot. Campaign plans, budgets, placement compliance, measured CTR/CVR into the itonami ledger.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/adska",
-      "checksum": "sha256:6cc725ff641a3378d4388d247933f26f3b3c96943d2542f758b378e51a4aed94",
+      "checksum": "sha256:f6f7ef2e4d9ee019a6f2179b253675232417fda41b973a776b33dba54cbbb561",
       "profileChecksum": "sha256-tree:9cfdaa3750168582885ec2bc758074df1d5969f9f6c594f108adf1988b7e2f5c"
     },
     {
@@ -25565,13 +25565,13 @@
       "version": "0.1.0",
       "description": "murakumo.cloud ad network surface driver: measure the first-party ad network (adnet auction, /advertise intake, ads MCP, ad-funded free lane, x402 SDK) and propose one bounded improvement per tick. propose-only.",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/48a61dcb81291aac7d921a2c720dea897324ac97",
       "compatibility": {
         "hermes": "*",
         "itonami": "*"
       },
       "path": "profiles/murakumo-adnetwork",
-      "checksum": "sha256:e9960a886fa6e857709c07c2ed3ec4b7c1fdbbd25784319c447ba9a495b14b87",
+      "checksum": "sha256:2ebe70f55bb01128243be557be0432b860fabd2951505902a73d74a0761d1312",
       "profileChecksum": "sha256-tree:1418e65346a2cd8c61f7e68ecb281ece81c3ad3ed21b52689acf1d66ec72610d"
     },
     {
@@ -26873,7 +26873,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -26884,7 +26884,7 @@
       "description": "Use for network-awai worker configs; D1/DO/KV are banned",
       "category": "devops",
       "path": "skills/devops/awai-state-store-policy",
-      "checksum": "sha256:3214704fc7b81815cce88a73e9626b39eae2d53229deb6a5530269fdccbfc6bc"
+      "checksum": "sha256:ef7c065ff249b2d8076f534c9f9a98aa2afd85c976af2686122e5c04b3750ffa"
     },
     {
       "version": "0.1.0",
@@ -26921,7 +26921,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -26932,7 +26932,7 @@
       "description": "Use when cleaning up git stashes, branches, or worktrees.",
       "category": "software-development",
       "path": "skills/software-development/git-cleanup-conflict",
-      "checksum": "sha256:f99857d9aff7e54e083a21bb1a54de68a948d4d24f546fab09a3c54fb71f7c8a"
+      "checksum": "sha256:85e81c30c647d2ca8b3c1cf45936e6a1e7e6585050c600a277014505398045f5"
     },
     {
       "version": "0.1.0",
@@ -26953,7 +26953,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -26964,7 +26964,7 @@
       "description": "Use when auditing Hermes bot profiles or cron fleet health.",
       "category": "devops",
       "path": "skills/devops/hermes-fleet-cron-health",
-      "checksum": "sha256:902eb9fef3c16d598c3f347cf69bfc3cf819e756af68f0f1920ceb87509e303c"
+      "checksum": "sha256:dc1bc318c07146edfaf1a9fe56356e7d20897a29392607169dbab4889b764236"
     },
     {
       "version": "0.1.0",
@@ -26985,7 +26985,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -26996,12 +26996,12 @@
       "description": "Use when the hyakka ontology-scout run proposes properties.",
       "category": "research",
       "path": "skills/research/hyakka-ontology-scout",
-      "checksum": "sha256:5a3f26fe9fd4b4d2d4ba44dbbb9c7fd3bdefa5cbc7aec01194b596fae41cb4f4"
+      "checksum": "sha256:81eedcb399778301f0d41f696e85824ed1aeb2249bd28d866829ea9d047f0e0c"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27012,12 +27012,12 @@
       "description": "Use when the hyakka sitelink-scout run hits WDQS 502/504s.",
       "category": "research",
       "path": "skills/research/hyakka-sitelink-scout",
-      "checksum": "sha256:2ec2ae1544fa58f814c05e77e77fe102ce71e19f1138c241c76198fd77ef1f80"
+      "checksum": "sha256:d4aea296f67ad5dc06be1af5b71e236c58922bba01487d2fbdc9e439a883bd6b"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27028,12 +27028,12 @@
       "description": "Use when a hyakka source-scout run proposes new sources.",
       "category": "research",
       "path": "skills/research/hyakka-source-scout",
-      "checksum": "sha256:5dee73b5b56fee9f999787529433f8e9643880b0b6647fdb1aae6a76d30a6ce5"
+      "checksum": "sha256:89b837c93728040415d3e4f0c703db5eb988db31deb0836d477d886a1d0b2672"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27044,7 +27044,7 @@
       "description": "Use when the hyakka wikidata class-scout cron bot runs.",
       "category": "research",
       "path": "skills/research/hyakka-wikidata-class-scout",
-      "checksum": "sha256:a3ac2d93cf8e7ad58716ba80fb530843e429397ae60130eaea51545e3a06fca2"
+      "checksum": "sha256:e08367531aca69db8360eba0a3c8df1d7d4e5fe5e0978653e7b062eb2e2f2757"
     },
     {
       "version": "0.1.0",
@@ -27689,7 +27689,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27700,7 +27700,7 @@
       "description": "Use when kbb fails to resolve a namespace or deps.",
       "category": "software-development",
       "path": "skills/software-development/kbb-config-and-classpath",
-      "checksum": "sha256:8fd49420e0eed2b621c1a573b9b8af0a60b02ce825ac2341484d624ecce83a84"
+      "checksum": "sha256:7d309d6da086f6622098db68304e0e53ef07882762e953d5e49c07ae36e7c7fb"
     },
     {
       "version": "0.1.0",
@@ -27721,7 +27721,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27732,12 +27732,12 @@
       "description": "Use when adding a Kotoba host capability or kbb op.",
       "category": "software-development",
       "path": "skills/software-development/kotoba-capability-extension",
-      "checksum": "sha256:f0b3b687ebac676b1537fdf6d970f999010f00939a4ae01d55d4516297322362"
+      "checksum": "sha256:cbd2fa286e86950f0d176b3f7def24ce381bdc99156ee352fd7bdb33a165626d"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27748,12 +27748,12 @@
       "description": "Use when deploying or verifying the ipfs Worker planes, adding a mirror zone, building lake index pages / machine APIs on yataverse.com, or enumerating/probing public *.kotobase.net surfaces.",
       "category": "devops",
       "path": "skills/devops/kotobase-bytes-plane",
-      "checksum": "sha256:295b040bb6136e10c96e6de6b223ea328aa1c2176ba87330262f66544ee609cc"
+      "checksum": "sha256:ffe87839e8494f0e43738deaf9257b6f3b517f6bdf8f2c98d2c31a9da9001dd7"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27764,12 +27764,12 @@
       "description": "Use when resuming kotobase-ldbc LDBC qualification work.",
       "category": "devops",
       "path": "skills/devops/kotobase-ldbc-qualification",
-      "checksum": "sha256:e5e6bdfb4cfe59cca737e703f05c3680b465c8fe00b9df84e2da4d022fd752e4"
+      "checksum": "sha256:f86d8125adb74b8169c96abf03dc149b18e10023a89996a330ee0a80af64c94e"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27780,7 +27780,7 @@
       "description": "Use when observing relay.itonami.cloud inbox on cron ticks.",
       "category": "devops",
       "path": "skills/devops/mail-relay-inbox-observation",
-      "checksum": "sha256:f3c7c7f5b45370d97ca74fe40f792e3f6efd9e880188c35e7d07f8a6987b89d8"
+      "checksum": "sha256:4cf20862b3ae5e7e5068fae447e242cd0975e1bcced6fc8620db45ca8fc4ea07"
     },
     {
       "version": "0.1.0",
@@ -27801,7 +27801,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27812,12 +27812,12 @@
       "description": "Use when planning murakumo private inference (TEE/MPC/FHE).",
       "category": "devops",
       "path": "skills/devops/murakumo-confidential-inference",
-      "checksum": "sha256:dcedc516e22cd5ebbd40e99e579d695c28e7e984c0d7de284840585b6013dba0"
+      "checksum": "sha256:635712e9b05da681b72087dc60a959e25e5b15b7d7397872066be3534c6ecf95"
     },
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27828,7 +27828,7 @@
       "description": "Use when adding murakumo model ids or edge-ring nodes.",
       "category": "devops",
       "path": "skills/devops/murakumo-edge-ring",
-      "checksum": "sha256:287057be12883270ed32ee795c47ef89c377f90be6adf5cc9a9c7ab8b029b2a4"
+      "checksum": "sha256:f5e4580c1308203ed546c1c73ea7db370f4f9fda4e1f6bab79ec2ce7703bce42"
     },
     {
       "version": "0.1.0",
@@ -27849,7 +27849,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27860,7 +27860,7 @@
       "description": "Use when running the hourly oppai.fans Producer tick.",
       "category": "operations",
       "path": "skills/operations/oppai-producer-hourly",
-      "checksum": "sha256:4edb9ad9345abddfd3f9ea006663163e45b3250b855d2d706f3e88936488424a"
+      "checksum": "sha256:27af9c0d0dee80654488dc34bd8ba4b8a7eaa4038f770a3324b615986fb4323e"
     },
     {
       "version": "0.1.0",
@@ -27897,7 +27897,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27908,7 +27908,7 @@
       "description": "Extending tenken config-inspection lib or its policies.",
       "category": "software-development",
       "path": "skills/software-development/tenken-declarative-config",
-      "checksum": "sha256:e855197993611971120a248775e470296063b749bb321b9d6c25c081da6a9733"
+      "checksum": "sha256:27e02abf3db2fbccb630d4c5276cef3b32018d9d6fd44abfe79356b4377b9629"
     },
     {
       "version": "0.1.0",
@@ -27929,7 +27929,7 @@
     {
       "version": "0.1.0",
       "author": "cloud-itonami",
-      "source": "https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
+      "source": "https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "compatibility": {
         "hermes": "*",
         "desktop": "*"
@@ -27940,7 +27940,7 @@
       "description": "Use when extending the utsushi-maint JVM-free migration bot.",
       "category": "software-development",
       "path": "skills/software-development/utsushi-jvmfree-bot",
-      "checksum": "sha256:a683d1f6464d5ac9a81ea96c3f17393e5c1dc834a8c04b9ca4e54b33e46bee22"
+      "checksum": "sha256:2165729c5faf79b78633b0c72ebe7d3f4d861a16a26de2234d2f2e8db8ace083"
     },
     {
       "version": "0.1.0",

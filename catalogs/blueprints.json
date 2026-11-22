@@ -19740,7 +19740,7 @@
         "grants": false,
         "default": "blocked"
       },
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {

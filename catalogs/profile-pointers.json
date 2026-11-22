@@ -285,7 +285,7 @@
       "excluded": [
         "secrets.edn"
       ],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
@@ -1789,7 +1789,7 @@
       "sourceCommit": "ecebb0de6260300575da8c5c314893623aef92be",
       "files": 5,
       "excluded": [],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {

@@ -54,7 +54,7 @@
         "properties": {
           "repository": {
             "type": "string",
-            "pattern": "^(kotoba-lang|cloud-itonami)/[^/]+$"
+            "pattern": "^(kotoba-lang|cloud-itonami|network-awai)/[^/]+$"
           },
           "commit": {
             "type": "string",
