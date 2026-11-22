@@ -39,11 +39,11 @@
       "payloadSha256": "2eb5fc34f36ea97be8bd1f1f8dfb54eb133069d95131fc48792dfbd30208cdbc",
       "payloadBytes": 828670,
       "leaves": 13,
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
       "files": 52,
       "excluded": [],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
@@ -54,11 +54,11 @@
       "payloadSha256": "31adc4d1b80770cd269012bcf10cc2e8817c7c5eaf84cf41310f393e2032700f",
       "payloadBytes": 5382,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
       "files": 3,
       "excluded": [],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
@@ -69,11 +69,11 @@
       "payloadSha256": "d77c19133cdb99e4799da80b210eaaf55aa5ac00f40a43a0b2cebdd3cc2c553a",
       "payloadBytes": 5254,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
       "files": 3,
       "excluded": [],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {
@@ -2355,11 +2355,11 @@
       "payloadSha256": "bad365d0c7a2fb03bb373d1042abeef02e19b3bf0faabc42f141aad4dc690684",
       "payloadBytes": 17012,
       "leaves": 1,
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
       "files": 7,
       "excluded": [],
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown"
     },
     {

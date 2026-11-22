@@ -25,6 +25,7 @@ from pathlib import Path
 import skip_sources
 
 import app_runtime
+import repo_redirects
 
 ROOT = Path(__file__).resolve().parents[1]
 ORG = 'cloud-itonami'  # default owner for a bare --add NAME
@@ -95,6 +96,30 @@ def entry_id(owner, name):
     return f'blueprint/{stem}' if owner == ORG else f'blueprint/{owner}/{stem}'
 
 
+def resolve_repository(value):
+    """Redirect-resolved owner/name for a `--add` value (KOTOBA-159).
+
+    GitHub transfer renames keep serving the old name, so the live REST
+    `full_name` is the truth; when GitHub is unreachable the checked-in
+    retired-name table decides. A name that resolves elsewhere is normalized
+    to the canonical repository before anything is recorded.
+    """
+    owner, name = split_repository(value)
+    for attempt in range(4):
+        p = subprocess.run(['gh', 'api', f'repos/{owner}/{name}', '--jq', '.full_name'],
+                           capture_output=True, text=True)
+        if p.returncode == 0 and p.stdout.strip():
+            resolved = p.stdout.strip()
+            if resolved != f'{owner}/{name}':
+                print(f'normalized retired repository name {owner}/{name} to {resolved}', file=sys.stderr)
+            return resolved
+        time.sleep(2 + attempt * 2)
+    resolved = repo_redirects.canonical(f'{owner}/{name}')
+    if resolved != f'{owner}/{name}':
+        print(f'normalized retired repository name {owner}/{name} to {resolved} (offline table)', file=sys.stderr)
+    return resolved
+
+
 def entry(repository):
     owner, name = split_repository(repository)
     rt = app_runtime.fields(RUNTIME, f'{owner}/{name}')
@@ -156,7 +181,7 @@ def main():
     args = ap.parse_args()
     out = Path(args.out)
     prior = json.loads(out.read_text())['entries'] if out.exists() else []
-    names = sorted({e['repository'] for e in prior} | {'/'.join(split_repository(a)) for a in args.add},
+    names = sorted({e['repository'] for e in prior} | {resolve_repository(a) for a in args.add},
                    key=lambda r: (r.split('/', 1)[0] != ORG, r.split('/', 1)[1], r))
     skipped = skip_sources.load(ROOT)
     kept = {e['repository']: e for e in prior if e['repository'] in skipped}

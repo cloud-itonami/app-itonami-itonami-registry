@@ -6,7 +6,9 @@
   "required": ["schemaVersion", "observedOn", "note", "basis", "trustedPageV1Baseline", "repositories"],
   "$defs": {
     "runtime": {"enum": ["trusted-page-v1", "restricted-wasm-v1", "none", "unknown"]},
-    "handles": {"enum": [true, false, "unknown"]}
+    "handles": {"enum": [true, false, "unknown"]},
+    "status": {"enum": ["deployed", "merged-not-deployed"],
+      "description": "Migration result (KOTOBA-159): merged-not-deployed while the move off trusted-page-v1 is merged but not live; absent means deployed."}
   },
   "properties": {
     "schemaVersion": {"const": "itonami.app-runtime.v1"},
@@ -31,7 +33,8 @@
         "properties": {
           "runtime": {"$ref": "#/$defs/runtime"},
           "handlesUserDataOrExternalComms": {"$ref": "#/$defs/handles"},
-          "basis": {"type": "string", "minLength": 1}
+          "basis": {"type": "string", "minLength": 1},
+          "status": {"$ref": "#/$defs/status"}
         }
       }
     }
