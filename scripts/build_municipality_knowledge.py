@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """Build skills/knowledge/municipal-ordinance-knowledge and workflows/municipal-procedure-guide from
 catalogs/datasets/municipality.json (ADR 0018). Files are copied verbatim at their pinned commit and checked
-against the dataset catalog sha256. Nothing is executed."""
+against the dataset catalog sha256. Nothing is executed.
+
+    python scripts/build_municipality_knowledge.py                # fetch the pinned commits
+    python scripts/build_municipality_knowledge.py --from-copies  # rebuild from the copies already here
+"""
 import concurrent.futures as cf, hashlib, json, re, sys, time, urllib.request
+from collections.abc import Mapping
 from pathlib import Path
+
+import edn_format
 
 ROOT = Path(__file__).resolve().parents[1]
 SK = ROOT / 'skills/knowledge/municipal-ordinance-knowledge'
@@ -28,6 +35,41 @@ def kw(text, key):
     return m.group(1) if m else None
 
 
+def ordinance_count(text):
+    """How many ordinance records a datascript-tx.edn holds.
+
+    The archives are EDN vectors of `#:ordinance{...}` maps whose keys are not in a fixed order:
+    some start with `:id`, others with `:kind` or `:citation-control`. The records therefore have
+    to be read as EDN; a text search for `#:ordinance{:id` reports 0 for every archive that sorts
+    its keys differently (deu-munich and 15 others before this was fixed). A record is counted
+    when it carries `:ordinance/id`.
+    """
+    forms = edn_format.loads(text)
+    if isinstance(forms, Mapping):
+        forms = [forms]
+    return sum(1 for form in forms
+               if isinstance(form, Mapping) and edn_format.Keyword('ordinance/id') in form)
+
+
+def local_copies(entries):
+    """The already-copied archives, checked against the dataset catalog sha256.
+
+    The upstream municipality repositories are not all reachable any more (their archives were moved
+    into this registry in AWAI-3088), so a rebuild has to be able to run from the copies that are
+    already here. Each file is checked against catalogs/datasets/municipality.json before use.
+    """
+    data = {}
+    for e in entries:
+        mid = e['id'].split('/', 1)[1]
+        folder = SK / 'references/municipality' / mid
+        for p in e['payload']:
+            b = (folder / p['path'].split('/')[-1]).read_bytes()
+            if hashlib.sha256(b).hexdigest() != p['sha256']:
+                raise SystemExit(f"digest mismatch in copy: {mid}/{p['path']}")
+            data.setdefault(e['id'], {})[p['path']] = b
+    return data
+
+
 def main():
     entries = json.loads((ROOT / 'catalogs/datasets/municipality.json').read_text())['entries']
     jobs = [(e, p) for e in entries for p in e['payload']]
@@ -39,11 +81,15 @@ def main():
             raise SystemExit(f"digest mismatch: {e['id']}/{p['path']}")
         return e['id'], p['path'], b
 
-    with cf.ThreadPoolExecutor(8) as ex:
-        got = list(ex.map(get, jobs))
-    data = {}
-    for eid, path, b in got:
-        data.setdefault(eid, {})[path] = b
+    if '--from-copies' in sys.argv[1:]:
+        data = local_copies(entries)
+        got = [(eid, path, b) for eid, files in data.items() for path, b in files.items()]
+    else:
+        with cf.ThreadPoolExecutor(8) as ex:
+            got = list(ex.map(get, jobs))
+        data = {}
+        for eid, path, b in got:
+            data.setdefault(eid, {})[path] = b
     index, sources = [], []
     for e in entries:
         mid = e['id'].split('/', 1)[1]
@@ -56,7 +102,7 @@ def main():
         tx = data[e['id']].get('data/datascript-tx.edn', b'').decode('utf-8', 'replace')
         index.append({'id': mid, 'country': e['keys'].get('country'), 'name': e.get('name') or kw(org, 'name-en'), 'name-local': kw(org, 'name-local'),
                       'official-url': kw(org, 'official-url'), 'wikidata': kw(org, 'wikidata'),
-                      'ordinances': len(re.findall(r'#:ordinance\{:id\s', tx)), 'dir': f'references/municipality/{mid}'})
+                      'ordinances': ordinance_count(tx), 'dir': f'references/municipality/{mid}'})
         sources.append({'id': f"municipality-{mid}-{e['commit'][:8]}", 'repository': e['repository'], 'commit': e['commit'],
                         'files': sorted(({'path': p['path'], 'sha256': p['sha256'],
                                           'url': f"https://github.com/{e['repository']}/blob/{e['commit']}/{p['path']}"} for p in e['payload']),
