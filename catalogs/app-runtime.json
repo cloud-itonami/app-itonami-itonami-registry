@@ -13,6 +13,7 @@
   "trustedPageV1Baseline": {
     "since": "2026-11-22",
     "repositories": [
+      "cloud-itonami/app-itonami-arbitrage",
       "cloud-itonami/app-itonami-cloud-itonami-app",
       "cloud-itonami/app-itonami-cloud-itonami-cofog-03.2",
       "cloud-itonami/app-itonami-cloud-itonami-cofog-04.5",
@@ -834,6 +835,7 @@
       "cloud-itonami/app-itonami-cloud-itonami-unspsc-39",
       "cloud-itonami/app-itonami-cloud-itonami-unspsc-43",
       "cloud-itonami/app-itonami-cloud-itonami-unspsc-73",
+      "cloud-itonami/app-itonami-kaikei",
       "network-awai/app-itonami-adserver"
     ]
   },
@@ -994,9 +996,9 @@
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-arbitrage": {
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
-      "basis": "not-determined"
+      "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-asobi": {
       "runtime": "none",
@@ -7024,9 +7026,9 @@
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kaikei": {
-      "runtime": "unknown",
+      "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": "unknown",
-      "basis": "not-determined"
+      "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-kaisha": {
       "runtime": "trusted-page-v1",

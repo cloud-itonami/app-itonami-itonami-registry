@@ -105,6 +105,27 @@ class AppRuntimeTests(unittest.TestCase):
         self.assertEqual(len(adserver), 4)
         self.assertTrue(all(e['repository'] == 'network-awai/app-itonami-adserver' for e in adserver))
 
+    def test_kaikei_arbitrage_trusted_page(self):
+        # KOTOBA-159: arbitrage build.mjs:40 emits the kotoba.app.client-runtime.v1
+        # descriptor with profile trusted-page-v1 (IPC-only CSP); kaikei serves an
+        # inert no-send page (site/kaikei/page.cljk) validated as trusted-page-v1 in
+        # test/client-runtime-stage.mjs:18. Both were listed pre-cutoff, so the
+        # baseline keeps them listed; handles stay undetermined (section B).
+        import repo_redirects  # noqa: E402
+        doc = app_runtime.load(ROOT)
+        for repo in ['cloud-itonami/app-itonami-kaikei', 'cloud-itonami/app-itonami-arbitrage']:
+            self.assertEqual(doc['repositories'][repo]['runtime'], 'trusted-page-v1', repo)
+            self.assertEqual(doc['repositories'][repo]['basis'], 'kotoba-159-evidence', repo)
+            self.assertIn(repo, doc['trustedPageV1Baseline']['repositories'], repo)
+            self.assertNotIn(repo, repo_redirects.RETIRED, repo)
+        bp = {e['repository']: e for e in json.loads((ROOT / 'catalogs/blueprints.json').read_text())['entries']}
+        pp = json.loads((ROOT / 'catalogs/profile-pointers.json').read_text())['profiles']
+        self.assertEqual(bp['cloud-itonami/app-itonami-kaikei']['runtime'], 'trusted-page-v1')
+        listed = [e for e in pp if e['repository'] in
+                  ('cloud-itonami/app-itonami-kaikei', 'cloud-itonami/app-itonami-arbitrage')]
+        self.assertEqual(len(listed), 2)
+        self.assertTrue(all(e['runtime'] == 'trusted-page-v1' for e in listed))
+
     def test_market_android_merged_not_deployed(self):
         # KOTOBA-159 runtime-updates.tsv (2026-11-22): market-android is merged, not deployed.
         doc = app_runtime.load(ROOT)

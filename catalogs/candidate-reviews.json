@@ -11,7 +11,7 @@
   },
   "reviews": [
     {
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "commit": "9a0c9b1e08474d8bfe780120fef27f05f5a8953b",
       "reviewedOn": "2026-10-11",
       "scope": "Current public default tree, root documentation, relevant native entrypoints/tool definitions and selected operational skill contracts; no exhaustive runtime or security qualification.",
@@ -21,57 +21,57 @@
         {
           "path": "LICENSE",
           "sha256": "1307c32942ed46e1967ee7e1523ee8edd9d01bd085f4f504062262e45a35caae",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/LICENSE"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/LICENSE"
         },
         {
           "path": "README.md",
           "sha256": "6365d88ec9bab6e0f578ad6897c8c7e5117bcaa49cb0a7e76239caae5c001ef7",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/README.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/README.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md",
           "sha256": "81f7b4ccf59a0a0bdb6138bbacf50df1ec233ce579a8666e29f394aa980336a6",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
           "sha256": "828a9fb51b725dff6c899b44c4ff3910fa64cf8f0c74414cf5d1085a3cf28456",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
           "sha256": "22318e3d73b5ea38ddc57f2f623aeec7edf16350ca499930a2c4f1b4624d4f47",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
           "sha256": "b0ef51960efb612c38999ddc0f7b70ddd84e867c4a05937c188239d2a9513817",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md",
           "sha256": "4dd5f8d222468bb57f2494c6d4ba2a295f4c5fbcc8ad2c8d3341591770562733",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md",
           "sha256": "ba6337a3596d414127dcb3642c024317d38030ed7596876a8575190651ec6707",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md"
         },
         {
           "path": "hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md",
           "sha256": "334bf42c81a813a4794e46d1316a5649a5ecd77e5f7038213a9a24ce56fac819",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md"
         },
         {
           "path": "nbb.edn",
           "sha256": "6074756ee422647402697a68dac1828e6ea273ccc449e23eb4169d2030ad4d54",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/nbb.edn"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/nbb.edn"
         },
         {
           "path": "package.json",
           "sha256": "2eb3bf57dd66b91af7f49383cf77d62dbd5f55d8f74a1179b986a03ea660cf94",
-          "url": "https://github.com/cloud-itonami/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/package.json"
+          "url": "https://github.com/network-awai/app-itonami-adserver/blob/9a0c9b1e08474d8bfe780120fef27f05f5a8953b/package.json"
         }
       ],
       "liveOperations": false,

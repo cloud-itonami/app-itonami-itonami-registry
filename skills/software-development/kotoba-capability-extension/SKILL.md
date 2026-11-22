@@ -5,7 +5,7 @@ metadata:
   hermes:
     version: 0.1.0
     author: cloud-itonami
-    source: https://github.com/cloud-itonami/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d
+    source: https://github.com/network-awai/app-itonami-adserver/tree/aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d
     compatibility:
       hermes: '*'
       desktop: '*'

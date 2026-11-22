@@ -25,16 +25,16 @@
       }
     },
     "cloud-itonami": {
-      "totalRepositories": 1940,
-      "publicRepositories": 1878,
+      "totalRepositories": 1939,
+      "publicRepositories": 1877,
       "privateRepositoriesOmitted": 62,
       "scanStatus": {
-        "recursive-tree-scanned": 1878
+        "recursive-tree-scanned": 1877
       },
       "dispositions": {
         "no-selected-registry-marker": 1122,
         "upstream-or-archived-reference": 17,
-        "deferred-source-contract": 10,
+        "deferred-source-contract": 9,
         "profile-or-domain-instance-retained": 714,
         "curated-reference-added": 14,
         "registry-owner": 1
@@ -478,143 +478,6 @@
       "disposition": "upstream-or-archived-reference",
       "reason": "No bulk import of upstream or archived operational skills.",
       "registrations": []
-    },
-    {
-      "repository": "cloud-itonami/app-itonami-adserver",
-      "defaultBranch": "main",
-      "commit": "9a0c9b1e08474d8bfe780120fef27f05f5a8953b",
-      "archived": false,
-      "fork": false,
-      "scanBasis": "github-recursive-default-tree",
-      "scanStatus": "recursive-tree-scanned",
-      "markers": {
-        "blueprint": false,
-        "physics": false
-      },
-      "candidates": {
-        "skills": [
-          "hermes/profiles/adnetwork-scout/skills/awai-state-store-policy/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/git-cleanup-conflict/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/git-operations/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/hermes-fleet-cron-health/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-ontology-scout/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-source-scout/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/hyakka-sitelink-scout/hyakka-wikidata-class-scout/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/itonami-business-bots/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/java-kotoba-migration/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/kbb-config-and-classpath/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/kbb-test-suite-fix/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/kotoba-capability-extension/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/kotobase-bytes-plane/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/kotobase-ldbc-qualification/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/mail-relay-inbox-observation/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/murakumo-confidential-inference/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/murakumo-edge-ring/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/nbb-to-kbb-migration/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/oppai-producer-hourly/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/tenken-declarative-config/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/transport-evidence-bot/SKILL.md",
-          "hermes/profiles/adnetwork-scout/skills/utsushi-jvmfree-bot/SKILL.md"
-        ],
-        "profiles": [
-          "hermes/profiles/adnetwork-scout/SOUL.md",
-          "hermes/profiles/adsk/SOUL.md",
-          "hermes/profiles/adska/SOUL.md",
-          "hermes/profiles/murakumo-adnetwork/SOUL.md"
-        ],
-        "mcp": [],
-        "plugins": [],
-        "toolContracts": []
-      },
-      "disposition": "deferred-source-contract",
-      "reason": "Reviewed 2026-10-11 at 9a0c9b1e08474d8bfe780120fef27f05f5a8953b: Repeated operational skill bundle or language migration procedure. Route reusable Itonami portions through existing/new canonical registry entries; general migration and forest maintenance keep their own owner. Historical commands, resets, measured constants and private account details are not copied.",
-      "registrations": [
-        {
-          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
-          "entry": "profile/adnetwork-scout"
-        },
-        {
-          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
-          "entry": "profile/adsk"
-        },
-        {
-          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
-          "entry": "profile/adska"
-        },
-        {
-          "sourceCommit": "48a61dcb81291aac7d921a2c720dea897324ac97",
-          "entry": "profile/murakumo-adnetwork"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/hyakka-source-scout"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/hyakka-ontology-scout"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/hyakka-wikidata-class-scout"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/hyakka-sitelink-scout"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/awai-state-store-policy"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/kotobase-ldbc-qualification"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/hermes-fleet-cron-health"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/mail-relay-inbox-observation"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/murakumo-confidential-inference"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/murakumo-edge-ring"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/kotobase-bytes-plane"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/utsushi-jvmfree-bot"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/kotoba-capability-extension"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/git-cleanup-conflict"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/kbb-config-and-classpath"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/tenken-declarative-config"
-        },
-        {
-          "sourceCommit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
-          "entry": "skill/oppai-producer-hourly"
-        }
-      ]
     },
     {
       "repository": "cloud-itonami/ai-kaisya",
