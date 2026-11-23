@@ -133,7 +133,7 @@
     },
     {
       "id": "app/adserver",
-      "repository": "cloud-itonami/app-itonami-adserver",
+      "repository": "network-awai/app-itonami-adserver",
       "commit": "aeb5f9bffa5242a723862ebfc6e4e9bd00d4bf6d",
       "visibility": "public",
       "archived": false,
@@ -5160,7 +5160,7 @@
     },
     {
       "id": "app/kotobase-storage-d1",
-      "repository": "cloud-itonami/app-itonami-kotobase-storage-d1",
+      "repository": "network-awai/app-itonami-kotobase-storage-d1",
       "commit": "ee0513387cbd251cc195f4e0fff06c9c53f4e449",
       "visibility": "public",
       "archived": false,
@@ -9595,7 +9595,7 @@
     },
     {
       "id": "app/yataverse",
-      "repository": "cloud-itonami/app-itonami-yataverse",
+      "repository": "network-awai/app-itonami-yataverse",
       "commit": "f1dfca16f9af665f455cd774c19d7429fe72e209",
       "visibility": "public",
       "archived": false,
