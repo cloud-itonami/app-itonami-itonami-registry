@@ -526,6 +526,8 @@ def validate_apps(root):
         raise ValueError('App catalog count mismatch')
     ids, repos = set(), set()
     for e in doc['entries']:
+        if e.get('repository') in repo_redirects.RETIRED:
+            raise ValueError(f"Retired repository alias, use {repo_redirects.RETIRED[e['repository']]} (KOTOBA-159): app {e['id']}")
         if e['id'] in ids or e['repository'] in repos:
             raise ValueError(f"Duplicate app entry: {e['id']}")
         ids.add(e['id'])

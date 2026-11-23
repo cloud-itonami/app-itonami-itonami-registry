@@ -5,7 +5,9 @@ Reads each member repository's default-branch commit, visibility and license fro
 (read-only GraphQL) and hashes a fixed identity-file list from that pinned commit over
 raw.githubusercontent.com. Copies no repository content and executes nothing from the
 repositories. Membership is a reviewed declaration kept in the catalog itself: a refresh keeps
-the repositories already listed; `--add NAME` lists a new one.
+the repositories already listed; `--add NAME` lists a new one. Repository names are the
+redirect-resolved canonical owner/name (repo_redirects.canonical, KOTOBA-159): `--add`
+takes a bare name under the default owner and is canonicalized.
 
     build_app_catalog.py [--add NAME ...] [--observed-on YYYY-MM-DD] [--out catalogs/apps.json]
 """
@@ -22,6 +24,7 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+import repo_redirects
 import skip_sources
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,20 +37,21 @@ PAYLOAD = ['README.md', 'AGENTS.md', 'LICENSE', 'NOTICE', 'MATURITY.md', 'manife
 STEM_PREFIX = re.compile(r'^(app-itonami-)')
 
 
-def gh_repo(name):
+def gh_repo(repository):
+    owner, name = repository.split('/', 1)
     q = ('query($o:String!,$n:String!){repository(owner:$o,name:$n){visibility isArchived isFork '
          'licenseInfo{spdxId} defaultBranchRef{target{... on Commit{oid}}}}}')
     for attempt in range(5):
-        p = subprocess.run(['gh', 'api', 'graphql', '-f', f'query={q}', '-f', f'o={ORG}', '-f', f'n={name}'],
+        p = subprocess.run(['gh', 'api', 'graphql', '-f', f'query={q}', '-f', f'o={owner}', '-f', f'n={name}'],
                            capture_output=True, text=True)
         if p.returncode == 0:
             return json.loads(p.stdout)['data']['repository']
         time.sleep(2 + attempt * 2)
-    raise SystemExit(f'GitHub lookup failed: {name}\n{p.stderr[:200]}')
+    raise SystemExit(f'GitHub lookup failed: {repository}\n{p.stderr[:200]}')
 
 
-def raw(name, commit, path):
-    url = f'https://raw.githubusercontent.com/{ORG}/{name}/{commit}/{path}'
+def raw(repository, commit, path):
+    url = f'https://raw.githubusercontent.com/{repository}/{commit}/{path}'
     for attempt in range(4):
         try:
             return urllib.request.urlopen(url, timeout=30).read()
@@ -60,15 +64,16 @@ def raw(name, commit, path):
     raise SystemExit(f'fetch failed: {url}')
 
 
-def entry(name):
-    meta = gh_repo(name)
+def entry(repository):
+    repository = repo_redirects.canonical(repository)
+    meta = gh_repo(repository)
     if meta['visibility'] != 'PUBLIC' or meta['isFork']:
-        print(f'skipped (not a public non-fork repository): {name}', file=sys.stderr)
+        print(f'skipped (not a public non-fork repository): {repository}', file=sys.stderr)
         return None
     commit = meta['defaultBranchRef']['target']['oid']
     payload = []
     for path in PAYLOAD:
-        body = raw(name, commit, path)
+        body = raw(repository, commit, path)
         if body is None:
             continue
         payload.append({'path': path, 'sha256': hashlib.sha256(body).hexdigest()})
@@ -83,10 +88,10 @@ def entry(name):
         kind = 'clj-app'
     else:
         kind = 'other'
-    keys = {'app': STEM_PREFIX.sub('', name)}
+    keys = {'app': STEM_PREFIX.sub('', repository.split('/', 1)[1])}
     return {
-        'id': 'app/' + STEM_PREFIX.sub('', name),
-        'repository': f'{ORG}/{name}',
+        'id': 'app/' + keys['app'],
+        'repository': repository,
         'commit': commit,
         'visibility': 'public',
         'archived': bool(meta['isArchived']),
@@ -108,15 +113,18 @@ def main():
     args = ap.parse_args()
     out = Path(args.out)
     prior = json.loads(out.read_text())['entries'] if out.exists() else []
-    names = sorted({e['repository'].split('/', 1)[1] for e in prior} | set(args.add))
+    names = sorted({repo_redirects.canonical(e['repository']) for e in prior} |
+                   {repo_redirects.canonical(f'{ORG}/{n}') for n in args.add})
     skipped = skip_sources.load(ROOT)
     kept = {e['repository']: e for e in prior if e['repository'] in skipped}
     for repository in sorted(kept):
         print(skip_sources.note(repository, skipped[repository], 'refresh; entry kept unchanged'), file=sys.stderr)
-    fetch = [n for n in names if f'{ORG}/{n}' not in skipped]
+    kept = {repo_redirects.canonical(e['repository']):
+            dict(e, repository=repo_redirects.canonical(e['repository'])) for e in kept.values()}
+    fetch = [r for r in names if r not in skipped]
     with cf.ThreadPoolExecutor(6) as ex:
         built = dict(zip(fetch, ex.map(entry, fetch)))
-    entries = [e for e in (kept.get(f'{ORG}/{n}') or built.get(n) for n in names) if e]
+    entries = [e for e in (kept.get(r) or built.get(r) for r in names) if e]
     doc = {'schemaVersion': SCHEMA_VERSION, 'observedOn': args.observed_on, 'method': METHOD,
            'count': len(entries), 'entries': entries}
     out.write_text(json.dumps(doc, indent=2, ensure_ascii=False) + '\n')
