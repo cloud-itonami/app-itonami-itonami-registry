@@ -8,8 +8,7 @@
     "jun-1439-trial-review": "JUN-1439 trial: the repository declares no Kotoba client runtime (no kotoba.app.client-runtime / trusted-page-v1 / restricted-wasm-v1 in the tree) and has no app/. Appviews that relay XRPC to an MCP router are marked as external communication.",
     "not-determined": "No evidence read yet.",
     "jun-1439-batch-review": "JUN-1439 batch registration: runtime read from the tree at the blueprint.edn PR (trusted-page-v1 / restricted-wasm-v1 when the tree declares it; none when it declares neither and has no app/; unknown when app/ exists without a declaration). Data and communication handling not assessed per repository.",
-    "series-package-runtime": "JUN-1407 series app whose app/package.json itonami.runtime selects the profile build.mjs emits (here restricted-wasm-v1, KOTOBA-159 kotoba-lang/kotoba#1367); read at HEAD 2026-11-22. Data and communication handling as for the template (no user data, IPC-only CSP), not re-checked per repository.",
-    "isco-scaffold-readonly": "ISCO major-group scaffold app (AWAI-3332, merged 2026-11-22..25): app/src/guest.js declares restricted-wasm-v1 guest mounted in an opaque-origin sandbox (allow-scripts, connect-src none); no network, no localStorage, memory-only state. Runtime and handles read read-only via gh api on 2026-11-27; deploy state unverified (no status recorded)."
+    "series-package-runtime": "JUN-1407 series app whose app/package.json itonami.runtime selects the profile build.mjs emits (here restricted-wasm-v1, KOTOBA-159 kotoba-lang/kotoba#1367); read at HEAD 2026-11-22. Data and communication handling as for the template (no user data, IPC-only CSP), not re-checked per repository."
   },
   "trustedPageV1Baseline": {
     "since": "2026-11-22",
@@ -1226,11 +1225,6 @@
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
     },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-1": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
-    },
     "cloud-itonami/app-itonami-cloud-itonami-isco-1111": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
@@ -1370,11 +1364,6 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
-    },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-2": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isco-2111": {
       "runtime": "trusted-page-v1",
@@ -1655,11 +1644,6 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
-    },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-3": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isco-3111": {
       "runtime": "trusted-page-v1",
@@ -1956,11 +1940,6 @@
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
     },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-4": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
-    },
     "cloud-itonami/app-itonami-cloud-itonami-isco-4110": {
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
@@ -2105,11 +2084,6 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
-    },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-5": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isco-5120": {
       "runtime": "trusted-page-v1",
@@ -2280,11 +2254,6 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
-    },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-7": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isco-7111": {
       "runtime": "trusted-page-v1",
@@ -2615,11 +2584,6 @@
       "runtime": "trusted-page-v1",
       "handlesUserDataOrExternalComms": false,
       "basis": "series-template"
-    },
-    "cloud-itonami/app-itonami-cloud-itonami-isco-8": {
-      "runtime": "restricted-wasm-v1",
-      "handlesUserDataOrExternalComms": false,
-      "basis": "isco-scaffold-readonly"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isco-8111": {
       "runtime": "trusted-page-v1",
