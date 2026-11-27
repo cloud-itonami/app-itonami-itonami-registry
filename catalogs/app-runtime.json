@@ -1,6 +1,6 @@
 {
   "schemaVersion": "itonami.app-runtime.v1",
-  "observedOn": "2026-11-22",
+  "observedOn": "2026-11-27",
   "note": "Client runtime of the app in each registered repository (KOTOBA-159), and whether that app handles user data or external communication. Registry entries copy these two fields. trusted-page-v1 is accepted only for repositories in trustedPageV1Baseline (registered before 2026-11-22); a new registration with trusted-page-v1 is refused; such an app may still be recorded here for counting.",
   "basis": {
     "series-template": "JUN-1407 series Tauri app from the template build.mjs (kotoba.app.client-runtime.v1 profile trusted-page-v1), listed in KOTOBA-159 evidence trusted-page-v1-apps-20261122 section A. Template app (62f7ac2): localStorage holds only the selected tab; CSP connect-src is IPC only, so no user data and no outbound communication. Per-repository divergence from the template is not checked.",
@@ -847,7 +847,7 @@
     },
     "cloud-itonami/app-itonami-abaki": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-aburi": {
@@ -867,7 +867,7 @@
     },
     "cloud-itonami/app-itonami-agent-trace": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-aidesk": {
@@ -997,7 +997,7 @@
     },
     "cloud-itonami/app-itonami-arbitrage": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-asobi": {
@@ -1047,7 +1047,7 @@
     },
     "cloud-itonami/app-itonami-bunsho": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-business-edge": {
@@ -1092,7 +1092,7 @@
     },
     "cloud-itonami/app-itonami-classifieds": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-cloud-itonami-apex": {
@@ -1107,7 +1107,7 @@
     },
     "cloud-itonami/app-itonami-cloud-itonami-app": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-cloud-itonami-card-issuing": {
@@ -4602,7 +4602,7 @@
     },
     "cloud-itonami/app-itonami-cloud-itonami-isic-6810": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": false,
+      "handlesUserDataOrExternalComms": true,
       "basis": "series-template"
     },
     "cloud-itonami/app-itonami-cloud-itonami-isic-6820": {
@@ -6647,7 +6647,7 @@
     },
     "cloud-itonami/app-itonami-explorer": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-fixtures": {
@@ -6767,7 +6767,7 @@
     },
     "cloud-itonami/app-itonami-hakkou": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-hakobi": {
@@ -6817,7 +6817,7 @@
     },
     "cloud-itonami/app-itonami-hibiki": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-himotoki": {
@@ -6837,7 +6837,7 @@
     },
     "cloud-itonami/app-itonami-hirameki-etz": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-hokorobi": {
@@ -6872,7 +6872,7 @@
     },
     "cloud-itonami/app-itonami-hyokeisan": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-ibuki": {
@@ -6882,7 +6882,7 @@
     },
     "cloud-itonami/app-itonami-icc": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-image2metahuman": {
@@ -6987,7 +6987,7 @@
     },
     "cloud-itonami/app-itonami-kabi": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kabuto-actor": {
@@ -7022,7 +7022,7 @@
     },
     "cloud-itonami/app-itonami-kaigo": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kaikei": {
@@ -7032,7 +7032,7 @@
     },
     "cloud-itonami/app-itonami-kaisha": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kaisya": {
@@ -7067,7 +7067,7 @@
     },
     "cloud-itonami/app-itonami-karute": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kasa": {
@@ -7132,12 +7132,12 @@
     },
     "cloud-itonami/app-itonami-ki": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kinoko": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kintai": {
@@ -7147,7 +7147,7 @@
     },
     "cloud-itonami/app-itonami-kiyome": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kizashi": {
@@ -7162,12 +7162,12 @@
     },
     "cloud-itonami/app-itonami-kobo": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-koke": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-kosatsu": {
@@ -7187,7 +7187,7 @@
     },
     "cloud-itonami/app-itonami-kumade": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-kumi": {
@@ -7257,7 +7257,7 @@
     },
     "cloud-itonami/app-itonami-live": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-local-itonami": {
@@ -7307,7 +7307,7 @@
     },
     "cloud-itonami/app-itonami-manabi-cert-prep": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-manako": {
@@ -7327,17 +7327,18 @@
     },
     "cloud-itonami/app-itonami-maps": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-market": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
-      "basis": "jun-1439-batch-review"
+      "handlesUserDataOrExternalComms": true,
+      "basis": "jun-1439-batch-review",
+      "status": "merged-not-deployed"
     },
     "cloud-itonami/app-itonami-market-android": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review",
       "status": "merged-not-deployed"
     },
@@ -7368,7 +7369,7 @@
     },
     "cloud-itonami/app-itonami-minori": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-minpaku": {
@@ -7403,7 +7404,7 @@
     },
     "cloud-itonami/app-itonami-mold-allergy": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-mortgage-registry": {
@@ -7423,7 +7424,7 @@
     },
     "cloud-itonami/app-itonami-nagare": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-narashi": {
@@ -7483,7 +7484,7 @@
     },
     "cloud-itonami/app-itonami-omikuji": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-ongakuka": {
@@ -7518,7 +7519,7 @@
     },
     "cloud-itonami/app-itonami-open-ossekai": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-open-ot": {
@@ -7563,7 +7564,7 @@
     },
     "cloud-itonami/app-itonami-organism-viz": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-ossekai": {
@@ -7573,7 +7574,7 @@
     },
     "cloud-itonami/app-itonami-otakiage": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-otent": {
@@ -7668,7 +7669,7 @@
     },
     "cloud-itonami/app-itonami-reuse": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-rirekisho": {
@@ -7678,7 +7679,7 @@
     },
     "cloud-itonami/app-itonami-rodo": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-roukisho": {
@@ -7693,7 +7694,7 @@
     },
     "cloud-itonami/app-itonami-saikin": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-sanae": {
@@ -7733,7 +7734,7 @@
     },
     "cloud-itonami/app-itonami-seibutsu": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-seigen-cue": {
@@ -7773,7 +7774,7 @@
     },
     "cloud-itonami/app-itonami-shinka": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-shinshi-growth": {
@@ -7888,7 +7889,7 @@
     },
     "cloud-itonami/app-itonami-tawami": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-tehai": {
@@ -7913,17 +7914,17 @@
     },
     "cloud-itonami/app-itonami-tomoshibi": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-torifune": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-torihiki": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-torihiki-node": {
@@ -7963,7 +7964,7 @@
     },
     "cloud-itonami/app-itonami-tsumugi": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-tsuzuri": {
@@ -7988,7 +7989,7 @@
     },
     "cloud-itonami/app-itonami-umisachi": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "cloud-itonami/app-itonami-utsushi": {
@@ -8013,7 +8014,7 @@
     },
     "cloud-itonami/app-itonami-wakai": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-warehouse": {
@@ -8078,7 +8079,7 @@
     },
     "cloud-itonami/app-itonami-yudane": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/app-itonami-yui": {
@@ -8098,7 +8099,7 @@
     },
     "cloud-itonami/app-itonami-zuhyo": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "cloud-itonami/itonami-agent": {
@@ -8228,7 +8229,7 @@
     },
     "network-awai/app-drive": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "network-awai/app-files": {
@@ -8243,7 +8244,7 @@
     },
     "network-awai/app-itonami-adserver": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "network-awai/app-itonami-kotobase-storage-d1": {
@@ -8253,12 +8254,12 @@
     },
     "network-awai/app-itonami-yataverse": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "jun-1439-batch-review"
     },
     "network-awai/app-kagitaba": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "network-awai/app-kami": {
@@ -8268,7 +8269,7 @@
     },
     "network-awai/app-kekkai": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "network-awai/app-kernel-author": {
@@ -8343,7 +8344,7 @@
     },
     "network-awai/app-soshiki": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "network-awai/app-tatara": {
@@ -8368,7 +8369,7 @@
     },
     "network-awai/app-yotei": {
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown",
+      "handlesUserDataOrExternalComms": true,
       "basis": "kotoba-159-evidence"
     },
     "network-awai/awai-os": {

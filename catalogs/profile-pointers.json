@@ -44,7 +44,7 @@
       "files": 52,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "adsk",
@@ -59,7 +59,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "adska",
@@ -74,7 +74,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "aiueos-cfree",
@@ -286,7 +286,7 @@
         "secrets.edn"
       ],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "awai-op-approver",
@@ -496,7 +496,7 @@
       "files": 4,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "compute-energy-watch",
@@ -991,7 +991,7 @@
       "files": 67,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-ad-operator",
@@ -1008,7 +1008,7 @@
         "secrets.edn"
       ],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-anatomy-fascia",
@@ -1053,7 +1053,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-darkweb-intel",
@@ -1083,7 +1083,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-eng",
@@ -1098,7 +1098,7 @@
       "files": 5,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-hermes-bridge",
@@ -1113,7 +1113,7 @@
       "files": 5,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-isco-1",
@@ -1563,7 +1563,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-mktg",
@@ -1578,7 +1578,7 @@
       "files": 50,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-po",
@@ -1593,7 +1593,7 @@
       "files": 4,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-publish-gate",
@@ -1608,7 +1608,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-qa",
@@ -1623,7 +1623,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-sales",
@@ -1638,7 +1638,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-sales-agent",
@@ -1655,7 +1655,7 @@
         "secrets.edn"
       ],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-souji",
@@ -1685,7 +1685,7 @@
       "files": 3,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-winfix",
@@ -1700,7 +1700,7 @@
       "files": 4,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "itonami-winfix-qa",
@@ -1715,7 +1715,7 @@
       "files": 4,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "jv-migration",
@@ -2360,7 +2360,7 @@
       "files": 7,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "murakumo-infer-maturity",
@@ -12397,7 +12397,7 @@
         "secrets.edn"
       ],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": false
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "physai-isic-6820",
@@ -14091,7 +14091,7 @@
       "files": 5,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "qwen38-cyber",
@@ -14136,7 +14136,7 @@
       "files": 5,
       "excluded": [],
       "runtime": "trusted-page-v1",
-      "handlesUserDataOrExternalComms": "unknown"
+      "handlesUserDataOrExternalComms": true
     },
     {
       "id": "research",
